@@ -2,11 +2,11 @@
 
 ## Background
 
-[CAMENA (Corpus Automatum Multiplex Electorum Neolatinitatis Auctorum)](http://www.uni-mannheim.de/mateo/camenahtdocs/camena_e.html), a [DFG-funded](http://www.dfg.de/) research project carried out at the German Department of Heidelberg University Chair of German Literature (Modern Period), in cooperation with the Information Technology Center and the Library of the University of Mannheim, and led by [Prof. Dr. Wilhelm Kühlmann](http://www.gs.uni-heidelberg.de/personen/kuehlmann.html), was active from 1999 to 2013; its *spiritus movens* was Wolfgang Schibel, and the team included also Reinhard Gruhl, Emir Zuljevic, and Heinz Kredel.
+[CAMENA (Corpus Automatum Multiplex Electorum Neolatinitatis Auctorum)](http://www.uni-mannheim.de/mateo/camenahtdocs/camena_e.html), a [DFG-funded](http://www.dfg.de/) research project carried out at the German Department of Heidelberg University Chair of German Literature (Modern Period), in cooperation with the Information Technology Center and the Library of the University of Mannheim, and led by [Prof. Dr. Wilhelm Kühlmann](http://www.gs.uni-heidelberg.de/personen/kuehlmann.html), was active from 1999 to 2013; we particularly thank the *spiritus movens* of Wolfgang Schibel, as well as Reinhard Gruhl, Emir Zuljevic, Heinz Kredel, and other members of the team.
 
 In our opinion, CAMENA was one of the most important Neo-Latin digital initiatives. Since its machine-readable texts were made available under the [Creative Commons Attribution / Share Alike license](LICENSE.md), here we are republishing the XML files of all the CAMENA collections as a Github repository, with all the caveats of the original project regarding citing and reliability, and with the intent to enable further digital experiments with CAMENA Neo-Latin material.
 
-Sincere gratitude goes to people involved in CAMENA for all their efforts, and for making this possible. *Sumus nani gigantum humeris insidentes.*
+Sincere gratitude goes to colleagues involved in CAMENA for all their efforts, and for making this possible. *Sumus nani gigantum humeris insidentes.*
 
 ## Contents
 
