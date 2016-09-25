@@ -30,6 +30,9 @@ The CAMENA files are now under version control, and all changes and corrections 
 
 ## Contact
 
-The archiving of the CAMENA XML files in Github repository was done by [Neven Jovanović](orcid.org/0000-0002-9119-399X), Department of Classical Philology, Faculty of Humanities and Social Sciences, 
-University of Zagreb, in April and September 2016.
+The archiving of the CAMENA XML files in Github repository was done in
+April and September 2016 by
+[Neven Jovanović](orcid.org/0000-0002-9119-399X), Department of
+Classical Philology, Faculty of Humanities and Social Sciences,
+University of Zagreb.
 
