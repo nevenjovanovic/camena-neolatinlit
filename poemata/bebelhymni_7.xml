@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Liber hymnorum in metra noviter Redactorum. [...]</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Bebel" TEIform="author">Bebel, Heinrich</author>
+<editor TEIform="editor" role="editor">Bebel, Heinrich</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, April 2004</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Niehl</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/bebel3" type="href" id="bebel3" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">bebel3</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">bebelhymni.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">bebelhymni.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">bebel3/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">[Tuebingen]: [Johann Otmar], [1501]</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">12 February 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup added; typed text - structural tagging complete - no semantic tagging - no spell check</resp>
+</respStmt>
+<item TEIform="item">
+TEI header and markup added; typed text - structural markup complete (but sp-tags in dramata incomplete) - no semantic tagging - no spell check</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">19 March 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">Morpheus spell check performed (oh boy!)</resp>
+</respStmt>
+<item TEIform="item">
+TEI header and markup added; typed text - structural markup complete (but sp-tags in dramata incomplete) - no semantic tagging - no spell check</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+
+
+
+
+
+
+
+
+
+<text><gap id="bebe"/><gap id="mamm"/><body><div1 type="book">
+<pb id="s121" TEIform="pb"/>
+<head>Annotationes in Mammetractum</head>
+<epigraph TEIform="epigraph">
+<lg met="dist" org="uniform" sample="complete" TEIform="lg" part="N">
+<head>Ad magnificum et generosum: franciscum comitem de zollern Adolescentem et nobilissimum et doctissimum epigramma Henrici Bebelii iustingensis suevi.</head>
+<l TEIform="l" part="N">Tu qui de zollern insignia nomina gestas</l>
+<l rend="indent" TEIform="l" part="N">Suevorum specimen: o generose comes</l>
+<l TEIform="l" part="N">Francisce immensum volitat tua fama per orbem</l>
+<l rend="indent" TEIform="l" part="N">Sub teneris annis: mollibus atque genis</l>
+<l TEIform="l" part="N">Qui sudorificum cum docto helicone solonem</l>
+<l rend="indent" TEIform="l" part="N">Et sapias quicquid flava minerva docet</l>
+<l TEIform="l" part="N">Usque adeo: ut nulli diceris iure secundus</l>
+<l rend="indent" TEIform="l" part="N">Sit comes: aut quisquis nobilitate viget</l>
+<l TEIform="l" part="N">Qualis eris post hac tu quanta laude parentes</l>
+<l rend="indent" TEIform="l" part="N">Tu strabisque domum: vel genus omne tuum</l>
+<l TEIform="l" part="N">Quamvis sit genitor toto notissimus orbe</l>
+<l rend="indent" TEIform="l" part="N">Viribus: eloquio: martigenaque manu</l>
+<l TEIform="l" part="N">Atque tuus praesul quo nil sapientius usquam</l>
+<l rend="indent" TEIform="l" part="N">Justius aut melius phoebus in orbe videt</l>
+<l TEIform="l" part="N">Quid referam patruos: et avitae nomina gentis</l>
+<l rend="indent" TEIform="l" part="N">Laudibus insignes militiaque graves</l>
+<l TEIform="l" part="N">Quos omnes vinces: modo det tibi iuppiter annos</l>
+<l rend="indent" TEIform="l" part="N">Et fuerint vitae stamina longa tuae</l>
+<l TEIform="l" part="N">Haec tua me virtus pepulit tibi mittere nostras</l>
+<l rend="indent" TEIform="l" part="N">Divitias: versus castaliosque modos</l>
+<l TEIform="l" part="N">Novero si te non caperata fronte minuta</l>
+<l rend="indent" TEIform="l" part="N">Nostra haec tractantem: post modo plura dabo</l>
+</lg>
+<p TEIform="p">Telos</p>
+</epigraph>
+<opener TEIform="opener">
+<salute TEIform="salute">Ad eundem Franciscum comitem de zollern generosissimum epistola. H. B.</salute>
+Si ut est a veteribus memoriae proditum: Comes generosissime: eos etiam quos nunquam viderimus:
+propter eorum admirabiles vir tutes amare soleamus: iustissime ab me factum arbitror: si tibi
+nobilissimo simul et doctissimo adolescenti: adhuc non nisi fama cognito: meas rudes et
+inconditas ofellas et primitias missitare sum aggressus: quod ea te fama comitetur: ut supra
+aetatem sapias: nec quisquam aequalium tuorum nisi longo intervallo tibi secundus dari possit:
+ingenio eloquio cultissimaque eruditione: quadam igitur admiratione et observantia tui ductus
+volui chartaceo aliquo pierioque munere te mihi demereri sperans in hoc facturum me tibi rem
+gratissimam. scripsi igitur quasdam paucas annotatiunculas in mammetractum: cuius auctor mihi
+<pb id="s122" TEIform="pb"/>
+ignotus est. Et sub tui nominis vexillo in lucem edere placuit. ut tuum clientem a garrula
+illorum mussitatione defensares: qui nihil unquam nisi protritum et conculcatum legerunt: Et dum bona
+imitari non queunt quod solum facere possunt: invident: quos tamen omnes non assis faciam: nec
+unquam manu conserta in ius traham: qui nostra non legant: non enim tarentinos: consentinos et
+siculos volo: ut lucilius: esse lectores mearum rerum: sed romanos et plane latinos: qui
+laborantium novere sudorem vel lassis manum porrigere vel errantibus iter ostendere: quod si qui
+futuri sunt: qui me partum arrogantem: partim temerarium dicant. quia ego adhuc adolescens: velim
+emendare vel mutare: ea quae iam multis saeculis ab eruditis simul et indoctis consono ore
+vel prolata sunt vel scripta: vel interpretata: quodque iam diu usurpet ac teneat fere ubique
+romana ecclesia: protinus respondebo verbis illis quibus se quondam divus hieronymus aduersum
+suos detractores tuebatur. Ad marcellam sic scribens: ad me perlatum est quosdam homunculos mihi
+studiose detrahere: cur adversus auctoritatem veterum et totius mundi opinionem: aliqua in
+sacris litteris emendare temptaverim: quos ego cum possem meo iure contemnere: asino quippe lyra
+superflue canit: tamen ne nos superbiae: ut facere solent: arguant: ita <unclear reason="abbreviation unclear" TEIform="unclear">rursum</unclear> habeant: non adeo
+hebetis fuisse me cordis: et tam crassae rusticitatis: cum illi solam pro sanctitate habent:
+piscatorum se discipulos asserentes: quasi iccirco sancti sint: si nihil scierint: ut aliquid de
+dominicis verbis: aut corrigendum putaverim: aut non divinitus inspiratum: sed latinorum codicum
+vitiositatem: quae ex diversitate librorum omnium comprobatur: ad graecam originem unde et ipsi
+translatam non denegant voluisse revocare: quibus si displicet fontis unda purissimi caenosos
+rivulos bibant. Ita et ego faciam: quicquid vel a praesumptoribus ut ita loquar imperitis emen
+data peruersius: vel a librariis dormitantibus: vel a vitiosis interpretatoribus aut corrupta
+sunt: aut mutata: corrigam non reprehendam: corrigenda enim sunt peccata non reprehenda: nec
+detrahit qui verum dicit ut idem Hieronymus testis est: Cum igitur nuper tumultuaria et brevi
+lectione perlustrassem mammetractum: pluraque offendissem vel male interpretata vel male et perverse
+scripta quo ad orthographiam vel male enuntiata quoad prosodiam: volui hic praecipua haec
+annotamenta subicere: ne diviniorum eloquiorum tractatores: huic nimis addicti: in multos errores
+praecipitarentur essentque doctis ridiculo etc. non autem tibi persuadeas ut rumusculos
+vulgi aucupari studuerim me scripsisse haec: sed ut suevigenis scholasticis quibus ego in primis
+bene faveo et merito: ad politiora studia adipiscenda aliquid adiumenti conferrem: te autem
+generosissime comes francisce huic operi patronum adhibui: et indicem ut ab
+<pb id="s123" TEIform="pb"/>
+omnibus detractoribus et <orig reg="blateronibus" TEIform="orig">blacteronibus</orig> tuteris tibi deditissimum 
+<signed TEIform="signed">Vale et me ama. Ex thubingen. 16. kalendas maias Anno. 1501.</signed>
+</opener>
+<opener TEIform="opener">Sequuntur annotationes et emendationes H. B. in mammetractum.</opener>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mammetractus: exenia id est dona de longa missa ab e et xenos quod est peregrinum: et dicitur hoc exenium: ecclesiastici. 2.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebelius: xenia dicendum est non exenia: ut ubique apud graecos leges et in paenultimo libro martialis poetae:
+ubi multa de xeniis dicit. item et vitruvius li. 6. de
+architectura. dicuntur autem xenia: munera hospitalia: xenos hospes: xenicon hospitum latine
+dicitur: hic obiter nota quam corrupte legantur sed corruptius interpretata sint verba
+quidam in decretis. 23. q. viii. c. tributum ubi ita legitur: sancimus res ad venerabiles ecclesias
+vel xenones monasteria vel pototrochia vel bephotrophia pertinentes vel orphanotrophia vel
+hierothoconia etc. corruptissime glossator interpretatur dicens. xenodochium est locus
+venerabilis ubi pauperes peregrini recipiuntur. pothotrochium est locus ubi pauperes pascuntur.
+bephotrophium est locus ubi senes et <orig reg="valetudinarii" TEIform="orig">valitudinarii</orig>: et propter senectutem solam infirmi homines
+curantur: orphanotrophium: est locus venerabilis: in quo pueri parentibus orbati pascuntur:
+hirothocomum est locus in quo infantes pauperum aluntur. Tu ita leges: xenodochia
+ptochodochia. brephotrophia. orphanotrophia: hierocomia. Et ita interpreteris: xenodochium in
+singulari est locus publicus. quo peregrini et hospites hospitaliter recipiuntur: xenos enim hospes
+dicitur et docheion receptaculum: ptochodoxium dicitur vulgo hospitale
+mendicorum ptochos enim mendicus dicitur: et dochium domus vel receptaculum.
+brephotrophium dicitur vulgo hospitale infantium. et parvulorum qui exponuntur et
+expositi sunt a parentibus quale est apud ulmenses iuxta fanum omnium sanctorum Brephos enim infans
+latine dicitur et trophe educatio: orphanotrophia dicuntur vulgo hospitalia pupillorum
+et eorum qui utroque parente orbati sunt orphanus enim pupillus dicitur et trophe
+educatio: hierocomium autem latine dicitur domus vel villa leprosorum: hiera enim latine
+lepra dicitur et come villa etc. vide quantum erratum sit et in pronuntiatione et
+expositione etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mamme. agyos ab a quod est sine: et geos quod est terra. i. sanctus sine terrenorum amore. in hymno Conditor alme siderum.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Agios cum i simplici scribitur. et valet latine sanctus non autem dicitur ab a et
+geos quod est terra sicut dicit mammetractus: sed per se nomen est et simplex: Ge enim
+quod graece terra significat scribitur cum e longa agios cum i et eodem brevi: dignum
+hic etiam duxi interpretari studiosis Illa graeca verba quae canuntur in sacro ieiuniorum tempore:
+agios o theos Agios ischyros agios athanatos. eleyson ymas. Agios id est sanctus: o tantum
+articulus est theos. i. deus inde theologus per th aspiratum dicitur quasi loquens de,
+deo: ischyros ultima acuta legendum est et scribitur cum i
+<pb id="s124" TEIform="pb"/>
+latino in principio et cum y graeco in medio et ch aspirato: et latine dicitur fortis vel granis:
+Athanatos legatur accentu cadente super antepaenultima: scribaturque in principio cum th aspirato
+et in fine t exili et dicitur latine immortalis ab a. i. sine et thanatos mors quasi
+sine morte eleyson id est miserari: ymas. i. nos. et eleyson debet esse quatuor syllabarum
+accentu cadente super paenultima: Et est imperativus a verbo graeco eleo quod miserior etc. unde
+contra sententiam meam nuper expressam: scripsit mihi nuper ioannes reuchlin phorcensis homo
+graeci hebraici: et latini sermonis eruditissimus debere legi kyrie eleyson per duas integras
+dictiones: cuius sententiae etsi ego suffragor et quae probata esse videatur. sed alterum tolerare
+posse ex hoc reor: quia sicut etiam tempore divi hieronymi dicebatur osanna cum dicendum esset
+osianna hieronymusque non repugnaret omnino: ut est in epistola ad damasum:
+ita simili modo hoc admitti posse existimo etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mamm. Biothanatus paenultima producta. 1. bis mortuus a bis et thanatos quod est</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+mortale: in legenda gervasii et protasii.
+Bebel. Biothanatus id est per violentiam mortuus: et dicitur non a bis sed a bia
+quod est violentia: et thanatos mors: inde biothanata mors id est mors violenta: et
+paenultima non producitur sed antepaenultima sicut etiam athanatos sicut supra diximus: Dicuntur
+biothanati viri vel biothanatae mulieresque per vim et violentiam mortem obierunt.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mamme. Proselicus vel proselitus pae. cor . dicitur advena et in circumcisus a pros quod est ad et elico quod est venio: in prologo bibliorum</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Proselytus dicimus in paenultima cum y graeco et postea t exili non autem proselicus per c ut hic
+dicit: et valet latine advena vel peregrinus: non autem dicitur ab ad et elico ut indocte tradit
+ille: sed potius nomen graecum per se At non multum dubito: quicquid hic reperiatur in hoc
+mammetracto cuius auctor mihi est ignotus, hoc idem reperiri apud catholicon: hugutionem papiam
+Graecistam Isidorum: qui omnes multas tenebras infuderunt in linguam latinam suis ineptis
+expositionibus et interpretationibus: nec hoc mirum. floruerunt enim illis
+temporibus quando lingua latina omnino contaminata fuit per influxionem gothorum et vandalorum:
+graeci autem sermonis nulla erat cura nedum peritia: sed multa sunt vocabula graeca in sacris
+bibliis unde facile potuerunt decipi quoniam nulla est littera latina novi testamenti ut dicit
+laurentius intellige latine edita primo: quod non intelligens antonius mancinellus magno errore
+lapsus est: nam cum de erroribus valle dissertaret: posuit hunc errorem: ut laurentius vellet:
+nullam esse latinam et elegantem orationem in novo instrumento: quod fuit a sententia valle
+alienissimum valla enim inter cetera dicit: sed tantummodo ecclesiastici praesertim
+<pb id="s125" TEIform="pb"/>
+imitati graecos auctores unde interpretantur: post addit: nulla est enim litera latina novi
+testamenti nisi per translationem hieronymi et aliorum: nam quicquid est in novo testamento
+graece scriptum est non latine: sicut paulus epistolas graece scripsit sicut evangelistae.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mamme. Lampas lampadis vel haec lampada. e. lucerna est de vitro in prologo bib.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Lampas lampadis vel lampados in genitivo latine valet fax teste plinio vel ut dicit
+raphael regius. generale est vocabulum omnium eorum quae accensa lucent: lampada autem lampade in
+prima declinatione nunquam inveni apud quemquam sed lampadion graece quae est parva lampas nam est
+diminutivum graecum a lampas. in prologo bibliae.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mamme. Vulgares autem magum appellant sapientem a magnitudine scientiae.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Non vulgares sed sapientes hoc dicunt: sed vulgares magum pro malefico accipiunt: ut
+superius diximus in hymno hostis herodes sed non dicitur a magnitudine scientiae: quoniam
+persicum est vocabulum non latinum Legitur in prologo iob. quia si cui videtur incredulum metra
+scilicet esse apud hebraeos: et in morem nostri flacci <corr sic="gracci" resp="transcriber" TEIform="corr">graeci</corr>que pindari etc perverse legitur
+gracci: tu legas graeci non gracci. prius enim dixit nostri flacci. i. horatii latini: nostri enim
+quod dicit vult intelligere latinum: graecique pindari pindarus enim graecus fuit et
+optimus lyricorum: sed horatius apud latinos primus lyrica scripsit. nec graccus esse potest
+proprium nomen nam nemo poetarum graecorum graccus umquam dictus fuit. Gracchi autem romani
+cives fuerunt clarissimi oratores non poetae nedum lyrici: legitur item in prologo bibliorum: ad titum
+livium lacteo eloquentiae fonte manantem etc. ubi falso manentem impressum ferme est in omnibus
+exemplaribus
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mamme. Iosephus media correpta in prologo bi.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebe. Iosephus mediam producit unde iuven cus poeta urgetur monitus mariam puerumque iosephus:
+testis est etiam priscianus: qui dicit nomina barbara scutum in fine accentum detinentia: more
+latino declinata accentum ipsum acutum retinent: et paenultimam producunt syllabam ut ab adam
+adamus a ioseph iosephus ab abraham abrahamus etc. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mamme. Haec baselica ce. paenultima cor. dicitur domus regis a baseleos quod est rex vel imperator in prolo. bib.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Basilica per i non baselica: proprie significat locum in quo negotiationes et consilia
+et indicia exercebantur dicta basilica quasi regia nam et publicus et regius locus erat: in quo
+et aliquando convivia maxima saltationes et ludi fiebant: nam et basileus regem latine sonat: Apud
+ecclesiasticos autem basilice dicuntur sacella numinibus consecrata: inde basilicani
+<pb id="s126" TEIform="pb"/>
+dicuntur custodes basilicarum apud augustinum et orosium quos vulgus campanatores vocat.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Moyses a moy. quod est aqua et ses quod est assumptio in prolo. bib. </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Fatua est haec interpretatio et nihil valens: hebraica est haec dictio: Et ita
+interpretatur a divo hieronymo in hebraicis nominibus. moyses vel moses dicitur
+attractans vel palpans: aut sumptus ex a sive assumptio: et in hymno. Inventor rutili plura de
+hoc nomine dixi.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Adamantinus. pae. pro: in prologo bibliae.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Adamantinus paenultima correpta: propertius Colchis flagrantes adamantina sub iuga
+tauros. Horatius primo carminum. Quis martem tunica tectum adamantina etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Epithome huius mes. pae. pro. dicitur abbreviatio. ab epi quod est supra et thomos quod est sectio vel divisio in prologo bibliae.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Epitome vel epitoma t exili scribitur et corripit paenultimam quae per o micron. l. o parum et
+breve scribitur Et latine interpretatur breviarium vel abbreviatio. Et dicitur a tome
+quod est sectio vel incisio. Tomon enim graeci appellant particulas librorum
+abscissas etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. hoc epithalamium ab epi quod est supra et thalamus quod est camera</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Epithalamion dicitur carmen nuptiale: et sacer hymnus qui in sponsaliciis viri
+et uxoris canebatur: Etsi non reprehendam mammetracti interpretationem: tamen in hoc
+male dicit thalamus quod est camera aliud enim est thalamus per th aspiratum: aliud camera. Thalamus est coniugis utriusque cubiculum. Camera autem est testudo et
+lacunar parsque superior cubiculi non totum cubiculum. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. haec energia pae. pro: dicitur interior operatio sive labor ab en quod est in et erge quod est operatio sive labor in prologo bib.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. verum est: energia paenultimam producit quae per ei diphthongum scribitur sed potius
+dicitur ab energeo graeco verbo quod est ago et operor Tullius lib. 1. academicarum questionum ita interpretatur energian graece: latine dici perspicuitatem aut
+evidentiam. Et quintilianus li. 8. institutionum oratoriarum; eodem quasi modo. Aeschines etiam
+nomen clarissimi oratoris media est producta non cor. ut dicit mamme.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. apocryphus dicitur ab apo quod est de et cryphos secretum in prolo. bi.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. apocryphus cum y graeco in páenultima dici potest absconditus vel abditus et
+componitur ab apo praepositione quae rem exaggerat: et crypto. i. abscondo: unde opera dicuntur apocrypha
+hoc est absconsa: hoc est dubia et non recepta.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. hic heremus media correpta est desertum in prolo. bib.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. haec eremus dicimus et media producta ut diximus in hymno inventor etc. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Hic et haec geometra trae. dicitur mensurator terre et hic geometer tri et utrumque secundum usum communem pro: paenultimam et potest dici componi: a ge quod est terra: et metior iris quod producit primam et non a
+<pb id="s127" TEIform="pb"/>
+metros quod est mensura quod primam corripit unde versus Grammaticus rhetor geometer pictor aliptes in prologo bib.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">Bebel geometria dicitur quasi geas. i. terre et metros mensura quasi mensuratio terrae inde
+geometra dicitur mensurator terrae non autem dicitur a metior metiris etc. paenultima enim non
+producitur ut hic dicit sed corripitur unde legi debet carmen iuvenalis satyra. 2. Grammaticus
+rhetor geometra pictor aliptes non geometres vel geometer geometra enim prima et
+secunda syllaba non possunt breviari cum prima per ei diphthongum scribatur secunda
+cum o longo: multa igitur in convenientia sequerentur: legas igitur geometra pae. brevi non longa
+sed quod hic allegat usum intelligit abusionem et corruptelam imperitorum.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. haec arismetrica ab ares quod est virtus et richimos quod est numerus antiqui dicebant arithmetica pae. semper cor.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Arithmetica dicendum est non arismetrica. Et dicitur ab arithmos. i. numerus quia est scientia
+de numeratione: non autem dicitur arismetrica ab ares. i. virtus: arete virtus dicitur non ares:
+Are autem areos mars dicitur inde areopagus quasi areos hoc est martis pagus. i. villa ut dicit
+divus hieronymus in interpretationibus hebraicis non autem ab ares quod est virtus sicut
+interpretatur mamme. in alio loco.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Hic cento onis: est punctus sive punctatio: virgilio cento est compilatio facta de versibus virgilii sicut etiam homeri centones. etc.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Cento fit ex diversorum colorum pannis vel lanis in unum condensatis. Ut ausonius poeta
+argutissimus in suo centone ita dicit. Cento quid sit ipse absolvam: variis de locis sensibusque
+diversis quaedam carminis structura solidatur in unum versum ut coeant aut caesi duo: aut unus
+et sequens cum medio nam duos iunctim locare ineptum est etc. inde virgilio centones etc. Et tantum
+de prologo bibliorum nunc sequuntur sine ordine alia vocabula.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Barrabas media correpta per duplex r et simplex. b.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Contrario modo scribitur simplici r et duplici b: et media producta unde sedulius Tunc
+coluere bahal: tunc elegere barabbam: Nam ut dicit hieronymus in hebraicis nominibus syrum est
+vocabulum: et valet tantum quantum apud nos filius pateris ex bar. quod apud illos est
+filius et abba pater. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Mutuo vult dantem sed mutuor accipientem.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Mutuor et mutuo idem significant ut dicit priscianus libro 8. de significatione
+verborum etc. hoc verum esse probat seneca epistola. 82. dicens quanto hilarior est
+qui obtulit quam qui mutuat id est mutuum accipit. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Lictores sunt ii qui damnatos secundum legem occidebant: vel ad mandatum iudicis puniebant et dicitur lictor quasi legis ictor. Et in alio loco lictor etiam dicitur leccator a lingo: ezechielis. 39.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. lictor non dicitur quasi legis ictor sed a ligando ut dicunt valgius ruffus
+<pb id="s128" TEIform="pb"/>
+et aulus gellius lib. xi .c. 2. lictores igitur ministri sunt magistratuum quod cum
+magistratus populi romani virgis quempiam verberari iussissent: crura eius et manus ligari
+vincirique a viatore hoc est lictore solita sint: hoc vulgus indoctum apud nos praecones vocat:
+Sed tiro tullius M. ciceronis libertus. lictorem vel a lino vel licio dictum scripsit: licio enim
+transverso. quod linium appellatur. qui magistratibus inquit praeministrabant cincti
+erant plutarchus ut graecus a graeco verbo derivari contendit: sed haec iam dicta non displicent.
+quod autem mammetractus addit lictor dicitur leccator non est latinus sed sarmata et barbarus:
+nemo enim unquam latinus dixit leccator:
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Praetor oris media correpta est praepositus civitatis.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Praetoris producit non corripit mediam: Juvenalis satyra prima nobiscum da praetori da deinde
+tribuno Et diem in octava: nec dubitant celsi praetoris vendere ludis: et praetores dicti sunt omnes
+qui praesunt exercitui ut dicit asconius pedianus. Et sic dicti quia praeirent et anteirent iure
+in exercitu ut dicit varro non autem invenio quia dicatur praepositus civitatis.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mamme. Haec zizania orum. p n. pae. cor.  sed zizaniae sg. pae. producit unde versus. Sin zizania sed plu zizania dicas.
+</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Haec zizania fe. g. et hoc zizanium n. g. et singularis etiam numeri declinari potest
+hieronymus
+zizanium mixtum est tritico: sed paenultima brevis est utrobique: nec vera est stultissima illa
+differentia quantitatis syllabarum etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Inedia. i. penuria. et iob. 18. inedia. i. paupertas.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Video apud plerosque nostros inediam accipi pro paupertate sed male inedia enim nihil aliud
+est quam abstinentia cibi unde sive quis dives fuerit sive pauper dum abstinuerit a cibo. inediam
+dicitur pati hieronymus in epistola ad marcellam de laudibus asellae:
+ieiunium pro ludo habuit inediam pro refectione. Et idem de vita monachorum bidui triduique
+inediam sustinentes unde plinius naturalis historiae li. xi. scribit quia inedia ante diem
+septimum non est homini letalis: idem auctor est plerosque durasse ultra. xi. diem Et albertus
+magnus libro de animalibus. vii, feminam fuisse. quae sine cibo dies interdum. xx. interdum. xxx.
+durabat. virum quoque melancholicum idem se vidisse testatur, qui inedia hoc est cibi abstinentia
+septem vixerit septimanas alternis tantum diebus gustum aquae limpidae exsorbentem et praeterea nihil.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Annona media pro esca est et alimonia. esdrae. 7.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Annona ab anno deducitur sed non est simpliciter esca ut hic dicitur sed annona dicitur proventus frugum unius anni etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. lithostratos a lithos quod est lapis et stratos quod est variatio.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Lithostrotos in paenultima non cum a sed o longo scribitur et enuntiari
+<pb id="s129" TEIform="pb"/>
+debet scribitur enim per omega hoc est o longum. et dicitur pavimentum lapidibus stratum Et
+componitur a lithos quod est lapis et strotos id est stratus nec dicas licostratos ut barbari faciunt etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Apocalipsis dicitur ab apo quod est re. et calipsis. i. velatio inde apocalipsis </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb: Apocalysis in paenultima cum y graeco scribitur. Et componitur ab apo
+quod est re et calypto quod est velo operio vel tego non calypsis inde
+apocalypsis dicitur revelatio et liber revelationum.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. poderis media correpta et dicitur a pos podos quod est pes. Beb. poderis media longa est</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+non brevis: ut licet intueri in graecis litteris per ita enim quod in e longum convertitur
+apud latinos scribitur. et est vestis teste hieronymo ad fabiolam. talaris hoc est usque ad pedes
+pertingens. qua utuntur sacerdotes pro camisia in divinis ut barbare loquar. Est enim camisia
+barbarum nomen et vulgare ut in eodem loco hieronymus dicit. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Miseror aris deponens est et transitivum et ad deum pertinet: sed misereor eris ad hominem spectat cum dativo In hymno. Ecce iam noctis </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Servius primo aeneidos. dicit idem est miseror et misereor ris alterum scilicet miseror
+regit accusativum. virgilius miserata dolores. alterum miseor genitivum. nota hic dixisse servium: misereor
+regit genitivum non dativum sicut tu dicis quod si etiam priscianus dixerit regere dativum viderit ipse
+producat ipse exemplum ubi invenerit apud idoneum aliquem auctorem: quod autem regat genitivum
+plurima sunt exempla dido virgiliana in quarto dicit miserere sororis Et plautus in captivis
+neminis misereri certum est et plura alia: sic multo absurdior est differentia inter illa duo
+verba quam dat mamme. nam quottidie legimus misereri mei deus: ubi misereri est non ad hominem sed
+ad deum. Item miseror non est tantum ad deum. sed ad homines. virgilius in aenei. nec minus aeneas
+casu perculsus iniquo. persequitur lacrimans et est miseratus euntem festus tamen illam ponit
+differentiam inter miseror et misereor. ut miseretur qui conqueratur aliena incommoda misereatur autem
+a misereor qui miserum sublevet. sed nonius aliam: sed haec differentia confunditur apud idoneos etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Parapsis a par et absida quasi paribus absidis. i. lateribus </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. O quam frivola et inepta interpretatio. primo dicendum est paropsis non parapsis. Et componitur a para. i. ad et opson.
+i. cibum teste nestore dionysio. mancinello et georgio merula. Et est proprie paropsis iuris
+genus auctoribus polluce et eustachio quam quam etiam sicut et in evangelio pro repositorio
+obsoniorum apud idoneos tam graecos quam latinos legatur 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Parasitis. i. leccatoribus a para quod est iuxta et sitos venter. inlegenda agnetis.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Leccator non est latinum At parasitus dicitur qui mensas divitum sequitur cibique gratia
+omnia laudat toleratque. Et dicitur a para. i. ad et siton cibus: sitos vero frumentum est non
+venter ut ille Dicit: fuit autem hoc
+<pb id="s130" TEIform="pb"/>
+nomen primum in honore: utpote qui sacro ministerio addictus esset etc. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam Pluraliter haec anaglyfa orum dicuntur supereminentes picturae pae. semper pro. ab ana quod est super et glyfen quod est sculpere Item anaglyfa dicuntur vasa superius sculpta. 3. regum. 6.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Anaglyphon vel apud nos anaglyphum in singulari dicitur. et anaglypha in plurali scribitur cum y graeco in paenultima et ph non f ut vulgo putatur
+Et anaglypha nil aliud significant nisi superius sculpta ab ana desuper indicat: et glypto. i.
+sculpo non glyfen ut hic dicit.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. mausoleo pae. pro. i. sepulchro. n. g. in prologo super abdiam.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. haec est frigidiuscula expositio: unde enim est quia mausoleum dicitur sepulchrum id
+quod in primis necesse erat dicere quamvis pretiosa tantum et sumptuosa quale fuit
+mausoli regis sepulchra dicantur mausolea Consule igitur praeter ceteros divum hieronymum qui
+graphice rem explicat contra iovinianum li. 1. c. 27. dicens. Arthemisia quoque
+uxor mausoli insignis pudicitiae fuisse perhibetur: quae cum esset regina cariae: et nobilium
+poetarum atque historicorum laudibus praedicetur in hoc vel maxime effertur. quia defunctum maritum sic semper amavit: ut vivum: et mire magnitudinis ac pulchritudinis exstruxit sepulchrum in
+tantum: ut usque hodie omnia sepulchra pretiosa ex nomine eius mausolea nuncupentur: unde et
+propertius dicit. Et mausolei dives fortuna sepulchri: et alii.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Hic tragelaphus pae. cor.  est hircocervus a tracos quod est hircus et laphus. i. cervus: deutro. 14.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. tragelaphus accentu acuto in antepaenultima non est hircocervus sed animal hirco et cervo
+simile. vel ut plinius dicit in. viii. naturalis hi: species est cerui: barba tamen
+et armorum villo ab ab iis distans: nec alibi quae iuxta phasim amnem nascens Et est compositum ex
+tragos. i. hircus et elaphos. i. ceruus.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. in lechito mc. pro. hoc lechitus ti est vas amplum de aurichalco. 3. regum 17.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebe. lecythus scribitur cum c exili y graeco et th aspirato Et est ge. fe. non m. testis est
+aristophanes in plutone et ioannes crastonus Et cicero li. 6. epistolarum ad
+atticum: nosti illas lecythus etc. item lecythus corripit mediam non producit ut tradit hic
+noster et alexander gallus: testis est homerus odysseae li. 8. ut allegat crastonus et alii.
+lecythus autem graece: vas olearium latine dicitur non vas de aurichalco. Divus cyprianus:
+lecython interpretatus est capsacem: apuleius li. 2. floridorum. ampulla oleariam appellat quam graece
+dicimus lecython.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. apofereta pae. pro. vasa a ferendo poma vel aliud dicta ab apo quod est a et fero fers: in legenda vitalis et agricolae.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Apophereta per ph non f in secunda syllaba usurpavit suetonius tranquillus pro
+muneribus: quae ab imperatore civibus remittebantur. Sunt igitur apophoreta non vasa ut hic dicit:
+sed munera saturnalicia et proprie
+<pb id="s131" TEIform="pb"/>
+illa: quae pro xeniis remittuntur: unde et martialis novissimum librum apophereta inscripsit:
+dicuntur autem apophereta non apo et fero sed ab apophorin quod est referre.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. sabbatum dicitur tota septimana dies septimus et quilibet dies septimanae matthei. et. 8. </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. sabbatum ut dicit lactantius li. 7. c. 14. in lingua hebraeorum a numero nomen
+accipit et est dies septimus: nam eorum lingua ut aiunt sabe septem significat hoc
+idem vult iustinus historicus li. 36. qui scribit moysen ab aegypto cum suis pulsum sacra
+aegyptiorum furto abstulisse: itaque damascena antiqua patria repetita montem sineum occupasse in
+quo septem dierum ieiunio pro deserta arabiae cum populo suo fatigatus: cum tandem
+venisset septimum dierum more gentis sabbatum appellatum in omne aevum ieiunio sacravit alii
+dicunt sabbatum hebraice: latine requiem interpretari: eo quia deus requievisset in eo ab omnibus
+operibus suis etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Perichelidas pae. cor . ornamentum brachiorum a parte posteriori pendens: unde dicitur a peri quod est circum et chelis brachium vel achelon quod est curvum vel crus sive brachium haec perichelis lidis: antiqui scribebant periscelidae Esaiae. 3. </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Latini et eruditi dicunt periscelis: indocti autem et barbari
+perichelis vel perichelida ae et non est ornamentum brachiorum ut hic dicit sed crurum
+Audi nostrum hieronymum Ad fabiolam periscele graece a nostris feminalia vel bracae usque ad genua
+pertingentes dicuntur. sic etiam porphyrio non pessimus grammaticus dicit periscelis ornamentum
+est pedis circa crura. unde horatius in epistola ad scaevam nota refert meretricis acumina: saepe
+catellam saepe periscelidem etc nec componitur a chelis. i. brachium sed a scelos. i. crus etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Scenophegia pae. cor . i. festum tabernaculorum. a scenos vel scenon quod est umbra et fagin quod est comedere quia comedebant sub salicibus ioannis. 7. </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Scenopegia dicunt graeci: Latini aspirationem addiderunt et
+dicunt scenophegia et est n. ge. Ester illa celebritas hebraeorum quam sub tentoriis in solitudine
+celebrarunt liberati per mosen de servitute aegyptiaca. Dicitur itaque a scenos
+quod est habitatio et tabernaculum: et pegnymi graeco verbo quod est figo
+vel conglutino quasi celebritas illa qua figebant sua tentoria et tabernacula.
+Agios cum i latino scribitur ut paulo ante dixi quamvis in hymno: Conditor alme etc. contrarium
+dixerim sed deceptus ex incuria fui.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Paranymphus. i. nuptiarum procurator sive custos sponsae a para quod est iuxta et nympha quod est aqua qua saepe sponsa utitur.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Paranymphus cum y graeco in paenultima est ille qui ab ecclesiasticis viris pronubus
+dicitur: a veteribus autem auspex: nam quia antiqui pro nuptiis celebrandis auspicium
+capere solebant: qui praeerat huic rei pro parte viri paranymphus a priscis auspex dicebatur: ut
+lucanus in secundo. Contenta est auspice bruto. Et ut auspex
+<pb id="s132" TEIform="pb"/>
+pro parte viri sic et pronuba pro parte mulieris adhibebatur. ita quam cum apud christianos
+auspicia minime captentur adhibentur sacerdotes qui et pronubi iam vocantur dicitur autem
+paranymphus a para et nymphe quod est sponsa: mamme. deliramenta dicit.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Hic arrabo onis dicitur pignus ab arrabon quod est pignus graece et producit mediam in rectis et paenultimam in obliquis Unde versus Pars arrabo venit pretii dum res bona venit. Genesis. 38.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Nestor dionysius praecipit scribi arrhabo per ultimum r aspiratum unde varro de lingua
+latina arrhabo sic dicta ut reliquum reddatur non est autem idem arrhabo et pignus ut hic dicit:
+sed divus hieronymus super epistola ad ephesios hanc ponit differentiam. Arrhabo fu
+ture emptioni quasi quoddam testimonium et obligamentum datur: pignus vero pro mutua pecunia
+opponitur: nonnulli arra dicunt: Arrhabo autem non producit mediam: sed in obliquis paenultimam.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Stadium a stando: est octava pars miliaris. 2. maccab. 12.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Stadium non dicitur a stando graecum enim vocabulum est: quod iuxta
+servium non patitur latinam etymologiam: latine curriculum transfertur.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Apocrisarii. i. legati et secretarii: apocrisarius est thesaurarius legatus secretarius cancellarius: auricularius: in legenda martini papae. </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Apocrisarius cum i latino in secunda syllaba dici potest a nobis responsalis nam proficiscitur ab apokrinomai
+quod est respondeo et apocrisis responsum significat: potest igitur dici legatus a respondendo: non autem potest dici secretarius vel auricularius ut hic dicit. nam crysis ut significat
+absconditum scribitur per y graecum non i latinum ut hic: nec item potest dici thesaurarius: quasi
+descenderet a chrysos quod est aurum quia tunc sic esset scribendum apochrysarii per
+ch aspiratum et y graecum: Et ut aliquando finiam dicit laurentius valla in antonium raudensem:
+apocrisarius non aliter apud graecos est nitidum vocabulum quam apud nos ambasiatores. quod nemo
+nisi barbarus dixit.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Cataclysmus a cata quod est universale vel a per et clysma quod est pars quasi omnes partes: ecclesia. 32.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. O quam futilis et puerilis interpretatio: cataclysmus cum y graeco in paenultima: latine
+dicitur diluvium et inundatio a para: et clysmos quod est lotio et inundatio vel clyzo
+graeco verbo. i. alluo: inundo demergo. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. rumphea me. cor. i. gladius sive spata.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. rhomphea scribendum est in paenultima cum ae diphthongo qua propter non corripit sed
+producit mediam: valerius tamen flaccus praeter naturam diphthongi illam corripit: cum ait lib.
+vi. argonau: aequaque nec ferro brevior nec rhomphea ligno: Et scribitur in principio cum rh aspirato.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Praxinus me. pro. nam braxin graece dicitur viride latine.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+<pb id="s133" TEIform="pb"/>
+Beb. Prasinus per. s. scribendum est non per. x. ut hic: et est media brevis non producta: unde
+martialis: de nostra prasina synthesis empta toga. 
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Cynomiam pae. cor . i. muscam caninam i psalmo. 77.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. Scribendum est Cinomyia in ante paenultima cum y et paenultima i latino: ut videre licet
+intuenti graecum vocabularium: et dicitur latine musca cania: sed ut dicit hieronymus in
+epistola ad suniam et fretelam: in psalmo non <corr sic="debit" resp="transcriber" TEIform="corr">debet</corr> legi Cinomyia id est musca canina: ut
+latini interpretati sunt: sed iuxta hebraicam intelligentiam per diphthongon debet scribi oi ut
+sit coenomia. i. omne genus muscarum.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Altilium id est avium nutritarum in domo quasi alitilum ut sunt caupones et aucae. </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Altilia non significant tantum aves saginatas sed quaecumque animalia quae saginantur vel in domo vel in
+villis vel vivariis; id pulchre tradit. Anto. mancinellus in tribus versibus Altile opulentum
+signat vel pingue ab alendo: Altilia appellant animalia quae <sic TEIform="sic">sed</sic> aluntur: Altilis ut piscis vel
+anis quadrupes aper ursus. Adde quod auca latinum non est sed anser comprehendit utrumque sexum
+ut probavimus in commentariis de abusione.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Polictores pae. producta dicuntur humatores sive sepultores cadaverum a pol. quod est pluralitas et lictor quod est apparitor.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebel. nihil potest ineptius tradi quam illud falsum et puerile interpretamentum: dicendum est
+enim pollinctor per n non pollicitor: pollinctores sunt qui morientium cadavera curabant et
+ungebant: non illi qui sepeliebant dicuntur autem pollinctores ut vult fulgentius <corr sic="placiades" resp="transcriber" TEIform="corr">planciades</corr>:
+quasi pollutorum unctores id est cadaverum curatores: vel venit a pollincere verbo quod est
+curare ungereque cadavera <corr sic="platus" resp="transcriber" TEIform="corr">plautus</corr> sicut pollinctor dixit qui eum pollinxerat: unde pollinctum
+funus dictum a pollinctoribus unctum non autem dicitur a pol et lictor quo nihil potest ineptius
+tradi. Sandapilarii autem dicuntur sepultores cadaverum portitoresque sandapilarum: Sandapila
+enim est feretrum mortuorum quo cadavera plebeiorum portabantur. Item vespillones quasi pro eodem accipi possunt etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam.
+Theodorus
+Thessalonica
+Sidon sidonis
+Heliodorus
+Caracter
+Luter
+Paenultima. Correpta.
+Dorotheus
+Origenes
+Praecox praecocis
+Cilicinus
+Zebedeus
+<corr sic="Hiacincthinus" resp="transcriber" TEIform="corr">Hyacinthinus</corr>
+Podagra
+paenultima. producta
+</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebelius. Congessi hic quaedam nomina studens brevitati quae hinc inde sparsim et suo loco dicit mamme: esse vel producta vel correpta
+<pb id="s134" TEIform="pb"/>
+in paenultima secundum quia hic signantur At sic habetote lectores ut omnia ea quae hic
+producit corripiantur. Et quae posuit esse correpta producantur. Et primo de his quae male
+corripuit. nam primo theodorus et heliodorus: et omnia composita a doron graeco
+quod est donum et scribitur per o longum producunt do: unde iuvenalis satyra sexta
+tonsoris tantum damno rapit heliodorus. Martialis pierios vatis theodori flamma penates: sidonis
+prodducit non corripit unde virgilius memini sidona venire Character eris cum ch aspirato in
+principio in obliquis producit paenultimam quae per ita hoc est e longum scribitur eodem modo luter.
+podagra ex natura mediam syllabam brevem habet Martialis litigat et podagra diodorus flacce
+laborat. thessalonica civitas producit non corripit paenultimam. unde claudianus. thessalonica
+tuos sensu dolor haeret in alto. Dorotheus et alia composita a theos corripiunt paenultimam ut
+dorothea timotheus: unde fortunatus episcopus: et cum timotheo vivere cura meo. Similiter zebedeus
+brevis paenultima est. unde iuvencus poeta. hinc tunc zebedei coniunx submissa rogabat. Origines
+paenultima brevi legas sicut omnia composita a genos quod apud nos genus designat. ut
+diogenes Antigenes hermogenes etc. praecox praecocis paenultima brevi. unde calpurnius egloga
+secunda insita praecocibus surrepere persica prunis. hiacynthinus paenultima brevis est unde
+persius: hic aliquis cui circa est humeros hiacynthina lena. item cilicinus paenultima brevis.
+ut in multis locis videri datur etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Stuprum est violatio virginis.</p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Bebe. Stuprum etiam ad alia se extendit unde modestinus. ff. ad legem ius de adul. et stu.
+Stuprum in vidua vel virgine vel puero committitur dicitur item stuprum in mulieribus: ut
+cicero secundo de finibus bonorum: stuprata per vim lucretia a regis filio et
+quintilianus in decla. uxor marito dixit appellatam se de stupro a privigno etc.
+</p></sp>
+<sp who="mamm" TEIform="sp"><p TEIform="p">Mam. Citropes hic idis est vas habens pedes inferius: a citra et pes pedis quasi citra superiorem partem habens pedes et cor. me. </p></sp>
+<sp who="bebe" TEIform="sp"><p TEIform="p">
+Beb. Chytropedes cum ch aspirato et y graeco scribitur
+et sunt olle cum pedibus. a chytreus quae est olla et pous. i. pes et producit mediam sed
+paenultimam corripit etc. non credas autem me reprehendere auctorem in orthographia cum forsan
+ipse bene scripserit: admonendos tamen lectores ne cum vulgo errent duxi.
+</p></sp>
+<closer TEIform="closer">
+Habes hic lector quae tibi placitura spero. plura. suo tempore addam: sunt enim adhuc multe et
+frigide interpretationes illius opusculi. Sed plura scripturum impedivit chalcographorum
+festinantia etc.
+<signed TEIform="signed">Vale ex thubingen.</signed>
+</closer>
+</div1></body></text>
+
+
+</TEI.2>

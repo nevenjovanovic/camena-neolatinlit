@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd">
+<TEI.2>
+<teiHeader type='text'>
+<fileDesc>
+<titleStmt>
+<title>Epistolarum Syntagmata Duo una cum Responsis. Praemissa Conringii Vita, Scriptorum Index, et de his Doctorum Virorum Judicia / [Hrsg.: Caspar Corberus] [...]</title>
+<title type='short'>Conring, Hermann: Epistolarum Syntagmata Duo. - Helmstedt, 1694.</title>
+<title type='sub'>Machine-readable text</title>
+<author n='Conring'>Conring, Hermann</author>
+<editor>Corberus, Caspar</editor>
+</titleStmt>
+<editionStmt>
+<edition>XML version, markup prototype, December 1999</edition>
+<respStmt><name>Ruediger Niehl</name><resp>markup</resp></respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Camena</publisher>
+</publicationStmt>
+<notesStmt>
+<note type="href">http://www.uni-mannheim.de/mateo/cera/conring3/</note>
+<note type="pathname">p1</note>
+<note type="filename">Conring_syntagmata_1.html</note>
+<note type="titleimage">s001.html</note>
+<note type="srcfile">Conring_syntagmata_1.xml</note>
+<note type="imgpath">p1/jpg</note>
+<note type="imgtype">html</note>
+</notesStmt>
+<sourceDesc>
+<bibl>Helmstedt: Georg-Wolfgang Hamm, 1694.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl>
+<p>not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc>
+<change>
+<date>03/2008</date>
+<respStmt>
+<name>Reinhard Gruhl</name>
+<resp>markup</resp>
+</respStmt>
+<item>text typed - structural tagging completed - no semantic tagging - spell check partially performed  - no orthographical standardization performed</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<pb id='s000'/>
+<gap desc='frontispiz (portrait of the author)' resp='sampling'/>
+<pb id='s001'/>
+<titlePage><titlePart>
+HERMANNI CONRINGII 
+<hi rend='italic'>Viri Summi</hi> 
+Regum quondam pluriumque Imperii 
+Principum Consiliarii et in Acad. Jul. Medicinae 
+ac Politices Profess. longe 
+celeberrimi 
+EPISTOLARVM 
+SYNTAGMATA DUO 
+una cum 
+RESPONSIS. 
+Praemissa 
+Conringii Vita, Scriptorum 
+Index, et de his Doctorum Virorum 
+Judicia. 
+Cum Privilegiis perpetuis.
+HELMSTADII, 
+Typis et Sumpt. GEORG-WOLFGANGI HAMMII, Acad. Typogr. 
+Anno CIC ICC XCIV.
+</titlePart></titlePage>
+<pb id='s002'/>
+<gap desc='blank space' resp='sampling'/>
+<pb id='s003'/>
+<div type='dedication'>
+<head><hi rend='italic'>Viro Nobilissimo, Amplissimo atque Consultissimo</hi> DOMINO HERMANNO JOHANNI CONRINGIO Haereditario Domino in <foreign lang='GE'>Zwülpstedt</foreign>, <abbr expan='Serenissimi'>Ser.mi</abbr> ac Potentissimi Electoris Brandeburgici in Ducatu Magdeburgico Consiliario Camerae, et Dicasterii Provincialis Guelpherbitani Assessori Primario etc. <hi rend='italic'>Domino, Fautori et Amico suo Magno S. P. D.</hi> CASPAR CORBERVS.</head>
+<p>IMmortalis memoriae parens tuus, <hi rend='italic'>Vir Nobilissime,</hi> eum ingentibus sibi meritis in Rep. literaria locum quaesivit, ut flos eruditorum non solum per Germaniam,
+<pb id='s004'/>
+sed et Italiam, Galliam, Belgium, Daniam, Sveciam, certatim illi cultum et studia sua deferrent, literisque ultro citroque missis amicitiam cum eo contraherent sancteque colerent. Nihil vel augendi vel assentandi gratia scribo, cujus et causas procul habeo, necapud Te, <hi rend='italic'>Virorum Optime,</hi> locus est. Nihil affero, cui non fidem abunde faciant clarissimorum toto orbe Virorum literae, quorum <gap desc='Greek word(s)'/> magno numero eâ, qua merentur, religione apud Te asservantur. Exilui sane prae gaudio, cum ad illa sacraria tuo benefieio admissus tot virtute et doctrina praestantium dexterarum opera et vestigia conspicarer: cum (ut e multis paucos nominem) <hi rend='italic'>Grotii, Vossii, Naudaei, Blondelli, Dallaei, Patini, Bignonii, Bigotii, Capellani, Justelli, Baluzii, Liceti, Severini, Castelli, Veslingii, Cottunii, Rhodii, Magliabeckii, Spanheimii, Maresii, Schockii, Bartholini, Wormii, Pauli, Forstneri, Schefferi, Boecleri, Strauchii, Lambecii, Reinesii, Sennerti, Hofmanni, Meibomii, Sebizii,</hi>
+<pb id='s005'/>
+<hi rend='italic'>Leibnizii, Hottingeri, Wagenseilii, Bosii, Arnoldi,</hi> pluriumque his similium consecrata aeternitati nomina in illo literarum fasciculo velut in eruditi orbis panegyri convenisse cernerem. Postquam vero et ea, quae literis illis de omni reliteraria et civili gravissime simul atque elegantissime hinc et illinc acta atque disputata erant, cognovi: non epistolas, sed thesaurum mihi reperisse visus sum: cui tamen, quod tua benignitate licuisset, nolui solus incumbere, sed, ut cum pluribus communicaretur, publicique jurisfieret, optavi, auguratus fore, ut summis eruditorum studiis exciperetur, reiqueue literariae non parum lucis fructusque afferret. Quam quidem non tam de meo sensu conjecturam feci, quam certissimis et rerum argumentis ductus et temporum. Neque enim ex omni eruditionis ambitu quicquam avidius legi, magisque seculi genio arridere videbam, quam Clarorum Virorum epistolas: nec illas, quae scriniis bibliothecae Tuae paternae
+<pb id='s006'/>
+continebantur, ullis, quae hactenus prodierunt, concedere judicabam: sive claritatem illorum spectes, a quibus et ad quos scriptae sunt, sive numerum et copiam, quae non unum volumen grandioris formae implere posset: sive denique rerum et argumentorum cum varietatem tum praestantiam. Quin et industria nonnulla videbam juvari posse operis hujus Epistolici usum, ut non paucis ejus generis praestaret palmamque praeriperet. Quod enim admanum essent epistolae mutuo sibi respondentes, atque ex plerisque integra series rebus temporibusque connexa texi posset: res ipsa subjiciebat, singula sic commodissime disponi edique posse, ut conjungerentur, quae ex argumentorum temporumque ordine sibi lucem foenerari, plenamque veluti rerum his epistolis actarum historiam referre possent. Quam in rem cum operaemeae fidem studiumque Tibi, <hi rend='italic'>Vir Amplissime,</hi> cui
+<pb id='s007'/>
+per Reip. negotia huic curae superesse non licebat, offerrem: annuisti facilis meo, quod publicum esse intelligebas, desiderio, atque ut, quodtemporis et typographi ratio hac vice permisit, duo syntagmata epistolarum, publicarentur, permisisti: quorum alterum literas ad Reverendissimum Celsissimumque gloriosae memoriae Principem et Episcopum Monasteriensem ac Paderbornensem <hi rend='italic'>Ferdinandum, liberum Baronem de Furstenberg,</hi> Musarum quondam delicium et praesidium, alterum <hi rend='italic'>ad Stephanum Baluzium</hi> V. Cl. Galliae suae, imo orbis eruditi decus et ornamentum, et ab his ad illustrem parentem tuum scriptas complectitur. Quas quidem, cum velut in gustum futuri operis sint praemissae, ejusmodi esse affirmare possum, ut nec reliquarum quasi his inferiorum desiderium extinguere debeant, neque tamen non reliqui operis exspectationem praeclare sustinere possint. Ut enim, quae deinceps forte prodibunt, suis quaeque dotibus placere poterunt,
+<pb id='s008'/>
+nec, alienis ne obscurentur luminibus, verendum erit: ita quas nunc emittimus, iis doctrinae opibus instructae, eâ morum gratia conditae, tam pura dictionis venustate sunt exornatae, ut non aliunde auspicatius procedere Epistolarum editio, nec acrius reliquarum desiderium accendi potuis. se videatur. Quare, nisi omnia me fallunt, non dubito, quin quicquid in orbe erudito est elegantiorum ingeniorum, magnam de literis hisce in publicum editis Tibi gratiam habeat, et ardentibus votis reliquarum editionem non tam expetat quam flagitet. Patieris vero Te, <hi rend='italic'>Nobilissime Conringi,</hi> pro tuo in bonum publicum studio et in paternum nomen pietate haud difficulter exorari, siquidem me haud vanum fuisse augurem, vel falsum publicorum votorum interpretem cognoveris. Atque adeo ausim jam tum bonitatis Tuae fiducia polliceri publico epistolas inter Perillustrem <hi rend='italic'>Baronem de Boineburg</hi> Parentemque tuum per aliquot annos frequentissime missas, quae itidem in peculiare volumen hoc multo spissius proxime colligantur. Qui meminerunt (quis vero eruditorum non meminit?) Excellentissimum istum
+<pb id='s009'/>
+Eminentissimi Electoris Moguntini Administrum fuisse Germaniae nostrae Maecenatem, seu recentior placet comparatio, Peirescium, qui cura, provisu, ope, et praesidio rei literariae salutem et incrementa complexus eruditos passim excitaverit foveritque: jam sine vate divinabunt, quid ex his literis sibi polliceri debeant. Qui vero norunt eximium istum Heroa lirerarumque fugientium statorem uno omnium Conringio usum esse familiarissime, inque ejus sinum intima pectoris sui sensa et judicia effudisse: fieri non poterit, quin harum literarum ingenti exspectatione teneantur: quas sane qui legerit, non multum Historiam illorum temporum literariam desiderabit. Adderem et civilem: siquidem tempora ferrent, ut sine periculo publicari possent, quae de summis Reipubl. negotiis in hoc literarum commercio subinde reperimus annotata. Sed de his pro tua prudentia videbis: quaeque sine cujusquam offensione bono publico edi poterunt, haud gravatim Conringiani nominis, hoc est,
+<pb id='s010'/>
+variae solidaeque doctrinae studiosis imperties. Quo pacto et de re literaria bene mereberis, et paternae famae rectissime consules. Quae ut non solum literarum monumentis (quod quamdiu suus literis constabit honos, aliter futurum non est) sed et felicissima generis nominisque Conringiani propagatione in omnem usque posteritatem incolumis florens que transmittatur, ex animo precor. Salve et vale <hi rend='italic'>Vir Amplissime.</hi> Dab. Helmst. X. Kal. Maji in Acad. Julia. M DCC XCIV.</p>
+</div>
+</front>
+<body>
+<pb id='s011'/>
+<div1 id='CoSH.01' n='1' type='book'>
+<div2 id='CoSH.01.01' n='1' type='biography'>
+<head>VITA HERMANNI CONRINGII EXCERPTA <hi rend='italic'>e</hi> PROGRAMMATE FVNEBRI ab <hi rend='italic'>ACADEMIAE JULIAE</hi> tum temporis Pro-Rectore <hi rend='italic'>MELCHIORE SMIDIO V. Cl. P. P. conscripto.</hi></head>
+<pb id='s012'/>
+<gap desc='blank space' resp='sampling'/>
+<pb id='s013'/>
+<p><hi rend='italic'>VITA</hi> HERMANNI CONRINGII.</p>
+<p>HERMANNUS CONRINGIUS natus est Anno M DCC VI. Nov. d. 9. Nordae, Frisiorum urbe, parente HERMANNO CONRINGIO, Ecclesiae ibidem Antistite, avo autem JOHANNE CONRINGIO ob religionis perseqvutionem ex Transisalania eo profecto; Matre vero GALATEA, RUDOLPHI COPINI primum in Ostsrisia, postea vero in Hollandia Delphensis Ecclesiae parochi, filiâ, foeminâ pietatis et prudentiae singularis, cujus HERMANNUS noster fuit proles nona.</p>
+<p>Quintum aetatis cum ageret annum, pestilente morbo, illic locorum grassante, quâ sorores ejus omnes extinctae, fratre in hac Academia jam tum vivente, correptus est, ita ut sub dextra mamilla anthrax ei fuerit exurendus. Doloribus illis territus puer, bubones duos ad ingven postea exortos occultavit, quorum quidem venenum naturae bonitas et ineuntis aetatis vigor superavit, sed valetudinem tamen misere afflixit, in foedam et malignam scabiem mali reliquiis desinentibus, usque adeo, ut aliquot a morbo mensibus, vix pedibus potuerit incedere, et longo tempore vires recolligere nequierit. Hinc factum, ut non ante sextum aetatis annum elementa prima et literarum characteres
+<pb id='s014'/>
+in ludo addidicerit, ubi statim ingenii et memoriae felicitas, atque indoles liberalium artium doctrinis apta emicuit. Quippe paucorum dierum spatio legere, et pietatis, Christianaeque religionis potiora capita pueris ediscenda proponi consveta, memoriae mandavit. Sed mox et corpusculi teneritudo, quod cum variis adhuc conflictabatur morbis, et malitia condiscipulorum effecit, ut illa hyeme ludum non frequentans, domi a matre sit edoctus. Septimo itaque tandem aetatis anno in Latinitatis, cujus quaedam primordia delibaverat, scholam missus est.</p>
+<p>Septennium in hoc ludo literario peregit, ubi pleraqve sua sponte, non Praeceptorum industria, ita asseqvutus est, ut alii aetate ipsum et corporis proceritate multum superantes, cum subinde eos in certamine vicisset et superiore loco sedere meruisset, odio eum proseqvuti sint, ideoque integrorum mensium ferias ille agere coactus sit. Jam tum infinitae illius Historiarum notitiae initia a <hi rend='italic'>Bucholzeri Indice Chronologico</hi> fecit, et futuri magnificentissimi quasi aedificii fundamenta altissima jecit. Annum agens decimum quartum lusit satyra quadam in <hi rend='italic'>poetas coronatos,</hi> quae cum forte fortuna in manus Cornelii Martini, hujus Academiae tunc temporis philosophiae doctoris longe celeberrimi, venisset, adeo ejus lepore et elegantia captus est, ut et sibi transmitti hunc Hermannum desideraverit, et literas ea de re ad ejus parentem dederit, quibus ei persvasum ivit, ut ingenii magis magisqve in hac studiorum Universitate excolendi gratia filium sibi crederet. Venit igitur in hoc Musarum domicilium Anno M DCC XX.
+<pb id='s015'/>
+et nomen dedit civitati Academicae d. 25. Octobris, aedibus et convictu Cornelii Martini usus usque ad beatum viri ex hac vita discessum. Tunc enim ad Clariss. Virum Rudolphum Diepholdium, Graecae Linguae Professorem, Geographiae et Historiarum oppido peritum mag istrum, se contulit, apud quem biennium commoratus est, donec parentes, calamitatibus publicis non parum attriti, eum ex Academia revocandum duxerunt. Quanquam anno sequente, qui hujus seculi XXIV. reversus erat: tamen peste grassante et bello hîc quoque irruente non multo post remeare fuit coactus. Sicut itaqve a divino Cornelii, Academiae hujus immortalis decoris, ore solida ingenii nutrimenta primum acceperat, ita porro per ejus successorem et collegas Aristotelicae imprimis, tanquam melioris doctrinae, praeceptis est imbutus. Neque interea Lingvarum tam Graecae quam Latinae cognitionem accuratiorem aut cultum politiorem sprevit, sed exemplo horum Magistrorum utrumqve studium, suo commodo et magno emolumento, conjunxit. Non eo solum felix, quod in optimos inciderit utilissimarum scientiarum doctores, sed etiam, quod procul a vanitatibus ac deliciis aliis, ab omnibus studiorum avocamentis remotus, summa discendi cupidine ductus, divinoque ingenii vigore per quodlibet honestarum doctrinarum genus fuerit grassatus. Anno igitur 1625. Lugdunum, Athenas illas Belgicas, petiit, ibiqve, et per totam Hollandiam, varietatem opinionum de Deo, ejusque cultu, tam vulgi quam a vulgo secretorum hominum miratus, temperare sibi non potuit, quin Theologicis controversiis,
+<pb id='s016'/>
+veritatis divinae perspiciendae ergo, aliquid temporis tribueret. Interim tamen etiam Medicinae operam dedit indefessam, ut praxeos et medendi tyrocinium ibi quoddam posuerit. Quinquennio peracto, etsi Lutetiam Parisiorum invitaretur, tamen Juliam Academiam, ex qua spes obtinendae Professionis Naturalis Philosophiae allucebat, aliis omnibus longe praetulit, et nullis belli incommodis deterritus, licet cuncta hinc milite hostili obsessa et infesta essent, reversus est. Anno igitur trigesimo secundo commendatione illorum, qui ipsum propius noverant, Professorum, Sereniss. Dn. Frider. Ulrico D. Br. et Luneb. innotuit, inde statim desideratam publice in hac Academia docendi Spartam obtinuit. Erat autem tunc Martis furore misera Germaniae facies, et haec Julia desolata, oppidumque infrequentiâ civium et incolarum inopiâ graminosas habebat plateas, et nusquam tutae peregrinationes, imo exercitu Papenheimico territi, alius alio, ipse cum multis aliis Brunsvigam discessit. Anno seculi 34. Disputatione de Scorbuto publice habita, summorum in Medicina honorum petendorum licentiam impetravit, et biennio post tam Philosophiae quam Medicinae Doctoris insignibus fuit ornatus, simulque eodem die 21. Aprilis Johann. Stuckii Viri, ut ingenio et judicio maximi, ita inter excellentissimos hujus seculi Juris Consultos numerandi, tunc hujus Academiae Antecessoris primarii, filiam secundo genitam, ANNAM MARIAM, jam moestissimam viduam, matrimonio sibi junxit. Durante matrimonio auspicatissimo per quadraginta annos et 7. menses auctus est non liberis minus quam opibus:
+<pb id='s017'/>
+Nempe undecim liberorum ex ea pater factus, ex quibus quatuor, binos filios, binasqve filias amisit teneros, reliquos superstites sibi reliquit, filium nim. Virum Nobilissimum Consultissimumqve HERMANNUM JOHANNEM Sereniss. ac Potentiss. Electoris Brandeb. Consiliarium, et Dicasterii Aulici Gvelferbytani Assessorem Gravissimum, nobilis Conringiani nominis ut haeredem unicum, ita felicem in filiis procreatis propagatorem: tum filias sex fausto omine elocatas omnes, et dignis genere virtutibusqve suis matrimoniis illigatas.</p>
+<p>Caeterum, ut ad ipsum Conringium nostrum revertar, quantopere â Deo fuerit ornatus, quam capacissimum ipsi fuerit ingenium, quam acre judicium, et omnibus gratissima morum fuavitas, quâ facile cujusvis favorem, Principum gratiam et clementiam, inferiorum observantiam sibi conciliaverit, inter omnes, qui eum noverunt, constat. Accessit indefessum quidvis addiscendi et assequendi studium, non labore, non vigiliis fractus aut dejectus fuit a proposito, ut propterea honore et auctoritate undique partâ, immortale et aeternum limpidumque Germaniae, imprimis autem hujus Academiae sit decus. Et primo quidem Naturalis Philosophiae professio, non multo post quam hic con - jugio inito domicilium fixit, Serenissimi Principis et Domini Dn. Georgii Ducis Brunsvic. et Luneburg. clementissimo jussu cum Medicinae docendae munere publico permutata est; atque cum Viri undique emineret excellens plane doctrina, stipendium non vulgare aut ordinarium tantum, sed cum quartae partis augmento
+<pb id='s018'/>
+ei statim est numeratum. Hac ratione tam docendo quam faciendo medicinam aliaque <gap desc='Greek word(s)'/> suâ gloriam non exiguam nominis excitavit. Utut vero antiquorum amator et venerator esset singularis: ad novorum tamen dogmatum in Medica arte prolatorum examen eo accedebat judicio, quod ipsi naturalis discernendi verum a falso dexteritas, et inquirendae veritatis indefessum studium suppeditabat. Quemadmodum igitur Harvejanum de motu sangvinis cir culari inventum approbavit, et in hac Academia primus asseruit atque docuit; ita Paracelsicas nugas oppugnavit et disjecit. Ex Anatome corporis humani frequenter publice instituta obser vationes suas cum venerandae antiquitatis placitis diligenter contulit, et ubique solertiam suam omnibus luculenter demonstravit. Neque Medicis illis curis laboribusqve ita totus occupari poterat, quin rerum civilium et Imperii Germanici accuratiorem doctrinam et juventuti Academicae in stillaret, et scriptis orbi erudito approbaret. Hinc factum ut patria terra Frisiorum quasi invidere coeperit huic Ducatui et Academiae suum popularem. Namque accersitus est Ann. 1649. atque ab Illustrissima Principe tunc regente, honorificentissimo Archiatri et Consiliarii intimi munere ornatus, rediit. Annovero insequente a Serenissima Christina, Sueciae Regina, praestantium virorum ut aestimatrice ita etiam singulari tunc patronâ, per illustrem Virum Joann. Adlerum Salvium Legationes Regias obeuntem, in Sveciam, amplissimis conditionibus propositis, evocatus est. Etsi vero nihil quicquam in sua Julia desideraret, tamen magis fama Reginae, quae
+<pb id='s019'/>
+ex tota Germania plerosque extantes eruditionis gloriâ Viros colligere inter potiores curas regiminis sui habuisse videbatur, videndae et alloquendae, quam majoris stipendii aut salarii gratia, iter in Sveciam 20. Maji 1650. Serenissimorum Ducum nostrorum permissione impetrata, ingressus est. Postquam Holmiam appulit, a Regina et omnibus regni proceribus summa quidem clementia et favore exceptus est, tamen quae offerebantur conditiones, ipse suscipere detrectavit, et post trimestre tempus, non sine opulentissimis donis et regiis munerationibus, imo Consiliarii et Archiatri regii dignitate affectus, reversus est. Nec cessavit Regia Christinae Majestas, clementiam suam et magnificentiam etiam erga absentem exponere, cui non ita multo post literis salarium annuum mille sexcentorum thalerorum promisit. Cumque postea iterum solicitaretur ejus in Sveciam reversio, Serenissimis Principibus et Ducibus Brunsv. et Luneb. hâc re humiliter sig nificata, clementissimum obtinuit responsum, cui acquiescens, hic commorari, quam in Sveciam abire maluit. Tanto quippe favore et amore Academiam suam Serenissimi Duces nostri semper foverunt, ut ex eâ praeclaros viros dimittere noluerint. Conringii autem singulares ingenii dotes tanti aestimaverunt, ut salario aucto, alteram ei Civilis scilicet Prudentiae, Professionem ipsi contulerint. Ex eo tempore firmum habuit propositum nusquam hinc migrandi, sive in aulam, sive ad alias Academicas vocaretur. Et quidem licet semper Politicarum rerum fuerit avidus et curiosus, tamen cum jam hanc liberalioris eruditionis partem,
+<pb id='s020'/>
+non sane ultimam, publico stipendio docendi Spartam esset nactus, de novo ad haec studia diligentius excolenda summopere est incitatus. Quid vero et in hac parte et ei cognata Imperii nostri interiore notitia, ingenio et vigiliis suis sit asseqvutus, Germania universa non modo, sed vicina quoque regna et totus, qua Latina Lingva intelligitur, terrarum orbis dudum perspexit.</p>
+<p>Et jam nusquam non per Germaniam innotuerat ejus incomparabilis historiae et antiquitatum Germanicarum cognitio et peritia, cum in rebus ad Rempubl. pertinentibus, ad controversias inter Principes, et Urbes, Coenobia et regalia spectantibus, consilia ejus passim expeti coeperunt. Anno 1652. ad Ducatûs Bremensis Archivum inspiciendum et ordinandum tanquam interioris Consilii particeps fuit a Svecis adhibitus; Autumno vero in Frisiam de rebus summis vocatus, utrumqve negotium feliciter peregit. Similique in labore anno insequente perrexit, quo homagium a nonnullis Frisiis nomine Illustrissimae Principis viduae recepit. Ulterius emicuit ejus rerum Germanicarum singularis cognitio, cum Eminentissimi Electoris Moguntini, cui jus coronandi Imperatorem eruditissimo edito scripto asseruerat, gratiam atque clementiam meruit. Cum ann. 1658. ut alias antea saepius, in Frisia ageret, ibiqve rebus maximis deliberandis adhiberetur, Sereniss. et Potentiss. Carolus Gustavus Rex Sveciae in Holsatiam accersitum Conringium sibi Consiliarium atque Archiatrum, mille quingentorum Joachimicorum annuo salario promisso, creavit; ea conditione,
+<pb id='s021'/>
+ut, si ipse in Sveciam se suamque familiam transferre vellet, alterum tantum quotannis ei numeraretur. Sed tam hoc, quam alia maximae dignitatis munia oblata recusavit, et semper Academicam vitam, tranquillitatem et honestissimum otium aulicis conditionibus vitaeque actuosae praeferens, in dulci Musarum sinu placide quiescere, quam fortunae inconstantis strepitum terroremque alibi metuere, maluit. Eodem anno, scriptus de <hi rend='italic'>Vicariatu Imperii</hi> libellus Serenissimo Electori Palatino Carolo Ludovico, qua erat prudentiâ et aestimandorum doctrinae singularis librorum sagacitate, usqve adeo sese probavit, ut suam erga Conringium liberalitatem et clementiam donario egregio testaretur. Cum subinde negotiis Ostfrisicis occupatus teneretur, accidit ut Anno 1660. Legato Regis Galliae Domino Gravellano, in aula Serenissimi Dn. Domini AUGUSTI, Duc. Br. et Luneb. agente, ipse gloriosae memoriae Princeps Conringii praesentiam requireret: qva occasione, perspectâ Principi laudatissimo beati nunc Viri, incomparabili rerum non ad Germaniam tantum ejusqve regimen spectantium, sed etiam ad vicina regna pertinentum eorumqve statum et conditionem penitiorem respicientium notitiâ et peritiâ, in Consiliariorum suorum numerum eum adoptavit, quam etiam retinuit dignitatem usque ad beatissimum illius Principis obitum. Is enim tanqvam eruditorum aestimator et Patronus maximus ob variam eruditionem et reconditarum rerum notitiam Conringium amabat, cumque illam Augustam, nulli in toto terrarum orbe secundam Bibliothecam condidisset,
+<pb id='s022'/>
+ipse eleganti editâ Epistola inter exteros eam celebrem, ut meretur, effecit. Interea cum maximum per omnem Europam cum viris eruditione excellentibus literarum haberet commercium, inter illos etiam cum Illustri Viro Joanne Capellano Galliarum Regis Consiliario aliquod ei intercessit, qui ipsum Illustriss. Domino Colberto ejusdem Regis Ministro Status, tanquam inter Germaniae Viros doctrinâ excellentes praecipuum commendavit.</p>
+<p>Anno itaque 1664. Ludovicus Rex Galliae doctissimis aliquot in Germania et Belgio Viris stipendia annua mille librarum numerare jubens, tantum abfuit, ut hunc in illo excellentissimorum virorum numero praeterierit, ut potius non simplum, sed cum singulari augmento, usqve ad initia belli cum Belgis suscepti, continuata Regia liberalitate, illud numerari fecerit.</p>
+<p>Anno 1667. Coloniensis ad Rhenum liberae Civitatis Senatus de controversiis, quas habet illa urbs cum suo Archi-Episcopo et Electore, consilium expetivit Conringii, cumqueve ipsius praesentia requireretur, accersitum honorificentissimeque ibi tractatum amplissimis munerationibus ornatum remisit.</p>
+<p>Anno 1669. Serenissimus Rex Daniae eum Consiliarium status sibi esse clementissime voluit, quam dignitatem permittentibus Serenissimis Ducibus Brunsv. et Luneburg. accepit.</p>
+<p>Acres illae inter Lindaviensem ad lacum Brigantinum sitam rempubl. et Coenobium illius loci, passim notae lites et controversiae, inter alia niti videbantur diplomate a Ludovico Imperatore Coenobio illi dato;
+<pb id='s023'/>
+Senatus igitur Urbis Conringii nostri, tanquam earum rerum gnarissimi sententiam requisivit, qui edita <hi rend='italic'>Censura</hi> sua Anno 1672. toti erudito orbi falsitatem ejus <hi rend='italic'>diplomatis</hi> demonstravit.</p>
+<p>Denique et ipsa Imperialis aula de opere aeterno <hi rend='italic'>de Finibus Imperii</hi> tam sensit magnifice, ut sua interesse summopere existimaverit illius libri secundam editionem, suoque modo auctiorem prodire; jussit igitur ante biennium hunc laborem ut resumeret, quod quidem ille agere coepit, sed hisce difficillimis temporibus et dubiis rebus, non sine animi quadam aegritudine, donec extremus vitae dies finem labori attulit. Quid praeterea summus vir in totius Germaniae commodum scripserit et laboraverit, quia in omnium recentissimâ versatur memoria, hic recensere supersedemus. Unicum tantum est, quod praeteriri non potest. Cum Anno 1648. librum sub nomine <hi rend='italic'>Irenaei Eubuli</hi> edidisset, pacis faciendae rationes ita proposuit, ut Legatis et Deputatis ad Germaniae tranqvillitatem restaurandam congregatis magni aestimatus et quantivis pretii habitus, et ad Germaniae tranqvillitatem reducendam non parum effecisse existimatus sit. Quid in aliis ardui negotii et ad summam Germaniae Imperii pertinentibus rebus consulendo et scribendo effecerit, silentio hîc involvitur. Tandem in Academiae hujus Juliae non solum defensionem, contra calumnias malevolorum, quoties necessitas flagitavit, calamum strinxit, sed etiam, ad totius Ecclesiae nostrae et veritatis defensionem <hi rend='italic'>Vitum Erbermannum Apostatam, Fratres Wallenburchios</hi> aliosque purioris doctrinae Christianae hostes
+<pb id='s024'/>
+oppugnavit. Quae omnia pietatem et prudentiam, divinam cum humana sapientia conjunctam in uno hujus animo fuisse manifesto ostendunt. Inter haec omnia quae scripsit et edidit opera luculentissima nec pauca, non destitit voce studiosam Juventutem sedulo informare, et ut primis publici muneris annis in Naturalium rerum inquisitione, postea in re medica, ita ultimo in Politicis et ad Notitiam Imperii atque publicum statum, fidelissimam manuductionem praestitit. Quantam enim ille sustulit confusionem, Romanarum rerum cum Imperii hodiernis mixtarum? ut scilicet solidâ et perspicua doctrinâ, non per ambages et aniles fabulas Juventus ad ipsam reipubl. nostrae formam certius cognoscendam, felicius aliquando gubernandam, deduceretur. Cum enim omnia ordine justo, non ex alienis sed propriis suis fundamentis et principiis per demonstrationes, quantum rei proponendae natura patiebatur, traderet, mirum non est applausum publicum omnium auditorum fuisse subseqvutum. Ita publicum et geminum docendi munus cum operoso ad communem utilitatem scribendi labore conjunxit. Qui enim summi illius philosophorum Principis Aristotelis inde ab ineunte aetate non lector modo sed admirator et assiduus fuerat sectator, quid mirum si illius vestigia premens, gloriam non dissimilem est conseqvutus? Accedebat ad Veterum Philosophorum, Medicorum, Historicorum, tam sacrorum quam exterorum lectionem, etiam recentiorum scriptorum infinita fere notitia, ut de quacunqve re, sive disserendi sive scribendi animus ipsi esset, memoria, quam felicissimam nactus erat, totum
+<pb id='s025'/>
+de eadem re consignatorum operum chorum ei suggereret, ita ut sine exaggeratione <hi rend='italic'>Bibliotheca vivens, et Museum ambulans</hi> ex re et vero dici meruerit. Sed non hiclocus est ejus laudandiaut elogium scribendi, cujus vitae nudam historiam haec pagina capere non potuit. Corporis fuit in juventute quasi morbidi, postea vero sic satis firmi, nisi quod calculo subinde tentaretur. Sensus, auditum et visum imprimis, vegetos et firmosusque ad extremum retinuit vitae diem, ut minutum characterem, cui scribendo insueverat, legere semper potuerit. Staturam vix mediocrem benignissima natura vastissimo ingenio, memoria fidissima, judicio limpidissimo compensaverat. Et sane, uttenue corpusculum ferendis majoribus laboribus non erat aptum natum, ita illis quae studia requirunt liberalia, vigiliis, lucubrationibus et assiduitati scribendi satis robustum videbatur, ut, nisi quaedam domestica aegritudo, nisi animus subinde turbatus, nisi denique ex publica totius Germaniae non adeo laeta facie aliquid traxisset molestiarum, forsan beati parentis sui qui XCII Itio aetatis anno decessit, longaevitatem haud difficulter consequi potuisset. Verum Deo Opt. Max. aliter visum. Cum enim Natalem suum septuagesimum quintum non sine moerore animi et lachrymis peregisset: ipse virium indies lapsantium infirmitatem sentiens et observans, non procul abesse vitae finem, auguratus est, quod eventus comprobavit. Die enim mensis Decembris tertio cum decumbere coepisset, ejusd. mens, d. 12. Anni M DC LXXXI. pie placidissimeque acquievit Vir immortalitate dignissimus.</p>
+</div2>
+<pb id='s026'/>
+<div2 id='CoSH.01.02' n='2' type='epitaph'>
+<head><hi rend='italic'>EPITAPHIUM</hi></head> 
+<p>HOC TVMVLO 
+CLAVDITVR 
+REGVM PRINCIPVMQVE 
+CONSILIARIVS 
+JURIS NATURALIS GENTIUM 
+PVBLICI DOCTOR 
+PHILOSOPHIAE OMNIS PERITISSIMUS 
+PRACTICAE ET THEORETICAE 
+PHILOLOGUS INSIGNIS 
+ORATOR 
+POETA 
+HISTORICUS 
+MEDICUS 
+THEOLOGUS 
+MULTOS PUTAS HIC CONDITOS? 
+UNUS EST. 
+HERMANNVS CONRINGIVS 
+SECULI MIRACULUM.</p>
+<p><hi rend='italic'>posuit</hi></p>
+<p><hi rend='italic'>HENRICUS MEIBOMIUS.</hi></p>
+</div2>
+<pb id='s027'/>
+<div2 id='CoSH.01.03' n='3' type='bibliography'>
+<head>SCRIPTA CONRINGII.</head>
+<div3 id='CoSH.01.03.01' n='1' type='section'>
+<head>THEOLOGICA</head>
+<p><hi rend='italic'>1. ANimadversiones in Muhlmannum de Purgatorio. Adjecta sunt Conringii Programmata sacra, et Mulmannni ipsius assertiones. Helmst. 1651. in 4to.</hi></p>
+<p><hi rend='italic'>2. Defensio Ecclesiae Protestantium adversum duo Pontificiorum argumenta, petita a successione Episcoporum ac Presbyterorum ab Apostolis usque derivata. ib. 1654.</hi></p>
+<p><hi rend='italic'>3. Concussio fundamentorum fidei Pontificiae ib. 1654.</hi></p>
+<p><hi rend='italic'>4. Responsio ad Valerianum Magnum pro sua concussione. Adjectus est ipse Valeriani libellus. ib. 1654.</hi></p>
+<p><hi rend='italic'>5. Animadversiones in Christophori Haunoldi libellum Concussion. fidei Pontificiae oppositum. Adjectus est libellus ipse bid. 1654.</hi></p>
+<p><hi rend='italic'>6. Responsio altera pro sua Concussione ad Valeriani Magni epistolam nuperrimam, quae calci opusculi subjungitur ibid. 1654.</hi></p>
+<p><hi rend='italic'>7. Epistola de Electione Alexandri VII. Papae, opposita appendici Examinis Erbermanniani. Accessit appendix ipsa. Helmst. 1655.</hi></p>
+<p><hi rend='italic'>8. Animadversiones in fratrum Walenburgiorum Conringii laudati et correcti partem priorem de vocatione extraordinaria primorum Ecclesiae Reformatorum. Quibus etiam sua Concussio Fundam. fid. Pont. ab iniquo contra Evangelicos abusu vindicatur. ib. 1663.</hi></p>
+<pb id='s028'/>
+<p><hi rend='italic'>9. Animadversio in Novenam Sancti Antonii de Padua. ibid. 1675.</hi></p>
+<p><hi rend='italic'>10. Discussio eorum, quae opposuit suae animadversioni in Novenam Antonianam Dionysius Werlensis. ib. 1677.</hi></p>
+<p>Alieno nomine aut ab aliis edita</p>
+<p><hi rend='italic'>Pietas Academiae Juliae programmate publico adversus calumnias cum aliorum tum Aegid. Strauchii asserta. Helmst. 1668.</hi></p>
+<p><hi rend='italic'>Dissertationes de sudore Christi sanguineo et aliis passionem Christi illustr antibus editae, ab Joh.</hi> <foreign lang='GE'>Albrechts</foreign> <hi rend='italic'>in fine</hi> <foreign lang='GE'>der Paßions Andachten</foreign>. <hi rend='italic'>Hildes. 1674. in 12.</hi></p>
+</div3>
+<div3 id='CoSH.01.03.02' n='2' type='section'>
+<head>MEDICA, PHYSICA ET PHILOSOPHICA</head>
+<p><hi rend='italic'>1. DE Origine Formarum Disput. Lugd. Batav. 1629.</hi></p>
+<p><hi rend='italic'>2. Laudatio Aristotelis orationes duae. Helmst. 1633.</hi></p>
+<p><hi rend='italic'>3. Introductio in Natur alem Philosophiam, ac Natur alium Institutionum liber unus, Helmst. 1638.</hi></p>
+<p><hi rend='italic'>4. Exercitationes de Fermentatione ad Billichii Anatomen Fermentationis Platonicae. Francf. 1643. et Lugd. Bat. 1646. in 8. ad calcem libri de generatione et motu sanguinis.</hi></p>
+<p><hi rend='italic'>5. De sanguinis generatione et motu naturali. Helmst. 1643. in 4t. et Lugd. Bat. 1646. in 8.</hi></p>
+<p><hi rend='italic'>6. De Germanicorum corporum habitu antiquo et novo. Helmst. 1646. edit. II. aucta. ibid. 1652. et tertia auctior. ib. 1666. in 4t.</hi></p>
+<p><hi rend='italic'>7. De calido innato sive igne animali liber unus. Helmst. 1647. in 4t.</hi></p>
+<p><hi rend='italic'>8. De Hermetica Aegyptiorum vetere et nova Paracelsicorum Medicina. Helmst. 1648. Edit. II. infinitis locis emendatior et auctior. Helmst. 1669.</hi></p>
+<pb id='s029'/>
+<p><hi rend='italic'>9. Introductio in Artem Medicam. Helmst. 1654. et altero tanto auctior cura et studio Gunth. Christ. Schelhammeri. Helmestadi 1687.</hi></p>
+</div3>
+<div3 id='CoSH.01.03.03' n='3' type='section'>
+<head>HISTORICA, POLITICA ET JURIS PUBLICI</head>
+<p><hi rend='italic'>1. DE Origine Juris Germanici. Helmst. 1643. Editio altera cum opusculis hactenus non editis ib. 1649. Editio III. prioribus auctior, cum opusculis quibusdam novis. ibid. 1665. in 4t.</hi></p>
+<p><hi rend='italic'>2. De Imperio Germanorum Romano liber unus. Helmst. 1644. Propediem nova hujus libelli editio prodibit, e MSto Auctoris auctior.</hi></p>
+<p><hi rend='italic'>3. De Asiae et Aegypti antiquissimis dynastiis adversaria Chronologica. Helmst. 1648.</hi></p>
+<p><hi rend='italic'>4. De finibus Imperii Germanici libr. duo. Helmst. 1654. edit. alter a libro 3tio aucta. Lips. 1680. in 4t.</hi></p>
+<p><hi rend='italic'>5. Assertio juris Moguntini in coronandis Regibus Romanorum. Prodiit (1) sine nomine autoris Moguntiae 1655. et statim eod. anno cum nomine Auctoris Francof. sed (2) auctior et emendatior. Helmst. 1656. et (3) ibid. 1664.</hi></p>
+<p><hi rend='italic'>6. Iterata dissertatio de jure coronandi pro Electore Moguntino contra Colonienses vindicias</hi> <gap desc='Greek word(s)'/>. <hi rend='italic'>Mogunt. 1656.</hi></p>
+<p><hi rend='italic'>7. Iteratarum vindiciarum juris coronandi pro Archidioecesi Coloniensi Examen.</hi> <gap desc='Greek word(s)'/> <hi rend='italic'>Francof. 1656. et praefixo Auctoris nomine emendat. Helmst. 1664.</hi></p>
+<p><hi rend='italic'>8. Castigatio libelli; cui titulus; Anti-Conringiana defensio juris Coloniensis in coronandis Romanorum Regibus.</hi> <gap desc='Greek word(s)'/>. <hi rend='italic'>Francof. 1656. et cum Auctoris nomine emendatior auctiorque. Helmst. 1664.</hi></p>
+<pb id='s030'/>
+<p><hi rend='italic'>9. De Pace perpetua inter Imperii Germanici ordines religione dissidentes servanda libri duo, quorum prior ficto Irenaei Eubuli nomine cura Lampadii prodierat 1648. Helmst. 1657. Edit. II altero tanto auctior prodiit. Lips. 1677. in 4t.</hi></p>
+<p><hi rend='italic'>10. De civili prudentia liber unus. Helmst. 1662.</hi></p>
+<p><hi rend='italic'>11. Propolitica seu brevis introductio in civilem Philosophiam cum adject. nonnullis ejusdem et Hopperi de varia et vera Jurisprudentia. Helmst. 1663.</hi></p>
+<p><hi rend='italic'>12. De antiquissimo statu Helmstadii et viciniae. ibid. 1665.</hi></p>
+<p><hi rend='italic'>13. Censura diplomatis, quod Ludovico Imp. fert acceptum Coenobium Lindaviense, qua simul res imperii et regni Francorum, seculi cumprimis Carolingici, illustrantur. Helmst. 1672.</hi></p>
+<p><hi rend='italic'>14. Exercitationes Academicae de Rep. Imperii Germanici, infinitis locis mutatae et auctae, inque unum volumen redactae. Helmst. 1674. Ed. II. cui accessit dissert. de capitulatione Caesarea. Lips. 1677.</hi></p>
+</div3>
+<div3 id='CoSH.01.03.04' n='4' type='section'>
+<head>SCRIPTA POLITICA ANONYMA VEL PSEUDONYMA</head>
+<p><foreign lang='GE'>15. Gründlicher Bericht von der Ertz-Bischöfflichen Gerechtigkeit über die Stadt Bremen</foreign>. <hi rend='italic'>1652. in 4t.</hi></p>
+<p><hi rend='italic'>16. Cyriaci Thrasymachi Epistola de jusiitia armorum Svecicorum in Polonos. Helmst. 1655.</hi></p>
+<p><hi rend='italic'>17. Vicariatus Imperii Palatinus defensus. 1658.</hi></p>
+<p>NB. Consulto hic omissae sunt editiones et scripta, quae Auctor pro suis non agnovit, nec haeredes agnoscunt. <hi rend='italic'>Veluti Discursus novi de Imperatore Romano Germanico. 1642. de finibus Imperii et imperio Romano Germanico in 8t. quae Lugduni et Floridi Martini nomen mentitur, et quae nuper</hi>
+<pb id='s031'/>
+<hi rend='italic'>Lipsiae prodiit <abbr expan='anno'>ao.</abbr> 1692. in 4t. De Imperii Romano Germanici Rep. Acroamata sex historico-politica cum tractatu ejusd. de Imperio Romano Germanico. Ebroduni 1654. Thesaurus Rerumpubl. Genevensis in 8. contra quem extat Admonitio Conringii 1675. in 4t. aut si qui alii inscio Autore sunt editi, aut inposterum insciis haeredibus, quibus perpetuo S. R. I. Vicariorum privilegio cautum est, excudentur.</hi></p>
+</div3>
+<div3 id='CoSH.01.03.05' n='5' type='section'>
+<head>PHILOLOGICA ET VARII ARGUMENTI</head>
+<p><hi rend='italic'>1. LEssus seu Carmen Heroicum funebre in obitum Dorotheae Principis. Helmst. 1635.</hi></p>
+<p><hi rend='italic'>2. De Antiquitatibus Academicis dissertationes sex. Helmestad. 1651. Eaedem plurimis locis emendatae et insigni supplemento auctae. ibid. 1674.</hi></p>
+<p><hi rend='italic'>3. Dissertatio ad leg. 1. Cod. Theod. de studiis liberalibus urbis Romae et Constantinopoleos. Helmst. 1655. Edit. II. aucta dissertatione de iis, quae in studioso quovis requiruntur, qui in Academia velit studiorum fructum capere. ibid. 1674.</hi></p>
+<p><hi rend='italic'>4. De Bibliotheca Augusta, quae est in arce Wolffenbuttelensi Epistola, qua simul de omni re bibliothecaria disseritur. Helmst. 1661. Edit. II. cura filii e MSto paterno auctior. ibid. 1684.</hi></p>
+<p><hi rend='italic'>5. Epistolae hactenus sparsim editae, nunc uno volumine comprehensae, de varia doctrina. Helmst. 1666.</hi></p>
+<p><hi rend='italic'>6. Epistola Gratulatoria ad Ducem Augustum, qua simul pium Principis institutum de nova S. Scripturae versione a sinistris suspicionibus ac susurris vindicatur. Helmst. 1666.</hi></p>
+<p><hi rend='italic'>7. Vindicatio suorum in Epist. Gratulatoria ad Augustum Ducem Brunsvic. d S. Ebraeo Codice dictorum, ab iniquissimis calumniis Matthiae Wasmuthi. Helmst. 1667.</hi></p>
+<pb id='s032'/>
+<p><hi rend='italic'>8. Paradoxa de nummis Hebraeorum Exercit. Academica de Republica Hebraeorum, et commentariolus de initio anni Sabbatici et messis Ebraeorum. 1675.</hi></p>
+</div3>
+<div3 id='CoSH.01.03.06' n='6' type='section'>
+<head>LIBRI ALIENI a CONRINGIO editi, recensiti et praefatione aut notis illustrati</head>
+<p><hi rend='italic'>1. JAcobus Berengarius Carpus de fractura Cranii cum praefatione Conringii, sed nomine ipsius dissimulato. Lugdun. Batav. 1629.</hi></p>
+<p><hi rend='italic'>2. Tacitus de moribus Germanorum, cum ampla Conringii praefatione de usu historiae et Reipubl. Germanicae notitia Helmst. 1635. Edit. II. cum notis criticis et excerptis monumentorum priscorum de rebus Germaniae antiquae. ib. 1652. Edit. III. multo auctior. ibid. 1678.</hi></p>
+<p><hi rend='italic'>3. Aristotelis Politica latine ex interpretatione Giphanii, cum praefat. Conringii. Helmst. 1637 in 8t. Eadem Graece et latine cum ejusdem introductione. ibid. 1657. in 4t.</hi></p>
+<p><hi rend='italic'>4. Leonis III. Papae Epistolae ad Carolum M. primum editae et notis illustratae ab H. Conringio. Helmst. 1647. Edit. II. auctior et emendatior. ibid. 1655.</hi></p>
+<p><hi rend='italic'>5. Philippi Salmuthi observationes medicae cum H. Conringii praefatione de doctrina pathologica. Accedit Rolandi Capelluti libellus de peste. Brunsv. 1648.</hi></p>
+<pb id='s033'/>
+<p><hi rend='italic'>5. Thomae Fieni Chirurgici libr. XII. primum editi cura H. Conringii. Francf. 1649.</hi></p>
+<p><hi rend='italic'>6. Georgii Wicelii Via Regia. Accessere varia, quibus cum alia multa docentur, tum necessitas Reformationis Ecclesiae Romanae simulque Concilii Tridentini iniquitas ostenditur. H. Conringius in unum volumen redegit, et in singula praefatus est. Helmst. 1650.</hi></p>
+<p><hi rend='italic'>8. Cassandri et Wicelii de sacris nostri temporis controversiis libri duo. Editio emendatior et auctior additis simul eo pertinentibus aliis cura H. Conringii. Helmst. 1659.</hi></p>
+<p><hi rend='italic'>9. De Electione Urbani VIII. et Innocentii X. Pontificum commentarii Historici. Adj. sunt nonnulla alia ejusd. argumenti cum H. Conringii prooemio. Helmst. 1651.</hi></p>
+<p><hi rend='italic'>10. Historia Electionis Alexandri VII. Papae. Adj. sunt opuscula varia ejusdem argumenti cura Hermanni Conringii. Helmst. 1657.</hi></p>
+<p><hi rend='italic'>11. Naamanis Bensenii Exercitatio Politica de summae potestatis subjecto vindicata a Joh. Figlovii aliorumque ineptiis et calumniis, quas parturit liber de imperio absolute et relate considerato, oppositus V. Cl. Hermanno Conringio. Praemissa est ejusdem Conringii Epistola de hoc ipso negotio. Helmestadi 1651.</hi></p>
+<p><hi rend='italic'>12. Archiep. Mechliniensis Rationes, cur abstinuerit a promulgatione Bullae Papalis in Jansenium, recusae cum praefatione Conringii. Helmst. 1654.</hi></p>
+<p><hi rend='italic'>13. Starovolsci Polonia, cum praef. Conring. Wolffenb. 1656.</hi></p>
+<p><hi rend='italic'>14. Hopperi Seduardus, seu de vera Jurisprudentia lib. 12. cura Herm. Conringii. Brunsv. 1656.</hi></p>
+<p><hi rend='italic'>15. Machiavelli Princeps cum aliis nonnullis ex Italico partim nunc demum versis partim castigatis, curante Herm. Conringio. Helmst. 1660.</hi></p>
+<pb id='s034'/>
+<p><hi rend='italic'>16. Animadversiones in Machiavelli Principem. ibid. 1661. Utraque, curante filio, nonnullis locis auctiora prodiere. 1686.</hi></p>
+<p><hi rend='italic'>17. Scioppii Paediae Politices et Naudaei Bibliographia Politica, ut et ejusdem argumenti alia, cura Hermanni Conringii. Helmst. 1663.</hi></p>
+<p><hi rend='italic'>18. De bello contra Turcas gerendo libri varii selecti et uno volumine editi cura Hermanni Conringii. Helmestadi 1664.</hi></p>
+<p><hi rend='italic'>19. Scipionis Claramontii de conjectandis cujusque moribus et latitantibus animi affectibus libri X. cura H. Conringii. Helmst. 1665.</hi></p>
+<p><hi rend='italic'>20. Lampadius de Republ. Romano-Germanica cum annotatis Herm. Conringii ad partes priores duas ac tertiae capita VII. Helmst. 1671.</hi></p>
+<p><hi rend='italic'>21. Joh. Bodini responsio ad paradoxa Malestretti de caritate rerum ejusque remediis. Acc. ejusd. dissertationes de aerario et re nummaria, ut et quae Hopperus docuit de bonorum Caesareorum secundum <abbr expan='Leges'>LL.</abbr> Justinian. curatione. Helmst. 1671.</hi></p>
+<p><hi rend='italic'>22. Jani Dubravii de Piscinis libri 5. cum excerptis ejusd. argumenti aliis, cura H. Conringii et cum ejusd praefationibus. Helmst. 1671.</hi></p>
+<p><hi rend='italic'>Mittimus disputationes longe plurimas quâ Medicas quâ Politicas, ex quibus octo volumina confici possunt: partim ue justo prolixiores simus, partim quod multae illarum Respondentes auctores habeant.</hi></p>
+</div3>
+</div2>
+<pb id='s035'/>
+<div2 id='CoSH.01.04' n='4' type='testimonia'>
+<head>DE HERMANNO CONRINGIO Ejusque Scriptis <hi rend='italic'>Doctorum Virorum</hi> JUDICIA et TESTIMONIA.</head> 
+<div3 id='CoSH.01.04.01' n='1' type='section'>
+<head><hi rend='italic'>HUGO GROTIUS Ep. ad Conring. script. an. 1634. quae est in opere Epist. Grotian. Amstel. 1687. edito 358. Clarissimo eruditissimoque Viro</hi> HERMANNO CONRINGIO Philosophiam profitenti</head>
+<p>ORatorem te praestitisti egregium, Conringi doctissime, cum in Sapientum Principis laudes vim eloquentiae intendisti: nec minus Philosophum, cum ita temperasti laudes Aristotelis, ut posteris non adimeres spem quaedam ipsi ignota discendi, aut temporis magisterio immutandi in melius, si quid felicissimi ingenii, humani tamen, conjectura a vero deflexerat. Plane ita est, ut dicis: <gap desc='Greek word(s)'/> propria Aristotelis dos est, quae in omnibus quidem ejus operibus eximia est, sed quod ejus legem sequi potuerit in tradenda animalium natura ac partibus, re tam varia, tum vero et in Poesi, quam furoris quoddam genus alii dixere, ad miraculum accedit. Tum vero syllogismos abstraxisse â materia, et sic Mathematicis disciplinis hanc addidisse partem in certitudine nihil cedentem caeteris, unius est Aristotelis munus. Quas ob causas aliasque multas, eos qui ex tanti nominis ruina famam sibi aedificare conati sunt, contemtu puniendos censeo: illos vero faciendos plurimi, qui juventutem a rivis partim arentibus, partim limo turbidis ad limpidissimum illum simul uberrimumque fontem revocant. Quare
+<pb id='s036'/>
+scholam vestram Helmstadiensem cum semper amavi, tum nunc hoc amo magis, quod foetus inde tam humano generi utiles video enasci. Me certe non tantum operis istius hic approbatorem, sed et eruditionis praedicatorem semper habebis etc.</p>
+</div3>
+<div3 id='CoSH.01.04.02' n='2' type='section'>
+<head><hi rend='italic'>Id. ad eund. Ep. 670. data Lutetiae 22. Octobr. 1636.</hi></head>
+<p>Quantum poetica facundia valeas, Conringi doctissime, ostendit Lessus, felix Claudiani imitatio: quanta autem in te sit cognitio rerum naturalium, ac praecipue excellentissimi inter corpora humani, et eorum, quae id perpeti natum est, docent theses Medicae, quas ad me misisti, praeter ea, quae antehac tua mihi videre summa cum voluptate atque utilitate mea mihi contigit. Ego vero sicut omnium eruditorum amicitiam feci semper maximi; ita expetivi imprimis illos nosse, illis nosci, quos generosi animi impetus ad scandenda artium culmina, unde vulgus longe despiciatur, impellit. Quare dubitare noli, quin tuo merito tuus sim etc.</p>
+</div3>
+<div3 id='CoSH.01.04.03' n='3' type='section'>
+<head><hi rend='italic'>Idem Ep. 1572. ad Gerardum Bode Respondentem Exercitationis de Urbibus Germanicis, quae in opere Exercit. de Republ. Imp. Germ. est tertia.</hi></head>
+<p>VIR DOCTISSIME</p>
+<p>- - - - Gratias tibi ago ac debere me profiteor summas, quod exactae diligentiae limatissimique judicii opus de Germanicis urbibus meo inscripseris nomine. Proquo honore mihi habito, si quid vicissim possim facere, quod tibi sit svave, id facturus sim et libenter et tuo merito. Legi libellum: planeque censeo, quae ibi scribuntur, esse vera, et historiis, tum illis, quae ibi nominantur, tum minus cognitis aliis, quas vidi, congruentia etc.</p>
+</div3>
+<pb id='s037'/>
+<div3 id='CoSH.01.04.04' n='4' type='section'>
+<head><hi rend='italic'>JOH. HENR. BOECLERUS in S. R. Imperio edit. Argent. 1663. p. 14.</hi></head>
+<p>Id jus (in urbem Romam) cum adhuc hodie durare ostenderit doctissimus Conringius libro, quem in hoc argumento excellenter laudatum volumus, <hi rend='italic'>de Germanorum Imperio Romano,</hi> et in opere <hi rend='italic'>de finibus Imperii</hi> C. IX. et X. Romani imperii titulum non absurde sibi vindicat, cui Roma subest.</p>
+</div3>
+<div3 id='CoSH.01.04.05' n='5' type='section'>
+<head><hi rend='italic'>Idem Ibid. p. 34.</hi></head>
+<p>Verum nec potuisse vel Rudolphi vel Alberti vel Caroli IV. aut ullorum Caesarum donationibus alienari ea, quae sunt imperii, neque non reservatum esse summum jus Imperii in Romanos ostendit, et nobis disputationem ampliorem lucrifecit doctissimus Conringius in praecellenti <hi rend='italic'>de Finibus opere</hi> C. XX. et XXI.</p>
+</div3>
+<div3 id='CoSH.01.04.06' n='6' type='section'>
+<head><hi rend='italic'>Id. in histor. sec. IX. et X. p. 11.</hi></head>
+<p>Addatur de legibus Caroli M. et constitutionibus civilibus et Ecclesiasticis Melchior Goldastus in tomis constitutionum, et Cl. Hermannus Conringius, <hi rend='italic'>de Origine Juris Germanici</hi> c. 7. 10. 12. 13. et 14.</p>
+</div3>
+<div3 id='CoSH.01.04.07' n='7' type='section'>
+<head><hi rend='italic'>Id. Ibid. p. 12. et 13.</hi></head>
+<p>Qualia fuerint sub Carolo M. judicia, idem Conringius de rebus Germanicis praeclare meritus singulari dissertatione <hi rend='italic'>de judiciis Reip. Germanicae</hi> disquisivit.</p>
+</div3>
+<div3 id='CoSH.01.04.08' n='8' type='section'>
+<head><hi rend='italic'>Idem Ibid. p. 282.</hi></head>
+<p>Variatum est in sequentibus temporibus, creditumque vulgo, hoc jus coronandi ad Coloniensem non consvetudine tantum sed lege prorsus transivisse. Sedexorta nuper controversia Moguntinus iterum vicit. Quae occasio fuit conquirendi
+<pb id='s038'/>
+momenta rationum ab utraque parte, venitque ad manus meas, dum haec scribo, Francofurti excusa <hi rend='italic'>Assertio juris Moguntini in coronandis Regibus Romanorum</hi> a Clar. Conringio scripta.</p>
+</div3>
+<div3 id='CoSH.01.04.09' n='9' type='section'>
+<head><hi rend='italic'>Id. Ibid. p. 286.</hi></head>
+<p>Fridericus I. Aquisgranensibus privilegium a Carolo M. concessum, ut ajebant (vel ut fingebant, quod Cl. Conringius in assertione juris Moguntini monuit) super hoc negotio confirmavit.</p>
+</div3>
+<div3 id='CoSH.01.04.10' n='10' type='section'>
+<head><hi rend='italic'>Idem Ibid. p. 295.</hi></head>
+<p>Imperii Romani et Imperatoris Romani nomen, qui restrinxerunt ad urbem Romam, quaeque ejus ditionis sunt, exclusis omnibus aliis, ipsoque Regno Longobardico, ceu, ut postea dici coepit, Italiae; satis magna ratione motos dixeris, ad distinguendum, quae in hac disputatione plerumque confusius agitantur. Id quod incomparabili dexteritate praestitit Cl. Conringius in libro <hi rend='italic'>de Germanorum Imperio Romano.</hi> Sed ea diligentia in Historicis frustra forte quaeritur.</p>
+</div3>
+<div3 id='CoSH.01.04.11' n='11' type='section'>
+<head><hi rend='italic'>Idem in dissert. de eo, quod civitas egit.</hi></head>
+<p>Laudat Conringii ista verba ex introductione in Aristotelis Politica: <hi rend='italic'>Civitate significari totum quid sicut anima significat totam substantiam animatam,</hi> et <hi rend='italic'>addit:</hi> Libenter utor verbis doctissimi Conringii: quorum veritas tum ex infinitis Aristotelis locis, tum ex hac ipsa disputatione, quae primum libri 3tii caput constituit, demonstrari potest.</p>
+</div3>
+<div3 id='CoSH.01.04.12' n='12' type='section'>
+<head><hi rend='italic'>JOH. LIMNAEUS not. ad Capitul. p. 136.</hi></head>
+<p>Creditum hactenus vulgo fuit, Lotharium Imperatorem Romanas leges in Germaniam introduxisse: at quam longe
+<pb id='s039'/>
+a vero haec abeat opinio, non ita pridem docuit Herm. Conring. de origine juris Germ.</p>
+</div3>
+<div3 id='CoSH.01.04.13' n='13' type='section'>
+<head><hi rend='italic'>STEPHANUS BALUZIUS praefat. ad Capitul. Francorum n. 1.</hi></head>
+<p>Ita sensisse reperio virum inter Germanos doctissimum Hermannum Conringium in libro de origine juris Germanici c. 19. ubi et verba quaedam Conringii ex eo libro laudantur.</p>
+</div3>
+<div3 id='CoSH.01.04.14' n='14' type='section'>
+<head><hi rend='italic'>Idem Ibid. n. 44.</hi></head>
+<p>Verum recte admonuit Herman. Conringius, falsam esse eorum sententiam, qui collectionem jussu Concilii Meldensis factam putant. <hi rend='italic'>In margine citatur</hi> lib. de origine juris German. c. 15. et 17.</p>
+</div3>
+<div3 id='CoSH.01.04.15' n='15' type='section'>
+<head><hi rend='italic'>Autor vindic. Anhaltinarum qui est MARTINUS MILAGIUS, Cancellarius Anhaltinus in refutatione Eclipseos p. 42.</hi></head>
+<p>Hic tamen Eclipsis erroneam illam relationem perstringi a Conringio. Eruditus certe est viri hujus rerum Germanicarum periti tractatus, quem nobis de Origine juris exhibuit.</p>
+</div3>
+<div3 id='CoSH.01.04.16' n='16' type='section'>
+<head><hi rend='italic'>MONZAMBANUS de Statu Imperii c. 5.</hi></head>
+<p>Ad potestatem legislatoriam pergimus. Ea cui competat, planius adparebit, si intelligamus, quali jure et unde introducto Germania utatur. Ubi facem nobis praetulit Hermannus Conringius erud. tractatu de origine juris Germanici, quem hic fere sequimur.</p>
+</div3>
+<div3 id='CoSH.01.04.17' n='17' type='section'>
+<head><hi rend='italic'>Idem in praefat.</hi></head>
+<p>Berolino me digressum aula Ducis Brunsvicensis excepit. Ubi praeter caetera gratissimum fuit miscere sermones
+<pb id='s040'/>
+cum Professore ex vicina Academia, quem jam tum Ratisbonae a rerum patriarum notitia insigniter commendari audieram. Nam et in plerisque circa statum Germaniae mecum consentiebat, et sua scripta longe diversum a reliqua turba genium prae se ferentia, promte communicabat. In quibus etsi multa sat libere posita erant, non obscure tamen apparebat, non parum ipsum dissimulasse declinandis potentiorum offensis, aut ne insulsorum hominum clamores in se irritaret.</p>
+</div3>
+<div3 id='CoSH.01.04.18' n='18' type='section'>
+<head><hi rend='italic'>ERICUS MAURITIUS de Principiis juris publ. cap. 2. §. 3. edit. Tubing. 1665.</hi></head>
+<p>Singulae gentes suum habent idque peculiare jus publicum etc. Quod et more suo accurate observat H. Conringius <hi rend='italic'>in MStis notis ad Lampadium</hi> in praefatione.</p>
+</div3>
+<div3 id='CoSH.01.04.19' n='19' type='section'>
+<head><hi rend='italic'>Idem ibid. §. 6.</hi></head>
+<p>Qua de re operae pretium est afferre integrum et elegantem H. Conringii locum, excerptum ex <hi rend='italic'>praefatione, quam Cornelii Taciti de Moribus Germanorum</hi> libello prolixam praemisit, cujus postrema se nobis valde probant. <hi rend='italic'>Apparet,</hi> (verba ipsius sunt) <hi rend='italic'>cuivis vel leviter in hanc juris publici scientiam intuenti etc.</hi></p>
+</div3>
+<div3 id='CoSH.01.04.20' n='20' type='section'>
+<head><hi rend='italic'>Idem in dissert. jur. publ. de origine Elect. et comitiis Elector al. c. 2. th. 3.</hi></head>
+<p>Altera de Vicariatu controversia hodieque durat, dum illam ad se pertinere utraque domus, abnuente altera, perhibet. Palatinus causae suae patronos inter alios esse voluit Viros celeberrimos Hermannum Conringium (is enim autor est libri anonymi, qui inscribitur <hi rend='italic'>Vicariatus Imperii Palatinus defensus</hi>) Joh. Freinsheimium etc.</p>
+</div3>
+<pb id='s041'/>
+<div3 id='CoSH.01.04.21' n='21' type='section'>
+<head><hi rend='italic'>JOH. STRAUCHIUS JCtus, in disput. priore ad Tac. de moribus Germanorum habita Lipsiae an. 1650. cum ibi historias profiteretur.</hi></head>
+<p>De causis habitus corporum Germanorum, non est meae professionis agere. Videant et videantur Medicorum filii, et qui peculiarem huic rei dedit non ita pridem tractatum H. Conringius Medicus et Historico-Politicus Excellentissimus.</p>
+</div3>
+<div3 id='CoSH.01.04.22' n='22' type='section'>
+<head><hi rend='italic'>JOH. HENR. MEIBOMIUS libro posthumo de cervisiis C. 3. §. 25.</hi></head>
+<p>Ab hac sicera sequior aetas siceratores dixit, non sicerae tantum sed aliorum potuum confectores. Carolus M. Imp. in capitulari de villis, edito â Clariss. et amicissimo nobis Hermanno Conringio etc.</p>
+</div3>
+<div3 id='CoSH.01.04.23' n='23' type='section'>
+<head><hi rend='italic'>Idem ibid. C. 25. §. 15.</hi></head>
+<p>Quibus (scriptoribus cervisiae usum et commoda praedicantibus) adde eruditissimum H. Conringium, amicum nostrum singulari libro <hi rend='italic'>de Germanicorum corporum habitu antiquo etc.</hi></p>
+</div3>
+<div3 id='CoSH.01.04.24' n='24' type='section'>
+<head><hi rend='italic'>DAVID BLONDELLUS Geneal. Francicae plen. assert. tom. I. XLIX. fol. 46.</hi></head>
+<p>Leonis III. ad Carolum M. decem epistolas ex membranis Helmstadii ante aliquot annos reconditioris eruditionis vir Hermannus Conringius edidit.</p>
+</div3>
+<div3 id='CoSH.01.04.25' n='25' type='section'>
+<head><hi rend='italic'>BRIANUS WALTONUS in Prolegomenis ad Biblia Polyglotta proleg. II. n. 3.</hi></head>
+<p>Imo non desunt viri docti magnique judicii, qui Hermetem istum Mercurium Aegyptium, et omnia quae de ipso feruntur, esse fabulose conficta asserunt: ut videre est apud Conringium virum doctissimum lib. de Hermetica Medicina c. 7.</p>
+</div3>
+<pb id='s042'/>
+<div3 id='CoSH.01.04.26' n='26' type='section'>
+<head><hi rend='italic'>THEOPH. SPIZELIUS de re literaria Sinensium p. 66.</hi></head>
+<p>Omnem hunc literarum hieroglyphicarum thesaurum, speciosam illam Bembinam tabulam, et quicquid praeterea passim superest, ne per Oedipum solidae quicquam suppeditare doctrinae judicat incomparabilis Conringius lib. 1. de Hermet. Medic. c. 14.</p>
+</div3>
+<div3 id='CoSH.01.04.27' n='27' type='section'>
+<head><hi rend='italic'>ATHAN. KIRCHERUS Mundi subterr. lib. XI. sect. 2. C. 7.</hi></head>
+<p>Unde eruditus Conringius in suo <hi rend='italic'>de Hermetica Medicina</hi> insigni sane libro recte refert: Paracelsus, quantumvis acuti fuerit ingenii etc.</p>
+</div3>
+<div3 id='CoSH.01.04.28' n='28' type='section'>
+<head><hi rend='italic'>DANIEL GEORG MORHOFFIUS de metallorum transmutat. p. 101.</hi></head>
+<p>Venio ad alteram dissertationis meae partem de Antiquitate hujus artis et autoribus, per quos illa tradita est et propagata. Quo in argumento cum dudum summo ingenio ac industria versati fuerint Viri praeclarissimi: Conringius libro de Medicina Hermetica, Reinesius in defens. Chymiatriae Borrichius libro de ortu et progressu Chemiae, quid opus est cramben illam a nobis recoqui?</p>
+</div3>
+<div3 id='CoSH.01.04.29' n='29' type='section'>
+<head><hi rend='italic'>M. AURELIUS SEVERINUS Neapol. in vipera Pythia ed. Patav. 1651. p. 345.</hi></head>
+<p>Quod advertit naturae consultissimus Hermannus Conringius in Academia Julia Professor et scriptor absolutissimus in libro de generatione et motu sanguinis. c. 17.</p>
+</div3>
+<div3 id='CoSH.01.04.30' n='30' type='section'>
+<head><hi rend='italic'>JOH. RIOLANUS de motu circulat. sanguinis in grandi opere Anthropographiae edit. Par. 1649. p. 554.</hi></head>
+<p>Post Leidenses Medicos nuper in lucem prodiit liber Hermanni Conringii Professoris in Academia Julia doctissimi,
+<pb id='s043'/>
+qui strenue defendit circulationem sanguinis per cor et pulmones.</p>
+</div3>
+<div3 id='CoSH.01.04.31' n='31' type='section'>
+<head><hi rend='italic'>PAULUS MARQ. SLEGELIUS in comment, de motu sanguinis contra RIOLANUM, in praefat.</hi></head>
+<p>Ab hoc (Caspare Hoffmanno) si quis inter Germanos antiquitati est deditus et veterum gnarus: certe est Hermannus Conringius Phil. et Medicus Excellens. Hic vero in epistola an. 1640. ad me scripta fatetur, venerari se <gap desc='Greek word(s)'/>, si quem alium: at sensibus magis fidere. Item vel invitum se rapi in castra Harveji et manus dare. Inquisivit autem studiosissime in totam hanc doctrinam, et ipse egregio opere illustriorem reddidit.</p>
+</div3>
+<div3 id='CoSH.01.04.32' n='32' type='section'>
+<head><hi rend='italic'>THOM. BARTHOLINUS praef. ad Lectorem libri de luce hominum et brut. edit. secundae. 1669.</hi></head>
+<p>Post prima prioris editionis lineamenta, alii non inglorii in hac luce se exercuerunt Hermannus Conringius seculi ornamentum in <hi rend='italic'>igne animali</hi> etc.</p>
+</div3>
+<div3 id='CoSH.01.04.33' n='33' type='section'>
+<head><hi rend='italic'>VINCENT. PLACCIUS catal. Pseudon. p. 190.</hi></head>
+<p>Irenaei Eubuli Theologi Austriaci de pace perpetua Protestantibus danda Consultatio Catholica Frideb. 1648. publicata, doctissima ac omnibus a rerum usu publico juxtaque religionis ac eruditionis cura non omnino remotis innotuit non minus ac Illustris et Excellentissimus egregii hujus scripti auctor HERMANNUS CONRINGIUS, postquam in suis de pace perpetua libellis Helmst. an. 1657. in 4. excusis publice partum suum quasi postliminio genuinum ipsus agnovit ac probavit. Atque utinam omnes alii Pseudonymitam consulte feliciterque nominis occultationem adhibuissent. Hoc siquidem scriptum, non modicum ad promovendam inaestimabilem pacem Osnabrugensem momenti
+<pb id='s044'/>
+tum attulisse noverunt ii, quibus temporis illius res gestae et consilia vel aliqua ex parte innotuerunt.</p>
+</div3>
+<div3 id='CoSH.01.04.34' n='34' type='section'>
+<head><hi rend='italic'>JOH. SCHILTERUS JCtus Exerc. XX. ad Pand. p. 406.</hi></head>
+<p>Sed quorsum me abripit agonizantis patriae amor? Vos qui mox rebus et consiliis interesse laboratis, Commilitones, de his unicum civilis prudentiae superstitem Auctorem Hermannum Conringium, cujus scripta omnia merito admiremini, in aureo de Pace civili libro disserentem auscultate.</p>
+</div3>
+<div3 id='CoSH.01.04.35' n='35' type='section'>
+<head><hi rend='italic'>SAMUEL MARESIUS igne fatuo Valeriani Magni p. 160.</hi></head>
+<p>Sed circa haec sufficiat amandasse Monachum ad Amplissimi et doctissimi Viri D. Hermanni Conringii Concussionem fundamentorum Fidei Pontificiae, cui Valerianus solidam responsionem debet, et debebit aeternum.</p>
+</div3>
+<div3 id='CoSH.01.04.36' n='36' type='section'>
+<head><hi rend='italic'>Idem ibid. p. 214.</hi></head>
+<p>Conclusiones ejusd. concussionis vocat invincibiles.</p>
+</div3>
+<div3 id='CoSH.01.04.37' n='37' type='section'>
+<head><hi rend='italic'>ELIAS VEJELIUS SS. Theol. D. Prof. et Eccles. Ulmensis Exerc. Hist. Theol. de Ecclesia Graecanica hodierna p. 32. et seqq.</hi></head>
+<p>Contendantur modo invicem ea, quae <gap desc='Greek word(s)'/> Conringius scripserat, cum iis quae Allatius reposuit etc. ubi adversus Leonem Allatium defensionem suscipit eorum, quae Conringius de Purgatorio contra Muhlmannum scripserat.</p>
+</div3>
+<div3 id='CoSH.01.04.38' n='38' type='section'>
+<head><hi rend='italic'>Domnus JOH. MABILLON de re diplomatica lib. 1. c. 1. § 2.</hi></head>
+<p>Multi varias sparsim regulas, ubi de singulari instrumento agebatur, tradiderunt; inprimis Leo Allatius in animadversionibus ad fragmenta Antiquitatum Etruscarum, et <hi rend='italic'>Hermannus Conringius in Censura Diplomatis Ludoviciani</hi> pro coenobio Lindaviensi: at nullus ad hoc usque tempus peculiari tractatione rem aggressus etc.</p>
+</div3>
+<pb id='s045'/>
+<div3 id='CoSH.01.04.39' n='39' type='section'>
+<head><hi rend='italic'>J. G. SULPICIUS</hi> (Culpisius) <hi rend='italic'>Dissert. de studio juris publici.</hi></head>
+<p>Illis tamen, ac in universum caeterae tractationi Lampadianae imperfectiori egregie subvenerunt <hi rend='italic'>Annotata</hi> ab <hi rend='italic'>Hermanno Conringio</hi> V. Cl. aliquando addita, quorum pars publice extat, reliqua manu scripta in Eruditorum manibus versatur.</p>
+</div3>
+<div3 id='CoSH.01.04.40' n='40' type='section'>
+<head><hi rend='italic'>Idem ead. Dissert.</hi></head>
+<p>De civilis prudentiae studio hic professa opera nihil traditur, - - - cujus alias solidior cognitio unde et quomodo comparari possit ac debeat, praeter eos, qui <hi rend='italic'>consilia</hi> hanc in rem fecerunt, qualia in Belgio conjunctim edita, ac denuo cura <hi rend='italic'>Hermanni Conringii</hi> Helmestadii recusa extant, hujus libellus <hi rend='italic'>de prudentia civili</hi> et <hi rend='italic'>Propolitica</hi> per partes demonstraverunt. Addenda est ejusd. <hi rend='italic'>introductio in Aristotel. Politica.</hi></p>
+</div3>
+<div3 id='CoSH.01.04.41' n='41' type='section'>
+<head><hi rend='italic'>Idem in Dissert. de studiis Academicis.</hi></head>
+<p>Omnino autem praetereunda non sunt jam laudati <hi rend='italic'>Conringii</hi> duo opuscula quorum unum de <hi rend='italic'>prudentia Civili,</hi> alterum <hi rend='italic'>Propoliticorum</hi> indice praefixo, in publicum vulgavit, a quorum lectione studium hoc felicissime auspicamur. Sunt enim <hi rend='italic'>Conringii</hi> in hoc disciplinae genere labores fere incomparabiles.</p>
+</div3>
+<div3 id='CoSH.01.04.42' n='42' type='section'>
+<head><hi rend='italic'>MORHOF. Polyhist. lib. 1. c. 16.</hi></head>
+<p>Ad historiam literariam pertinent et illi, qui de Academiis scripsere. Hic primo loco merito poni debet HERMANNUS CONRINGIUS Vir <gap desc='Greek word(s)'/>, quide <hi rend='italic'>Antiquitatibus Academicis</hi> librum singularem scripsit. Ejus postrema editio multa habet additamenta, quae pene altero tanto superant editionem priorem. Liber est doctus, et in hoc argumento fere unicus.</p>
+</div3>
+<pb id='s046'/>
+<div3 id='CoSH.01.04.43' n='43' type='section'>
+<head><hi rend='italic'>GVY PATIN. lettr. 330.</hi></head>
+<p><hi rend='italic'>Martinus Schoockius</hi> <foreign lang='FR'>à écrit beaucoup de livres - - - Il est aussi sçavant, que ces anciens Sophistes, qui disputoient et ecrivoient, de tout ce, qui se pouvoit sçavoir. Lui et <hi rend='italic'>Conringius</hi> en Allemagne sont en cette façon de science et d' ecrire le plus sçavans hommes de l'Europe.</foreign></p>
+<p>Coronidem his judiciis imponat Epigramma Graecum, quod exornando huic operi insigne <gap desc='Greek word(s)'/> suspendit Nobilissimus Senator et Aedilis Lipsiensis FRID. BENEDICTUS CARPZOVIUS JCtus, Vir demerendis literatis literisque promovendis totus natus.</p>
+</div3>
+<div3 id='CoSH.01.04.44' n='44' type='section'>
+<head>IN EFFIGIEM <hi rend='italic'>VIRI CELEBERRIMI</hi> HERMANNI CONRINGII ut ingenio et doctrina maximi, sic corpore et statura parvi.</head>
+<p><gap desc='Greek word(s)'/>.</p>
+<p>FRID. BENEDICTUS CARPZOVIUS.</p>
+</div3>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

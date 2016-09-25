@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Liber hymnorum in metra noviter Redactorum. [...]</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Bebel" TEIform="author">Bebel, Heinrich</author>
+<editor TEIform="editor" role="editor">Bebel, Heinrich</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, April 2004</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Niehl</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/bebel3" type="href" id="bebel3" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">bebel3</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">bebelhymni.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">bebelhymni.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">bebel3/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">[Tuebingen]: [Johann Otmar], [1501]</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">12 February 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup added; typed text - structural tagging complete - no semantic tagging - no spell check</resp>
+</respStmt>
+<item TEIform="item">
+TEI header and markup added; typed text - structural markup complete (but sp-tags in dramata incomplete) - no semantic tagging - no spell check</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">19 March 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">Morpheus spell check performed (oh boy!)</resp>
+</respStmt>
+<item TEIform="item">
+TEI header and markup added; typed text - structural markup complete (but sp-tags in dramata incomplete) - no semantic tagging - no spell check</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+<text><gap id="bebe"/><gap id="mamm"/><front>
+<pb id="s001" TEIform="pb"/>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">Liber hymnorum in metra noviter Redactorum.
+Apologia et defensio poeticae ac oratoriae maiestatis.
+Brevis expositio difficilium terminorum in hymnis ab aliis parum probe et erudite forsan interpretatorum. per Henricum beblium Justingensem edita poeticam et humaniores litteras publice profitentem in Gymnasio Tubingensi.
+Annotationes eiusdem in quasdam vocabulorum interpretationes Mammetracti.
+</titlePart></titlePage>
+<pb id="s002" TEIform="pb"/>
+<div type="dedication letter" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Illustrissimo antistiti reverendissimoque in christo patri federico Augustensium praesuli
+comitique de zollern. Henricus bebelius iustingensis.
+S.D.</head>
+<p TEIform="p">Immortales tuae virtutes. reverendissime praesul. longe lateque decantatae singularisque
+humanitas. invitavit me. ut ego homo infimae sortis. tibique minime notus. pientissimas aures
+tuas perstrepere illepidis meis atque inurbanis camenulis non sim veritus. quia tametsi diu mihi
+ipsi temperaverim. ne quicquam ad te scriberem. ut non sus (.ut est in proverbio). minervam
+docere velle viderer. et tibi persuadere. qui praeter innocentiam vitae: qua mirifice
+ab omnibus commendaris. sis omnium vel maximarum rerum usu et peritia: consiliorum
+quam gravitate et perspicientia non dico inter privatos. et humilioris conditionis homines sed
+inter principes ipsos facile princeps. vicit tamen me indelebile quoddam desiderium.
+commendare tibi. quem inprimis diligo vel numquam visum Henricum de steffel Baronem praeclarae
+indolis puerum. et pupillum nobilissimum. At nec tibi persuadeas velim praesul humanissime. ut
+diffidentia ulla me teneat. ne sit parum tibi commendatus. quem scio tibi esse carissimum et
+commendatissimum. Sed cum hoc mortalium in se affectus habeat. ut nullum ponat finem. neque
+unquam conquiescat. nisi deveniat huc. ut amplius non detur progressus: pro insito quodam et
+singulari amore et observatione in orphanum nativum olim mihi herum. et commiseratione
+nobilissime stirpis quam in hoc uno propagari vel perire necesse est. nom satis putavi. nisi et
+meis precibus tibi commendatus esset. ut tuo ductu et auspicio. in eum evadat virum. qui non
+tantum maiorum suorum nobilitati et laudibus sit responsurus. verum etiam amplioris alicuius
+stemmatis in suam posteritatem. et incrementi. futurus sit initium auspicatissimum. de quo iam
+satis. in carmine sequenti plura scripsi. Et cum apud persas hunc fuisse morem. a veteribus
+accepissem. ut nemo ad salutandum regem sine munere accederet. nolui te regulum ecclesiasticum
+sine munere adire. quin imo his te salutare muneribus. quae tibi futura in primis grata et iucunda
+speravi. suave sonantis videlicet ecclesiae carminibus. hoc est hymnis. qui cum passim
+contemnerentur. tamquam res leviuscula. et inculta. ab his qui non noverunt poeticas delicias.
+multisque mendis scaterent. in diesque depravarentur incuriosorum et indiligentium temeritate.
+non duxi ab officio meo alienum. redigere illos in priscam formam. hoc est in metra. et pro
+virili parte mea emendare. quae erant depravata. ut per hoc rudibus. inexpertisque et litterarum
+tirocinia ingredi suscipientibus aliquid fructus afferri et talentum meum mihi a domino datum.
+non in terram defoderem. sed potius lucrum illo facerem in iuventutem transfundendo.
+Suscipe igitur hoc opusculum reverendissime
+<pb id="s003" TEIform="pb"/>
+praesul. ut a sancto ambrosio episcopo. ceterisque viris ecclesiasticis compositum. ita
+nunc de novo reformatum. et tibi dicatum. Atque cum nihil agere velis hoc legito. in primisque
+hymnum Sapphicum de immaculata conceptione beatissimae virginis mariae. quem nos edidimus et tibi
+iam nuncupatim consecramus perspicito. vale. et me tibi deditissimum mancipium non dedignere.</p>
+<p TEIform="p">Ex thubingen. 14. <reg orig="kallen." TEIform="reg">kalen.</reg> apriles Anno millesimo quingentesimo primo.</p>
+<lg met="sapp" org="uniform" sample="complete" TEIform="lg" part="N">
+<head>Sapphicum eiusdem. H. B. Ad eundem federicum praesulem augustensem pro commendatione! Henrici de steffel baronis impuberis generosi et nobilissimi.</head>
+<l TEIform="l" part="N">Federice ingens specimen decusque</l>
+<l TEIform="l" part="N">praesulum. ex zollern genitus vetusta</l>
+<l TEIform="l" part="N">stirpe. germanas celebri per oras.</l>
+<l rend="indent" TEIform="l" part="N">atque per orbem</l>
+<l TEIform="l" part="N">Forte mireris pater o benigne</l>
+<l TEIform="l" part="N">quid tibi ignotus tenuis poeta</l>
+<l TEIform="l" part="N">carmine inculto. et rudibus camenis</l>
+<l rend="indent" TEIform="l" part="N">scribere tentem</l>
+<l TEIform="l" part="N">Cui nihil crassum. rude nec placere</l>
+<l TEIform="l" part="N">possit: aut doctas penetrare ad aures</l>
+<l TEIform="l" part="N">qui sapis priscam sophiam: prophetas</l>
+<l rend="indent" TEIform="l" part="N">castra sororum</l>
+<l TEIform="l" part="N">At licet vires genius negavit</l>
+<l TEIform="l" part="N">et mihi desint clarii furores.</l>
+<l TEIform="l" part="N">mens tamen gestit lyricis minutis</l>
+<l rend="indent" TEIform="l" part="N">ludere tecum</l>
+<l TEIform="l" part="N">Atque nec grandi recinam cothurno</l>
+<l TEIform="l" part="N">clara priscorum: simul et parentis</l>
+<l TEIform="l" part="N">gesta: vel fratrum celebrata passim</l>
+<l rend="indent" TEIform="l" part="N">teutonas inter</l>
+<l TEIform="l" part="N">Nec tuas laudes resonare iam iam</l>
+<l TEIform="l" part="N">pergo: quae magnum peterent volumen</l>
+<l TEIform="l" part="N">quale smyrnaeus cecinit poeta</l>
+<l rend="indent" TEIform="l" part="N">callidi ulyssis</l>
+<l TEIform="l" part="N">Haec sed in praesens tacuisse mens est</l>
+<l TEIform="l" part="N">at rogo praesul precibus pudicis</l>
+<l TEIform="l" part="N">mitis auscultes. tua laus: agetur</l>
+<l rend="indent" TEIform="l" part="N">et decus ingens</l>
+<l TEIform="l" part="N">Ast mihi tecum dominus colendus</l>
+<l TEIform="l" part="N">atque herus clare: et sobolis vetuste</l>
+<l TEIform="l" part="N">steffel henricus (.dolor o) parente</l>
+<l rend="indent" TEIform="l" part="N">orbus utroque</l>
+<pb id="s004" TEIform="pb"/>
+<l TEIform="l" part="N">Orbus: et nullo auxilio iuvatur.</l>
+<l TEIform="l" part="N">ipse si desis: tenerae iuventae.</l>
+<l TEIform="l" part="N">ergo deserti miserere ephebi.</l>
+<l rend="indent" TEIform="l" part="N">optime praesul.</l>
+<l TEIform="l" part="N">Nobilem non sic patiere stirpem.</l>
+<l TEIform="l" part="N">atque cognatam penitus perire.</l>
+<l TEIform="l" part="N">quae nitet longa serie parentum: et</l>
+<l rend="indent" TEIform="l" part="N">stemmate multo.</l>
+<l TEIform="l" part="N">Te geras illi pietate patrem.</l>
+<l TEIform="l" part="N">tu vices matris. simul et patronum.</l>
+<l TEIform="l" part="N">hoc rogat vivus: rogitant sepulti: et</l>
+<l rend="indent" TEIform="l" part="N">nomen avorum.</l>
+<l TEIform="l" part="N">Tu salus et praesidium puelli.</l>
+<l TEIform="l" part="N">vita: spes: nomen: columen parensque.</l>
+<l TEIform="l" part="N">eleves maestum: fer opem iuventae.</l>
+<l rend="indent" TEIform="l" part="N">sanguine iunctae.</l>
+<l TEIform="l" part="N">Quem vel iratae poterant novercae.</l>
+<l TEIform="l" part="N">atque vel praegnans adamare tigris.</l>
+<l TEIform="l" part="N">nobilis qui sit puer. et venustus.</l>
+<l rend="indent" TEIform="l" part="N">atque tenellus.</l>
+<l TEIform="l" part="N">At licet nullis precibus moveri.</l>
+<l TEIform="l" part="N">debeas: per te satis incitatus.</l>
+<l TEIform="l" part="N">illius sortem: et genus ampliare.</l>
+<l rend="indent" TEIform="l" part="N">Et decus omne.</l>
+<l TEIform="l" part="N">Attamen nobis animum movebat.</l>
+<l TEIform="l" part="N">insitus quidam dolor orbitatis.</l>
+<l TEIform="l" part="N">atque amor quondam domini verendi.</l>
+<l rend="indent" TEIform="l" part="N">scribere iussit.</l>
+</lg>
+<closer TEIform="closer">Telos</closer>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

@@ -1,0 +1,3492 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd">
+<TEI.2>
+<teiHeader type='text'>
+<fileDesc>
+<titleStmt>
+<title>Tragoedia alia nova mercator seu iudicium.</title>
+<title type='sub'>Machine-readable text</title>
+<author n='Naogeorg'>Naogeorg, Thomas</author>
+<editor>Naogeorg, Thomas</editor>
+</titleStmt>
+<editionStmt>
+<edition>XML version, markup prototype, December 1999</edition>
+<respStmt><name>Ruediger Niehl</name><resp>markup</resp></respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Camena</publisher>
+<address>
+<addrLine><anchor n="http://www.uni-mannheim.de/mateo/camena/naogeorg6" type="href" id="naogeorg6"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt>
+<note type="href">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname">naogeorg6</note>
+<note type="filename">naogeorgusmercator.html</note>
+<note type="titleimage">s001.html</note>
+<note type="srcfile">naogeorgusmercator.xml</note>
+<note type="imgpath">naogeorg6/jpg</note>
+<note type="imgtype">html</note>
+</notesStmt>
+<sourceDesc>
+<bibl>s.l.: 1590.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl>
+<p>not necessary</p>
+</refsDecl>
+</encodingDesc>
+<profileDesc>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>10 March 2006</date>
+<respStmt>
+<name>Reinhard Gruhl</name>
+<resp>markup</resp>
+</respStmt>
+<item>typed text - structural tagging completed - no semantic tagging - no spell check</item>
+</change>
+<change>
+<date>6 April 2006</date>
+<respStmt>
+<name>Reinhard Gruhl</name>
+<resp>markup</resp>
+</respStmt>
+<item>some corrections inserted</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<gap id='GR' /><!-- to define the ID, rg -->
+<front>
+<pb id='s001'/>
+<titlePage>
+<titlePart>
+TRAGOEDIA
+ALIA NOVA MERCATOR
+SEU IUDICIUM, IN QUA IN
+CONSPECTUM PONUNTUR APOSTOLICA
+et Papistica doctrina, quantum utraque in
+conscientiae certamine valeat et efficiat,
+quis utriusque et futurus
+sit exitus.
+</titlePart>
+<titlePart>
+THOMA NAOGEORgo
+Straubingensi autore.
+</titlePart>
+<epigraph>
+<lg>
+<head>AD MERCTOREM QUENDAM.</head>
+<l>Ringeris et mordes, isthaec quod Tragoedia</l>
+<l>Fert Mercatoris nomen, atque clamitas</l>
+<l>Quasi te cunctosque Mercatores vellicem.</l>
+<l>At falleris. Neque enim te vel similes tui</l>
+<l>Carpo, cum vestrae rationes atque studia</l>
+<l>Lateant, et prorsus quales sitis nesciam.</l>
+<l>At meus hic certe Mercator talis fuit</l>
+<l>Ut scripsi, Nam tam bene novi quam qui optime.</l>
+<l>Quare non est quod te laesum esse censeas.</l>
+</lg>
+</epigraph>
+<titlePart>
+ANNO CIC IC XC.
+</titlePart>
+</titlePage>
+<pb id='s002'/>
+</front>
+<body>
+<gap desc='blank space'/>
+<div1 id='NaM.01' n='1' type='drama'>
+<div2 id='NaM.01.01' n='1' type='prologus'>
+<pb id='s003'/>
+<head>PROLOGUS.</head>
+<lg>
+<l>SI nova (quod aiunt) est contio gratissima,</l>
+<l>Huc avidum spectatores animum ad vortite,</l>
+<l>Novam adportamus et hanc vobis Tragoediam,</l>
+<l>Si placet igitur argumentum vobis modo</l>
+<l>Exponam paucis. Iussu Christi iudicis</l>
+<l>Homines ad iudicium citavit quattuor</l>
+<l>Lyochares, nuntium quem mortis finximus,</l>
+<l>Inter eos vero et Mercator citatus est,</l>
+<l>Quem sic proprio placet appellari nomine.</l>
+<l>Is excitatione insperata anxius,</l>
+<l>A parocho doctrina imbuitur Papistica,</l>
+<l>Ut a peccatis liber in caelum volet.</l>
+<l>At doctrinae illi contradicit (nescio</l>
+<l>Quo fato) mercatoris conscientia.</l>
+<l>Peccata semper, semper et iram praedicat,</l>
+<l>Unde ille in cordis detruditur angustiam:</l>
+<l>Praesertim tamen ut Satanae vidit codicem, et</l>
+<l>Peccata sua in illo exacte scripta omnia, et</l>
+<l>Adversus Satanam omnem ludi parochi operam.</l>
+<l>Paulum aberat quin suum desponderet animum.</l>
+<l>Verum e supernis est afflatus numine,</l>
+<l>Simulque missi Paulus Cosmasque medicus,</l>
+<pb id='s004'/>
+<l>A Papatus illum repurgant dogmatis,</l>
+<l>Certamque pro peccatis rationem docent.</l>
+<l>Quo facto ad iudicium se animo bono parat.</l>
+<l>Interea alios tres Papae edoctos dogmatis</l>
+<l>Ad iudicium Lyochares pellebat, quibus</l>
+<l>Et mercatorem iungit, sibi bene conscium,</l>
+<l>Eo quod Christi lotus esset sanguine,</l>
+<l>Cuius se credit servatum iri dextera.</l>
+<l>Ast alii in se suaque habebant fiduciam,</l>
+<l>Maestisque iudicem adibant conscientiis.</l>
+<l>Post iudicatis singulis, in inferos</l>
+<l>Truduntur tres, ac Mercator superos petit.</l>
+<l>Tantum est. Diversarum doctrinarum, exitus</l>
+<l>Etiam diversos e Scripturis tradimus.</l>
+<l>Adeste. Non pigebit scio paulisper his</l>
+<l>Animum curis vacuum <orig reg='advertisse' resp='transcriber'>advortisse</orig> ludicris.</l>
+</lg>
+<stage>
+<p><hi>INTERLOCUTORES.</hi></p>
+<p>Lyochares: Medici.</p>
+<p>Mercator: Michael.</p>
+<p>Conscientia Mercatoris: Paulus.</p>
+<p>Puer. Cosmas.</p>
+<p>Lucrum. Princeps quidam.</p>
+<p>Satanas. Episcopus quidam.</p>
+<p>Parochus. Franciscanus quidam.</p>
+</stage>
+</div2>
+<div2 id='NaM.01.02' n='2' type='act'>
+<div3 id='NaM.01.02.01' n='1' type='scene'>
+<pb id='s005'/>
+<p>LYOCHARES.</p>
+<lg>
+<l>NE quis requirat qui sim, paucis eloquar.</l>
+<l>Lyochares vocor; atrae sum mortis nuntius,</l>
+<l>Refortasse hominibus notior acnomine</l>
+<l>Nam semper inter illos versor, necpedem</l>
+<l>Alio e terris quoquam conferre licet. Ita</l>
+<l>Perpetuis usque fatigor hic negotiis.</l>
+<l>Quae sint vel stultus, opinor, posset noscere.</l>
+<l>Nolite terreri. Trux sum et saevus quidem</l>
+<l>Verbis factisque, (ita meus me voluit pater)</l>
+<l>Non nullum tamen haberent a me commodum</l>
+<l>Mortales, si suis non ipsi incommodis</l>
+<l>Gauderent, haud quaquam curantes res suas</l>
+<l>Quantumvis moniti rectius disponere.</l>
+<l>Ad vos sane iam nil mandatorum adfero,</l>
+<l>Quare confidite verbisque animum advortite:</l>
+<l>Nam sunt quae porro vos omnes scire cupiam.</l>
+<l>Nomen tenetis iam, et ut puto, negotia.</l>
+<l>Negatis? Dicam si cupitis apertius.</l>
+<l>In mediis ego mortales obruo gaudiis.</l>
+<l>Ingratus sane nuntius bene agentibus,</l>
+<l>Quin nec amice compellor ab his qui agunt male.</l>
+<l>Nam et variis cunctos sine discrimine pestibus</l>
+<l>Onero morbisque, si quando illis adfero</l>
+<l>A summo quidquid est decretum iudice.</l>
+<l>Hoc ad nego cium isthac utor mantica, in</l>
+<l>Qua mortis omnes aculei sunt conditi,</l>
+<l>Supplicia, poenae simul ignotae ac cognitae</l>
+<pb id='s006'/>
+<l>Morborum pestiumque diversa genera.</l>
+<l>Vultis specimen horum vobis ut proferam?</l>
+<l>Scio vos nolle, neque ut faciam mandatum est mihi:</l>
+<l>Profero solum quibus iubeor et debeo,</l>
+<l>Quemadmodum et hodie quibusdam protuli.</l>
+<l>Et nulla dies mihi abit sine linea. Sed o</l>
+<l>Deum immortalem, quam secure vivitur</l>
+<l>In terris? quam nulla est mortis memoria? Nec</l>
+<l>Cuiquam iudicii supremi in mentem venit?</l>
+<l>Si non quotidie aliquos de mundo carperem.</l>
+<l>Reges, tyrannos, pauperes et divites,</l>
+<l>Ignobiles et nobiles, saepius</l>
+<l>Firmatam longe vitae spem mortalium,</l>
+<l>Amplas divitias, imperia, potentiam,</l>
+<l>Ambitionem, voluptates, lucra dulcia, et</l>
+<l>Negotiationem in explicabilem,</l>
+<l>Repentino incursu fortiter abrumperem,</l>
+<l>Possent sane mortis oblivisci homines. Sed in</l>
+<l>Tantis quas moveo turbis rebus in omnibus</l>
+<l>Securum demiror illos gerere animum, et</l>
+<l>Iniquitati omne studium et operam dare</l>
+<l>Posse. Furantur, rapiunt, pergraecantur, dolos</l>
+<l>Cudunt, bella gerunt, scortantur, ut illa interim</l>
+<l>Omittam hominis sunt quae interioris hulcera,</l>
+<l>Malas opiniones, tenebras cordium,</l>
+<l>Quibus sibi mortales mirum in modum placent.</l>
+<l>Quasi vero ego nihil sim cuius curam gerant,</l>
+<l>Aut nulli sit ratio reddenda iudici,</l>
+<l>Nec rerum finis appropinquet omnium.</l>
+<pb id='s007'/>
+<l>Isthuc quum saepe alias tum hodie sensi magis,</l>
+<l>Simul ac ad tres hodie mandata pertuli.</l>
+<l>Hem quam nihil erat illis insperatius</l>
+<l>Meus quam adventus, ac mandata urgentia</l>
+<l>Suorum ut operum reddant rationem, et dein</l>
+<l>Iudicis in crastinum expectent sententiam? Et</l>
+<l>Si vacat exponam breviter vobis singula.</l>
+<l>Primum Princeps quidam conveniundus fuit.</l>
+<l>Is vero dives obsidebat oppidum,</l>
+<l>Dira fremens militibus tormentisque aeneis,</l>
+<l>Si illud non ante occasum solis in suas</l>
+<l>Redigeretur manus. Addens, frustra hactenus</l>
+<l>Se bella tot annis confecisse plurima,</l>
+<l>Et claro incassum celebratum esse nomine</l>
+<l>Si homines imbelles oppidumque nihili, iam</l>
+<l>Tandem suae resisterent potentiae.</l>
+<l>Haec dicens, oculis arma capit ardentibus,</l>
+<l>Hortatur strenuos, ignavis horrida</l>
+<l>Minatur, muros quassatos iubet aggredi,</l>
+<l>Medio ipse cum primis miscetur agmini.</l>
+<l>Hic ego placide accedens, heus inquam, quo ruis?</l>
+<l>Mecum tibi eundum est, ut die te crastino</l>
+<l>Iudicio sistam. Totus ille expalluit,</l>
+<l>Trementique statim excidit e manibns lancea,</l>
+<l>Quam in civium perniciem corripuerat. Et</l>
+<l>Adhucreluctanti illi (ut mos est fere hominum)</l>
+<l>Prolatam mantica ex hac pestem, lateribus</l>
+<l>Inflixi. Hic vidisses medicos accurrere,</l>
+<l>Tristari proceres et canere receptui,</l>
+<pb id='s008'/>
+<l>Turbari milites, exultare oppidum,</l>
+<l>Fractosque in sibilum conatus vortier.</l>
+<l>Ut autem inanis visa est medicorum opera et ars,</l>
+<l>Monachus quidam accersitur ventriosus, (ad</l>
+<l>Quem o si habuissem mandata) qui tristem instruat</l>
+<l>(Nam extemplo aderat proterva conscientia,</l>
+<l>Multorum ac magnorum facinorum illum admonens:</l>
+<l>Hinc illa tristicia, quod non ratio satis</l>
+<l>Ad iudicium pro factis tot subducta erat.)</l>
+<l>Et consoletur doceatque modum quo queat</l>
+<l>Peccatis solvi, et iustus adire iudicem.</l>
+<l>Quae monstra eum docuerit post videbitis.</l>
+<l>Sic doctus rem divinam audit et absolvitur.</l>
+<l>Quantumvis reclamante conscientia,</l>
+<l>Operibus nullis exoluisse debitum,</l>
+<l>Nec rationem factam accepturum iudicem,</l>
+<l>Monachus contra duello certat vincere</l>
+<l>Donec commentis; multis et periuriis,</l>
+<l>Comptisque nugis pressit conscientiam.</l>
+<l>Cuius rei gratia multa tulit munera</l>
+<l>A principe, ut semper solent mendacia</l>
+<l>Donis in mundo veritatem vincere.</l>
+<l>Fortiter interea tergo conscientia</l>
+<l>Fascem illi debitorum astringit omnium.</l>
+<l>Ita quidem Princeps ut mecum eat accingitur,</l>
+<l>Monacho suam pro illo dante animam pignori</l>
+<l>Nullo pacto rationem posse fallere, aut</l>
+<l>Reprobari. At res verum docebit postea.</l>
+<pb id='s009'/>
+<l>Et ut rem in verba conferam paucissima</l>
+<l>Haud secus et imparatos adii alios duos,</l>
+<l>Nempe instituti Franciscani simiam</l>
+<l>Quandam, et male <gap desc='greek word'/> quendam episcopum.</l>
+<l>Haud secus et isti luctabantur strenue,</l>
+<l>Nugis ut victa tandem conscientia</l>
+<l>Quiesceret. Haud secus et utrique debita</l>
+<l>Fascibus imposita sunt a conscientiis.</l>
+<l>Fortasse ut intelligerent, quam belle sibi</l>
+<l>Pro debitis tot esset subducta ratio.</l>
+<l>His veni hodie nuntius haud ex sententia,</l>
+<l>Eosque aliis intentos rebus repperi,</l>
+<l>Quam ut suspicarentur adesse extremum diem.</l>
+<l>Neque fere aliter animatos iam offendere licet.</l>
+<l>Adeo nullus veretur male agere, nec parat</l>
+<l>Se iudicio quisquam aut rectam viam ingredi</l>
+<l>Discit, probis nec se dedunt doctoribus,</l>
+<l>Sed hauriunt pleno gutture mendacia,</l>
+<l>Quibus pereunt, quamvis aliter existiment.</l>
+<l>Me iussa quidem exequi decet, haud minus tamen</l>
+<l>Et ipse salutem desidero mortalium.</l>
+<l>Ut, quamvis interiret corpus peste, vel</l>
+<l>Alio quovis modo ut decreta postulant,</l>
+<l>Tamen ad salutem servaretur spiritus.</l>
+<l>Sed ferme effecerunt ut nullius mihi</l>
+<l>Gravis sit interitus, et misericordia</l>
+<l>Nulla tangar. Nam si iuxta proverbium</l>
+<l>Piscatorictus sapit, in causa quid sit, haud</l>
+<l>Video, cur mundi huius vel sapientissimi</l>
+<pb id='s010'/>
+<l>Nullis ictibus aut exemplis sapere veline,</l>
+<l>Ut cautius agant, et res omnis iudice</l>
+<l>Probari possint. Aut si id fieri non queat,</l>
+<l>Discant saltem qui nam placetur, aut quibus</l>
+<l>Ex rebus certo dimittantur debita. At</l>
+<l>Horum nulla prorsus tanguntur cura. Ita</l>
+<l>Corpus et animam simul laborant perdere, et</l>
+<l>Pleno rapidoque cursu eunt ad tartara.</l>
+<l>Ut et ipsa salus tametsi maxime velit,</l>
+<l>Servare tamen non queat homines eiusmodi.</l>
+<l>Et si ex citatis non nulli tandem vel in</l>
+<l>Extremis recte ducti possent resipiscere,</l>
+<l>Tum sibi (malum) ductores coecos applicant,</l>
+<l>Mendaces, palpatores, bestias malas,</l>
+<l>Quibus ego si liceret cerebrum lapidibus</l>
+<l>Libenter excuterem, peste aut fortissima</l>
+<l>Tanquam e supernis fulmine tactos perderem.</l>
+<l>Quid enim illi aliud faciunt, quam reddunt perditos</l>
+<l>Perditiores? et implicatos implicant</l>
+<l>Magis atque magis? lippisque oculos plane erunt?</l>
+<l>Odio habeor ego propterea a mortalibus</l>
+<l>Quod me veniente solvitur omne gaudium,</l>
+<l>Nam sunt linquenda quae hic habent charissima,</l>
+<l>Corpusqui omnigenis perdo calamitatibus</l>
+<l>Morti ut concedat dedaturque vermibus,</l>
+<l>Qui fit, ut illi impostores non simili modo</l>
+<l>Sint omnibus odio? An qui animam perdit, minus</l>
+<l>Delinquit, quam qui corpus peste percutit?</l>
+<l>Aut qui perpetuum aufert minus putabitur</l>
+<pb id='s011'/>
+<l>Laedere, quam qui aufert temporale quidpiam?</l>
+<l>Quum illi praestigiatores ex industria</l>
+<l>Animabus insidientur, et quod maius est,</l>
+<l>Nullius iussu (ut ego) et corpus tandem et animam</l>
+<l>Adaeterna ultro promoveant incendia,</l>
+<l>Foventur sedulo, pascuntur pinguibus,</l>
+<l>Amice compellantur, et ex summis lucrum</l>
+<l>Iniuriis damnisque reportant maximum.</l>
+<l>Quis non hic vel Mosaicae mansuetudinis</l>
+<l>Indignitate rerum motus clamitet?</l>
+<l>O stolidos iuxta ac miseros homines. Quam <unclear reason='print blotted'>di..</unclear></l>
+<l>Vestro serpentes in sinu fovebitis?</l>
+<l>Quousque tandem credetis mendaciis?</l>
+<l>Quam diu animarum carnifices amabitis?</l>
+<l>Sed omnis clamor frustra est. Decipi volunt,</l>
+<l>Ipsosque deceptores ultro provocant.</l>
+<l>At vos tamen prudentiores fore puto.</l>
+<l>In eiusmodi rebus ego versor perpetim,</l>
+<l>Asto et deceptis atque deceptoribus,</l>
+<l>Haud cum indignatione mentis parvula.</l>
+<l>Quapropter mihi res isthaec sunt notissimae</l>
+<l>Si vobis nondum sunt, faxo tamen ut sient.</l>
+<l>Nam adhuc restat citandus Mercator mihi</l>
+<l>Qui in hisce aedibus habitat. Hic haud aliter erit</l>
+<l>(Ut nunc quidem sunt hominum mores omnium)</l>
+<l>Animatus nec melius sapiet quam ceteri.</l>
+<l>Nisi forte aliam mentem illi caelestis pater</l>
+<l>Dederit, quod sane non contingit plurimis.</l>
+<l>Sed quid moror adire et pulsare ianuam?</l>
+</lg>
+</div3>
+<div3 id='NaM.01.02.02' n='2' type='scene'>
+<pb id='s012'/>
+<head>SCENA SECUNDA.</head>
+<p>CONSCIENTIA, LYOCHARES.</p>
+<lg>
+<l>VAEH miserae mihi, ut omne meum ius per vertitur.</l>
+<l>Ut indigne opprimor et a familiaribus:</l>
+<l>Ut nemo in hac me vult familia respicere.</l>
+<l>Oius et aequitas et sancti iudices</l>
+<l>Ecquis vestrum suppetias mihi ferre poterit?</l>
+<l>LYO. O mortis terror, quaenam isthaec est femina</l>
+<l>Quae pro foribus plorat? Quod ad aspectum attinet</l>
+<l>Audax quaedam videtur et mire impudens.</l>
+<l>Sed alloquar et percontabor quid sibi velit.</l>
+<l>Mulier quid ploras? quid tibi hic negotii est?</l>
+<l>CON. Quid ego non plorem aut vociferer miserrima.</l>
+<l>Heu quam aequitate est violentior iniquitas.</l>
+<l>Lucrum heu lucrum, quam me festinas perdere.</l>
+<l>LY. Quid tibi velis mulier nondum etiam intelligo.</l>
+<l>Dic si potes brevibus, quae sis, et quid tibi.</l>
+<l>Molestum sit. Concede hucpaulum a ianua.</l>
+<l>CON. Ego sum huius Mercatoris conscientia?</l>
+<l>Qui in hisce aedibus habitat. LY. Quid, conscientia.</l>
+<l>CON. Ita inquam. LY. Quid tu ergo hic foris es et non domi?</l>
+<l>CON. Dicam. Ego cum hoc Mercatore a teneris (quod ferunt)</l>
+<l>Unguiculis crevi, et una habita sum exfamilia hac.</l>
+<pb id='s013'/>
+<l>Simul semper procurans res domesticas</l>
+<l>Sancte et iuste summisque meis pro viribus.</l>
+<l>Atque utinam ille meis paruisset iussibus</l>
+<l>Neque se tot inquinasset flagiciis statim</l>
+<l>A primis annis, mihi reluctans perpetim.</l>
+<l>Interea venit huc quaedam meretricio</l>
+<l>Habitu, quam appellabant sortem, aspectu hercule</l>
+<l>Non invenusta, blanda, lasciva nimium,</l>
+<l>Aspicientibus arridebat amice satis,</l>
+<l>Non tamen ultro venit, sed ab illo perfido, in</l>
+<l>Alienis quaesita fuit et erepta domibus.</l>
+<l>Ea quum non admodum diu hac in familia</l>
+<l>Versata esset, mercator eam amare occipit,</l>
+<l>Donec nihil veritus adulterii scelus</l>
+<l>Neque legem Iuliam, cum illa rem clanculum</l>
+<l>Habuit gravidamque fecit. Erat tum illud mihi</l>
+<l>Primum grave. Nam nihil praesagibat animus</l>
+<l>Boni. Hinc verbis illum obiurgavi plurimis.</l>
+<l>Quod flocci faciens me contempsit rustice.</l>
+<l>Et advenam illam coepit multo impensius</l>
+<l>Observare et fovere, ne molestiae</l>
+<l>Illi quidquam fieret a familiaribus,</l>
+<l>Usque eo, ut quo curari posset ampliter,</l>
+<l>Et servis victum minueret et stipendia,</l>
+<l>Et quotidie quidquam ad labores adderet.</l>
+<l>Unde illam drris devovebant saepius.</l>
+<l>LY. Ut illa etiam num exemplis pereat pessimis.</l>
+<l>CON. Peperit autem non decimo, ut ceterae solent,</l>
+<l>Sed quinto mense, abortum ut omnes crederent.</l>
+<pb id='s014'/>
+<l>LY. Vivebat ne foetus tempore tam incongruo</l>
+<l>Aeditus? CON. Haud poterat vita in illo conspici aut</l>
+<l>Sentiri. Quare exanimatus prorsus pater,</l>
+<l>Suo correptum extemplo foemori msuit,</l>
+<l>(Quod et Iuppiter olim fecisse dicitur)</l>
+<l>In quo illum aliis gestavit quinque mensibus,</l>
+<l>Ita ut in iusto bis nasceretur tempore.</l>
+<l>Iamque secundo natus (visu mirabile)</l>
+<l>Grandis erat, andacter solus ut increderet</l>
+<l>Nec matris unquam flagitaret ubera.</l>
+<l>Statimque ille puer mihi molestus esse me</l>
+<l>Irritare et mecum certare coepit. At</l>
+<l>Ego tum vincebam illum tamen, neque potuit</l>
+<l>Tametsi maxime cuperet me opprimere. Iam</l>
+<l>Vero ut adolevit coepitque esse charior.</l>
+<l>Ipsique patri cunctisque familiaribus</l>
+<l>Effecit et viribus et communi omnium</l>
+<l>Sententia, ut multata male eicerer domo,</l>
+<l>Ne unquam suis quid advorsarer commodis.</l>
+<l>LY. Quod erat illi puero nomen? CON. Pater quidem</l>
+<l>Domesticique omnes appellabant lucrum:</l>
+<l>Sed alii illius ut per specta est audacia</l>
+<l><gap desc='greek word'/> graeco vocabant nomine. Scilicet</l>
+<l>Rebus propius inspectis aequi iudices.</l>
+<l>LY. Male velim dispereat seu lucrum seu <gap desc='greek word'/></l>
+<l>Vocetur. CON. Ita ego misera multum temporis</l>
+<l>Proforibus asto, in aestu, frigore et imbribus</l>
+<l>Et exeuntes et intrantes obsecrans</l>
+<l>Ut intromittant, patianturque vel infimi</l>
+<pb id='s015'/>
+<l>Subsellii esse, si quidem prior locus</l>
+<l>Et dignitas negaretur: Sed tauricum</l>
+<l>Tuentes, nolunt, prohibente at que ianuam</l>
+<l>Custodiente lucro, nullam aliam (quod sciam)</l>
+<l>Ob causam, nisi probis quod gaudeo operibus,</l>
+<l>Et semper improbis adversor sedulo.</l>
+<l>Quum e regione lucrum impense gaudeat improbis.</l>
+<l>LY. Quae te ergo mala crux agitat, ut maioribus</l>
+<l>Et fortioribus advorsere, quod solet</l>
+<l>In proprium haud raro cedere exitium? CON. Ehot?</l>
+<l>Suades, ut cunctis non solum tacentibus</l>
+<l>Sed applaudentibus etiam vel pessimis</l>
+<l>Factis, et ego taceam nec advorser? Nihil</l>
+<l>Agis. Ante me caelesti tactam fulmine,</l>
+<l>Aut coecam surdamque velim, quam isthaec perpeti.</l>
+<l>Lucrum eiciat, Mercator ipsus opprimat,</l>
+<l>Erit tamen aliquando tempus et locus</l>
+<l>Ut et lucrum huius det poenas audaciae</l>
+<l>Et ego negotiatori isti perdito</l>
+<l>In faciem stetero, et omnia eius improba et</l>
+<l>Scelerata facta in memoriam redegero.</l>
+<l>LY. Ut impudens es, nil alienum feceris.</l>
+<l>CON. Nondum etiam me huius puduit impudentiae.</l>
+<l>Pudeat mendaciorum et facinoris mali,</l>
+<l>Non veritatis, officii, et operis boni.</l>
+<l>Sed cur ego tibi hanc denarravi fabulam?</l>
+<l>Num ut irrideres? Et non potius ut inopi et</l>
+<l>Afflictae in his suppetias ferres casibus?</l>
+<pb id='s016'/>
+<l>Odiosum hominum genus, aliorum incommoda</l>
+<l>Casusque diligenter expiscantium,</l>
+<l>Ridendi ut habeant materiam, non ut iuvent.</l>
+<l>LY. Non huius sum farinae mulier, ne putes.</l>
+<l>Sed iam faxo domus ut istliaec tibi pateat,</l>
+<l>Iusque tuum possis obtinere, et in locum</l>
+<l>Et dignitatem restituare pristinam.</l>
+<l>CON. Ah ne me falso ducas gaudio obsecro.</l>
+<l>LY. Ne timeas, me vide. Sequere hac sis iam. CON. Sequar.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.02.03' n='3' type='scene'>
+<head>SCENA TERTIA.</head>
+<p>MERCATOR. PUER. LUCRUM. LYOCHARES. CONSCIENTIA.</p>
+<lg>
+<l>PERSCRIPSISTI ne iam rationes mercium,</l>
+<l>Simul et dati et accepti, quantumque fecerim ex</l>
+<l>Exoticis aliisque mercibus lucri?</l>
+<l>LY. Domi est. Ascultabo paulisper quid gerat.</l>
+<l>Nam nescio quid loquitur. PU. Ne cures. Singula</l>
+<l>Perscripsi et digessi in suos tomos. MER. Bene.</l>
+<l>At diligenter. PU. Accuravi sedulo.</l>
+<l>MER. Vide sis, ut rationes constent omnium.</l>
+<l>PU. Ne dubites inquam LY. Tamen ego meinrationibus.</l>
+<l>Non esse certo scio. MER. Verborum tibi quidem</l>
+<l>Nil deest, at in rebus permultum sentio.</l>
+<l>Si vis mercaturam discere feliciter,</l>
+<pb id='s017'/>
+<l>Attentus, cautus, diligens, industrius</l>
+<l>Oportet ut sis, nullus te fugiat dolus,</l>
+<l>Versutiis tibi sit instructum pectus et</l>
+<l>Periuriis nihil moveare pro Lucro.</l>
+<l>LY. Sed scio, movebimini sexcentis pestibus.</l>
+<l>Haec arguunt satis mulier, te nec domi</l>
+<l>Esse neque istum tuis consiliis corrigi.</l>
+<l>MER. in primis isthuc cogitato iugiter,</l>
+<l>Ne pluris emas quam vendas. Hoc sit tibi scopus.</l>
+<l>Ad hoc tua omnis referenda est industria.</l>
+<l>Quod ut assequare, occasiones temporum</l>
+<l>Observes, vendendi et emendi, scilicet.</l>
+<l>LY. Sed nullus observat moriendi tempora.</l>
+<l>MER. Haud secus et deteriora et prope perdita situ</l>
+<l>Primum curato exponere: Et si quis velit</l>
+<l>Emere recentia, tu veterrima clanculum</l>
+<l>Obtrudito. Quin et inter ementium manus</l>
+<l>Solerter merces commutare discito.</l>
+<l>Interdum etiam recentium aliquid vendito.</l>
+<l>Donec homines illexeris ad te ut confluant</l>
+<l>Solum, tanquam inter plurimos iustissimum.</l>
+<l>Sunt et alia quotidiana quaedam non secus</l>
+<l>Accuranda. Ex mensura, necnon pondere, et</l>
+<l>Frequenti temperatura, aut, si apertius</l>
+<l>Vis, curatura mercium, multum Lucro</l>
+<l>Accedit. CON. Audis ut operam huic dent maxime,</l>
+<l>Me abiecta et oppressa penitus? LY. Ut audio</l>
+<l>Lucrum vocant quod est iniquo proximum.</l>
+<l>MER. Comiter emptores invitandos censeo.</l>
+<pb id='s018'/>
+<l>LY. At te ego profecto haud in vitabo comiter.</l>
+<l>MER. Duplo indices fac semper mercimonia,</l>
+<l>Ignaris praesertim, et si quem conspexeris</l>
+<l>Aut stupidum, aut simplicem, et quivi appellat perperam</l>
+<l>Quas quaerat res, et hominum ita ignorantia</l>
+<l>Utare, ut marsupium tibi lucro turgeat.</l>
+<l>LY. At tu turgebis paulo post peste valida.</l>
+<l>MER. Nam ut perhibent, stultis facilime emptoribus</l>
+<l>Quisque institor obtrudit suas res cum lucro.</l>
+<l>Quare fac ut homines perdiscas noscere.</l>
+<l>Qualescumque autem fuerint homines, memineris</l>
+<l>Semper tamen iniquum perere, ut ae quum feras.</l>
+<l>Foro etiam utere perdiligenter. Cave etiam</l>
+<l>Te segnities capiat, sed primus omnium</l>
+<l>In nondinis adsis, primus et exponito,</l>
+<l>Reponito ultimus, redito domum ultimus.</l>
+<l>LY. Vah si tantum operae sumeremt homines, boniut</l>
+<l>Fierent, bono hercle animo iudicium accederent.</l>
+<l>MER. Nullum ex quavis re et quam vis exiguum lucrum</l>
+<l>Spernas aut negligas, neque unquam isthuc tibi</l>
+<l>Turpe putes. Quid enim tu facias? Si non fuit</l>
+<l>Olim Vespasiano turpe Caesari,</l>
+<l>Ex lotio male olenti colligere pecuniam,</l>
+<l>Neque tibi id quisquam vitio vertet. Et, ut male</l>
+<l>Cedat, maledicisque lacerere verbulis,</l>
+<l>Quam facilius ferantur verba quam inopia</l>
+<l>Fac cogites, quantaque sit dulcedo Lucri.</l>
+<l>Proscindi tolerabilius est quam conspui.</l>
+<l>PU. Scio. MER. Quare animum caute advertas quaestui.</l>
+<pb id='s019'/>
+<l>PU. Meminero. MER. Partis sequitur honos ac</l>
+<l>Pecuniis, tuos inter dignitas ut emergere</l>
+<l>Et supremus fieri possis ex infimo, et</l>
+<l>Contingat vita tibi vel tandem umbratica.</l>
+<l>PU. Intelligo. LY. Haec sunt vestra studia perditi.</l>
+<l>Haec vos nequissimi senes infantibus</l>
+<l>Fere occinitis magnaque inculcatis opera.</l>
+<l>Nemo horrorem mortis nec iudicii metum</l>
+<l>Pueris proponit, quo ipsis a cunabulis</l>
+<l>In iusticiae illos duceretis semitas.</l>
+<l>Ut omni ab iniquitate cohiberent manus.</l>
+<l>MER. Vides quam molliter Lucrum curaverim,</l>
+<l>Quam turgeat, quam auro argentoque splendeat,</l>
+<l>Tu cogitato ne quid illi detrahas,</l>
+<l>Sed id iuxta mecum observes et diligas,</l>
+<l>Omnique industria operaque illi servias.</l>
+<l>Quo fiet, ut te illud vicissim diligat,</l>
+<l>Augeat et fortunis magnis et honoribus,</l>
+<l>Et publici propediem faciat principem</l>
+<l>Consilii, quod mihi contigisse perspicis.</l>
+<l>PU. Dabo equidem operam pater. MER. Heus tu, tibi dico Lucrum.</l>
+<l>LU. Quid est? MER. Hunc mihi puerum quaeso observes probe,</l>
+<l>Adhaereas, foveas, reddasque divitem.</l>
+<l>LUC. Si me observaverit et coluerit unice,</l>
+<l>Si caute adhaeserit et me sibi habuerit DEUM,</l>
+<l>Si vigilaverit et fuerit ad iussa impiger,</l>
+<l>Opera (ne quid dubites) pro opera pensabitur.</l>
+<pb id='s020'/>
+<l>LY. At ego faxo ut haec disturbentur foedera.</l>
+<l>MER. Scio te velle coli, et merito quidem hercule,</l>
+<l>Nam per te solum homines redduntur incliti.</l>
+<l>Quare puer, nullos illius gratia</l>
+<l>Labores fuge, feres iucunda praemia.</l>
+<l>PU. Praeceptorum memorem dices. MER. Cras scis mihi</l>
+<l>Ad mercatum esse eundum Francofordiam,</l>
+<l>Domum ut illinc decem aureorum milia</l>
+<l>Ex societatibus feram. Quare domi</l>
+<l>Tu interea rem bene geras. LY. Intercludam ego</l>
+<l>Hociter. PU. Accurabo. MER. Interea ego neminem</l>
+<l>Meas in aedes intromitti volo nisi</l>
+<l>Quis debitorum ad te numetatum venerit.</l>
+<l>LY. Heus heus, Ecquis ianitor hic est? Ecquis aperit?</l>
+<l>MER. Atatquis ita fores pulsat centaurice?</l>
+<l>LU. Nullus aperiat, nullus quidquam respondeat.</l>
+<l>Nam mihi videtur esse Conscientia,</l>
+<l>Quae semper his proterve vim foribus facit.</l>
+<l>CON. Audis mi homo, ut Lucrum ne intromittar cavet</l>
+<l>LY. Bono animo sis. Nisi me fallunt istae manus,</l>
+<l>Istas tibi fores expugnatas dabo.</l>
+<l>Hem, nullus audiet? MER. Hic profecto ianuam</l>
+<l>Effringet, quisquis est. Quin despicis puer</l>
+<l>Mox per fenestram, et quid sibi velit rogas?</l>
+<l>PU. Quis est? Quid hic tibi debetur homo pessime,</l>
+<l>Ut foribus vim facias? LY. Intromitti volo.</l>
+<l>PU. At nobis otium non est operam dare</l>
+<l>Mendicis, nec do mus isthaec mendicos amat:</l>
+<pb id='s021'/>
+<l>LY. Antu me mendicum arbitrare carnifex?</l>
+<l>Nisi aperis, assulatim, has comminuam fores.</l>
+<l>MER. Notum esse oportet, qui sic minitatur malum.</l>
+<l>Nomen roga. PU. Hospes, quod est nomen tibi?</l>
+<l>LY. Lyochares vocor. ME: Abeat in maximam malam</l>
+<l>Crucem. Nemo mihi est isthoc notus nomine.</l>
+<l>LY. Sed aperi inquam actutum. PU. Multum immodestus es</l>
+<l>In conveniendis hominibus. Noli fores</l>
+<l>Frangere. Responde primum, quid negotii</l>
+<l>Habeas. LY. Est mihi quod Mercatori nuntiem.</l>
+<l>PU. Adfers pecuniam? Si non adfers abi in</l>
+<l>Malam rem. LY. Eam profecto vobis adfero.</l>
+<l>Sed otiose tute tecum disputa,</l>
+<l>Ego his loquar foribus. PU. Parce foribus obsecro.</l>
+<l>Hic hercle pervicaciter oppugnat fores.</l>
+<l>Quid si ante aperiam quam confringit cardines?</l>
+<l>ME. Melius est. Sed tu mihi gladium cedo, et lucru</l>
+<l>Aliquo abstrudas. Nam hic hercle praedatum advenit</l>
+<l>PU. Quid si in clamem cives ut suppetias ferant?</l>
+<l>MER. Nihil opus est tumultu. Ego illum monomachus</l>
+<l>Latronem accipiam, ne frustra huc pervenerit.</l>
+<l>Tu mox Lucrum. PU. Heus huc te Lucrum in arcam condito,</l>
+<l>Nete violentus hic latro inventum opprimat.</l>
+<l>Ah tu cohibe vim donecadimo repagula.</l>
+<l>Quin cessas paulisper? Quid nunc? Patent fores.</l>
+<l>Quid vis? Quid quaeris? Quid debetur hic tibi,</l>
+<l>Nisi malum? LY. Ne mihi obsistas puer, nisi</l>
+<l>Mavis cerebrum comminui tibi. Iam sequere tu.</l>
+<pb id='s022'/>
+<l>CO. Quid si ante omnia mactemus maledictum Lucrum</l>
+<l>Quod ad fores est? LY. Ubi? Non est. Videbimus</l>
+<l>De illo post. MER. HEi mihi, spasmus ner vos contrahit.</l>
+<l>Iam iam perii planissime. Occidar, quasi</l>
+<l>Pullus gallinaceus. Haud iusto tempore</l>
+<l>Me ner vi destituunt, Sed et hic, ut conspicor,</l>
+<l>Inermis est. Bipedum scelestissime, quid est,</l>
+<l>Quod contra leges et maiorum iura, vim</l>
+<l>Mihi facias, et id meae domi quidem?</l>
+<l>LY. Sic soleo. Adorior homines ut animo colli bet,</l>
+<l>Velrurivel domi, ubicumque est occasio.</l>
+<l>Nec pareo maiorum quid quam legibus.</l>
+<l>MER. Recte latronum more. Sed faxo hercule</l>
+<l>Ut ceteris exemplum sis latronibus,</l>
+<l>Quum in excelsissimam te sublatum crucem</l>
+<l>Conspexerint. Sed curre Puer, et publicos</l>
+<l>Magistratus ministros huc ad me voca.</l>
+<l>Quae nam haec miseria est, ut nullus domi suae et</l>
+<l>In civitate libera tutus siet?</l>
+<l>LY. Nihil est opus ministr is publicis puer.</l>
+<l>Quare subsiste paulisper, donec scias</l>
+<l>Utrum medicos an carnifices huc advoces.</l>
+<l>Audi Mercator. Mortis adsum nun cius.</l>
+<l>MER. Quid? Vaeh misero mihi. LY. Mortis adsum nuntius.</l>
+<l>MER. Heu totus langueo. LY. Mortis adsum nuntius.</l>
+<l>MER. Tace obsecro, terrores subiti me opprimumt.</l>
+<l>LY. Tamen adsum mortis nuntius. MER. Heu spiritus abit.</l>
+<pb id='s023'/>
+<l>LY. Et iubeo, ut hac relicta vita et opibus,</l>
+<l>Honoribus, amicis, Lucris, negotiis,</l>
+<l>Bonisque huius vitae abdicatis omnibus,</l>
+<l>Operum, studiorum, verborumque iudici</l>
+<l>Probatam cras reddas rationem. MER. Vaeh mihi.</l>
+<l>Tonitrua et grandinem loqueris. Quid agam miser?</l>
+<l>Quo me vortam? Ah licetne paucis te alloqui?</l>
+<l>LY. Quid vis? Loquere. MER. Quaeso te maiorem in modum,</l>
+<l>Ne mihi succenseas quod tibi dixi male.</l>
+<l>Neque te neque tuam cognovi potentiam.</l>
+<l>Alio modo notos compellamus, alio</l>
+<l>Ignotos, ignotis raro suus datur honos.</l>
+<l>Tui candoris est, mala consulere boni.</l>
+<l>LY. Nihil moveor maledictis, nec quicquam insolens</l>
+<l>Abs te mihi accidit. Ubique fere isthoc modo</l>
+<l>Suscipior, rarus iam mihi dextram porrigit.</l>
+<l>MER. Quando igitur nil mihi succenses, porro obsecro</l>
+<l>Supplex, ne in ipsis me voces negotiis,</l>
+<l>Sed in aliquot annos hunc mihi diem proroges.</l>
+<l>LY. Non mea res agitur, iudicis sententia</l>
+<l>Te urget, quae nullis mutari precibus potest.</l>
+<l>MER. Tamen Ezechiae dati sunt anni quindecim.</l>
+<l>LY. Ut isthuc memoriter tenes. Sed unius,</l>
+<l>Scis, privilegia communem non destruunt</l>
+<l>Legem. Non cuiusvis tantum valent preces.</l>
+<l>MER. Heu cor mihi dissilit. Tamen negotia</l>
+<l>Quaedam mihi vix dum effecta sunt, ad quae an nus aut</l>
+<pb id='s024'/>
+<l>Ad minimum menses undecim (nam gravia sunt)</l>
+<l>Requiri possunt, ut consciantur probe.</l>
+<l>LY. Etiamsi mille annos perpetuos vixeris,</l>
+<l>Non cuncta tamen confeceris negotia.</l>
+<l>Nam uno nondum confecto succedit aliud.</l>
+<l>Conficient alii quod tu non confeceris.</l>
+<l>MER. Heu totus horreo. Ah ah, haeredes nesciunt,</l>
+<l>Qua cuncta transigenda sint solertia.</l>
+<l>LY. Discent natare aquis in os fluentibus.</l>
+<l>MER. Interimis me tuis dictis. Tantummodo</l>
+<l>Sex oro menses concede, ut melius mihi,</l>
+<l>Subducatur ratio reddenda Iudici, et</l>
+<l>Donec raso vertice me fune cinxero,</l>
+<l>Bonis permultis exornatus operibus.</l>
+<l>LY. Neque sex neque quatuor, tametsi spondeas</l>
+<l>Catena aut centum te cincturum funibus.</l>
+<l>MER. Vaeh mihi miserrimo, ut es inexorabilis.</l>
+<l>Certe exorari quattuordecim dies</l>
+<l>Posse reor, donec rediero a Francfordia,</l>
+<l>Nam illic haud negligendum est mihi commercium</l>
+<l>LY. Mihi committas, ego tuo fungar munere.</l>
+<l>MER. Ludis tu numc quidem. Num tot dies putas?</l>
+<l>LY. Ne unum quidem. MER. Heu genua labant. Cor angitur.</l>
+<l>Exanimor totus. LY. Animam prende fortiter.</l>
+<l>Nam magnam vim tibi adfero pecuniae.</l>
+<l>MER. Pecuniae vim? Redeunt vires denuo.</l>
+<l>Siadfers pecuniam, haud exiguam in spem vocas.</l>
+<l>Pecuniam ergo cedo. LY. Imo pestem accipe,</l>
+<pb id='s025'/>
+<l>Quae te profecto die consumet crastino.</l>
+<l>Haec est moneta quam adfero mortalibus.</l>
+<l>MER. O spes et opes meae! O urgens necessitas!</l>
+<l>O fatum in vitabile! Vaeh vitae meae!</l>
+<l>O dolor et gemitus, quam ex improviso mihi</l>
+<l>Adestis, quam cito cuncta abiere gaudia!</l>
+<l>Oh oh quam uror, quam dolor est cordi proximus!</l>
+<l>Capite me famuli, et in lectum reponite.</l>
+<l>Cogite medicos, et antidota quaerite</l>
+<l>Ne me fatalis isthaec consumat dies,</l>
+<l>LY. Vel centum cogite medicos, nullus tamen</l>
+<l>Huius pestis telum poterit avertere.</l>
+<l>MER. Eheu Lucrum Lucrum, quam me tui oblivio</l>
+<l>Cepit, quam non lubet tibi posthac dare operam!</l>
+<l>LY. Ehem mulier? CON. Quid est! LY. Huius vim contudi.</l>
+<l>Ferociam repressi, finem audaciae</l>
+<l>Imposui, nec iam est quod formides amplius.</l>
+<l>CON. Bene actum, et tibi pro opera hac magnam habeo gratiam.</l>
+<l>Nunc facilime locum meum occupavero.</l>
+<l>LY. Nunc age, Lucrum, quod tibi molestum praedicas</l>
+<l>Fuisse, in omnibus apothecis quaerito, in</l>
+<l>Arcis, cellis, cameris denique et armariis,</l>
+<l>Mihique inventum renuntia. CON. repertum adest.</l>
+<l>LY. Hem quam crassum animal. Hasce actutum compedes</l>
+<l>Accipe. Prohibebo ne per omnes angulos,</l>
+<l>Terrasque et maria volites, nec hominibus in</l>
+<l>Foro ullam posthac exhibeas molestiam.</l>
+<pb id='s026'/>
+<l>LU. Fortasse parum vobis videtur, familias</l>
+<l>Patrem oppressisse, nisi etiam mihi compedes</l>
+<l>Immerito et innocenti iniciatis? LY. Etiam</l>
+<l>Mutire audes nequam? CON. Eia innocenti tibi!</l>
+<l>LY. Praeterea et scabie te condono gallica.</l>
+<l>Faxo quoque (quo dignas des poenas facinorum) ut</l>
+<l>Turpiter ab huius distrahare haeredibus,</l>
+<l>Membratimque lacerere a canibus aut equis,</l>
+<l>Lv. Magnum dirumque malum, malis haeredibus</l>
+<l>Dari in potestatem. Sed tolerabo omnia,</l>
+<l>Quandoquidem isthuc rerum expetit necessitas.</l>
+<l>LY. Hostibus oppressis, pax est Conscientia.</l>
+<l>Quare Mercatorem exagites licet ut lubet,</l>
+<l>Officioque tuo dein fungare pristino.</l>
+<l>CON. Sentiet ille quidem, quid sit Conscientiam</l>
+<l>Laedere, neque meis velle imperiis obsequi.</l>
+<l>LY. Merito hercle. Sed ego abeo ad citatos ceteros,</l>
+<l>Meum postquam hic munus confeci strenue.</l>
+<l>Numquid vis? CON. Ut cito redeas. En tibi gregem</l>
+<l>Medicorum. LY. Horum omnis hic opera frustrabitur,</l>
+<l>Ne timeas. Sed abeo ut revertar ocyus.</l>
+</lg>
+<p><hi>CHORUS.</hi></p>
+<lg>
+<l>Quis tantus stupor est cordibus insitus</l>
+<l>Humanis? Quis erit stultitiae modus</l>
+<l>Tandem? Quando homines respicient sibi</l>
+<l>Vitae impendere terminum?</l>
+<l>Quum mors horribili quottidie manu</l>
+<pb id='s027'/>
+<l>Quosdam corripiat, nescia parcere</l>
+<l>Ulli, non etiam regibus inclitis,</l>
+<l>Quantumvis bene rexerint,</l>
+<l>Aut quantum populis extiterint graves</l>
+<l>Armis sive minis sive libidine:</l>
+<l>Vis lethi simul haec dissipat omnia,</l>
+<l>Contundens animos truces:</l>
+<l>Quum mors reiciat munera divitum,</l>
+<l>Nec vultum timeat multa potentium,</l>
+<l>Nec cedat validi viribus Herculis,</l>
+<l>Nec magni faciat preces:</l>
+<l>Sed cunctis pariter tristia concinat</l>
+<l>Assistens subito, carmina, cordibus</l>
+<l>Ut missis aliis pene negotiis,</l>
+<l>Se mox iudicio parent:</l>
+<l>Quid reges agitat, quis furor horrida</l>
+<l>Cursim in bella vocat? Propter inania</l>
+<l>Gaudent absque metu commoda saepius</l>
+<l>Rivos ducere sanguinis.</l>
+<l>Quid quaerunt equites, quid pedites sibi, ut</l>
+<l>Rapto iusticiae transsiliant vias,</l>
+<l>Audacterque minis multiplicent mala, et</l>
+<l>Id ducant sibi gloriam?</l>
+<l>Mercator quid agit, dum studet impiger</l>
+<l>Comportare lucrum fraude, dolis malis,</l>
+<l>Non magni faciens artibus ex quibus</l>
+<l>Fratrum possideat bona?</l>
+<l>Mendaces quid agunt causidici, bonas</l>
+<l>Qui causas reprobant at que probant malas,</l>
+<pb id='s028'/>
+<l>Si spes exigui sollicitat lucri</l>
+<l>Mentis nil metuentium?</l>
+<l>Quid, qui scorta colunt, et quid adulteri,</l>
+<l>Quid fures, quid avari, et quid iners cohors</l>
+<l>Verbum Euangelii iam exagitantium?</l>
+<l>Omnes iudicium manet.</l>
+<l>Durum heu iudicium Iudicis in quibus</l>
+<l>Nullus regnat amor, nec metus avocat</l>
+<l>A mundi illecebris et grege perdito,</l>
+<l>Et factis procul impiis.</l>
+<l>Mors nobis aderit serius ocyus</l>
+<l>Cunctis, quum ratio forte nec integra,</l>
+<l>Nec constans adeat lumina Iudicis.</l>
+<l>Felix qui excubias agit.</l>
+</lg>
+</div3>
+</div2>
+<div2 id='NaM.01.03' n='3' type='act'>
+<head>ACTUS SECUNDUS.</head>
+<p>MEDICI. PUER. MERCATOR.</p>
+<div3 id='NaM.01.03.01' n='1' type='scene'>
+<lg>
+<l>QUANTUM quidem ex certis signis cognoscimus,</l>
+<l>Hic homo diu vivere non poterit. Intima</l>
+<l>Omnia pervasit pestis. Omnis luditur</l>
+<l>Nostra opera, qua aegrotis aliis subvenimus.</l>
+<l>Quapropter ne, qui vitae auctores credimur,</l>
+<l>Mortis spectatores simus, nostraeque quid</l>
+<l>Professioni committatur absonum,</l>
+<l>Abeundum est. Poscamus per internuntium</l>
+<l>Mercedem, moneamusque ut animae consulat,</l>
+<pb id='s029'/>
+<l>Quandoquidem nulla vitae spes est corpori.</l>
+<l>Ehodum puer ad nos. PU. Quid me vultis? MER. Audies.</l>
+<l>Satis perspicimus frustra hic tempus terere nos,</l>
+<l>Nec morti herum tuum ulla posse arte eripi.</l>
+<l>Res monet ut abeamus, tu nobis postules</l>
+<l>Mercedem, moneasque ut sibi ipsus consulat.</l>
+<l>PU. Faciam. Here, Medici abire volunt et postulant</l>
+<l>Mercedem. MER. Quid? Abire volunt et deserere me?</l>
+<l>Deus illis malefaciat. Huc me accedamt volo.</l>
+<l><corr sic='PY.' resp='transcriber'>PU.</corr> Domini mei, ut se conveniatis herus iubet.</l>
+<l>MED. Aegre fert nos abituros scilicet? PU. Probe</l>
+<l>Divinastis. MED. More hominum facit. Omnes sibi</l>
+<l>A nobis mortis differri volunt diem,</l>
+<l>Quasi et hoc herbarum vires efficere queant.</l>
+<l>Irascuntur, si mors nostra arte plus valet.</l>
+<l>Sed adeamus. MER. Quid Medici? num gravissime</l>
+<l>Me iam aegrotante vos abibitis, quasi</l>
+<l>Pro opera vestra non possim mercedem dare?</l>
+<l>MED. Ne tristeris Mercator, nec succenseas</l>
+<l>Nobis quidquam. Certa in te totum obtinet</l>
+<l>Pestis, pervasique ipsa etiam penetralia.</l>
+<l>Nos circa te omnia quae potuimus fecimus,</l>
+<l>Nec est quod a nobis quidquam amplius petas.</l>
+<l>Quippe nec ars nostra operatur absque termino.</l>
+<l>Et nos artemque nostram morti denique</l>
+<l>Concedamus oportet, quae vincit omnia.</l>
+<l>Quare quum nil possimus amplius, haud feras</l>
+<l>Iniquo abitionem nostram animo, quaesumus.</l>
+<pb id='s030'/>
+<l>MER. Abibitis ergo? MED. Te hic gravare nolumus</l>
+<l>Frustra. MER. Certum est? MED. Prorsus. MER. Meque in morte media</l>
+<l>Relinquetis? MED. Nec sitotum hic decennium</l>
+<l>Maneamus, te morti eximere quisquam potest.</l>
+<l>MER. Itane tandem? MED. Ut quidem nos deprehendimus.</l>
+<l>MER. O stolidos aeque ac miseros, qui corpus suum</l>
+<l>Curae vestrae vestrisque credunt pharmacis.</l>
+<l>Non cogam vos manere hic, sed per me licet</l>
+<l>In maximam quam primum ut abeatis crucem.</l>
+<l>MED. Par vitua maledicta facimus omnia,</l>
+<l>Ut quae a male sano sunt profecta pectore.</l>
+<l>Numeretur nobis merces ut abeamns. MER. Hoc</l>
+<l>Est, mercedem audetis etiam pro mala opera</l>
+<l>Poscere. Sed quid agam? Absolvamvos ocyssime,</l>
+<l>Ne vos gratis hic sedisse possitis queri.</l>
+<l>Sed quantum poscitis? MED. Quinquaginta aureos.</l>
+<l>MER. Huic tantillumne? MED. non est nimium a divite.</l>
+<l>MER. Non aedepol, Sed nimium est vestrae inertiae</l>
+<l>Et egregiae vestrae operae, qua morbum mihi</l>
+<l>Non depulistis, ceterum auxistis magis.</l>
+<l>At heus puer, his numera quinquaginta aureos.</l>
+<l>Ut abeant quo digni sunt. PU. En habetis hic.</l>
+<l>MED. Habemus et abimus. Tu Mercator vale.</l>
+<l>MER. Nae ego, si quis alius, infelix homo sum ac miser,</l>
+<l>Cui nequein medicis, neque in amicis, neque in</l>
+<pb id='s031'/>
+<l>Pecuniis vel tantillun situm est opis.</l>
+<l>O mortis incorrupta ullis violentia</l>
+<l>Muneribus, quam tristes rerum das exitus,</l>
+<l>Neclachry mas nec querelas miserorum aspicis.</l>
+<l>Sero hercle te timere didici. Heu quam meae</l>
+<l>Iam in arctum (quod dicunt) coguntur copiae.</l>
+<l>Diris intus et extra affligor cruciatibus.</l>
+<l>Eho dum puer, Parochum accerse ocyus, ut sacris</l>
+<l>Me provideat, ut omnes morituri solent,</l>
+<l>Doceatque modum quo animae saluti consulam.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.03.02' n='2' type='scene'>
+<head>SCENA SECUNDA.</head>
+<p>CONSCIENTIA, MERCATOR. SATANAS.</p>
+<lg>
+<l>IAM tempus invitat ut officium agam meum.</l>
+<l>Medici puerque abiere, sola colloquar</l>
+<l>Cum solo, quo me velin extremis audiat.</l>
+<l>MER. Atqui ingentem congessi vim pecuniae,</l>
+<l>Qua laetificabo haeredes, ut magnas mihi</l>
+<l>Post mortem gratias agant. Si quidem aliud</l>
+<l>In mundo nihil egi, habitus sum vir dives et</l>
+<l>Probus, qui dignus eram praeferri ceteris.</l>
+<l>Sed unde nobis prodit Conscientia?</l>
+<l>CON. Unde lubitum est. Sed quid ais nunc? Adsum tamen</l>
+<l>Quantumvis etiam te invito. Quid ita oculis</l>
+<l>Me tragicis obtuere? Quid teris pedem?</l>
+<l>MER. Quia nihil est, qui tibi comminuam synciput.</l>
+<l>Etiam tu in conspectum meum audes progredi</l>
+<pb id='s032'/>
+<l>Pessima? Mihiqui, in mediis iam doloribus</l>
+<l>Quidquam loqui? CON. Quid ni? Numc est occasio.</l>
+<l>Cur me non opprimis? cur non trudis foras?</l>
+<l>MER. Certe aedepol si quidquam adesset virium,</l>
+<l>Pertunderem os isthuc tibi impudens probe.</l>
+<l>At iam facile illudis relicto ab omnibus,</l>
+<l>Causamque ex vinculis dicenti. Sed rogo</l>
+<l>Te maiorem in modum, quandoquidem tu mihi</l>
+<l>Ab ineunte aetate fuisti intima, ne meis</l>
+<l>Quidquam doloribus addas, neve vindices</l>
+<l>Quod quam tibi Lucro semper adhaesi magis,</l>
+<l>Teque meis ex aedibus exturbavi foras,</l>
+<l>Ad miseriae donec sis acta terminos.</l>
+<l>Peccavi, vicisti, victrici do manus,</l>
+<l>Abeas quaeso modo nec mihi iam molesta sis.</l>
+<l>Afflictis non etiam addenda est afflictio.</l>
+<l>CON. Egone ut abeam, officiumque meum deseram?</l>
+<l>Quin adsum, aderoque tibi et in ipsis inferis,</l>
+<l>Semperque ad aures tua malefacta tibi occinam.</l>
+<l>Donec tibi cor fathiscat prae doloribus,</l>
+<l>Redigarisque et tu ad miseriarum terminos:</l>
+<l>Neque Lucrum etiam isthuc neque quisquam immortalium aut</l>
+<l>Mortalium prohibebit. An numquam tibi</l>
+<l>In mentem venit me emersuram denique,</l>
+<l>Quum nullius ius iaceat perpetuo obrutum?</l>
+<l>Nunc meus es, nunc vera tibi dicam plurima.</l>
+<l>MER. Ea demum summa miseria est, precibus nihil</l>
+<l>Miseros posse obtinere. Sed quid ago, inopis</l>
+<pb id='s033'/>
+<l>Qui memet animi facio? Patere corculum,</l>
+<l>Patiunda quaecumque imponit necessitas.</l>
+<l>Age dum tu, quae malefacta habes mihi cavere?</l>
+<l>Quae vera adfers? Quod est imperium in me tuum?</l>
+<l>Quos mihi caelum petenti narras inferos?</l>
+<l>CON. Caelum tu? MER. Ita inquam. CON. Si quidem asinus aut lapis</l>
+<l>Poterit volare. MER. Quare isthuc? CON. Etiam rogas?</l>
+<l>Quia impius et improbus et nihili semper huc</l>
+<l>Usque fuisti, deum contemnens iugiter.</l>
+<l>MER. Quid? Impium me et nihili, quem cives sibi</l>
+<l>Publici consilii constituere principem?</l>
+<l>CON. Numquam recte notus fuisti civibus.</l>
+<l>Neque mirum isthuc hercule, tot eras tectoriis,</l>
+<l>Rerumque bonarum hypocrisi opertus callide.</l>
+<l>Fefellisti cives et ab ipsis falsus es.</l>
+<l>MER. Video hercle ita factum esse ipso sole clarius,</l>
+<l>Sed quod fuerim impius atque Deum contempserim,</l>
+<l>Mentiris, meque hic innocentem praedico.</l>
+<l>CON. Euge innocentem. Si hoc possis defendere,</l>
+<l>Nulla est causa, tibi cur dehinc molesta sim.</l>
+<l>MER. Negas igitur? CON. Et maxime. MER. Hem quo modo?</l>
+<l>CON. Impius est, qui nulla Dei cura tangitur.</l>
+<l>Qui non timet videtur is contemnere.</l>
+<l>MER. Quum dederim eleemosynas pauperibus maximas,</l>
+<l>Quumque inter primos adfuerim in Ecclesiis,</l>
+<l>Et quottidie certas oraverim preces</l>
+<pb id='s034'/>
+<l>Quin et cum omni ipsius altare supellectili</l>
+<l>Construxerim, atque etiam vestes dederim sacras,</l>
+<l>Nec expensae in Missas numerus pecuniae</l>
+<l>Vulgaris sit, sed sortem excedat pauperum,</l>
+<l>Tu me Deum non curasse audes dicere?</l>
+<l>CON. Non inficias eo isthaec te fecisse, sed</l>
+<l>Coram Deo, aio nullius esse ponderis.</l>
+<l>MER. Cur isthuc? CON. Quid multis opus est ambagibus?</l>
+<l>Deum non curat qui praecepta negligit:</l>
+<l>Sed neque curat qui non praecepta perficit.</l>
+<l>Non in mentem venit, quid adhuc puer patri</l>
+<l>Matrique feceris? Quo pacto quindecim</l>
+<l>Patri aureos surripueris et negaveris,</l>
+<l>Et apud sodales nequam eos decoxeris,</l>
+<l>Qui a matre correptus eam verberaveris,</l>
+<l>Adeoque ambos habueris ludibrio, sed et</l>
+<l>Exerta lingua illorum iussa spreveris?</l>
+<l>Quoties illis mala imprecatus sis? Et haud</l>
+<l>Raro illorum pessime capita devoveris?</l>
+<l>Mortemque optaveris, et ita semper vixeris,</l>
+<l>Ut ipsis omnique familiae esses dedecus?</l>
+<l>MER. Equidem veramemoras, neque negare quio, ita</l>
+<l>Me testibus vel mille oppressum sentio.</l>
+<l>CON. Quid memorem, quod iam mortuis parentibus,</l>
+<l>Fratrem veneno sustuleris, ne quis tibi</l>
+<l>Cohaeres esset, et quasi esses innocens,</l>
+<l>Extortis fictisque illum lacrimis fleveris?</l>
+<l>MER. Memini hercle etiam isthuc. CON. Nonne recordaris, quibus</l>
+<pb id='s035'/>
+<l>In ganeis fueris, et quod meretricibus</l>
+<l>Servieris turpiter, et quod adulter septies</l>
+<l>Sis deprehensus, atque hisce studiis tuam</l>
+<l>Nequiter haereditatem dilapidaveris?</l>
+<l>Longum esset narrare, quibus postea artibus,</l>
+<l>Furtis, mendaciis, periuriis, dolis,</l>
+<l>Imposturis, fallaciis, astutiis,</l>
+<l>Sortem illam maledictam ex alienis domibus huc</l>
+<l>Raptam intuleris, ex eaque Lucrum produxeris.</l>
+<l>Scis ne hoc ita esse factum? MER. Tua opera hercule.</l>
+<l>CON. Quid, quod neque Deum neque homines, nonfilios,</l>
+<l>Non uxorem, non cognatos, non denique</l>
+<l>Affines aut amicos tanti feceris,</l>
+<l>Quanti Lucrum? Nam illius causa publicus</l>
+<l>Hostis eras immortalium et mortalium.</l>
+<l>Illud tibi actionum scopus erat unicus,</l>
+<l>Illud adorabas, tibique summus erat DEUS.</l>
+<l>Ecquid negare potes horum? MER. Nihil omnium.</l>
+<l>CON. Scis etiam isthuc, quo pacto indignabar tibi,</l>
+<l>Quum acceptos ab amico ducentos aureos</l>
+<l>Te accepisse negabas et iurabas scelus!</l>
+<l>MER. Vaeh mihi quam vera narras. Quam me perditum</l>
+<l>Aspicio! Co. Ex xenodochio, cuius cura tibi erat</l>
+<l>Commissa, in singulas hebdomadas quindecim</l>
+<l>Rapuisti drachmas, ne domi sumptum ex tuo</l>
+<l>Faceres, neve Lucro quid decideretur. Et</l>
+<l>In hunc modum famiham cunctam annos decem</l>
+<l>Huc usque sustentasti, nec <unclear reason='print faded'>quis</unclear> civium</l>
+<pb id='s036'/>
+<l>Abs te hactenus ausus est rationem poscere,</l>
+<l>Nectu sponte tua unquam curasti reddere.</l>
+<l>MER. Heu, quam me malefactis gravas et deprimis!</l>
+<l>CON. Si quoties peccasti in Deum atque proximum</l>
+<l>Recitare velim, non hic suffecerit dies.</l>
+<l>In summa autem, terrae fuisti pondus, et</l>
+<l>Plumbea, quae iam inferis debetur, sarcina.</l>
+<l>Quibus ex factis audes sperare gratiam?</l>
+<l>Quo Pegaso superos adibis perditus?</l>
+<l>Qua spe, qua fronte impius aspicies Iudicem.</l>
+<l>Qua denique aeternos ignes fiducia</l>
+<l>Effugere poteris? An non in mentem tibi</l>
+<l>Venit quam gravis ultor sit iniquorum DEUS?</l>
+<l>Quantus sit aemulator legis traditae?</l>
+<l>Quam non suis parcat nec parserit hostibus?</l>
+<l>MER. Vaeh mihi perpetuo ut me trudis in angustiam.</l>
+<l>Discede a me obsecro, nec mihi quidquam occinas.</l>
+<l>Spinas, tribulos etverbaloqueris saxea. Co. Haud</l>
+<l>Discedo, sed ostendam tibi qualis vir sies.</l>
+<l>Sed recte Satanam videoaccedere, hic tibi</l>
+<l>Non facta solum sed verba quoq, singula</l>
+<l>Ex codice ostendet, te ut plane perditum</l>
+<l>Agnoscas. MER. Hei mihi. Ubi est? CON. Eccum quam proxime.</l>
+<l>MER. Ah quo nunc fugiam miser? CON. Ad Sortem censeo.</l>
+<l>Cur non etiam Lucrum invocas? SAT. Cetera quidem</l>
+<l>Recte omnia habent. Doctores omnes sentiunt</l>
+<pb id='s037'/>
+<l>Quae maxime volo, ut discipulorum mihi</l>
+<l>Ex retibus evadat nullus. Nunc viso, quid</l>
+<l>Mercator agat rerum, an se quoque iam accinxerit</l>
+<l>Ut una cum aliis cras prandeat apud inferos.</l>
+<l>CON. Audis quid loquitur? Cras prandeat apud inferos.</l>
+<l>MER. Vaeh mihi. Quis ex huius me eripiet unguibus?</l>
+<l>CON. Lucrum, Lucrum invoca, cultus ut sit memor.</l>
+<l>MER. Nihil facilius quam subsannare miseros.</l>
+<l>SAT. Quid agitur? Ecquid vos accingitis ad iter?</l>
+<l>CON. Curatur sedulo. Huncego totum tibi</l>
+<l>Dedo. Nam imperii scita tui secutus est.</l>
+<l>SAT. Scio. Codex hic omnem operam testabitur.</l>
+<l>MER. DEUS te perdat Satana, quid mecum tibi</l>
+<l>Rei est? Quid hic quaeris? Cur non quo dignus es</l>
+<l>Abis? SAT. Diu iam mihi tecum est commercium.</l>
+<l>Te quaero: Quin et tu mecum quo dignus es</l>
+<l>Abis? MER. Tecum pessime? SAT. Ad Acherontem inquam veni.</l>
+<l>Ubi magna tuorum turba sedet sodalium,</l>
+<l>Turpilucri cupidorum, furum, rapacium,</l>
+<l>Nec non diversis deditorum sceleribus.</l>
+<l>MER. Ubi me locorum hominem novisti eiusmodi?</l>
+<l>SAT. Ubi quaeris? inspice hunc et pellege codicem.</l>
+<l>Repperies quid, ubi, quoties, quamdo, quomodo,</l>
+<l>Qua, per quos, cur, quibuscum, quibus, et omnia.</l>
+<l>MER. Hei misero mihi, quam accurate scripta omnia</l>
+<l>Quantus numerus, quantaque rerum est indignitas?</l>
+<pb id='s038'/>
+<l>CON. Iam nunc inficiator vel minimum si potes.</l>
+<l>Equidem et ego sum singulorum conscia.</l>
+<l>SA. Nonne intelligis ex his te fore Acheronticum?</l>
+<l>MER. O si mihi terra dehiscat, et colles meum ab</l>
+<l>Irati iudicis aspectu operiant caput,</l>
+<l>Heu iam inferos iam aeternos ignes sentio.</l>
+<l>SAT. Pulchre dicis. Nos interea saltabimus,</l>
+<l>MER. Nemo esse potest iratior cui sit DEUS,</l>
+<l>Nec in quem fortius sua tela torqueat,</l>
+<l>Quam in me. Videntur universae in me unicum</l>
+<l>Conspirasse creaturae, ut nusquam sit salus,</l>
+<l>Nusquam perfugium, nusquam et auxilium mihi:</l>
+<l>Superne venit ira atque indignatio,</l>
+<l>Interne infandos cor gemitus excreat,</l>
+<l>Inferne poenae annuntiantur horridae.</l>
+<l>Neque id immerito. Quis enim me peior? Quis Deum</l>
+<l>Audacius contempsit? Aut quis hominibus</l>
+<l>In omni iniuriarum genere unquam fuit</l>
+<l>Gravior? Oh oh oh quam male et quam perdite</l>
+<l>Et vitam omnemque collocavi industriam.</l>
+<l>SAT. Vere quidem, sed frustra narras omnia,</l>
+<l>Cras mecum ibis, non est quod speres gratiam.</l>
+<l>MER. Animadverto prorsus nullam pestem ita gravem,</l>
+<l>Nullum esse tormentum tam formidabile,</l>
+<l>Quam est vel levissima peccatorum sarcina.</l>
+<l>O si veniat parochus, qui aut istam sarcinam</l>
+<l>Auferat, aut os obturet Conscientiae,</l>
+<l>Aut execrando Satanaerumpat codicem,</l>
+<l>Cuius me ad mortem adigit et commemoratio.</l>
+<pb id='s039'/>
+<l>CON. Mihi quisquam obturet os? Aut huius codicem</l>
+<l>Dilacerare queat? MER. Meliora ego quam dicitis</l>
+<l>Huc usque spero, quamvis cor gravissime</l>
+<l>Per vestras semper affligatur naenias.</l>
+<l>SAT. Nihil moramur spem, modo desperatio</l>
+<l>Claudat vitam. MER. Nondum pessime. Sed ecce iam</l>
+<l>Huc pastor advenit, a quo consilium petam,</l>
+<l>Quo pacto vestras effugere possim manus.</l>
+<l>Atque heu vos a me pellat (siquidem mihi</l>
+<l>Omnino est moriendum) ne me terroribus</l>
+<l>Perpetuae mortis desperatum ad tartara</l>
+<l>Rapiatis. SA. Rectam instas viam. Nam te quidem</l>
+<l>Frustra quidvis sperantem rapiam ad tartara.</l>
+<l>Nec huius pastoris consilium, qui suis</l>
+<l>Ter stultior est ovibus, cassa nuce pendimus.</l>
+<l>Sed cy mbalum tinnit, fortasse aliquid sacri</l>
+<l>Secum adfert, ut asinus portans mysteria.</l>
+<l>Sed heus, tu prope lectum hic consiste, in angulum</l>
+<l>Ego interim concedam hunc, et venientibus</l>
+<l>Perstringam oculos, ne nos videre possient.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.03.03' n='3' type='scene'>
+<head>SCENA TERTIA PAROCHUS. PUER.</head>
+<lg>
+<l>MIra profecto narras. PU. Tamen verissima.</l>
+<l>PA. Venisse quendam qui se mortis diceret</l>
+<l>Nuntium? PUER. Ita inquam. PAR. Pestemque hero attulerit tuo?</l>
+<pb id='s040'/>
+<l>PU. Res ipsa docet. PA. Et secum conscientiam</l>
+<l>Introduxerit, atque male Lucrum multav erit?</l>
+<l>Luctuque gravi totas aedes impleverit?</l>
+<l>PU. Nil verius offendes. PA. Medicisque iratum herum?</l>
+<l>PU. Numquam cuiquam iratiorem. Sed fores</l>
+<l>Patent. Ingredere. Iam pridem expectat scio.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.03.04' n='4' type='scene'>
+<head>SCENA QUARTA. PAROCHUS. MERCATOR. CONSCIENTIA. SATANAS.</head>
+<lg>
+<l>SAlve Mercator. MER. Det tibi DEUS quae velis.</l>
+<l>PA. Audio te male valere. MER. Haud ex sententia.</l>
+<l>PAR. Credo hercle isthuc. Sed quid morbi est? MER. Pestem vocant.</l>
+<l>PAR. DEUS illam perdat. MER. Imo me illa funditus.</l>
+<l>PA. Dirum telum necessitatem praedicant.</l>
+<l>MER. Sic est. Sed scire hoc parvula consolatio est.</l>
+<l>PAR. Egredimini vos ceteri, ut sine arbitris</l>
+<l>Peccatorum excipi possit confessio.</l>
+<l>MER. Desperarunt medici me posse vivere,</l>
+<l>Quod et per se mihi accidit gravissimum,</l>
+<l>Tum quod linquenda sunt quae habeo chlarissima,</l>
+<l>Tum quod et alioqui mundi huius compaginem</l>
+<l>Solisque iubar aspicere omnes homines amant.</l>
+<l>PA. Verum dicis. MER. Aliud tamem huic gravissimo</l>
+<l>Gravius accedit. PAR. Quid gravius esse queat haud</l>
+<pb id='s041'/>
+<l>Video, MER. Tu hercule nihil vides si hoc non vides.</l>
+<l>PA. Quid nam? ME. <abbr expan='Peccatorum'>Pctorum</abbr> gravior est <corr sic='sarcinat' resp='transcriber'>sarcina.</corr></l>
+<l>PA. Nequaquam. Siquidem ego incedo levissime,</l>
+<l>Quum etiam in peccatorum volutabro haeream.</l>
+<l>MER. Fortasse nulla te agitat Conscientia?</l>
+<l>Neque tuorum scelerum conspexisti codicem?</l>
+<l>PA. Quam Conscientiam, quemve mihi codicem</l>
+<l>Narras? MER. Rogas? PA. Puer mihi narravit tuus</l>
+<l>Adte quidem introductam Conscientiam,</l>
+<l>Sed ignoro qualis sit illa bestia.</l>
+<l>Peccatorum ego numquam conscripsi codicem.</l>
+<l>Itane perdiligenter scripsisti tua?</l>
+<l>MER. Hei misero mihi. Vae capiti tuo et inertiae!</l>
+<l>PA. Maledicis mihi pastori? MER. Da veniam rogo.</l>
+<l>Solent languentes esse morosi. PAR. Sentio.</l>
+<l>MER. Res est, ut dixi. Accessit morbo corporis</l>
+<l>Gravior infirmitas animi et angustia,</l>
+<l>Simul ac me scelerum admonuit Conscientia.</l>
+<l>Eam tametsi cupiam nequeo vincere,</l>
+<l>Ut aut taceat aut abeat, nec molestiae</l>
+<l>Quidquam addat corporis gravibus doloribus.</l>
+<l>Sed illa lecto adhaerens numquam desinit</l>
+<l>Et scelera obiicere et iram canere Iudicis.</l>
+<l>PA. Ubi est illa locorum. MER. Hic in sponda. Non vides?</l>
+<l>PA. Non aedepol. MER. Nihil te hercle videre arbitror</l>
+<l>Qui tam manifestam non videas. PA. Quae non adest,</l>
+<l>Qui videam? ME. Bone Deus, adest. Utinam vero sit</l>
+<pb id='s042'/>
+<l>Quod praedicas, non adsit, nec me exterreat.</l>
+<l>Absterge oculos. PAR. Nihil est vicii. Abstergam tamen.</l>
+<l>MER. Vides? Huc aspice. PA. Nondum. MER. Age age iterum atque iterum</l>
+<l>Absterge. PA. Non video etiamsi millies</l>
+<l>Abstergam. MER. Mira hercle est tua coecitas, Vide an</l>
+<l>Ophthalmia aut labores lippitudine.</l>
+<l>PA. Quam tu(malum) mihi narras lippitudinem?</l>
+<l>Nihil est vicii. Sed tu nunc me ludos facis.</l>
+<l>MER. Non facio neque decet, neque ita accipias rogo,</l>
+<l>Sed amabo te, dic veritatem, non vides?</l>
+<l>PA. Non hercle quenquam nisi te. Conscientiam</l>
+<l>Quam ais, non video neque videre adeo volo.</l>
+<l>MER. Esto, Faxit DEUS ut ista a te coecitas</l>
+<l>In tempore auferatur, ne simili modo</l>
+<l>Eam mecum in supremis tandem sentias.</l>
+<l>Certe equidem ego te huc adversus Conscientiam</l>
+<l>Accersivi advocatum, ut quidquid haec mihi</l>
+<l>Criminis obiiceret, consilio et prudentia id</l>
+<l>Tua dilueretur, et internus premeretur dolor.</l>
+<l>PA. Facile id quidem potest fieri, obiciat modo.</l>
+<l>MER. Sed tu hanc non cernis. PAR. Quid facias? Si vere adest,</l>
+<l>Verba faciat, tum facile illi os compressero?</l>
+<l>CON. Scilicet. MER. Audis nunc illam? PA. Audio. Papae. Quid est</l>
+<l>Praestigiatrix, quod ades et te non conspicor?</l>
+<l>CON. Tu alienam videas, qui tuam ipsius haud vides?</l>
+<pb id='s043'/>
+<l>PA. Quid tu Mercatori huic viro integerrimo</l>
+<l>Molesta es? Cur illum trudis in angustiam?</l>
+<l>CON. Quia lubet. PA. Cur non discedis: Cur non taces?</l>
+<l>CON. Quia non lubet. PA. Aedepol te ego mulierem malam</l>
+<l>Arbitor. Co. at ego te nil mentis habere arbitror.</l>
+<l>MER. Audis profecto quam procax sit etimpudens.</l>
+<l>PA. Non mirum hercule si haec tibi negotium exhibet.</l>
+<l>Sed bono animo es. Discedet a te mea opera.</l>
+<l>MER. Utinam hoc fieri possit. PA. Confide tu modo:</l>
+<l>Et audiens sis dicto. MER. Quidvis praecipe,</l>
+<l>In me quidem nulla erit ad parendum mora.</l>
+<l>PA. Primum tua mihi confitere crimina.</l>
+<l>Ut absolutus provideare dein sacris.</l>
+<l>Tum certe nihil habebit conscientia</l>
+<l>Quod obiciat. MER. Optimum erit. Et parebitur.</l>
+<l>Aures arrige. CON. Fortasse hunc tu asinum esse autumas?</l>
+<l>PA. Compesce linguam mulier. MER. Per sacra te omnia</l>
+<l>Obtestor, paulisper taceas, in aurem huic</l>
+<l>Donec pauxilla quaedam denarravero.</l>
+<l>PA. Audacter narra <gap desc='greek words'/> MER. Domine mi</l>
+<l>Colende, Confiteor tibi me esse maximum</l>
+<l>Peccatorem et transgressorem legis DEI,</l>
+<l>Verbis, factis et cogitationibus.</l>
+<pb id='s044'/>
+<l>Non credidisse, quod quantumque debui.</l>
+<l>Et Impium absque metu operatum esse scelera.</l>
+<l>Furem, raptorem, scortatorem, adulterum,</l>
+<l>Homi cidam, quadruplatorem, veneficum,</l>
+<l>Mendacem, perfidum, sacrilegum, matris et</l>
+<l>Patris contemptorem, periurum, publici</l>
+<l>Fraudatorem, decoctoremque proprii,</l>
+<l>Et ut summatim dicam, scelerum antistitem</l>
+<l>Me confiteor fuisse, quorum me pudet</l>
+<l>Iam et poenitet. Et propterea in animi angustiis</l>
+<l>Versor iugiter. His semper Conscientia</l>
+<l>Me excruciat, et Satanas ad inferos trahit.</l>
+<l>Nec aliter cor peccata praegravant meum,</l>
+<l>Quam si impositum feram Taurum cum Caucaso:</l>
+<l>Quare si quid potes consilio subveni,</l>
+<l>Solve a peccatis, aufer Iudicis metum,</l>
+<l>Compesce Conscientiam, Satanam abige.</l>
+<l>SAT. Pappax. PA. En prae metu venter tibi murmurat.</l>
+<l>MER. Non o bone, sed est aliud vicinum malum.</l>
+<l>PA. Haudab re. Nam es peccator hercle maximus.</l>
+<l>Nec ullum mortalem tot tantaque crimina</l>
+<l>Designasseaudivi. Quia tamen postulas</l>
+<l>Solutionem, et inferorum principem</l>
+<l>Metuis, mea eris(tantum crede) solutus opera.</l>
+<l>SAT. Pappax. PA. Tu podici imperare non potes.</l>
+<l>MER. Possum Hercle, sed alius est qui nos ludibrio habet.</l>
+<l>PA. Alius fortasse, quia te invito murmurat.</l>
+<l>Sed responde. Ecquid etiam habes operis boni?</l>
+<pb id='s045'/>
+<l>MER. Recte mihi in memoriam redigis bona opera.</l>
+<l>Quae dudum peccatorum prae formidine</l>
+<l>Evanuerant omnia. Sunt equidem plurima.</l>
+<l>PA. Quaenam? MER. Eleemosynae pauperibus datae, preces,</l>
+<l>Afflictiones corporis, ieiunia,</l>
+<l>Templorum, concionumque frequentatio.</l>
+<l>PAR. Isthaec tene. Hinc siquidem conficiuntur merita. Quid</l>
+<l>Deinde? Ecquid bene fecisti unquam ecclesiis?</l>
+<l>MER. Feci, altaria construxi, ornatum tradidi,</l>
+<l>Binos donavi calices, candelis meis</l>
+<l>Totum quotannis templum pellucet quater?</l>
+<l>PA. Euge, his licebit factis caelum scandere.</l>
+<l>CON. Scilicet. PA. Hem quid? Non credis? MER. Quid ni credam ego?</l>
+<l>PA. Putabam te non credere tuo scilicet.</l>
+<l>Ecquos habes patronos ex caelestibus?</l>
+<l>MER. Franciscum, quod et ille olim Mercator fuit:</l>
+<l>Et Barptolomaeum, eo quod unus divitum.</l>
+<l>CON. Cur non et Iudam, qui unus fuit ex furibus?</l>
+<l>PA. Noli tu quidquam auscultare huic veneficae.</l>
+<l>Bellos patronos obtines. Illis tuam</l>
+<l>Audacter causam, teque totum dedito.</l>
+<l>Numquam ne ivisti quoquam peregrinatum? Et hoc</l>
+<l>Ad peccatorum veniam permultum valet.</l>
+<l>MER. Numquam quoquam hercle religionis gratia, at</l>
+<l>Saepe ad mercatum, et si diutius mihi</l>
+<l>In vivis esse liceret, non illud etiam</l>
+<pb id='s046'/>
+<l>Neglectum pietatis opus praetermitterem.</l>
+<l>PA. Spondes igitur si convalueris denuo?</l>
+<l>MER. Spondeo. PA. Quid autem morti si concesseris?</l>
+<l>MER. Tum scis me non posse. PA. Imo maxime potes.</l>
+<l>MER. Quo pacto? PA. Conduc qui tua pecunia</l>
+<l>Eant, quod tibi coram DEO imputabitur,</l>
+<l>Perinde quasi tutemet omnia perfeceris.</l>
+<l>CON. Quasi. ME. Hoc negare videtur Conscientia.</l>
+<l>PA. Pergis huic auscultare quidquam pessimae?</l>
+<l>Mihi crede, mihi tua erit commissa anima, modo</l>
+<l>Sufficientem ad res hasce des pecuniam.</l>
+<l>MER. Num tantisper mihi erit manendum in inferis.</l>
+<l>Donec, si quam mandaro, peregrinatio</l>
+<l>Sit absoluta? PA. Iudicii diem pete</l>
+<l>Aliquantisper differri ut absolvi queat.</l>
+<l>MER. At quid, si noluerit Iudex annuere? Nam et</l>
+<l>Edicto sum iussus adesse peremptorio.</l>
+<l>PA. Nihil erit, crede duntaxat, periculi.</l>
+<l>Ego animam pro te ausim meam dare pignori.</l>
+<l>SAT. Papapappax. PA. Audes dictis his oppedere?</l>
+<l>MER. Non hercle ego, sed Satanas iam oppedit tertium.</l>
+<l>PA. More omnium facis, qui si quid haud probe</l>
+<l>Cecidit, non semet sed Satanam accusant. Volo</l>
+<l>Scire, an verbis meis quid quam fidei habeas?</l>
+<l>ME. Cur non quaeso, quum te huc ad me vocaverim?</l>
+<l>Dic quasnam peregrinationes approbas?</l>
+<l>PA. Hier osoly mis. Romae et Compostellae omnium</l>
+<pb id='s047'/>
+<l>Magnorum quamvis, criminum est remissio.</l>
+<l>MER. Ain' tu? PA. Nihil habeas hoc certo certius</l>
+<l>MER. O me miserum, qui per tot terras mariaque</l>
+<l>Volitavi, nec ea unquam loca adire contigit,</l>
+<l>Peccatorum in quibus est condita remissio.</l>
+<l>PA. Non te adflictes propterea. Da pecuniam,</l>
+<l>Ego conducam qui illuc tuo eant nomine.</l>
+<l>MER. Si quidem ita vis. Sed quanta opus est penia?</l>
+<l>PA. Romam quinquaginta, Compostellam dato</l>
+<l>Ducentos, Hierosoly mam quingentos aureos.</l>
+<l>MER. Dabo tantummodo certa sit remissio.</l>
+<l>PA. Certissima ne dubites. Deinde ecquas tibi</l>
+<l>Unquam numis redemisti indulgentias?</l>
+<l>MER. Illarum mihi plenum est marsupium literis.</l>
+<l>PA. Proferto. MER. Ecce. PA. Oh, satis iam contra daemones</l>
+<l>Munitus es. Non est quod metuas ab inferis.</l>
+<l>MER. Putasne? PA. Prorsus. Iam ex praedictis omnibus</l>
+<l>Satis efficax tibi temperabo poculum,</l>
+<l>Teque absolvam. MER. Bene. PA. Dilatato gutture</l>
+<l>Totum hoc exorbeto. Quae fecisti omnia,</l>
+<l>Bona opera, aut quae alius pro te aliquis facturus est,</l>
+<l>Et peregrinationes et ieiunia,</l>
+<l>Preces, eleemosynae, calices, altaria,</l>
+<l>Vestes sacrae, templorumque frequentatio,</l>
+<l>Candelarum multarum procuratio,</l>
+<l>Orationes patronorum atque merita,</l>
+<l>Diplomata pontificis et indulgentiae,</l>
+<l>Mala quae perpessus es, et posthac passurus es,</l>
+<pb id='s048'/>
+<l>In criminum tuorum cedant omnium</l>
+<l>Remissionem. His te absolutum credito.</l>
+<l>MER. Facile credidero, si non Conscientia</l>
+<l>Contradixerit. PA. Hem si sapis, haud morabere</l>
+<l>Huius tu contradictionem. MER. Volo quidem</l>
+<l>Facere ita ut dicis, sed quo pacto nescio</l>
+<l>Usque adeo meum animum istius dicta feriunt.</l>
+<l>PA. Non hinc facessis tandem Conscientia?</l>
+<l>CON. Nondum bone vir. PA. Quid ita? Hic tamen absolutus est.</l>
+<l>CON. Ita, ut splendet qui lotus est carbonibus.</l>
+<l>PA. Ego te mulier aliqua credo infectam haeresi,</l>
+<l>Quae clavibus audes Papae contradicere.</l>
+<l>Nunquid habes aliquid huic obiicere criminis?</l>
+<l>CON. Eadem quae prius habeo omnia. PA. Quid igitur ais?</l>
+<l>CON. Aio hunc aeterno obnoxium esse incendio,</l>
+<l>Neque bona ulla spe posse adire Iudicem.</l>
+<l>MER. Audis nunc, ut caeli ex supremo vertice,</l>
+<l>Me adinferos retrorsum praecipitem trahat?</l>
+<l>PA. Non cures. Respice in bona duntaxat opera,</l>
+<l>Atque patronis salutem commendes tuam.</l>
+<l>Si me audis, non tanti huius facies verbula.</l>
+<l>MER. Si possim. Cerberi latratus mavelim</l>
+<l>Quam verba istius audire adversantia.</l>
+<l>PAR. Nimis formidolosus es. Ecquid meliuscule</l>
+<l>Cor habet ex potione? MER. Nil quod sentiam.</l>
+<l>Venter quidem mirum in modum turger, quasi</l>
+<l>Quiddam biberim venenis peius Colchicis,</l>
+<pb id='s049'/>
+<l>Bonorum opinor esse operum fiduciam.</l>
+<l>CON. Ea tu iam recta perges ad tartara.</l>
+<l>PA. Imo ad Caelum nugatrix. Nunc intelligo</l>
+<l>Te haereseos infectam lepra, quum reicis</l>
+<l>Simul et opera bona et operum fidu ciam.</l>
+<l>CON. Ex nullis factis peccatorum huic provenit</l>
+<l>Remissio, quum in iussis reus sit omnibus.</l>
+<l>PA. Age age clarius ostende, quam haeretica sies.</l>
+<l>CON. Dedit ex furto quae dedit, oravitimpie, et</l>
+<l>Fuit impietas cunctorum operum semper comes.</l>
+<l>Fallit igitur omnis horum operum fiducia,</l>
+<l>Et altius perpetuis uritur ignibus:</l>
+<l>Quapropter et hic ibit ad Acherontis terminos.</l>
+<l>MER. Vaeh mihi, ut haec semper Acherontem atque tartara</l>
+<l>Occinit! Age quaeso Paroche, hanc melioribus</l>
+<l>Aut dictis aut factis abige, quantum potes.</l>
+<l>PA. Vah, quod ego hanc sceleratam non cerno, ut hoclibro</l>
+<l>Dentibus illi excussis, exemplum ceteris</l>
+<l>Darem, ne doctrinae obstreperent Papisticae.</l>
+<l>CON. Libris pugna, quandoquidem verbis non potes.</l>
+<l>PA. Cave etiam atque etiam Mercator, ut aliquid huic</l>
+<l>Credas. Haeretica est, ne et tu in haeresim incidas.</l>
+<l>Experiar certe an illi os isthuc impudens</l>
+<l>Queat obstrui. Dic veritatem, et audiens</l>
+<l>Sis dicto. Post mortem quid vis fieri tibi?</l>
+<l>MER. Sepeliri. PA. Non isthuc rogo. Sed nunquas</l>
+<pb id='s050'/>
+<l>Missas, psalteria, vigilias, et funebres</l>
+<l>Pompas in testamento caveris tibi?</l>
+<l>MER. Non neque enim huc usque testamentum condidi.</l>
+<l>Condam autem consilio adiutus tuo. PA. Probe.</l>
+<l>Placet igitur (quo quiescat Conscientia)</l>
+<l>Ut ita condas. MER. Ausculto. PA. Primum ecclesiae</l>
+<l>Sacerdotale et opimum munus tradito, ut</l>
+<l>Per illud perpetuo hic tua vivat memoria.</l>
+<l>Cui illud obtigerit, in missis omnibus</l>
+<l>Pro te sacrificabit et exorabit DEUM:</l>
+<l>Deinde, omnes monachorum et cerdonum ordines,</l>
+<l>Rectores ludorum, et caterva clerica,</l>
+<l>Te ad bustum cernui comitentur, lugubre</l>
+<l>Quid occinentes, quo et manes flecti queant.</l>
+<l>Illis fac drachma dispensetur singulis.</l>
+<l>Praeterea, sub sacro quod pro te agetur, in</l>
+<l>Egenos singulos fac argenti uncia</l>
+<l>Distribuatur, et ulnae quadraginta boni</l>
+<l>Panni in feretro spem et nuditatem pauperum</l>
+<l>Levent. Sacrificanti mihi pro te, quindecim</l>
+<l>Ad altate offerantur aurei probi.</l>
+<l>Similia septimo die et tricesimo</l>
+<l>Fiant. Interea per monasteria quoque</l>
+<l>Tuae salutis habeatur ratio. Neque</l>
+<l>Psalteria centum, aut Missas bis totidem putes</l>
+<l>Nimium esse. Non hic parcendum est pecuniae,</l>
+<l>Ubi pretiosa animae conquiritur salus.</l>
+<l>His factis, crede mihi, vel Iudas vel Nero</l>
+<l>Vel alius quis piam nebulo turpissimus</l>
+<pb id='s051'/>
+<l>Ex inferis supremum caeli verticem</l>
+<l>Peteret. MER Sed plurimis opus est pecuniis,</l>
+<l>Quas haeredes aegre sibi decidi ferent.</l>
+<l>PA. Nulla tibi sit haeredum cura. Tuas res age.</l>
+<l>Quas dixi, res in testamentnm condito,</l>
+<l>Quod nullus rite factum audebit carpere.</l>
+<l>MER. Qua re salutem consequuntur pauperes,</l>
+<l>Quorum tota supellex vix aureis decem</l>
+<l>Divendi possit, neque tamen interim minus</l>
+<l>Peccant, sed in flagiciis haerent maximis?</l>
+<l>PA. Non hercle ausim illorum tibi promittere</l>
+<l>Salutem. Nam quum debeant quam plurimum,</l>
+<l>Nec sint solvendo, traduntur tortoribus,</l>
+<l>Donec novissimum quadrantem solverint.</l>
+<l>Omni autem habenti dabitur, quod ita intellige:</l>
+<l>Vita aeterna dabitur habenti pecuniam.</l>
+<l>Quare et salus tibi tua est certissima.</l>
+<l>SA. Pappax. PA. Tuis visceribus malefaciat Deus,</l>
+<l>Ex quibus ita clara promis toties tonitrua.</l>
+<l>Ita ne honestas meam et operam et praesentiam?</l>
+<l>Si sic pergis abiero. MER. Rogo te plurimum</l>
+<l>Paroche, ne quidquam horum mihi imputes, neque</l>
+<l>Abeas. Certissime enim Satanas tonat, haud ego.</l>
+<l>PA. Fortasse illum intra viscera conclusum geris?</l>
+<l>ME. Bona verba. Imo istic sedet in angulo, viden'?</l>
+<l>PA. Aufer istas nugas, simul et hosce crepitus,</l>
+<l>Nisi in mediis relinqui vis doloribus.</l>
+<l>MER. Utinam Satanae queam imperare, ne crepet,</l>
+<l>Sed in batathrum abeat suo cum podice.</l>
+<pb id='s052'/>
+<l>PA. Deliras hercle, qui ipsus maledicas tibi.</l>
+<l>Quare aequo animo tuam hanc feram impudentiam.</l>
+<l>Sed iam redi ad te, et audi si vis reliqua.</l>
+<l>ME. Hic sum, loquere. PA. Salus tua est certissima</l>
+<l>Propter magnam numorum multitudinem.</l>
+<l>Si quidem eos, ut iam dixi, dispensaveris.</l>
+<l>Quantum etiam pro salute dederis, optime</l>
+<l>Datum est, nec eius capiet poenitentia.</l>
+<l>MER. Non poterit hercle, siquidem certa est salus.</l>
+<l>Sed vereor nonnihil, ne delicta nequeant</l>
+<l>Pecuniis redimi, apud illum maxime,</l>
+<l>Bonis qui nullis nec pecuniis eget.</l>
+<l>PA. Possunt, crede mihi. CON. Praesertim te iudice,</l>
+<l>Sed non apud Deum. ME. Audis, haec ut perneget?</l>
+<l>PA. Si quid huic pergis credere, te ad insaniam</l>
+<l>Cito rediget. Ecquid aliud habes, quo solvere</l>
+<l>Tanta queas debita? MER. Nihil. PA. Ecce. Quomodo</l>
+<l>Igitur sperare potes, ne sis in carcerem</l>
+<l>Trudendus, atque tradendus tortoribus?</l>
+<l>MER. Nullo modo. PA. Ecce. Ecquam nosti ad caelum viam?</l>
+<l>MER. Nullam. PA. Ecce. MER. Sed huius te accersivi gratia, ut</l>
+<l>Ostenderes quae ignoro. PA. Recte: Sed mihi</l>
+<l>Docenti et ostendenti non vis credere,</l>
+<l>Quum hoc tamen omnes discentes facere oporteat.</l>
+<l>ME. Credam profecto, siquidem hanc deviceris,</l>
+<l>Et cor latum reddideris ex angustia.</l>
+<l>PAR. Fiet. Sed et interim mihi credi volo.</l>
+<pb id='s053'/>
+<l>Condito testamentum ut dixi. Vis condere?</l>
+<l>MER. Volo. PA. Iam ego ex Missis et psalteriis, et ex</l>
+<l>Cunctis bonis operibus quae praedicta sunt,</l>
+<l>Cordi salubria consiciam catapotia,</l>
+<l>Ut melius habeas, nec te Conscientia</l>
+<l>Divexet miserum. MER. Propera igitur quantum potes,</l>
+<l>Nam ex potione nihil sentio levaminis.</l>
+<l>PA. Confide, singulatim quodque glutias,</l>
+<l>Comprime nunc os et acetum naribus admove,</l>
+<l>Ne nauseas. Istuc magnopere proderit.</l>
+<l>Ecquid tandem sentis? MER. me plane perditum.</l>
+<l>PA. Quid, perditum? Nil operantur catapotia?</l>
+<l>MER. Multum aedepol. PA. Euge, sciebam isthuc antea.</l>
+<l>MER. Nam pristinis malis adiciunt nova. PAR. Hem nova?</l>
+<l>MER. Ita inquam. PA. Non dilatatur tibi corculum?</l>
+<l>ME. Non. Sed venter mirum in modum protenditur,</l>
+<l>Quasi morbo intercute laborem. PA. Non est malum hoc.</l>
+<l>MER. Non. siquidem perire bonum est. PA. Quid hominis es?</l>
+<l>Si appensus fueris in statera, te duplo</l>
+<l>Hinc scito fore graviorem. CON. Uteo facilius et</l>
+<l>Ocyus ad inferorum centrum permees.</l>
+<l>PA. Quid gannis propudium? Imo ut operibus bonis</l>
+<l>Peccata vincat, et recta in caelum volet.</l>
+<l>CON. Quonam modo ita volabit ventriosus, et</l>
+<l>Gravi depressus peccatorum pondere?</l>
+<l>PA. At a peccatis est solutus mea opera.</l>
+<pb id='s054'/>
+<l>CON. At tua opera immersus peccatis est novis.</l>
+<l>MER. Heu me miserum, quam me istius dicta perimunt!</l>
+<l>PA. Deus te perdat Conscientia, quae mihi</l>
+<l>Inauditum prius exhibes negotium.</l>
+<l>MER. Arte tua (ut video) istanc opprimere non potes.</l>
+<l>Quantum vis animarum te medicum praedices.</l>
+<l>PA. Video quid sit, Movendus est omnis lapis,</l>
+<l>Et ad sacram tandem confugiendum anchoram.</l>
+<l>MER. Sacra et prophana quaeso profer omnia.</l>
+<l>Tantum ut quiescat haec, et cor angustiis</l>
+<l>Solvatur. Accipies quidquid poposceris.</l>
+<l>PA. Ne diffidas. Sed te iam iam ad sacra praepares.</l>
+<l>Queis sumptis, tandem deinde Conscientia</l>
+<l>Si quid potest, obiciat. MER. Ne extimules rogo.</l>
+<l>CON. Nunquid ei Paroche porriges et sanguinem?</l>
+<l>PA. Non. CON. Quid ita? tune ad hunc modum discerpere</l>
+<l>Audes, quae iuncta CHRISTUS praecipit dari?</l>
+<l>Aut sacrum ei fac integrum des, aut nihil.</l>
+<l>Quid hic ita male de te meritus est, ut reum</l>
+<l>Facere eum sacrilegii tam horrendi velis?</l>
+<l>PA. Quid tibi (malum) mulier isthaec curatio est?</l>
+<l>Priscorum patrum sanxit hoc auctoritas,</l>
+<l>Ut populo detur corpus absque sanguine,</l>
+<l>Ne sanguinem male cauta plebs effunderet.</l>
+<l>Et isthuc factum tu sacrilegium vocas?</l>
+<l>CON: Sacrilegos patres qui sanxerunt, nec minus</l>
+<l>Qui factum hoc pervicaciter defensitant.</l>
+<pb id='s055'/>
+<l>Sanctis plus una CHRISTI valet auctoritas,</l>
+<l>Quam si sexcenti patres afferrent suam.</l>
+<l>MER. Nonne loquacem dixi tibi esse hanc plus satis,</l>
+<l>Etiamsi, nullus extimules? Quan quam mihi</l>
+<l>Tam vera visa sunt etiam quae dictitat,</l>
+<l>Ut mutila non sit animus sacra sumere.</l>
+<l>PA. Mortem absque sacro obibis? Heu. Nonne et tibi</l>
+<l>Dixi hanc esse haereticam? ut caveres sedulo,</l>
+<l>Ne te seduceret. Si soli crederes</l>
+<l>Mihi, iam pridem emersisses ex angustiis.</l>
+<l>MER. Soli credam, si solus vera dixeris.</l>
+<l>Nam veritate opus est in iudicio mihi,</l>
+<l>In quo aut vincere continget aut succumbere.</l>
+<l>PA. Quasi non semper tibi dixerim verissima.</l>
+<l>Non est meum mentiri aut fallere quempiam.</l>
+<l>Qualem si me non censes, quid tempus tero?</l>
+<l>MER. Non disputo qualis tu sis, nisi quod nihil</l>
+<l>Propter tuam melius habeo praesentiam.</l>
+<l>Aut vim occultas tuam, aut me Conscientiae</l>
+<l>Satanaeque prodis, de te sperantem secus.</l>
+<l>PA. Quid ais? Non occulto quidquam, nec prodo te.</l>
+<l>Omnes salutis tibi commonstravi vias,</l>
+<l>Quas quidem et ipse irem atque meo ostenderem patri.</l>
+<l>CON. Fortassis, et tuum seducturus patrem?</l>
+<l>Coecus coecis haudrectas ostendit vias.</l>
+<l>PA. An tu me coecum existimas venefica?</l>
+<l>CON. Tyresia coeciorem. PA. Vaeh capiti tuo!</l>
+<pb id='s056'/>
+<l>CON. Tuo inquam, cuius hic frustratur opera.</l>
+<l>Nec mirum hercule, sic agis omnia praepostere.</l>
+<l>Ad vincendum vocatus es, sed vinceris:</l>
+<l>Ad solvendum, sed magis atque magis colligas.</l>
+<l>Ad monstrandam ad caelum viam, sed haec tua</l>
+<l>Monstratio directe deducit ad inferos.</l>
+<l>Quare etiam hic tua opera obicietur Cerbero.</l>
+<l>MER. Audis te nil proficere, nec me liberum</l>
+<l>Esse a peccatis, sed fore escam Cerberi?</l>
+<l>Heu quam patentes Orci fauces conspicor.</l>
+<l>Quam abiectum esse a DEO. Quam me irae iudicis</l>
+<l>Obnoxium. Te paroche rogo, oro et obsecro,</l>
+<l>Si nil vales adversus Conscientiam,</l>
+<l>Ne me perpetuo agat reum, saltem mihi</l>
+<l>Peccatorum auferas pondus gravissimum,</l>
+<l>Ut respirare queam. PA. Abstuli equidem et aufero. CON. Ut</l>
+<l>Qui plumbum imponit capiti. ME. Ne micam quidem</l>
+<l>A pondere ablatam sentio. PA. Culpa est tua</l>
+<l>Non mea. MER. Quo pacto? PA. Cur tu haereticae huic magis</l>
+<l>Credis quam mihi? MER. Quia veriora dicere</l>
+<l>Videtur. PA. Qui sic? MER. Dicit, quae ipsa res probat.</l>
+<l>Reum damnatumque asserit, ita sentio.</l>
+<l>Tu dicis quae nec fiunt nec fieri queunt,</l>
+<l>Reclamatque tuis dictis internus dolor.</l>
+<l>Quin etiam ex potione tua et catapotiis,</l>
+<l>Monstrosus ventris tantum succrevit tumor,</l>
+<l>Superciliaque(frustra vereor) se erigunt.</l>
+<pb id='s057'/>
+<l>PA. Unum restat sacrum, quo accepto non reor</l>
+<l>Te peccatis ultra pressum iri. MER. quid sacri est?</l>
+<l>PA. Extrema a patribus nominatur unctio,</l>
+<l>Qua sancto infirmi unguntur oleo in criminum</l>
+<l>Remissionem. MER. Scio iam quale sit sacrum.</l>
+<l>Sed et eo nil mihi est opus. PA. Hem quid audio?</l>
+<l>Spernisne et hoc sacrum? MER. Non sperno, sed mihi</l>
+<l>Iam nullus huius usus est. PA. Quamobrem ais?</l>
+<l>MER. Ad iudicium vocatus sum, vir optime,</l>
+<l>Non in palaestram, quare causidicus mihi</l>
+<l>Potius quam aliptes conquirendus est. PA. Parum</l>
+<l>Abest, quin de haeresi mihi suspectus sies.</l>
+<l>MER. Utres est loquor. Animae certamen imminet</l>
+<l>Non corporis, quamobrem inungi nil moror.</l>
+<l>PA. Cave sis, ut malis te opinionibus</l>
+<l>Commacules, quum et alioqui res tua vermibus</l>
+<l>Scateat. MER. Isthuc meis iam rogo doloribus</l>
+<l>Dones. Verbo si quid consolatorio</l>
+<l>Scripturisve potes, profer, audiam lubens,</l>
+<l>Dolor ut vel leniatur, si tolli nequit.</l>
+<l>PA. Dicenda quae sunt, omnia iam dixi tibi,</l>
+<l>Nec mirari satis possum, quae causa sit,</l>
+<l>Cur circa te usque adeo nihil profecerim,</l>
+<l>Consului (crede mihi) permultis hactenus,</l>
+<l>Nec est inventus dicta qui refelleret.</l>
+<l>Nec qui quereretur se per me instructum male,</l>
+<l>Nescio quid de te suspicer. Num criminis</l>
+<l>Quid oblitus es fateri? Fac reminiscere.</l>
+<pb id='s058'/>
+<l>Siquidem haud iuvat nisi integra sit confessio.</l>
+<l>Vah, iam recordor, Peccatorum capita tu</l>
+<l>Duntaxat narrasti sine circumstantiis?</l>
+<l>Scis ita factum? MER. Scio. PA. Quin tu ergo denuo</l>
+<l>Adhibitis confiteris circumstantiis?</l>
+<l>MER. Non possum hercle meminisse circumstantias,</l>
+<l>Quoties, aut ubi, quibus cum, quando, quomodo.</l>
+<l>Ceterave quae vos curiosi quaeritis.</l>
+<l>PA. Cura eft non poenitenda, sine qua criminum</l>
+<l>Plena haud potest remissio contingere.</l>
+<l>Quare haud est mirum, si non absolutus es,</l>
+<l>Nec cordis excludi potuit angustia.</l>
+<l>MER. Isthuc ergo in causa est? PA. Omnino. MER Quid igitur</l>
+<l>Faciam? PA. Ut dixi, fatere circumstantias.</l>
+<l>MER. Quid si non possum? PA. Non etiam absol vi potes.</l>
+<l>MER. Disperii oppido, quandoquidem ad impossibile mi</l>
+<l>Salus redigitur. PA. Non animum despondeas,</l>
+<l>Recordare. MER. Ah quid agam? Memoria minuitur,</l>
+<l>Tempus proximat ad praestitutum terminum.</l>
+<l>Hem, quid si quas requiris circunstantias</l>
+<l>In scriptis videas? PA. Idem erit, ac si memoriter</l>
+<l>Mihi sint recitatae. MER. Rursus in spem venio.</l>
+<l>Age ergo a Satana postulato codicem.</l>
+<l>Illinc amplius erue si quid desideras.</l>
+<l>PA. Quem tu Satanam, quemve mihi narras codicem?</l>
+<l>ME. Rogas? Non tu vides Satanam hic in angulo?</l>
+<pb id='s059'/>
+<l>PA. Nunc tu quidem nugas garris aut somnias.</l>
+<l>MER. Non somnio, nec cum nugis mihi negotium est.</l>
+<l>Sed certe Satanas illic sedet, et codicem</l>
+<l>Erratorum meorum gestans omnium,</l>
+<l>Et expectans animam ut deferat ad inferos.</l>
+<l>PA. Deliras mehercle Mercator, et inanibus</l>
+<l>Agitaris spectris. MER. Utinam sint inania,</l>
+<l>Quae video. Sed quaeso te, num tu non vides?</l>
+<l>PA. Nisi te profecto neminem. MER. Nec, hactenus</l>
+<l>Que toties est locuta Conscientiam</l>
+<l>Vides? PA. Non. MER. Audivisti certe. PA. Etiam. MER. Haud secus</l>
+<l>Et Satanas, quem non perspicis, adest, et etiam</l>
+<l>Illum audivisti. PA. Audivi? Quidlocutus est?</l>
+<l>MER. Nihil illi verborum, sed oppedit quater.</l>
+<l>Propter quod factum me increpabas, Unde iam</l>
+<l>Intelligo te Satanam non vidisse. Sed</l>
+<l>Obsecro, ab illo accipias volumen, et legas</l>
+<l>Quas quaeris circumstantias, mea in quibus</l>
+<l>Suprema salus vertitur. PA. Omnino tu brevi ad</l>
+<l>Insaniam me rediges, ut neque videam</l>
+<l>Neque audiam. Aufer nngas et ludibria. Dic</l>
+<l>Verum: Nunquid adest ille? ME. Adest verissime.</l>
+<l>Sanctissimum, si vis, iusiurandum dabo.</l>
+<l>PAR. Ubinam? MER. In illo angulo, nos salse perpetim</l>
+<l>Deridens. PA. Et peccatorum tuorum habet</l>
+<l>Scriptum volumen? ME. Habct. Sed vereor ne tibi</l>
+<l>Illud non traditurus sit. PA. Si vere adest,</l>
+<pb id='s060'/>
+<l>Volumenqui habet, ultro si non vult (me vide)</l>
+<l>Cogetur dare per vim. ME. O si. Tum facile etiam tibi?</l>
+<l>Scripta invito delere posses omnia.</l>
+<l>PA. Illuc rem deducam. MER. Sed unde hanc vim</l>
+<l>PA. Ne sis sollicitus. Huc aeditue adferto aquam,</l>
+<l>Et ramos aliquot consecratos arborum</l>
+<l>Adurito, et suffitum facito celeriter.</l>
+<l>Recte. Iam nunc aquam in hunc aspergito angulum.</l>
+<l>SA. Pappax. MER. Audis adesse? PAR. Vah totus horreo.</l>
+<l>Quin tu aspergis iterum? SAT. Pappax. PA: Et tertium</l>
+<l>Asperge. SA. Papapappax. PA. Magnum certe hoc malum est,</l>
+<l>Te etiam ludos facit et habet despectui,</l>
+<l>Mihi aspergillum cedo. SA. Pappax. PA. Num et mihi</l>
+<l>Maledicte audes oppedere? Ecce isthuc tibi.</l>
+<l>SA. Pappax. ME. Ette, quod video, non magni facit.</l>
+<l>PA. Ferox est iam, sed sentiet qui vir siem.</l>
+<l>Hem Satana, cur non hinc facessis ad inferos?</l>
+<l>SA. Pappax. PA. ut te fodiant corvi a torrentibus</l>
+<l>Cum isthoc tuo Pappax. Quid velit intelligo,</l>
+<l>Exorcismis opus est. MER. Age age quidquid potes.</l>
+<l>PA. Exorcizo te Satana ut mihi refpondeas.</l>
+<l>PA. Pappax. PA. Ecquod ius hic tibi aut negotium est?</l>
+<l>SA. Pappax. PA. Hunc a peccatis mundum esse assero.</l>
+<l>SA. Pappax. PA. Negas? Cur tu ergo non mihi codicem</l>
+<l>Tradis, ut absolvatur etiam apud te, sicuti</l>
+<pb id='s061'/>
+<l>Iam dudum est absolutus apud superos, bonis</l>
+<l>Ex operibus et Sanctissimi diplomatis?</l>
+<l>SA. Pappax. PA. Exorcizo te ut abeas, codice</l>
+<l>Mihi relicto. SA. Pappax. PA. Num vis viderier</l>
+<l>Adversus exorcismos esse contumax?</l>
+<l>SA. Pappax. PAT. Semper multumque Pappax. Heus cito</l>
+<l>Aeditue, omnem nostram cape supellectilem,</l>
+<l>Ut abeamus: Numquam me memini aliquem magis</l>
+<l>Vidisse perditum, atque hic Mercator est,</l>
+<l>Apud quem furiae, cunctique cacodaemones</l>
+<l>Totos tam cervicose desident dies,</l>
+<l>Ut sacris ne rebus nec verbis pareant.</l>
+<l>MER. Heus Paroche, quid agis? Tune vir es eiusmodi,</l>
+<l>Qui <gap desc='greek word'/> sit propter ventris tonitrua?</l>
+<l>Mane obsecro. PA. Temet curato. Iam vale.</l>
+<l>MER. Neme relinquas ante peractam fabulam.</l>
+<l>PA. Peragat alius, nullum est mihi hic vadimonium.</l>
+<l>MER. Ubi est nunc, qui promittebat se suam animam</l>
+<l>Pro me daturum pignori? PA. Certissima</l>
+<l>Satanae praeda es propter peccata plurima.</l>
+<l>Is te obfirmato hercule praestolatur animo.</l>
+<l>MER. Et hanc mihi consolationem praedicas?</l>
+<l>PA. Etiam. Vale. Tu perge, quid cessas? Sequar.</l>
+<l>MER. Abi, ut fractis cruribus, in crastinum simul</l>
+<l>Ad inferos descendas. Iam iam funditus</l>
+<l>Interii. O me ter et quater miserrimum,</l>
+<l>Cui in cunctis auxilii nil est hominibus.</l>
+<pb id='s062'/>
+<l>Satanas observat, vexat Conscientia,</l>
+<l>Tantum superest locum ut mihi quaeram apud inferos.</l>
+<l>SA. Recte profecto haec orditur tibi cantio.</l>
+<l>Ecquid nunc speras? Ecqua alia praesidia habes?</l>
+<l>Me bellatorem strenuum; qui podice</l>
+<l>Ductores in quos sperabas devicerim!</l>
+<l>Sed quando abier unt, et me abire tempus est:</l>
+<l>Tu hunc interea exerceto et servato probe,</l>
+<l>Ne quis callidus e manibus eum eximat meis.</l>
+<l>Audis quae dico? CON. Audio. SAT. Curato ergo. Statim</l>
+<l>Ego perfectis quae restant revortar huc.</l>
+</lg>
+<p><hi>CHORUS.</hi></p>
+<lg>
+<l>Ille ter prorsus miser est quaterque,</l>
+<l>Cui salus et spes tenues in auras</l>
+<l>Cedit edocto male sana tantum</l>
+<l>Dogmata Papae.</l>
+<l>Is suis stulte meritis superbit,</l>
+<l>Immemor casus veteris gygantum,</l>
+<l>Se sua credens probitate caelum</l>
+<l>Scandere posse.</l>
+<l>Tendit huc vires animique totos</l>
+<l>Impetus, per se ut placeat, satisque</l>
+<l>Legibus cunctis faciat nihilque</l>
+<l>Viribus obstet.</l>
+<l>Si videt nondum satis esse factum,</l>
+<l>Moxnovos cultus operumque vanas</l>
+<pb id='s063'/>
+<l>Cogitat formas quibus absque verbo</l>
+<l>Diluat iram.</l>
+<l>Querit et numis opibusque frustra</l>
+<l>Debitas pravis superare poenas,</l>
+<l>Et velut iustus nihil extimere</l>
+<l>Iudicis iram.</l>
+<l>Sole sed postquam tenebris remotis</l>
+<l>Cernitur rectum simul atque pravum:</l>
+<l>Tum tumor fictus species que recti</l>
+<l>Solvitur omnis.</l>
+<l>Et gravis tantum manet ira insti</l>
+<l>Iudicis, qui non operum movetur</l>
+<l>Cautus aspectu, positae sed urget</l>
+<l>Intima legis.</l>
+<l>Quo licet nullis penetrare factis.</l>
+<l>Congrui cedit celebrisque falsi</l>
+<l>Fama Condigni, pereuntque quosnon</l>
+<l>Gratia servat.</l>
+<l>Iussa silegis faceremus, atque</l>
+<l>In DEI verbo stabilis foret meus:</l>
+<l>Nec tamen nostris sequeretur ulla</l>
+<l>Gloriafactis.</l>
+<l>Iam ceos quum lex agat universos,</l>
+<l>Inque diversum caro flectat haerens:</l>
+<l>Nullus ex factis aliis salutem</l>
+<l>Adfore speret.</l>
+<l>CHRISTUS est finis positus salutis</l>
+<l>Solus, et legis Colophon fideli,</l>
+<l>Absque quo nulli bene facta prosunt</l>
+<l>Totius orbis.</l>
+</lg>
+</div3>
+</div2>
+<div2 id='NaM.01.04' n='4' type='act'>
+<pb id='s064'/>
+<head>ACTUS TERTIUS.</head>
+<div3 id='NaM.01.04.01' n='1' type='scene'>
+<p>MICHAEL. PAULUS.</p>
+<lg>
+<l>INterras ire Paule te CHRISTUS iubet.</l>
+<l>PAUL. Quamobrem? MICH. Dicam. Mercator quidam inferis</l>
+<l>Propinquat peccatorum pressus pondere.</l>
+<l>Illum decretum est revocare, ut caelestibus</l>
+<l>Iungatur potius. Oportet ergo eum instrui</l>
+<l>Dum in vivis est, et sana doctrina et fide,</l>
+<l>Queratur Satanas ne quam vim fieri sibi.</l>
+<l>Ut quod iustum est iuste exequatur scilicet.</l>
+<l>PA. Rectum isthuc. Sed quid illuc me mitti est opus?</l>
+<l>Quasi non regnet doctorum ubique copia,</l>
+<l>Ninilque vigilent aut curent Episcopi?</l>
+<l>MIC. Episcopi opes curant, equos, scorta et canes.</l>
+<l>Cum doctrina nullum illis est commercium.</l>
+<l>At doctorum ora quaestum sapiunt omnium.</l>
+<l>Quos nugatores quam doctores verius</l>
+<l>Dicas, ita Papatus pervertit omnia.</l>
+<l>PA. Hem Papatus, quod isthuc animantis genus?</l>
+<l>MIC. Sedes est Antichristi et Babylonis <gap desc='greek word'/>.</l>
+<l>Ab huius doctoribus et ille doctus est,</l>
+<l>Nimirum quo solertius petat inferos,</l>
+<l>Secumque ad iudicium humanas sordes ferat.</l>
+<l>Opus est ergo ut aliter instituatur, si modo</l>
+<l>Dignus (ut in fatis est) nostro consortio,</l>
+<l>Sit habendus. Quare abi, et ut nosti illum perdoce.</l>
+<pb id='s065'/>
+<l>PA. Magnum sed illud est negotium, malis</l>
+<l>Per omnem aetatem imbutos doctrinis, et in</l>
+<l>Paternis usque inveteratos vestigiis,</l>
+<l>Persuadere ut dediscant funditus omnia, et</l>
+<l>Doctrinis aures praebeant melioribus.</l>
+<l>MIC. Scit CHRISTUS, et suo illum afflabit Spiritu,</l>
+<l>Ne aut desperet, doctrinamve tuam respuat.</l>
+<l>PA. Oportet prorsus. Nam isthoc aiunt tempore</l>
+<l><gap desc='greek word'/> quoddam vivere hominum genus.</l>
+<l>MIC. Ita est. Sed abi. PA. Solus ne? MIC. Ut vis: Aut si lubet</l>
+<l>Cosmas medicus te comitetur, iubet. PA. Probe.</l>
+<l>Is perquam utilis erit ad ministerium mihi.</l>
+<l>Vah, quod fere oblitus eram, Ubi habitat ille,</l>
+<l>Ais, Mercator? ne errandum sit hospiti.</l>
+<l>MIC. Accede huc. Amplam illam in foro illo num vides quem</l>
+<l>Domum? PA. Nondum. MICH. Indicem observa. Certe ostium</l>
+<l>Illud miniatum et apertum perspicis? PA. Etiam,</l>
+<l>Num illic habet? MIC. Tenes, propera, nox imminet.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.04.02' n='2' type='scene'>
+<head>SCENA SECUNDA.</head>
+<p>MERCATOR. CONSCIENTIA.</p>
+<lg>
+<l>NAe prorsus (intelligo) meum in caput infima</l>
+<l>Et summa coniurarunt, cui nihil est spei.</l>
+<l>Nil auxilii, nil praesidii, nil remedii.</l>
+<l>Nihil salutis in creatis omnibus.</l>
+<l>Opinione citius terris avocor,</l>
+<pb id='s066'/>
+<l>Opes relinquunt, compedibus vinctum est lucrum.</l>
+<l>Medici vitam desperarunt meam. Interim</l>
+<l>Corpus peste uritur, animus horret Iudicem.</l>
+<l>Peccata gravant, divexat Conscientia,</l>
+<l>Satanas oppedit me rapturus ad inferos,</l>
+<l>Peccatorum meorum vincens codice.</l>
+<l>Sentio profecto quid sit esse perditum, et</l>
+<l>Descendere ad inferos, et peccatis premi.</l>
+<l>Parochus relicto me sub cultro perfidus</l>
+<l>Fugit, dum se nil adversus cacodaemonem</l>
+<l>Perspexit posse. Quo me vortam nescio,</l>
+<l>Quem implorem? Suppetiae unde aut praesidia mihi?</l>
+<l>Certe video desperandum esse fortiter,</l>
+<l>Nec hianti ore salutem quaerendam a perdito.</l>
+<l>At Papae, quam lenis me afflavit spiritus,</l>
+<l>Revocor ex inferis, spesque redit denuo,</l>
+<l>Et excitatur animus ad orandum Deum.</l>
+<l>Ad illum me convertam, quandoquidem mihi</l>
+<l>Omnes creaturae negaverunt opem.</l>
+<l>Hem, ut hactenus numquam Dei fui memor?</l>
+<l>Certe sentio Dei me afflari Spiritu.</l>
+<l>Sed quid ad hoc tandem dicis Conscientia?</l>
+<l>Num et a Deo nil esse auxilii dicere</l>
+<l>Audes? CON. Qui dicam, quum ille possit omnia.</l>
+<l>ME. Salvabor igitur? CON. Non contradico, velit</l>
+<l>Modo. ME. Credo velle. Nam me iussit Spiritus</l>
+<l>Sperare. Peccatoris mortem haud vult Deus.</l>
+<l>CON. Mutesco. Tesalvo, salvabor et una ego.</l>
+<l>ME. Praestolabor proinde omnipotentis manum.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.04.03' n='3' type='scene'>
+<pb id='s067'/>
+<head>SCENA TERTIA.</head>
+<p>COSMAS. PAULUS.</p>
+<lg>
+<l>IUSSIT ne Magister? PA. Iussit. Quoties vis tibi</l>
+<l>Dici? Accipe pixides et alexipharmaca.</l>
+<l>Albi praesertim helleboritres sume uncias.</l>
+<l>CON. Cui rei tantum? PA. Praestat superesse, quam</l>
+<l>Deesse. COS. Scio. PA. Ageergo <orig reg='ocius'>ocyus</orig> ut eamus hinc.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.04.04' n='4' type='scene'>
+<head>SCENA QUARTA.</head>
+<p>MERCATOR. PAULUS. COSMAS. CONSCIENTIA.</p>
+<lg>
+<l>SAtanas abiit, quiescit Conscientia,</l>
+<l>Nec quis quam est, qui me peccatorum commonet,</l>
+<l>Potio catapotiaque partes agunt suas.</l>
+<l>Supercilia eriguntur, et ante oculos mihi</l>
+<l>Ingens bonorum operum obversatur copia,</l>
+<l>Propter quae etiam me afflatum Spiritu autumo,</l>
+<l>Siquidem opera bona magni habentur ponderis</l>
+<l>Apud Deum, nec pastor docuit perperam.</l>
+<l>PA. Hae sunt aedes, nisi forte intellexi male.</l>
+<l>Ingrediamur, patent fores. COS. I prae sequar.</l>
+<l>ME. Dictum Planudis esse verum cerno, <gap desc='greek word'/></l>
+<l><gap desc='greek words'/></l>
+<l>Sed heu vultu me tristi Conscientia</l>
+<l>Iterum aspicit, et Satanae recordor codicis.</l>
+<pb id='s068'/>
+<l>At aliquis ingreditur. PA. Salve Mercator. ME. O</l>
+<l>Si possim. Sed qui estis, quidque adfertis novi?</l>
+<l>PA. Qui simus postea scies, iam hoc accipe.</l>
+<l>Ad te peccatis atque pestilentibus</l>
+<l>Doctrinis pressum et irretitum venimus</l>
+<l>ACHRISTO missi, qui est dignatus perditum</l>
+<l>Terespicere. MER. Propter bona fortassis opera?</l>
+<l>PA. Audis Cosma, quonam iste teneatur malo?</l>
+<l>CON. Satis quidem dictum est intelligentibus.</l>
+<l>PA. Nequaquam Mercator, neque isthuc sentias.</l>
+<l>Gratuito te favore ille atque gratia</l>
+<l>Respexit, quibus etiam in illo ipso scilicet</l>
+<l>Munde ante constitutionem electus es.</l>
+<l>Sed hoc agamus. Quia respexitte, adsumus,</l>
+<l>Ut cura et doctrina sana imbutus, iter ad</l>
+<l>Caelum et caelestium teneas consortium.</l>
+<l>MER. Id percupio. PA. Primum autem isthuc scire volumus,</l>
+<l>An intellectum nobis captivum dare (re volumus,</l>
+<l>Velis tuum, et nostro parere iussui.</l>
+<l>MER. Quia a CHRISTO vos advenire dicitis,</l>
+<l>Non intellectum tantummodo vobis meum.</l>
+<l>Interna sed et externa vobis omnia</l>
+<l>Permitto. Curate et docete quodlibet;</l>
+<l>Ut peccatorum me exoneretis sarcina.</l>
+<l>Quibus crucior et divexor miserrime.</l>
+<l>Et a Satana simul et a Conscientia.</l>
+<l>Ut non longe absim ab inferorum faucibus.</l>
+<l>Quidquid dixeritis strenue parebitur.</l>
+<l>PA. Hunc animum etiam caelestis tibi dedit Pater.</l>
+<pb id='s069'/>
+<l>Neque talem hominum superba tulerunt germina.</l>
+<l>Neque alioqui morbus, quo te animadvertimus</l>
+<l>Teneri, in hanc deducit te sententiam.</l>
+<l>Quia ergo CHRISTO et nobis te tuaque omnia</l>
+<l>Permittis, tibi iam iam consultum credito.</l>
+<l>Age primum quid doleat, et quid molestiae</l>
+<l>Sustineas, nobis diligenter explices.</l>
+<l>Unde sciamus quo sanari possis modo.</l>
+<l>MER. Affligor peccatis, et iam alterum pedem</l>
+<l>In cymba habeo Charontis, et me perditum</l>
+<l>Agnosco. PA. Primum sanitatis obtines</l>
+<l>Gradum, quum peccatis te agnoscis perditum.</l>
+<l>Sed habes ne aliquid interni atque latentis mali.</l>
+<l>Quod nostrae curae atqui, operae adversari queat?</l>
+<l>MER. Nil quodsciam. PA. Scrutare iterum atque iterum. MER. Nihil</l>
+<l>Quod sentiam, nisi quod sum semiperditus.</l>
+<l>PA. Cur tollis dimidium, neque prorsus perditum</l>
+<l>Fateris, quod tamen fatebare antea?</l>
+<l>MER. Terrebar peccatorum multitudine</l>
+<l>Prius. Nam peccata quoties considero,</l>
+<l>Inficiari haud queo me plane esse perditum.</l>
+<l>Quum autem occurrit, quod iussus sum sperare, tum in</l>
+<l>Memoriam extemplo bona veniunt opera mihi.</l>
+<l>Ex quibus omnino me periisse haud dicere</l>
+<l>Ausim. Quippe DEUS illa quum respexerit:</l>
+<l>Cur non mihi profutura credam plurimum,</l>
+<l>Et ad salutem et promerendam gratiam?</l>
+<pb id='s070'/>
+<l>PA. Ille ipse morbus est, quo te animadvertimus,</l>
+<l>Simulatque sumus ingressi, occulte deprimi.</l>
+<l>MER. Quonam? PA. Latentis aliquid monstri confoves.</l>
+<l>Et nescio qua tumes operum fiducia.</l>
+<l>ME. Si isthuc est morbus, morbus est levissimus.</l>
+<l>PA. Imo (ne erres) gravissimus, ME. Nihil tamen</l>
+<l>Sentio. PA. Eores in maiori est discrimine.</l>
+<l>Leniter et tacite serpit hoc malum, quo ad</l>
+<l>Concretum et roboratum corpus et animam</l>
+<l>Perdit tandem. ME. Ita ne? PA. Nil est exploratius.</l>
+<l>Accede Cosma, et (ut seis) tactu arterias</l>
+<l>Explora. Cos. Hem nullus inest vitalis Spiritus.</l>
+<l>PA. Quid ais? Co. Rem ipsam. Vix nunc tandem lentissimus</l>
+<l>Sentitur pulsus. PA. Propera ergo quantum potes.</l>
+<l>Co. Servastine urinam, ut de morbo certius</l>
+<l>Possimus iudicare? ME. Non. Co. At iam cito</l>
+<l>In vas quoddam vitreum cape. ME. Siquidem ita opus est,</l>
+<l>En hic habes. Co. Deum immortalem, quid mali</l>
+<l>Video? Responde. Ecquam sumpsisti nuper ab</l>
+<l>Indocto potionem? ME. Sumpsi, At qui dedit</l>
+<l>Pulchre sibi videbatur doctus. Co. Res probat.</l>
+<l>Num devorasti etiam catapotia? ME. plurima.</l>
+<l>Co. Cuius coloris erant? ME. A longe candida</l>
+<l>Videbantur, sed qui propius inspexerat,</l>
+<l>Recocta pice erant atriora. Co. Intelligo,</l>
+<l>Urinae prorsus iudicium accedittuum.</l>
+<l>Ecquid tibi intestina dolent? ME. Non admodum.</l>
+<pb id='s071'/>
+<l>Co. Rigent vero erigunturque supercilia? ME. Nae</l>
+<l>Ita ut vix oculos possim claudere. Co. Ecce, quid</l>
+<l>Venter? Num intumuit? ME. Aliquantum. Co. Sine videam.</l>
+<l>Hui aliquantum hoc? Aut hodie eris puerpera,</l>
+<l>Rumpere medius. Humc mihi tumorem inspice</l>
+<l>Paule. PA. Est profecto ingems. Quo pacto perdite aut</l>
+<l>Tantum tibi libuit mali silentio</l>
+<l>Tegere? ME. Quia nihil attulit molestiae,</l>
+<l>Sed hoc tumore, dolorem cordis vincere</l>
+<l>Me posse speravi. PA. Quasi oleo incendium</l>
+<l>Restinguere posse speres. Dic verum. Malis</l>
+<l>Hic ortus est tumor persuasionibus?</l>
+<l>MER. Imo optimis, quantum ego reor. PA. Num cordis hoc</l>
+<l>Cruciatus minuitur? ME. Etiam. Conscientia</l>
+<l>Tacente et absente Satana. PA. Praesente quid?</l>
+<l>ME. Non tanti facit istum tumorem, sed duplo</l>
+<l>Eo me perditiorem asserit. PA. Haud fallitur</l>
+<l>Quid si redeat. ME. Rapturus est ad inferos.</l>
+<l>Cacodaemones ait obesis atque tumidis</l>
+<l>Impense delectari. PA. Recte praedicat.</l>
+<l>Nam iniquitati in caelis nullus estlocus,</l>
+<l>Nec obesi angustam per portam ingredi queune.</l>
+<l>Quando igitur hoc tumore Satanae non potes</l>
+<l>Resistere, neque ullo pacto caelum ingredi,</l>
+<l>In primis deponendus est, quo facilius</l>
+<l>Cordis dein dolores sedari queant.</l>
+<l>Tu fac nobis in hoc aliisque obtemperes.</l>
+<pb id='s072'/>
+<l>MER. Libenter, siquidem ad salutem pertinet,</l>
+<l>Nihilque contradicit Conscientia.</l>
+<l>Quid ais tu? Hunc volo tumorem iam deponere.</l>
+<l>CON. Sapis. Nam eo, ut praedixi tibi antea,</l>
+<l>Nil consequere aliud quam ut celerius et facilius</l>
+<l>Damnatus ad inferorum centrum permees.</l>
+<l>PA. Non solet haec rectis adversari suasibus,</l>
+<l>Quantum quidem audio. MER. At prius nimis fuit</l>
+<l>Incommoda et molesta, quasi ex industria</l>
+<l>Cum Satana in interitum coniurasset meum.</l>
+<l>CON. Ne numc quidem quiescerem esse molesta, ni</l>
+<l>Te tandem respici a DEO animadverterem.</l>
+<l>PA. Tace paulisper. Ante Cosma quam hunc ego</l>
+<l>Sanis, ut est mandatum, instruo sermonibus,</l>
+<l>Purgari placet, ut ventris subsidat tumor,</l>
+<l>Animusque ad sanam doctrinam fiat capax.</l>
+<l>Cos. Sic ordo rerum postulat. Sed vix tribus</l>
+<l>Tantus tumor hellebori poterit tolli unciis.</l>
+<l>PA. Ettu nimium putabas. COS. Num quid vini adest?</l>
+<l>MER. Isthic apudte in cyatho. COS. Heus puer, absynthii</l>
+<l>Virentis clam duos adferto manipulos.</l>
+<l>PA. Cui rei? COS. Ut exprimatur succus, quam simul</l>
+<l>Cum helloboro sumet in vino. PA. Mirabilis</l>
+<l>Haec temperatura est. COS. Morbo mirabili</l>
+<l>Quaerenda temperatura est mirabilis.</l>
+<l>PA. Intelligo. Habes. Matura. Co. Haud in me erit mora.</l>
+<l>Hoctotum est ebibendum Mercator tibi, ut</l>
+<l>Purgeris, desinatque hic monstrosus tumor.</l>
+<pb id='s073'/>
+<l>MER. Herbis isthaec potio mixta est acheronticis.</l>
+<l>Adeo dirus et acerbus exhalat odor. Haud</l>
+<l>Potero bibere. COS. Forti audendum est animo: Malo</l>
+<l>Nodo malus (ut aiunt) cuneus quaerendus est.</l>
+<l>PA. Clausis Mercator uno haustu exorbeto oclis.</l>
+<l>Euge audacter. Nuncego virum te iudico.</l>
+<l>MER. Eheu, quamto in ventrem descendit murmure,</l>
+<l>PA. Iam nunc Mercat or ambas aures arrige, ut</l>
+<l>Sumptae vim potionis animo intelligas.</l>
+<l>Ne corpus solum sed et expurgetur animus,</l>
+<l>A pernitiosis quis laboras sordibus.</l>
+<l>Conceptaque penitus operum fiducia.</l>
+<l>Quae bona DEO placeant opera lex perdocet,</l>
+<l>Ut ea quivis scire valeat compendio.</l>
+<l>Hominum ne ulla adferatur excusatio,</l>
+<l>Placita se velle facere, sed nescire, quid</l>
+<l>Aut quo pacto factum DEO placeat. Satis</l>
+<l>In lege officia erga DEUM atque proximum,</l>
+<l>Etiam nostro corde ostenduntur iudice.</l>
+<l>Quibus vetuit quidquam addi sive detrahi.</l>
+<l>Scilicet accurate sunt ostensa omnia.</l>
+<l>Porro, multis in legem homines peccant modis.</l>
+<l>Primo quidem, quod legis altitudinem,</l>
+<l>Neque suam humilit atem humanus cernit animus.</l>
+<l>Unde suis legem sperat posse viribus</l>
+<l>Se implere, caelumque digitis contingere.</l>
+<l>Haec autem, si quae alia, est immensa coecitas.</l>
+<l>Nec coecitas solum sed et superbia.</l>
+<pb id='s074'/>
+<l>Qua caro sibi divinam arrogat potentiam,</l>
+<l>Infirmitatem nec propriam considerat,</l>
+<l>Opinioni autem huic (ne me forsan putes</l>
+<l>Fingere, carnive immerito facere iniuriam)</l>
+<l>Sanctorum auctoritas reclamat omnium,</l>
+<l>Quis nemo sanus in hac re deroget fidem.</l>
+<l>Et singulorum iam nunc testimonia</l>
+<l>Recitarem, nisi brevitas obstaret temporis,</l>
+<l>Etenim omnes ore in hoc uno consentiunt,</l>
+<l>Quod peccatores sint, nec fecerint satis</l>
+<l>Carnalibus pressi oneribus, legi DEI.</l>
+<l>Quare iudicium deprecantur, nec volunt</l>
+<l>Operibus freti cum DEO contendere,</l>
+<l>Quin semetipsos damnant atque iudicant,</l>
+<l>Divinae ut gratiae relinquatur locus.</l>
+<l>Si huius sunt sancti autem (ut constat) sententiae,</l>
+<l>Alios sentire aliud summum est piaculum.</l>
+<l>Quod falsa nec DEO ferenda gloria</l>
+<l>Inflantur, et caeli meritis fastigium</l>
+<l>Superare seu condigne sive congrue</l>
+<l>Se posse putant, suisque fruuntur somniis.</l>
+<l>Deinde, consequitur et error pertinax</l>
+<l>Quorundam, qui sibi videntur sanctuli,</l>
+<l>Quandoquidem humanas tanti vires aestimant</l>
+<l>Ut legem implere possint, huc dementiae</l>
+<l>Veniunt, quasi iustificatio suis operibus</l>
+<l>Promereatur, peccatorumque remissio</l>
+<l>Ex meritis et propria iustitia pendeat.</l>
+<l>Hinc multiplicant opera, praeceptis se et alios</l>
+<pb id='s075'/>
+<l>Excogitatis propria onerant industria,</l>
+<l>Relictis interim post terga legibus,</l>
+<l>Quibus se debent occupare, qui DEO</l>
+<l>Servire velint. Demum usu venit, ut dum probe</l>
+<l>Se iustificatos arbitrantur operibus</l>
+<l>Aut lege, gehennae mancipentur ignibus.</l>
+<l>Nam nulla ex lege, nullis ex meritis, neque</l>
+<l>Factis apud Deum iustificantur homines.</l>
+<l>Huius rei efficax est testimonium</l>
+<l>Mors CHRISTI, quae humanarum plenis tibiis</l>
+<l>Declarat imbecillitatem virium.</l>
+<l>Neque Dei lex isthoc munere fungi potest,</l>
+<l>Ut iustificet, quum semper homines arguat</l>
+<l>Esse reos, itaeque et maledictionibus</l>
+<l>Obnoxios. Hoc est, quod Moses filios</l>
+<l>Israel ad Iordanis usque terminos</l>
+<l>Perduxit tantum, nec Iordanem transiit,</l>
+<l>Nec terram promissam potuit attingere.</l>
+<l>Sic damnantur, nec vitae attingunt praemia,</l>
+<l>Nec iusti esse queunt, operum qui fiducia</l>
+<l>Laborant, et praeter leges norunt nihil,</l>
+<l>Dei quo gratia impetrari possiet.</l>
+<l>Quamobrem Mercator, si quibus unquam es malis</l>
+<l>Imbutus opinionibus, actutum datae</l>
+<l>Virtute potionis et Verbi DEI</l>
+<l>Radicitus evomas suadeo. ME. Iam nauseo</l>
+<l>Hercule. PA. Stulte nimis et perverse sentiunt,</l>
+<l>Qui, quod divinae legi eiusque operibus est</l>
+<l>Negatum, id humanis affingunt somniis.</l>
+<pb id='s076'/>
+<l>MER. Porgite mihi pelvim obsecro. PA. Abominabilis.</l>
+<l>Est Domino omnis virtutum humanarum tumor.</l>
+<l>MER. Dirumpor miser, adeo duae velut acies</l>
+<l>In ventre concurrunt meo fortissime.</l>
+<l>Hem vicit pars una et insequitur alteram.</l>
+<l>PA. Tene pelvim Cosma, ego apprehendam synciput.</l>
+<l>MER. Mooc. PA. Vome audacter. ME. Mooc. Mooc. PA. Papae.</l>
+<l>Quid video? Peregrinationes et preces,</l>
+<l>Eleemosynas, ieiunia, indulgentias,</l>
+<l>Una evomuit. ME. Oh oh, gulam mihi pervelim</l>
+<l>Dari ampliorem. Moc. Mooc. Cos. Digitos duos</l>
+<l>Insere. MER. Moc. Cos. Ecce iam. Oh, quid isthuc obsecro?</l>
+<l>Candelae magnae et plurimae, diplomata,</l>
+<l>Vestes sacrae, toti calices, et integra</l>
+<l>Altaria prodennt, et bini calcei</l>
+<l>Duplicatis soleis. PA. Hem quid hominis es? Papae.</l>
+<l>Qui ita saburratus iter ad caelos ingredi</l>
+<l>Te posse putasti? Cos. Mirum hercule spectaculum.</l>
+<l>Sed quid sibi Mercator voluere calcei?</l>
+<l>MER. Ad templa frequenter eundo illos attriveram.</l>
+<l>Cuius rei volui extare testimonium.</l>
+<l>PA. Quam diligentes sunt iam mortales, suis</l>
+<l>In factis ponderandis? quasi non centies</l>
+<l>Malorum numerus superet benefacta omnia.</l>
+<l>ME. Vae misero mihi, dispereo totus. Moc. Mooc.</l>
+<l>Heu stomachi fundamentum plane invertitur.</l>
+<pb id='s077'/>
+<l>PA. Confide. MER. Mooc. Cos. Vah quam in fundo atque in intimis</l>
+<l>Habitarunt isthaec. Missae sunt et Vigiliae,</l>
+<l>Psalteria, et patronorum fiducia.</l>
+<l>MER. Mooc. Cos. Quid isthuc Paule, quod geniminibus</l>
+<l>Viperarum simile prodit? PA. Sunttam aliena quam</l>
+<l>Propria merita. Co. DEUM immortalem Paule, quae</l>
+<l>Tanta hominum est dementia, tam frivola ut vorent,</l>
+<l>Aut comminiscantur? PA. Satanae plantaria</l>
+<l>Et Antichristi Cosma doctrinam vides.</l>
+<l>Quam iam universis ferme insevit cordibus.</l>
+<l>Quid ais Mercator, Ecquid sentis reliquum</l>
+<l>Quod non evomueris? ME. Nihil, nisi viscera</l>
+<l>Etiam evomenda sunt. PA. Viscera curet alius.</l>
+<l>Nobis adversus Antichristi dogmata,</l>
+<l>Adeoque perversam contra fiduciam</l>
+<l>Negotium est MER. Nullo laboro dogmate.</l>
+<l>Hei misero venter inanitate murmurat.</l>
+<l>PA. Ne timeas. Heus Cosma. Ventrem arbitror satis</l>
+<l>Iam purgatum. Cunctus enim subsedit tumor.</l>
+<l>Sed adhuctrucibus et elatis oculis manet.</l>
+<l>Cos. Verum est. PA. Quamobrem mihi purgandum etiam caput</l>
+<l>Cerebrumque videtur, Ergo, ut scis, nasturcio, aut</l>
+<l>Alio quodam medicamine facut sternuat.</l>
+<l>Cos. Istud non magnam postulat scientiam.</l>
+<l>Mox fecero. Admove nares, et Spiritum</l>
+<l>Attrahe. Recte. Hoc modo una et pectus etcaput</l>
+<l>Purgabuntur. Oculos claude atque synciput</l>
+<pb id='s078'/>
+<l>Manu altera tene. Hui quam fortiter. ME. Hei mihi</l>
+<l>Cerebrum exquassatur. Cos. Iam numc arcte e naribus</l>
+<l>Mucum emunge. Ohe, multas meritorum et operum</l>
+<l>Bonorum emunxit opiniones. PA. Optime est.</l>
+<l>Sciebam prorsus aliquid in cerebro mali</l>
+<l>Residere. Supercilia resecato forpice.</l>
+<l>Sic satis. Oculi iam atque supercilia recte habent.</l>
+<l>ME. Me miserum, ut tenuis atque exuccus, et nihil</l>
+<l>Quam syphar hominis vestra sum factus opera.</l>
+<l>Ne cerebrum me quidem iam habere iudico.</l>
+<l>Neque quidquam humanarum in me restat virium,</l>
+<l>Adeo me elumbem constitnit purgatio.</l>
+<l>Iam iam profecto per foramen acus iter</l>
+<l>Si mihi sit agendum, facilime confecero.</l>
+<l>PA. Ad caelum ituros tales esse convenit.</l>
+<l>Sed age dic mihi, quid nunc de te verissime</l>
+<l>Dicere habes? ME. Id quod dixi, sed nec mentiar,</l>
+<l>Si me omnium qui vivunt perditissimum</l>
+<l>Dixero. PA. Recte. Ecqua praesidia salutis aut</l>
+<l>In temetipso, aut in creatis omnibus</l>
+<l>Nosti? ME. Nulla. Sed adversantur mihi omnia.</l>
+<l>PA. Si igitur tibi contingat salus, num e gratia</l>
+<l>Dices aut ex meritis tuis contingere?</l>
+<l>ME. Ex gratia prorsus. PA. Quid ex meritis tibi</l>
+<l>Deberi ais? MER. Ut non unus me Cerberus</l>
+<l>Devoret. PA. At iustitias tuas quanti aestimas?</l>
+<l>ME. Ah tantidem quanti stercus. PA. Iuste aestimas.</l>
+<l>Nihil ergo gloriaris, sed te perditum</l>
+<l>Plane agnoscis, etiam si haberes omnia</l>
+<pb id='s079'/>
+<l>Monachorum ettotius mundi opera atque merita?</l>
+<l>ME. Eo magis essem perditus. PA. Hinc te colligo</l>
+<l>Ab humanis plane expurgatum sordibus,</l>
+<l>Et esse divinae capacem gratiae.</l>
+<l>Vis liber esse a peccatis et consequi</l>
+<l>Salutem? ME. Volo. PA. Vis expeditam ad hoc viam?</l>
+<l>ME. Volo. PA. Crede ergo in Iesum Christum et salvabere.</l>
+<l>ME. Quid de illo credam? PA. Quod pro peccatis tuis</l>
+<l>Sit mortuus, et resurrexerit, ut innocens</l>
+<l>Et iustus habereris coram Deo. Is tua</l>
+<l>Iustitia, sanctificatio et redemptio est.</l>
+<l>ME. Nunquid tu his contradicis Conscientia?</l>
+<l>CON. Quis divinis contradicat sermonibus?</l>
+<l>Quin et peccatorum obliviscor omnium.</l>
+<l>ME. Sed Satanae codex mihi molestus est nimis.</l>
+<l>PA. Mortem Iesu Christi Satanae furoribus</l>
+<l>Et peccatis, magna opponas fiducia.</l>
+<l>Numquam poterit accusare electos Dei,</l>
+<l>Quos Christi viderit conspersos sanguine.</l>
+<l>ME. His dictis (sentio) suffragatur Spiritus,</l>
+<l>Qui cordi illabitur meo, et fiducia</l>
+<l>Simul et amore erga caelestem implet patrem.</l>
+<l>PA. Isthuctene. Satis ad salutem instructus es.</l>
+<l>Dei duntaxat te commendes gratiae,</l>
+<l>Ut perficiat quod in te coepit opus bonum.</l>
+<l>ME. O quantam conspicor salutis copiam!</l>
+<l>Quam vultu me benigno respicit Pater?</l>
+<l>Quam et hilari vultu me iam Conscientia</l>
+<pb id='s080'/>
+<l>Aspicit? PA. Isthaec credentis animi indicia sunt.</l>
+<l>Proinde perge. Satis in CHRISTO dives es,</l>
+<l>Satis iustus, satisque tutus ab inferis.</l>
+<l>Quia igitur isthaec te credere cognoscimus:</l>
+<l>Effecimus id, cuius sumus ad te gratia</l>
+<l>Missi. ME. Credo CHRISTUM iusticiam omnem meam</l>
+<l>Esse, eiusque opera me a peccatis liberum.</l>
+<l>At vobis merito magnas habeo gratias.</l>
+<l>Quod et istud me docuistis, et a prioribus</l>
+<l>Pravis doctrinis animum expurgastis meum.</l>
+<l>Quibus me oneratum etinflatum, semper tamen</l>
+<l>Propter peccata momordit Conscientia.</l>
+<l>Ea nunc quiescit, neque me accusat ut prius.</l>
+<l>Divinae scilicet concedens gratiae:</l>
+<l>Hac pacata, nihil etiam Satanae mihi</l>
+<l>Formidabilis erit codex. In hac fide</l>
+<l>Neque inferorum portas extimescam ego.</l>
+<l>PA. In unum CHRISTUM colloca fiduciam.</l>
+<l>Quod contra omnia mala erit alexi pharmacum.</l>
+<l>Nobis ad superos redeundum est, et interim</l>
+<l>Etiam at que etiam cave, ne quis fallaciis</l>
+<l>Hanc tibi fidei simplicitatem contaminet.</l>
+<l>MER. Meminero et faciam. PA. Nos abimus iam,</l>
+<l>ME. Pergite feliciter. Iam tandem sentio</l>
+<l>Quid inter hominum commenta et Verbum DEI vale.</l>
+<l>Intersit, et DEI quid possit gratia,</l>
+<l>In servandis hominibus, qui alioqui suis</l>
+<l>Cunctis viribus ad inferos descenderent.</l>
+<l>Redeat nunc Lyochares, aut Satanae vel decem</l>
+<pb id='s081'/>
+<l>Animo securo et tranquillo moriar, satis</l>
+<l>Sciens DEI me servatum iri dextera.</l>
+</lg>
+<p><hi>CHORUS.</hi></p>
+<lg>
+<l>Quae tanta mundum vexat inertia?</l>
+<l>Quousque tandem lumina perdidit?</l>
+<l>Ut nesciat rectum atque pravum,</l>
+<l>Nec bonanec mala rite cernat?</l>
+<l>Magnis requirit frivola sumptibus.</l>
+<l>Artesque caute discit inutiles,</l>
+<l>Et utiles post terga linquit,</l>
+<l>Haud opibus totidem parandas.</l>
+<l>Quid non agit pro corpore debili</l>
+<l>Sanove? Qua non sollicitudine</l>
+<l>Victus laborat comparandi,</l>
+<l>Seque suosque fovens benigne?</l>
+<l>Cur non eodem sollicitus modo est</l>
+<l>Aut cur laboris cessat et ingeni</l>
+<l>Vigor, futura pro salute, et</l>
+<l>Praesidiis animae quietis?</l>
+<l>Si artes quis omnes atque scientias</l>
+<l>Perdiscat, isthic vivet et ingeni</l>
+<l>Fructus quidem carpet suaves.</l>
+<l>Corporeos tamen et caducos.</l>
+<l>Hoc iura quaerunt, hoc medici volunt.</l>
+<l>Hoc rethores, hoc artifices simul</l>
+<l>Spectant, scopum omnes hunc labores</l>
+<l>Terrigenum inspiciant oportet.</l>
+<l>Fiunt probe, nec dicimus amplius.</l>
+<pb id='s082'/>
+<l>At nulla pax est cordibus impiis,</l>
+<l>Nec doctus indoctusve saevi.</l>
+<l>Rumpere vincla potest tyranni.</l>
+<l>Non rhetores, non hoc medici docent,</l>
+<l>Non iurium solertia multiplex,</l>
+<l>Nec principis mundi furores</l>
+<l>Grammatici moderari possunt.</l>
+<l>Verum e supernis ni doceat Pater,</l>
+<l>Christumque nobis Spiritus inserat,</l>
+<l>Frustra laborat mundus omnis</l>
+<l>In superas penetrare sedes.</l>
+<l>Constat. Tamen non pectora pandimus,</l>
+<l>Nec sustinemus scire, quid a Patre</l>
+<l>Demissus edoctusque narret</l>
+<l>Filius, ille redemptor orbis.</l>
+<l>Pars illius verbum exitiabili</l>
+<l>Repellit ira et persequitur male</l>
+<l>Sub haeresis nota, nihil qua</l>
+<l>Sors tulerit magis expiandum.</l>
+<l>At pars veterno turpiter incubant,</l>
+<l>Sus deque censent quid doceat DEUS.</l>
+<l>Si suppetit vini panisque</l>
+<l>Copia, sat sibi sunt beati.</l>
+<l>Pars magna quaedam scandala subserunt,</l>
+<l>Deique verbum in ludibriis habent,</l>
+<l>Et ut sonet numquam se iniquo</l>
+<l>Haud perhibent animo daturos.</l>
+<l>Absque hoc tamen nil cetera proderunt,</l>
+<l>Curae nihil, nil et sapientia</l>
+<pb id='s083'/>
+<l>Prodest, nec ullae artes dolique</l>
+<l>Iudicis effugient ab ira.</l>
+<l>Sic magna iuste pars hominum perit,</l>
+<l>Et sempiternis uritur ignibus.</l>
+<l>Nam nescit et nescire verbum</l>
+<l>Et manibus pedibusque curat.</l>
+</lg>
+</div3>
+</div2>
+<div2 id='NaM.01.05' n='5' type='act'>
+<head>ACTUS QUARTUS.</head>
+<div3 id='NaM.01.05.01' n='1' type='scene'>
+<p>LYOCHARES. PRINCEPS. EPISCOPUS, FRANCISCANUS.</p>
+<lg>
+<l>HVI ite, ite, properate, vix testudinis</l>
+<l>Inceditis gressu, magis nec repperi</l>
+<l>Tardos. Num etiam post moftem vos podagra tenet?</l>
+<l>PRI. Non o bone, Num volare nos tot sarcinis</l>
+<l>Onustos posse putas? LY. Quae ergo dementia</l>
+<l>Adegit, tantam vos ferre supellectilem?</l>
+<l>EP. Quasi nescias nos ad iudicium pergere. LY. Scio</l>
+<l>Equidem isthuc. Sed quid ad iudicium pertinet,</l>
+<l>Altaria, templa, sacella, monasteria, precum</l>
+<l>Ingentes codices, cucullos, et alia</l>
+<l>Tam ridicula quam inania ferre, lentius</l>
+<l>Ut conficiatis iter? PR. Nae tu imperitus es</l>
+<l>Papisticae doctrinae. LY. Qui sic? PR: Iudicem his</l>
+<l>Placare volumus donis et corrumpere.</l>
+<l>LY. Quid, Iudicem? PR. Ita inquam. LY. Facinus egregium hercule.</l>
+<pb id='s084'/>
+<l>EP. Equidem profecto si sapis, hunc non audies.</l>
+<l>Quippe, ut videtur, non est Theologus. FRA. Neque<corr sic='.' resp='transcriber'>,</corr></l>
+<l>Ut arbitror, Scotum aut Alexandrum de Ales,</l>
+<l>Aut Bonaventuram, aut Angelum, aut Thomam, aut Capram,</l>
+<l>Aut illos qui iam sunt doctrinae Principes</l>
+<l>Emserum, Vitzelium, Coclear et Eccium,</l>
+<l><gap desc='greek words'/> unquam trivit. Namque si</l>
+<l>Secus esset, sciret certo causas ordine,</l>
+<l>Ob quas talia salvandis huc ferenda sint.</l>
+<l>LY. Vah, tu mihi videris sapere, Sed promove</l>
+<l>Gradum, nisi mavis sustinere verbera.</l>
+<l>Cum Satana disputato coram iudice.</l>
+<l>Non memini quando alios unquam citaverim</l>
+<l>Aeque hydropicos et podagrosos, aut plura qui</l>
+<l>Et grandiora ad iudicium gestaverint,</l>
+<l>Quorumve ita maestae fuerint Conscientiae.</l>
+<l>Vos, (ni fallor) peregregie peribitis.</l>
+<l>Nam et obesi estis gravesque et Horco plurimum</l>
+<l>Supellectilis adfertis. Quare ut fortius</l>
+<l>Vos possidere laboret Satanas nil opus.</l>
+<l>Suapte enim natura ad centrum gravia se</l>
+<l>Movent. EP. Ne curato. Nil est periculi.</l>
+<l>Nullius Satanae formidamus impetus.</l>
+<l>LY. Macte excelso animo. Quid frustra stultus ego pro</l>
+<l>Vobis timeo? Iam hoc me loci opperimini.</l>
+<l>Divortar huc, paulisper, mox revenero.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.05.02' n='2' type='scene'>
+<pb id='s085'/>
+<head>SCENA SECUNDA</head>
+<p>PRINCEPS, EPISCOPUS, FRANCISCANUS.</p>
+<lg>
+<l>ILLE hinc abiit truculentus noster carnifex.</l>
+<l>Ecquid animadvertistis illum pendere</l>
+<l>Nostrum apparatum parvi, imo nihili prope.</l>
+<l>EP. Animadvertimus. Ad desperandum nos lubens</l>
+<l>Suis dictis perduceret. Sed nihil agit.</l>
+<l>PR. Quin et convicia dixit perituris quasi.</l>
+<l>EP. DEO nos acceptos fore non intelligit.</l>
+<l>FRA. Hoc agit (in mundo quod sycophantae plurimi ut</l>
+<l>Nos iurgiis a recto deiiceret statu.</l>
+<l>Utque maledicis dictis exterriti, omnia</l>
+<l>Relinqueremus impedimenta et sarcinas,</l>
+<l>Vacuique appareremus coram Iudice, et</l>
+<l>Salutis omnem abiiceremus fiduciam.</l>
+<l>PR. Mihi hercle commovit animum, spemque minuit.</l>
+<l>EP. Cave sodes, ut quid genio auscultes malo.</l>
+<l>FRA. Cedo, quis te instruxit morituroque adfuit?</l>
+<l>PR. Tui ordinis Seraphici venerandus Pater.</l>
+<l>Is haec imposuit, et his me iussit fidere.</l>
+<l>Gregaliumque suorum meritis et bonis</l>
+<l>Operibus gravidum praegnantemque reddidit.</l>
+<l>Ita ut perspicis. FRA. Instructus es ad vitam satis.</l>
+<l>Cave faxis ut abicias temere quidpiam.</l>
+<l>Nam et nos res ferimus ad iudicium eiusmodi, et</l>
+<l>Speramus nobis profuturas admodum.</l>
+<pb id='s086'/>
+<l>Nam suprema haec Papatus est instructio.</l>
+<l>EP. Suprema et optima est. PR. Videtur hercule</l>
+<l>Siquidem et meus instructor se aliam confessus est</l>
+<l>Nescire armaturam, alioqui doctissimus.</l>
+<l>Sed, (amabo) quia sors nos coniunxit ad hociter,</l>
+<l>Idemque iudicium citati accedimus,</l>
+<l>Nostrum unusquisque dicat, qua fiducia</l>
+<l>Prae ceteris fretus confidat Iudicem</l>
+<l>Fore placatum. In quibusdam nos video pares,</l>
+<l>At rursus in quibusdam valde dispares.</l>
+<l>Aeque tumemus omnes, aeque sarcina</l>
+<l>In tergo est compacta et constricta fortiter</l>
+<l>Nostrum unicuique. Meam mihi quidem mala</l>
+<l>Imposuit quae sequitur me Conscientia.</l>
+<l>Quo pacto et vestras vobis impositas reor.</l>
+<l>Maestae quoque suntnostrae omnes Conscientiae,</l>
+<l>Similiter et terram intuentur cernuae.</l>
+<l>Ceterum in armatura magna est diversitas.</l>
+<l>FRA. Nihil est absurdum. Quid? Pictos in pariete</l>
+<l>Numquamne vidisti Divos? PR. Saepissime.</l>
+<l>ER. Vidisti certe alium alio ornatum modo,</l>
+<l>Petrum clavibus, Ioannem calice, libris</l>
+<l>Augustinum, Paulum gladio, Laurentium</l>
+<l>Craticula, Lapidibus Stephanum, Dominicum</l>
+<l>Lupo et face, quinque Franciscum vulneribus, ut</l>
+<l>Interim equites totos cataphractos taceam, Ita</l>
+<l>Etiam inter nos non miranda est diversitas.</l>
+<l>PR. Intelligio. Sed meam vobis fiduciam</l>
+<l>Iam exponam. EP. Hic sumus, Expone. PR: Praeter bona opera</l>
+<pb id='s087'/>
+<l>Quae magna summa emi, et praeter sumptus, quibus</l>
+<l>Templa et coenobia construxi, et praeter alia</l>
+<l>Quae magna spe suffarcinatus adfero,</l>
+<l>Summa spes est in Pontificis diplomate.</l>
+<l>Quo mihi peccatorum omnium remissio</l>
+<l>Etiam plumbo firmata est. EP. Spem bonam obtines</l>
+<l>At mihi praeter cetera bicipiti in infula, et</l>
+<l>Empto bis quindecim aureorum milibus</l>
+<l>In pallio spes est, et ea quidem optima.</l>
+<l>Etenim haec me testabuntur ex caelestibus</l>
+<l>Esse, et non vulgari exornandum gloria.</l>
+<l>PR. Quia spei non adversaris meae, neque</l>
+<l>Ego tuae adversabor. Per me ita pergas licet.</l>
+<l>Cui tu Franciscane fidis maxime?</l>
+<l>FR. Ego? Me vobis praecursum esse arbitror</l>
+<l>Albis equis EP. Tu? Qua quaeso fiducia?</l>
+<l>FR. Religionis, paupertatis, castitatis, et</l>
+<l>Obedientiae, in quibus est perfectio.</l>
+<l>Cucullo tamen isthoc fido prae ceteris,</l>
+<l>In quo impossibile est ut damnetur quispiam.</l>
+<l>Ut a Deo promissum est Seraphico Patri.</l>
+<l>PR. Papae Tantane latet in vestitu sanctitas?</l>
+<l>FR. Prorsus. Neque hoc Coclear nec Eccius negamt,</l>
+<l>Et si utilia suadenti inducitis animum</l>
+<l>Obtemperare, faxo ut eisdem utamini</l>
+<l>Mecum praesidiis. EP. Cupimus, ut et pro isto loquar</l>
+<l>FR. Inclinate ergo capita, ut vestis vos sacra</l>
+<l>Obumbret. Sic satis. Iam nunc omnes simul</l>
+<l>Eadem adversus Satanam spe pugnabimus.</l>
+<pb id='s088'/>
+<l>Hoc uno confirmastis vestra opera omnia,</l>
+<l>Ut apud DEUM quam plurimum valitura sint.</l>
+<l>EP. Ita ne tandem? FRA. Nihil est hoc certo certius.</l>
+<l>PR. At quis nostram in iudicio causam acturus est?</l>
+<l>FR. Quis nisi patroni, quos quisque ex Divis habet.</l>
+<l>Quos delegisti tibi? PRI. Matrem ipsam Iudicis,</l>
+<l>Et Ioannem Baptistam. FRA. Insignes hercule.</l>
+<l>Et eos ipsos qui utrinque assistent Iudici.</l>
+<l>Si qua modo habenda est hic fides pictoribus.</l>
+<l>EP. At ego Petro me et mea commisi Apostolo.</l>
+<l>PR. Soline? EP. Ita. Potens est in caeli curia,</l>
+<l>Ipsasque claves ad caeli portas habet.</l>
+<l>Ut possit intromittere quando et quem velit.</l>
+<l>FRA. Ita etiam me Francisco soli credidi.</l>
+<l>Qui pro me semper quinque gestat vulnera.</l>
+<l>Quibus valet quod divorum nemo valet.</l>
+<l>Sed cur cessat redire Lyochares, ut hinc</l>
+<l>Eamus ad merita et condigna gaudia.</l>
+<l>PR. Non video cur nobis properandum etiam sret.</l>
+<l>Cui pereundum est, satis mature deperit</l>
+<l>Vel vesperi. FRA. Quid hominis es? Si nos salus</l>
+<l>Falleret, haud scio quo non pacto omnes falleret.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.05.03' n='3' type='scene'>
+<head>SCENA TERTIA.</head>
+<p>LYOCHARES. MERCATOR.</p>
+<lg>
+<l>QUid est Mercator, nondum a Francofordia</l>
+<l>Rediisti, MER. Neque vero illuci vi, neque adeo</l>
+<pb id='s089'/>
+<l>Ire volo, nec in hoc nasus me fugit tuus.</l>
+<l>LY. Eia. Quin tu ergo surgis, nam tempus vocat</l>
+<l>Ut eamus. ME. Quin tu dicis mihi. Equidem haud moror.</l>
+<l>LY. Iam dudum te comites expectant. MER. haud moror.</l>
+<l>LY. Age ergo ocyus. MER. Ecce, inquam, me accinctum probe.</l>
+<l>I prae sequar. LY. Quid agis? Ita ne ibis vacuus et</l>
+<l>Absque supellectili? MER. Non vacuus o bone.</l>
+<l>LY. Sume ergo quae sumpturus es. MER. Immo habeo, omnia.</l>
+<l>LY. Quaenam? MER. Bonum et tranquillum animum mecum fero, et</l>
+<l>Fronte exporrecta una ibit Conscientia.</l>
+<l>Cetera mortua suis relinquam mortuis.</l>
+<l>LY. Rara avis es, et rara est isthaec sapientia?</l>
+<l>Quare ex facto hoctuos comites mirabere.</l>
+<l>MER. Quid illi, Num alia quaedam secum deferunt?</l>
+<l>LY. Plurima, Sed sequere. MER. Te vero sequor lubens.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.05.04' n='4' type='scene'>
+<head>SCENA QUARTA.</head>
+<p>FRANCISCANUS, PRINCEPS, EPISCOPUS, LYOCHARES, MERCATOR.</p>
+<lg>
+<l>SED ecce redit Lyochares festino gradu.</l>
+<l>Eumque aequis duo sequuntur passibus.</l>
+<pb id='s090'/>
+<l>EP. Comites fortasse nostri ad iudicium. FR. Arbitror</l>
+<l>PR. Vir est et mulier quaedam. FR. Conscientiam</l>
+<l>Viri puto. PR. Si est, nostris ea Conscientiis</l>
+<l>Dissimlis est. FR. Qua in re? PR. Rogas? Magnam arguit</l>
+<l>Vultus serenitas dissimilitudinem.</l>
+<l>FRA. Et nostrae erunt serenae quum perspexerint</l>
+<l>Nos omnia vicisse bonis operibus mala. Is</l>
+<l>Falso ducitur aliquo fortasse gaudio,</l>
+<l>Quod mox rediget iudicium ad maestitu dinem.</l>
+<l>PR. Sed nonne videtis, quam ille sit exilis, citus</l>
+<l>Vacuusque ab omni onere? FR. Subita praevemtus est</l>
+<l>(Ut opinor) morte, aut vino aut in bello occidit,</l>
+<l>Nihil unquam habens curansve habere operis boni.</l>
+<l>Melior longe nostra est conditio. LY. Illos vides</l>
+<l>Tuos comites. ME. Papae Lyochares, dives et</l>
+<l>Tumidum sodalitium. Sed Conscientiae</l>
+<l>Illorum vah quam nutant astantque tetrice.</l>
+<l>LY. Quid nunc agitur? EP. Expectatur. LY. Nunquid placet,</l>
+<l>Adduco vobis comitem? EP. Imo hercle perplacet.</l>
+<l>ME. Salvete. FR. Nos quidem salvi recte sumus.</l>
+<l>Tu ut salvus sis, non etiam curast i probe.</l>
+<l>MER. Qui sic? FRA. Cur non tumes? cur nil operis boni</l>
+<l>Ad iudicium adfers? MER. Imo vero plurima</l>
+<l>Adfero. EP. Nimirum qui es nuce cassa cassior.</l>
+<l>ME. Nemo prudens thesaurum in propatulo gerit,</l>
+<l>Inque via praesertim obsessa a latronibus.</l>
+<pb id='s091'/>
+<l>FR. Loqueris forsan hic nobis sententias?</l>
+<l>Vaeh tibi. ME. Vaeh vobis hisceque vestris sarcinis.</l>
+<l>PR. Mittite male ominari. Dic tu quaeso, cur</l>
+<l>Ita vacuus advenias, et cur alio modo</l>
+<l>Atque omnes alii, et quam nos instructus sies.</l>
+<l>LY. Nihilominus et inter loquendum pergite.</l>
+<l>Iam dudum scio Iudex tribunal occupat.</l>
+<l>Vobis dico mulis marianis, pergite.</l>
+<l>Vos tonsi praecedite nisi vultis verticem</l>
+<l>Actutum hac vobis virga prorsus deglubi.</l>
+<l>EP. Ne saevi quaesumus, pergemus strenue.</l>
+<l>PR. Heus tu, quisquis es ad me concede paululum:</l>
+<l>Tenuitatisque tuae mihi edissere modum,</l>
+<l>ME. Fui ego ita ut vos tumore insigni praeditus,</l>
+<l>Constrictaque erat huc perferenda sarcina</l>
+<l>Ex variis et meritis et operibus bonis,</l>
+<l>Quae multum in iudicio mihi essent usui,</l>
+<l>Sed nescio quo fato, Conscientiam</l>
+<l>Molestam sum sortitus ac incommodam,</l>
+<l>Quae omni reclamavit meae fiduciae,</l>
+<l>Donec spem omnem mihi ademit cum pulvisculo.</l>
+<l>LY. Procedite inquam. PR. Quid? Nullam illa sarcinam</l>
+<l>Tibi imposuit, ut nobis impositas vides?</l>
+<l>ME. Ingentem prorsus, qua me pressit ad inferos,</l>
+<l>Sperare nec ullo potui pacto gratiam?</l>
+<l>Et iam iam Satanae ultro me volui addicere.</l>
+<l>Sed ecce caelesti sum afflatus numine.</l>
+<l>EP. Genio aliquo fortasse malo. FR. Ita ut praedicas.</l>
+<pb id='s092'/>
+<l>PR. Tacete obsecro. MER. Statim aderat Paulus cum optimo</l>
+<l>Quodam medico, id quod ex eventu colligo.</l>
+<l>PR. Quis ille Paulus? MER. Apoftolus. Ille funditus</l>
+<l>Omnem helleboro mihi tumorem depulit.</l>
+<l>PR. Quid ais? ME. Evomuiqui, opera magni ponderis.</l>
+<l>PR. Apage, haud places, qui bona opera evomueris. FRA. Hunc.</l>
+<l>Quod audias, te vehementer miror. PA. Nihil</l>
+<l>Periculi est. FR. An etiam nondum intelligis</l>
+<l>Haereticum esse? PR. Satis. EP. Mirum ni exustus fuit.</l>
+<l>PR. Quid postea? ME. Omnes sunt ablatae sarcinae</l>
+<l>Et anteriores et posteriores simul.</l>
+<l>Et maiorem in modum exhilarata est tum mea</l>
+<l>Quae pone sequitur Conscientia. PR. Quo id modo?</l>
+<l>ME. Unius concepta CHRISTI fiducia.</l>
+<l>EP. Haereticus te aliquis misere decepit mi homo.</l>
+<l>ME. An deceptus sim nescio, pacem me quidem</l>
+<l>Sentio adeptum, cunctis abiectis operibus,</l>
+<l>Sola fide. FRA. Hem sola fide? MER. Ita inquam. FRA. In pessimum</l>
+<l>Ruisti dogma haereticorum haereticissime.</l>
+<l>Si Paulus isthuc te docuit, prorsus fuit</l>
+<l>Papisticae imperitus sanctimoniae.</l>
+<l>Quin si hoc perget docere passim, mox sacro</l>
+<l>Romanae sedis percutietur fulmine.</l>
+<l>MER. At bruta nihil ille extimescit fulmina.</l>
+<pb id='s093'/>
+<l>LY. Pergite, quoties vobis dicendum est? Pergite.</l>
+<l>EP. Miror, qui nam Paulus tandem revixerit,</l>
+<l>Cuius iam olim, doctores nostri et Episcopi, et</l>
+<l>Nomen et antiquata ignorarunt dogmata.</l>
+<l>Nullumque (quod sciam) in Romana curia</l>
+<l>Locum obtinuit. FR. Demiror te isti credere,</l>
+<l>Qui aut cerdo fuit, aut, quod credo mage, carnifex.</l>
+<l>Aut quid refert, si iam revixit maxime?</l>
+<l>Non Christianorum est doctor sed gentium.</l>
+<l>Vivat Cocleare et Vicelius et ceteri</l>
+<l>Quas iam sors Christianis doctores dedit.</l>
+<l>Quosque audiendos de caelo intonuit Pater.</l>
+<l>MER. Sclicet. At si tantum armaturae fiditis</l>
+<l>Vestrae, cur non erigitis Conscientias,</l>
+<l>Minutos terrae etiam observantes calculos?</l>
+<l>FRA. Dicam. Fidimus eadem opera et diffidimus.</l>
+<l>Nescit enim homo utrum sit dignus amore vel odio.</l>
+<l>Ita nos armatura nostra fortes sumus,</l>
+<l>Et interim sunt maestae Ccnscientiae.</l>
+<l>MER. Mirum prorsus negotium. FRA. Quamvis bene</l>
+<l>Speremus propter opera nostra plurima,</l>
+<l>Tamen iudicii illae formidant exitum,</l>
+<l>Qui semper est incertus. MER. At mihi certus est.</l>
+<l>FR. Credo hercle. Nam certissime damnaberis.</l>
+<l>LY. Coram Iudice si quid lubet, contendite.</l>
+<l>Nunc iter agendum est. Ecce cucullate hoctibi.</l>
+<l>Nolo te frustra hic instituisse Academiam.</l>
+</lg>
+</div3>
+<div3 id='NaM.01.05.05' n='5' type='scene'>
+<pb id='s094'/>
+<head>SCENA QUINTA .</head>
+<p>SATANAS, FRANCISCANUS, EPISCOPUS, LYOCHARES, PRINCEPS, MERCATOR.</p>
+<lg>
+<l>MALE perdat Dens istos sophistas impios,</l>
+<l>Quibus die hodierna mane a summo statim</l>
+<l>Ad hoc usque diei vocatam operam dedi.</l>
+<l>Adeo nihil sine me volunt concludere,</l>
+<l>Neque in minimis rebus neque etiam in maximis,</l>
+<l>Ideo fortassis, ut si res male cesserit,</l>
+<l>Expediant se, atque omnem in me culpam transferant.</l>
+<l>Conentur. Ego mea facta tuebor approbe,</l>
+<l>Neque fatebor culpam quam numquam fecerim.</l>
+<l>Cuius iussu quaeso aut instinctu hodie</l>
+<l>Frequentes convenerunt? Quo referente tam</l>
+<l>Atrocia inierunt contra verbum DEI</l>
+<l>Consilia? Ego hercle meosinspexi codices</l>
+<l>Tota nocte, ut quorundam scirem crimina,</l>
+<l>Quibus hodie in iudicio adversari volo.</l>
+<l>Ut ergo legi et annotavi crimina, e</l>
+<l>Vestigio reos perrexi invisere,</l>
+<l>Ne quis eos e manibus eriperet meis.</l>
+<l>At medio in cursu me Sophistarum vocat</l>
+<l>Cohors, sibi ut adessem, magni interesse illud mea</l>
+<l>De quo consultando sit habenda concio.</l>
+<l>Postquam veni, cognovi tandem quid rei</l>
+<l>Esset. Conquesti sunt se Euangelio premi,</l>
+<pb id='s095'/>
+<l>Nec ad extirpandum quidquam se prioribus</l>
+<l>Consiliis proficere, quare se quid novi</l>
+<l>Excogitasse aiebant, quod proponere</l>
+<l>Vellent, meo ut etiam probarem calculo.</l>
+<l>Ita auscultando ac decernendo congrua</l>
+<l>Tantum diei contrivimus. Unde metuo</l>
+<l>Ne aut iudicium neglexerim, atque nemine</l>
+<l>Accusante et contradicente, Iudicis</l>
+<l>Meos videam absolutos iam sententia,</l>
+<l>Aut recte docti in extremis resipuerint.</l>
+<l>Verum faxo sciam tamen quae gesta sint</l>
+<l>Curriculo. Extemplo, si est quod metuo, capitulae</l>
+<l>Sophistica Spiritus exagitet vertiginis.</l>
+<l>Quorum opera tantum mihi periit lucrum.</l>
+<l>Evax. Res salvae sunt. Saltare collibet.</l>
+<l>Nunc primum ecce venit Lyochares. Omnes probe</l>
+<l>Instructos video, et rite mea ex sententia.</l>
+<l>FR. Vaeh nobis, recta Satanas obviam venit.</l>
+<l>Quo suades fugiamus Lyochares? LY. Quin ego</l>
+<l>Ut procedatis suadeo, nisi verbera</l>
+<l>Mavultis accipere, quae prolixe dabo.</l>
+<l>Non est iam fugiendi nectempus nec locus.</l>
+<l>MER. Ubi est tuus her culeus iam animus, ut bestiam hanc</l>
+<l>Cooficias et pro te, et pro nobis omnibus?</l>
+<l>SA. Cur tam sero venitis electi mei?</l>
+<l>Lyochares, cur tam serus? LY. Cum tot oneribus</l>
+<l>Hos asinos non citius potui protrudere.</l>
+<l>SA. Credo. Hercle me brevi ditissimum fore</l>
+<pb id='s096'/>
+<l>Video, quum mihi tot quotidie accedant opes.</l>
+<l>Sed ubi relictus est Mercator optimus?</l>
+<l>LY. Eccum. Non agnoscis? SA. Non agnosco, neque</l>
+<l>Esse arbitror. LY. Est ut dixi, neque alius heri</l>
+<l>Ullus Mercator huc citatus est. SA. Age</l>
+<l>Sophistarum iam iam aspicio vertiginem.</l>
+<l>Nam isthic certe e retibus ereptus est meis.</l>
+<l>Dum alia agere habens illorum synodo interfui.</l>
+<l>Neque tumet, neque quidquam fasciculorum gerit.</l>
+<l>Ha ha sophistae quam pulchre vobis lucrum hoc</l>
+<l>Rependam. Vah stultus ego illos qui audiverim.</l>
+<l>At interim vos tres cito mecum pergite, ut</l>
+<l>Acceptum in vobis detrimentum sarciam.</l>
+<l>FR. Apage a nobis in maximam malam crucem.</l>
+<l>SA. Vos quoque mecum commilitones optimi.</l>
+<l>EP. Quid vi trahis nos? An non qui sumus vides?</l>
+<l>SA. Video hercle perspicue vos esse acheronticos</l>
+<l>Et impiorum iungendos collegio.</l>
+<l>FR. Imo caelestibus. Quid vim nobis facis?</l>
+<l>SA. Quid multis opus? Huc aio mecum pergite.</l>
+<l>PR. Heu Lyochares, vi trahimur. Quin fieriinhibes.</l>
+<l>EP. Heu indicta causa corripimur ad inferos.</l>
+<l>Ad iudicem caelestem provocamus. LY. Heus</l>
+<l>Satana, mitte, aequum postulant, tibi suadeo</l>
+<l>Ne manibus ius tuum obtinere quaerites.</l>
+<l>Sed expectes Iudicis et tu sententiam.</l>
+<l>SA. Quid in reaperta aut indice aut iudicio opus?</l>
+<l>Tam hosce meos esse nosti, quam quos maxime.</l>
+<pb id='s097'/>
+<l>LY. Non inficias eo, sed isti pernegant.</l>
+<l>Quamobrem ius decerni iure convenit.</l>
+<l>SA. An nescis, Qui non credit iudicatus est?</l>
+<l>LY. Scio. Sed isti se arbitrantur credere.</l>
+<l>Quod verum ne an falsum sit, iuris arguet</l>
+<l>Dicussio. Ut ne ipsi quidem possint queri</l>
+<l>Vim aut ullam denique sibi freri iniuriam.</l>
+<l>Quare vim cohibe et iudicium una accedito.</l>
+<l>SA. Huc ergo si quid lubet. Ad iudicium etiam</l>
+<l>Recte meditatus venio. Experiar hercule an</l>
+<l>Ita ventriosi, totque onusti sarcinis</l>
+<l>Caeli portam vel tandem possint ingredi.</l>
+<l>Hoc sane pro vobis laborabo magis,</l>
+<l>Quo estis habitiores. Neque tamen te negligam</l>
+<l>Mercator, quanquam es quovis pumice siccior.</l>
+<l>Quaeretur certe, quo mihi omnes vendicem, et</l>
+<l>Sophisticum ne quid noceat negotium.</l>
+</lg>
+<p><hi>CHORUS.</hi></p>
+<lg>
+<l>PEriculosum, frivolum ac inutile,</l>
+<l>Quin et nihil damnosius,</l>
+<l>Quam si suis audax opinionibus</l>
+<l>Quis fidei in rebus sacris</l>
+<l>Mortaliumque ducitur prudentia,</l>
+<l>Innititurque erroribus,</l>
+<l>Aut spem fidemve fingit, aut bonum aut malum</l>
+<l>Auctoritate Principum,</l>
+<l>Papistica persuasus aut ecclesia,</l>
+<l>Verbi Dei absque nomine.</l>
+<pb id='s098'/>
+<l>Nullum valens proferre testimonium ex</l>
+<l>Apostolorum literis:</l>
+<l>Spei nec suae consentiunt oracula,</l>
+<l>Accepta sunt quae caelitus:</l>
+<l>Falletur ille spe fideque protinus,</l>
+<l>Illusus et damnabitur.</l>
+<l>Ceu qui cibum potumque sumit somnians,</l>
+<l>Et excitatus esurit:</l>
+<l>Sic ille spe gaudebit hic multum quidem,</l>
+<l>Quam non probabit exitus.</l>
+<l>Beatus ille quem DEI verbum docet,</l>
+<l>Certoque ducit tramite.</l>
+<l>Unde actiones profluunt omnes suae,</l>
+<l>Nec fallitur fiducia.</l>
+<l>Et spem fidemque firma sustinet petra,</l>
+<l>Non diruenda fluctibus,</l>
+<l>Qualem DEI verbum esse nullus haesitat,</l>
+<l>Qui sit salutis particeps.</l>
+<l>Quod spes et acta firmat at que credita</l>
+<l>Cernenda praebet exitu.</l>
+</lg>
+</div3>
+</div2>
+<div2 id='NaM.01.06' n='6' type='act'>
+<head>ACTUS QUINTI.</head>
+<div3 id='NaM.01.06.01' n='1' type='scene'>
+<head>SCENA PRIMA.</head>
+<p>LYOCHARES, PRINCEPS, EPISCOPUS, FRANCISCANUS, MERCATOR, MICHAEL, SATHANAS.</p>
+<lg>
+<l>Hic state, dum Iudex tribunal occupet,</l>
+<l>Senatusque omnis in suis sedeat locis.</l>
+<pb id='s099'/>
+<l>PR. Heu vultu nos irato Iudex aspicit.</l>
+<l>FR. Non nobis, sed huic haeretico iratus est,</l>
+<l>Qui in extremis (ut ait) evomuit bona opera.</l>
+<l>MER. Haud poenitet evomuisse. Et exitus dein</l>
+<l>Docebit, cuinam Iudex iratus siet.</l>
+<l>FR. Tuam haud emerem salutem vitiosa nuce.</l>
+<l>Sed haud adesse Franciscum miror, meam</l>
+<l>Cui causam commisi. Hem deinceps qui volet</l>
+<l>Se divorum commendet cuiquam PR. Ego mihi</l>
+<l>Meos patronos arbitrabar in via</l>
+<l>Occursuros, at ubi sint neutrum conspicor.</l>
+<l>EP. Meus intro ad assessorum abiit thronos, parum</l>
+<l>De me (ut videtur) sollicitus. FR. Certum est tamen</l>
+<l>Franciscum ubi ubi etiam sit advocarier,</l>
+<l>Ut adsit. Itane me in iudicio deserat.</l>
+<l>SAT. Tamne irritis sanctos putas laboribus</l>
+<l>Gaudere, ut advocatus horum quispiam</l>
+<l>Vobis velit causam agere perditissimam?</l>
+<l>Norunt meos vos esse. FR. O mendacissime,</l>
+<l>Tuumne me? SA. Tetresque adeo hos. FR. Hui pessime,</l>
+<l>Nihilne te pudere? SA. Haud vana me loqui, heus.</l>
+<l>Testabitur quaesitus hic vel Michael.</l>
+<l>FR. Testabitur? SA. Testabitur. FR. Quaeramus</l>
+<l>EP. Quaeramus antequam ipsum adimus Iudicem.</l>
+<l>FR. O Michael. MIC. Quid est? FR. Ain'tu Tartari</l>
+<l>Nos destinatos faucibus? MIC. Quid quaeritis</l>
+<l>Ex me, quod est pronuntiare Iudicis?</l>
+<pb id='s100'/>
+<l>Haud me penes ferre est reis sententiam:</l>
+<l>Christo est a Patre traditum: Is vos iudicet.</l>
+<l>FR. Iudex licet non constitutus ipse sis:</l>
+<l>Fori tamen processus est huius tibi</l>
+<l>Notissimus. MIC. Recte. FR. Ergo controversiam</l>
+<l>Dirimere erit facile hanc tibi. MIC. Eia dicite</l>
+<l>Quae sit. SAT. Quoniam veteri dictum est sententia:</l>
+<l>Qui baptizatus crediderit salvabitur:</l>
+<l>Qui vero non crediderit condemnabitur:</l>
+<l>Ita ut in fide omnis iudicii discussio</l>
+<l>Consistat: frustra mihi videtur calculus</l>
+<l>In horum accipiendis teri rationibus,</l>
+<l>Mihique diu rem iudicatam protrahi.</l>
+<l>Quippe mihi constat horum credere neminem,</l>
+<l>Quod facile non stupidus ex multis colligat.</l>
+<l>Nec Iudicem hoc qui cuncta novit praeterit.</l>
+<l>Proinde postulo ne audiantur, sed mihi</l>
+<l>Ut ante damnati addicantur protinus.</l>
+<l>MIC. Quid vos Sathanae respondendum arbitramini,</l>
+<l>Qui vos sibi causa indicta addici postulat?</l>
+<l>PR. Quid? nisi quod iniquum postulat, ut solet,</l>
+<l>Calumniatur enim nos credere pernegans.</l>
+<l>Quomodo non crederemus populi capita? Tam</l>
+<l>Nos fidei articulos scimus, quam qui maxime.</l>
+<l>SA. Articulos fidei scire non est credere.</l>
+<l>Quare ne Iudici audiantur postulo,</l>
+<l>Sed mecum eant digna accepturi praemia.</l>
+<l>EP. Non equidem tua moramur praemia. Nectibi</l>
+<l>Fidei orthodoxae principes servivimus,</l>
+<pb id='s101'/>
+<l>Credentes, quicquid Romae credunt optimi,</l>
+<l>Penes quos solvendi acligandi copia est.</l>
+<l>SA. Ligent sane illi et absolvant quicquid lubet,</l>
+<l>Modo sit sine praeiudicio et Iudici et mihi.</l>
+<l>Praecipui Romae sunt mei et mihi serviunt.</l>
+<l>Necrecte credunt nec recte credere docent.</l>
+<l>Quamobrem illorum isthic nil valet auctoritas.</l>
+<l>FR. Quid ais Sathana? Quamvis vincas memdaciis</l>
+<l>Hos esse tuos, attamen haud vinces me, nisiet</l>
+<l>In perfectos teius habere somnias.</l>
+<l>Tua postulato, nec eo usque impudentiae</l>
+<l>Procedas, ut caelestibus inicias manum.</l>
+<l>SA. Quos mihi perfectos, aut caelestes, obicis?</l>
+<l>Scio quos dicas, Qui mihi perfecte serviunt.</l>
+<l>Et eadem opera iungi volunt caelestibus.</l>
+<l>Ex quorum corte etiam tu ades sanctissime.</l>
+<l>EP. Negamus huius esse nos, Sed iudicis,</l>
+<l>Quod nos probare posse non diffidimus,</l>
+<l>Ex sarcinis quas ferimus, quare non puto</l>
+<l>Nos triste <foreign lang="GR">qh=ta</foreign> manere, sed <foreign lang="GR"><corr sic='taou=' resp='printer'>tau=</corr></foreign> candidum.</l>
+<l>MIC. Quid sit futurum audite: Quoniam vos reos,</l>
+<l>Quod non credatis, actor hic sibi petit</l>
+<l>Addici, at huic contrarium vos dicitis</l>
+<l>Vestris probaturos hisce esse e sarcinis:</l>
+<l>Christo placebit, Apostolico et Senatui,</l>
+<l>Rei ut audiantur, et ratione reddita,</l>
+<l>Quibus queant modis, ut credere se probent.</l>
+<l>Expensis donec sarcinis appareat</l>
+<l>An credant necne, ne queratur quis sibi</l>
+<pb id='s102'/>
+<l>Iniuriam fieri, sed iuris copia</l>
+<l>Data, legitimae subiaceant sententiae.</l>
+<l>FR. Recte isthuc habet. At porro postulamus ve.</l>
+<l>Quia unusquisque nostrum patronos sibi</l>
+<l>Peculiares ex divis selegit, et</l>
+<l>Illis viventes strenue servivimus,</l>
+<l>Ut nostram causam agerent isthuc venientium:</l>
+<l>Nempe hic Baptistam habet, atque matrem Virginem,</l>
+<l>Is assessorem Iudicis Petrum Apostolum,</l>
+<l>Heus quos tu habes? MER. Nullos. FR. Hem nullos? Vae tibi:</l>
+<l>Ceterum ego Franciscum elegi mihi unicum:</l>
+<l>Hos ergo postulamus: ante Iudicem</l>
+<l>Nobis sua advocatione praesto sint,</l>
+<l>Ut nostris in se meritis referant gratiam.</l>
+<l>SA. Non vero admitto ullos patronos, nec aliis,</l>
+<l>Nec vobis, nec peregrinum istum morem sino</l>
+<l>Iudicio huic introduci. PR. Te iudice.</l>
+<l>Sediam non abs te quaerimus sententiam.</l>
+<l>SA. Recte. At quid si ego vobis patrociner? Nam haud parum,</l>
+<l>Pro meritis in me vestris vobis debeo.</l>
+<l>Sed quid opus multis? Ecquid hoc Iudex sinet?</l>
+<l>MIC. Nullus sinet. Per se nam manifestum est satis,</l>
+<l>Post mortem inter bonum et malum haud esse medium.</l>
+<pb id='s103'/>
+<l>Sed rebus exempti humanis, aut impii aut</l>
+<l>Pii sunt. Nec pii patronis indigent.</l>
+<l>Quum illis sit exploratus Iudicis favor.</l>
+<l>Neque piorum ullus patrocinatur impio.</l>
+<l>Nec impius auditur causidicus pro impiis.</l>
+<l>Reorum quisque et stet pro se et respondeat.</l>
+<l>Quum hic veritate non calliditate sit opus.</l>
+<l>SA. Et isthuc recte habet. LY. Te iam rationibus</l>
+<l>Dandis para. Vos ceteri in vestrum locum</l>
+<l>Consistite seorsum, donec vocemini.</l>
+<l>SA. Mihi video sunt explicandi codices:</l>
+<l>Negotium gliscit. MER. Recte ego fiduciam</l>
+<l>Patronorum evomui. LY. Tacete ceteri</l>
+<l>Audis Princeps, rationes expedi cito.</l>
+<l>MICH. Dic iam quid acceperis unquam in vita tua,</l>
+<l>Et quomodo expenderis, PR. Acceptorum quidem</l>
+<l>Non magna est copia, quantum et aestimo Michael,</l>
+<l>Expensa vincet accepta omnia plurimum.</l>
+<l>MIC. Quo pacto isthuc. PR. Si quid pro acceptis debui:</l>
+<l>Dissolvi, et me missum Christi vicarius</l>
+<l>Fecit, et operibus insuper ornavit bonis.</l>
+<l>Pro quibus ex condigno atque congruo mihi</l>
+<pb id='s104'/>
+<l>Debetur merces, ut te mirer poscere</l>
+<l>A me rationem, et non magis de praemiis</l>
+<l>Mihi dandis cogitare. SA. Euge ut virum decet.</l>
+<l>MIC. Quid tu ais? Ecquando dissolvisti debita?</l>
+<l>Quo teste? Quo nomismate? Quis vicarius</l>
+<l>Te missum fecit? PR. Oh Romanus pontifex.</l>
+<l>Quasi nescias CHRISTI esse eum vicarium!</l>
+<l>Is me etiam isthoc communiit diplomate.</l>
+<l>Perlege. MIC. Non accipiet diploma CHRISTUS hoc,</l>
+<l>Ne nescius sis. Immo nec quisquam est ei,</l>
+<l>Qui praesens est regitque omnia, vicarius.</l>
+<l>Est quod dixit quoddam, Multos fore, non modo</l>
+<l>Suos qui se vicarios mendaciter,</l>
+<l>Sed et CHRISTOS, essent dicturi perfide.</l>
+<l>An hunc puerum putasti, cui fieri satis</l>
+<l>Diplomatis, vel bullis queat inanibus?</l>
+<l>Aliter reddas rationem oportet, et fidem</l>
+<l>Melioribus confirmes testimoniis.</l>
+<l>PR. Neque scio neque didici aliter, sed haec satis</l>
+<l>Vel maximis pro debitis esse arbitror.</l>
+<l>Et opera isthaec omnem testificantur fidem.</l>
+<l>MIC. Qui nescit, nescietur. Quare nil agis.</l>
+<l>Recita tu ex codice omnia huius debita.</l>
+<l>SA. Per summas duntaxat capitum, an per singula?</l>
+<l>MIC. Praecipuas summas recita. SA. Scriptae sunt probe.</l>
+<l>Pro principatu, dignitate, honoribus,</l>
+<l>Divitiis atque potestate, atque ceteris</l>
+<l>Quae externa ac interna accepit, mille Attica</l>
+<l>Debet talenta. Quod autem haec cuncta nequiter</l>
+<pb id='s105'/>
+<l>Prodegit et est abusus in superbiam,</l>
+<l>Nec contra homines solum, sed et adversus Deum,</l>
+<l>Talentorum sane tria debet milia.</l>
+<l>Porro quod hostili CHRISTUM et suos manu</l>
+<l>Est persecutus, et pro unius sanguine</l>
+<l>Occisi, milia talentorum quindecim</l>
+<l>Debet. Praeterea ex decalogo pro ceteris</l>
+<l>Et verbis et factis, milia debet decem.</l>
+<l>Summarum summa viginti novem facit</l>
+<l>Talentorum Atticorum milia, Pro quibus</l>
+<l>Illum mihi Iudex addicet arbitror.</l>
+<l>Donec solvat quadrantem etiam novissimum.</l>
+<l>MIC. Tot tantaque debita te solvisse praedicas?</l>
+<l>PR. Praedico. Diploma vide. Quin tantum haud debui.</l>
+<l>SA. Non? Quia it inficias, perscrutetur sarcina,</l>
+<l>Archangele, haec quam tergo fert. MIC. Dissolve tu</l>
+<l>Lyochares, et scrutare. LY. Vah quam fortiter</l>
+<l>Est constricta! At nihil necessum est solvere.</l>
+<l>SA. Qui sic? LY. Extra numerus omnis signatus est</l>
+<l>MIC. Lege ergo. LY. Summa summarum omnium quae in hoc</l>
+<l>Perscripta sunt fasce, novem et viginti facit</l>
+<l>Talentorum Atticorum milia. His manu</l>
+<l>Propria subscripsi Conscientia Principis.</l>
+<l>PR. Heu veris vincor. SA. Quando nunc satis patet</l>
+<l>Et hunc debere plurimum, nec credere,</l>
+<l>Nec esse solvendo, quid superest nisi mihi ut,</l>
+<l>Donec solvat, dedatur? PR. At ego non puto</l>
+<pb id='s106'/>
+<l>Tam credulum fore Iudicem CHRISTUM tibi, ut</l>
+<l>Sententiam praecipitet. Diploma accipe.</l>
+<l>Et si quid hoc non est solutum, plurimum</l>
+<l>Mecum attuli bonorum operum, et summa merita.</l>
+<l>Quibus solvi potest, atque probari fides.</l>
+<l>SA. Erras homo, res non agitur hic diplomatis.</l>
+<l>Sed qui bona egit est, salutis particeps,</l>
+<l>Qui mala vero, aeternis dabitur incendiis.</l>
+<l>PR. Bona ergo nonne me fecisse perspicis?</l>
+<l>Ex quibus et debita queant solvi, et perspici</l>
+<l>Fides? SA. Nondum. PR. Nae tu calumniator ex</l>
+<l>Professo es, qui non videas quae vides bona.</l>
+<l>SA. Impietatis hic, non fidei, video opera,</l>
+<l>Et adulterino te fretum nomismate.</l>
+<l>PR. O haereticorum singularis artifex,</l>
+<l>Qui isthaec adulterina voces, atque impia!</l>
+<l>SA. Non finis imponetur huicliti, tua,</l>
+<l>Quid fentias, ni dicatur sententia.</l>
+<l>MIC. Sententia haec est: Quoniam reus ex sarcinis</l>
+<l>Et diplomate, cunctisque quae secum attulit,</l>
+<l>Et debita se confidit posse solvere,</l>
+<l>Fidemque demonstrare argumentis suam:</l>
+<l>Placebit CHRISTO et Apostolico senatui.</l>
+<l>Ut debita ponderentur atque sarcinae,</l>
+<l>Ipsusque totus insigni cum aqualiculo,</l>
+<l>Aequis utrinque iam in statera lancibus.</l>
+<l>Ut quanti valeat cum suis intelligat.</l>
+<l>SA. Placet sententia. PR. Neque hercle mihi displicet.</l>
+<l>MIC. Huc ergo pone tu Lyochares sarcinam,</l>
+<pb id='s107'/>
+<l>Quam tergo huc gestavit, sui insciens mali,</l>
+<l>Talentorum Atticorum viginti novem</l>
+<l>Milia scilicet. LY. En sunt in lancium altera.</l>
+<l>SA. Quid si meum etiam apponam Michael codicem?</l>
+<l>MIC. Appone. Vah vix haec statera sustinet!</l>
+<l>Tu contra pone in alteram quicquid lubet.</l>
+<l>PR. Diploma satis erit. MIC. Nondum. PR. Addam plura, si</l>
+<l>Opus fuerit. MIC. Adde. PR. Propria haec sunt bona opera.</l>
+<l>MIC. Nondum satis. PR. Addam et quae emi aliena. MIC. Nil agis.</l>
+<l>PR. Mirum profecto negotium. Addam etiam haectria</l>
+<l>Altaria, monasteriumque dives, et</l>
+<l>Vestes sacras, sat haec superque erunt scio.</l>
+<l>Sine. MIC. Nil trahunt. SA. Quin simul imponis omnia</l>
+<l>Quibus fidis, nec sic vinces debita tamen.</l>
+<l>PR. Scio te isthuc velle. At ego te diruptum velim.</l>
+<l>Sacella duo ponam, quae construxi affabre.</l>
+<l>MIC. Frustra sunt. PR. Miror quidnam hoc sit negotii.</l>
+<l>SA. Tuum ego ingenium demiror prorsus plubeum,</l>
+<l>Qui non expendas, quanto sanguis civium,</l>
+<l>Euangeliique causa, et contemptus DEI,</l>
+<l>Rapinaeque, ex quibus construxisti omnia,</l>
+<l>Istis cunctis tuis nugis potiora sint.</l>
+<l>PR. Ne mea curato. Omnis movendus est lapis.</l>
+<l>Age missae restant, et ieiunia et preces,</l>
+<l>Et acquisita merita, quae addam denique</l>
+<l>Ut dispereas, quum me vicisse videris.</l>
+<l>Nunc sine videam. MIC. Vide. Ne his proficis quidem.</l>
+<pb id='s108'/>
+<l>Paleae sunt aridae. PR. Nerideas precor.</l>
+<l>MIC. Profer alia si habes. PR. All quid sit reliquum haud scio.</l>
+<l>Hei mihi. Sed sarcinas scrutabor penitus. Oh</l>
+<l>Ponderis haud exigui adhuc indulgentias</l>
+<l>Repperio. Hem nunc vide. MIC. Tipulae sunt. PR. Hei mihi,</l>
+<l>Quam sum gravatus in his portandis sarcinis?</l>
+<l>At eam quam tergo gestavi, sensi levem.</l>
+<l>Isthic mirabilem experior catastrophen.</l>
+<l>Illae apparent levissimae at que nullius</l>
+<l>Ponderis, at isthaec contra prorsus plumbea.</l>
+<l>O ubi iam est Franciscanus animam qui suam</l>
+<l>Pro me et pro debitis opposuit pignori?</l>
+<l>SA. Quid tempus terimus? Quin et hunc imponimus?</l>
+<l>MIC. Adeste, et una mecum eum huc imponite.</l>
+<l>En sic. LY. Papae. Plumbeus in nostra erat manu,</l>
+<l>Sed adversus debita videtur plumeus.</l>
+<l>PR. Heu heu, quam turpiter deceptus sum miser!</l>
+<l>MIC. Sat visus est. Deturbator iam ex lance. Quid</l>
+<l>Nunc? Credis? aut qua re solves debita tua?</l>
+<l>SA. Obmutuit. MIC. Ad sinistram stabis Iudicis.</l>
+<l>Tu Episcopum voca. LY. Heus tibi dico Episcope,</l>
+<l>Accede huc, atque tuas rationes explica.</l>
+<l>Tuamque confirmes fidem quantum potes.</l>
+<l>EP. Heu quam male ratio successit Principi!</l>
+<l>Totus trepido. Vin'tu pro me procedere?</l>
+<l>FR. Quin et ego ad usque pedes a vertice horreo.</l>
+<pb id='s109'/>
+<l>Nam Iudici quid ipsi respondebimus,</l>
+<l>Si territat nos Angelus tantum? Attamen</l>
+<l>Magno animo sis. Tumes egregie et infula es</l>
+<l>Episcopali insignitus prae Principe.</l>
+<l>EP. Recte mones. Ille prophanus quidam fuit,</l>
+<l>Nec cognitus caelitibus, ut nos Clerici.</l>
+<l>LY. Quid consultas? EP. Me, quis fuerim scis Angele?</l>
+<l>MIC. Rogas? Scio. Tu temet quoque fac ut scias.</l>
+<l>EP. Episcopus fui praecipuus in grege.</l>
+<l>SA. Id scilicet rapax quod inter oves lupus.</l>
+<l>EP. Tace rabula. MIC. Rationes inquam expone. Dic</l>
+<l>Quid debeas pro acceptis. EP. Quin rogas, Deus</l>
+<l>Quid mihi pro meritis operibusque debeat?</l>
+<l>SA. Recte ita vivam. MIC. Dissolve primum quae Deo</l>
+<l>Debes, tum et is resolvet quae debet tibi.</l>
+<l>EP. Atqui nihil debere me scio. MIC. Ergo tu</l>
+<l>Recitato ex codice, quid Deo iste debeat.</l>
+<l>Scio te accurate perscripsisse singula.</l>
+<l>SA. Vis ergo singula recitari? MIC. Nil opus.</l>
+<l>Praecipuas summas, ut prius, recita. SA. Bene.</l>
+<l>Pro dignitate ecclesiastica atque pro</l>
+<l>Honoribus et potestate, et pro corpore</l>
+<l>Proque anima, et pro donis utrique praestitis,</l>
+<l>Proque aliis externis internisque omnibus,</l>
+<l>Talenta mille debet Attica. Porro quod</l>
+<l>Pro acceptis numquam gratias egit, sed in</l>
+<l>Superbiam abusus est; contra DEUM et suos,</l>
+<l>Verbis, factis, et cogitationibus,</l>
+<l>Consiliis, caede hostilique animo insaniit,</l>
+<pb id='s110'/>
+<l>Papaeque velut DEO servivit unico,</l>
+<l>Talentorum duodecim debet milia.</l>
+<l>Praeterea quod fuit scortator improbus,</l>
+<l>Et audax cunctae transgressor Legis DEI,</l>
+<l>Dolium et avaritiae prorsus inexplebile,</l>
+<l>Suosque quod oneribus deglubit subditos,</l>
+<l>Et pro aliis decalogi transgressionibus,</l>
+<l>Talentorum decem debet milia. Dein,</l>
+<l>Et pro innocentum plurimorum sanguine, et</l>
+<l>Quod inter Principes sevit discordias,</l>
+<l>Talentorum alia item debet milia decem.</l>
+<l>Summarum summa triginta tria conficit</l>
+<l>Talentorum atticorum milia. Ceterum ut</l>
+<l>Haec vera cognoscantur, scrutetur volo et</l>
+<l>Huius sarcina, quam fert a conscientia</l>
+<l>Tergo impositam. LY. Consentit et haec prorsus tuis</l>
+<l>Satana rationibus. MIC. Ecce. Et tu te praedicas</l>
+<l>Nihil debere. EP. Non consuevimus homines,</l>
+<l>Pro acceptis, aut nostris pro iniquitatibus,</l>
+<l>Unquam tam accurate rationem ponere.</l>
+<l>MIC. Ut dicis. Quare vos absorbent debita.</l>
+<l>EP. At quanquam tanta debeo, iste tamen tumor,</l>
+<l>Et infula biceps, palliumque et bona opera,</l>
+<l>Et cetera in meis allata sarcinis,</l>
+<l>Vel pro maioribus facile facient satis.</l>
+<l>MIC. Quia igitur et tu in hac opinione es, et</l>
+<l>Isthac fretus pervenisti huc fiducia,</l>
+<l>Lata prius et te suscipiet sententia.</l>
+<l>Quare actutum omnes ad stateram pergite, et</l>
+<pb id='s111'/>
+<l>A tergo debitorum auferte sarcinam,</l>
+<l>Et in alteram staterae ponite lancium,</l>
+<l>Tuumque si vis Satana appone codicem.</l>
+<l>SA. Volo vero maxime. Lites huiusmodi,</l>
+<l>Quantum ego quidem existimo, celerrime et optime</l>
+<l>Statera dirimuntur. MIC. Hic sunt debita.</l>
+<l>Et illum quantus quantus est, in alteram,</l>
+<l>Cum meritis et operibus et bicipiti infula,</l>
+<l>Cumque superciliis arduis et aqualico,</l>
+<l>Cumque aliis quas secum apportavit sarcinis</l>
+<l>Imponite. LY. Vah et hic in nostris plumbeus</l>
+<l>Est manibus. EP. Nil profecto me imponi est opus.</l>
+<l>Facile vincent merita. SA. At impositus facilius.</l>
+<l>Vinces. Sinite nunc. MIC. Eiusdem prope ponderis</l>
+<l>Musca esset imposita. EP. Hei mihi, quam gravia sunt</l>
+<l>Debita? et adversus ea collatus sum nihil.</l>
+<l>In terris hercle magni habitus sum ponderis.</l>
+<l>Numquam hanc speravi fabulae catastrophen.</l>
+<l>SA. Idrecteru quidem et mea ex sententia.</l>
+<l>LY. Oppido leves iam terra fert episcopos.</l>
+<l>MIC. Deicite iam. Sat apparet quanti siet.</l>
+<l>Heus tu iam perspicis, DEO quid debeas,</l>
+<l>Nec sis solvendo, quodque in te prorsus tuam</l>
+<l>Omnem, haud in CHRISTO starueris fiduciam.</l>
+<l>Quid tibi debetur? SA. Mutus mage quam piscis est.</l>
+<l>MIC. Et tu sinister Iudici locabere.</l>
+<l>Accerse tertium. LY. Heus cucullate huc veni,</l>
+<l>Operumque tuorum da rationem Archangelo.</l>
+<pb id='s112'/>
+<l>FR. Vicit Satanas illorum neutrum credere,</l>
+<l>Nec exolvisse peccatorum debita.</l>
+<l>Scilicet imperfecti fuerunt, nec opera</l>
+<l>Supererogationis habuerunt, quae ego</l>
+<l>Mihi per viginti annos paravi sedulo:</l>
+<l>Ibo igitur, facile ratio constabit mea.</l>
+<l>Magno animo expecto, quid de me pronunties.</l>
+<l>SA. Immo etiam magno ventre. FR. Opera sciens bona,</l>
+<l>Queis per multos annos haud segnem operam dedi,</l>
+<l>Laboribus DEO improbisque servii,</l>
+<l>Ieiunando, orando, et vigilando plurimum.</l>
+<l>Insuper et ab ovis abstinui atque carnibus,</l>
+<l>Interula quoque propter CHRISTUM usus lanea.</l>
+<l>Et sacrosanctum istum gestavi habitum, in meae</l>
+<l>Probitatis iustitiaeque testimonium,</l>
+<l>Et cannabino me succinxifune, ne</l>
+<l>Mihi cum prophanis conveniret quidpiam.</l>
+<l>Praeterea ex calceis fenestratis pedes</l>
+<l>Prospexere, ut censerer mundus integre.</l>
+<l>Quid castitatis memorem et obedientiae,</l>
+<l>Paupertatisque munia perfectissima?</l>
+<l>Omnis caute tactum fugi pecuniae,</l>
+<l>Mendicandoque victum quaesivi meum. In</l>
+<l>Summum ita perfectionis perveni gradum.</l>
+<l>SA. Quantopere perfectus sis, hic testabitur</l>
+<l>Codex, inque tuo pendens tergo sarcina.</l>
+<l>FR. Tace calumniator. Quare horum memor</l>
+<l>Iudex, haud istius audiet sycophantias,</l>
+<pb id='s113'/>
+<l>Si quid criminis obiicere conabitur.</l>
+<l>Quin potius mihi, pro tanto in se studio, ut bona</l>
+<l>Dignaque det praemia cogitabit. SA. Te hercule</l>
+<l>Virum iudico. MIC. Nae tu plane imperitus es</l>
+<l>Tractandarum hic rerum. Quid opera enim occinis,</l>
+<l>Aut cur praemia pro illis Deum audes poscere?</l>
+<l>Qua te fronte Deo servivisse praedicas?</l>
+<l>Quis iussit facere opera, quae commemoras, bona?</l>
+<l>FR. Franciscus. MIC. Francisco ergo, non in his Deo</l>
+<l>Servivisti. Proinde ito et ab illo tuam</l>
+<l>Poscito mercedem. Quin pro acceptis iam adeoque</l>
+<l>Pro ex lege aut contra factis rationem expedi.</l>
+<l>FR. Atqui ea nulla existimo ratione digna, quae</l>
+<l>Francisci non expresse dicit regula.</l>
+<l>MIC. At ego contra existimo ratione digna, non</l>
+<l>Quae Franciscus aliquis, sed quae iussit DEUS.</l>
+<l>FR. Istud equidem nostri Magistri non docent.</l>
+<l>Si quid tamen ad iussa Dei attinet, et illa me</l>
+<l>Complesse puto et supererogasse plurima.</l>
+<l>Unde mihi merces ex condigno competit.</l>
+<l>Aut si id forte minus, certe tamen ex congruo.</l>
+<l>MIC. Video cuius farinae sis, et quodtibi</l>
+<l>Tanquam iusto iustorum poscas praemia.</l>
+<l>Quapropter ut hic tibi error excutiatur, ex</l>
+<l>Codice Satana cuncta huius prome debita.</l>
+<l>SA. Ausculta tu perdiligenter, ut tuae</l>
+<l>Omnes perfectionis perdiscas gradus.</l>
+<l>Primum pro corpore et anima et pro dotibus</l>
+<l>Internis externisque sexcenta attica</l>
+<pb id='s114'/>
+<l>Debet talenta. Porro quod hisce nequiter</l>
+<l>Abusus est, et corpus, robustum quidem,</l>
+<l>Mollitiei et veternoso otio dedit,</l>
+<l>Animam autem variis imbuit impietatibus,</l>
+<l>Duo milia, et quadringenta talenta attica</l>
+<l>Debet. Praeterea quod pro concionibus</l>
+<l>Verbo Dei impie et praefracte restitit,</l>
+<l>Et contumeliose de illo locutus est,</l>
+<l>Talentorum novem debet milia. Dein</l>
+<l>Quod proditione et consiliis, verbi duos</l>
+<l>Interfici fecit praecones, quindecim</l>
+<l>Talentorum milia debet. Sed quod fuit</l>
+<l>Cinaedus, et verbis factisque plurimis</l>
+<l>Legem Dei transgressus est, milia decem</l>
+<l>Talentorum debet. Sic omnis debiti</l>
+<l>Summarum summa est, Atticorum milia</l>
+<l>Septem trigintaque talentorum. Et ne neget,</l>
+<l>Vide Lyochares; quis numerus in sarcina</l>
+<l>Signatus sit. LY. Tuo prorsus convenit et hic.</l>
+<l>SA. Ecce attulit hanc perfectionem nescius.</l>
+<l>MIC. Tantum debes. Pro quo tibi poscis praemia?</l>
+<l>FR. Rogas? Pro enumeratis antea operibus bonis.</l>
+<l>MIC. At te prius solutionem debiti</l>
+<l>Praestare plenam oportet. FR. Hau. Numquam hercule</l>
+<l>Tot me animadverti contraxisse debita.</l>
+<l>Sed inficiari nequeo, ita testimoniis</l>
+<l>Oppressus sum vel mille a Conscientia.</l>
+<l>Utcumque tamen habet res, ex his quae attuli,</l>
+<l>Hac praesertim sacrosancta veste, omnia</l>
+<pb id='s115'/>
+<l>Absolvi diluique possunt, ut dein</l>
+<l>Et mihi condigna debeantur praemia.</l>
+<l>SA. Quin in statera expendi Michael praecipis</l>
+<l>Et debita huius, et quae opponit debitis?</l>
+<l>MIC. Sic fiet omnibus qui merita iactitant,</l>
+<l>Ut se cognoscant nullius esse ponderis.</l>
+<l>Proinde actutum vos staterae debita,</l>
+<l>Et contra hunc cum suis omnibus imponite.</l>
+<l>SA. Huc ergo Lyochares a dorso sarcinam</l>
+<l>Istius trade. LY. Habes. MIC. Iam et hunc cum calceis,</l>
+<l>Cumque cucullo aliisque quibus fidit omnibus</l>
+<l>In alteram ponite. LY. Et hic ponderosus est.</l>
+<l>SA. Tantum ne superos petat haud contra debita.</l>
+<l>MIC. Discedite iam. Pondus haberet maius culex.</l>
+<l>Distaedet operam dare rebus tam inanibus.</l>
+<l>FR. Vah illius quanta gravitas est sarcinae!</l>
+<l>Non aequam esse hanc stateram oportet, in qua ego</l>
+<l>Cum tot bonis operibus tam videor levis.</l>
+<l>In Papae iudicio nihil est hac veste vel</l>
+<l>Gravius, vel dignius, vel sanctius, et ea</l>
+<l>Indutos omnes pro perfectis iudicat.</l>
+<l>MIC. Deturbatote murmurantem protinus,</l>
+<l>Quem certa condemnatio manet. FR. Prius</l>
+<l>Ruituram omnem caeli putassem fabricam,</l>
+<l>Quam mea opera, et praesertim hanc vestem ita nullius</l>
+<l>Momenti et ponderis fore, contra debita.</l>
+<l>SA. Concede huc aio virorum perfectissime,</l>
+<l>Et tecum si placet perpetuo ringere.</l>
+<l>MIC. Reliquum voca Lyochares huc. LY. Mercator heus</l>
+<pb id='s116'/>
+<l>Tua pro vita et tu rationes explica.</l>
+<l>MER. CHRISTI minister inclite, In terris ego</l>
+<l>Verbi DEI monitu meis pro debitis</l>
+<l>Subduxi rationem, quam credo firmiter</l>
+<l>Et hic et perpetuo DEO probarier.</l>
+<l>Intelligens enim mea multa debita,</l>
+<l>Et ex operibus iustificari neminem,</l>
+<l>In CHRISTUM unum omnem transtuli fiduciam.</l>
+<l>Constat enim illum ob peccatores missum a Patre,</l>
+<l>Nimirum, ut illorum peccata solveret,</l>
+<l>Patrique reconciliaret sanguine in suo,</l>
+<l>Nec ullum ita grande conflavisse debitum,</l>
+<l>Quod non in hunc tolli queat fiducia.</l>
+<l>Hoc missio, officium, mors et fusus cruor,</l>
+<l>Victoria, regnum at que resurrectio illius</l>
+<l>Testantur. Insuper Prophetae et Apostoli</l>
+<l>Uno ore in hoc consentiunt: CHRISTI in sacro</l>
+<l>Nomine, remissionem esse sitam debiti,</l>
+<l>Nec credentem in eum condemnari quempiam.</l>
+<l>Credo igitur et mea eum solvisse debita,</l>
+<l>Eiusque solius opera esse liberum</l>
+<l>Me ab inferis, peccatis, morte atque Sathana.</l>
+<l>In cuius rei praeclarum testimonium</l>
+<l>Nullis stipatus huc perveni sarcinis,</l>
+<l>Neque meis neque alienis fretus operibus,</l>
+<l>Nec ullius causidici confisus opera,</l>
+<l>Magni duntaxat faciens misericordiam,</l>
+<l>Qua me suscepit et conservavit prior,</l>
+<l>Qua et spero me conservatum iri perpetim.</l>
+<pb id='s117'/>
+<l>SA. Quam subdolus palpator est! Haud Iudicem</l>
+<l>Decipies. Et tua recitabo debita,</l>
+<l>Quae Iudici soluta oportet omnia.</l>
+<l>MER. Num tu Satana accusabis electos DEI?</l>
+<l>Si me accusabis, accusabis Iudicem,</l>
+<l>Qui debita in sese mea cuncta transtulit.</l>
+<l>SA. At ego constanter te electum esse pernego,</l>
+<l>Qui plurimis servieris iniquitatibus,</l>
+<l>Pro quibus accusabo te, ut quod meritus feras.</l>
+<l>MER. Utrum sit verius Angelus pronuntiet.</l>
+<l>MIC. Confide frater. Nam, quia pro debitis</l>
+<l>Unius CHRISTI niteris fiducia,</l>
+<l>Quod scilicet illa suo soluerit sanguine,</l>
+<l>Cui divini verbi consentit veritas;</l>
+<l>Placebit CHRISTO et Apostolico Senatui,</l>
+<l>Ne debita tua conquirantur, nec aliquis</l>
+<l>Ullo pro debito te accusare audeat.</l>
+<l>Qui contra fecerit, reus is habebitur</l>
+<l>Maiestatis laesae, feretque audaciae</l>
+<l>Poenas, quod adversus deliquit Iudicem.</l>
+<l>SA. Si non sophistis extreme malefecero:</l>
+<l>Regnum ruat meum. Nam illis dum operam dedi,</l>
+<l>Ex retibus tum isthic meis elapsus est.</l>
+<l>FR. O iusta et aequa causae pensitatio! O</l>
+<l>Decisio! Quisnam ferat hanc iniuriam?</l>
+<l>Probi ut damnentur et servetur improbus,</l>
+<l>Qui nullam unquam operibus operam dedit bonis.</l>
+<l>MIc. Proinde vos ad ipsaintro subsellia</l>
+<l>Conferte. Nostra enim ne sufficit quidem</l>
+<pb id='s118'/>
+<l>Auctoritas, in hac ut acquiescere</l>
+<l>Velitis: ipse CHRISTUS audiendus est.</l>
+<l>FR. Si non secus pronuntiaverit, quod haud</l>
+<l>Tamen videtur: eius a sententia,</l>
+<l>Forma optima modoque provocabimus</l>
+<l>Patrem ad caelestem. SA: Oh haud ei vacabit, ut</l>
+<l>Vos audiat. MIC. Per me licebit id quidem</l>
+<l>Vobis, atque ecce commodum vocamini.</l>
+<l>Ite, atque calculus vos aequior beet.</l>
+<l>Nos interim Papatum devovebimus.</l>
+<l>Visaque Iustus ultione gestiet.</l>
+</lg>
+<p><hi>CHORUS.</hi></p>
+<lg>
+<l>Papatus pereat dicite supplices,</l>
+<l>Qui CHRISTI cupitis crescere gloriam,</l>
+<l>Nugis quam ille suis destruit impie,</l>
+<l>Prave ut constituat suam.</l>
+<l>Papatus pereat dicite supplices</l>
+<l>Longaevique senes et iuvenes simul,</l>
+<l>Ne vos ille suis impietatibus,</l>
+<l>Iram ad perpetuam inquinet.</l>
+<l>Papatus pereat dicite supplices,</l>
+<l>Queiscumque est animus vivere perpetim,</l>
+<l>Ne vos praecipites in barathrum trahat,</l>
+<l>Aut mortis capiatiugo.</l>
+<l>Papatus pereat diximus, impii et</l>
+<l>Fundamenta quatit continuo throni</l>
+<l>Caelestis Pater, ut praesidio suis</l>
+<l>Se monstret fore iugiter.</l>
+<l>Papatus cecidit, plaudite fortiter,</l>
+<pb id='s119'/>
+<l>Iamque Evangelii sidere ducimur.</l>
+<l>Non incerta salus pectora gaudio</l>
+<l>In cunctis fovet ubere.</l>
+<l>MIC. Redire tristes a conspectu Iudicis</l>
+<l>Hos conspicor. Qui nunc habet sententia?</l>
+<l>LY. Qui? Nil tuo dissentit a suffragio.</l>
+<l>Suprema nam fuere verba Iudicis:</l>
+<l>Quoniam Mercator hic credidit, et ita fide</l>
+<l>Solutionem debitorum nactus est:</l>
+<l>Placet mihi atque Apostolico Senatui,</l>
+<l>Ut iustus in iustorum transeat locum, et</l>
+<l>Patri mihique sit cohaeres perpetim.</l>
+<l>Et quoniam hitres non credidere nec fide</l>
+<l>Sua curarunt, ut solverentur debita,</l>
+<l>Sed in se et sua confisi me contumeliis,</l>
+<l>Meosque infandis affecere iniuriis,</l>
+<l>Hostesque se meos probarunt strenue, ut</l>
+<l>Ita quisque eorum plus quam unam animam debeat,</l>
+<l>Placet mihi atque Apostolico Senatui,</l>
+<l>Ut impii in impiorum transeant locum,</l>
+<l>Inque inferorum fundo condignas luant</l>
+<l>Impietatum suarum poenas perpetim,</l>
+<l>Donec quadrantem solverint novissimum.</l>
+<l>Dixit. Petrusque beatorum illum <orig reg="coetui" resp="transcriber">caetui</orig></l>
+<l>Iunxit: sed hos Satanas curabit molliter.</l>
+<l>MIC. Ergo ibunt hi poenas ad perpetuas. Sed is</l>
+<l>Caelestibus contra fruetur gaudiis,</l>
+<l>Ut utraque doctrina suos habeat exitus.</l>
+</lg>
+</div3>
+</div2>
+<closer>FINIS.</closer>
+<pb id='s120'/>
+<gap desc='errata list'/>
+</div1>
+</body>
+</text>
+</TEI.2>

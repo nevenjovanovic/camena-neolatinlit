@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+ <teiHeader type="text">
+ <fileDesc TEIform="fileDesc">
+ <titleStmt TEIform="titleStmt">
+<title TEIform="title">Orationes Civiles Ad ... Poloniae Reges ... : Dissertationes argumenti varii, in quibus et satyra Pransus Paratus : Epistolae ad ... viros eruditos : Poemata, post editionem Belgicam altera parte fere auctiora.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Fabricius" TEIform="author">Fabricius, Vincentius</author>
+<editor role="editor" TEIform="editor">Fabricius, Fridericus</editor>
+</titleStmt>
+ <editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+ <respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+</editionStmt>
+ <publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+ <address TEIform="address">
+ <addrLine TEIform="addrLine">
+<anchor n="http://www.uni-mannheim.de/mateo/camena/fabvi1" type="href" id="fabvi1" TEIform="anchor"/>
+</addrLine>
+</address>
+</publicationStmt>
+ <notesStmt TEIform="notesStmt">
+<note type="href" place="unspecified" anchored="yes" TEIform="note">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname" place="unspecified" anchored="yes" TEIform="note">fabvi1</note>
+<note type="filename" place="unspecified" anchored="yes" TEIform="note">fabriciusorationes.html</note>
+<note type="titleimage" place="unspecified" anchored="yes" TEIform="note">s001.html</note>
+<note type="srcfile" place="unspecified" anchored="yes" TEIform="note">fabriciusorationes.xml</note>
+<note type="imgpath" place="unspecified" anchored="yes" TEIform="note">fabvi1/jpg</note>
+<note type="imgtype" place="unspecified" anchored="yes" TEIform="note">html</note>
+</notesStmt>
+ <sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Frankfurt am Main, Leipzig: Plener, 1685</bibl> </sourceDesc>
+</fileDesc>
+ <encodingDesc TEIform="encodingDesc">
+ <editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+ <refsDecl doctype="TEI.2" TEIform="refsDecl">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+ <revisionDesc TEIform="revisionDesc">
+ <change TEIform="change">
+<date TEIform="date">10 April 2005</date>
+ <respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">typed text - structural tagging completed - no semantic tagging - no spell check</item>
+</change>
+ <change TEIform="change">
+<date TEIform="date">31 January 2006</date>
+ <respStmt TEIform="respStmt">
+<name TEIform="name">Reinhard Gruhl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">typed text of the first oratio and of the POEMATA added - structural tagging completed and corrected - no semantic tagging - MORPHEUS spell check performed</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+
+
+<text><gap id="sampling"/><gap id="FR"/><gap id="GE"/><gap id="GR"/><front>
+<pb id="as001" TEIform="pb"/>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">
+VINCENTII FABRICII, HAMBURG.
+IURISCONSULTI,
+CONSULIS GEDANENSIS
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+ORATIONES
+CIVILES,
+Ad Serenissimos, Potentissimosque
+POLONIAE REGES,
+nomine publico habitae:
+DISSERTATIONES,
+argumenti varii: in quibus et satyra
+Pransus Paratus:
+EPISTOLAE,
+ad illustres ac praecipuos saeculi nostri
+viros eruditos:
+POEMATA,
+post editionem Belgicam altera parte
+fere auctiora:
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+ACCURANTE
+FRIDERICO FABRICIO, FIL.
+Francofurti et Lipsiae,
+Sumptibus IOHANNIS ADAMI PLENERI,
+ANNO M DC LXXXV.
+</titlePart></titlePage>
+<pb id="as002" TEIform="pb"/>
+<gap desc="blank space" resp="sampling" TEIform="gap"/>
+<pb id="as003" TEIform="pb"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<p TEIform="p">DULCISSIMAE PATRIAE
+In Eaque
+VIRIS
+ILLUSTR. GENEROSIS, MAGNIFICIS,
+NOBILISSIMIS, AMPLISSIMIS
+BURGGRAVIO,
+PRAECONSULIBUS,
+CONSULIBUS,
+SYNDICO,
+PATRIBUS PATRIAE
+PIETATE, FIDE, CONSILIO,
+INDUSTRIA, CONSTANTIA
+PACIS AEQUE AC BELLI
+TEMPORE
+DE SALUTE EIUS
+PRAECLARE MERITIS ET
+MERENTIBUS,
+DOMINIS, MAECENATIBUS, PATRONIS
+SUIS AETERNUM
+COLENDIS.</p>
+</div>
+<div type="letter" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as004" TEIform="pb"/>
+<head>Illustr. Generosi, Magnifici, Nobilissimi, Amplissimi, Patres Patriae, Patroni submisso mihi observantiae cultu devenerandi.</head>
+<p TEIform="p">QUod Opuscula Parentis mei iam ante annos septendecim defuncti in lucem nunc quaedam redeunt, alia nova prodeunt, quodque ipse adeo quasi postliminio nunc vitae restituitur, id unice memoriae debetur, qua Eum, licet pridem ereptum, illorum, quibus olim cognitus erat, Virtus, candor et Benignitas, etiamnum
+<pb id="as005" TEIform="pb"/>
+prosequi non cessat, et complecti. His me debere ratus sum eam operam ut, si quid scriptorum Paternorum in schedis delitesceret, eruerem, et cum his, quae pridem iam lucem viderant, sed iam distractis omnibus Exemplaribus recudi expetebant, coniunctum publicarem. Sed eos ipsos inter nisi VOS vel inter primos recenseam, iniuriam Amori in Eum Vestro videar facturus. Nam quamvis benigni in Eum Iudicii Vestri plurima olim
+<pb id="as006" TEIform="pb"/>
+exstiterint, et illustria monumenta, cum eum ante hos annos triginta et novem singulari quadam benevolentia ad amplissimum Syndici munus apud VOS obeundum ex Serenissimi Lubecensium Episcopi Aula, vocatione sane honorifica accersere dignati estis, cum insuper in negotiis Rei publicae Vestrae saepe maxime arduis studium indefessum, pariterque inviolatam atque illibatam, fidem cumulo honoris Consularis illustriorem
+<pb id="as007" TEIform="pb"/>
+effecistis, cum denique obitum Eius, simul tristis fama Nuntios Warsavia missos ad Vos pervenit, summo dolore cum universa Civitate prosecuti estis, et veris lacrimis decorastis: tamen praeter ista omnia nunc etiam Ipsum, post tot iam non nisi pulverem et umbram amica, fovere memoria non intermittitis. Et ut taceam, non privatim modo, sed et in publicis propensi erga eum Iudicii Vestri etiamnum exstare documenta,
+<pb id="as008" TEIform="pb"/>
+et per benevolas recordationes effici, ut is nunc quoque in Curia Vestra, in qua saluti Rei publicae nostrae fidelissime invigilatis, vivere, ac superesse videatur, his ipsis ingenii Paterni monumentis, quae nunc lucem adspiciunt, antequam eam viderant, non pauca benigni Iudicii signa ac testimonia exhibuistis. Egregia sane res est laudari a Laudatis, thesaurusque inaestimabilis, qui non, quemadmodum cetera rerum humanarum
+<pb id="as009" TEIform="pb"/>
+fluxa atque inania sicuti originem, ita finem quoque suum sortitur, sed sibi usque constat, et fert aetatem; ita ut nulla vetustate aboleri, nec ullis interire saeculis possit. At vero ab Ornatissimis ornari id demum bonum pretiosissimum nuncupari meretur, divitiasque adeo omnes, et quicquid praeterea praeclarum censeri potest, multis parasangis exsuperat. Expertus est utrumque piae memoriae Parens meus: qui licet ambitionis omnis
+<pb id="as010" TEIform="pb"/>
+alienissimus inveniretur dum vixit, a Vobis laudatis simis laudatus, a Vobis ornatissimis ornatus est: laudatur quoque post mortem ornatur, post quam nihil praeter eius scripta superesse animadvertitur. Agnoscit tot ac tanta beneficia unicus illi Paterni Nominis haeres humillimo, quemadmodum par est, observantiae cultu; cumque ipsi propter tenuem virium suarum facultatem plane nihil, quod his dignum iudicari possit, rependere contingat, ne
+<pb id="as011" TEIform="pb"/>
+ingratus tamen omnino vivere, imo etiam mori velle, credi possit, exiguum saltem hunc fetum Amplissimo Nomini Vestro, ad quod ille iam dudum, quasi ad portum amicissimum, tendit, confugitque, consecrare annititur, ea spe atque fiducia erectus, futurum ut serena fronte suscipiatur. Favete itaque benevolis animis, MAECENATES AMPLISSIMI, quod fecistis hactenus, observantissimo Nominum Vestrorum, et ad quasvis officiorum genera
+<pb id="as012" TEIform="pb"/>
+paratissimo Fabricio, Fabricii olim vestri filio superstiti unico, qui Deum Opt. Max. ardentissimis precibus invocat, ut Vos Columina ac fulcra nostrae Civitatis salvos et incolumes quam diutissime praestet, quo sub pietatis, et virtutis Vestrae pervigiliis, ac prospero modo ramine Pax et Concordia Rempub. Gedanensem suavi usque faveant amplexu, salusque Civitatis perpetuis incrementis prosperrime efflorescat, et perennet.</p>
+<p TEIform="p">G.G.M.M.A.A.</p>
+<p TEIform="p">N. N.</p>
+<p TEIform="p">V. V.</p>
+<p TEIform="p">Dabam ex Musaeo meo Gedani ipsis Kal. Octobr. An. 1684.</p>
+<p TEIform="p">devotissimus</p>
+<p TEIform="p">FRIDERICUS FABRICIUS.</p>
+</div>
+<div type="congratulation" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as013" TEIform="pb"/>
+<head>Ad Lectorem</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">FABRICIO, Lector, non uno tempore scripta</l>
+<l TEIform="l" part="N">Adspice, et illustris suscipe dona Viri,</l>
+<l TEIform="l" part="N">Vixerat Ausoniis Saxo et Pandionis Oris.</l>
+<l TEIform="l" part="N">Tota penus Virtus, totaque Musa fuit.</l>
+<l TEIform="l" part="N">Dotibus his potuit nostris placuisse Monarchis,</l>
+<l TEIform="l" part="N">Et Dantisci inter Nomen habere Patres.</l>
+<l TEIform="l" part="N">Hac ex se NATUS vivit post funera laude:</l>
+<l TEIform="l" part="N">Ipse Sui Tradux, Stator et Ipse Domus.</l>
+</lg>
+<p TEIform="p">IOAN. ERNEST. SCHMIEDEN.</p>
+<p TEIform="p">Cos. GEDAN.</p>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">PAlladis heroes inter, Themidosque Sacratos,</l>
+<l TEIform="l" part="N">Et Consi Proceres, Gloria FABRICIUS.</l>
+<l TEIform="l" part="N">Quam fuerit stylo, et ore potens, haec pagina pandit,</l>
+<l TEIform="l" part="N">Usque Tuum ex meritis URBS cole grata DECUS.</l>
+</lg>
+<p TEIform="p">ex debito pos.</p>
+<p TEIform="p">SAL. WAHL.</p>
+</div>
+<div type="congratulation" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Ad Celeberrimi Parentis Egregium Filium scripta Paterna edentem.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">FABRICIO quondam felix si Consule Roma</l>
+<l TEIform="l" part="N">Claruit, et victrix intemerata Fides;</l>
+<l TEIform="l" part="N">Haud minor Hamburgi laus est, VINCENTIUS ortum</l>
+<l TEIform="l" part="N">FABRICIUS primum hac Urbe, Genusque tulit.</l>
+<pb id="as014" TEIform="pb"/>
+<l TEIform="l" part="N">Miratur Civem Tiberis qui Regia sprevit,</l>
+<l TEIform="l" part="N">Fortunam ridens, munera, pauper opes.</l>
+<l TEIform="l" part="N">Albis, et insignem meritis sic Vistula NOSTRUM</l>
+<l TEIform="l" part="N">Cum Pelago monstrant integritate parem.</l>
+<l TEIform="l" part="N">Belga suum dicit, negat id Germania, Gallus</l>
+<l TEIform="l" part="N">Vindicat, Heu Gedanum gratum habuisse dolet.</l>
+<l TEIform="l" part="N">Quem Themis ac doctae certant ambire Camenae,</l>
+<l TEIform="l" part="N">Suada trahit, nulla cedit Apollo prece.</l>
+<l TEIform="l" part="N">Trux rapuit tandem Libitina ut corporis umbram,</l>
+<l TEIform="l" part="N">Ossa humus, atque Animam possidet ipse DEUS.</l>
+<l TEIform="l" part="N">Fama viget vivos inter pulcherrima: Gnate:</l>
+<l TEIform="l" part="N">Magni Te stimulis urget imago Patris.</l>
+</lg>
+<p TEIform="p">Honoris et officii causa pos.</p>
+<p TEIform="p">ISRAEL CONRAD, D.</p>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">QUem Grai dixere Suum, pariterque Latini,</l>
+<l TEIform="l" part="N">Maximus Ingenio, maximus Eloquio:</l>
+<l TEIform="l" part="N">Immortale Decus nostrae FABRICIUS Urbis,</l>
+<l TEIform="l" part="N">Gloria Prussiaci, Deliciumque soli,</l>
+<l TEIform="l" part="N">Hic Gazae exponit nobis fragmenta beatae:</l>
+<l TEIform="l" part="N">(Invida nam multas mors abolevit opes.)</l>
+<l TEIform="l" part="N">Ut potes ex uno metirier ungue Leonem,</l>
+<l TEIform="l" part="N">Sic canet Auctorem linea quaeque suum.</l>
+</lg>
+<p TEIform="p">Reverentiae erga Magni FABRICII Nomen, atque insimul Amicitiae cum Filio eiusdem unico Nobiliss. Dn. Editore testandae gratia l. mque. f.</p>
+<p TEIform="p">SAMUEL SCHELGUIGIUS, Ecclesiae ad S. Catharinae Minister et SS. Theol. Professor Publicus in Gymnasio Dant.</p>
+<pb id="as015" TEIform="pb"/>
+</div>
+<div type="congratulation" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Nobilissimo DN. FRIDERICO V. F. FABRICIO.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">EDe perennantis scripta immortalia famae,</l>
+<l TEIform="l" part="N">Docta quod exspectant saecula, profer opus.</l>
+<l TEIform="l" part="N">Hoc nempe est Vitae pro munere reddere Vitam,</l>
+<l TEIform="l" part="N">Hoc Pietas Natum relligiosa iubet.</l>
+<l TEIform="l" part="N">Dum cupidus Magni volvet Monumenta PARENTIS,</l>
+<l TEIform="l" part="N">Te pariter grato Lector in ore feret.</l>
+</lg>
+<p TEIform="p">Gedani L. M. Q. applaudeb.</p>
+<p TEIform="p">IOH. PETR. TITIUS.</p>
+</div>
+<div type="congratulation" org="uniform" sample="complete" TEIform="div" part="N">
+<head>In exquisitissimas SUADAE FABRICIANAE Lautitias</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">FABRICIUS Gedani clarissima Gloria, Cuius</l>
+<l TEIform="l" part="N">Flectere Suada potens Ore locuta fuit,</l>
+<l TEIform="l" part="N">Reg ales quoties demulsit Principis aures,</l>
+<l TEIform="l" part="N">Votorumque Urbis publica Lingua fuit;</l>
+<l TEIform="l" part="N">Redditur optati NATI dum munere, Lector,</l>
+<l TEIform="l" part="N">Quantus erat Calamo, quantus et ore, vides.</l>
+<l TEIform="l" part="N">Fabricii sileant Latii miracula terrae,</l>
+<l TEIform="l" part="N">Et sese hoc iactent saecula nostra Viro.</l>
+<l TEIform="l" part="N">En! tanti superest dum NOMINIS aemulus Haeres,</l>
+<l TEIform="l" part="N">FABRICIO Gedanum non caret orba suo.</l>
+</lg>
+<p TEIform="p">G. GEYER.</p>
+<pb id="as016" TEIform="pb"/>
+</div>
+<div type="congratulation" org="uniform" sample="complete" TEIform="div" part="N">
+<head>MEMORIAE Viri Magnifici lateque Incliti VINCENTII FABRICII, Regiae Civitatis Gedanensis olim SYNDICI, deinde etiam CONSULIS gravissimi et meritissimi, Cum Eius Ingenii Monumenta post Fata Ipsius pietate et cura Filii FRIDERICI FABRICII, in Lucem publicam prodirent.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">NOn mihi FABRICII notas mens dicere laudes</l>
+<l TEIform="l" part="N">Ne sim Castalio nausea iusta Choro.</l>
+<l TEIform="l" part="N">FABRICIUM doctae norunt vel abunde Sorores,</l>
+<l TEIform="l" part="N">Seu Ternas numerem, seu numeraro Novem.</l>
+<l TEIform="l" part="N">Nomen Idem. Phoebus novit, Phoebique Senatus</l>
+<l TEIform="l" part="N">Omnis, et agnoscit laetus ovansque suum.</l>
+<l TEIform="l" part="N">Quaecumque Aonio pridem stant vertice Lauri,</l>
+<l TEIform="l" part="N">FABRICII Nomen, vulnera grata ferunt</l>
+<l TEIform="l" part="N">Ille libris doctis, foliisque perennibus haeret,</l>
+<l TEIform="l" part="N">Testis Ei Phoebi est qua vires omne nemus.</l>
+<l TEIform="l" part="N">Ipseque, namque suum mirans Pater Incrementum,</l>
+<l TEIform="l" part="N">Et Laurum, dignum Nomen amore suo.</l>
+<l TEIform="l" part="N">Haec illa excutiunt cupido mihi pollice pensum:</l>
+<l TEIform="l" part="N">Nec iam FABRICIUM dicere, cura manet.</l>
+<l TEIform="l" part="N">Sat mihi, dum magnae miror vestigia Famae,</l>
+<l TEIform="l" part="N">Quod pede, qua capio, metior illa pio.</l>
+<l TEIform="l" part="N">Quod rea Castalio non sit mea <orig reg="nausea" TEIform="orig">neusea</orig> Rori,</l>
+<l TEIform="l" part="N">Huic, quem <corr sic="FACRICII" resp="transcriber" TEIform="corr">FABRICII</corr> mellea vena dedit:</l>
+<pb id="as017" TEIform="pb"/>
+<l TEIform="l" part="N">Quod memor agnosco, quicquid manavit ab Ore</l>
+<l TEIform="l" part="N">Eius, id ad priscas surgere delicias:</l>
+<l TEIform="l" part="N">Quod non diffiteor seu sese sisteret Ore,</l>
+<l TEIform="l" part="N">Seu Calamo, neutrum non habuisse Decus.</l>
+<l TEIform="l" part="N">Philtrumque Eiusdem, Linguamque Manumque fuisse,</l>
+<l TEIform="l" part="N">Praeda cui Auditor, praedaque Lector erat.</l>
+<l TEIform="l" part="N">Quod scio, cum potuit summis certamen amaris,</l>
+<l TEIform="l" part="N">Quod amor oblique iunxerat, esse Viris.</l>
+<l TEIform="l" part="N">Blandaque cum traherer Doctos in vincla, quod una</l>
+<l TEIform="l" part="N">Principibus fuerint haec quoque grata Viris:</l>
+<l TEIform="l" part="N">Et quod, cum rebus coepisset adesse gerendis,</l>
+<l TEIform="l" part="N">Illi Amor hic etiam manserit usque comes:</l>
+<l TEIform="l" part="N">Quodque ultro tamen sit quondam amplexa Gedanum,</l>
+<l TEIform="l" part="N">Laetaque Honorato foverit usque sinu.</l>
+<l TEIform="l" part="N">Haec mihi sat fuerit tenui deducere culmo,</l>
+<l TEIform="l" part="N">Haec sacra FABRICIO sit mihi ferre satis.</l>
+<l TEIform="l" part="N">Dum Famae eximiae GNATUS non immemor Haeres</l>
+<l TEIform="l" part="N">In merita sistit scripta PATERNA die:</l>
+<l TEIform="l" part="N">Famaeque inscribens tabulis Monumenta Paterni</l>
+<l TEIform="l" part="N">Nominis, inscribit non minus hisce suum.</l>
+<l TEIform="l" part="N">Haec quibus auguriis, quo prosequar omine coepta?</l>
+<l TEIform="l" part="N">Ipsa suum nostro Clarius omen habent.</l>
+<l TEIform="l" part="N">Phoebus ait: Vivet Laurus PATRIS ardua, vivet</l>
+<l TEIform="l" part="N">Quam GNATI pietas non moritura vigat.</l>
+</lg>
+<p TEIform="p">CHRISTOPH. BEHR.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as018" TEIform="pb"/>
+<head>SERIES MATERIARUM QUAE IN HOC VOLUMINE CONTINENTUR.</head>
+<p TEIform="p">ORationes nomine Civitatis Gedanensis ad Sereniss. Poloniae Reges habitae.</p>
+<p TEIform="p">Oratio de obsidione et Liberatione Civitatis Leidensis.</p>
+<p TEIform="p">Dissertatio de Divitiis. Utrum eas vir sapiens possidere, et quomodo tuto, sine molestia, cum aliquo emolumento, boneste habere possit.</p>
+<p TEIform="p">Pransus Paratus in Poetas et eorum contemptores Satyra.</p>
+<p TEIform="p">Pauli Parutae Discursus aliquot politici ex Italico in latinum sermonem translati.</p>
+<p TEIform="p">De Parlamento Parisiensi.</p>
+<p TEIform="p">Positiones Medicae, Miscellanea.</p>
+<p TEIform="p">Fasciculus Epistolarum, in quibus inter cetera de Comiti is Polonorum, primo Rege Christianorum etc. etc.</p>
+<p TEIform="p">Poematum pars 1. et 2.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Antiquitatum Angelicarum Veteris Testamenti Tuba Iambica: Libri Tres.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Bisselius" TEIform="author">Bisselius, Johannes</author>
+<editor TEIform="editor" role="editor">Burger</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, April 2003</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Knebusch</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/bissel3" type="href" id="bissel3" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">bissel3</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">bisselantiquitatesveteris.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">bisse001.jpg</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">bisselantiquitatesveteris.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">bisse3/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Ed. Burger. Amberg 1670</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">17 April 2003</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Martin Tavakolian</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">TEI header added</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+<text><gap id="sampling"/><front>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">IOANNIS BISSELII
+e Societate IESU
+ANTIQUITATUM 
+Angelicarum Vet. Testamenti
+TUBA IAMBICA</titlePart></titlePage>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s005" TEIform="pb"/>
+<p TEIform="p">Reverendissime Celsissimeque
+PRINCEPS,
+Domine, Domine Clementissime.</p>
+<p TEIform="p">ALIORUM plerique libri
+dedicantur, quia scripti sunt:
+hi mei scribebantur; ut dedicari possent. 
+Nondum plane concepti fuerant; et iam tum Illustrissimae
+CELSITUDINIS Tuae lucem spectabant; nati vero, non prius ad suae Palladis aegidem, quam ad gloriae clementiaeque Tuae clypeum, adrepebant: cuius umbone contra livorem pugnarent.</p>
+<p TEIform="p">Et caussae quidem, destinatae Tibi nuncupationis ANTIQUITATUM istarum, ex antiquo iam, et ab alto, peti possent: nisi, paullatim recentioribus
+etiam auctae, cumulataeque, novitate praevalerent.</p>
+<p TEIform="p">Cum enim dudum, in tenerioribus
+<pb id="s006" TEIform="pb"/>
+Tuis annis, ac studiis, inclytae stirpi
+Tuae felicissime respondentem, eximiae
+mentis indolem suspexissem; et una cum
+illa, quam tunc cultu litterarum exornabas, Academia, futurae quondam magnitudinis Tuae praeludia veneratus essem, utpote, quae non hominis tantum,
+sed paene superi cuiusdam genii, vultum
+et os spirarent: iam dignus apparebas,
+in quem Angelicum aliquid, aut ore depromeretur, aut calamo: si quisque,
+quod vellet, continuo quoque posset.</p>
+<p TEIform="p">Licet autem, procedentibus annis, quibus Te robustior animi, virtutumque
+Tuarum, volatus, ad Eusta	 cathedrae principatum evexit, me non tam animus totus, 
+quam animi quaedam remissio, subsecivis horis, plusquam in unum Latinae compositionis laborem,
+protraxisset: ex omnibus tamen luci commissis opusculis, si vel maxime voluissem, vix unum aliquod ausus eram,	
+gratulandi caussa, Tuae Celsitudinis honorandis valvis affigere: multoque mi
+<pb id="s007" TEIform="pb"/>	
+nus in eiusdem sacerrima penetralia, confidentia nuncupationis immittere. Quid
+enim (ut ex universis vel unum nominem)	
+quid integerrimo PRINCIPI, cum
+pestiferis peccatorum lethalium fructibus?	
+Ceterae vero lucubrationum mearum,
+profana fere, sacris intermixta, tanquam
+agro siliginis internatam avenam, continebant. Cessabam igitur, ac refugiebam,
+aliquid inscribere tanto Principi; dum erubesco, sacrarii Tui religiosissimas ad
+fores, cum promiscua <name type="myth" TEIform="name">Minerva</name>, peregrinari: donec ipse denique rubor hic rubori coepit esse, puduitque, tanquam irreverentis animi notae cuiusdam et characteris, erga Societatis nostrae beneficentissimum Maecenatem; semper, et omnino, silere. Cumque nondum elapsum
+esset memoriae Virgilianum illud, Audentes a fortuna iuvari: sensim ipse me, 
+postremis his aliquot annis, stimulare coepi; periculumque facere: si forte, Tui sideris
+in aspecut, succederet, Testamenti Veteris 
+ANGELORUM Gesta
+<pb id="s008" TEIform="pb"/>
+Tubae committere; versusque cothurnati
+legibus, enarrationes <name type="religion" TEIform="name">Moysis</name> ac Prophetarum, de beatis Spiritibus illis, includere. Quod prosperene cesserit, an secus;
+alieni potius esse iudicii debuit, quam
+auctoris: cum, in proprii conatus aestimatione, nemo non facillime caliget. Ego
+tamen, si minus aliis, quasi tamen, mihi
+saltem, memet approbassem; bibliorum
+Veterum Angelis absolutis, ad posterioris quoque Testamenti felices Genios
+me trajeci: retulique versu, quidquid, cis
+Apocalypsin, divinae nobis paginae prodiderunt.</p>
+<p TEIform="p">Post supremam porro manum curis
+his impositam; ego, qui menti semper infixum habueram, Cuinam a primordiis
+ad exitum usque, post Deum, laborassem;
+dubitare non debui, Cuius Nomini devoverem utrumque lucubrationum mearum hunc partum? TUAE nimirum
+CELSITUDINIS, Illustrissime Reverendissimeque PRINCEPS: idque
+nomine, plusquam uno.
+<pb id="s009" TEIform="pb"/>
+Primum enim, in argumento penitus
+sacro, divinisque recensendis operibus,
+universum istud Antiquitatum Sacrarium occupatur. Quid autem ad PRINCIPEM aliquem, Pietatis antistitem,
+aequius se referri gaudeat; quam, quod
+Sanctum, Deoque gloriosum est? cuius
+Gloriae, tam in Terra custodes sunt, Ecclesiarum hierarchae; quam in Altissimis
+cantrices, Angelorum hierarchiae. Meritoque, nemini familiatiota decet esse
+Caelestia; quam, caeli claves gerenti, magno Sacerdotio. proptereaque, sicut in
+castra gladiis, et in curiam Legibus; sic
+in Ecclesiastica penetralia, piis castisqueMusis, accessum patere, ius est.</p>
+<p TEIform="p">Deinde, non quovis in argumento Sacro, sed nominatim in ANGELIS, universus huius TUBAE iambicae clangor se consumit: ac ne quidem in quibusvis Angelis; sed in Beatis potissimum,
+et ad beandos laetis nuntiis mortales emissis; propter eos, qui perennis Salutis,
+ut divinus Paulus loquitur, hereditatem
+<pb id="s010" TEIform="pb"/>
+adituri sunt. Hic ipsum autem, imitatione muneris, ac prosessione dignitatis, EPISCOPI quoque sunt; Apocalypticis non minus titulis, quam aureis,
+quibus impositi sunt, candelabris, illustres: Angeli, stellaeque, dextrae manus Christi. Quorum cum, Angelicis etiam humeris formidabile munus, a Tridentina synodo proclametur: ob idipsum Theologorum multis congruum videri, iure
+potuit; Episcoporum unicuique, celsioris
+etiam ordinis-Angelum divinitus assignari:
+quo tanto praestantius Artem artium,
+hoc est (e Magni Gregorii pronuntiato)
+regimen animarum, tractare norint: et
+OCULI-DEI (quo veluti frontali,
+Pontificum capita ius canonicum exornat) dici cum Angelis, citra contumeliam DEI, possint: quoniam tales, e Zachariae vatis oraculo, revera sunt, tum
+in caelo venerabiles illi Spiritus; tum in
+terris, providi Dioecesium suarum rectores:
+qualem Tuae quoque, MARQUARDE, Celsitudinis industria perspicax, in
+<pb id="s011" TEIform="pb"/>
+Eustadiano se pontificatu praestat. Ad Angelum igitur Angelos ablegat; quisquis
+Antistiti Sacrorum praeconia consecrat
+Angelorum. quibus repulsam non patientibus, quis dubitet; placituram DEO
+patronam illam Tuae Celsitudinis dignationem: quae se prodet, humaniter Angelis hospitio recepiis?</p>
+<p TEIform="p">Accessit autem ad has, tam iustas, dedicationis meae caussas, novus hodie,
+Celsitudinis Tuae vertici circumpositus,
+honorum fulgor; ex quo tempore Te,
+non solum Augustissimi LEOPOlDI Caesaris expensissimum iudicium, sed
+et imperialium Germaniae Principum
+concors assensus, Comitiorum imperii,
+legationumque, cognoscendis, recognoscendis, ac dispescendis, controversiis, et
+difficultatibus, imposuit: ut, sicut Eustadiani pontificatus Pedo dioecesin, terramque Tuam, regis; sis ad Aquilae Caesareanae pennas, et oracula rescriptorum, convenarum ordinum consultationes, ac vota, placido temperamento dirigeres.</p>
+<pb id="s012" TEIform="pb"/>
+<p TEIform="p">Ingens, MARQUARDE Celsissime, tametsi pares sibi scapulas humerosque nactum, onus! Ingens, et Arduus, atque late se diffundens, labor; emoliri, vel ea sola, quae vulgatiora, quae
+curiis magnis plerisque communia, quae
+iudiciis, et consessibus regnorum, usu
+iam protrita sunt: qualia videri possunt;
+Inter sese conciliare dissonarum mentium, opinionumque, sensa: deprehendere latentes iuris nodos; extricare perplexa sanctionum: succidere
+dilationum damnosas moras: providere, Nequi sua fraus patrocinetur: adniti magnopere, Ne leges, in sui tutelam, Armis egeant: curare, Ne meliore conditione, qui prave, quam,
+qui decenter agunt, utantur. Publicam item utilitatem anteferre privatorum cupiditatibus: nec tamen ideo
+privatam sortem omnem habere neglectui; sed, quoniam, quod in uno quopiam iuris articulo scite sonat, idem et
+ubique vere dici potest, Neminem, ut
+<pb id="s013" TEIform="pb"/>
+lupos, vento vivere: plebejorum etiam, indigentiumque, fortunis consulere. Nihil denique, nisi, quod simul et honestum sit, Regnis utile putare: Divina
+iussa placitis hominum praehabere; neque Communem mortalium errorem in iuris regulam evehere.</p>
+<p TEIform="p">Sed haec, aliaque talia, quanquam operosa sane factu, transactuque, non huc
+adducta velim, Princeps Celsissime; tanquam Tuorum (utpote Plenipotentiarii)
+laborum potissimum, unicumque, testimonium. Ad haec enim, et, quae percensitis plura dici possent, expedienda, iam
+dudum indefessae manus Tuae sibi callum induxerunt. Emergunt autem alia
+quotidie; quae de malis vetustis, iam olim
+quidem antiquatis, innovantur: et e novis, si non obviam iretur, inveterascerent. Nimirum, horret nonnunquam Mundus suummet Otium: et, in ipsa Pace, belli semina, si non spargit,
+meditatur. Subit et optimum quemque, post vetera perpacata dissidia, cura re
+<pb id="s014" TEIform="pb"/>
+centior: ac scilicet, Otomannicae quoque
+tempestatis metus; et, quaenam humana
+vis (nisi divinae coniuncta) dirum Orientis dominum, post Cretam nuper oppressam, repressura sit: utpote, spe sua,
+fortassis Europae reliquiis inhiaturum,
+varbaraeque servitutis compedes Christi
+nationibus fabricaturum; quaenam, inquam, vires, eum prohibere Pannoniis,
+et <name type="place" TEIform="name">Italiae</name> <name type="place" TEIform="name">Siciliaeque</name>  littoribus intercludere, consiliis prius, quam gladiis, velint,
+ac possint? Haec, (opinor), hodie,
+MARQUARDE Celsissime, Tuarum quoque sollicitudinum esse pars aliqua, nec parva, possunt. Quibus idcirco forti pectore capessendis, quis ambigere iure possit; quin ANGELUS
+(qui, praeter illum, Episcopis assistentem,
+etiam consessuum Imperialium diribitoribus necessarius est) quin, inquam Tuae
+quoque Celsitudinis Iateri praesto sit, et
+hucusque fuerit? idque, vividos saltem, et
+indefessos, in conatus: quos in Te, magnanime PRINCEPS, nemo non su-
+<pb id="s015" TEIform="pb"/>
+spicit; et secundissima semper fama prosequetur: quocunque demum operosissimarum occupationum Tuarum evasurus eventus sit. Id enim interim, inconcussae veritatis axioma, Tuis laudibus
+haerebit indivulsum: IN ARDUIS,
+etiam VOLUISSE, pectoris, et Virtutis, eminentis esse. Sed, ad orbitam ut
+revertar; ANGELUS utique praesentibus hisce curis Tuis praesens talis est,
+cuiusmodi <name type="religion" TEIform="name">Danieli</name> quondam, curiarum <name type="place" TEIform="name">Babylonis</name> et Persidis moderatori:
+vel <name type="religion" TEIform="name">Josuae</name>, <name type="religion" TEIform="name">Davidi</name>, Machabaeo; victoriarum, et quietorum temporum, instauratoribus. quorum omnium caeli Spirituum, universus eo tendebat ardor, et
+conatus; ut omnes DEO-dilecti-populi res maestas, ac turbidas, ita componerent: ne PACIS ANGELI
+postmodum amare flere cogerentur, si,
+postquam tot bellis Israelis quaesita pax
+esset; pace subinde fraudulenta, perniciosius alicubi bellum emeretur. Quod
+tam infaustum tamen omen, propitium
+<pb id="s016" TEIform="pb"/>
+hodie Numen, pacificus Imperator,
+tranquilla legationum comitia, Tuaeque Celsitudinis mansuetus Genius, avertent: Deo vobis in Angelis, et Angelorum senatu consultationibus vestris,
+influxuro. Quod ut fiat; omen, auguriumque felix, hi quoque Libri mei
+sunto; Comitiorum istorum Praesidi, iam
+a foribus, inscripti. Quanquam enim
+Antiquitates etiam Angelorum istae, Tubam prae se ferunt; Martis potius, quam
+<name type="myth" TEIform="name">Minervae</name>, cantum: quia tamen in ea, non
+Pax minus, quam Arma, latent; et ab
+hac buccina, tam laetitiam, quam vindictam apportantes, Angeli promulgantur: plures tamen numero, per omnes
+versus, sunt; qui palmas et olivas, quam,
+qui gladios et cruorem, ostentent. Pacifici proinde, bellicosis praepoterunt: qui
+Pacis, ut dixi, baiuli, cum illo <name type="religion" TEIform="name">Zachariae</name>
+misericordi Genio, mutatis tantummodo Jerosolymorum ac iudaeae vocabulis,
+Europam fovebunt: ac pro Germaniis
+nostris, et Ecclesia, (posteaquam omne
+<pb id="s017" TEIform="pb"/>
+propemodum hoc saeculum decimum septimum armis attritum jacet) divinis auribus inclamabunt; USQUEQUO
+tu tandem, exercituum domine, non misereberis multitudinis Christianorum? et
+urbium, ac terrarum, Imperii; quibus iratus es? Ecce, iam SEPTUAGESIMUS HIC ANNUS EST: et adhuc
+terra non quiescit?</p>
+<p TEIform="p">Sed iam, calami saltem, hic quies esto!
+Nam eam, quae superest adhuc, et Societati nostrae vicinior, dedicandi caussam;
+testamenti posterioris Angelis, et epistolae, reservo. praesentem autem nuncupatoriam, cum submississima mei commendatione, dedi Calendis Januariis, ANNI
+CHRISTIANI M. DC. LXX. Ambergae.</p>
+<p TEIform="p">Illustrissimae Reverendissimaeque Celsitudinis V.ae
+                    Servorum infimus
+<name type="person" TEIform="name">Joannes Bisselius</name>, S. J.</p></div>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s018" TEIform="pb"/>
+<pb id="s019" TEIform="pb"/>
+<head>Lectori benevolo.</head>
+<p TEIform="p">FElicium Angelorum Gesta, prodigiaque,
+bipartita sunt. Alia namque, divinis Bibliorum consignata voluminibus; alia, solis
+Ecclesiasticae, quam vocamus, Historiae
+monumentis prodita, venerunt ad nos.</p>
+<p TEIform="p">Illa prioris generis Acla, sicuti Fidei pondere, sic et temporum decursibus, anteriora
+sunt, saeculorum illor um gestis, ac libris; quibus auctoritatis Canonicae fulcra desunt.</p>
+<p TEIform="p">Hinc itaque factum est: ut, quae thesaurus utriusque testamenti, de rebus Angelicis, recondita tenet; ea, comparata cum actis Angelorum iunioribus, priscae res, et
+ANTIQUITATES, appellarentur.</p>
+<p TEIform="p">Cum his autem solis hic mihi negotium
+est. cum illis alterius classis narrationibus,
+suum Aliis esto. Tu fave.</p></div>
+<div type="imprimatur" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s020" TEIform="pb"/>
+<head>APPROBATIO.</head>
+<p TEIform="p">EGo <name type="person" TEIform="name">Jacobus Rassler</name>, Societatis IESU, per superiorem Ger-
+maniam, Praepositus Provincialis, Antiquitatum Angelicarum tubam iambicam, Gestorum
+veteris testamenti Libris Tribus
+deductam, a <name type="person" TEIform="name">P. Joanne Bisselio</name>, Societatis nostrae Sacerdote, et a Censoribus probatam, pro potestate
+a P.re N.ro <name type="person" TEIform="name">Joanne Paulo Oliva</name>,
+universae Societatis Praeposito Generali, accepta, in lucem per typum dari, permitto. In cuius rei
+fidem hoc testimonium, chirographo et sigillo officii mei munitum, dedi. Ambergae. 10. Maji,
+1669.</p>
+<p TEIform="p">Jacobus Raßler.</p>
+<gap desc="index" resp="sampling" TEIform="gap"/>
+</div>
+<div type="argument" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s025" TEIform="pb"/>
+<head>
+De ratione, omnique forma, et
+oeconomia, scriptionis huius;
+AUCTORIS,
+Ad
+<name type="person" TEIform="name">PHILIPPUM THEANGELUM</name>,
+Epistola protrepica.</head>
+<p TEIform="p">HAbes, amicissime mihi semper, et iam
+olim in Icaria mea memorate, <name type="person" TEIform="name">Theangele</name>, meas de Gestis, et per utrumque Testamentum divinum sparsis Antiquitatibus ANGELICIS, Meditationes. Has ego, per ea cutatum diverticula, quae non nun quam a Ruinarum Illustrium typis vacabant, in iambum,
+non nibilo comicis lustibus astrictiorem, vetusto Divi Nazianzeni, Synesii, Joannis Damasceni, ceterorumque vatum Solitariorum,
+exemplo transportavi. Posthaec autem casdem, sex annorum continnata sedulitate iam
+novies a merevisas, eriam decimo labore depectendas sulcepi: sed, ut vereor, nihilo minus
+etiamnum villosas, et carminationis indigentes. Et exigere quidem ad <name type="person" TEIform="name">Senecae</name> cothurnum omnia singulaque connisus; idipsum ostendere destinaram, in auctoris illius analogico PERPENDICULO, luci committendo Sed exscribendi, vulgandique labor,
+et valetudo subinde fluctuans. votis bene con-
+<pb id="s026" TEIform="pb"/>
+ceptis, ordinique rerum directiori, turbas aliquantisper, ac moram, interjecerunt.</p>
+<p TEIform="p">Nunc autem, avidam tuam, Angelisque
+meis inhiantem, exspectationem ulteriore suspendio cruciare non sustinens, quando Perpendiculum, adhuc inter amicorum manus
+vagum, mittere necdum queo; quod proximum est, ANTIQUITATES ipsas, hoc
+est, Aedificium ante Normam aedificandi, mitto: nec tamen clanculum, et furtive, sed mundo palam, et cum TUBA, nullius plane mei,
+sed solius Angelici Divinique praeconii. Quod
+autem ad exstructionem earum attinet; id arrogare mihi solum, pudenter tamen, possum:
+In his versibus ame religioso rigore, constanterque, servatas esse, tam dimensionis, quam
+compagis regulas illas omnes, quas <name type="person" TEIform="name">Senecaeum</name>
+illud, de quo praefatus sum. Perpendiculum,
+e <name type="person" TEIform="name">Senecae</name> vivis testimoniis, auctoritatibusque,
+proponit. Sic loca pedum; sic pedum inter
+se nexum; sic elisionum leges; sic caesurarum
+tria quasi receptacula; sic primi loci Procelevsmaticos, sic loci sexti puros dactylos, et amphimaeros, secundique loci Tribrachyn, sicubi
+sum usus iis, tractavi. Cum essent autem Pedes nonnulli loci quarti sextique paullo 
+, seu duriusculae numerositatis
+quiddam prae se ferentes: iis frequentandis
+abstinere consulto volui; sicut et quinti loci
+<pb id="s027" TEIform="pb"/>
+nodoso quodam subsultu. Ne tamen aut
+ignorare viderer Syrtes illas; aut aspernari penitus, ac, ceu proscriptas et infames, praetervehi: sum et ipsis usus, etsi parcissime; cum
+interea numerosiores iis pedes, ac versus, nullo
+negotio sub manum essent fluxuri. Sed nimirum, ita faciendum erat, ut illos etiam hispidulos semel, iterum, aut tertium, admitterem; quoniam et ii <name type="person" TEIform="name">Senecam</name> habebant usurpatorem. Qualis, apud eum est, loco senariorum quarto, versus, Paeonem habens quartum, ex pyrrhichio et iambo; qui Paeon loco
+quarto desinit, cum loco tertio coeperit.</p>
+<p TEIform="p">Ut sunt, remaneant: facinoris tante notas
+Referte -- Hippolyti Actu 2. scena 3 fin.
+Item alibi.</p>
+<p TEIform="p">Vos pro paternis sceleribus poenas date.
+<name type="myth" TEIform="name">Medeae</name> Actu 5. ante medium.</p>
+ 
+<p TEIform="p">In cumulum quoque, plura passim.</p>
+<p TEIform="p">Tum vero pavida sonipedes mente exciti.
+Hippolyt. Act. 4.</p>
+<p TEIform="p">Iners malorum remedium Ignorantia est.
+<name type="myth" TEIform="name">Oedipodis</name> Actu 3.</p>
+ 
+<p TEIform="p">Contendat orbis reliquias magni <name type="myth" TEIform="name">Herculis</name>.
+<name type="myth" TEIform="name">Herculis</name> Oetei Act. 5.</p>
+ 
+<p TEIform="p">Tum, qui jacente reciprocus ludis salo.
+<name type="myth" TEIform="name">Agamemnonis</name> Actu 3.</p>
+ 
+<p TEIform="p">Per scelera semper sceleribus tutum est iter.
+Ibidem.</p>
+<p TEIform="p">Per te parentis memoriam obtestor mei.
+Ibidem Actu 5.</p>
+<pb id="s028" TEIform="pb"/>
+<p TEIform="p">APUD eundem scriptorem sunt et versus, qui,
+loco senariorum sexto, cum loco quinto partiuntur, et communem habent, Proceleusmaticum, ut,
+Sed tu, malorum machinatrix facinorum.
+<name type="myth" TEIform="name">Medeae</name> Actu 2. et,
+Virile robur, nulla famae memoria est. Ibid.
+Loco praeterea quinto subsultant, pede spondeo, versus <name type="person" TEIform="name">Senecaei</name> non paucissimi. velut hi.</p>
+ 
+<p TEIform="p">Superate. et aliquid facite, propter quod patremThebaidos Actu 2.</p>
+<p TEIform="p">Cum occidis, et cum parcis, olim iam tuumIbid. Actu 1.</p>
+<p TEIform="p">Virtus <name type="myth" TEIform="name">Ulyssis</name> nota Danais est satis.
+Troados Actu 3. scena ultima.</p>
+<p TEIform="p">Votum spopondit: nulla, propter me, sacro-Hercul. Oetaei Actu 4.</p>
+<p TEIform="p">Fortuna semper omnis intra me stetit.
+Medae Actu 3.</p>
+<p TEIform="p">Quidquid potes, Medea, quidquid non potes.
+Ibidem, ad fin.</p>
+<p TEIform="p">Patrique <name type="myth" TEIform="name">Orestes</name> similis: horum te mala.
+<name type="myth" TEIform="name">Agamemnonis</name> Actu 2.</p>
+ 
+<p TEIform="p">Mori volenti, deesse nunquam mors potest.
+Hippolyti Act. 3. sc. 2.</p>
+<p TEIform="p">Pro me gerebas bella: propter me vagas-Hercul. Oet. Act. 2. Ceterique non dissimiles plures.</p>
+<p TEIform="p">Horum autem. <name type="person" TEIform="name">Theangele</name>, quam vix parti-
+<pb id="s029" TEIform="pb"/>
+culam unam attigerim , docent
+Antiquitatum Angelicarum omnes hi libri.</p>
+<p TEIform="p">Qua vero parsimonia tractati sunt a me genetum illorum, quae produxi, versus iambici:
+pari diligentia, ceteri quoque generis eos omnes, qui lectoribus inassuetis quomodocunque
+distortuli videri, loripedesque, potuissent, velis ac remis, et obstinata suga, declinavi. Cuiusmodi, multorum e grege, proferri possunt,
+in specimen, hi tales.</p>
+<p TEIform="p">Fulgore non est, quod oculos falso auferat.
+Thyestae Actu 3.</p>
+<p TEIform="p">Almae pareniis munere ego tastam manum-Thebaid. Actu 1.</p>
+<p TEIform="p">His invidebis, quibus opem quaris, malis.
+Oedipod. Actu 2. sc. 2.</p>
+<p TEIform="p">Secum ipse saevus grande, nescio quid, parat.
+Ibid Actu 5.</p>
+<p TEIform="p">Provolvitur, nescio quid onerato sinu. Hyppolyti
+Actu 4. post princip.</p>
+<p TEIform="p">Pudet Deos; nescio quid? huc propere admove.
+Oedip. Actu 2. scena 2.</p>
+<p TEIform="p">Cui feminea nequitia, ad audendum omnia.</p>
+<p TEIform="p">Medea Act 2. ante fin. ubi tribrachyn ponit
+secunda sede, sed insuete praecipitatum: quippe, cum ceteroqui, quoties tribrachys eo loco
+reperitur, vulgo monosyllabon vocabulum a
+<name type="person" TEIform="name">Seneca</name> continuo subiungatur; aut certe praecedentis proxime vocis residua syllaba reservetur, in Sedem tertiam se porrigens, et caesuram
+<pb id="s030" TEIform="pb"/>
+constituens. Prioris illius modi, sunt haec exempla.</p>
+<p TEIform="p">Te fatidice, te, praesidem veri, Deum. Oedip fin.
+Sed caussa tamen est, vixque sufficiens malo. Hercul. Oetaei Act. 3.</p>
+<p TEIform="p">Ipsius opus est; eaestibus fractus suis--Hereul.
+Furentis Actu 2. scena 3.</p>
+<p TEIform="p">Posterioris vero generis, est versus iste. Herc.
+Oet. Act 3. sc. 2.</p>
+<p TEIform="p">Timet peragere. proh diem! infandum diem!
+Et magis iste, <name type="myth" TEIform="name">Medeae</name> Actu 3. scena 2.</p>
+ 
+<p TEIform="p">Alienaque sequens regna, deserui mea.</p>
+<p TEIform="p">Verum ego, sicut dicere coeperam, superius
+annotatorum veriuum formas illas horridulas universim devitans; de cetero, numerositatis (quae compositionis omnis est Siren) impense rationem habui. Cuius nec in Caesuris
+quidem oblitus sum; ad hephthemimerin usque differendis, exemplo <name type="person" TEIform="name">Senecae</name> frequentissimo. Quales his unt illius senarii.</p>
+<p TEIform="p">Fera coma hinc exterret Orion deos. Herc. furent. Actu 1.
+Vastam rogo flagrante corripiat trabem Ibid.</p>
+<p TEIform="p">Qui versus, et his similes alii, cum primis addecent cothurni gravitatem.</p>
+<p TEIform="p">Sed ego, cum Cothurni, gravitatisque senariorum memini, tibi nempe memoriam fortassis illius refrico cuiusdam nodi, quem extricandum mihi, iam ante sexennium, die
+quodam objeceras; cum ex me quaereres, Cur
+<pb id="s031" TEIform="pb"/>
+is celebrandis Angelorum, et Angelorum quidem, ut addebas, felicissimorum, gestis et historia, <name type="person" TEIform="name">Senecais</name> senariis, adeoque tragicis uterer
+carminibus? tu namque versum praeop aras
+heroicum. Addebat, qui tunc nobis assidebat,
+<name type="person" TEIform="name">Allodoxus</name> Umber, tecum sentiens: tristes iambos, in funestis eventibus usurpari solitos, Angelorum latissimis facinoribus invitos servire coactum iri. Tu vero, super haec, interrogabas
+me, Quidnam in Angelorum felicissimorum actis
+esset lugubre, sive tragicum?</p>
+<p TEIform="p">At ego quae tunc utrique vestrum respondi
+breviter, eadem et nunc, sed explicatius aliquanto, respondeo. Primum, ac generatim.
+Serum est et, quod Graecus dicit,  ,
+ad Heroum carmen impellere scriptorem velle.
+iambo iam perfunctum. Non tam dives otii
+sum; ut opus meum, post urceum iam eductum, in amphoram nunc demum refingam.
+Quid vis? ad hoc metri iambici genus, non
+mei solius genii, sed quorundam etiam, amicissimorum mihi, stimulis et impulsu pertractus, accessi. Norunt ii, fatebunturque (quia
+vivunt adhuc) vera me proferre. Rationes autem afferebant desiderii sui; partim, quod
+mirifice se dicerent, iam olim, affici cothurnatis legendis; cuiusmodi studebam esse mea, tamersi talia fortasse minus sunt, et infra votum:
+partim, quod in maiorem aliquem deduci cupiebant usum id genus versus; et ad <name type="person" TEIform="name">Senecaeas</name>
+<pb id="s032" TEIform="pb"/>
+exactum leges, apud plurimos tamen hodie
+jacentem, Senarium: qui paulatim deinde cupidinem excitaret, viamque praesterneret, felicioribus saltem vena mea venis, et ingeniis;
+ad tragoedias olim <name type="myth" TEIform="name">Apolline</name> famaque lecundiore componendas. Ad quam rem haud parum momenti, suo tempore, conferre Perpendiculum quoque <name type="person" TEIform="name">Senecaeum</name> posse, disputabant; illud ipsum, inquam, quod, ad metam
+iam perductum, sub trutina nunc est, ac libripende, plusquam unius amici revisoris.</p>
+<p TEIform="p">Deinde, decernebam ipse mecum, e mente,
+non solius, Iulii Scaligeri, sed ceterorum quoque sapientum complurium; Ad Senarium,
+quem vulgo tragicum, ad comici distinctionem, appellant, non requiri vel semper, vel
+solas, carnificinas, tyrannorum acta erudelia,
+funestos eventus, et assiduas lacrimas: sed sus.
+ficere saepe, grandia, magnifica, valde seria,
+gravitatis plena, metum ac terrorem incutere
+valentia; tametsi laetissimus subinde rerum
+exitus emergat. Talis est, in veteris Poetae,
+Romanique Consulis, Ausonii versibus, quae
+vicesima prima legitur, ad Paulinum epistola; quadraginta sex senariis deducta. Talis,
+Aurelii Prudentii, viri Consularis, <name type="religion" TEIform="name">Abrahamus</name>; argumentum laetum, sexaginta trimetrorum, et octo. Talis, eiusdem Hamartigeniae prologus; sexaginta quinque versuum.
+Talis et, in eiusdem ipsius peristephanon car-
+<pb id="s033" TEIform="pb"/>
+mionibus, S. Romani Martyris Corona gloriosa; plusquam mille, centum, et quadraginta
+iambicorum, ad <name type="person" TEIform="name">Senecae</name> formam, trimetrorum: unum, et continuatum, opus. Talis denique novissime, Grotii Delphensis Sophompaneas, seu Josephus; tragoedia, nullorum funerum, ac ne catastrophes quidem ullius luctuosae: sed lusus, quantu plausu lectorum, ac
+spectatorum, tantum quoque Pharaonis regis
+hilari congratulatione clausus, et finitus.
+</p>
+<p TEIform="p">Dic iam mihi, <name type="person" TEIform="name">Theangele</name>; Quid Antiquitatum Angelicarum omnes hi libri continent,
+quod argumenti majestate, vel uni Prudentianorum, aut Grotianorum illorum, cedat, et
+inferius reperiatur? Non sunt in his iambis
+meis merae mortes, lacrymae, tyranni, carnificinae. fateor. At nec in illorum, quos adduxi,
+lucubrationibus. Sed plus tibi do, quam initio destinaram: ac nempe, quoniam ausus es
+interrogare, Quidnam tragicum in felicissimorum Angelorum historia mea? quem in sensum et Umbri vergebat oratio; quae nulla, nisi
+laetissima, videbatur Angelorum agnoscere facinora: Do vestrum, inquam, utrique Tragica:
+do facinora, non-laetissima: quoniamque sic instatis; ea, per omnes hos antiquitatum libros,
+perque partium praecipuarum enumerationem percurro.</p>
+<p TEIform="p">Sunt enim non laetissima, sunt lugubria, iamboque <name type="person" TEIform="name">Senecaeo</name>, quam <name type="person" TEIform="name">Plautino</name>, digniora sequentia.</p>
+<pb id="s034" TEIform="pb"/>
+<p TEIform="p">Libro primo. Luciferi, de caelo, casus, ab Angelis Deo fidis, promotus. Primorum hominum in paradisum reditui, via januaque, gladio Cherubini praevallata. Sodomorum eversio. Jacobi patriarchae labores, exilium, reditus in patriam; a socero, fratre, periculis variis, infestatus. Libro secundo; Jobi tragoedia, flagellaque septennii, circumquaque gravissima. Pharaonis Aegyptii, cum omnibus
+copiis suis, submersio. Labores et aerumnae
+gentis Israeliticae, per solitudinem Pharanae.
+am. viginti trium millium trucidatio; propter scelus, ad <name type="religion" TEIform="name">Phogorem</name> admissum. Jerichuntis eversio. Chanaanitidis excisae nationes. Locus flentium, Angelicis increpationibus, et populi lacrymis: impletus. <name type="religion" TEIform="name">Davidis</name>,
+populum numerantis, acerrime castigata, per
+gladium Angelicum, arrogantia. Sennacheribi deletus exercitus. <name type="person" TEIform="name">Heliodorus</name>, dire flagellatus: et ceteri Machabaeorum hostes, varie
+passim oppressi, sublatique per Angelos. Libro tertio, vatis Eliae, sanctis Angelis administris, gesta grandia; regibus gravia, cunctis
+formidanda. Viri gementes et lugentes; terrifica solii divini species; et Inferorum quoque
+formidabilis facies, ab <name type="religion" TEIform="name">Ezechiele</name> conspecta.
+<name type="religion" TEIform="name">Danielis</name> quatuor bestiae; totidem imperia terrarum excisa: tum Antiqui-dierum thronus
+flammifluus, et iudicii novissimi praevisio minax. Babylonica fornax. Leonum lacus. Za-
+<pb id="s035" TEIform="pb"/>
+chariae vatis equi, stantes inger myrteta per noctem; et alia spectra plura. Josedechi filius
+pontifex, Christi patientis figura. <name type="religion" TEIform="name">Tobiae</name> senioris exilium, caecitas corpotis, aerumnae variae. <name type="religion" TEIform="name">Sarae</name> virginis luctus; et eiusdem afflictus,
+et infectatus ab <name type="religion" TEIform="name">Asmodaeo</name>, thalamus. <name type="religion" TEIform="name">Tobiae</name>
+iunioris periculosum iter. Grientis vastator
+<name type="religion" TEIform="name">Holofernes</name>, a <name type="religion" TEIform="name">Juditha</name> trucidatus. Haec omnia
+librorum sunt trium, de gestis Angelorum 
+, themata tragica. Novi vero testamenti rerum Angelicarum, ista sunt gesta.
+vel eventa, severiora.</p>
+<p TEIform="p">Libro primo, iugum, quo populus DEI premebatur, et sub quo gemebat, <name type="religion" TEIform="name">Herodianum</name>.
+Plebis melioris, et <name type="religion" TEIform="name">Zachariae</name> Sacerdotis, clamor in caelum; pro exorando liberatoris adventu. <name type="religion" TEIform="name">Zachariae</name> terror: eiusdem, increduli.
+tatis poena. Beatissimae Virginis praegnantis.
+et <name type="religion" TEIform="name">Josephi</name> sponsi fluctuantis, alterna maestitia. Christi parvuli, cum iisdem, in Aegyptum extrusio. Caedes innoxiorum infantium.
+Christi, iam adulti, solitudo, jeiunium, impugnatio. Piscina Bethsaida; diversis, et multis
+a languentibus circumcessa. <name type="religion" TEIform="name">Lazari</name> pauperis,
+et epulonis divitis, tragoedia. <name type="religion" TEIform="name">Christus</name> patiens, in Oliveto suam orsus sensilem passionem;
+et in monte <name type="place" TEIform="name">Golgothaeo</name> finiens. Libro secundo, Terrae motus, in anastasi Redemptoris; et
+militum exanimis terror, ad Angelicum aspectum. Angelorum, post Ascensum Christi, gra-
+<pb id="s036" TEIform="pb"/>
+vissima terrificaque paraenesis; ad discipulos
+directa. Libro tertio, peregrinationes Pauli
+laboriosissimae. tempestates eiusdem maritimae; tandemque naufragium. Petri, neophytis primis et Ecclesiae nascenti luctosus, carcer; et supplicii, tristis exspectatio: caedes militum; et <name type="religion" TEIform="name">Herodis</name> Agrippae, per Angelum percussorem maturatus, interitus.</p>
+<p TEIform="p">En, pleraque sane, quae memorata nunc
+sunt, non laetissima, <name type="person" TEIform="name">Theangele</name>, sed tragica. quae
+cur heroico potius, quam tragico, suaeque nempe materiae cognato, versu memorarentur;
+nondum equidem satis adhuc assequor: in
+tanta praesertim eorum, qui veteris aeque, noviorisque foederis, Angelica, ceteraque, gesta
+carminibus heroicis exsecuti sunt, multitudine: quorum agmen ducunt, Divo laudatus
+<name type="person" TEIform="name">Hieronymo</name>, iuvencus presbyter, Pontius Paulinus Eudocia Graeca, Proba Falconia latina, Nonnus Panopolites Graecus
+, <name type="person" TEIform="name">Hieronymus</name>
+Vida Latinus, et eiusdem linguae duo Pici Mirandulani, <name type="person" TEIform="name">Iacobus Sannazarius</name> in Lamentatione, de morte Christi; <name type="person" TEIform="name">Iacobus Bidermanus</name>,
+in Infanticidio: denique novissime, Gallicorum Poetarum ille, qui Moysen orbi dedit applaudenti.</p>
+<p TEIform="p">Quod autem Felicissimos dicebas Angelos:
+sunt illi quidem; quis neget? et erant, ac deinceps erunt, sine fine durationis: sed non ideo
+cothurnati versus incapaces, quippe, nihilo-
+<pb id="s037" TEIform="pb"/>
+secius inter haec, divinae, quantum clementiae,
+tantum vindictae iustitiaeque, satellites ac ministri. Plus dicam: Ipso quoque DEO, ter opt.
+max. quid Felicius, atque beatius: in eius tamen incidere manus, horrendum est. qui spiriium aufert principum; Deus amulator, et ignis
+consumens: cuius, in perdite flagitiosos, supremam iram, quis pro rerum pondere iambus
+assequatur? et eam tamen hic in spectaculis
+saepe numero producit.</p>
+<p TEIform="p">Ad extremum (ut aliquando vestibulum
+hoc operis mei proparaeneticum, in epistola,
+finiam) librorum singulorum calci Testimonia, sicut in Ruinis mihi moris est, et, volentibus Superis, deinceps etiam erit, una cum Observatiunculis intermistis, subiunxi. prolixe,
+fateor: Sed ita tamen arithmeticis, tam in
+ipso corpore, quam in Animadversionibus, alligata connexaque calculis; ut ea mutari, vel
+etiam (ut <name type="person" TEIform="name">Allodoxus</name> tuus optabat) dimidio
+sui minui, iam serum omnino sit, ac prorsus
+importunum. Unicus etiam Numerorum illorum utrimque sede sui versus emotus, cete.
+ros subsequentes ad unum omnes sua moveret.
+Quanto maiorem ergo multitudinem immutationum intruderent, numeri complures, et
+innum erabiles passim, ad Allodoxi nutum extrudendi? Maneant itaque potius, aliorum decreto: vel, si multum, ubi breviari possunt,
+<pb id="s038" TEIform="pb"/>
+(uti saepe poterunt) velut effluentes racemi castigentur. Et breviter! utut sit: Redun dare
+doctis aliquid, quam deese rudibus, praestabilius erit. Pacatae mansionis otium, etiamsi
+quandoque superfluum, quam tot mutationum turbulentum negotium, malle debemus:
+parumque referet, nonnunquam etiam acutissimo
+nonnemini displicere quidpiam; dum interim
+lectoris, adhuc tironis, lucem promoveat.
+Nam, ad eruditos quod spectat; quis Virum,
+disciplinarum omnium iam ante gnarum, et
+callidum, ad tale quid tangendum, nedum evolvendum, adigit? Indigentibus isthaec, non
+copiosis, et eruditione differtis, scripta sunt.
+Addo vero, nequid eorum, quae fastidire fortassis Umber tuus posset, celem: addo, sparsim
+etiam ea, quae prioribus iam alibi locis exposita fuerant, paucissimis a me verbis esse relibata: sed nempe, propter eos, qui particulam
+duntaxat operis medii, non ipsum ab exordio
+totum opus, ad metam usque pervolvere, destinatum habent. Nec inficias eo; me notissima quoque nonnulla, velut, Titanem pro Sole, Phoebem pro Luna, Melpomenem pro Musa
+tragica, Stygem et Avernum pro locis inferis, et
+alia, similia talium, interpretatum; non sane
+doctis, sed in haec incidentibus subinde lectoribus, qui vel nunquam ista <rs type="place" n="Parnass" TEIform="rs">Parnassica</rs>
+ triverunt, vel annorum oblitterata longo situ, dedidicerunt: ideoque memoriae refossionem
+<pb id="s039" TEIform="pb"/>
+desiderant. Alioquin autem, in Notarum huiusmodi, seu frequentia, seu nonnunquam et
+prolixitate, verissimae quoque Necessitati serviendum erat: primo generatim, ob immensam multitudinem citandorum, e sacris bibliis.
+locorum: quibus nulla marginum amplitudo, spatique, suffecissent. Deinde particulatim, in prioribus quidem libris ternis; quod veterum gestorum, ac vaticiniorum, integra non
+poterant argumentorum capita partitionibus
+praefigi; longitudine capitum repugnante. quo
+factum est, ut <name type="religion" TEIform="name">Zachariae</name> pars quaedam, tenebrosa foret, ac nubila: si Notae, spectantes illuc,
+aut omitterentur; aut omnino non, vel neglectim, legerentur. In posterioribus autem ternis
+libris, multitudine notarum, et diffusione fuit
+opus, propter Calicem maxime Passionis; et locorum, ab Apostolis obitorum, aut praeternavigatorum, topothesiam. In his ergo, iuvandus lector, etiam aliquando firmior, erat; Notationibus saltem, ut ita dicam, segmentitiis.
+quae rem, minus alioqui perceptu facilem, illustrarent. Et idipsum tamen, vel tibi, Theangele, vel Umbri, de quibus scis, fastidiis, excusarem; si, seu meum, seu primum, esset exemplum. Idem enim a me praestitum est, et
+antehac, nullo damno lectorum, in Ruinarum
+decadibus: ad quas, in Antiquitatibus etiam
+hisce, crebro provocare cogor; nulla penitus
+ostentatione, sed talis compendii causa, quale
+<pb id="s040" TEIform="pb"/>
+sequitur, quisquis, lumen accensurus, sulphuratum libentius domestici foci prunis, quam
+exteris ac longius petendis, immittit. Taedebat nimirum, et plane non vacabat, iterato tot
+veteres scriptores ostiatim circum cursare: cum
+in promptu tamen essent mea. Praestiterunt
+autem, quod ad Annotationes attinet, idem
+mea memoria, familiariter mihi noti, viri docti, <name type="person" TEIform="name">Iacobus Pontanus</name>, in suis, qua Sacris, qua
+litterariis, Colloquiis: et, suis in Viridariis,
+<name type="person" TEIform="name">Matthaeus Raderus</name>. Superioris autem memoriae, suis in Institutionibus Emmanuel: ac (ne
+de pluribus dicam recentioribus) ante sesquisaeculum, id ipsum suis in lucubrationibus diligenter fecit Picus, non Joannes, sed <name type="person" TEIform="name">Joannes
+Franciscus</name>, Mitandulae Comes; ut in Eruditorum Elogiis Paulus Jovius tradit. Nucerinus
+Episcopus. Qui, tametsi perspicaci, nescio cui.
+Judici, fidei, sicut ipse loquitur, Indubitata sereptor non sit; nec eius, in similibus, tanta vigeat
+apud Scriptores auctoritas, ut ei per omnia fides
+habeatur: mihi tamen, aliisque mecum, et
+ante me, Jovius, non Antistes tantum factorum pius et gravis, sed historicus etiam diligens, cordatus, ac veri studiosissimus, semper
+est visus: cui denique satis esse debeat, Orbi
+placuisse; licet orbis incolae fortassis uni sit improbatus. Verum, ut ad Mirandulani Comitis factum, sua scripta, cum <name type="person" TEIform="name">Pontano</name>, <name type="person" TEIform="name">Radero</name>,
+<name type="person" TEIform="name">Vincartio</name>, ceterisque, per Observationes illu
+<pb id="s041" TEIform="pb"/>
+strantis, revertar; Magno viro, magna consilii
+sui fuit, et ista nempe, ratio: Quo librorum
+ipsius intelligentiae captuique detraheretur
+errandi periculum; quod ex, alienis ab auctore, verborum ac sensuum interpretamentis,
+fere solet enasci: quando frequenter, non modo praeter, sed plane contra, mentem Auctoris,
+progressu temporis Glossae, quas vocant, adferuntur; quibus plerumque divinationis et
+commenti plus, quam commentariorum ac Veritatis, insit.
+Haec, <name type="person" TEIform="name">Theangele</name>, praemittere, quoniam sic
+et tu volebas, placuit, meis his Angelicorum actuum
+Antiquitatibus. quibus hunc praefixi titulum,
+non ea, qua <name type="person" TEIform="name">Rosinus</name> Antiquitatibus suis Romanis, vocabuli notione; cum leges, ritus,
+sacra, mores, exsequias, templa, Deos, exponit: sed, quo sensu veteres, qui Flavii <name type="religion" TEIform="name">Josephi</name>
+res Hebraicas in Latium e Graeco sermone transtulerunt. Antiquitatum iudaicarum
+viginti libros inscripserunt. in quibus, a primis ad ultimas usque paginas, merus est
+historiarum veterum contextus, ab eo labore distinctus; quo bella gentis illius novissima, per
+libros septem, digeruntur: quibus ille propterea nomen , et , id est,
+Antiquitatum, et veterum, negavit, ac subtraxit. His sic, ut confido, satis explanatis,
+<pb id="s042" TEIform="pb"/>
+Tu quoque, si tui moris adhuc, et antiquus
+es, assentieris, valebis, et Dactylothecam.
+quam nosti Luchavio scriptam, ad libii tertii
+calcem exspectabis. Quartodecimo Kalendas Majas, anni 1669.</p></div></front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+</TEI.2>

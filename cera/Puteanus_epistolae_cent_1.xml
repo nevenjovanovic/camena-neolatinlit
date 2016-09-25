@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd">
+<TEI.2>
+<teiHeader type='text'>
+<fileDesc>
+<titleStmt>
+<title>Epistolae.- Teil 1: Epistolarum Promulsis: Centuria I. &amp; innovata. - Teil 2: Fercula Secunda: Centuria II. &amp; innovata. - Teil 3: Epistolarum Bellaria: Centuria III. &amp; Nova. - Teil 4: Epistolarum Apophoreta: Centuria IV. &amp; Recens. - Teil 5: Epistolarum Reliquiae: Centuria V. &amp; Postrema.</title>
+<title type='short'>Puteanus, Erycius: Epistolae. [Teil 1-5] - Leuven, 1612-1613.</title>
+<title type='sub'>Machine-readable text</title>
+<author n='Puteanus'>Puteanus, Erycius</author>
+<editor>Puteanus, Erycius</editor>
+</titleStmt>
+<editionStmt>
+<edition>XML version, markup prototype, December 1999</edition>
+<respStmt><name>Ruediger Niehl</name><resp>markup</resp></respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Camena</publisher>
+</publicationStmt>
+<notesStmt>
+<note type="href">http://www.uni-mannheim.de/mateo/cera/puteanus1/</note>
+<note type="pathname">te01</note>
+<note type="filename">Puteanus_epistolae_cent_1.html</note>
+<note type="titleimage">as001.html</note>
+<note type="srcfile">Puteanus_epistolae_cent_1.xml</note>
+<note type="imgpath">te01/jpg</note>
+<note type="imgtype">html</note>
+</notesStmt>
+<sourceDesc>
+<bibl>Leuven: Ex Officina Flaviana, 1612-1613.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl>
+<p>not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc>
+<change>
+<date>12/2009</date>
+<respStmt>
+<name>Reinhard Gruhl</name>
+<resp>markup</resp>
+</respStmt>
+<item>text typed - structural tagging completed - spell check only partially performed - no orthographical standardization</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<pb id='as001'/>
+<titlePage><titlePart>
+ERYCII PVTEANI 
+EPISTOLARVM 
+PROMVLSIS: 
+CENTVRIA I. 
+et innovata. 
+LOVANII. 
+Ex OFFICINA FLAVIANA. 
+oo. IC C.XII.
+<gap desc='illustration (Motto: INGENIO ET LABORE)' resp='sampling'/>
+<hi rend='italic'>Cum Gratia et Privilegio.</hi>
+</titlePart></titlePage>
+<pb id='as002'/> 
+<gap desc='blank space' resp='sampling'/>
+<pb id='as003'/>
+<div type='dedication'>
+<p>IVSTO LIPSIO, 
+SECVLI NOSTRI VARRONI, 
+PENES QVEM ORBIS CONSENSVS 
+LITTERARVM PRINCIPATVM ESSE VOLVIT, 
+STVDIORVM MEORVM THALETI, 
+CVIVS DVCTV AVSPICIOQVE FAMAE VIAM 
+INGRESSVS SVM. 
+EPISTOLARVM PROMVLSIDEM 
+ERYCIVS PVTEANVS 
+LIBENS MERITO LIBO:
+EX OFFICIO, EX ANIMO; QVIA DEBEO, QVIA 
+CVPIO: 
+INCERTVM VTRVM MAGIS; 
+CVM ET DEBERE CVPIAM, 
+VT GRATVS ACCEPISSE. 
+TV VERO MEVS THALES, SECVLI VARRO, 
+QVOD DEBEO, CAPE, QVIA CVPIO; 
+QVOD CVPIO, CAPE, QVIA DEBEO: 
+ET MACTVS HOC GVSTV INFERIO ESTO.</p>
+<p>MEDIOLANI, PRID. KAL. QVINCT.</p>
+<p>oo. IC. CI.</p>
+</div>
+<pb id='as004'/>
+<div type='preface'>
+<head>PRAELOQVIVM AD LECTOREM.</head>
+<p>IN omni genere scriptionis, amice Lector, quae et ab Antiquis accepimus, et Posteri seculis damus, nihil rarius EPISTOLIS est: quarum tam gloria difficilis, quam fertilis, imo necessarius usus. An quia laudem non habet, profiteri, quod quisque agit, et in communi velle conatu eminere? Suspicor. nam ut Sermo, ad omnes omnino homines, ita quoque EPISTOLA spectat: et ipsa, Sermo; id est, animi in amoenis leriisque index et vindex, sed inter absentes. in Sermone autem pro laude invidiam aufert, qui praepostero quodam laudis obtentu, non ut loquatur loquitur, sed ut laudetur. Quid verbis velitor? EPISTOLAS aio, per hanc quidem caussam, licere et usui scribere, et famae edere; praesertim siquid sermone melius habent. Vt locutio publica, sic scriptio est, fateor: et tamen in utrâque laudis praemia sunt, si quis elegantior, doctior, prudentior. Sed editio ostentationem prodit. Ratione, an Exemplo me defendam? Illa superest, nec hoc omnino deest: nisi scriptores omnes, omneque litterarum genus ambitionis damnes. Divitias si errore seculi ad
+<pb id='as005' n='5'/>
+pompam vertimus, id minus tibi liceat, quia e mari eas habes, communi Elemento; quam mihi, quia ex herediolo aut privato agro? Haud opinor. Pariter fas mihi e publico et EPISTOLARI campo nomen quaerere: ut tibi e privato et umbratico dogmate aliquo aut commento. inprimis, si Exemplum habeam: quod habeo, nec recenseo: quod habeo, et sequor. an reprehendas, quod recentes EPITSOLAS, et ab ipso velut calamo calentes profero? Cur autem senectuti seponam? Nihil interesse scio, vulges, dum scribis; an protrahas, si non emendas: quae EPISTOLAE lex est. Breviter: praecoces illos fructus praestat in mensâ positos, quam ex arbore pendulos habere, ne frustra praecoces. Tu vero si faves Lector, laetari debes, quod publicus tibi fiam, et sic fiam; imo si non faves: non doctrinae tantum, sed morum quoque syngraphum inspecturus. Fere enim animi simulacrum quisque et imaginem, epistolam scribit. Ego fructum etiam utrobique capiam, si favebis, imo si non favebis: constantiam e laude, si faveris; emendationem e judicio, si non faveris; imo vero si maxime faveris, id est, si non suppresseris censuram. Assyrii olim aegrotos in compitis exponebant, ut remedium et salutem invenirent: pariter EPISTOLAS has meas PROMVLSIDIS titulo produco et expono, e multis aliquas,
+<pb id='as006' n='6'/>
+quas in peregrinatione istâ triennali scripsi sparsim, et misi. EPISTOLAS inquam, et in iis me ipsum: nec ut videar tantum, sed corrigar. Num ut te quoque videam, atque corrigam? Habet certe hoc censura, ut mutuum admittat: et qui jus sibi in scripta moresque alienos sumit, suorum faciat; ut contra qui facit, sumit. Non sumo: videbor, non videbo; corrigar, non corrigam, uti aetatem et institutionem meam decet. lubens utrumque, et a te, qui utrumque doctus. Tu igitur talis, vide, et corrige: tu non talis, tantum vide. quid autem? sermones, risus, jocos, animi mei secreta; sed mei: ne amicorum quoque famam productam in judicium putes. Tu ille, oblectare, siquid amoenius a me scriptum: tu hic formare, siquid severius expressum. Veram enim, si animum advortis, fabulam spectas; et vivam imaginem mei, non in scenâ, sed in tabellâ repraesentatam; nec fictum argumentum, sed ex occasione natum. Si consideraveris, sine longiori Prologo favorem tuum nactus sim; plausum, si probaveris. Have mi Lector: et Gustatione istâ initiatus, meliores Missus exspecta.</p>
+</div>
+<pb id='as007'/>
+<gap desc='content list' resp='sampling'/>
+<pb id='as008'/>
+<gap desc='approbatio; privilegium' resp='sampling'/>
+</front>
+<body>
+<div1 id='PuEL.01' n='1' type='book'>
+<pb id='s001' n='1'/>
+<head>EPISTOLARVM PROMVLSIS.</head>
+<div2 id='PuEL.01.01' n='1' type='letter'>
+<head>EPISTOLA I. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C. <hi rend='italic'>Historiographo Regio.</hi></head>
+<p>ILLE ego quietis cultor, cui in ore et animo illud Tragici hactenus fuit,</p>
+<l>--- me mea tellus</l>
+<p>LARE SECRETO, <hi rend='italic'>tutoque tegat;</hi> motum et peregrinationem a puero arsi: nec voto tamen contrarius quod arsi; prudentiorum forte sententiis, quod a puero. Motum enim tranquillior quies sequitur, ut olim, cum AEoli feriantur satellites: deinde sine fructu peregrinatio suscipitur ante Prudentiae annos. Itaque motum concupivi bonae quietis caussâ; sed te monente distuli, aetatis meae caussâ. Distuli, et obsequio desiderium vici. Postea vero quam accrevisse visus, tu ipse iter suadens, unico affatu, velut verborum attritu, intepescentem ex citasti animum, et accendisti, quasi numquam restinctum. Sic ergo e complexu tuo dimissus, Lares patrios (ut inde in Italiam irem) petii, et amicos, quibus osculum debebam. Hi aspernari consilium meum, omnemque lapidem movere, ne ipse me moverem. Sed invitum cohibere, haud facile est. Caussa
+<pb id='s002' n='2'/>
+nulla fuit, quam non praetendi: et frivolas quasque, uti pertinaces solent: Non idem homini adolescenti solum perpetuo premendum: non ab unius ore aetatem pendendum. Vt ab uno flore mel suum apes nec sugunt, nec confingunt, sed sparsim: sic eruditionem hinc inde haurien dam. Habere suos Italiam, Germaniam, Galliam praestantes doctrinâ viros, et velut Oracula Litterarum, a quibus responsa utiliter petantur. Sed quid ego alios apud te nomino? Licuisset per hanc quidem caussam pedem non movere. Tu unus mihi instar omnium es, qui tot unus abundas virtutibus, utomnium facile laudes exhaurias. Invitus tu hoc audis; sed tamen cogit amor exprimere. Nam in quo homine, post homines natos, modestia gravior? humanitas sanctior? doctrina elegantior? Suada purior? Dîs suis Achivos non privamus: et sunt alibi viri quoque non vulgariter docti; sed fortassis, si tecum conferendi, fama suâ minores. Quemadmodum faces, quae in tenebris et illuni nocte lucent, intervallo augentur: ita, siquis remotior se ostentat, par fortean tibi videtur; non est: quem si in solem et diem produxeris, aut coram conspexeris, is diffusum per caligmem aeris lumen amittat, et veris lineis circumscriptus discernatur. Vt etiam sidera sub ortum occasumque, maiora lucent, sed creperâ quadam luce: ita tales saepe, quos per vaporem spirantis aurae, ceu per umbram, noscimus atque admiramur. Tu vero Vir Clarissime, quanto notior, tanto illustrior: et qui summus ubique, maior tamen conspiceris e propinquo. Ita luces; ut te ceu Phoebum ipsum ament omnes, et praedicent. Que cuncta ejusmodi sunt, ut ab omni peregrinatione animum absterruissent, nisi tuo consilio
+<pb id='s003' n='3'/>
+suscepta esset. Nunc igitur (quod propitiis Vialibus sit) me accingam, et cum Mercatoribus Batavis, quos obsidio Berckana hactenus remorata, per Coloniam Agrippinensium Francofurtum proficiscar. Martem vide: opidulum munitissimum ignavâ deditione captum, immoderatae nimis laetitiae caussam hîc ubique dedit.</p>
+<l>Non facile est aequâ commoda mente pati.</l>
+<p>Nummos hîc binos habes, ex iis, quos ex novis insulis Batavi contulerunt, formâ et materie insolentes, pretio supra fidem vilissimos: certe, nisi copia obstet, servandos pariter, et aestimandos cum antiquis. Viris illis magnis adfui, litterasque dedi: in quorum altero priscae Poesios elegantiam, in altero reconditam sane doctrinam, pentiamque linguarum coram admiratus sum; sed in utroque ardentissimum tui amorem: quem eundem ego profiteor. Vale. Dordraci, VI. Kal. Septemb. oo. IC. XCVII. RICHARDOTOS fratres, BARONIVM, et SCARBERGERVM cupide saluto.</p>
+</div2>
+<div2 id='PuEL.01.02' n='2' type='letter'>
+<head>EPISTOLA II. <hi rend='italic'>Mechliniam.</hi> IOANNI BERNARTIO S. D.</head>
+<p>SErio mi BERNARTI: Laudes istas non fero, queîs non minus modestiam meam oneras, quam industriam ornas: nec quisquam alius in me ferat, qui te modo, meque nôrit. Injurius autem mihi, imo tibi, si ferat. Nam ita conceptae illae elegantissimae tuae litterae sunt, ut incertum, studiosior in me laudando; an modestior te ipsum fueris deprimendo. Quorum utrumque aut amori aut errori adscribendum est: amori, dum talem me vis esse;
+<pb id='s004' n='4'/>
+errori, dum esse putas, qualem describis; imo qualis ipse es, Iuventutis nostrae Princeps. An scripta, aut amici mentiuntur? Sed laudatus non te laudo; <hi rend='italic'>ne non tam proferre judicium meum, quam referregratiam videar.</hi> Quod vero adhortaris, ut quâ occoepi ire viâ, pergam, gratum: et ego pergam, etsi nulla, infelicis hujus seculi labe, praemia sunt, (carmine sententiam exprimam;)</p>
+<lg>
+<l>Virtutem solidum ratus putari</l>
+<l>Virtuti pretium: paratus ultro</l>
+<l>Lubens temnere, quicquid undequaque</l>
+<l>Offertur. Bene, cum sat est mereri,</l>
+<l>Non ambitur: at optime omnium hoc fit:</l>
+<l>Nolle sumere, cum sat est mereri.</l>
+</lg>
+<p>Antuerpiae, apud GABRIELEM STEYDLINVM meum, qui te salutat. IV. Eid. Sext. oo. IC XCVII.</p>
+</div2>
+<div2 id='PuEL.01.03' n='3' type='letter'>
+<head>EPISTOLA III. <hi rend='italic'>Ruraemondam.</hi> IACOBO BONERO, V. C. <hi rend='italic'>Consiliario Regio.</hi></head>
+<p>SI lubens unquam calamum sumpsi, jam sumo, cum ad te scribo, Clarissime Vir, et Cognate, etsi nihil est quod scribam. Sed hujusmodi quoque haec occasio; ut excusationem nullam admittat, nisi stilo conceptam. Occasio inquam, quam alias quaesivi, nec inveni: Scripsi litteras, non dedi. Tabellarii vestri hac interdum transeunt; sed quasi non transirent: ita festini semper, saepe non visi. Amnium conspexi undas praecipiti et veloci cursu praeterlabi, nec sisti alveo aut canali: sic isti qui galero utuntur, et epistolas perferunt, in itinere non morantur ullius caussâ, adeo non deflectunt. Alias, pronus ego ad
+<pb id='s005' n='5'/>
+scribendum; et peculiariter Virtute et Doctrinâ tuâ excitor: quam utramque ita conjungis et exseris in Patriae et commune bonum, ut boni quiquete ament, admirentur omnes. Nuper (havet enim animus in tuis laudibus occupari) cum tranquillitas nostrae urbis, ac salus sub spe et metu vacillaret, tu, probo prudentique consilio, rebus in tranquillum versis, securitatem nobis, gloriam tibi peperisti. Quanta erat omnium trepidatio! quanta consiliorum incertitudo! Sed, ut dixi, Virtutis Doctrinaeque tuae fax viam ad salutem distinxit. Virtutis, quia praeluxisti; Doctrinae, quâ praeluxisti.</p>
+<l>Quid est suavius, quam bene rem gerere bono publico?</l>
+<p>sicuti tu gessisti, et geris? Sed utinam vel plures FABIOS, vel tranquilliorem ipsam Belgicam habeamus! Hoc vero rerum statu, ut bonae artes exulant: sic remedia inde petenda. Quis recti bonique tramitem insistit ad consulendum in commune? Qui nescit viam ad mare, amnem sibi comitem quaerit: qui ad officium boni civis, doctrinarum praesidium. In doctrinis tamen discrimen tramitum est: exitus idem est. Diversa sectamur; sed in eundem finem, qui est, aut esse debet, publice prodesse. Alii Medicinam, alii Leges et Iura, alii Litteras divinas tractant. Isti, ut corpus humanum curent aut restituant. Hi, et illi, ut animum ipsum componant: idque vel ad probam, et secundum pios ritus atque instituta divina instituendam vitam, qui Theologi appellantur: vel ad concordiam quandam exteriorem, et politicam honestatem, qui lurisconsulti titulum praeferunt. Sunt deinde alia quaedam honestae notae studia, quae Literarum finibus clauduntur, sedata illa quidem, et a foro turbisque remota; utilia
+<pb id='s006' n='6'/>
+tamen publice confinio quodam Sapientiae ac Virtutis. Ego quidem huc deflecto, ut amoena Musarum vireta pererrans, eos fructus legam, qui privatim publiceque usui sint. Deum precor, conatum meum felicitet: teque V. C. nobis et Reipublicae servet. Lovanii, Prid. Kal. Sext. oo. IC XCVII.</p>
+</div2>
+<div2 id='PuEL.01.04' n='4' type='letter'>
+<head>EPISTOLA IV. <hi rend='italic'>Lovanium.</hi> CORNELIO VANDEREMIO S. D.</head>
+<p>LVgduni Batavorum fui: litteras, picturasque sartas tectas dedi. Vltrajectum ad tuos nunc quoque iturio, quibus, quaetu optaveris dicam: dicam autem quae mereris. Ita naturâ comparatum est, ut quem ames, etiam laudare velis: ego vero mihi non immerito gratulor, quod te talem amem, quem laudare etiam possim: laudem, quem non amare non possim. Itaque ut praeconium tu meum tuâ indole; sic indolem ego tuam meo praeconio conabor uti aequem; aequare autem non potero, nisi ut exstimulem. Harlemi GOLTZIVM invisi, amicum et popularem meum; qui omnem mihi illam supellectilem suam ostendit. Quam vellem adfuisses! Obstupui et Lysippi aera, et Apellis colores, et Pyrgotelis coelamina: sed inprimis ipsum dominum, in tantis divitiis liberalem: incertum, arte, an humanitare meliorem. Hisce <hi rend='italic'>in locis Neptumis Templisque turbulentis</hi> sine periculo sum: non item sine dolore, quem motu et peregrinatione excussum eo. Vale. Dordraci III. Kal. Sept. oo. IC. XCVII.</p>
+</div2>
+<pb id='s007' n='7'/>
+<div2 id='PuEL.01.05' n='5' type='letter'>
+<head>EPISTOLA V. <hi rend='italic'>In Vbios.</hi> GERARDO PVTEANO, V. R. <hi rend='italic'>Gentili Meo.</hi></head>
+<p>OMiseram urbem, quam noxius Auster tam pestilenter adflavit! Respice Deus, et</p>
+<l>--- <gap desc='Greek word(s)'/>.</l>
+<p>Sed tu vivis, et vales? spero, et timeo. Quia enim non malos tantum, sed et bonos promiscue hoc malum manet: ac puniuntur qui peccarunt, et qui non peccarunt. Isti quidem quia offenderunt, hi, ne forte offendant: isti ut offendere desinant, hi ut de sinant vivere. Scimus enim longam vitam saepe improbam esse vitam, et acceleratam poenam impedimentum sceleris futuri. Itaque malus quisque vitâ hac indignus vivit; bonus meliori dignus: et qui meruit malum, id si accipit, supplicium sustinet; qui non meruit, praemium putat. Quare non refragemur, si nos Deus vocet: quia nec in potestate nostrâ est, nolle sequi; sed est, ut purâ mente, et mundatâ conscientiâ sequamur. Vide obsecro quo me impetus rapit: ea in calamo, quae in mente. Eo enim in loco sum, ubi periculum mihi ab eâdem labe. Vbi? inquies. Pene in Vbiis: in oppidulo Mulhemio, quo ex Bataviâ vêni, ut Francofurtum, et inde in Italiam eam. Comites quaero; et spero inveniam. Interea an Rhenum trajiciam, necdum constitui. Ego quidem te, priusquam abeo, videre haveo; sed periculum quoque horreo. Locum hîc habet, quod Comicus prudenter scribit:</p>
+<lg>
+<l>Qui cavet, vix cavet: qui maxime cavet,</l>
+<l>Is saepius cautor captus est.</l>
+</lg>
+<pb id='s008' n='8'/>
+<p>Consilium itaque tuum exspecto, ut sequar. Vive, et vale, ut virtutibus tuis longum nobis praeluceas.</p>
+</div2>
+<div2 id='PuEL.01.06' n='6' type='letter'>
+<head>EPISTOLA VI. IANO DOVSAE. V. N.</head>
+<p>HVmanitate tuâ fretus, quam inter sermonem expertus sum, scribo: etsi sciam sic denuo suffusum me iri innato quodam pudore. <hi rend='italic'>Litterae</hi> quidem, ut vetus verbum habet, <hi rend='italic'>non erubescunt;</hi> ego tamen in littteris: nisi scribens forte audacior, quia tectior sum, et velut velamine nuptus litterarum. Non sum: et siqui tales, qui epistolam, ceu mentis larvam habent, et velare vultum nituntur, quem mutare nequeunt, ostendere erubescunt; repeto voces meas: non sum. Idem ego calamo, et ore: nisi hoc differam, quod in scriptione animus conspiciatur, in sermone audiatur. Sed tamen quid est? utrobique cognoscitur; ac nescio profecto, illo certius, an vero isto modo. Nam utrobique <gap desc='Greek word(s)'/>. Quod Socrates adolescenti cuidam: <hi rend='italic'>Vt te videam, aliquid loquere;</hi> id tu mihi mutes: <hi rend='italic'>Vt te videam, aliquid scribe.</hi> Ceterum utrumque ego praestiti, qua loquendo, qua scribendo. O me beatum! si ita praestiti, ut probes: Beatiorem porro! si probas, et testimonio aliquo idipsum testificeris, quod abeuntem me dirigat, ne impediar. Versiculos aliquot meos transmitto, ut, si otium, legas, et conari nos aliquando, quod tu faventibus, atque adeo non faventibus Musis praestas, intelligas: velle, quod tu ad miraculum potes. Gloriose hoc fortasse, sed utiliter tamen dico. Nam optimos quosque imitari, optimum est; ut dum summa affectamus, aliquam exprimamus
+<pb id='s009' n='9'/>
+partem. Satis autem citra imitatio consistit. Vale, Lugduni batavorum. IV. Non. Sept. oo. IC XCVII.</p>
+</div2>
+<div2 id='PuEL.01.07' n='7' type='letter'>
+<head>EPIST. VII. <hi rend='italic'>Francofurtum ad Moenum.</hi> SCIPIONI CAMPO V. N.</head>
+<p>AVT fallor, aut voluptas omnis in praesenti est, quam sentire quidem suave, at acerbissimum meminisse; uti ego memini, qui cum tecum fui, similis iis fui, qui hypocausto inclusi clibani vapore hiemis inclementiam vincunt. Nam postquam abii, invêni intentius frigus. Hilaritas omnis; illae subdivales ad amoenum Moenum ambulationes; illi nectarii de litteris sermones; illa conviviola litterata evanuêre. Successit solitudo, cura, metus, et quicquid prolixum iter offundit. Sed ista habeam, dum te habeam: id est, amorem tui; imo mei tuum Non amare enim non poteris, a quo te senties amari: nisi promptitudine amandi, debitum quoque redamandi praevertes. Quare jam iter prosequor, non quasi amiser im oculissimum amicum, sed quasi praecesserim. Vale Elegantiarum omnium flos. Basileae. VIII. Eid. Octob. oo. IC. XCVII.</p>
+</div2>
+<div2 id='PuEL.01.08' n='8' type='letter'>
+<head>EPISTOLA VIII. <hi rend='italic'>Venlonam.</hi> IOANNI PVTEANO, <hi rend='italic'>Patri meo</hi> S. D.</head>
+<p>PERICVLVM quod passus sum, ipso itinere majus, breviter perstringam, mi Pater; ut famam periculo majora nunciantem corrigam. Coloniam Agrippinensium perveneram, hospitio a gentili nostro
+<pb id='s010' n='10'/>
+exceptus, optimo et humanissimo viro. is, periculis omnibus collatis et expensis, terrestre mihi iter persuasit. Ergo Tuitiiequum conscendi, Mercatoribus, quos spes lucri ad Nundinas evocaverat, comes factus. Diem ferme circa medium, cum jam aeris tepor incalesceret, in pago quodam substitimus. Instruitur prandium: cumque coenaculum ingressi discumbimus, et ad cibum porrigimus manus, quidam e mercatoribus, morbum, quasi a concussatione contractum, abstinentiâ detexit. Ego mox, quod erat, suspicatussum, contagioso hominem malo tactum. Reliqui admonere, equum succussorem cum tolutario aliquo commutaret: sed ille quidem, quo suspicionem mali minueret, primo die recusavit. Nec diu morati coeptum carpimus iter, donec ad destinatum stabulum dies fugiens fessos perduxit. Postridie difficilior profectio, per clivosa et salebrosa quaedam loca, et convalles lacunosas, partim equis partim pedibus nostris vecti; ut non minor incessus vegetatio, quam fatigatio sedentaria fuerit. Ille vero vectoris equi accusator, quantum pedibus suis aegritudinem auxisset, vultus detrimento contestatus est. Mihi tum quidem equus, ab ungulâ ad saxeas illas sudes contusâ, nutanti capite claudicans, risui simul, et remorae fuit. Sed reliqui inhibentes gradum, et meo infortunio, et dolori aegrotantis non inviti consulebant. Sic proficiscentes, opidum Libburgum, ultimam diei metam curriculo solis deflectente, intravimus; et dissolutis atque in diversorium conditis sarcinis, ego equo, aeger sibi operam dedimus. hic autem, haud amplius morbum dissimulans, serio aegrotabat. Nam ut primum tectum subierat, in illo garritu mercatorum,
+<pb id='s011' n='11'/>
+sermonem segregabat, et in scamno seorsim decumbens, coepit a quiete nequicquam solatium quaerere. Cibos aversatus, potiunculas, quas vino et protractis aromatibus miscebat, identidem libabat. Et jam quidem de morbi genere cunctis constabat; sed privato silentio quisque tegebat periculum commune; et communibus fabulis privatum metum demebat, coenae, sed et somni tempore. Nec enim mensa nobis tantum, aut cubiculum, sed paene lectus communis. O miseram sortem! ubi illa triclinii hilaritas? ille noctis <gap desc='Greek word(s)'/> Somnus? Ipsa quies, quae curarum sepultura esse solet, securitatem denegabat. Eundem illum aerem nocturnum semisopiti hauriebamus, quem et alte ducta laborantis suspiria infecerant, et vomitiones quoque corruperant. Deinde periculi imago per somni nebulam aucta, ligatum animum non sinebat constantiâ suâuti. Nocte exantlatâ, quisque sarcinulas colligere, equos onerare, et maturare abitionem. Interim dum jentaculo reficimur, communi voce mercatores aegrum suum hortari et obsecrare, seipsum cognosceret, iter saluti postponeret, et apud hospitem benignum valetudinem curaret. Ipse hospes adstans, eodem impellere. Quae ista, inquit, tanta cupiditas profectionis, quae salutarem quietem impediat? Habet honesta festinatio interdum necessarias moras. Ante omnia valetudini, deinde opibus est danda opera, ut dare possis. Si me audis, teipsum amas; subsistes: ut validus subsequaris potius, quam infirmus comiteris. Quid enim si morbus incrementum ex itinere capiat, et hospitium petenti denegetur? Ne id nescias, pestilentia longe lateque saeviens, Hospitalis Iovis foedera violavit. Hîc vero mollius curabere.</p>
+<pb id='s012' n='12'/>
+<l>Quam Regi Antiocho oculi curari solent.</l>
+<p>nec morbus vel tantillum inhumaniores nos reddiderit, ne si foret ipsa quidem pestis. O exemplum dicandum memoriae templo, ni avaritia profanasset! Nam hospites illi Lyci sunt, quorum blanda verba latrocinantur; <hi rend='italic'>quia aurum,</hi> ut Comicus ait, <hi rend='italic'>poscunt praesentarium.</hi> Sed nec amica mercatorum hortatio, nechospitis benigna promissio retinere invitum potuerunt. Ita homines sumus, quaerimus exitium, dum stulte contemnimus: et sero recta consilia agnoscimus ac probamus. Equo interea meo aequa Hippona fuit, tantumque nox unica claudicationem minuerat, ut ad vehendum idoneus videretur. Itaque in viam denuo nos damus, per nemorum amoenissimos saltus: et aegro nostro testudineo gradu subsequente, ad pagum prandio destinatum pervenimus: ubi de sanitate, et loco, unde iremus inquisitione factâ, cum et illam intrepide jurassemus, et hunc quisque arbitrio suo fingeret, in diversorium admittimur. Commodum gustatione finitâ, aeger aderat, et sine obstaculo quaestionis ad nos usque penetravit, exangui colore luridus, et interno totius corporis aestu inflammatus. Dum venientem excipimus, et humi substructis pulvinaribus locamus, intrat hospitii dominus, qui ut notavit tam miserum schema, truci supercilio aedibus aegrotanti interdixit Quid multis? una excessimus omnes. fit concursus virorum mulierumque: barbariem hospitis publice detestamur. Ille prosiliens, convitiis vindicat, injuriam et universam in nos turbam concitat. Bonum Factum visum est, furori cedere; et carpento conducto comitem avehere. Sed cum ne id quidem pietatis officium impetrare licuit, adolescentem
+<pb id='s013' n='13'/>
+mendicum vi pecuniae eo adegimus, ut laborantis duceret equum: atque ita infaustum, nec nominandum pagum reliquimus. Aliquanto deinde viae permenso spatio, ad lucum pervenimus, ubi aeger ille noster concussionis impatiens, ex equo se dimisit, et deviâ trepido vestigio secedens, in gramine procubuit. Moxaltius suspirium ducens, Tego, inquit, fatalem et ab aeterno mihi destinatam terram, ut ab eâ tegar. Quae vox ad extremum dolorem omnium dejecit animos: dumque taciti hominis miserrimam sortem deploramus, ad aures nostras strepitus quidam rotarum defertur. et e mercatorihus unus in pedes desiliens, aut fallor, inquit, aut Deus nos respexit. Reliquis admirantibus, carruca aegro submissa de colle allabitur: in quam e vestigio reposito aegro, lento gradu procedimus et praecedimus. Neque dum luci meditullium transgressi eramus, et in ipso vehiculo miderrimus ille, mortis colorem induens, vitam fato reddidit. O miselli homines quid sumus? aut quid speramus? Hic ille sanus, ut videbatur, viam ingressus, prius vitam, quam viam finivit. Divitiarum suarum rationes subduxerat, paucorum dierum non potuit, aut neglexit. Ite mortales, et opibus fidite aut annis; vidi, qui <gap desc='Greek word(s)'/> extinctus sit, et in ipso robore aetatis. Salubre exemplum linquens hoc ipso, quod extinctus: deinde quod ab uxore liberisque remotus, quod subito, quod in itinere, quod in silvâ. Quid nos? defletum pro tempore comitem, quem vivum ad Nundinas non licuit, mortuum ducimus ad sepulturam: cui proximum pagum destinamus. Sed rusticani isti priorum ingenio praediti, pertinaciter nos rejecerunt: nisi etiam tanto crudeliores,
+<pb id='s014' n='14'/>
+quod in mortuum impii, non tecto hominem, sed solo cadaver arcebant. Eandem in uno etiam alteroque loco fortunam passi, paene Francofurtum produximus funus Praecipiti tandem die mitiora ingenia nacti, scilicet quae pecuniâ saltem ad commiserationem flecti poterant: cadaver recipitur, et a terrae quibusdam filiis terrae mandatur. <gap desc='Greek word(s)'/>: mihi deinceps quid futurum sit, Deo in manu est. Sperando optima, extrema mihi cuncta proponam; ut si quid mali acciderit, hoc beatus sim, quod evaserim pejus: neu timendo perpetuo, sed semel tantum sentiam malum capiendo. Nam in malo nihil praeter metum mali: bonum autem ipsa spes extendit. Hanc mihi Deus mentem in reliquo et viae et vitae servet. quem eundem precor, reducem me tibi, matri, familiaeque superstiti faciat. Francofurti ad Moenum, Prid. Kalend. Octob. oo. IC. XCVII.</p>
+</div2>
+<div2 id='PuEL.01.09' n='9' type='letter'>
+<head>EPISTOLA IX. <hi rend='italic'>Antuerpiam.</hi> ANDREAE SCHOTTO V. C. <hi rend='italic'>Societatis</hi> IESV.</head>
+<p>QVod Vlixi Minerva, id mihi Epistola tua, Doctissime SCHOTTE, individua itineris, et periculi comes: cujus suavissima lectio nescio quid divinum animo cottidie instillat; ut horrenda quaeque mihi videar intrepide posse sustinere. Cyclopis aliqua specus est? ingrediar: Solis boves? adspiciam: Scylla, aut Charybdis? evadam: Circes poculum? bibam: Lotophagi? accedam: Sirenes? audiam. Immo vero ut iter hoc fuit, Cyclopis specum introivi,
+<pb id='s015' n='15'/>
+sed egressussum: Solis boves vidi, sed abstinui: Scyllam et Charybdim praeternavigavi, nec abreptus sum Circes poculum bibi, nec mutatus sum: ad Lotophagos accessi, nec remansi: Sirenes audivi, nec accessi. Singula quid explicem?</p>
+<lg>
+<l>O multa dictu gravia, perpessu aspera,</l>
+<l>Quae corpore exantlavi, atque ammo pertuli!</l>
+</lg>
+<p>Hodie qui iter faciunt, contusa et cribro succreta quaedam aromata circumferunt, aeris aut stomachi causâ: at quanto satius, ad constantiam animum roborare, sicuti ego salutaribus tuis monitionibus et dogmatis roboravi! Nam in vnâ illâ Epistolâ mihi stacte, cinnamomum, macer, caryophyllon insunt, quibus universam hanc itineris aerimoniam sic condio, ut acerbum nihil sentiam: temnam</p>
+<l>Et quodcunque mali est, et quicquid triste timemus.</l>
+<p>Ad Agellium non tu incitare me mavis, quam ego sponte currere, auctorem (siquis alius) tersum, eruditum, nec minus varium, quam res litteraria ipsa. Itaque operam hanc condico lubens merito: et quamprimum Vrbem introiero, hoc negotii sumam; ac neglectum hunc agellum excolere aggrediar, qua runcinando, ubi sentes succreverunt; qua supplantando, ubi emortuas litterarum (ut sic dicam) has plantas videro aut evulsas. Nec inutilem laborem ponam, cum istas CIACCONII hominis doctissimi schedas, et collationes tuas considero, quae per se quidem huic scriptori expoliendo. FVL. VRSINVM, et IOS. CASTALIONEM, ceterosque, ut scribis, salutabo. Vale, et me ama. Hanc Epistolam Plantinianis dare constitueram: sed praeveniens hic amicus meus, adcinctus ut istuc pergeret, se onerari passus est. Francofurti,
+<pb id='s016' n='16'/>
+furti, Kal. Octob. oo. IC. XCVII. Die crastinâ Argentoratum versus iter instituam.</p>
+</div2>
+<div2 id='PuEL.01.10' n='10' type='letter'>
+<head>EPISTOLA X. <hi rend='italic'>Lovanium.</hi> GVILIELMO BARCLAYO S. D.</head>
+<p>DIS Vialibus si caussâ meâ sacrificasti, mi BARCLAYE, litavisti. Evasi enim, et limen Italiae attigi, magnam Insubrum Vrbem. ubi exceptus a Principe, quem Eruditiomnes norunt, humaniter fui, ac detentus. A Principe inquam, quem nescio ab Armis, an a Litteris justius tibi commendem; cum parem utrimque laudem et gloriam aequalem trahat:</p>
+<lg>
+<l>Iusta pari premitur veluti cum pondere libra</l>
+<l>Prona, nec hac plus parte sedet, nec surgit ab illâ.</l>
+</lg>
+<p>Tu modum cognosce, quo exceptussum; et gratulare seculo nostro, esse in Magnis Illis, qui honorem Eruditioni habent, ipsi eruditi. In urbem postquam ingressussum, hoc mihi negotii credidi potissimum dari, ut Herculem hunc Musarum viderem, atque a I. LIPSIO salutarem. Copiam IO. BAPT. SACCVS, vir doctus, impetravit: a quo eodem introductus in Aulam fui. Dum hostiarium sequimur, locum pellucidum intramus, librisque superbe instructum: mox intellexi in Bibliothecam me venisse; et a SACCO admonitus, video ipsum Principem ad mensam sedentem, atque lectitantem. Ergo animatus tam formoso schemate, paullulum processi, et postquam ad manus accessi, instar oratorum conformato articulo, oratiunculam, quam pridie antesomnum conceperam, intrepide habui. Ille dictione meâ et calore delectatus,
+<pb id='s017' n='17'/>
+utrumque laudatione prosecutus est: ac placere sibi ait Mediolani subsisterem, curaturum, nequid ad honestum, et Litterarum otium deesset. Quid censes? avide favorem amplexus sum, gratias Optimo Principi dixi, ac substiti. Nunc in ANALECTIS quibusdam sum, quae e bonorum scriptorum monumentis famae struendae congero. Convivium, et fercula sunt, quae censuris ritibusque misceo ac condio, ut averso quorundam stomacho aut amuso conciliem. Quicquid est, tu mihi nominandus mi BAROLAYE, ubi nomen spero: vt quam te amem, morum caussâ, quam aestimem eruditionis, publice innotescat. Pergamus porro in Amicitiâ coeptâ, et in iis unde illa orta, id est, virtute, Litterisque; quibus nihil homini melius contingit. ARTHVRVM GORDONVM, illud delitium hominis plurimum saluto. Tu vale. Mediolani, XVI. Kal. Novemb. oo. IC. XCVII.</p>
+</div2>
+<div2 id='PuEL.01.11' n='11' type='letter'>
+<head>EPISTOLA XI. <hi rend='italic'>Mediolanum.</hi> CAMILLO TROTTO V. A. <hi rend='italic'>Senatori Regio.</hi></head>
+<p>MORBVM tuum hactenus ferimus; quod cum minori litterarum, quam Reipub. damno sit, quodque violentum justitium in amoenioribus et sermonibus, et libris consumas. O magnum virum! cui cum ob valetudinem occupari publicitus non licet; otiosum in valetudine tamen esse non libet. Nec vitio id facere videri potes, sed divini illâ tui animi naturâ, ac flammâ, quam prius extinguas, quam compescas. lisdem illis studiis, quibus serias antea curas levigare
+<pb id='s018' n='18'/>
+solebas; nunc effectum quoque curarum, id est, morbum ipsum, et doloris sensum. Censeo hoc deinceps exemplo Lebadiam cum Helicone mutemus, et corpori, ut animo medicinam faciamus, ab eâdem Musâ. Quamstulte eruditorum pleraque pars! quam ignave! Si corpori aegre est, divinam partem sepeliunt; ut plane in veterno cubare, ac praesorbere Lethaeum poculum videantur, dum adscititiâ oblivione se ipsi ac doctrinam mergunt. Hi non considerant similes se navis esse, simulacrumque habere; quam si periculo tempestatis ad carinam exonerant, mergunt, non minus, quam si onustam furentibus undis objiciant. Etenim tempestas, morbus est: onera, lirterae et studia, quibus qui seipsum cunque spoliat, in potestate doloris est, et ad omnem morbi curam agitur: qui tanquam saburrâ utitur, periculi securus est, et</p>
+<l>--- medijs tranquillus in undis.</l>
+<p>Sic te esse scio Vir Amplissime, Deumque precor, uti in bonae valetudinis portum incolumis evadas. Ticini, VII. Non. Novemb. oo. IC. XCVII.</p>
+</div2>
+<div2 id='PuEL.01.12' n='12' type='letter'>
+<head>EPISTOLA XII. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C. <hi rend='italic'>Historiographo Regio.</hi></head>
+<p>POST asperum et prolixum iter Mediolanum tandem pervêni. Bone Deus! quanta, et quam multa perpessus! Ludum et iocum qui Peregrinationem vocant, stulte vocant: cruciatus, et calamitas est, et malorum uberrima seges. Et hactenus quidem etsi Praemetia sunt; vidi tamen, audivi, sensi, quae haerebunt
+<pb id='s019' n='19'/>
+in omne aevum. Pessima pleraque, uti caveam: salutaria quaedam, uti sequar. Quamvis hoc ipsum salutare censeam, novisse quandoque malum, ne facias. In viâ minus errat, qui gnarus viae, et lumine cassus impingit saepiuscule, quia cassus. Nonne idem in nobis? Quoties in bivio virtutum vitiorumque constituti, sinistrorsum solo errote abimus? Minus forte errat, qui ignorantiâ; errat tamen: atque utinam semperminus! In saxum aut pilam siquis improvide currat, non dicam minus laesum, quod non viderat; sed si minori impetu incurrerit. Ego haec in illum finem, ut scelera quaedam me vidisse intelligas, non didicisse. Vere enim hoc dicam: perfidiam, fraudulentiam, malitiam, perjurium, aliaque id genus, quocunque veni, inveni: notavi, et abstinui. Et profecto iter ipsum ita suggerebat: ita materiam ubique subministrabat philosophandi. Plerosque e sequacibus ad extremae egestatis terminos redactos vidi? ecce exemplum trucis Fortunae, et contemplatio miseriae humanae: vixisse unum? ecce salutaris illa mortis meditatio, frenum animi lascivientis. Quid multa? in rem deducere coepi, quae a te publice privatimque doctus. Litteras tuas IO. BAPT. SACCO tradidi, homini multarum litterarum et humanitatis. qui te ita amat, ut metitus magis, quam avidus redamari: etsi avidus et meritus. Gratiam enim tuam mavult, quam jactat: nec tam gloriator huius amicitiae, quam cupitor est: <hi rend='italic'>quoniam</hi> (cum Apuleio hoc cogitat) <hi rend='italic'>cupere nemo, nisi vere putet, potest: potest autem quivis falsogloriari.</hi> Principem ipsum vidi, conveni, audivi: magnum sane,</p>
+<l><gap desc='Greek word(s)'/></l>
+<p>Praeclara eius facinora, non dicam adornando, sed admirando
+<pb id='s020' n='20'/>
+fatigabor, vel belli ausa, vel domi provisa: isthic militiam, et expeditiones; proelia, et victorias, (quae ejusmodi sunt, ut turba illa Imperatorum veterum injuriâ triumphasse videri possit, HVICNISI TRIVMPHVS DECERNATVR:) hîc veroscientias et omne genus eruditionis. Sapientiam inspicis? Philosophatur: Mathesin? eminet inter primos: Iurisprudentiam? Leges veteres, novasque perlustravit: cetera? in omnibus laudem adeptus, imo palmam. Librorum autem supellectilem instructissimam habet, quam cum delectu comparat; nec comparat tantum, sed usurpat; volvit, ac revolvit. Scimus, Bibliothecas quo pacto plurimi ornent: volumina multa cumulant, non tractant; congerunt, non conterunt: deprehendas in ubere velut librariâ penu epulas cujusvis doctrinae: ipsum dominum in his deliciis rudem, indoctum, et Tantali vice sitientem, non quidem fallacem illam fluentis fugitivi undam; sed verae scientiae ac virtutis. Heros hic aliter, qui cum splendidissimas librorum dapes habeat, libat ac delibat quotidie, non tantum ad famae fuae vitam, sed immortalitatem. Vides igitur ad qualem me Principem miseris: magnum illum quidem, sed blandum tamen et benignum: magnum, sed tui peramantem, ut nec frustra miseris. Exceptus enim humanissime fui, idque tuâ caussâ detentus quoque liberaliter, sed tuâ caussâ. Quare dum beneficium mihi das, accipis ipse; dumque me tibi obstringis, obstringeris ipse, tanto quidem arctius, quanto majora ille beneficia confert, cui obstringeris. Tu vero habes quo te solvas, et expungas meo nomine contractum nomen: eo minus, quo citius expunxeris. Facit enim mora debitoris, ut
+<pb id='s021' n='21'/>
+amplius obligetur. Liberam et candidam epistolam habes, sine doloscriptam. Vale mi Doctor. Mediolani, XV. Kal. Novemb. oo. IC XCVII.</p>
+</div2>
+<div2 id='PuEL.01.13' n='13' type='letter'>
+<head>EPISTOLA XIII. <hi rend='italic'>Antuerpiam.</hi> GABRIELI STEYDLINO S. D.</head>
+<p>AN libenter ad te scribam? ut ad neminem debeam, aut velim magis. Ego te amavi, ex quo novi; et nunc amo, puro et singulari quodam affectu, quem debere me profiteor Ingenio tuo, Modestiae, Eruditioni: et tum demum desinam,</p>
+<l>Quo die Orcus ab Acheronte mortuos amiserit;</l>
+<p>id est, cum tu amoris caussas. O solidum et potens vinculum, nec sanguinis viribus inferius, quod Virtute nectitur! <hi rend='italic'>Hoc etiam</hi> (utar Valerii verbis) <hi rend='italic'>certius et exploratius, quod illud nascendi sors fortuitum opus; hoc uniuscujusque solido judicio incoacta voluntas contrabit.</hi> Vnde cum sanguinis jure amicum accipiam; Virtutis, faciam: maiori constantiâ conservandus est, quem sponte elegi, quam necessario quem admisi. Quia alterum aequi ratio, alterum etiam decori postulat. Itaque vides in quo gradu sim, imo in quo tu mihi: ut me ipsum Virtutemque amare desinam, ni te pergam, qui tam constanter meque Virtutemque amas. Bene vale: et Clariss. Viris, ABRAHAMO ORTELIO, et IOANNI BOCHIO salutem nuncia. Mediolani, Pridie Kalend. Februarij. oo. IC. XCVIII.</p>
+</div2>
+<pb id='s022' n='22'/>
+<div2 id='PuEL.01.14' n='14' type='letter'>
+<head>EPISTOLA XIV. <hi rend='italic'>Ticinum.</hi> HENRICO FARNESIO V. C.</head>
+<p>MAGNA mihi semper cupiditas fuit cognoscendi et compellandi doctos: inter eos te vel maxime Clarissime FARNESI, quem recondita quaedam et prisca eruditio inter aevi nostri primos esse voluit, Principibus gracum, vulgo venerabilem, omnibus nocum. Et ambitiose fortassis; utiliter tamen tibi tali innotescere cupiam, quia sine studiorum emolumento aliquo Doctorum hominum amicitia nec contrahitur, nec colitur. Nam ut illi, qui per Solem ambulant, aut colorem mutant, aut urentem sentiunt calorem: sic dum consuetudine Grandium utimur, aut dotes quasdam amando in nos derivamus, aut desiderium aliquod concipimus admirando. Tu igitur Vir Clarissime in Amicitiam tuam me admittes; cuius velut tesseram ANALECTA ista habe. si non ubique probi saporis vigor, et nidoris gratia; alicubi tamen erit. nec tu, si per partes singula fercula non probas, universa et junctim posita spernes, cum Plinio cogitans: <hi rend='italic'>In ratione conviviorum, quam vis a plerisque cibis singuli temperemus, totam tamen coenam laudare solemus: nec ea, quae stomachus noster recusat, adimunt gratiam illis, a quibus capitur.</hi> Vale. Mediolani, v. Non. Majas. oo. IC. XCVIII.</p>
+</div2>
+<pb id='s023' n='23'/>
+<div2 id='PuEL.01.15' n='15' type='letter'>
+<head>EPISTOLA XV. <hi rend='italic'>Patavium.</hi> IO. VINCENTIO PINELLO, <hi rend='italic'>Viro Perillustri.</hi></head>
+<p>EXSPECTARE te ANALECTA mea, Perillustris Vir, gaudeo: etsi non subdolere quoque non possum. Gaudeo, quod iudicium tuum experturus sum; cui si probabor, non temere spem concipiam alicuius famae: si improbabor, fructum capiam benevolae correctionis. Non subdolere autem non possum, petitione me tuâ praeventum, ansam amisisse offerendi; modum fortasse demerendi. Non id quidem pretio aut valore huius scripti, quod per se exiguum; sed promptitudine animi in te mei et cultus. Nunc ergo quem dare volui librum, exsolvo: debere enim videor, quem tam avide petis; ut desiderium merear, quo petis. Salve magnum Italiae decus. Mediolani, X. Kal. Iun. oo. IC XCIIX.</p>
+</div2>
+<div2 id='PuEL.01.16' n='16' type='letter'>
+<head>EPISTOLA XVI. <hi rend='italic'>Lovanium.</hi> HERIBERTO ROSWEYDO <hi rend='italic'>Societ.</hi> IESV, S. D.</head>
+<p>HACTENUS silui; sed, si veram caussam quaeris, fiduciâ quâdam amoris. Vt oblivionem tui dicas, cave sis. Ego te unum cogito, te unum desidero, et hoc magis, quia longinquum. Interdiu et internoctu mihi dulcissima tua imago obversatur: inter legendum, inter scribendum. Nihil rectum, nihil pudicum mihi stilus expressit, de quo, post conatum meum, censuram tuam non finxi: nihil aut amoenius
+<pb id='s024' n='24'/>
+lectu, aut difficilius intellectu comperi, cuius te participem judicemque non optavi. Et sane nonne debui? Gratiam hanc refero, ut, postquam pedem sine manuductore ponere didici, manuductoris tamen auxilio me delectari demonstrem. Itaque fiducia fuit mera amoris: amoris autem puri et veri, quo me prosequeris, quoque ego te meritissimo prosequor; non solum quia me amas, sed etiam quia amari tu dignus, ob tot insignes elegantissimi ingenii dotes: quarum etsi laudem mavis in conscientiâ, quam rumore ponere; patieris tamen, ut quae a te sine laudis affectatione praestantur, citra adulationem a me quoque praedicentur. In nefario aliquo peccatum sine peccato damnamus: in bono et studioso homine virtutem celebrare liceat. Absit, ut cujus specimen in me ipse affectem, ejus encomium in alio fugiam. Quid igitur est? virtutes tuas laudo? merentur: te ipsum? amor suadet. ex virtutibus autem hic amor nascitur, qui cum honestus, laus quoque honesta, quae inde procedit. Sed de his abunde. Agellium resumpsi: in quo lib. II. cap. XXII. de vento lapige haec vide: <hi rend='italic'>Partum autem sunt, qui pro octo XII. faciunt, inter hos, quatuor, in media loca inserentes, cum meridie septentriones: eâdem ratione, quâ secundi quatuor intersiti sunt inter primores duos apud orientem occidentemque.</hi> Nebula hunc locum tenet; nec quicquam video. Ingenii quodam radio eam pellere posse videor: tentabo, donec tu oreris. <hi rend='italic'>Inter hos</hi> ferri principio nequit. Quorsum enim referas? ad XII? falsum est: ad VIII? remotum, imo improprium est. Duo Manuscripti quos vidi, <hi rend='italic'>ternos</hi> referunt: ex quo adjutus editione vulgari <hi rend='italic'>internos</hi> efformabam, non intolerabili sensu. Veram tamen lectionem FVLVI VRSINI
+<pb id='s025' n='25'/>
+liber suppeditat, in quo est <hi rend='italic'>Tertios:</hi> et conjungam: <hi rend='italic'>Tertios quatuor in media loca inserentes.</hi> Nam in hoc A. gellii loco <hi rend='italic'>quituor primos, quatuor secundos, quatuor tertios</hi> reperio. <hi rend='italic'>Quatuor primi,</hi> a quatuor limitibus sive regionibus Coelispirant: Eurus, Auster, Aquilo, Favonius: quos et Fabius agnoscit lib. XII. cap. X. <hi rend='italic'>Sicut quatuor gen raliter ventos a totiem mundi cardinibus accepimus flare.</hi> Iam vero <hi rend='italic'>Quatuor secundi,</hi> ab Ortu Occasuque Solititiali, atque Brumali: Aquilo, Vulturus, Gaurus, A fricus. <hi rend='italic'>Quatuor tertii</hi> in media loca inseruntur, <hi rend='italic'>cis Meridie</hi> (ut Agellius ait) <hi rend='italic'>Septentriones.</hi> (rescribe, ut sententia constet, <hi rend='italic'>cum Meridie Septentrioneque) eadem ratione, quâ secundi quatuor intersiti sunt inter primores duos, apud Orientem Occidentemque.</hi> Primores duos vocat binos e quatuor primis, non Eurum et Favonium duntaxat, quod verba illa, <hi rend='italic'>apud Orientem Occidentemque</hi> incauto imponant; sed promiscue inter Eurum et Austrum: Eurum et Aquilonem: Favonium et Austrum: Favonium et Aquilonem. inter quos, eâdem ratione sive distantiâ, quatuor primi cum Meridie Septentrioneque locantur, quâ secundi quattuor apud Orientem Occidentemque. Par enim intervallum est ab AEquinoctiali in alterum Tropicorum; et a Polis ad circulos Polares: si nostram hodie costitutionem sphaerae sequimur. Quae omnia ad schema aliquod ventorum examinanda sunt. Agellius deinde de peculiaribus Ventorum nominibus agens, quae vel a loco, vel a caussâ aliqua imponuntur, aît: <hi rend='italic'>Nostrinamque Galliventum exsuâ terrâstantem, quem saeuissimum patiuntur, Circium appelannt, a turbine, opinor eius, ac vertigine: <gap desc='Greek word(s)'/> ex ipsius Apuliae orâ proficiscentem quasi finibus, Appuli eodem quo ipsi nomine Iapigem. dicunt.</hi>
+<pb id='s026' n='26'/>
+Manuscripti variant: et leviter quoque H. STEPHANI editio, in quâ est: <hi rend='italic'>eodem et ipsinomine.</hi> FVLVI. liber: <gap desc='Greek word(s)'/> <hi rend='italic'>exipsius Apuliae orâ proficiscentem Apuli eodem quo ipsi sunt nomine Iapygem dicunt.</hi> Recte, <hi rend='italic'>quo ipsi sunt:</hi> Ex Solino enim scimus, Apuliae populos, Iapyges a Iapyge Daedali filio dictos. Sic Marcianus Capella lib. VI. <hi rend='italic'>Iapygas Iapyx Daedali filius condidit.</hi> Hinc ipsa regio Iapygia, et in eâ urbs quoque Iapyx. Animadvertere autem mihi videor, Agellium non <hi rend='italic'>finibus,</hi> sed <hi rend='italic'>sinisbus</hi> scripsisse: idque Apulejo Notore qui ista de ventis, aut ex Favorino, unde Agellius; aut ex ipso Agellio refert, et <hi rend='italic'>sinum</hi> nominat, lib. de Mundo. <hi rend='italic'>Horum nomina</hi> (ventorum) <hi rend='italic'>plerique commutant de loco vel similitudine aliquâ: ut Galle Circium a turbine eius et vertice: Apuli Iapygem ex Iapyge sinu, id est, ex ipso Gargano venientem.</hi> Addit Apuleius: <hi rend='italic'>Hunc Caurum esse, manif sium est. nam et exocciduo venit, et Virgilus eius sic meminit:</hi></p>
+<lg>
+<l>Illum inter cedes pallentem morte futurâ,</l>
+<l>Fecerat ignipotens undis et Iapyge ferri.</l>
+</lg>
+<p>Agellium compone, et vide quaeso an consentiat. Scribit: <hi rend='italic'>Eum esse propemodum Gaurum existimo nam et est occidentalis, et videtur adversus Eurum stare. Itaque Virgilius Cleopatram innavali proelio in AEgyptum fugientem vento Iapyge ferri ait.</hi> Plura videbis; imo totum hoc caput in Apuleio expressum; ut frustra prosequar. Quae scripsi ad tribunal tuum defero; ut judices, BARCLAYO meo in consilium adhibito; cui tantum amor permittit, ut abire a sententiâ meâ possit. Amiculos illos nostros salvos esse cupio: te inprimis, quem inter primos amo. Non omitto Reverendum et optimum virum, P WIRINGVM, cui vel me tacente dicenda tibi salus. Mediolani; XVII. Kal. Sep. oo IC. XCIIX.</p>
+</div2>
+<pb id='s027' n='27'/>
+<div2 id='PuEL.01.17' n='17' type='letter'>
+<head>EPISTOLA XVII. <hi rend='italic'>Mediolanum.</hi> GVILIELMO HVYSMANNO. S. D.</head>
+<p>MITTE quaeso solicitum sermonem istum et anxium: Labantur scio occasiones, et frigescat paullatim instituti nostri ratio, nisi illîc in re praesenti adsim. Itaque veniam, etsi aegre me divelli Illustrissimus meus patietur: veniam, et operam amicabilem dabo. De hospitio ne urge: sed si me amas, arbitrii mei hoc facies, ut divertam ad HVYSMANVM meum, vel non divertam; gratior futurus, si meâ sponte venero: haud injurius, si jure meo emansero. Sed totum hoc componet ipsa</p>
+<lg>
+<l><gap desc='Greek word(s)'/></l>
+<l><gap desc='Greek word(s)'/>,</l>
+<l><gap desc='Greek word(s)'/>.</l>
+</lg>
+<p>Ad Principem scripsi; caussam tuam egi: quod restat, coram experiar. Vale vir amice, cum tuis. V. Kal. Quinct. oo. IC. XCIIX.</p>
+</div2>
+<div2 id='PuEL.01.18' n='18' type='letter'>
+<head>EPISTOLA XVIII. <hi rend='italic'>Romam.</hi> MARCO DORNIO, SOCIET. IESV, S. D.</head>
+<p>AMICIS vale dixeram, ut in Italiam irem; et ad telitteras ab HERIBERTO ROSVVEYDO, tum quoque munuscula quaedam a R. Patre HENRICO SOMMALIO, ad P. BAPTISTAM A COSTA ferenda accepi: quibus sarcinulas meas gravari libens passus sum; sive eos respiciam, qui miserant, sive eos, ad quos miserant. quorum alteros officio isto remunerari studui, alteros demereri. Cum de inde in Bataviam me referrem, ut florentissimam Provinciam, et
+<pb id='s028' n='28'/>
+qui in eâ hodie lucet, Litrerarum Solem viderem, dies plures consumptisunt; iterque in adultum paene Septembrem procrastinatum. Quod initium fuit, hujus morae. Deinde difficultas profectionis spissigradissimum me fecit, tardiorem</p>
+<l>--- quam corbitae sunt in tranquillo mari.</l>
+<p>Tum periculum pestis per Germaniam longe lateque saevientis tanquam erronem.</p>
+<l><gap desc='Greek word(s)'/>.</l>
+<p>Tandem, ad lacum Larium accepto Hygeiae symbolo, Mediolanum processi, ubi ab ipso Principe jussus subsistere, inter commorandi et proficiscendi dubitationem hactenus haesi. Interea liberare fidem meam in votis fult, et quae acceperam, transmittere, sed quaesivi integram tamen ferentis gratiam mihi reservare. Frustra: quia confirmata mea mora est. Quare cum indice a me habete, quicquid diligentiae meae commissum est: gratiamque tribuite, si non quod cito habeatis, saltem quod secure. Mediolani, v. Non. Maii oo. IC. XCIIX.</p>
+</div2>
+<div2 id='PuEL.01.19' n='19' type='letter'>
+<head>EPISTOLA XIX. <hi rend='italic'>Mediolanum.</hi> IOH. BAPT. SACCO V. C.</head>
+<p>LIBRVM. litterasque accepi, legi, et fructum aliquem ex illoetiam collegi. Marem se MARIVS, et litterarum hoc mare se probat diu navigasse. Rectum iter si non tenuit semper, conatus est: idque laudi quoque tribuendum, inter tot scopulos et vada. Vt coelo obscuro difficilis navigatio, et cum <hi rend='italic'>--- inhorruit unda tenebris:</hi> sic scriptio aetate malâ, nec uno tantum malo obfuscatâ. Multa tamen per nebulam
+<pb id='s029' n='29'/>
+istam vidit, et in lucem eruit. Quid dicam?</p>
+<lg>
+<l>Si albus capillus hic videtur, neutiquam ingenio est senex.</l>
+<l>Inest in hoc emussitata sua sibi ingenua indoles.</l>
+</lg>
+<p>Ego quidem haec <gap desc='Greek word(s)'/>, et hoc otium, quod perenne mihi voves, probo; sed ita tamen, ut urbem aut Italiam magis: quam dies noctesque meditor ac contemplor. Nec quietem quaero, sed motum: et a motu, studiorum aut Prudentiae aliquem fructum. Tu me consilio tuo diriges. Salve. Gallarati, Prid. Eid. Iun. oo. IC. KCIIX. ANTONIO POGGIO multarum litterarum et humanitatis viro S. adscribo.</p>
+</div2>
+<div2 id='PuEL.01.20' n='20' type='letter'>
+<head>EPISTOLA XX. <hi rend='italic'>Patavium.</hi> THOMAE SEGETO. S. D.</head>
+<p>QVIS Deus, aut casus toties nos conjungit, et quidem insperato? Vere Homerus dixit:</p>
+<l>--- <gap desc='Greek word(s)'/>.</l>
+<p>Lepidissimum uero illud, in illo Mercurii opido; nec sine numine Musarum. Inter nummularios ambulabam, et ecce dum mercatorem meum quaero, tu ipse quem Lovanii videram, Antverpiae liqueram, deferente turbâ, mihi objiceris. O spem insperatam! cumque fidem ego oculorum timerem, et ipse mihi non crederem; tu numero in amplexum meum ruens, dubitatione discussâ, gaudium utriusque complevisti. Id nunc quoque inter absentes contigit, ut per litteras invicem reperiremus, quas ad alios utrimque scripsimus, et ad alium finem. Quorsum replico? Historiam intellexi, et miratus sum: iamque carior mihi liber meus, quod index mihi tui fuerit ac repertor, imo tibi mei. Nam etsi caussam ad me traham;
+<pb id='s030' n='30'/>
+desiderium tamen utriusque si pensitem, dubium hercle sit, uter utri videatur restitutus. Ego vero faxo ejusmodi Nomenclatores a me plures habeas, qui tibi PVTEANVM non calent cantum, sed cantillent. Harmonicum enim nescio quid scribere institui: et perficiam, si diutius in hoc portu consistam, quo velut ex tempestate quâdam devectus sum. Epistolam Perillustris PINELLI pro munere habui: nec rescribam tantum, sed redhostiam. quod utinam istic coram fiat. Nam illum virum, illam urbem, et te in illâ, et apud illum pervelim videre; et videbo, ita vivam et valeam; quod utrumque ex animo tibi opto. Gallarati, IV. Eid. lun. oo. IC. XCIIX.</p>
+</div2>
+<div2 id='PuEL.01.21' n='21' type='letter'>
+<head>EPISTOLA XXI. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C. <hi rend='italic'>Historiographo Regio.</hi></head>
+<p>VOLVPE mihi, ad te scribere Vir Clarissime; et non ita pridem litteras misi, grandes illas, et spissis admodum sulcis exaratas, copioso rerum semine sparsas: sed a quibus fructum hactenus non percepi. Nisi fallor, aut meae, aut tuae perierunt. Meae, ad quas haud dubie respondisses: tuae, quas non accepi. Nunc librum mitto, quem vulgavi, ut judicium tuum experiatur: et libens mitto; quia libenti, qui Tirocinium hoc famae, scio, haves inspicere, et ingenii mei spem fulcire, amicâ et seriâ monitione. quam tanti ego facio, ut blanditiis ceterorum et laudationibus, anteponam. Censeri a quovis non sustineo: a te vero, avide etiam ambiam. nec enim
+<pb id='s031' n='31'/>
+reprehendere me potes, nisi ut instruas: ambitiosi isti, nisi ut contemnant. Carpunt, imo corripiunt, non corrigunt, siquid peccatum est; imo siquid non peccatum: ut scilicet suae desidiae medelam alienis culpis faciant, et suo nomine obscuri, alieno innotescant. Tu vero Vir Clarissime, quem Famae securitas liberum, et doctrinae excellentia verum in alienis dijudicandis facit, sine affectus ullius suspicione confirmare sententiam recte sentientis potes, vel opinionem damnare perperam conjectantis. Quod te rogo, et salvere jubeo. Gallarati, quo cum illustrissimo WOLFANGO THEODERICO Comite ALTEMSIO Patrono meo, aestus caussâ concessi. Ipsis Kal. Iun. oo. IC. XCIIX. Clarissimum V. GERARDVM CORSELIVM per te saluto.</p>
+</div2>
+<div2 id='PuEL.01.22' n='22' type='letter'>
+<head>EPISTOLA XXII. <hi rend='italic'>Mediolanum.</hi> LVDOVICO SEPTALIO V. C.</head>
+<p>ONERARE te ausim litteris ad Principem scriptis? Acjam quidem eas habes. Scin' cujusmodi? non ad pompam ornatas, aut cerussa eloquii tinctas; sed familiares, aut propemodum neglectas. quorum alterum a benivolentiâ Principis sumo, alterum a libertate meâ; imo a naturâ. Haud placet ista, in quâ industria multorum consumitur, stili ventosa enormitas. Non Epistolas plerique scribunt, id est, sermonem familiarem; sed ludibria quaedamlevium atque inanium sonorum Eosdem si audias, putes alios loqui. Sic igitur praescriptione, depressum sermonem eunt; tanquam turpe sit latine
+<pb id='s032' n='32'/>
+fari. Sed quid hoc obsecro aliud est, quam dotes quasdam Ingenii, quas probare nequeunt, velle ostentare. Prima orationis scaturigo ab animo est, aut ab ipsâ ratione: expressio vero diversitatem habet, utrum stilo adumbretur, an ore formetur; cerâ excipiatur, an aere animetur. Imo vero si recte perpendimus, et difficultatem elocutio, et suavitatem atque laudem majorem habet. Stilus enim limamscribentis admittit, et correctionis patiens est: sed</p>
+<l>--- nescit voxmissare verti.</l>
+<p>Stilus encomium suum a pronuntiatione trahit: vox sine stilo commendabilis est. Sed ut isthuc redeam, esse quosdam gradus litterarum non nego, aliterque de plebe aliquem, aut amicis; aliter virum magnum, atque inprimis Principem compellandum. hîc surgere dictionem aliquantum sinam; nec tamen penitus abire, pro re et materie subjectâ. Id feci: et apud te nunc quoque facio. Litteras tu ipse Principi dato, sic felicius dandas: cum plus praesidii in auctoritate dantis, si tu dederis; quam in conatu scribentis: etsi non alienus scripsero. Vale doctissime, et amicissime vir. Gallarati, XII. Kal Quinct. oo. IC XCIIX.</p>
+</div2>
+<div2 id='PuEL.01.23' n='23' type='letter'>
+<head>EPISTOLA XXIII. <hi rend='italic'>Ticinum.</hi> GASPARI PINELLO, THEOLOGO.</head>
+<p>SALVTEM quod alieno ore nuncias, pergratum. Adjuvat enim votum mittentis, precat o dicentis. Sed reliqua ista, voce meliora erant, et epistolae includi debuerunt. Istuc ipse ex currarm: ut de universo negotio otiosius. Mihi animus rediit, et ab
+<pb id='s033' n='33'/>
+aerumnarum illâ violentâ plagâ respiravi. Quando sarcinulas colligam, et accingar? quando priscas illa sedes, illa rudera Romanae majestatis, Manes et umbras tot Herôum venerabor?</p>
+<l>Iam mens praetrepidans havet vagari.</l>
+<p>Plurimum magno illi viro debebo, si hanc mihi copiam fecerit: tibi plurimum, si impetraveris. Die crastini adero: et audies quod Retiano pugnanti adversus Mirmillonem cantari solebat: <hi rend='italic'>Non te peto, piscem peto; quid me fugis Galle?</hi> Ride, et Vale. Mediolani, VI. Fid. Sex. oo. IC. XCIIX.</p>
+</div2>
+<div2 id='PuEL.01.24' n='24' type='letter'>
+<head>EPISTOLA XXIV. <hi rend='italic'>Ingolstadium.</hi> CORNELIO PLEMPIO S. D.</head>
+<p>HEM! sic alterum tibi paene oculum evulsum vehiculi lapsu, idque in ipsa itineris metâ, et quasi desultu? Doleo dolorem tuum, imo, quia periculi securus es, risu tecum pariter deleo. Nam profecto totum hoc infortunium compendii loco habeo: nec aliter tu habebis. Praevertit enim aurigae officium, vehiculum, et seipsum vnico ejectu exoneravit. Nuncvero dum lanam ob oculum geris, et personatus incedis, vide ne veteres nobis Fastos corrigas, et Quinquatria Minuscula toto mense moveas novo exemplo: nisi tamen comitatum solennem quaeris, utsub ludo vitium celes, dum eidem mederis. Quod si ita est, accedo choro tuo, non oculos tantum, sed aures quoque velatus, ne te velatum videam: neve ab amoenis Musarum studiis transire audeam ad nescio quas fori quisquilias, et Curiae triviales nugas. Sed serione tu id scribis? an, ut soles, scommate meum
+<pb id='s034' n='34'/>
+errorem pungis? Ego vero jam tandem impetravi, ut vitatis illis vitae tranquillae scopulis, placido et recto cursu ferrer, remigio sophiae et bonarum litterarum. Quare sive exemplum formas; non reluctantem nactus es: sive, quod animadverto, expetis; effice ut sequaris. Ad magnas opes non te duco: erit tamen quod Posteris linquadius, si Fama respexetit. Magnas divitias esse puto, divitas posse contemnere: id autem aut ista, aut nulla studia dabunt. Ista inquam, quae cupidines nostras franguat, quae sapientiae prraeceptis animos componunt, quae denique vere nos homines faciunt. Tu cogita: et illud de Italiâ videndâ, cujus omnino tibi auctor sum; nec amicus, ni sim: ita multa hîc videnda et discenda, quae alibi frustra quaeras Vale. Mediolam, IV. Non. Sextil. oo. IC. XCIIX.</p>
+</div2>
+<div2 id='PuEL.01.25' n='25' type='letter'>
+<head>EPISTOLA XXV. <hi rend='italic'>Mediolani.</hi> ANDREAE HERBORTO, N. <hi rend='italic'>Iuveni.</hi></head>
+<p>TESSERAM non moror; amor in me tuus et in litteras liquet. Amor, inquam, litterarum caussâ in me susceptus; meâ, in litteras. Ex quo duplicem laetitiam capio: et a semine honesti Amicitiam nostram pullulasse, et tanti me tibi videri, ut exemplum litterarum nomines. malim ut auxilium: ita enim verae laudis testimonium admitterem a meo merito, non opinione tuâ derivatam. Tu me quidem sive rumore falsus, sive etjam affectu, arbitrari majorem potes, ego tamen nonnisi me ipsum exhibere. Qui sum, videri volo: esse etjam tibi
+<pb id='s035' n='35'/>
+usui, quam videri. Si enim videor, in alterum duntaxat fructus; si sum, in utrumque redundat: tuque auctior capiendo; ego carior dando fio. Salve mi HERBORTE: et litteras a me amare perge; me a litteris. XVIII. Kal. Sept. oo. IC. XCIIX.</p>
+</div2>
+<div2 id='PuEL.01.26' n='26' type='letter'>
+<head>EPISTOLA XXVI. <hi rend='italic'>Pragam.</hi> IOANNI HOLLANTIO S. D.</head>
+<p>CAVSSAM silentii mei, tuum dico, mi Amice: ideoque, si peccatum censes, veniam errori meo concedes, ut tuo tribuas. Sed velim ne censeas. quorsum enim scriptionis illis vinculis et legibus adstringimur, strictissimi Amoris? In Amicitiâ njhil coactum est: nisi hoc unum sit, quod siquem bonâ caussâ semel amicum, perpetuo habeamus. Affectum ipter absentes quilitterarum quodam fomento alendum censent, quid nisi leviter amant? Quid nisi legem quandam imponunt, quam exigant? Hinc suspicio ex silentio: primum si sterilis scriptio est; deinde si morosa responsio. Ex suspicione autem querelae: Fidem violatam, Amicitiae foedus ruptum. Ad summam, haberi uterque incipit, qui coeperat videri. Nos fugiamus: et charitatis symbolum in affectu, non in litteris ponamus ut recte ponamus: in re ipsâ, non in signo, quod alienis quoque culpis obnoxium est, praesertim si longius mittatur. Vale, et Iurisconsulti titulo, quem recens solenniter suscepisti, felix diu fruere. Mediolani, XIII. Kal. Decemb.</p>
+</div2>
+<pb id='s036' n='36'/>
+<div2 id='PuEL.01.27' n='27' type='letter'>
+<head>EPISTOLA XXVII. IO. BAPT. SILVATICO V. C. <hi rend='italic'>Medico Mediolanensi.</hi></head>
+<p>MENANDER in scenâ olim dictavit:</p>
+<lg>
+<l><gap desc='Greek word(s)'/>,</l>
+<l><gap desc='Greek word(s)'/>.</l>
+</lg>
+<p>Mihi vero, per hosce dies, <gap desc='Greek word(s)'/>. quippe in Causo decumbenti; <gap desc='Greek word(s)'/>. parum Constantiâ utenti, opus et Medico et Amico fuit. Medico, qui corpori; Amico, qui medicinam animo faceret. Et utrumque in LVDOVICO SEPTALIO, et CAROLO COTTA repperi. in utroque inquam, verum et Medicum et Amicum: qui utramque mei partem statu suo motam restituere felicissime coe perunt. Sic corpus, ut jam deinceps vivere possim: sic vero animum, ut contemnam. Quae hujusmodi sanatio est; ut paene praestiterit aut Amicos tantum, aut Medicos habere; ut sic vel cupiditas vivendi comitata securitatem fuisset, si nihil animum Amici correxissent: vel occasionem fati vitae invenisset contemptus, si nihil Medici corpori profuissent. Nunc etjam dum a duplici vulnere respiro, bis obligor: et sostrum Medicis meis; Charisterium Amicis debeo. Quorum si alterutrum remiserint; ostendam, pluris Medicos, aut Amicos faciam. Sed tu, obsecro, dum judicium hoc integrum est, in illam me partem signo aliquo pertrahe, a quâ ipse voles stare. Hanc Epistolam in lectulo vix a languore expressi. Prid Non. Decemb. ö. IC. XCIIX.</p>
+</div2>
+<pb id='s037' n='37'/>
+<div2 id='PuEL.01.28' n='28' type='letter'>
+<head>EPISTOLA XXVIII. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C. <hi rend='italic'>Historiographo Regio.</hi></head>
+<p>ADscribendi officium postliminio tandem revertor, et ad amicissimas tuas litteras vacillante etjamnunc calamo respondeo. Acris, et vere sonticus hic morbus fuit; cujus etjam reliquias sustineo male pertinaces. sustineo tamen; nec arte, sed morâ consumendas. Ver amoenum quando nasceris? aut cur adulta haec frigora non mitescunt? Deus dabit, ut cum ipso anno et mundo restituar. Sed tu nobis prius e languore illo trimestri evadas, ne Musae, ne litterati omnes, ne pejus ego langueam. <hi rend='italic'>Quid futurum fit, ego,</hi> inquis, <hi rend='italic'>suspicaripossum, Deus scire.</hi> Omnino: ita tamen, nequid triste aut luctuosum suspiceris. Omen absit. Publice interest, te non tantum inter vivos vivum, sed et sanum perennare. Sic votum facio: imo ut ipse ego sanus et a languore meo liber, tuum succedaneus suscipiam. Vtinam, utinam sic vicem tuam subeam! et quod tu malum fers, ego doleo; feram potius, quam doleam! minorem enim ferendo, quam dolendo poenam sustineam: cum etjam ferendo constantiae specimen, dolendo imbecillitatis exhibeam. Mediolani sum, et esse volo: Valetudo tamen facit, ut de aere mutando cogitem, et de itinere prolixiore. Quid enim si motuproficiam, et languorem hunc consumam? <gap desc='Greek word(s)'/>. Itaque exspecto dum AEolus faveat, et corbitam hanc transferat per reliquum Italiae (ut sic dicam) aequor: atque jam quidem vela expandi ad occasionem. Restat, utr udentem
+<pb id='s038' n='38'/>
+Principis, quo detineor, cum bona ejus veniâ solvam. Plura velim; sed et me quoque brevem imbecillitas facit supplebit, qui has fert, PETRVS GRASSVS, vir nostras, probus, nec <gap desc='Greek word(s)'/>. qui cum RAPHELENGIIS Italiae nonnulla loca lustravit. Antecessorem PHILIPPVM SVERJVM plurimum saluto. Valetudinem tuam cura: et, quod ipse ad te Princeps scripsit, <hi rend='italic'>parcius studiis utere, ut diutius utare.</hi> Mediolani, III. Eid. Ian. oo. IC XCIX.</p>
+</div2>
+<div2 id='PuEL.01.29' n='29' type='letter'>
+<head>EPISTOLA XXIX. <hi rend='italic'>Mediolani.</hi> HIERONYMO ET LVDOVICO SEPTALIIS.</head>
+<p>NISI prosapiam vestram, Viri Clarissimi, ob res bello fortiter gestas antiquitus nobilitatam Historiae traderent, a SEPTEM illis ALIS, quas cognomine et insignibus praefertis, patem esset. Alis, inquam, quae verae Nobilitatis, et inde Victoriae Symbosum prae se ferunt. Num meo, aut novitio aliquo commento? imo vero ritu aut usu Antiquorum: unde fidem haec verba mea trahent. Primum autem, ut omnem sermonis pompam mittam, ALAS ad <gap desc='Greek word(s)'/> transfero (etsi Plauti ille versus separare videtur: <hi rend='italic'>Sine pennis volare haut facil'st, meae alae pennas non habent:)</hi> transfero inquam, et cum <hi rend='italic'>Pennis</hi> sive <hi rend='italic'>Pinnis</hi> aio confundi. Sic Apulejus libr. v. De Asino, ubi Venus Cupidinem in crepat: <hi rend='italic'>Velim ergo scias, multo te meliorem, filium alium genituram, imo, ut contumeliam magis sentias, aliquem ae meis adoptaturam vernulis, eique donaturamistas</hi></p>
+<pb id='s039' n='39'/>
+<p>PINNAS, <hi rend='italic'>et flammas, et arcum, et ipsas sagittas.</hi> Deinde libr. VI. postquam aliquoties <hi rend='italic'>Pinnas</hi> nominavit: <hi rend='italic'>Interea Cupido amore nimo per sus, et aegrâ facie matris suae repentinam sobrietatem pertimescens, ad armile redit</hi> ALISO <hi rend='italic'>pernicibus caeli penetrato vertice, magno Io vi supplicat.</hi> Bina loca produxi: utrumque de Veneris puero, cui in altero <hi rend='italic'>Pinnae,</hi> in altero <hi rend='italic'>Alae</hi> tribuuntur: scilicet pro iisdem. Sed hoc jam obtinui: bene est: viam stratam video, per quam ad metam paucis passibus progrediar, imo ipsis <hi rend='italic'>Pinnis</hi> ferar, quas (si <hi rend='italic'>Septem</hi> fuerint) victoriam denotare contendo. cui rei probandae Commentarium veterem in luvenalem, a P. PITHAEO editum produco. is in Satvram III. ad illud <hi rend='italic'>Pinnirapi] Pinnis pavonum ornari solent Gladiatores, si quando ad pompam descendum. Pinnirapes autem dicit Lanistas, ex habitu Gladiatorum: quia post mortem Retiarit Pinam, id est, manicam rapit; ut ostendat populo se</hi> VICISSE. <hi rend='italic'>Aut ideo Pirmirapes, quia</hi> PINNAS IN GALLEIS <hi rend='italic'>habebant, ut Lucillius:</hi></p>
+<l>Cum SEPTEM INCOLVMIS PINNIS redit, ac recipic se</l>
+<p>Etjam luculentiori testimonio opus? negabit, qui corticem modo verborum, nedum nucleum ipsum distinxerit. Sed jam ad Columnam Trajani Imperatoris vos duco, ut ipsius incorruptae Antiquitatis auctoritate difficultatis pondus sustentetur. In illâ observo Equitem levis armaturae in cono galeae <hi rend='italic'>Septim Pennarum</hi> cristam; manu autem sinistrâ Palmae ramum gerentem: sed obsecro, quid aliud, quam utrobique victoriae suae signum? Apulei locam densâ caligine pressum, hac occasione libero, ex
+<pb id='s040' n='40'/>
+ex quo rem factam dijudicetis. Sub finem Apologiaes: <hi rend='italic'>Si Philosophiae honorem, qui mihi salute meâ antiquior est, nusquam minui; imo contra ubique s</hi> i CVM SEPTEM POENIS <hi rend='italic'>eum tenui: si haec ut dico ita sunt; possum securius tuam existimationem revereri, quam potestatem vereri.</hi> Desperatam scripturam COLVIVS clamat: vide an non egregie ex editione Romanâ veteri, et Mariuscripto BEMBI restituatur, et ad mentem nostram: SICVM SEPTEM PENNIS? id est, si cum victoriae signo, quo ornatus incedo ac triumpho. Quam emendationem acceptam lubens merito refero IO. MANGANO amico meo, et acerrimi judicii juveni. ISAACVS CASAVBONVS, qui eandem Apologiam recensuit, lectionem hanc etjam, sed diverso sensu deprompsit: quid si ego tibi sensum nostrum vulgari lectione? Audebo scriptionis caussâ; et Victoriae typum <hi rend='italic'>Poenis</hi> ex primam, sed breviter, et ipsius Festi verbis. <hi rend='italic'>Pennas,</hi> ait, <hi rend='italic'>Antiquos fertur appellasse</hi> PEENAS ex Graeco, quod illi <gap desc='Greek word(s)'/>, <hi rend='italic'>ea quae volucria dicant. Item easdem pesnas, ut coesnas.</hi> Ecce <hi rend='italic'>Peenas pro Poenas.</hi> Sic enim promiscue aio scribi: et POLITIANVS in Miscellaneis affirmat, se <hi rend='italic'>feelix</hi> pro <hi rend='italic'>foelix</hi> in aureo numismate observasse per E geminum ex pressum. E Quinctiliano etjam notum, Antiquos Vocalem producendam geminasse. Quod apud Nonium Marcellum legitur: <hi rend='italic'>Naeu. Lycur. Vt in venatu vitulates ex suis locis nos mittant poenis decoratos feris,</hi> videte an huc faciat. Sed Festi locum respicio, quem corruptum esse sine tormentis, ipso silentio Viri docti confessi sunt: nec respicio tantum, sed quantum ingenio possum, februo, et quod scriptum est, <hi rend='italic'>Peenas ex Graeco,</hi> etc. rescribo, <hi rend='italic'>Petnas ex Graeco,</hi> ut originatio constet: et sensus Festi sit: Quia Graeci ea quae volucria sunt, <gap desc='Greek word(s)'/> dicunt, nostri quoque Alas <hi rend='italic'>Petnas</hi>
+<pb id='s041' n='41'/>
+principio appellarunt, non <hi rend='italic'>Pennas:</hi> easdem etjam <hi rend='italic'>Pesanas;</hi> sicuti Coesnas loco Coenas, sibilo interjecto. Sed opportune Coenae mentio, <gap desc='Greek word(s)'/> desino. De <hi rend='italic'>Pennis</hi> si rectesensero, exposco <hi rend='italic'>Pennam:</hi> sin male, subibo <hi rend='italic'>Poenam.</hi> Salvete.</p>
+</div2>
+<div2 id='PuEL.01.30' n='30' type='letter'>
+<head>EPIST. XXX. <hi rend='italic'>Comum.</hi> IACOBO CALDERONO S. D.</head>
+<p>QVo malum sic repente abis? num ut sermonem condictum fugias? Scriptionem non poteris, ne si quidem Transalpinus fias, ac redeas in Belgas. Nunc quoque absens plecteris; ita non homines modo, sed ipse tibi liber Pater iratus est. Turba Bacchantium in aedes irruit: non accurris? In cellam penetravit, dolium pertudit: non succurris? Vile nunc vinum est. Anus ipsa, quam custodem reliqueras, lagena facta, et paene cloaca, quae proluitur. Peream, si per tres hos dies continuos sobria unquam fuit. Libero votum feci, ut ad mentem illa redeat: et tu ad nos. Mediolani, ipsis Liberalibus.</p>
+</div2>
+<div2 id='PuEL.01.31' n='31' type='letter'>
+<head>EPISTOL. XXXI. <hi rend='italic'>Mediolani.</hi> IOH. BAPT. SACCO V. C.</head>
+<p>O Diversa hominum studia et vota!</p>
+<p><hi rend='italic'>Liber adest, festisque fremunt ululatibus agri:</hi></p>
+<lg>
+<l>Turba ruit, mistaeque viris matresque, nurusque.</l>
+<l>Et vulgus, proceresque ignota ad sacra feruntur.</l>
+</lg>
+<pb id='s042' n='42'/>
+<p>Ego in seriis sum; et tamen sic quoque sine hederâ, vino, libo <gap desc='Greek word(s)'/> ; nec minori religione, quam ipsi olim Orgiophantae. Dum lapides et Antiquitates hodie lustrarem, Libero Patri sacrum secrevi, et ab interitu vindicavi. Hoc ipsum ad litteras veteres, ni fallor revocatum, tibi mitto, ut de pretio et aetate judices. Ejusmodi esse censeo, ut si restitutum concedis, industriae praemium: si negas, scriptionis laudem merear. Imo quid moror? si restitutum est, aetas pretium probat: si subisitutum, pretium aetatem supplet. Comoediam, vel potius centonem ex Plauto concinnavi, qui nomen et argumen tum trahit ab eodem festo. Hunc exercendae Iuventutis caussâ, simul et oblectandae crastinâ luce dabo: veni, actionem judica, et LIBERALIA isthaec ad Voti formulam felicia transige: ego ad Autumnum transiens MEDITRINALIA celebrabo, ut vetus illud usurpem: NOVVM VETVS VINVM BIBO, NOVO VETERIMORBO MEDEOR. III. Nonas Martias. oo. IC. XCIX.</p>
+</div2>
+<div2 id='PuEL.01.32' n='32' type='letter'>
+<head>EPISTOLA XXXI. <hi rend='italic'>Callaratum.</hi> WOLFANGO THEODERICO, <hi rend='italic'>Comiti Altemsio.</hi></head>
+<p>LVBENS ad te, et Larem tuum reflecto animum, Illustrissime Comes, ut sermones nostros, studia, ambulationes, imo aegritudinem ipsam regustem, quâ velut sale quodam suavissimae illius consuetudinis memoria adsperla fuit, ut duraret. Reflecto inquam, et sic nunc magis honorem meum
+<pb id='s043' n='43'/>
+intelligo, postquam accepi: minus mercor, postquam intelligo. Non amici tantum loco sed paene fratris fui, rerum consiliorumque tuorum consors. In dicta, et facta vocatus sum; in ludicra et seria: jus dicendi, decernendi accepi. Et a quo? Hic sane te ipsum et stirpem aestimare debeo: et hinc honorem datum. Teipsum, quem inter Principes admirari facilius possum, quam laudare. Stirpem, cujus radices aliquas proximas stilo non invitus persequor: ut per rectam, ut sic dicam, lincam decora eorum lustrem, qui te nobis et Reip. dederunt. A MARCO SITTICO Proavo tuo initium capio. Is bello inter CAROLVM V. et FRANCISCVM Regem orto, e Caesareanarum partium ducibus fuit, manu strenuus, animo invictus: praesertim quando periculum aliquod, aut discrimen. In Ticinensi pugnâ Legionem Germanicam, robur atque unicum fulcrum exexercitus Gallicani ductu auspicioque suo, et Collegae GEORGII FRONSPERG II dissipavit atque contrivit, cladis hostilis, victoriaeque Caesareanae auctor. Sequitur Avus WOLFANGVS THEODERICVS, summae auctoritatis et consilit Vir, qui Majores suos et Posteros cogitans, uxorem duxit CLARAM MEDICAEAM, sororem IOASNIS ANGELI (qui summus Pontifex postea creatus, nomen P II Quarti, habuit;) et IOANNIS IACOBI Marchionis Mariniani, bellatoris sine aemulo clari. Iam Pater IACOBVS HANNIBAL, heres acaemulus Virtutis Majorum, solus illustre stemma suum fecisset, si gloriae sterile accepisset. Prima militiae rudimenta Avunculo suo IOANNI IACOBO MEDICAEO optimo, ut dixi, Duci, approbavit: ita ut in ipsis castris
+<pb id='s044' n='44'/>
+perquam brevissime adoleverit quibuscunque periculis belli. Publice hoc ipsum agnoscimus; sed et alter ejus Avunculus IO. ANGELVS MEDICAEVS, ille Princeps Sacrorum testari voluit, a quo Ecclesiastici Exercitus summus Imperator crearus est. Etjam me diffundo? Militem Germanum in Africam, pro Rege PHILIPPO II. duxit; et rebus feliciter gestis, reduxit. In Belgicâ nostrâ eidem Regi, sub IOANNE AVSTRIO, et ALEXANDRO FARNESIO, Camillis nostri aevi, cum laude sui nominis bellavit, cum Patriae nostrae bono. Antverpiae in crepero illo rerum statu Praefectus, excelsi, et inconcussi animi signa dedit. Trajectum ad nostram Mosam, urbem pectoribus Romanis insigniter munitam, diu acriterque defensam, militum suorum vi penetravit, et gloriae Farnesianae principium dedit primus inter tot fortissimos duces. Vere scriptum est, <hi rend='italic'>Fortes creantur fortibus et bonis:</hi> nec possidere tantas virtutes Pater ille tuus potuisset, nisi tam insigniter ercus. Sine ambitione dicam: Mars haud ausit hiscere, neque aequiparare suas virtutes ad vestras. Quod in milite Plautinâ servus de hero per ludum jactat,</p>
+<l>Meri bellatores gignuntur, quas hic praegnantes fecit,</l>
+<p>id de vobis in proverbium apud Suevos, Gentem vestram, jam olim abiit, <hi rend='italic'>Altemsios nasci armatos.</hi> Armatos, sed ad sedandos publicos istos motus, non excitandos: ad comprimendos, non fovendos, quibus concutitur identidem et conteritui Christianus Orbis. Quod si ad Matrem, alteram originis tuae partem te flectis, HORTENSIAM BORROMAEAM, ecce nova Virturum materia et seges. Ea profecto quaedam quasi Pallas familiae
+<pb id='s045' n='45'/>
+suae fuit, insignis castimoniae et prudentiae femina dicam, an heroina? filia GIBERTI Comitis BORREMAEI: Matre MARGARITA MEDICAEA, aviae tuae paternae sorore nata; Soror ipsa magni et sanctissimi Antistitis illius CAROLI BORROMAEI, mortalibus in exemplum dati Modestiae ac Virtutis. Quid tu autem Illustrissime Comes?</p>
+<lg>
+<l>Non tua Majorum contenta est gloria famâ,</l>
+<l>Nec quaeris, quid quâque index sub imagine dicat;</l>
+<l>Sed Generis priscos contendis vincere honores:</l>
+</lg>
+<p>Elegantiam in Litteris. prudentiam in consiliis: fortitudinem in periculis. Litterarum quidem, scientiarumque omnium non te amor solummodo, sed cognitio quoque ornat. Prudentiam supra aetatem cum miraculo possides, usu acquisitam et multâ lectione. Ad bellum et pericula te voluntas, necdum occasio duxit; summa quoque facturum, si duxerit. Nec ultra in laudes tuas eo, cum et tua generosa modestia, et mea me ingenua verecundia refraenent. Haec autem calentis calami impetu effusa, voluntati meae testandae suffecerint, et observantiae promptissimae, quam ALTEMSIAE familiae aeternum consecravi. Mediolani. XI. Kal Majas. oo. IC XCIX.</p>
+</div2>
+<pb id='s046' n='46'/>
+<div2 id='PuEL.01.33' n='33' type='letter'>
+<head>EPISTOLA XXXIII. <hi rend='italic'>Venetias.</hi> THOMAE SEGETO S. D.</head>
+<p>FAc sentiam Muriani te esse (est hoc pro illo tuo; <hi rend='italic'>Fac sentiam Patavii te esse;</hi>) ut sic litterarum hoc officium mutuum sit, non mutum. Delectationem equidem ex eleganti tuâ scriptione capio: et hanc vicissim reddo, quod delecter. De Censorino quod gratularis, admodum in crepero est: magis, si spes adempta Manuscripti, quo omnino mihi opus, si quid ex fide atque auctoritate velim praestare. Libros cusos sequar? in labyrinthis errem Conjecturis agam? temerarium ac fallax. Quae tanta ingenii fax, quae doctrinam spissimâ nebulâ pressam illustret? Sub tot seculorum onere non verba tantum quassata aut sententias video, sed universum corpus laesum. Ego tamen manus jam admovi: et quaedam etjam vulnera coiverunt: quod restat, a libris petendum; ut DIESNATALIS ille solennis fiat: et CENSORINVS censeatur. Clarissimum BENEDICTVM GEORGIVM ex me saluta. Patavii, III. Eid. Quinct. oo. IC. IC.</p>
+</div2>
+<div2 id='PuEL.01.34' n='34' type='letter'>
+<head>EPIST. XXXIV. <hi rend='italic'>Mediolanum.</hi> PETRO CANTONIO I. C.</head>
+<div3 id='PuEL.01.34.01' n='1' type='section'>
+<p>BREVIS superioribus litteris fui, et nuncero, non defectu, sed copiâ puri amoris; quem dum impetu quodam per animi hunc canalem conor effundere, parce et guttatim tantum stillo haud aliter, quam si quis simpulum aut bombylium rapide
+<pb id='s047' n='47'/>
+raptimque invertat, ut evacuet. Rebullit enim in orificio liquor, et impedimentum sibi creatac obsistit: pariter omnino mihi scriptio ad Amicum. quam tamen (si serio perpendimus) sic brevem esse praestat, quam fucatam. Spissis et glomeratis verbis amorem qui vestiunt, amici non sunt, nisi sub personâ: latet, si penetras, simulatio; nec sine fuco veniunt stipatae illae voces. Mihi affectus in propatulo nimium non prostat; sed latet ardetque in imo pectoris penetrali: nec densos illos verborum fumos de tegillo meo mitto; sed scintillas et stricturas animi ardentis. Ita naturâ meâ amo: ita amorem probo magis quam ostento; probare autem non possum, nisi ut ostentem. Consilium, operam, studium parcepromitto, liberaliter praesto promitto rogatus, praesto meâsponte, ut potius dedisse, quam solvisse beneficium videar, si solvero quod non promisi. Sed ecce ut paene longus fio, dum brevitatem excuso: et tamen fiam potius, quam quâ gratiâ scribo, id pratermisisse videar. I. LIPSIVM frustra deinceps exspectamus: iter suum quod hactenus distulit, jam planesustulit et caussas habet, Valetudinem, aetatem ipsum iter. Valetudinem, quae infirma, nec pro semisse ejus viae: aetatem, quae ingravescit iter, quod longiusculum pro Valetudine et aetate. Excusemus. violenti enim hi Tribuni decreto Lipsiano intercesserunt, a quibus ad Populum provocatio non est. Inscriptionem hanc veterem, Parmae, ab ANDREA NAVGERIO, Anno oo. IC. XXIV. repertam: nunc inter schedas BEMBI superstitem, ad te mitto, ut lucem aliquam ab explicatione tuâ capiat.</p>
+</div3>
+<pb id='s048' n='48'/>
+<div3 id='PuEL.01.34.02' n='2' type='section'>
+<head>D. M.</head>
+<p>L. AEMILI. VICTORIS</p>
+<p>QVIPRIDIE NATALEM SVVM.</p>
+<p>VICESIMVM ET SECVNDVM</p>
+<p>PRVNA IN PENSILI POSITA VR</p>
+<p>GVENTE PATO SANVM IPSE</p>
+<p>NECAVIT SE. L. AEMILIVS</p>
+<p>VICTOR PRINCIPALIS ET AELIA</p>
+<p>VENERIA. FILIO PIENTISSIMO</p>
+<p>ET SIBI.</p>
+</div3>
+<div3 id='PuEL.01.34.03' n='3' type='section'>
+<p>Mihi quidem <hi rend='italic'>Pruna in pensili</hi> non lucet. Quid si dicam, AEmilium istum malo aliquo fato mori coactum, innocentiam suam igni et incenso thure Diis testatum esse, atque ita ipsum se necasse? Ad Thuribulum enim sive acerram, Graecis <gap desc='Greek word(s)'/>, <hi rend='italic'>Pensile</hi> illud, scilicet vas referendum videtur. Dio conjecturam meam juvat, in Hadriano scribens, quem Latine exprimo: <hi rend='italic'>Sed Severianus</hi> (Spartianus Servianum nominat, quem nonagenarium Hadrianus mori coegit,) <hi rend='italic'>prius quam jugularetur, ignem poposcit, atque incenso thure, Vos,</hi> inquit, <hi rend='italic'>O Dii testor, innoxium me esse.</hi> Ego autem nihil affirmo, sed sententiam tuam exspecto ut sequar. Patavii, Prid. Eid. Sext. oo. IC. IC.</p>
+</div3>
+</div2>
+<pb id='s049' n='49'/>
+<div2 id='PuEL.01.35' n='35' type='letter'>
+<head>EPISTOLA XXXV. <hi rend='italic'>Patavii.</hi> CAROLO LAVRINO S. D.</head>
+<p>HEVS tu, abjice moram, et pransum ad me veni. Serius voco? si pransus, tamen veni. Epulas ponam, quas Esurio inhiet, nec Saturio spernat. Amplius non invito, ne invitum; imo non invito, ne ursisse videar. Nam si coactus veneris, vereor ut stomachi tui indignationem mensa mea sustineat: si non coactus, famem ut extinguat. Itaque si esuris, cogere non te audeo: si (ignosce novo verbo) saturis, non debeo. Veni tamen; nec Esurio, nec Saturio: ad sermonem, non ad prandium, quem bene coctum, lepide conditum dabo. Salve.</p>
+</div2>
+<div2 id='PuEL.01.36' n='36' type='letter'>
+<head>EPISTOLA XXXVI. <hi rend='italic'>Venetias.</hi> ANTONIO TACHIO.</head>
+<p>LANVGINEM tuam mi TACHI, sive elegantissimi ingenii tui Florem, Phoebo, et Famae debes. Tu cave refrageris. versus universi ejuscemodi sunt, utsupra calumniam stare videantur. Epigrammata inspicio? ecce acumina et lepores: Parodias? Iudicium et numeros: Varia? majestatem atque delectationem. Quid dicam? dictantibus Gratiis hanc Triadem exsculptam videri. Ad argumentum me trahis, et ipsam Poematis medullam? Fateor, calorem alibi fervidae Iuventae non latere, et amoeniores quosdam ignes. quid tamen est? si manum mentemque propius admoveam, lucere potius quam urere sentiam. Ipsum qui nec lumen
+<pb id='s050' n='50'/>
+laetioris animi patiuntur, Noctuae sunt, et Musis Charitibusque infensi. Longe aliter Philosophus ille Afer: <hi rend='italic'>Versus,</hi> inquit, <hi rend='italic'>tanto sanctiores sunt, quanto apertiores, tanto pudicitus compositi, quanto simplicius professi. Namque id genus omnia dissimulare et occultare, peccantis; profiteri et promulgare ludentis, est. Quippe naturâ Vox innocentiae, silentium maleficio distributa.</hi> Quid igitur veles aut nubas? si amare malum, non tam suspicionem anioris dedisse, quam risisse amantis nexum videberis, qui sic aperte de amore: et, si dederis, nihil meruisse reprehensionis, cum Poetam constet, si amans scripserit, veniam affectui; si liber, laudem ingenio depactum. Amori enim ignoscendum est, siquid liberius luseris: Musis tribuendum, siquid lepidius Quod siqui tamen tam severo et iniquo judicio sint, ut morum specimen a versibus petant, et juveniles lepores, senili severitate constringant, eorum tu censuram in BONA AETATE non curassis, illud Catulli tui occinens:</p>
+<lg>
+<l>Nam castum esse decet pium Poetam</l>
+<l>Ipsum, versiculos nihil necesse est.</l>
+</lg>
+<p>In quam sententiam hos etiam Phaleucos meos adjungo, et postibus libelli tui adfigo.</p>
+<lg>
+<l>Qui faces foculosque amas AMORIS,</l>
+<l>Et dulceis VENERIS videre risus,</l>
+<l>Adesto: heic AMOR urit, et decora</l>
+<l>Ridet purpureis VENVS labellis,</l>
+<l>AEtas grandior ausit increpare?</l>
+<l>Nil frontem moror aridis striatam</l>
+<l>Sulcis, nil capitis nives, nihilque</l>
+<pb id='s051' n='51'/>
+<l>Barbae canitiem: quit esse CASTVS</l>
+<l>In LANVGINE AMOR VENVSQ. CASTA.</l>
+</lg>
+<p>Patavii VII. Kal. Augusti. oo. IC. IC.</p>
+</div2>
+<div2 id='PuEL.01.37' n='37' type='letter'>
+<head>EPISTOLA XXXVII. <hi rend='italic'>Ticinum.</hi> Henrico Farnesio V. C.</head>
+<p>INTER me et LAVRINVM meum, Vir Clarissime,</p>
+<l>--- <gap desc='Greek word(s)'/></l>
+<p>Caussa, uter te magisamet. Tu id sentis? tum judex esto, et pronuncia, imo si non sentis: ut tuo potius nostri, quam nostro tui amore in veterem concordiam redigamur. Ita enim et victorem indicaveris, et victum sedaveris, utrumque devinxeris. Vale, et litterulis nos vise: me apud Perillustrem IO. VINC. PINELLVM: LAVRINVM apud me. Patavii, XIII. Kal. Septemb. quem nefastum colo, oo. IC. XCIX.</p>
+</div2>
+<div2 id='PuEL.01.38' n='38' type='letter'>
+<head>EPISTOLA XXXVIII. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C. <hi rend='italic'>Historiographo Regio.</hi></head>
+<p>DE Censorino quid speres? tumulum ossibus, non medelam vlneribus paro; ac plane EMORTVALEM facio ex NATALI DIE. Nam Scriptor ille haud arger, sed fato functus, pulvereis et cinerosis frustis non fructum ingenii sui, sed desiderium reliquit. Quod si tamen restitui e latenti aliquo capulo corpus scriptionis possit, reducere ab inferis spiritum ausim, membraque postliminio mortis animare. Sed quoniam in sermone hoc funerario sum,
+<pb id='s052' n='52'/>
+ab imagine ad historiam calamum transfero. RICCOBONVS vixit: in defuncti locum vocari te a Senatu Veneto alunt; et sunt, qui transactum suspicantur; qui nisi falluntur, insigniter ipse fallor. In Apulejo curiosa dubitatio me nuper cepit: unde <hi rend='italic'>Asini Aurei</hi> Inscriptio, unde praenomen <hi rend='italic'>Lucius.</hi> Hoc existimabam in Metamorphoseon libris fictum, adhaesisse ceteris scriptis. Veterum quis <hi rend='italic'>Lucii</hi> meminit? Illis <hi rend='italic'>Apuleius</hi> citatur, <hi rend='italic'>Apulejus Afer, Apulejus Madaurensis, Apulejus Platomcus.</hi> Et ipse Apulejus lib. IV. Florid. non <hi rend='italic'>Lucium</hi> sed <hi rend='italic'>Aputejum,</hi> se dicit: contra in Metamorphoseon libris non <hi rend='italic'>Apulejum,</hi> sed <hi rend='italic'>Lucium</hi> ubique. ut luce liquidius sit, a <hi rend='italic'>Luciano</hi> live <hi rend='italic'>Lucio</hi> Luciani, hunc <hi rend='italic'>Lucium</hi> nostrum esse. Verum igitur Scriptoris nomen, aut APVLE II AFRI esse contendam, et ubique praefigam, aut nova Nominalia celebrem lam vero <hi rend='italic'>De Asino Aureo</hi> titulus, haud dubie a Miniatore est. qui litteteris exprimere ornatum, quam ornare litteras maluit, ut colori parceretur. Quod si tamen hoc Epitheton usurpari varie solet, ad praestantiam, dignitatem, pretium rei cujusque indicandam, videtur quoque de Asino posse dici: inprimis de hoc Apulei, vel <gap desc='Greek word(s)'/>. Etiam amplius ex cuso? quid si auri fuerit gerulus? aut quemadmodum sovem taurus mugientem continuit, sic Asinus aurei et auriti Mydae vultum? Gerrae germanae. Equidem si per auctoritatem D. Augustini, aliorumque ab illo aevoliceat, lucidum et radians vocabulum e limine horum librorum eliminem, soliusque <hi rend='italic'>Asini</hi> nomen CANIS loco inscribam quo curiosi illi terreantur, qui si intromissi ad lectionem sint, ad tactum et raptum mox manus efferant, et expilent ingenium boni scriptoris. Id olim quoque factum. Fulgentius
+<pb id='s053' n='53'/>
+Placiades de Prisco sermone indicio sit: <hi rend='italic'>Choragium virginale funus vocatur. Apulejus Metamorph. Choragio itaque perfecto domuitionem parant.</hi> Quae verba in Apulejo hodie nusquam apparent. PETRVS COLVIVS in Notis opinatur, nec frustra, restituenda esse ad finem libri IV. ubi legitur: <hi rend='italic'>Itur ad constitutum scopulum montis ardui: cujus in summo cacumine statutam puellam cuncti deserunt: tedasque nuptiales, quibus praeluxerant, ibidem lacrymis suis extinctas relinquentes, dejectis capitibus domuitionem parant.</hi> MS. Codex BEMBI integram lectionem sic repraesentat: <hi rend='italic'>Choragio itaque perfecto, dejectisque capitibus domuitionem parant.</hi> Vale Clarissime Vir. Patavii. V. Non. Septemb. oo. IC. C.</p>
+</div2>
+<div2 id='PuEL.01.39' n='39' type='letter'>
+<head>EPISTOLA XXXIX. <hi rend='italic'>Patavii.</hi> HIER. FABRICIO AB AQVAPENDENTE.</head>
+<p>RACEMOS tuos gustavi, Humanissime Vir, nec pro munere tantum, sed pro miraculo Primitias illas habui, quod expono. Inimicitias dissidiumque intercedere Nymphis cum Bromio illo Patre Natura voluit; sciuntque Conviviorum Magistri, vini perniciem a fontibus esse: fontibus autem sacrum utriusque nostrum nomen esse. Iam vero et vini calor, et aquae algor in novam concordiam coîverunt: dum et tibi Liber non vite, sed AQVA PENDENTES racemos produxit; et mihi Liberum PVTEAIES meae Nymphae commendarunt: ut nesciam profecto an elementa mutarint, an Di degenerarint, nisi Natura ipsa et calere deinceps undas velit, et vim vini intepescere. Tu cogita: et in remunerationis conatum (non enim lubet dicere copiam)
+<pb id='s054' n='54'/>
+Flores Fructusque hosce cape, quos maturo colore praecoces manus artificis veritati similes explicuit. Quid inquies, Flores Fructusque eâdem anni horâ? pro monstro est, imo vicissim pro miraculo; nisi id obsequio Geniorum tribuas, qui deferunt; aut virtuti divinae sobolis, cui deferunt; aut arbitrio pictoris, cui hoc peccatum non peccatum est, sed ingenii argumentum; si tamen ad interpretationem meam pinxerit, quam numeris ecce pando:</p>
+<lg>
+<l>Felices Genii geruli, qui fertis ADVLTI</l>
+<l>PRIMIQVE Dona temporis:</l>
+<l>Temporis Auctori nostra FLOREMQVE piatum</l>
+<l>FRVCTVMQVE vitae reddite.</l>
+</lg>
+</div2>
+<div2 id='PuEL.01.40' n='40' type='letter'>
+<head>EPISTOLA XL. <hi rend='italic'>Mediolanum.</hi> Bernardino CVSANO S. D.</head>
+<p>FLVCTVARE te audio, quonam vitae cursum dirigas; Mercurium, an Minervam sequaris. Consilium meum admittis? Si divitias quaeris, Mercurium censeo: si veras divitias, Minervam. Plura paucioribus exprimere non potui: et sciunt illi, qui a lucro et fraudibus ad Musarum se otium receperunt, meliores opes in pectore et animiscrinio strui, quam in atrio et in arcâ: multo facilius adquiri, honestius possideri, tutius conservari. Non me diffundo per molestias, pericula, et Mercaturae sordes. Doctrinae illae gemmulae haud in remotis, et toto orbe dissitis littoribus, sed pallidulis chartis, domi, leguntur: lectae nec casu possessori pereunt, nec vi tolluntur. Tu dominus, quam diu vivus: tu post mortem heres. Nihil inde avaritia suceessorum distrahit. nihil aviditas
+<pb id='s055' n='55'/>
+heredipetarum participat. Animi thesaurus perpetuo partus.</p>
+<l><gap desc='Greek word(s)'/>.</l>
+<p>Etiam amplius te ex stimulo? imo, si huc flectis, cohibeo potius uti perseveres. Plusculum viae superest: conficies, si non cum impetu, sed constanter inieris si properaveris, non festinaveris. Nam, ut recte apud Agellium M. Cato, <hi rend='italic'>Aliud est properare, aliud festinare. qui unum quidmature transigit, is properat: qui multa simul incipit, neque perficit, is festinat.</hi> Hinc in numismatis veteribus: ipsi Caesares usurparunt, FESTINA LENTE. Tu quoque, si studiorum fructum, si te ipsum amas. Vale. Patavii, A. D. Kal. Octob. oo. IC. IC.</p>
+</div2>
+<div2 id='PuEL.01.41' n='41' type='letter'>
+<head>EPISTOLA XLI. <hi rend='italic'>Augustam Vindelicorum.</hi> MARCO VELSERO V. A. <hi rend='italic'>Reip. Augustanae</hi> VII. VIRO.</head>
+<p>MVSCA tibi fortassis videar MARCE VELSERE, qui sic ignotus te compello, et ad Amicitiae tuae sacra non irrepo tantum, sed irrumpo. Ignosce, caussamque libertatis meae Virtuti et Doctrinae tuae adscribe, quibus ceu acri quodam Thyrso ita jamdudum percussum pectus gero, ut te et amare inter optimos, et venerari interaevi nostri doctrissimos coeperim, religioso quodam cultu, et tacito affectu. Vtrumque alui et auxi, donec verecundiam magnitudo vicit, et exprimere coegit. Id nunc facio: eoque liberius, quod viam aliquam stravisse SEGETVS mihi visus, illo meo libelio, quem subsequi sine pudoris
+<pb id='s056' n='56'/>
+periculo posse videbar; imo quem meliori aliquo argumento volebam praeverti, ut occasione validâ, aut integrâ uterer ad conciliandum. Itaque amotâ PALLADE, patieris, ut LIPSI et PINELLI (quibus bonae me Musae junxerunt) nomine te sollicitem; et sicuti campestres rivuli viam ad mare quaerunt, et per amnem inveniunt: sic affectum hunc meum et cultum sinas per horum virorum copiosissimum amorem (quem refluo aestu non ignave reciprocas) tibi allabi: affectum et cultum dico: et cum iis hunc Convivii apparatum: quem (si tanti erit) acrisjudicii tui undâ ablues, siquid lacteo fontis latice nequivit detergeri: si non erit, inter ejectamenta referes, et in litus, ut pro derelicto habeatur, expelles. Vereor equidem, ne aut nauseam a Coena istâ contrahas, aut dissimules: atque; adeo ne contrahas, et dissimules. Nam et ego scio quid ferculorum struxerim, et tu C. Caesaris exemplo (Suetonius in eius vitâ refert) honorem hospitis cum stomachi laesione voles conservare. Quod ne facias rogo; imo (si fas in Amicitiae hoc rudimento) jubeo. Vale Clariss Vir, et tui amantem ama. Patavii, XVI. Kal. Octob. oo. IC IC.</p>
+</div2>
+<div2 id='PuEL.01.42' n='42' type='letter'>
+<head>EPISTOLA XLII. EDMVNDO BRVTIO V. N.</head>
+<p>EGO vero ALEXANDRVM SYNCLITICVM non amo tantum, sed observo; non laudo, sed admiror, hominem (ita Litteris faveam) multarum litterarum, et Iurisconsultum ad Majorum laudem, ad exemplum Posterorum. Sermo ille hesternus quam
+<pb id='s057' n='57'/>
+lepidus, quam doctus! ambulatio quam amoena, quâm utilis! mihi ne cum Lycoeo quidem permutanda. Sed cur non cottidie sic loquimur, aut sic ambulamur? cur non priusquam noctem hanc anni ingredimur, ante vestibulum eius aliquantisper otiamur? Convolve libellos; et abaci ille pulvisculus paululum quiescat, lineari ductu, circulari flexu, triangulari anfractu ad lychnum mox arandus. Tecum ago, te horror. habiturus enim SYNCLITICVM ad arbitnum videor, si te habuero. Illustrationes illas Monumentorum veterum ab ** editas remitto. Placuit inprimis marmor, quod Ravennae se vidisse scribit: pudet poenitetque tam marcidi luminis, quo libri LVNA nitet. Etiam rogas? adeo ille facem arrogantis tituli effert, ut sub arbitrio creperi luminis errem: et tamen ne errem, evincere conjecturis meis caliginem conabor. Tria in marmore universo lustro et illustio: <hi rend='italic'>Basim Statuam, Horarium. Basis</hi> lepide leporis effigiem repraesentat. An ad velocissimum Caelorum denotandum motum? an ad indefessum vigilenique dircuitum Solis? suspicor. idem enim hoc animalin sacris AEgyptiorum litteris Vigilantiae symbolum sive typus; quod scilicet laxatis palpebris dormire, constrictis vigilare soleat. unde in proverbium ivit <hi rend='italic'>Leporimis somnus,</hi> de eo qui soporem vigilans simulat, vel dormiens dissimulat. Ad eum modum clarum est, lucere noctu Solem, dum non lucet; ac interdiu sub nube dum lucet, non lucere. Sena illa informia vestigia non discerno. <hi rend='italic'>Statuam</hi> incolae HERCVLEM HORARIVM appellitant. Vereor ut vere; sed ne suppositiciâ aliquâ nomenclaturâ. A tempore, et reipsa arguo. A tempore; quia difficile reor sine signo aut scripturâ ullâ in
+<pb id='s058' n='58'/>
+secula germanum nomen ivisse, ac perennasse salvum: a reipsâ: quia tantumdem est, Herculi horas, ac Veneri arma tribuere. Magis est, ut Horus, qui AEgyptiis Sol est, fuerit, <hi rend='italic'>ex quo</hi> (ut Macrubius) <hi rend='italic'>et horae vigintiquatuor quibus dies noxque conficitur, nomen acceperunt:</hi> quas etiam Solis filias Homerus dixit. Nihil tamen muto, cum et Herculem AEpyptiis Solem fuisse, idem Macrobius ex nominis ratione suggerat, lib. I. Saturnalium, cap. XX. <hi rend='italic'>Etrerera Herculem Solem esse vel maxime ex nomine claret. <gap desc='Greek word(s)'/> enim quid aliud est, nisi <gap desc='Greek word(s)'/>, id est aeris, <gap desc='Greek word(s)'/>, id est gloria? Quae porro alia aeris gloria est, nisi Solis illuminatio, cujus recessu, profunditate spiritus occulitur tenebrarum? Praeterea sacrorum administratores apud AEgyptios multiplicem Dei asserunt potestatem, significantes Herculem hunc esse <gap desc='Greek word(s)'/>.</hi> Et paullo ante: <hi rend='italic'>Sed nec Hercules a substantiâ Solis alienus est: quippe Hercules ea est Solis potestas, quae humano generi virtutem ad similitudinem praestat Deorum.</hi> Plura conferri huc possent, tu vero hoc unum considera: duodecim labores Herculis, an recte ad duodecim signa Zodiaci referantur. <hi rend='italic'>Horarium</hi> inspicio, quod concavum ex umbrarum ductibus conjicio: nec absimile a conchâ esse, in quâ Natura ipsa videtur horarum lineas, et fortassis, si penetramus, veris intervallis expressisse. Ad litus imus --- <gap desc='Greek word(s)'/> ? imo ad ipsos potius lapides tuos, sive illi in concharum imaginem migrarunt, sive e conchis in lapides induruerunt. Iucunda nec inutilis investigatio, si animum adjeceris. Ego in Horario pergo, quod si non concha, vas aliquod sive scaphium fuerit, cujus usum apud veteres reperio, Plinio indicante libr. II. cap. LXXII. <hi rend='italic'>Vasaque horoscopa non ubiquae eidem sunt usui: in trecentis</hi>
+<pb id='s059' n='59'/>
+<hi rend='italic'>stadiis, aut, ut longissime; in quingentis mutantibus semet umbris.</hi> Marciano Capellâ lib. VI. <hi rend='italic'>Denique ipsa vasa, quae Horoscopa, vel Horologia memorantur, pro locorum diversitatibus immutata componuntur, alioque gnomone ultra quingenta stadia discermintur, umbris pro locorum aut elationibus celsis, aut inclinationibus infimatis.</hi> Solaria autem ista ex aere plerumque: forte et hoc ipsum. Stilus, sive <gap desc='Greek word(s)'/>, qui et <gap desc='Greek word(s)'/> Graece, in ipso meditullio statuebatur, et vertice distinguebat horas. Idem Marcianus id indicat libr. citato: <hi rend='italic'>Quippe scaphia dicuntur rotunda et ex aere vasa, quae horarum ductus stili in medio fundi sui proceritate discriminatur. Qui stilus Gnomon adpellatur.</hi> Haec sub adspectu emergentis Phoebi scripsi, non tam ut sententiam meam promerem, quam ut tuam elicerem. In ipso Sole disseremus. Salve.</p>
+</div2>
+<div2 id='PuEL.01.43' n='43' type='letter'>
+<head>EPISTOLA XLIII. <hi rend='italic'>Mediolanum.</hi> LVDOVICO SEPTALIO V. C.</head>
+<p>O Mellitae tuae litterae! amorem quae mei ubique commonstrant, paribus paene versibus et signis. Signis, inquam, tantum a fuco et fraude remotis, quantum ipse abes. Expunctum nomen meum gaudeo; non quod creditorem evaserim, sed quod mutaverim. Debitor enim ego remaneo: et novo hoc vinculo, quod solvendo tu adjicis, magis obstrictus. Ille beneficium contulit, tu continuasti: ille uni, tu duobus commodasti. Itaque; illi mutui gratiam, tibi patientiam morae acceptam refero: nunc promittendo quidem,
+<pb id='s060' n='60'/>
+paullo post exsolvendo. Vale. Patavii, VIII. Eid. Novemb. oo. IC. IC.</p>
+</div2>
+<div2 id='PuEL.01.44' n='44' type='letter'>
+<head>EPISTOLA XLIV. <hi rend='italic'>Romam.</hi> Carolo Lavrino S. D.</head>
+<p>ATRVM illum diem, mi LAVRINE, Plautino loco comburamus, et musteo Liberi liquore, quem plenis vitibus Autumnus propinat, carinae nauteam, stomachi nauseam, maris salsedinem; sed et itineris pulverem, Solis ardorem, corporis sudorem pariter abluamus. Pariter dico: nam horum omnium particeps ipse fui, dum minime fui. Hîc mansi, et tecum hinc abii: in Fossâ Clodia quatriduum haesi: in Padiripâ interdiu Solem, internoctu culices passus sum: gurgustiolum rusticanum subii: venationi interfui, ranas cepi; nisi tamen aucupium potius fuerit. aut piscatio: arma sumpsi, in stadone fui: Ariminum, et inde Romam curriculo veni. Num utres sunt gestae, memoro memoriter? Somnium ne puta: animo <gap desc='Greek word(s)'/> fui, et individuus comes tui mali. Quid autem? remedium transactis molestiis quaeris? Aliud non reperio, quam NON RECORDARI: nisi hoc ipsum malis, RECORDARI. Tu elige: ego accedam; ut sic et sali pericula, et soli incommoda altissinâ Laethe demergentes, cogitationes omnes in futurum praemittamus; imo vero in praesenti figamus, ne sollicita edaxque cura tranquilliatem animi praelibet. Quorsum enim cupiditatibus nostris aestuantes ferimur, fortunam ex futuro corrigentes? Si opinionem vincimus, semper et ubique beati: securi in periculis,
+<pb id='s061' n='61'/>
+in miseriis felices. Sed ista linquo. Perillustri PINELLO cultas et argutas tuas litterulas legi. An placuerint? ut peccasse mihi videare, quod eidem non scripieris, quem certo scire debes affectu in te pronum. In aedibus Coesiis Inscriptio haec Graeca reperitur:</p>
+<p><gap desc='Greek words'/>.</p>
+<p>In Smetio vestro <gap desc='Greek word(s)'/> expressum veremur malâ fide. Tu, quaeso, si occasio te huc duxerit, confer et corrige. Patavii, Prid. Kalend. Octob. oo. IC. XCIX.</p>
+</div2>
+<div2 id='PuEL.01.45' n='45' type='letter'>
+<head>EPISTOLA XLV. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C.</head>
+<p>PALLADEM meam cum litteris Mediolano ad te misi, Clarissime Vir; misi autem per amicos: qui utinam certi saltem katores fuerint, si non celeres. Exempla me solicitum habent, nec aliena. Ad Perillustrem IO. VINC. PINELLVM per SASSENVM scripseras, et secure videbare; sed hic parum felici pede iter ingressus, ne litreras quidem vindicare a latronum rapacitate potuit. Easdem et optimi adolescentis caussâ, et magni illius viri te iterasse intelleximus, sed intelleximus; ita nescio quâ malâ cruce frustra denuo habiti. Iam vero et mihi Mediolani IO. BAPT. SACCVS litteras tuas a nescio quo Frisio promiserat, qui si cochlea esset, jam tandem adrepsisset. Doleo et queror: itemque Vir ille Perillustris, qui ad non acceptas etiam respondit, gratiasque dixit. Mihi deinceps certum, Cuisoribus uti, ne amicis utar; imo ne periculum et amici, et epistolae adeam. Si enim
+<pb id='s062' n='62'/>
+onero, offenditur ille ferendo; et offendit pariter, si negligit, non curando: ut etiam importuni, ipsâ libertare videamur; et ille praeter culpam, itineris quoque iniquitatem sustineat. Prope Asculum in alveo fluminis Triunti Glandes plumbeae veteres, et litteratae aliquot inventae, quas mendici aut rusticani homines nunc nuper ruspando eruerunt. Formas hîc aliquot habes, sed veras, et ad magnitudinem veram: quae inseri Poliorceticis tuis poterunt, si recudantur. Tituli isti lepidissimi mihi visi, nec antea visi; FVGITIVI PERISTIS: ITAL. GAL. partim fortasse ad bellum sociale, in quo rebellantes <hi rend='italic'>Italici</hi> populi prope <hi rend='italic'>Asculum</hi> victisunt, partim ad Fugitivorum referendi, quorum oberrantes post varias clades reliquiae (num et in hoc ipso tractu?) <hi rend='italic'>per complures duces</hi> (ut Orosii verbis utar) <hi rend='italic'>frequenti indagine attritae sunt.</hi> Sed a te docebor. ADMIRNDA tua a PHILIPPO PIGAFETTA nobili Vicentino Italice vertuntur: quâ in re siquid admonendum putabis, operae nostrae ne parcas Itineris omissionem multi dolent, nonnulli carpunt, nos ferimus. Perillustris PINELLVS, cujus Lare me exceptum magis magisque gaudeo ac laetor, officionssime te salutat. Vale Vir Clarissime. Patavii, IV. Eid Novemb. oo. IC. IC.</p>
+</div2>
+<div2 id='PuEL.01.46' n='46' type='letter'>
+<head>EPISTOLA XLVI. <hi rend='italic'>Venetias.</hi> GEORGIO LIMAVERIO S. D.</head>
+<p>AMARE te cogor mi LIMAVERI, an dicam redamare? qui tam promptâ human itate affectum meum praevertisti; et verecundum hominem, dignum spontaneo amore judicasti: munere
+<pb id='s063' n='63'/>
+immunem. Quid reponam, aut rependam? An, quod facio, Amorem? vincor: an quod conor, Munera? spernis. Tu enim quasi digno dederis, dando accepisse beneficium tibi videris: tum ego praeventus, quem facere amicum volui, inveni. Duplici itaque nodo teneor: muneris, quo vinctus; amoris, quo victussum. Vinciri me passus sum, ut solvendi potestas; vinci, ut amandi superesset. Vale. Patavii, XIII. Kalend.. Decembr. oo. IC. IC.</p>
+</div2>
+<div2 id='PuEL.01.47' n='47' type='letter'>
+<head>EPISTOLA XLVII. IOANNI COTOVICO <hi rend='italic'>suo.</hi></head>
+<p>VBI MINERVAE mentio, sermonem meum r libens, mi COTOVICE, imo judicium interpono. Minervae; quae non ita pridem ruditatem stili mei passa, Modulos subire non recusavit. Apud Diogenem Laertium Stilpon negabat Minervam Deum esse, quod femina esset: quem in hunc modum irrisit Theodorus Cyrenaîcus: <gap desc='Greek word(s)'/> Ridicule Stilpon: impudenter Theodorus; impie uterque. Ille dum numen negat: hic dum obscoeno sermone violat. Quia vero leviori scelere obstrictus videtur, qui per ludum peccavit, quam qui per contemptum negavit, contra Stilponem sentio. Minerva, inquit, Deus non est. Quid ita? Quia femina est. Ridiculum acumen! quia enim Dea esse potest. Ego vero et feminam esse, et nihilo secius Deum aîo. Quid enim si mas et femina sit?
+<pb id='s064' n='64'/>
+sic certe Deum Deamque eamdem, numen si tribuendum est, licebit affirmare: et Deam virum; et feminam Deum. In confusâ Deorum Gentilium turbâ impune sic sentio; imo confidenter exemplorum patrocinio fultus. De Venere ac Lunâ vide obsecro quid Macrobius superstitionis antiquae scientissimus, non senserit, sed expresserit, lib. III. Saturn. cap. VIII. <hi rend='italic'>Nonnullorum, quae scientissime prolata sunt, male enuntiando corrumpimus dignitatem. Vt quidam legunt:</hi></p>
+<p>Discedo, ac ducente DEA flammam inter et hostes Expedior.</p>
+<p><hi rend='italic'>Cum ille doctissime dixerit: Ducente</hi> DEO, <hi rend='italic'>non Deâ Nam et apud Calvum Acterianus affirmat legendum, Pollentemque,</hi> DEVM <hi rend='italic'>Venerem, non</hi> DEAM. <hi rend='italic'>Signum enim hujus est in Cypro barbatum corpore, sed veste muliebri, cum sceptro ac staturâ viri. Et putant eamdem</hi> MAREM <hi rend='italic'>ac</hi> FEMINAM <hi rend='italic'>esse. Aristophanes eam <gap desc='Greek word(s)'/> appellat. Levinus etiam sic ait: Venerem igitur</hi> ALMVM <hi rend='italic'>adorans, sive</hi> FEMINA, <hi rend='italic'>sive</hi> MAS <hi rend='italic'>est: ita uti alma Noctiluca est. Philochorus quoque in Attide eamdem affirmat esse Lunam. Nam et ei sacrificium facere viros cum veste neuliebri, mulieres cum virili, quod eadem et</hi> MAS <hi rend='italic'>existimatur et</hi> FEMINA. Ego si his verbis commentum tibi meum probavi, jure finio; ne ostentatio accedat: sin minus, tamen finio; ne in re nihili traxisse moram videar. Salve.</p>
+</div2>
+<div2 id='PuEL.01.48' n='48' type='letter'>
+<head>EPISTOLA XLVIII. <hi rend='italic'>Patavium.</hi> ARNALDO CATHIO S. D.</head>
+<p>NOs quidem cum insanientibus furimus, qui divites illos felicitatis titulo dignamur; in felicissimos hominum, nec nisi cum extremâ plebe comparandos.
+<pb id='s065' n='65'/>
+Pauper enim non tantum ille, qui parum; sed et qui multum habet, si plus desiderat. <hi rend='italic'>Omnis enim cupido acquirendi, ex opinione inopiae venit: et pauper sit appetendi egestate, dives non egendi satietate.</hi> Satietas autem illa a rectâ ratione gubernata, in Mediocritate consistit; quam AVREAM Poeta appellavit. Sed Platonicus ille ex eâdem Sapientiae arcâ signatam hanc sententiam promit: <hi rend='italic'>Etenim omnibus ad vitae munia utendis, quicquid aptam</hi> MODERATIONEM <hi rend='italic'>supragraditur, oneri potius, quam usui exuberat.</hi> Vnde ex ipsis etiam opulentioribus ii potissimum vulgo laudari solent, qui sine strepitu ac ostentatione rem magnam administrant; qui ad argumentum modestiae imaginem quaerunt et colorem Mediocritatis. quam qui excedit, aeque mihi pauper est, ac qui non accedit. uterque enim a recto tramite discedit, ac delirat. Cum vero studio excedens ille, et effrenata cupidine; hic non accedens necessario desiderio peccet; cur ludibrio ille magis cui deest, quam cui superest? aut cur gloriosum potius abundare, quam egere: cum etiam meliores non utendo; si per defectum non utamur; quam abutendo simus, si per copiam abutamur. Coacta enim egestas avaritiae non subjecta est: voluntaria prodigalitas sub virtutis specie foedior est. Nos mi CATHI, sic sentiamus: nec ultra Fortunarum nostrarum septa, queis non anguste stringimur, desideria extendamus. <hi rend='italic'>Sultitam patiuntur opes.</hi> Venetiis, XI. Kalend. Decemb. oo. IC. IC.</p>
+</div2>
+<pb id='s066' n='66'/>
+<div2 id='PuEL.01.49' n='49' type='letter'>
+<head>EPISTOLA XLIX. <hi rend='italic'>Mediolanum.</hi> IO. FERNANDEO VELASCIO, <hi rend='italic'>Comestabili Castellae.</hi></head>
+<p>QVAE duae res ad pelliciendum hominis animum plurimum possunt, magne Princeps, eae arctissime me tibi obstrinxerunt, Beneficium, atque Virtus. Virtus publicitus: Beneficium meâ priuatâ caussâ. Hoc si considero, quid dici fierique benigne potuit, quod non accepi? si illam, Doctrinae, Elegantiaeque priscae vindicem, quis te non agnoscit? Audis, et admittere cogeris vetus encomium:</p>
+<lg>
+<l>Et spes et ratio studiorum in Caesare tantum:</l>
+<l>Solus enim tristeis hac tempestate Camoenas Respexit.</l>
+</lg>
+<p>Sed quid ego in laudes me effundo? Etenim si Virtutem verbis ornavero, cum multis fecero: si Beneficium, quod multi. Nam publici favoris honoraria signa et privati in te cultus largiter exstant. Quod si tamen e multis me unum patieris, buccinator, qua voce, qua stilo, accedam publicarum et privatarum laudum. Potissimum autem privatarum: non quod commodum meum honori tuo anteponam; sed quod privatim caeteris videar magis obligatus. Alii quippe suo: ego alieno merito (si tamen Clarissimus LIPSIVS censendus alienus) gratiam tuam obtinui. quam ne absentia haec mea minuat aut remittat rogo; sed quemadmodum Phoebi radii remotiora quaeque sidera minus involuunt: ita flammulam hanc ingenii mei tuo lumine accensam, sines, post <gap desc='Greek word(s)'/> hunc
+<pb id='s067' n='67'/>
+ortum, longius paullulum scintillare, donec fatali conversione (Deus concedat) redeat adsuum Solem. is tu es, et futurus, magne Princeps. Patavii, XVI. Xalend. Ianuar. oo. IC. IC</p>
+</div2>
+<div2 id='PuEL.01.50' n='50' type='letter'>
+<head>EPISTOLA L. <hi rend='italic'>Patavii.</hi> ALEXANDRO SYNCLITICO.</head>
+<p>STVDIA in Museo te habent, mi SYNCLITICE; an negotia in foro? Epistolam et libellum ad magnum illum virum hîc vides; sed illam apertam, ut legas, et an sic pro dignitate scripserim judices: hunc convolutum tantum, et sine libri formâ; quam, ne oneri tabellario simus, ab ipso Antistite capiet, aut non non capiet, dignus, sive indignus: haud aliter quam vestem filii, qui in alienam familiam adrogantur. Lator ipse adsum: et haec absenti non dico; praesenti non scribo. Auribus tuis si molestiam dare non potero; oculis dabo. Absens igitur salve. III. Kal. Ianuarias. oo. IC. IC.</p>
+</div2>
+<div2 id='PuEL.01.51' n='51' type='letter'>
+<head>EPISTOLA LI. <hi rend='italic'>Bellunum.</hi> ALOYSIO LOLLINO, <hi rend='italic'>Belluni Episcopo.</hi></head>
+<p>CONTRA vulgum hâc Epistolâ nitar, Reverendissime et Amplissime Antistes; et apud virum magnum sine verborum fuco aut ambitu, ipso pectore loquar. Luculentum tuum de me judicium non ore prolapsum, ut gratiae suspicio sit; sed stilo expressum, ut fides tabulae sit, mirum me quantum affecit,
+<pb id='s068' n='68'/>
+imo excitavit, non dicam ad amandum, id enim antehac tacito quodam affectu feci: sed ad demerendum, quem Dignitate, Virtute, Doctrinâ inter paucos hodie admiramur. PALLADEM meam hac caussâ ad te mitto, parvum per se munus, ed ab animo mittentis magnum. Palladem inquam, eamque Mo DVLATAM: ut Septem Vocum blanditiis capiaris. Num metuis? frustra: Vlixes mihi esto, et vacuas paullisper aurium aedes dato: non Sirenum concordiam, sed ipsius Minervae deprehendas. Vale. Patavii, XV. Kal. Ian. oo. IC. XCIX.</p>
+</div2>
+<div2 id='PuEL.01.52' n='52' type='letter'>
+<head>EPISTOLA LII. <hi rend='italic'>Augustam Vindelicorum.</hi> MARCO VELSERO V. A. <hi rend='italic'>Reip. Augustanae</hi> VII. VIRO.</head>
+<p>NIHIL descriptionem illam moror: illum elegantis penicilli colorem, qui nimio etiam Modestiae candore temperatur. Novi, novi te; etsi parum videor novisse. Famae tuae te fax illustrat, et conspicuum mihi facit. Ego contra, qui ex ignorantiae tenebris vix pedem movi, verborum velut funalia quaedam accendo, ut videar atque innotescam. A libellis meis cur id praesumam? nimis crepera illa lux est, et in ipso tantum ortu, quam ab ortu nubes mox involuat atque auferat. Sed auferat: ego amicitiâ tuâ, quam offers, vivam, et abunde inclarescam. De inscriptionibus quod hortaris, id tibi, GRVTERO, et publicae utilitati debeo magis, quam expendo. Pauculas enim, quas quidem aliis praetermissas comperi, enotavi: eas corradam, et libens conferam; non tam
+<pb id='s069' n='69'/>
+ut copiosam liberalitatem, quam promptam voluntatem probem. Etiam de studiis addo? <gap desc='Greek word(s)'/>. Manus sinu conditas gero, et ab editione animus refrixit. Ad Clarissimum LIPSIVM (quod sine molestiâ aut incommodo tuo sit) saepius istâ viâlitterulis meis curram. Vale Doctissime et Humanissime vir. Patavii, Prid. Eid. Decemb. oo. IC. IC.</p>
+</div2>
+<div2 id='PuEL.01.53' n='53' type='letter'>
+<head>EPISTOLA LIII. <hi rend='italic'>Castelfrancum.</hi> IACOBO NOVELLO. V. N. S. D.</head>
+<lg>
+<l>QVAE tibi caussa NOVELLE, ad docti culmina montis</l>
+<l>Vndique Laurigerum sollicitare gregem?</l>
+<l>Scilicet is MAVROCENVS? compescere: Phoebus</l>
+<l>Ipsenegat, Virtus, Pierides, Charites.</l>
+<l>Nec turbam quaerunt, sed fortia facta nitorem:</l>
+<l>Vt lepidum quaerit fortia facta melos.</l>
+<l>Ergo tu sume hoc pensi: tu parce labori</l>
+<l>Vnus multorum, cui leuis iste labor:</l>
+<l>Splendida sic puro reddetur carmine Virtus:</l>
+<l>Laus et laudati profluet ore viri.</l>
+</lg>
+<p>Hunc talem te merito censemus, non tantum laude divitem,</p>
+<lg>
+<l>Sed vatem egregium, cui non sit publica vena,</l>
+<l>Qui nilexpositum soleat deducere, nec qui</l>
+<l>Communi feriat carmen triviale monetâ.</l>
+</lg>
+<p>Itaque turbam cur admittas? Omnia, et a quovis in illo viro laudari posse quisque novit: rite tamen laudare fortasse non noverit. Quare quamvis dicendo nemo erraverit; non ubique tamen ornaverit. Erit,
+<pb id='s070' n='70'/>
+qui prosapiam, et natales longâ serie retexet: alius, qui divitias prosequetur, qui formam, qui corporis vires. quibus, uti non privamus heroem nostrum: ita non censemus; ne tam honorem, quam honoris aliquam umbram explicuisse videamur, neglectâ amplissimâ luce. Nam illa quae attigi aliena esse, et a vero encomio removenda, quis sanus aut pro sano neget? Genus respicis? id sibi Majores vindicant: opes? casu pendulae: venustatem? fugitiva est: robur? ab aetate mutabile. Tu animum mihi lauda, id est, ipsum hominem, ipsum virum: qui si Iustitiae tenax, civibus suis pari imperio et virtute non praefuerit plenissimum laudis testimonium meruisse dicatur. Ridiculum sit, si quem producam publice, et a veste laudem; quod ea lepide lacunata sit, decore striata, subtiliter intexta; quod e bysso, e purpurâ, e cocco; quod Phrygia, aut Attalica. Nam eumdem si hominem ad balneum deduxero, aut ad lectum, veste simul spoliavero, et laude. Corporis vero et Fortunae bona vestimentum dumtaxat animi sunt; quia extra animum, tam poni facilia, quam sumi. Non omnem igitur laudem gloriosam homini illustri esse vides, nec a quovis profectam, sed a laudato. Hunc talem te, ut dixi, censeo: et salvere jubeo. Patavii. VI. Decembris oo. IC. IC.</p>
+</div2>
+<pb id='s071' n='71'/>
+<div2 id='PuEL.01.54' n='54' type='letter'>
+<head>EPISTOLA LIV. <hi rend='italic'>Venetias.</hi> GVLIELMO ATHENIO <hi rend='italic'>suo</hi> S. D.</head>
+<p>HERI in Noniano Bembi fui, quo cum CATHIO nostro Inscriptionum antiquarum caussâ iveram. Sed tu obsecro successum itineris audi. Postquam ad octavum lapidem pervenimus, abducti sermonum dulcedine, et pedum vitio, in viam aviam imprudentes sumus, ubi nec Herma nec Priapus ullus, qui monstraret iter. Circumferre oculos coepimus, et ecce ad laevam inter arbusta tuguriolum quoddam: accessimus, et dum intramus, muliercula altioris aetatis occurrit, suique nescio an casulae solicita, limen occupat. cui ego, quaeso te mater, inquam, quo imus? Atilla non invrbana, Vossciveritis inquit; ego divîna non sum. Atenim, inquio, qua in Nonianum iremus, dicere volui. Tum illa subridens mox per agrum suum semitam ostendit, <gap desc='Greek word(s)'/>: jussitque ut persequeremur. persequimur, et in lucum nescio quem imus, ac paludem. Inde stillantibus soleis in proximam villam, et in ipsum tandem Nonianum. Vt lapides enotavimus, redimus in viam, et itineris semisse confecto, cibi caussâ rectum villaticum subimus. Offertur durus et noctis colore panis, et villum viliâ dignum, talique pane. Nobisjejunis ac fame pereuntibus cerebrum Iovis fuit. Etiam quaeris? mi ATHENI: sic modice refecti progredimur; sed mox lassitudine fracti, cum aegre traheremus gradum, diverti in proximam casam statuimus, ibidemque pernoctare. Rusticani paupertatem suam objicientes, facile impetrarunt, ne jejunam et incommodam
+<pb id='s072' n='72'/>
+noctem haberemus. Quare tenebrante jam semitam vesperâ, Patavium pergimus: et post primam vigiliam noctis, in urbem admittimur. Tum conversus ad suavissimum meum comitem, Nihil te moror inquio, mi CATHI. Sic divulsi sumus: et uterque extemplo (imo vero ex itinere) domum, et ad lectum. Nunc vires redierunt, et lubuit hujus itionis meminisse. Sed tu quam primum ad nos revertere, et salve. Patavii. Nonis Decemb. oo. CI. CI.</p>
+</div2>
+<div2 id='PuEL.01.55' n='55' type='letter'>
+<head>EPISTOLA LV. <hi rend='italic'>Mediolanum.</hi> VIDO NAZENTIO I. C.</head>
+<p>SI jure agis, mihi certum est vadimonium deserere; ut sic unâ plagâ absolvar. Nam etsi animus dictat me scripsisse, litterarum tamen fallor. Calido quodam impetu scribo, qui ubi deferbuit, ipsius paene scription is memoria evanescit: et scis tu quoque quam multis, et quam multa scribam. ubique si exemplaria reservem; si exaratos sermones recalcem, quis finis? Nec otium, nec animus est. Vti flosculi quidam momento oriuntur, et simul pereunt: sic festinata illa scriptio debet exaranti sub calamo, legenti sub oculo evanescere. Vale. Patavii, Postridie Kalend. Ianuar. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.56' n='56' type='letter'>
+<head>EPISTOLA LVI. <hi rend='italic'>Romam.</hi> FLORENTIO ET CAROLO LAVRINIS S. D.</head>
+<p>PRO delitiis litterulas vestras habui, nobile par fratrum; nec satiare animum potui tam
+<pb id='s073' n='73'/>
+suavi et nectareo liquore. Gratulor, ita me Deus amet, illum congressum vobis, et gaudeo vestrâ caussâ, quorum interest, a puero domi junctos, foris non disjungi. Sed quando erit, ut et ipse interveniam, triademque amoenissimi contubernii constituam? Hoc votum meum, quo Deorum incerare genua certum est: qui si spem meam protollent, abjectis omnibus consiliis, flammam imitabor, viamque ad vos, si non inveniam, faciam. Sed tu quaeso paullulum mihi aures seorsim adcommodami FLORENTI. Primum gaudeo me a te amari: deinde et laudari. Laudare enim non potes, nisi ames: et gloriari ipse potero, si tu laudes. Gloriari inquam, cum, sive judicio laudes, caussam amoris; sive affectu, fructum intelligam. Titillavit me (cur negem?) Clarissimi I. LIPSI magnificum, et, ut tu ais, justum testimonium; nec amplius inquiro, aut investigo. Quae volui, audivi, et sic audisse sat est. Sat etjam haec scripsisse. Vale; imo valete. Patavii, XIV. Kal. Ian. oo. CI. CI</p>
+</div2>
+<div2 id='PuEL.01.57' n='57' type='letter'>
+<head>EPISTOL. <corr sic='LIII.' resp='transcriber'>LVII.</corr>. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C. <hi rend='italic'>historiographo Regio:</hi></head>
+<p>INFORTVNIVM tot epistolarum resarsisse mihi videor, Clarissime Vir, tam lepido et liberali missu: in quo cum litteris etjam Musas tuas ad me ire voluisti. num excitandi mei caussa? O dulces stimuli etiam in ipso cursu. Ire tamen voluisti: et eunt nunc <gap desc='print faded' resp='sampling'/> forte non <gap desc='print faded' resp='sampling'/>
+<pb id='s074' n='74'/>
+Laetitiae et auspicii illi ignes indices in Italiâ nunc circumquaque lucent: et magis dii aethereique ingenii tui flamma. Beatos Principes! felices ignes! quos utrosque Phoebeio hoc radio aeternum illustras. Nos felices, ac beatos! qui sic quoque per te gaudio publico interfuimus, dum minime fuimus. Absentes enim vidimus, quae solen niter illic acta: nec quicquam a perfectâ laetitiâ abfuit, nisi quod in amplissimo illo consesu, te</p>
+<l>Florem illibatum populi, Suadaeque medullam</l>
+<p>audire non licuit, nec oris illum ornatum subnotare, venerari, et acclamationibus prosequi. In Senecâ Philosopho nunc te esse, gaudemus et Senecae, et publicâ caussâ. Emolire coeptum opus; ut puram et defaecatam illam Sapientiae crateram brevi hauriamus. Ego quid faciam? quod apes, confero et stipo Doctrinae <hi rend='italic'>liquentia mella.</hi> quae carptum eo per haec prata, et ab hoc Eruditorum flore PINELLO. Subinde e Musarum amoenis viretis ad mare eo, aut ad litus, ut sic dicam, Legum: et ruptas disjectasque naufragi juris tabulas rimor. Censorinum, cui criticam aliquam manum destinavi, manuscriptum repperi in Bibliothecâ Vaticanâ. Ipse, aut per amicos inspiciam, et variantes lectiones adnotabo. Vale. Patavii, Ipsis Kalendis Anni oo. ICC. Secularis sacri, qui prosper tibi Vir Clarissme vertat.</p>
+</div2>
+<div2 id='PuEL.01.58' n='58' type='letter'>
+<head>EPISTOLA LVIII. VIGLIO OMIO <hi rend='italic'>suo</hi> S. D.</head>
+<p>IN otio te ocupare mi VIGLI, amicum duxi facinus; imo vero utile ac conducibile in illâ urbe, in
+<pb id='s075' n='75'/>
+illâ aetate. In urbe inquam, ubi Lycurgus ipse, Comici verbo, ad nequitiam possit adduci. Sirenes illic, et Lithophagi; Scylla ipsa, et Charybdis: nec iratam Minervam coluit, qui a recto cursu non abreptus In aetate autem, quae, ceu agilis cymba, aestu et fervore sanguinis fluctuat. Ego onere te sistam, et firmabo, quod impositum eo; aurei hujus, quem mitto, libelli lectionem. Videbis ab ipso sapientiae profundo omnium cupidinum remoras, omnium pravarum affectionum rudentes. Lege modo, et paulisper animum a publicis spectaculis abduce. Litteras ad te Româ accepi, quas hîc dabo. Vale; et veni, et nos ama. Patavii, III. Eid. lan. oo ICC.</p>
+</div2>
+<div2 id='PuEL.01.59' n='59' type='letter'>
+<head>EPISTOLA LIX. <hi rend='italic'>Bruxellam.</hi> PETRO PANTINO, <hi rend='italic'>Decano.</hi></head>
+<p>OBlivionem qui silentio proximam dicunt, aut male dicunt, aut sine caussâ silent. Ego enim tanto veheinentius te amavi, quanto longius a litterarum officio abstractus sum. Post discessum tuum, urbis aerisque mutandi consilium cepi: cum Principe egi, et impetravi, ut Paravium ad Perillustrem Io. VINCENTIVM PINELLVM (a quo vocatus eram) commigrarem. Quicum ita hactenus fui, et sum; ut siquis Censor lustrum condens me roget, respondeam: Ex ANIMI MEI SENTENTIA. Sermo nobis quotidie de litteris, atque litteratis: ex quo quantam utilitatem, jucunditatemque capiam, tu pro Viri illius eruditione, meoque desiderio existimare potes. Ac nuperrime quidem de THEMISTIO mentio, cujus Orationes aliquot necdum typis excusas penes
+<pb id='s076' n='76'/>
+te esse dixi. Ille me extemplo rogare de numero, deque scripturâ, et aetate libri. Haesi, et incuria meam deprehendi, quod diligentius singula non inquisieram. Itaque patieris Doctissime Vir, ut nunc absens hanc culpam emendem, Patroni mei caussâ; ut scisciter, ut sciam. Quod si impetro, et devinctissimum me tibi amplius obstrinxeris; et ab illo gratiam quoque inieris. Vale, et uberiores litteras exspecta. Patavii. Kal. Feb. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.60' n='60' type='letter'>
+<head>EPIST. <corr sic='LV.' resp='transcriber'>LX.</corr> <hi rend='italic'>Lovanium.</hi> HVBERTO AVDEIANTIO S. D.</head>
+<p>EGo te non amem? in istâ domo? apud istum virum? Sed tu a te ipso caussam quoque das, qui tam eleganter, tam amice ad me, tam magnifice de mescribis. Colorem hercules non tenui ad istas laudes, quibus adjicere <hi rend='italic'>praefiscine</hi> debuisti. Supra meritum meum is, et quam in me laudas Modestiam, laude oneras Num fortasse vetus istud tibi in mente: <hi rend='italic'>praestat vituperare, quam frigide laudare?</hi> Ego contra cum Euripide sentio:</p>
+<lg>
+<l>--- <gap desc='Greek word(s)'/></l>
+<l><gap desc='Greek word(s)'/></l>
+</lg>
+<p>Quare, si me audis, desine laudare, amare ne desine. Nam etsi, Apulejo scribente, <hi rend='italic'>sic naturâ comparatum est, ut quemlaudes, etjam ames;</hi> malo tamen amicitiam, quam encomium; quia ipse, quem maxime amo, difficilius laudo amo autem, quem laudare; facile possum. Talem te video, mi AVDEIANTI, in elegantissimâ illa Epistolâ tuâ, imo talem te habeo et amplector, jam deinceps meum, ego jam deinceps tuus. Vale: et foedus
+<pb id='s077' n='77'/>
+mecum ini frequentissimae scriptionis. X. Kalend. Febr.</p>
+</div2>
+<div2 id='PuEL.01.61' n='61' type='letter'>
+<head>EPISTOLA LXI. <hi rend='italic'>Roman.</hi> NICOLAO MICAVLTIO V. N.</head>
+<p>QVod me amas, magis a naturâ tuâ, quam me rito meo: quod mea aestimas, id vero ab amore est. Nam si me aut mea spectas, nihil te dignum, aut aliorum lectione misi Tu vero quia tam constanter contra sentis, dabo aures, et patiar, ut quod ipse effectu promereri non potui, tu conatui tribuas. Mihi stat sententia Vrbem visere: ac nisi cum PINELLO, non impedio, quin prospicias. Multumte posse scio apud Proceres illos et Magnates: et velle quoque, ex illo, quod profiteris, studio alios juvandi. Vtinam tales isti, qui rogantur, qualis tu qui rogas! Tardi plerique ad auxilium, ne dicam mortui. PHILIPPVM PIGAFETTAM novi, deque eo ad LIPSIVM quoque scripsi. Virum non amo tantum, sed observo: et occasionem quaero affectum hunc probandi. Iter Neapolitanum bene vertat. Vale. Patavii, III. Non. Febr. oo. ICC. Doctorem LOMBARDVM salvere jubeo.</p>
+</div2>
+<div2 id='PuEL.01.62' n='62' type='letter'>
+<head>EPISTOLA LXII. <hi rend='italic'>Forum Iulii.</hi> IOH. BAPT. PETREIANO S. D.</head>
+<p>VTii, qui ardore aestuant, modico potu sitim fovent, non levant: sic a litterularum tuarum lectione cupidior recessi. Quid tu, malum! tam
+<pb id='s078' n='78'/>
+brevis in scribendo? imo tam argutus? Ceu copioso et robusto me cibo pastum, condimentis quibusdam, et ipsis bellatiis adoreris et irritas, cum maxime tamen esuriam. Cogor dicere: ferculorum ordinem Magyre aut nescis, aut dolo malo mutas. Hoc fortassis agis; ut soleas, raso ventre, poscam, et discedam? an excusabis? et caram annonam dices a sterili scriptionis campo? Sed enim, ut boni Patresfamilias succidiam domi paratam ac suspensam habent, a quâ defectum macelli suppleant: sic tu, cum aliud deest, a studiis tuis pete, quo instruas has epulas Epistolares. Magni illius viri nomen ignotum istic, ne dole: quia non ideo ille minor; sed major tu futurus, si absente hoc Sole Eruditionis radios aliquos miseris et stricturas. Sic enitere mi PETREIANE, et gnaviter in studiis esto, dum otium, et aetas. PLEIADEM meam hîc habes, quam videre tantopere desideras, sed velut nubilosum sidus. EPISTOLAE etjamnunc latent, nec nisi trepide easdem producam. Nam profecto, ut hoc seculum est, <gap desc='Greek word(s)'/>, quisquis paullo junior typis sese prodit. Tu amorem mei serva, et litteris testare, magnis magnum, idque frequenter. De Romano itinere cogitare serio coepi: nec protollam amplius. A SEGETO et CATHIO amaris. Vale. Patavii, VII. Kalend. mensis, quem patri Romulus dicavit. oo. ICC.</p>
+</div2>
+<pb id='s079' n='79'/>
+<div2 id='PuEL.01.63' n='63' type='letter'>
+<head>EPISTOLA LXIII. <hi rend='italic'>Romam.</hi> Io. BAPT. HANSENIO S. D.</head>
+<p>LItteras meas quod exspectas, mi Amice, amice facis: quod exigis, nimis amice. Libertatis aequilibrium quoddam censui; tu nunc imperii gravitate praeponderas, et tuo nutu Puteanum trahens, exigis, quod debes ipse, vel solius itineris caussâ. Etiam mussitas? at vide, ne iniuriarum agam. Ius si in me habueris, antestari decuit, priusquam sic raperes. Testes aberant? meam ipsius auriculam tetigisses exarante manu. Admonendus namque eram, ut venisse te scirem, et exceptum. Quod utrumque cum demum praestiteris, in altercatione calamum amplius non figo: quin promoveo, et reliqua epistolae tuae peragro. Librum meum placuisse gaudeo; imo et in hoc te quoque a non nemine dissidere. Artem alii nudam inspicere malunt, et Minervam Veneris ornatu introduci. Hoccine meum? Et tamen (ignoscite castae Sorores) passus sum mihi persuaderi. Ac jam quidem ad incudem libellum refero, refingo, et attero largâ judicii quadam limâ; ad usum, non ad pompam, nec probandi mei, sed docendi. De Censorino beas: et paene in manu tuâ est, ut probi scriptoris Manes Februum a me sentiant. Ipse enim Censorinus, et quod Sidonius <hi rend='italic'>illustre volumen de Die Natali</hi> appellat, interiit: siquid superest, cineres, aut certe epitoma. in quâ esse tamen quod in publico utile, injurato credam. Restat, ut manuscripto hoc fruamur. Tu cogita, cui ad thesaurum illum Antiquitatis aditus patet, et mihi, publicaeque utilitati fave. Si copia conferendi, sunt
+<pb id='s080' n='80'/>
+istic fratres LAVRINI, digni isto nomine, et si amorem spectas, oculi mei; qui gratam et diligentem operam dabunt. Eosdem in amicitiam tuam duco, Belgas ad Belgam; eruditos ad eruditum; probos ad probum: quod tu cognosces: et simul hoc amoris vitium, quo Deum me facis quasi quod velim, possim. Scin' quomodo? ut ne ausim quidem, quod possum; ne velim, quod ausim: ita multorum curva judicia subeunda sunt; ut et bene et male scribendo pecces. Siquid enim bene, invidia praesto est; si quid male, convitia et contemptus. De conditione melius ominare Attalica erit, siobdurabis et pervinces. In primâ statim superficie terrae metalla non fodiuntur, sed in venis ipsis ac medullis. Et quemadmodum novus et e cespitibus uliginosis aggestus agger incessu difficilis, sed ita sub pedes indurat semitamque praebet: ita via ista lucri et Honoris. quam calcando lenies, et strues ad culmen (quod praesagio) Bonae Famae. BARCLAYVS noster in hoc quoque cursu Sophiae quadragis: a quo et nuper me productum e carceribus audio in Dialogi (ut tu vocas) circum. Sed librum mihi videre nondum contingit. Tu cum vidisti? legisti? nostros sermones nobis loquere. Reverendissimus CVYCKIVS quando, et quâ paret domuitionem scire velim. Vale Patavii, III. Kalen. lan. oo. ICC. Libellos dabo operam ut mittam, et peramicum. Is, nisi fallor, SASSENVS noster erit, aut ipse ero.</p>
+</div2>
+<pb id='s081' n='81'/>
+<div2 id='PuEL.01.64' n='64' type='letter'>
+<head>EPIST. LXIV. <hi rend='italic'>Mediolanum.</hi> LVDOVICO SEPTALIO. V. C.</head>
+<p>NVM probus diligensque interpres aut conciliator fui? Amicitiae Sadelerianae ecce tesseram ad te mitto, firmam et fidam, si consideras. Etjam haeres? suscipe; adspice SADELERIVM ipsum. Complectere virum; Sacrario tuo excipe; et Hospitalis Iovis foedere arctius etjam junge. Hominem habes Scalptorem inter eximios: hominem probum, lepidum, et, ut uno verbo dicam, Belgam. cui omne officii et bencvolentiae genus ita exhibebis, ut aliquid etjam meâ caussâ accepisse videatur. Descalpturâ sic transiges, ut lepidissimum tuum vultum absentes brevi contueamur. Vale, et a Perillustri PINELLO salve. Patavii, XV. Kal. Martias. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.65' n='65' type='letter'>
+<head>EPISTOLA LXV. IANO GRVTERO V. C.</head>
+<p>OMitte quaeso delicias: hostimento vincis; nec ad sacoma munus meum appendis, sed superpondium addis propensissimae tuae in me voluntatis. Inscriptiun culas aliquot misi: tu inter aeterna nomina Puteanum refers, et facis immortalem. Quid ab homine homini dari majus, aut exspectari possit? Tenuis memoriae nostrae scintilla, tuâ face adjuta, perennis erit, et ab omni Posteritate conspicua. Quia tam utile, et tam amplum opus, a SMETIO bonis
+<pb id='s082' n='82'/>
+conatibus coeptum, a LIPSIO auctum, a te perfectum,</p>
+<l>Canescet seclis imnumer abilibus.</l>
+<p>Alterum missum ex promisso propediem dabo, quasi post Antecoenium Coenam. Interim paucorum dierum moram excusa, dum colligo, dum inspicio, dum judico. Originem nostram, quo tu refers, non refero. Sugambri ab ipso capite et fonte fuimus: et olim militiâ clari; a litteris, more gentis, alieni. Nunc Pallas respicit, cujus ego lubens signa sequor, ductu et auspicio ejus, a quo tu ipse ductus. cujus si me caussâ amaveris, mihi dilicias feceris; nec injuriam magnoilli CLAVDIO PVTEANO. Patavii, XIV. Kal. Mart. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.66' n='66' type='letter'>
+<head>EPISTOL. LXVI. <hi rend='italic'>Lovanium.</hi> PHILIPPO RVBENIO S. D.</head>
+<p>COmmovisti mihi pectus, mi RVBENI, tam plenâ et officiosâ; addo etiam, tam venustâ atque eruditâ scriptione: quam nisi ab amico non exigam, nisi a docto non exspectem. Ita enim stilum illum temperas, ut nesciam fucum a verbis amori facias; an gratiam verbis ab amore. Multum in optimo illo studiorum genere progressus es: plurimum in affectu mei. qui nunc etjam non tantum amabile illud Doctoris nomen mihi defers; sed et rationem disputas, quâ debere te existimas. Perge, perge in amore illo litterarum, atque mei: et utrumque scriptione, ut coepisti, prome. BARCLAYVM Lutetiae docere intellexeram; et jam ex te, docuisse. PRAEMETIA ejus vidi, et memoriam mei.
+<pb id='s083' n='83'/>
+Bene ei sit, qui tam bene de me meritus: et tibi mi RVBENI, bene. IX. Kal. Febr.</p>
+</div2>
+<div2 id='PuEL.01.67' n='67' type='letter'>
+<head>EPISTOLA LXVII. <hi rend='italic'>Atestam.</hi> HIPPOLYTO ANGELIERIO.</head>
+<p>GRatae, gratae Inscriptiunculae illae fuerunt. Sed licet apud te? Lapidem quoque ipsum considerare, non abs re esse ratus sum. Facit enim hîc, si non Epitaphium pretiosius, saltem ut de pretio judicemus, aucipsorum qui posuerunt, opibus et statu. In lapide autem haec attendere soleo: <hi rend='italic'>Litteras, Lineas, Puncta, Dictiones;</hi> velut quatuor observationis elementa. Quae dum hîc quoque rimor, primum miror <hi rend='italic'>Literas</hi> ejusdem omnes magnitudinis et formae; uti in SCARDEONIO, sic in tuis quoque schedis. quod tamen apud Veteres fieri ubique non solet; et ad ornamenturm, atque adeo distinctionem olim fuerit quaedam litterarum decretio, aut varietas. In <hi rend='italic'>Lineis</hi> ordinandis accuratum te animadverto: et Scardeonium ad veram lapidum normam non in uno loco correxisse. <hi rend='italic'>Punctorum</hi> notatio merito suspecta; in fine praesertim versuum, et Inscriptionum singularum. Antiqui enim utrobique negligebant: et Scardeonius fere omittit. Divisionis autem illae notae, quae verba sindunt, in Antiquitatibus reperire difficile sit: nec frustra tamen a te expressa, industria tua persuadet. In <hi rend='italic'>Dictionibus</hi> denique an recte Scardeonius mutaverit, tu ex ipsis tabulis decidito: quas partim apud te servari, partim, apud amicos, scimus. Vale Doctissime vir. Patavii, in aedibus
+<pb id='s084' n='84'/>
+PINELLI; qui te salutat. VIII. Kalend. Mart. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.68' n='68' type='letter'>
+<head>EPISTOLA LXVIII. <hi rend='italic'>Mediolanum.</hi> Io. BAPT. SACCO, V. C <hi rend='italic'>Senatui a Secretis.</hi></head>
+<p>QVis iste rumor obsecro? Accersitum a Rege Principem, et nunc parare iter, vulgo et constanter dicunt: alii fortassis, quia id desiderant; alii, quia timent. Ita enim naturâ comparatum, ut quod quisque valide velit, id audacter adfirmet; quod timet, facile credat. Aliorum igitur desiderio, aliorum metu commoveor, ut credam quae sparguntur. <hi rend='italic'>O celeres bonorum hominum dies! O praesidum optimorum citata curricula!</hi> Sed quis, et quantus ille Princeps!</p>
+<l><gap desc='Greek word(s)'/>.</l>
+<p>Lugete boni, lugete docti, et in Lydios modos conspirate, ne sine moerore dimisisse videamini, quem summo applausu excepistis: cum majus sit, digno proeconio abeuntem prosequi, quam publico venientem voto praevertere. Isthic enim Virtuti praemium, hîc stimulus est: et qui gratiis beneficium sequitur, id accepisse gloriatur; qui laude anticipat, sperare praesumitur. Perillustris PINELLVS jam pridem gratias tibi per litteras dixit pro imagine Lipsianâ: et nunc, denuo per me: illudque adjici jussit, si sciverit epistolam suam non perlatam, iterum et lubenti animo scripturum. In studiis progredimur, et amore tui, a quo tam calide amor. Patria (heu!) magis magisque aestuat: et <hi rend='italic'>jam proximus ardet Vcalegon.</hi> De pace summa erat hominum opinio; sed eam et hostiles progressus,
+<pb id='s085' n='85'/>
+et seditiones nostrorum militum longius rejecerunt.</p>
+<l>--- quem das finem Rex magne laborum?</l>
+<p>In Agellio, lib. II. cap X. eruditio tua non fefellit, legi posse: <hi rend='italic'>Religiose Donariis consecrata,</hi> si vox <hi rend='italic'>Donariis</hi> pro ipso loco accipiatur. A pulejus juvat, libr. Florid. <hi rend='italic'>Enim vero fanum Iunonis antiquitus famigeratum, id fanum secundo litore, firecte recordor, viam viginti haut amplius stadia oppido abest. Ibi</hi> DONARIVM <hi rend='italic'>Deae perquam opulentum: plurima auri et argentiratio in lancibus, speculis, poculis, et hujuscemodi utensilibus.</hi> I dem li. IX. Metamorph. <hi rend='italic'>Cantharoque, et ipso simulacro, quod gerebam, apud fani</hi> DONARIVM <hi rend='italic'>redditis ac consecratis.</hi> Poeta princeps:</p>
+<l>--- ductos alta ad DONARIA currus.</l>
+<p>Sic Agellius <hi rend='italic'>Senatum</hi> quoque docet pro loco usur pari lib. XVIII. cap. VII. LEANDRVM MARNIVM nusquam invenio: nec is PINELLO notus. A Clarissimo LIPSIO litteras, et bina Epigrammata nuper habui, quae si inspicere lubet, dabo. Tu, Frater, et Gener valete. Patavii, VI. Eid. Mart. 8. ICC.</p>
+</div2>
+<div2 id='PuEL.01.69' n='69' type='letter'>
+<head>EPIST. LXIX. <hi rend='italic'>Venetias.</hi> LIVINO DE SVCCA, <hi rend='italic'>Doctori et Equiti.</hi></head>
+<p>QVam voluissem amplius te fruit et suavissimum Doctrinae Humanitatisque tuae liquorem, cujus pauculae stillae mihi palatum irritarunt, uberius degustare! Sed nunc abis: et infortunio me mactas; ita ex animo loquor. Quod si in potestate meâ sit, vel abeuntem te revocare, vel sequi, sentias
+<pb id='s086' n='86'/>
+me umbram esse: nec minus aegre retineri a blando illius, quem tu nosti, vultu posse; quam tu facile a truci illius, quem ego novi, supercilio fugis. Quod quia non licet, quaeso rivum litteris ad me ducito; uti sic absens sitiensque sermones tuos toto animi alveo excipiam, corporisque sinu. Feliciter proficiscere. Patavii, III. Non. Apr. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.70' n='70' type='letter'>
+<head>EPIST. LXX. <hi rend='italic'>Ticinum.</hi> HENRICO FARNESIO V. C.</head>
+<p>ADscribendum merum me nuper otium: nunc caussa impellit, quam haec figura dedit. ea pars tabulae Hieroglyphicae est, ante plures annos e BEMBI Museo depromptae et vulgatae. Multorum ingenia et acumina defatigavit: et sunt qui meras chimaeras dicant, et inanes fictiones. Super hac re te compello, et consulo. quia tu unus nos docere, aut nullus potest. Eia age, et fructum hunc nobis da. nobis? imo publice omnibus. Fructum, qui laudem inveniet, apud Doctos, qui intelligent; apud Magnos, qui aestimabunt. Vniversum autem tabulae corpus in tres ordines distinguitur, velut totidem Zonas. in meditullio singularum unus aliquis typus, quem altrinsecus similes paene figurae cingunt. Adusque enim medium effigies illae variant, post medium eaedem revertuntur. haud aliter quam si in ipso spatio retrorsum oculum reducas. Sed istud in universâ tabulâ nunc principium hoc considera, et quid sperare debeamus, rescribe; simul, quid agas, pangas, edas. Bene vale Clarissime Vir, meique memor. Patavii, VII. Kal. Apr. oo ICC.</p>
+</div2>
+<pb id='s087' n='87'/>
+<div2 id='PuEL.01.71' n='71' type='letter'>
+<head>EPIST. LXXI. <hi rend='italic'>Augustam Vindelicorum.</hi> MARCO VELSERO V. A. <hi rend='italic'>Augustanae Reip VII. viro.</hi></head>
+<p>VTinam et gloriam pro copiâ haberem, et pro re nitorem! Pauculas inscriptiones misi, in quibus si curam aliquam posui, quid nisi conatum meum approbavi? Bene tamen acciderit, si sic Clarissimi GRVTERI amorem merui: melius, si non ambivi. Firmiorem enim Amicitiae tesseram conferre, magisque faustam volui, quam exesas tristium funerum notas. Absit omen. Innotescere sat erar, donec liquidius fideliusque nos glutinum jungeret. Brixianus ille, jam aetate curvus et capularis: urnas et sepulchra ceu vespillo ruspatur; ut tumuli et monumenti exemplum sibi investiget. Sed libri non usquequaque contemnendi. Non te celo: mendum in Inscriptione illâ haeret. pro VEIONACIA, lapis (in Noniano eum vidi et fideliter enotavi:) VEIONIA. CEA. Vale.</p>
+</div2>
+<div2 id='PuEL.01.72' n='72' type='letter'>
+<head>EPISTOLA LXXII. <hi rend='italic'>Romam.</hi> CAROLO LAVRINO MEO S. D.</head>
+<p>ADolescentem hunc vides? Is est, de quo super obiter: quem denuo nunc tibi commendo, hoc inprimis argumento, quia probus; deinde; quia mihi amicus. Commendo autem hactenus, ut consuetudine, et consilio tuo uti possit, nec morum,
+<pb id='s088' n='88'/>
+nec linguae Italicae omnino peritus. Iter meum ad vos PINELLO auctore, in Autumnum distuli. qui ipse sui spem aliquam dedit, Pecuniolae tuae paratae. Vbi, et quando vis? Vlî profecto onerosum est debere: magis amico: maxime tibi. Itaque scribe, et me libera. Sed de summulâ quaeso adde. Ego enim etsi non omnino fallor, tamen haereo: et nunc plane cognosco, beneficium et injuriam hac inprimis differentiâ secerni; quod in illo accipientis, in hac dantis imbecillior memoria est ASSENVS, credo, jam apud te est, et litteras librumque dedit: tu perge, et confer. Viden quâ fiduciâ? impero, non rogo: et nonne impetro? PLEIAS, lentum negotium est; nec caelestis illa in caelo si amplius commovetur, longiorem noctem habeamus illâ, quâ Iuppiter cum Alcumenâ fuit. Vale. Venetiis, inter clamores et strepitum ebriorum. In diversorio enim scribo: et vereor, ne culinam haec epistola oleat. Tu manus ablue, postquam legisti. IV. Eid. Mart. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.73' n='73' type='letter'>
+<head>EPISTOLA LXXIII. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C. <hi rend='italic'>Historiographo Regio.</hi></head>
+<p>AMor facit, Vir Clarissime, ut legem nostram violem, et per amicum scribam. Is FREDERICVS HAVENS est, inter Auditoresolim tuos: et familiares, patris caussâ. Casu in cum nunc incidi, cum ludos nescio quos scenicos spectatum hodie irem. Româ venerat: ac die crastini iter ad suos, et ad te. Quam comes ei esse cupiam, si tam tranquillitas
+<pb id='s089' n='89'/>
+Patriae, quam desiderium tui vocaret. Illa (bone Deus!) in quo motu, in quo metu! non quassatur amplius, sed obruitur et perit. Ego tamen anhelo, ut communem cum meis Fortunam subeam, et fortiter tecum sustineam, quem pariter cum meis habeo et colo (cogor dicere:) quia pariter mereri de me pergis. De rebus meis et statu ante dies aliquot scripsi, viâ Augustanâ: quas te litteras accepisse opinor. Patavii, VI. Eid. Quinct. oo. ICC. Subito apud amicum, ad quem scribendi caussâ declinavi.</p>
+</div2>
+<div2 id='PuEL.01.74' n='74' type='letter'>
+<head>EPISTOLA LXXIV. <hi rend='italic'>Pragam.</hi> PHILIPO DE MONTE, <hi rend='italic'>Archiphonasco Caesareo.</hi></head>
+<p>IN amorem tui, Clarissime Vir, non ab unâ caussâ impellor. Prima, Virtus tua est: cujus pulcherrimam speciem necessario perimus; et magis etiam Patriae nomine nos Belgae. Altera, Musa, quâ Orbis paene universus completus, et delinitus trahitur: haud aliter, quam ad Orphicum aliquem concentum. Tertia, ipse Io. VINC. PINELLVS, qui cum tantite faciat, quantum et Virtus, et Musa merentur, exemplum praeit, quod sequar. Sic igitur te amo; cuius et Virtutem cerno, et Musam audio, et laudes intelligo idque ab eo, quem maxime ipse amo; quique te maxime. Verba haec sunt? rem accipe, hoc quod adjungo munusculum, velut <gap desc='Greek word(s)'/> puri illius affectus; non quidem pretio magnum, aut argumento pretiosum, sed probum solâ caussâ. Pretium enim in ornatu aliquo orationis duntaxat aut cerussâ, contemptâ seriosis Viris aut neglectâ. Argumentum Musicum quidem est;
+<pb id='s090' n='90'/>
+sed tibi vereor ut Musicum, qui tantum deprimere lucubratiun culas nostras debes, quantum scientiâ superas. Itaque solam caussam respicere te volo: caussam autem amoris. cui si mutuum quoque tribueris, hoc consequar, ut non displicuisse munusculum intelligam: et, quae olim Athenis Armata, deinceps ubique Modulata terrarum celebretur. Valetudinem tam commodam, perpetuam precor. Patavii, XI. Kal. Maii, oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.75' n='75' type='letter'>
+<head>EPISTOLA LXXV. IANO DOVSAE, V. N.</head>
+<p>EXQ. Claudio veteri Annalium scriptore Agellius scripsit: <hi rend='italic'>Haec maxime versatur Deorum iniquitas, quod deteriores sunt incolumiores; neque optimum quempiam inter nos sinunt diurnare.</hi> Num et nobis licet? Causlam cum maximo seculi, et litterarum damno domus tua praebet, duorum tam carorum capitum casu concussa. O rem tristem! Tuum illum, et vere Iuventuris Principem crudo fato abreptum vix luximus, et ecce novo acerboque funere instauratur dolor, et ad fratrem <gap desc='Greek word(s)'/> transfertur. Haec scriptionis meae caussa, Nobilissime Vir; sive ut dolorem tuum lenirem, etsi tuâ id sponte te facere scio; sive ut meum indicarem: certe ut studium ac observantiam in te meam, tuamque domum. Humanitas tua invitat; quâ ante biennium, cum Hagam cum litteris Lipsianis venissem, blandius nescio an benignius exceptus, et (uno verbo) devinctus sum. Profiteri id hactenus signo aliquo quaesivi; nec aptius veriusque reperire potui, quam hoc ipsum a crudelibus Parcis acceptum. Triste quidem, sed tamen certum cum difficillimum sit,
+<pb id='s091' n='91'/>
+tristitiem simulare. Ego quidem amiei malum meum duco malum: illudque mecum cogito, si alienus ego hunc casum tam aegre feram, quid te Patrem par facere, cui jam altera spes periit, et familiae decus? Erige te ipsum, et Dei consilio hoc fieri existima, id est, bene sapienterque. Legemcommunem quid ego tibi ingeram, quae nascentibus dicta est mori? et mori quidem incerto limite, aut termino nullo nobis fixo, nisi quem aeternae providentiae tabulis Deus ipse inscripsit. At in ipso Bonae AEtatis flore abri pi durum videtur. Videri non nego: esse tamen quî potest, nisi vitae finem non in bene, sed diu vivendo collocemus. <gap desc='Greek word(s)'/>. Haec ipsa quietis pars est, ad quietem citius transferri; et qui navigant, leni malunt flatu in portum invehi, quam aut segnibus ventis diu ludi, aut lentissimo tranquillitatis taedio lassari. Filius igitur obiit sed quod omnes mox facturi sumus, fecit: obiit; sed multos in spatio et cursu vitae, plures in famae superavit. Licuisset saltem oculos domi illi claudere, et extremum pietatis officium persolvere!</p>
+<l>--- <gap desc='Greek word(s)'/>.</l>
+<p>Hoc gloriosius obiit, quo â Patriâ remotius, Patriae tamen caussâ (navigationis enim describendae caussâ profectum cum classe audivimus:) cumque irato Neptuno infausta navigatio cesserit, experiri tristia maluit, quam scribere; fato fungi, quam infelici munere. Sed finge incolumem remeasse domum; finge inter ipsos amplexus tuos extinctum, patrio ritu elatum, inter Majores conditum: haec omnia altius doloris vulnus impressissent; nec praesentire gaudia illa licuisset, nisi gladium acueres dolori.
+<pb id='s092' n='92'/>
+Deinde recti et urentes doloris radlisunt, qui peroculos animum invadunt: obliqui et tepidi, qui per aures. Hoc age Prudentissime Vir, et copiosam florentem que familiam tuam intuere, novos istos et pullulantes furculos: habes, quibus spem et exspectationem amissam restituas ac superes: habes, quorum industria, modestia, doctrina ad famae aliquem fructum aut maturuerunt, aut maturescent. Deus illos, et te Nobilissime Vir servet firmum et constantem. Patavii, X. Kalend. Apr. oo. icc.</p>
+<p>Quod olim mihi scripsisti, id rescribo: <hi rend='italic'>Optare optima, cogitare difficillima, ferre quaecunque e veniunt, sapientis officium esse deputo: neque cuiquam praecipue dolendum in eo, quod accidat universis.</hi></p>
+</div2>
+<div2 id='PuEL.01.76' n='76' type='letter'>
+<head>EPISTOLA LXXVI. <hi rend='italic'>Venetias.</hi> FABIO PAVLINO V. C.</head>
+<p>INIQVVS sim, Doctissime PAVLINE, ni me duplici isto munere insigniter ornatum profitear, et arcte tibi obstrictum. Munere autem litterario. Metalla, et lapillos quis aestimat? hoc ego magis; ni false aestimem. Illis namque cum pretium ab opinione sit, tantique fiant, quanti ille facit qui possidet, (parvi autem faciet, nisi tanti esse velit, quantum possidet;) merito apud aequum rerum aestimatorem vilescant. <hi rend='italic'>Mumera</hi> autem (ut Censorinus censet) <hi rend='italic'>ex auro, vel quae ex argento nitent coelato opere, nonnunquam materie cariora, ceteraque id gemus blandimenta Fortunae inhiantu, qui vulgo Divites vocantur:</hi> in quorum numero nec esse laboro, nec censeri, ne quidem si fuero. Verae divitiae
+<pb id='s093' n='93'/>
+in animo sitae, et in ingenii, ut sic dicam, arcâ. Sic vera quoque munera, inde prompta: cujusmodi tua isa Oratio et Carmen, gemino missu, omine felici. Illam enim accepi, hoc tu misisti, eo ipso die, quo olim Quinquatria celebrari solita, et munuscula mitti: ut Veterum utrumque more collatum; et quod citius missum est, rite acceptum; quod tardius acceptum, rite missum intelligatur. Tu vero Astoropaeus et <gap desc='Greek word(s)'/> mihi, qui vorsâ et prorsâ ita feliciter ludis, ita serio scribis, ut dubitem an passis verbis liberaque oratione accuratior, an metrico nexu liberior videare. In quo errore Iubens maneo; ut aequalem utrobique in te amoris caussam inveniami, quem spondeo aeternum. Patavii, XVII. Kal. Maii, oo. ICC.</p>
+<p>ANTONIVM CLERICVM si videris, saluta: quem cumdem rogo, PLEIADEM meam apud CIOTIVM promoveat.</p>
+</div2>
+<div2 id='PuEL.01.77' n='77' type='lette r'>
+<head>EPISTOLA LXXVII. <hi rend='italic'>Romam.</hi> IO. BAPT. HANSENIO.</head>
+<p>ECCE tibi SASSENVS; ecce munusculum, ecce affectus. Quando ipsesequar, et me tibi, mi HANSENI, sistam? Ita me Musae ament, inter prima et calida vota hoc est. Te enim amo: et hoc etiam magis, quia sunt qui obloquantur. Sed haec bonorum conditio est, omnibus non placere. Tu modo obdura, et desiderii tui radices in Doctrinae Modestiaeque fundo firma. Linguae malevolae flabra flectere te poterunt, non frangere. Arbores foecundari aiunt aurâ, quaenovo vere spirat: sic rectam bonae aetatis indolem
+<pb id='s094' n='94'/>
+obtrectationes praeparant ad verum gloriae fructum. quem anno et horno huberem ac maturum voveo. Patavii, V. Kal. Mart. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.78' n='78' type='letter'>
+<head>EPISTOLA LXXVIII. <hi rend='italic'>Mediolanum.</hi> FEDERICO QVINCTIO, <hi rend='italic'>Regii Fisci Advocato.</hi></head>
+<p>SI magna semper, et rara Virtus aestimata Humanitas est, perillustris Vir, quae non tam verborum blanditiis, vultusque serenitate vestita, quam ab ipso pectore nuda conspicitur; jure merito inter magnos maximum te admirari, venerari, et celebrare debeo, potentem sine fastu, doctum sine ambitione, benignum sine personâ. Apud alios malim dicere, ne gratiae caussâ dicam; tibi tamen dico, ne silere videar. Dico; et sermonis veritatem ad Modestiae tuae tribunal, velut in iniquum judicium produco. Scio enim non minus magnifice te laudes istas contemnere, quam gloriose promereri: etsi contemnere sine novâ Virtutis professione non potes. Prodis enim ipse, et agnoscis animi tui thesaurum, dum profiteri recusas: sed ego quoque libentius profero, quia recusas. Humanitarem inprimis, quam a multarum litterarum studio profectam, parem litteris possides. Vix in urbem vestram veneram, et ecce ad alloquium, ad Amicitiam vocas, domum invitas, Bibliothecam offers: quibus ita usus sum; ut maximum prudentiae cumulum accepisse, et ipsas lucubratiunculas meas bonâ ex parte a libris tuis esse, non negem. Deinde, ut abeuntem me quoque officio aliquo prosequerere, jure et tesseâ
+<pb id='s095' n='95'/>
+Hospitalitatis amplius tibi jungis, et divertere apud te (siquando itineris occasio) jubes. Magnum beneficium, his moribus, et hoc solo.</p>
+<lg>
+<l><gap desc='Greek word(s)'/></l>
+<l><gap desc='Greek word(s)'/>.</l>
+</lg>
+<p>Denique nunc eo progrederis, ut de revocando, et publico me titulo donando serio cogites. Haveo, haveo; ne longinquus a te, Vir Perillustris, absim, qui ex asse tuus. Patavii, X. Kalen. Majas, oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.79' n='79' type='letter'>
+<head>EPISTOLA LXXIX. <hi rend='italic'>Patavium.</hi> ARNALDO CATHIO S. D.</head>
+<p>QVIA navem sine te intravi, et avectus sum, suavissime CATHI, odiosa omnis hilaritas fuit, quam, taedii vincendi, a fabulis vectores exprimebant. Itaque segregare animum lectione coepi, et PLEIADEM meam revisere; partim, ut paratas correctiones Typographo deferrem; partim ut in carmine tuo praefixo te ipsum audirem, imo viderem. Perveneram ad illum versum:</p>
+<lg>
+<l>--- Quin tu adspice, ut ipsae</l>
+<l>Saltent canantque GRATIAE.</l>
+</lg>
+<p>Et ad titulum oculos reflectens, putavi non invenustum esse, scribere:</p>
+<l>Saltent canantque PLEIADES.</l>
+<p>Occasione scilicet fabulae veteris. Plejades enim, ut Hyginus tradit, antiquitus dictae choream stellis ducere. Quod ipsum testimonio Poetarum fultum, a rigidae scriptionis usu recte sustinetur. Inter Poetas quidem Propertius hac mente:</p>
+<l>PLEIADVM spisso cur coit igne CHORVS.</l>
+<p>Item Horatius:</p>
+<pb id='s096' n='96'/>
+<lg>
+<l>Indomitas prope qualis undas</l>
+<l>Exercet Auster, PLEIADVM CHORO</l>
+<l>Scindente nubes.</l>
+</lg>
+<p>Chorum uterque expresse nominat, canentium atque salientium stellarum. Canentium: ut hinc Mercurius totidem chordas aptasse Lyrae dicatur. Ovidius exprimit:</p>
+<lg>
+<l>--- SEPTENA putaris</l>
+<l>PLEIADVM numero FILA dedisse LYRAE.</l>
+</lg>
+<p>Salientium: quas Electra post Troiam captam dolore permota deseruit; et a ceteris, ne lascivire in luctu videretur descivit. Haec indicare volui, non quod carminis me tui poeniteat; sed ut amorem tui meum clarius cognoscas. Vale; et a LIVINO salve. Venetiis, XI. Kalend. lun. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.80' n='80' type='letter'>
+<head>EPISTOLA LXXX. <hi rend='italic'>Romam.</hi> FLORENTIO, ET CAROLO LAVRINIS.</head>
+<p>HOMINEM si lepidum, et non e vulgo vultis; hunc noscite, et amate. IOH. SADELERIVS est, nobilis ille Scalptor: et libellum defert ultimis meis litteris promissum. Nec opus illum, vel istum amplius commendare; cum et ille, et iste, a me veniant. Opus? imo nec otium. Alieno enim in loco, et inter epulas scribo, jam corollâ caput cinctus, quam ex Liberi lege sumpsi. Scribere simul et bibere haud facile est. Sic igitur Saluti vestrae Quadrantem nunc impendo <hi rend='italic'>Beneme, bene vos, bene</hi> SADELERIVM. Patavii, Kal. ipsis Iunii, mero meridie, oo. ICC.</p>
+</div2>
+<pb id='s097' n='97'/>
+<div2 id='PuEL.01.81' n='81' type='letter'>
+<head>EPISTOLA LXXXI. <hi rend='italic'>Venetias.</hi> ANTONIO CLERICO S. D.</head>
+<p>QVod libellum meum aestimas, mi ANTONI, ab amore mei est. Nec damno; si ita aestimas, nec celes hunc amorem: id est, ut non tantum assensu laudanda, sed judicio quoque corrigenda prosequaris. In publicum prodeunti si vestem nitentem depraedices, in fronte fuliginem dissimules, perperam et amico, et sermone uteris. Amico, qui moneri potius, quam laudari debet; sermone, quo monere potius, quam laudare ipse debebas. Hoc agamus, et ita inter nos simus, ut uterque secum est; sic omnibus futuri, quod uterque sibi est, morum et doctrinae laude. SEGETVM si vides, scriptionis, et mei admone. Patavii, IV. Non. Iun. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.82' n='82' type='letter'>
+<head>EPIST. LXXXII. <hi rend='italic'>Patavium.</hi> Io. VINCENTIO PINELLO <hi rend='italic'>Viro Perillustri.</hi></head>
+<p>IN aedibus SCARAMELLI fui: Septumiae monumentum vidi; etsi paene frustra: ita similiter omnia expressa. ut nesciam mehercules industriam, an memoriam FABRICII nostri, an utramque debeam admirari; qui tam fideliter in summâ festinatione ipse pinxit, aut feliciter pingentis postea ac reformantis manum direxit. In solo pilarum situ differentia aliqua, sed facile corrigenda. Reliqua enim quae discrepare videntur, ratio <gap desc='Greek word(s)'/> excusat. PLEIADES ortae
+<pb id='s098' n='98'/>
+sunt, et una <gap desc='Greek word(s)'/>, signum sive caussa tam humidi caeli.</p>
+<lg>
+<l><gap desc='Greek word(s)'/></l>
+<l><gap desc='Greek word(s)'/>:</l></lg>
+<p>quae etjam prolatae domuitionis caussa exstitit. Nunc <gap desc='Greek word(s)'/> mitto, serium hunc ludum, in negotio hîc mihi natum; et vereor ne insulsum in ipso salo. Vide, et vale Perillustris Vir. In crastinum condico. Venetiis, XI. Kal. Iun. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.83' n='83' type='letter'>
+<head>EPISTOLA LXXXIII. <hi rend='italic'>Mediolanum.</hi> MATTHAEO SANDERIO <hi rend='italic'>suo.</hi></head>
+<p>FAbulam adfero: tu paraassem; imo historiam, non fabulam, quam ne dies suspectam faciat, sic recentem stilo pangam, Adolescens (nec nominare cum fas) Lari et thoro alieno maculam parans, matronam quamdam deperibat,</p>
+<l>--- <gap desc='Greek word(s)'/>.</l>
+<p>Cujus cum illa igniculos sentiret; communi sexus levitate, pariter arsit: nec restabat, nisi ut amantes una inter se fierent convenae, ardoremque exstinguerent. Osagax, an salax dicam? Cupidinis inventum! Vbi matrona degebat, aedes proximas vacuas inquilinus reliquerat: eas communi consilio adolescens conducit, ut spargebat, animi caussâ; sed profecto animi caussâ. Mox, opportunitate usus parietem perfringit, qua furtim in thalamum suae Veneris commearet. Velabant autem intus peristromata dolum, quibus in antecessum mulier cubiculum ornaverat. Sic illa delectata praesentiâ amantis, et secreto, non minus avidum intrepide admittebau. Auxit deinde libidinis
+<pb id='s099' n='99'/>
+audaciam exspectata mariti profectio: et noctes etjam amantibus liberas reliquit. Sed de adulterio Deprum vox est:</p>
+<l>--- <gap desc='Greek word(s)'/>.</l>
+<p>Ecce post dies aliquot, noctis concubio, improvisus assistit maritus, ad conclave properat, ostium pulsat, uxorem compellat? Illis metus et trepidatio: nec remedium aliud, nisi divelli. Itaque adolescens, collectis vestimentis, transcurrit curriculo domum. Haec vero, dissimulato flagitio, velut altiori somno emergens, ad vocem mariti respondet; injectaque humeris veste, ostium recludit, et semihiantes oculos morsicans, morama nescio quâ imagine noctis astute excusat. Succedit deinde in Martis locum ipse Vulcanus. Sed ecce dum lectulum conscendit (infortunium amoris!) offendit, quod delicto festinationis remanserat, ornamentum capitis virile, et ipso strato duorum hominum vestigia figurata. Quid multis? ut in re uxoriâ suspicio proxima est, e signis adulterium conjicit. Nec iracundiam dissimulans furenti similis ad arma se proripit, noxio sanguine injuriae parentaturus. Misella extremum periculum cernens, mariti furorem impulso et oppessulato ostio excludit; plenamque securitatem fugâ stabiliens, parietem transit, paucisque passibus Larem et Virum mutat. Non diu moratus maritus, cum ferro adest: nisu valido diffringit cardinem, aditumque sternit. Iam caedem animo conceperat, jam gladium jugulo devoverat; cum inopinato effugio perculsus, mirari coepit, qui et qua mulier evasisset. Perscrutatus deinde diligentius grabatum, reliquaque cubiculi latibula, etjam tapetes excussit: dumque parietem persequitur, tota sceleris
+<pb id='s100' n='100'/>
+scena detecta est. Ecce discidium viro, et uxori; si jurgium modo esset, censerem in Palatium irent, in. Sacellum Deae Viriplacae; et inibi contentione animorum depositâ, concordes reverterentur. Tu suavissime SANDERI salve; et Catastrophen exspecta.</p>
+</div2>
+<div2 id='PuEL.01.84' n='84' type='letter'>
+<head>EPISTOLA LXXXIV. <hi rend='italic'>Atestam.</hi> HIPPOLYTO ANGELIERIO.</head>
+<p>HOnorem mihi habuisti tam blandâ et amicâ epistolâ, in quâ ingenii et doctrinae laude idemtidem me ornas; imo et officiosissime domum tuam invitas. Vtinam is sim, quem tu me esse existimas, benivolentiâ, et elogio tuo dignus! Nam de Inscriptionibus illis solicite magis, quam erudite quaesivi, illorum more, qui curâ scientiam supplent. Tuvero ita non docte tantum, sed benigne respondisti; ut scriptionis me meae jure merito possit poenitere, nisi alieno nomine suscepta esset. Cum enim Clarissimo Iano Grvtero munus hoc a te mitterem; diligentiam a me jungebam, ut recte mitterem: quam quia partim praevertisti ipse, partim coram vis explere, veniam, ubi primum cruditatem et fecem hanc aeris sol serenior pepulerit: non tam ut inscriptiones, quam te ipsum, Vir arnice, videam, cujus insigni humanitate captum me sentio, et trahi. Vale. Patavii, XIV. Kal. Apr. oo. ICC.</p>
+</div2>
+<pb id='s101' n='101'/>
+<div2 id='PuEL.01.85' n='85' type='letter'>
+<head>EPIST. LXXXV. <hi rend='italic'>Patavii.</hi> EDMVNDE BRVTI <hi rend='italic'>Salve.</hi></head>
+<div3 id='PuEL.01.85.01' n='1' type='section'>
+<p>IN Carmine nunquam credidi laborem inesse tantum, ut hoc exsculpsi illubens. invitissimis enim Musis: quas frustra ad Martia haec sacra traducere conatus sum. Heliconem suum pertinaciter insident, Phoebique jussu bellicos istos motus fugiunt et rumores. Quid censes? rapiendas eas? aut Martem Vltorem vocandum, qui injuriam vindicet? Neutrum: beneficium haec injuria est, si expendimus. Tibias enim fistulasque Sororum ille chorus negavit; ut tubae lituique laudes tuas clarius spargerent. Quod si ita est, mihi tamen liceat levi calamo succinere; imo praecinere.</p>
+</div3>
+<div3 id='PuEL.01.85.02' n='2' type='section'>
+<head>In Moenitionis Brutianae TYPVM.</head>
+<lg>
+<l>Victor ut ad versus tuto MOENIMINE Martis</l>
+<l>Stes Miles furias, Artis et Ingenii</l>
+<l>Vis facit; exiguis quam BRVTIVS explicat omnem,</l>
+<l>Sed doctis chartis, exiguoque Typo.</l>
+<l>Clarior hic Phoebo Bre vitas Phoebique Sorore</l>
+<l>Lucet, stricturis Artis et Ingenii:</l>
+<l>Stricturis tenebras pellens, nubemque serenans,</l>
+<l>Quae solet in magnis obtenebrare libris.</l>
+<l>Multa notat, dum pauca notat, spissata tabellaest,</l>
+<l>Et nostrîm Ingeniis, et veterum Ingeniis.</l>
+<l>Priscai videas e pulrere Militai</l>
+<pb id='s102' n='102'/>
+<l>Indita mutatae nomina Militae:</l>
+<l>Nomina quid dico? ipsa suis collapsa vetustas</l>
+<l>Cernitur in vivo Schemate rauderibus.</l>
+<l>Posthuma nascuntur bellacis MOENIA Romae,</l>
+<l>AEmula Carthagonascitur Imperii:</l>
+<l>Nec tamen ille suo, fraterno sanguine vallum</l>
+<l>Qui tinxit, nomen nomine restituet;</l>
+<l>Dido nec Phoenissa suo: scribenda resistunt</l>
+<l>Fata, novoque petunt nomen ab auspicio.</l>
+<l>Tu dabis o BRVTI; geminae tu conditor Vrbis,</l>
+<l>Artis et Ingenu, Martis et Imperii.</l>
+<l>Nam tua nec ferro poterunt, nec cedere flammis</l>
+<l>MOENIA: queis vivax BRVTIA nomen erit.</l>
+</lg>
+</div3>
+</div2>
+<div2 id='PuEL.01.86' n='86' type='letter'>
+<head>EPISTOLA LXXXVI. <hi rend='italic'>Bononiam.</hi> HERCVLI BVTREGARIO V. N.</head>
+<p>PLereque pulcherrimarum Artium, quas Antiquorum industria profuturas seculis eruit, tam iniquum fatum expertae sunt, ut ne vestigium sui reliquerint. Inter eas Musicam inprimis esse, tam palam est; ut cum nostro patrumqueaevo inventa vetera nova cupiditas restitueret, haec una inventu facilior, quam restauratu visa sit. Non defuerunt tamen qui radio quodam ingenii sui evincere spissam Vetustatis caliginem conati sunt: sed hactetus, ut armillis aut hastâ contenti, triumphum industriae tuae cesserint. Ego quidem qui in hoc quoque labore fui, te unum priscam illam Musicam felicissime emolitum esse, et Famae, et Doctrinae tuae credo. quarum alteram publice jam pridem venerari; alteram noscere
+<pb id='s103' n='103'/>
+et aestimare privatim coepi, ab eo mox tempore, quo rimam aliquam et occasionem ad notitiam tui PALLAS mea patefecit. Restat igitur, ut honori tuo, avidisque omnium votis satisfaciens, pleno gradu ferculorum Musicorum pompam promoveas, ac Triumphum agas. Vale. Patavii, VIII. Eid. Iun. oo. ICC.</p>
+<p>Seorsim quaerere a te volui, quid de doctrinâ Pareanâ, quid de hacnostrâ statuas. Praejudicium ASCANIVS PERSIVS litteris ad PINELLVM indicare visus: <hi rend='italic'>Actum</hi> me scilicet <hi rend='italic'>agere.</hi> quod quia necdum mihi liquet, licebit sine exceptione rei judicatae jure <hi rend='italic'>Actum agere:</hi> atque</p>
+<l>Hîc eâdem de caussâ bis judicium adipiscier.</l>
+</div2>
+<div2 id='PuEL.01.87' n='87' type='letter'>
+<head>EPIST. LXXXVII. <hi rend='italic'>Romam.</hi> Io. BAPT. HANSENIO S. D.</head>
+<p>BRevitatem culpas? at ego in calore hoc pariter et litteras et vestes habeo: et sicuti corpus vento textili tego; ita affectum suffultis verbis non obruo, sed oculis tuis integro paenenudum. PLEIAS nostra vulgata est exigui pretii, exiguae molis scriptum. Apud LAVRINOS exemplar est, vide ac judica. De Panegyrico Plinii jam ante scivi: item de Senecâ. Tertia Centuria, quae in procinctu jam pridem erat, nusquam apparet. Num stationaria facta, aut in castris delitescit? quando proelium inibit, et proelum subibit? Sed explorator ipse ero. Tu vale, et viam litteris meis sterne ad Illustrissimum Cardinalem: cui salutem etjam nunc debeo
+<pb id='s104' n='104'/>
+a IOSEPHO SCALIGERO. Censorinum in adventum meum para. Patavii, IX. Kalend. Quinct. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.88' n='88' type='letter'>
+<head>EPISTOLA LXXXVIII. <hi rend='italic'>Florentiam.</hi> HIERONYMO MERCVRIALI, <hi rend='italic'>Medico Principi</hi> S. D.</head>
+<p>NIsi te Doctrinae tuae caussâ et Famae amarem, Magne Vir, deberem LIPSI: nisi hujus, meâ ipsius, quia a te amor. Id enim et ex litteris ad Perillustrem PINELLVM: et ex salute, per ATHENIVM ad me missâ, clarum. Sed Doctrinam, Famam, Amicitiam Lipsianam jam olim libenter audivi, libentius depraedicavi, ubicumque mentio tui. Ita enim a puero adfectus fui, ut in Doctorum Virorum laudes pronus semper irem, adsensu et applausu. Non una itaque amoris in te mei caussa est: vix una tui in me; nisi quam dubiis admodum scintillis produxisse PALLAS mea visa, in humido argumento: sed lucidis radiis, in pectore illo tuo ingenuo et amico. Quare quia tuâ sponte amare me coepisti, rogatu meo perges; ut gloriari de hac Amicitiâ possim, si aliqua a me origo exstiterit. Vale multum; ut per te multi. Patavii XI. Kal. Sext. oo. ICC. Tabulam hanc Honorariam adjungo, quam observantiae in te meae testimonium esse nolo.</p>
+</div2>
+<pb id='s105' n='105'/>
+<div2 id='PuEL.01.89' n='89' type='letter'>
+<head>EPISTOLA LXXXIX. <hi rend='italic'>Venetias.</hi> FABIO PAVLINO, V. C.</head>
+<p>OFficiosam hanc serram verbis amplius non reciproco, sed affectu. Te amo: et amari me ab te gaudeo, quia amas Eruditionis caussâ. quae si in me est (exigua certe) eamdem praemio commendationis superas: si erit, non impedio quin praevertas. Stimuli enim loco vtrobique laudes tuae sunt: isthic, ut aestimem; hîc vero, utsequar. Vale amicissime FABI. Patavii, XIV. Kal. Maias, oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.90' n='90' type='letter'>
+<head>EPIST. XC. <hi rend='italic'>Romam.</hi> GVLIELMO ATHENIO S. D.</head>
+<p>EGo vero non audio: et si tu <gap desc='Greek word(s)'/>, me <gap desc='Greek word(s)'/> invenisti. Romae es, id est, in eâ urbe, ubi arx et domicilium quondam orbis, nunc umbra et ruina gencis illius et aevi. Si tamen discendi caussâ es, abunde habes quod tibi aliisque notes. Latent in ipsis structurae ruderibus, et populi reliquiis thesauri morum et doctrinae. quorum tibi cupido ne languescat, dum facilis occasio est: neu videre differas (ut illeait) tanquam saepe visurus, quod videre nunc datur, quoties velis. Non enim mora tibi, sed diligentia fructum itineris dabit. Vidi, qui diu multumque circumvectus, nil nisiseipsum reportavit: quia non minus commoditas tardanti, quam festinatio properanti obest. Quod cum LAVRINIS agis, et conviviola
+<pb id='s106' n='106'/>
+etjam obis, paene invideo. Illos enim vere probo et amo: et hincadesse desidero. Comicus rectissime:</p>
+<l><gap desc='Greek word(s)'/>.</l>
+<p>Tu me Pataviumque cogita, et viam, ut Catullus loquitur, vora. IX. Kal. Quinct. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.91' n='91' type='letter'>
+<head>EPISTOLA XCI. <hi rend='italic'>Mediolanum.</hi> LVDOVICO SEPTALIO V. C</head>
+<p>COpiosam epistolam habui, cui ut persolvam non pecuniâ aerosâ, sed paucis aureis, cum intertrimento utar. Tu vero paucarum rerum jacturam non invitus sustinebis, ut verborum onus effugias. Sic itaque paucis multa dicam; sed ut nonnulla quoque omittam. Prosalute magni illiusViri votum concipio. Nova aliqua severitas expetenda est, quae coerceat. Licentia, licentia fibulam laxavit hactenus tot et tam enormibus malis. QVINCTII et SACCI favorem et affectum exosculor: sed vereor tamen ne longe a destinatione nostrâ simus. quicquid sit, <gap desc='Greek word(s)'/>. Epistolam ad LANDRIANVM scripsi. vides quam libenter? omnia negotia praeveni: ac officio malui, quam elegantiâ placere. Sic me commenda, epistolam excusa. Patavii, VIII. Kal. Sext. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.92' n='92' type='letter'>
+<head>EPISTOLA XCII. <hi rend='italic'>Lovanium.</hi> IVSTO LIPSIO V. C. <hi rend='italic'>Historiographo Regio.</hi></head>
+<p>SAEpius scripsi: male et amicis et tabellariis sit, si frustra. Vtrisque enim usus sum: tabellariis, ut amicis
+<pb id='s107' n='107'/>
+parcerem; amicis, ne solis tabellariis fiderem. Nunc repeto: teque consilii mei, postquam auctorem non licet, inspectorem desidero: ut consensu inquam accedas, non judicio praeeas. Provinciam docendi suscepi, Mediolanum veni, verba publice, et feliciter feci. Praefiscine dixerim; placui Senatui, placui plebi. Sed tu videbis an meruerim; imo et monebis; frustra horum me hominum laudes titillent, si laudem tu negaveris; aut suspectum praejudicium sit, si sententiâ tuâ accesseris. Videbis autem, non audies: verba, non vocem, velut testis oculatus. Ipsissima enim quae dixi prodeunt: et prodeunt suadentibus hîc amicis: in amicis, LVD. SEPTALIO, quem auctorem hujus muneris colo. Isnomine meo prensavit, omniumque animos excitavit. Meo inquam nomine, sed tuâ, Vir Clarissime, caussâ. Te enim amat, et publice praedicat: PVTEANVM propter te. agnosce quaeso benevolentiam istam; et gratiam illi scribe. Vir est inter nobilissimos Mediolanensium, inter doctissimos, inter humanissimos. Ad te litteras etjam parat: praeverte, et vince officium ejus, a quo penitus ego victus. Hospitio ejus excipior; eruditione dirigor; in omnibus juvor Ad summam Pater meus audit. Patrem itaque amplius, non laude, sed affectu prosequor: ut et laudem apud te inveniat, qui affectum adfert; per me inveniat, cui utrumque dedit. Vale. Mediolani, III. Kal. Decemb. oo: ICC.</p>
+</div2>
+<pb id='s108' n='108'/>
+<div2 id='PuEL.01.93' n='93' type='letter'>
+<head>EPISTOLA XCIII. <hi rend='italic'>Amsteldamum.</hi> CORNELIO REKENARIO S. D.</head>
+<p>LOngo intervallo te inviso; sed litteris et animo: quando voce et corpore? ut incolumem me audias</p>
+<l>Narantem loca, facta, nationes.</l>
+<p>Triennium jam perpetuum apud ignotos transegi, in ignoto solo. utrumque cum illo inprimis fructu, quod intelligam, quantum ad mores et prudentiam faciat cum Homerico. Vlixe <gap desc='Greek word(s)'/>: addo ad doctrinam et cognitionem Historiae priscae. Nam ut monumenta pacis militiaeque taceam, et tot vestigia venerandae Antiquitatis; adhaerent moribus et linguae huic reliquiae quaedam melioris aevi Adhaerent, sed caligine ignorantiae pressae, quas nisi sub arbitio bonorum scriptorum non distinguas. Tantum interest, rudis, an Litterarum aliquo praesidio peregrineris. Sed de me, et itinere meo pergo. Postquam Germaniam vidi, clivosa Alpium juga et scrupea saxa permensussum, ac Mediolanum profectus, amplam et aeternam urbem, ubi et amicitiam Magnatum, et ipsius Principis favorem sesquianni morâ obtinui: ac esse inter notos coepi, nec in ignoto solo. in quo Famae primitias mihi genui, scriptis non meâpte audaciâ, sed amicorum consilio editis. Vidisse te opinor: utinam et probasse! Ferventis certe (cur excusem?) ingenii sunt, necdum defaecati: quae laudem omnem a conatu meo trahent; quod immaturior, et in peregrinatione emolitus sum. Etsi haec ipsa in quietem
+<pb id='s109' n='109'/>
+paene versa esset; nisi valetudo aurem vellicasset, et propulisset ad iter. Itaque valetudinis caussâ per vicina loca circumvectus, Patavium (a Perillustri Io. VINC. PINELLO humanissime vocatus) concessi: cujus lare et consuetudine hactenus usus sum, cum magno studiorum meorum incremento. Nunc de profectione cogitano rediit, ad reliqua Italiae loca: quae videbo, lustraoo, si me Deusservet. quem eundem precor, te, uxorem, liberosque servet. Patavii, Prid. Kal. Sept oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.94' n='94' type='letter'>
+<head>EPISTOLA XCIV. <hi rend='italic'>Mediolani.</hi> IACOBO RESTAE, <hi rend='italic'>Viro Illustri.</hi></head>
+<p>INter optimas Artes, Vir Illustris, ad ornatum ortas utilitatemque generis humani, principem locum Historiam obtinere facile mihi assentieris: tantoque prae ceteris litteris homini colendam et callendam, quanto ipse paene homo cetera ad aemulationem vitae creata antecellit. Quae enim duo in homine eminent, hominemque Ratione et Oratione pollentem constituunt, Anima, et Corpus; illa ab aethere derivata, et a numine infusa; hoc e terrâ sumptum, et humo compactum: duo inquam illa similitudine quadam in Historiâ quoque invenio. Rem et Sermonem. Rem velut Animam: Sermonem velut Corpus. Hactenus vero Animam, ut nec mendacio infecta, nec fabulis corrupta sit; sed depurato halitu gratam Veritatem spiret: hactenus etjam Corpus, ut nullo Naturae vitio imminutum, sed
+<pb id='s110' n='110'/>
+membris suis perfectum; nullis naevis aut informibus notis aspersum ac lentiginosum, sed decoro pigmento commendabile, citra fucum. Itaque veritatis puritas, et Stili mundities in Historiâ requiruntur: utramque produco et amplius explico; ut qui tandem Historici sint, et quî ipsi simus elucescat. Vt autem in imagine coeptâ persistam, Quemadmodum anni hominem variant, nunc viribus et mente vacuum, nunc formâ et ingenio venustum, nunc robore, et judicio instructum, mox senio et malae aetatis merce gravatum: sic et Latinitatis gradus quidam, et secula fuerunt, quae sermonem distinxerunt, nascentem et rudem, accrescentem, floridum, cadentem, et morientem. Prima illa tempora tanquam rudia, postrema tanquam imperfecta non prosequor: in mediis commendo Sallustii brevitatem, Livii gravitatem, Caesaris nitorem, Taciti acumen, aliorum alias dotes; sed omnium elegantiam ac puritatem. Pariter enim omnes non scripserunt; eleganter tamen. Pro exemplo autem omnes habendi, ut et ipsi nos eleganter. Pro exemplo; ne Genium tamen naturamque nostram negligamus: sic Genio ac naturae indulgentes, ut exemplum habeamus: sic exemplo utentes, ut ipsi distinguamur. Vultum animus, animum sermo sequitur: vultu et animi inclinatione uti distinguimur, sic debemus sermone; ut nitide, non turgide aut remisse: pure, non affectate aut neglecte scribamus, sive loquamur. Nitide igitur ac pure; et sic legêris. nam si horridus aut incultus es, negligêris. In epulis non solum nutrimentum, sed saporem quoque desideras: sic in Historiâ Lector non rem modo, sed
+<pb id='s111' n='111'/>
+sermonem suavem et lepide condîtum. Inter spinas ac sentes, herbulas ad vitae usum nemo colligit, si earundem in culto et communi campo copia est: pariter qui exemplar morum Virtutisque a Majoribus petit, Scriptorem non stilo asperum, sed amoenum sumit; ut nimirum acriora illa praecepta Historiis inspersa, dulcedine hac linguae temperata, facilius ad animum demittantur. Ego sic sentio: et ad Animam Historiae transeo, Veritatem in quam ita curiose et anxie Veteres inquirebent, ut eos omnes, qui rebus gestis non interfuissent, nec scribenda ipsi vidissent, ab Historiae sacris, tanquam profanos indignosque, arcendos putaverint. haud aliter, quam olim Alexander imaginem suam (verba fere Apuleii sunt) quo certior posteris proderetur, noluit a quovis artifice vulgo contaminari. Solus eam Polycletus aere duceret, solus Apelles coloribus delincaret, solus Pyrgoteles coelamine excuderet. Praeter hos treis, siquis uspiam reperiretur alius, imagini Regis manus admolitus, haudsecus in eum, quam in sacrilegum vindicaturus. Magna igitur oculati Historici nec essitas: caussamque Isidorus reddit lib. I. Originum cap. XL. <hi rend='italic'>Melius enim,</hi> inquit, <hi rend='italic'>oculis quae fiunt deprehendimus, quam ea quae auditione colligimus. quae enim videntur, sine mendacio proferuntur.</hi> Vere scriptum, et ad sententiam Comici praeeuntis:</p>
+<lg>
+<l>Pluris est oculatus testis unus, quam auriti decem.</l>
+<l>Qui audiunt, audita dicunt; qui vident, plane sciunt.</l>
+</lg>
+<p>Et jam plura? An in Menoechmis idem ille huc quoque trahendus, tu vide:</p>
+<p><hi rend='italic'>Quin nos hinc domum redimus, nisi si Hisioriam scripturi</hi>
+<pb id='s112' n='112'/>
+<hi rend='italic'>sumus.</hi> Agellium luculentissimum scriptorem adjicio. is lib. v cap. XVIII. <hi rend='italic'>Historiam ab An alibus quidam differre eo putant, quod cum utrumque sit rerum gestarum narratio; earum tamen proprie rerum sit Historia, quibus rebus gerendis interfuerit is, qui narret, eamque esse opinionem quorundam Verrius Flaccus refert.</hi> Sed frustra testimoniis utor, cum ipsum nomen pro testimonio sit. Scribit Isidorus loco signato: <hi rend='italic'>Historia est narratio rei gestae, per quam ea quae in praeterito facta sunt dignoscantur. Dicta autem Graece Historia <gap desc='Greek word(s)'/>, vel a videre, vela cognoscere. Apud veteres enim nemo Historiam scribebat, nisi qui interfuisset, et ea quae scribenda essent, vidisset.</hi> Haec ille: tu vero quid? Etjam cognoscere res gestas absens potest. Quî obsecro? e rumoribus? vani et incerti sunt: ex amicis? homines sunt: ex epistolis? res creperas conjecturis praefiniunt. Historicus ceu pictor esse debet: is siquem penicillo referre in tabulam vult, adstantis, suique exemplar praebentis vultum coram intuetur; alias, aut colorem non exprimat, aut frontem nimis attollat, aut oculos torqueat, aut labia laxet: sic Historicus absens in multis peccet, primum inscitiâ, mox libidine fingendi, et ad Poetae dictum,</p>
+<l>Tunc immensa cavi spirant mendacia folles:</l>
+<p>vt non Historiam, sed falsitatis quemdam centonem videas, quem sub acumine stili perire melius sit, quam imperitorum manibus teri; ne sub Historiae titulo assensum palam inveniat, quo opinione veritatis typis donatur. Error enim scribentis, error multorum est, et privatim quisque credit, quod videt publice scriptum. Etenim si falsa narramus, ea aut probitatis speciem, aut contrariam habent.
+<pb id='s113' n='113'/>
+Si illam, iniquum est nequitiae nova exempla fingere, quasi vetera et vera desint: si hanc, turpe est Honestatem Virtutemque mendacio inquinare. Vulpecula, uti in fabulis est, Statuarii officinam transions, humani effigiem capitis conspexit, ac discedens, <hi rend='italic'>Bellum caput,</hi> inquit, <hi rend='italic'>sed vacuum cerebro:</hi> pariter de Historiâ mendosâ dixerim, ô bellam Historiam, sed fabellam. Atque utinam fabellam! merum mendacium est, sine ullo probitatis fructu: mera improbitas est, mendacio substructa. Fabulae autem utilitatem suam habent: quarum aliae delectandi caussâ fictae, ut Comoediae: aliae ad naturas rerum inventae, ut Poeticae fictiones: aliae ad mores hominum traductae, ut AEsopicae, et Libysticae; dum bruta inter se , aut cum brutis homines loquuntur. Quae eo distinctius dico, ne audax scribentis figmentum surrepere in aliquam partem patiaris, aut Historiae nomine spoliatum ad fabulas confugere. M. Tullius quae dixi, mihi complexus videtur li. II. de Oratore: <hi rend='italic'>Quis nescit primam esse Historiae legem, nequid falsi dicere audeat; deinde nequid vere non audeat: nequa suspicio gratiae sit in scribendo, nequa simultatis. Haec scilicet fundamenta nota sunt omnibus. Ipsa autem aedificatio posita est in Rebus et Verbis. Rerum ratio ordinem temporum desiderat, regionum descriptionem: vult etiam, quoniam in rebus magnis memoriaque dignis consilia primum, deinde acta, postea eventus expectantur; et de consiliis significari, quid Scriptor, et in rebus gestis declararinon solum, quid actum autdictum sit, sed etiam quomodo: et cum de eventu quaeritur, ut caussae explicentur omnes, vel casus, vel sapientiae, vel temeritatis; hominumque ipsorum non res gestae, sed etiam qui famâ ac nomine, excellunt, de cujusque vitâ atque naturâ. Verborum autem ratio, et genus orationis, fusum, atque tractum,</hi>
+<pb id='s114' n='114'/>
+<hi rend='italic'>et cum lenitate quadam aequabili profluens, sine hac judiciali asperitate, et sine sententiarum forensium aculeis prosequendum est.</hi> Leges claras, breves, eruditas; et ad quas nihil habeo quod addam: leges Cicerone dignas, qui eas scriprerit; par autem parendi necessitas, qui intellexerit; aequale delictum, qui pertinaciter violârit. Tanta enim efficitur culpa delinquentis, quanta est auctoritas leges condentis, et rite condentis. Animam separatim sic satis lustravi: nunc corpori eam reddo, et cum Sermone conjungo; ut viventem utrâque parte, et spirantem Historiam habeas. Salve Illustris Vir. H. X. Romanâ.</p>
+</div2>
+<div2 id='PuEL.01.95' n='95' type='letter'>
+<head>EPISTOLA XCV. <hi rend='italic'>Romam.</hi> SCIPIONI CAMPO V. N.</head>
+<p>NVM te repperi? Vir Nobilis, et Romae es?</p>
+<lg>
+<l>O quantum est hominum beatiorum,</l>
+<l>Quid me laetius est beatiusve!</l>
+</lg>
+<p>Sed vide quaeso, num verum firmumque tui amorem conceperim, quem tantum intervallum, quo sejuncti fuimus, adeo non fregit, ut auxerit, et Virtutis tuae quibusdam quasi fibris nixum roborarit: ideoque verum, quod roborarit sine ullo prope litterarum auxilio aut fomento. Nam vulgares Amicitiae, quae solius praesidii aut solatii gratiâ constant, similes tenerioribus herbis sunt, et levi aliquâ aurâ aduruntur ac pereunt; ut mehercules difficilius videatur conservare amicum quam facere, ni Virtute feceris. Alias locum illud Satyrici habet:</p>
+<lg>
+<l>Grex agit in scenâ minimum, pater ille vocatur,</l>
+<l>Filius hic, nomen divitis ille tenet:</l>
+<pb id='s115' n='115'/>
+<l>Mox ubi ridendas inclusit pagina partes,</l>
+<l>Vera redit facies, dissimulata perit.</l>
+</lg>
+<p>Verus amor et bono semine natus immortalis est, et omni Fortunâ major Virtute constat, Virtute conservatur: beneficium, officium, studium, similesque Amicitiae delicias non exigit; sed nec spernit, ubi opus. Sic tibi conjunctus sum et ero: sic te mihi esse, futurumque confido: quem videre haveo, et videbo (Deus faciat!) hoc Autumno. Vale</p>
+<lg>
+<l>--- omnibus e meis amicis</l>
+<l>Antistes mihi millibus trecentis.</l>
+</lg>
+<p>Patavii, Kalendis Sept. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.96' n='96' type='letter'>
+<head>EPISTOLA XCVI. <hi rend='italic'>Lupios.</hi> OCTAVIO SCALFO, V. C. <hi rend='italic'>Doctori Medico.</hi></head>
+<p>QVOD anus illa apud Plautum, id ego hoc munere: et de paullo paullulum hoc tibi do; imo vero exsolvo, quod debeo ex promisso: do tamen, tanquam non exsolvam, ne debito coactus, sed impulsus amore videar: etsi ipsum quoque amorem tibi debeam, qui sic effuse, sed et prompte me amas; imo et honoras. Sic enim interpretor Amicitiae mihi tesseram relictam, et quid, nisi elogium a benevolentiâ natum? Perge porro me amare, non dicam honorare: amare enim non poteris, nisi et honores. Deum precor, ut aliquando te videam et complectar: quod fortassis hoc itinere meo fiet, quod paro in illa, aut vicina loca. Interea vale. Patavii IV. Kal. Octobr. oo. ICC.</p>
+</div2>
+<pb id='s116' n='116'/>
+<div2 id='PuEL.01.97' n='97' type='letter'>
+<head>EPISTOLA XCVII. <hi rend='italic'>Mechliniam.</hi> WIBRANDO AVSKEMAE, <hi rend='italic'>veteri et fido amico</hi> S. D.</head>
+<p>FATVM tuum a meo ne sejunge aut dispara. Nam et mihi Patria lamentaria est: quam etsi non video, audio tamen quotidie moveri, imo mori, nil absentiâ dolorem levante. Quae videntur, animum percellunt vehementius; audimus tamen ea, quae nec videntur. Sic Fama fallit,</p>
+<l>Tam ficti pravique tenax, quam nuncia veri.</l>
+<p>Omnino igitur particeps doloris tui sum: et cogit pietas esse. Doloris? imo lacrymarum. Menandri vera vox est;</p>
+<lg>
+<l><gap desc='Greek word(s)'/>,</l>
+<l><gap desc='Greek word(s)'/>.</l>
+</lg>
+<p>Caussam lacrymarum dolorem habemus: doloris, Patriam. ego, quia audio: tu, quia in confinio vides praecipitis ruinae. Sed quid agas?</p>
+<l><gap desc='Greek word(s)'/></l>
+<p>Et in re malâ, animus bonus, dimidium mali. Atrae illae et aquosae nubes, coactae Deo volente ac jubente: idem, cum visum fuerit, pellet, et in seren tatem dabit Belgicam, Belgasque. In Italiâ quod pedem mihi figere licuit, et sic figere, bono Deo gratiam; etiam vobis, qui fortunam hanc amatis, consilium probatis, et in vota itis, non latere. In miseriis solent optari socii: ego vero eo animo sum, ut qui felicitatis hujus aemulos patior, consortes, quam a mulos velim aemulos, ut consortes habeam. Bonis enim in rebusbona aemulatio est, optima consortio. illa ad probitatem;
+<pb id='s117' n='117'/>
+haec, ad amorem pariter; stimulus. Sed inter nos a puero Amicitia nata, cum annis incrememum roburque sumpsit; et quae jucunda olim, nunc formam vultumque mutavit, ut ipsi mutavimus; et in Honenestam, ac paene virilem transiit. Quid ni? Annon olim in eodem domicilio alti, eâdem in Scholâ docti sumus? Ab iisdem cibis corpore crevimus, ab iisdem litteris animo: paene iidemsumus. Itaque de amore ne dubita; vivus ille et firmus erga te fuit, eritque semper. Non apparuit hactenus? quid tum? novae istae herbae, quas Natalis haec Hora fundit, hieme ubi fuerunt? in radicibus sub terrâ: sic amicitia nostra. Sub silentii quodam velo, quod revelo, ut benignam favoris litterarumque tuarum auram excipiat, ad uberem et maturum fructum. Vale mi amice, et uxori (felix vinculum sit!) salutem a me redde. Mediolani, Postrid. Kal. Maii oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.98' n='98' type='letter'>
+<head>EPISTOLA XCVIII. <hi rend='italic'>Patavium.</hi> ALEXANDRO VEGONTIAE <hi rend='italic'>Medico Patavino</hi> S. D.</head>
+<p>VEROS amicos, quosque non e turba colo, aut onero litteris, si scribendi otium est: aut penitus privo, si non est; quorum illud calidi amoris signum, hoc fiduciae est amoris; ut scribendo amorem ostendamus; silendo autem amore utamur, quod amore majus est. Itaque hactenus silui, id est, verum amicum te habui, negotiorum quibusdam nubeculis velut involutus: quas nunc pello, et rectis ac urentibus radiis amorem commonstro, rectum acurentem. Tu mutuum, et vale Mediolani, Postrid. Eid. Dec. oo, ICC.</p>
+</div2>
+<pb id='s118' n='118'/>
+<div2 id='PuEL.01.99' n='99' type='letter'>
+<head>EPISTOLA XCIX. <hi rend='italic'>Florentiam.</hi> IOAN. WOVWERENO <hi rend='italic'>S. amicissimam D.</hi></head>
+<p>OGRATAM Epistolam tuam Eruditissime Vir, et suaviter et amanter ad me scriptam! in quâ denuo te video, ut ille illam apud Plautum, quae in cerâ cubat. Te; et nimiam modestiam, quâ non minus crucior, quam recreor. Recreor, quod pulcherrimo isto Virtutum ornamento uteris: crucior, quod apud me. Itaque ne te vela, aut nube verecundâ verborum sindone: nudum et liberum tuum animum volo. Ais, denuo te experiri vires humanitatis meae, jam abunde per te fatigatas. imo (vin'dicam?) ne tentatas quidem. Libere, libere: valde inhumanus, atque adeo injurius ego tibi, imo et mihi ipsi, nisi honestissimam petitionem tuam officio praevertam, nedum assensu subsequar. Injurius mihi, a quo serio et amice amaris: tibi, qui dignus es amari, non dicam Patriae, et Generis caussâ; sed Doctrinae, atque Famae. Ego certe feci: et partem felicitatis meae censui, quod te noverim, viderim, in Museum exceperim; ad cujus conspectum et sermones ipsae meae Musae excitatae sunt, in veterno quodam cubantes. Quid dicam? cum fructu te habui, cum dolore dimisi. Nec enim minus torsit desiderium abeuntis, quam recreavit casus advenientis. Casus certe fuit: et sine VANDERMYLIO nostro fuisset, qui nomenclator exstitit, ignotus abiisles. Illi igitur et gratiam debeo et habeo, cui scriptorum, quae petis, usum promptissime concedam; hoc in primis nomine, quia petis. In Bathylli statuâ lepide me docuisti. Nunc correctiunculam in eodem
+<pb id='s119' n='119'/>
+Luciovide, ubi hic locus nonsatis lucebat, lib. IX. De Asino: <hi rend='italic'>Fruereexito totius nostrtae familiae, et sanguine trium fratrum insatiabilis tuam crudelitatem pasce, et de prostratis tuis civibus gloriose triumphandum scias. licet privato suis possesionibus paupere, fines usque et usque proterminaveris, habiturum te tamen vicinum aliquem.</hi> Videtur enim legendum esse: <hi rend='italic'>gloriose triumpha; dum scias (licet, privato suis possessionibus paupere, fines usque et usque proterminaveris) habiturum te tamen vicinum aliquem.</hi> Vale et me ama, qui te ex animo Patavii, Prid, Non. Nov. oo. ICC.</p>
+</div2>
+<div2 id='PuEL.01.100' n='100' type='letter'>
+<head>EPISTOLA C. <hi rend='italic'>Patavium.</hi> LAVRENTIO PIGNORIO S. D.</head>
+<p>PHALLOS accepi, gratum et eruditum munus; quo devinctum me esse libens profiteor, velut ipso Fascino captus. Cur autem siluerim? fiduciâ quadam amoris tui in me, quam ne extendam amplius, silentium ecce ejuro, et Locutulejus fio: frequentiâ tamen magis, quam copiâ. Nam ut valetudinem servat saepius esse, sed omnino famem non tollere: sic Amicitiam, saepius scribere, sed omnino desiderium non explere. Iamdiu est, quod in aere publico Litterarum es: et hoc iniquior, quod solvendo. Quare age agnosce nomen, et in PIGNVS argenteum illum Neronis nummum confer; cujus aestimationem pretiumque arbitrio tuo publice recipiemus. Quod praejudicium meum exquiris, dabo; amice etiam magis, quam prudenter. Nec enim ignoro, quam post accuratissimam tuam operam meâ operâ frustra ero, non dicam juvando, sed monendo. Sic igitur schedas tuas videro, sed ut videam, et amicorum more praegustem. PANEGYRICVM meum (sic enim inscripsi) ad
+<pb id='s120' n='120'/>
+Perillustrem PINELLVM misi: et ad te, nisi oneri sim, mittam, imo etsiero. Interea legendum ab illo Maecenate nostro accipies; ut et illi tui legant. Sed te rogo intimum judicium tuum, illorumque, ne me celes. CONTARENVM tuum, imo meum ex mesaluta; cui adjungo Io. TOLLIVM, virum naturâ optimum, in Musicâ, quam amo, summum.</p>
+</div2>
+<div2 id='PuEL.01.101' n='101' type='epilog'>
+<head>CLAVSVLA AD LECTOREM.</head>
+<p>PAX <hi rend='italic'>Legibus Sumptuariis sit: ipsam</hi> PROMVLSIDEM <hi rend='italic'>Centenariam feci, sed numero, non aere: et copiosior, non dicam splendidior, fui in illicio hoc Coenae, ut tu Lector, sive Coenipeta, pleno irritamento lassus, robustiorem cibum, et post Mulsum Liberi leporem poscas: quem ponam; ut Horatius ait,</hi></p>
+<l>--- Horna dulci vina promens dolio.</l>
+<p><hi rend='italic'>Horna inquam. Epistolae enim quanto recentiores, tanto meliores sunt: nec in annos conduntur; sed ad usum atque rempraesentem. Sic bene tibi sit, mi amice</hi> LECTOR.</p>
+</div2>
+<closer>FINIS.</closer>
+</div1>
+</body>
+</text>
+</TEI.2>

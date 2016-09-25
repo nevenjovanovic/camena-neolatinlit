@@ -1,0 +1,2379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Theatrum Politicum Sive Tragoediae Ad Commendationem Virtutis Et Vitiorum Detestationem Olim Ludis Autumnalibus Nunc Typo Datae.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Neumayr" TEIform="author">Neumayr, Franciscus SJ</author>
+<editor TEIform="editor" role="editor">Neumayr, Franciscus SJ</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Ruediger Niehl</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/neum1" type="href" id="neum1" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">neum1</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">neumayrtheatrum.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">neumayrtheatrum.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">neum1/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Augsburg, Ingolstadt: Franz Xaver Craez und <name type="person" TEIform="name">Thomas Summer</name>, 1760.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">May 15, 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">editorial description: typed text - structural tagging complete (somewhat inconsistent, but functional) - no semantic tagging - no spell check; Note: Some erratic speaker abbreviations have been streamlined, others graphically slightly altered for technical reasons. Warning to subsequent editors: Quotes in subheadings, stage informations and footnotes are sometimes used in bewildering confusion; not all stage information could be placed with certainty.</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">September 17, 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Angela Reinthal</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">Morpheus spell-check performed</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+
+
+
+
+
+<text><gap id="Achior"/><gap id="Admetus"/><gap id="Adocetus"/><gap id="Aemilius"/><gap id="Aer"/><gap id="Aerius"/><gap id="Aesculapius"/><gap id="Aesophagus"/><gap id="Aeternitas"/><gap id="Ahias"/><gap id="Alithius"/><gap id="Amantius"/><gap id="Amasius"/><gap id="Ambae"/><gap id="Ambo"/><gap id="Amicus"/><gap id="Amor_coniug"/><gap id="Amphibius"/><gap id="Anael"/><gap id="Anastasius"/><gap id="percutiens"/><gap id="Angelus"/><gap id="Anna"/><gap id="Apollo"/><gap id="Aqua"/><gap id="Aram"/><gap id="Arcadius"/><gap id="Architectus"/><gap id="Asmodaeus"/><gap id="Atropos"/><gap id="Audifax"/><gap id="Aurelianus"/><gap id="Auritus"/><gap id="Axa"/><gap id="Baasa"/><gap id="Babylon"/><gap id="Bavar"/><gap id="Bavaria"/><gap id="Bellona"/><gap id="Berecynthia"/><gap id="Boreas"/><gap id="Britannia"/><gap id="Brontes_Cyclops"/><gap id="Brontes"/><gap id="Brutus"/><gap id="Camillus"/><gap id="Caracalla"/><gap id="Ceres"/><gap id="Chorus_Faunorum"/><gap id="Chorus_fugientium"/><gap id="Chorus_oppugnantium"/><gap id="Chorus_Pastorum"/><gap id="Chorus_Venatorum"/><gap id="CHORUS"/><gap id="Chorus"/><gap id="Chronus"/><gap id="Chrysaorius"/><gap id="Chrysostomus"/><gap id="Cives"/><gap id="Civis"/><gap id="Claudianus"/><gap id="Clotho"/><gap id="Comoedus"/><gap id="Conscientius"/><gap id="Constantinopolis"/><gap id="Constantinus"/><gap id="Constantius"/><gap id="Corpus"/><gap id="Cosmus"/><gap id="Creon"/><gap id="Cretismus"/><gap id="Crisius"/><gap id="Cupido"/><gap id="Deus"/><gap id="Diana"/><gap id="Discretius"/><gap id="Domitianus"/><gap id="Doxus"/><gap id="Eliphaz"/><gap id="Ephebus"/><gap id="Ephrem"/><gap id="Esron"/><gap id="Eutrop"/><gap id="Eutropius"/><gap id="Fabius"/><gap id="Fauni"/><gap id="Faunus"/><gap id="Filius"/><gap id="Filii"/><gap id="Gabelus"/><gap id="Gainas"/><gap id="Ganymedes_Plutonis"/><gap id="Ganymedes"/><gap id="Garrilius"/><gap id="Gastrimargus"/><gap id="Genius_Bavariae"/><gap id="Genius_Jeroboami"/><gap id="Genius_Prudentiae"/><gap id="Genius_Roman_Imperii"/><gap id="Genius"/><gap id="Geta"/><gap id="Gracchus"/><gap id="Gulaphus"/><gap id="Helvius"/><gap id="Herodianismus"/><gap id="Hora"/><gap id="Horae"/><gap id="Hymen"/><gap id="Hypatius"/><gap id="I"/><gap id="Ibrahim"/><gap id="Idonius"/><gap id="Ignis"/><gap id="II"/><gap id="III"/><gap id="Incurius"/><gap id="IV"/><gap id="IX"/><gap id="Ieroboam"/><gap id="Ioannes"/><gap id="Ioram"/><gap id="Ioramus"/><gap id="Iuppiter"/><gap id="Iustinianus"/><gap id="Iustinus"/><gap id="Iuvenis"/><gap id="Lachesis"/><gap id="Laetus"/><gap id="Legatus"/><gap id="Lentulus"/><gap id="Leo"/><gap id="Logus"/><gap id="Lorinus"/><gap id="Ludio"/><gap id="Luna"/><gap id="Macrinus"/><gap id="Abusus"/><gap id="Usus"/><gap id="Magister"/><gap id="Mammon"/><gap id="Manasses"/><gap id="Mansuetus"/><gap id="Marinus"/><gap id="Marius"/><gap id="Mars"/><gap id="Maternianus"/><gap id="Mercurius"/><gap id="Michaeas"/><gap id="Miles"/><gap id="Misenus"/><gap id="Morotrophii_Praefect"/><gap id="Musa"/><gap id="Musae"/><gap id="Nadab"/><gap id="Nadabus"/><gap id="Nasutus"/><gap id="Negotius"/><gap id="Nemesis"/><gap id="Nemesius"/><gap id="Nepos"/><gap id="Neptunus"/><gap id="Nilus"/><gap id="Nonus"/><gap id="Nuntius"/><gap id="Nympha"/><gap id="Nymphae"/><gap id="Ochozias"/><gap id="Octo"/><gap id="Nepotes"/><gap id="Oeconomus"/><gap id="Oeniandus"/><gap id="Omnes"/><gap id="Ophtalmius"/><gap id="Ophtalmus"/><gap id="Oranges"/><gap id="Pales"/><gap id="Pallas"/><gap id="Papinianus_Filius"/><gap id="Papinianus_iunior"/><gap id="Papinianus_Pater"/><gap id="Papinianus_senior"/><gap id="Papinianus"/><gap id="Parcae"/><gap id="Parvuli_omnes"/><gap id="Pastores"/><gap id="Pater"/><gap id="Paulinus"/><gap id="Paulus"/><gap id="Phantasus"/><gap id="Pharisaismus"/><gap id="Phoebus"/><gap id="Pluto"/><gap id="Poeta"/><gap id="Politicus"/><gap id="Pomona"/><gap id="Praecipitantia"/><gap id="Praecones"/><gap id="Procopius"/><gap id="Propheta"/><gap id="Prophetae"/><gap id="Providentia"/><gap id="Prudentius"/><gap id="Pseudo-Polit"/><gap id="Pseudo-Politicismus"/><gap id="Pseudo-Propheta"/><gap id="Pyracmon"/><gap id="Raguel"/><gap id="Ratio_status"/><gap id="Religio"/><gap id="Roma"/><gap id="Rutilius"/><gap id="Sadoch"/><gap id="Salmon"/><gap id="Sara"/><gap id="Saturninus"/><gap id="Saturnus"/><gap id="Sedecias"/><gap id="Senex"/><gap id="Serenus"/><gap id="Servus_Fabii"/><gap id="Servus"/><gap id="Severus"/><gap id="Sol"/><gap id="mendax"/><gap id="Spiritus"/><gap id="Sterops"/><gap id="Stertinius"/><gap id="Suspirius"/><gap id="Syncretismus"/><gap id="Synesius"/><gap id="Tangulus"/><gap id="Terentianus"/><gap id="Terra"/><gap id="Theander"/><gap id="Themis"/><gap id="Titus"/><gap id="Tobias"/><gap id="Tres"/><gap id="tres"/><gap id="Tribunus"/><gap id="Uranius"/><gap id="Uterque"/><gap id="Utraque"/><gap id="Utrique"/><gap id="V"/><gap id="Venatores"/><gap id="Venus"/><gap id="VI"/><gap id="Vicarius"/><gap id="Vigilius"/><gap id="VII"/><gap id="VIII"/><gap id="Virtuosus"/><gap id="Vitalianus"/><gap id="Volusianus"/><gap id="Vulcanus"/><gap id="X"/><gap id="XI"/><gap id="XII"/><gap id="XIII"/><gap id="XIV"/><gap id="XV"/><gap id="XVI"/><gap id="XVII"/><gap id="XVIII"/><gap id="XIX"/><gap id="XX"/><gap id="XXI"/><gap id="XXII"/><gap id="XXIII"/><gap id="XXIV"/><gap id="Zara"/><gap id="GR"/><gap id="GE"/><body><div1 type="book">
+<pb id="s285" TEIform="pb"/>
+<head>CONSTANTIA ORTHODOXA AB IMPERATORE CONSTANTIO CHLORO SAPIENTER HONORATA TRAGOEDIA DATA LUDIS AUTUMNALIBUS ANNO MDCCXXXVI.</head>
+<pb id="s286" n="286" TEIform="pb"/>
+<argument TEIform="argument"><head>ARGUMENTUM.</head>
+<p TEIform="p">COnstantium Chlorum, Constantini Magni Patrem, adhuc Ethnicum, cum sciret, multos in aula sua Christianos occulte versari, aliquando cupido incessit, experiendi, qua demum constantia singuli Christum colerent. Ergo solenne Sacrificium Jovi faciendum indicitur, jubentur adesse Proceres, et Duces omnes; si quis obstreperet, denuntiatur exilium. Hic, qui Deum minus, quam Caesarem metuebant, abjecta fide, imperata fecerunt: at alii, quibus potior erat Numinis, quam hominis gratia, negaverunt, tanti sibi aulam esse, ut non illa mallent, quam Caelo excludi. Jamque abibant, cum Caesar fictione deposita, laudare constantiam institit, virosque fortissimos multo cum honore retinens sibi, imbelles illos <reg orig="homulos" TEIform="reg">homullos</reg>, quos Sacramentum Christo dictum tam leviter violare non puduit, amandavit a se, sapienter conjectans, facile infideles Principi fore, qui Deo suo fideles non essent. <name type="person" TEIform="name">Baronius</name> ex Eusebio in vita Constantii. L. 2. cap. 48.</p>
+</argument>
+<argument TEIform="argument"><head>Observationes ex Eusebio, Eutropio, <name type="person" TEIform="name">Sozomeno</name>, <name type="person" TEIform="name">Baronio</name>, et <name type="person" TEIform="name">Forestio</name>.</head>
+<p TEIform="p">1. Constat, fuisse Constantium semper Christianis optime affectum; quin affirmant Auctores citati, ipsum ante obitum suscepisse baptismum, et cum Constantinum Successorem nominaret, dixisse: jam libenter morior, quia filium Imperatorem relinquo, qui Christianorum lacrimas absterget.</p>
+<pb id="s287" n="287" TEIform="pb"/>
+<p TEIform="p">2. Verisimile est, hanc Procerum probationem ideo susceptam fuisse, ut Constantino provideret de aulicis, quorum fidei secure posset confidere.</p>
+<p TEIform="p">3. Contigisse hoc fingimus eo tempore, quo Constantinus, qui in aula Galerii Romae educabatur, fuga elapsus ad Patrem se contulit, elusis Tyranni, Juvenem jam tum magnum timentis, insidiis, quas passus est propterea, quod visus sit Christianis patrocinari.</p>
+<p TEIform="p">4. <corr sic="Authores" resp="transcriber" TEIform="corr">Auctores</corr>, qui dicunt Constantinum fuisse primum Imperatorem Christianum tunc conversum, cum crucem in aere vidit, nostris <corr sic="Authoribus" resp="transcriber" TEIform="corr">Auctoribus</corr> non sunt contrarii, et facile conciliantur, si dicamus, quod primus singulari cum cura rem Christianam promoverit, illa visione novum incitamentum addente, et fervorem stimulante.</p>
+</argument>
+<stage type="mix" TEIform="stage">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>PERSONAE.</head>
+<l TEIform="l" part="N">Constantius Imperator.</l>
+<l TEIform="l" part="N">Constantinus Filius.</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Procopius</name> Constantini Romae Moderator.</l>
+<l TEIform="l" part="N">Terentianus Ethnicus, postea Martyr.</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Volusianus</name>, Christiani occulti.</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Adocetus</name>, Christiani occulti.</l>
+<l TEIform="l" part="N">Severus, in fide lapsi.</l>
+<l TEIform="l" part="N">Marius, in fide lapsi.</l>
+<l TEIform="l" part="N">Joannes, Filii <name type="person" TEIform="name">Procopii</name>.</l>
+<l TEIform="l" part="N">Paulus, Filii <name type="person" TEIform="name">Procopii</name>.</l>
+</lg>
+</stage>
+<pb id="s288" n="288" TEIform="pb"/>
+<div2 id="NeTA.06.01" n="1" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>PROLOGUS. Genius Romani Imperii a Tyrannis vexati ex indole Constantini Magni adhuc pueri in spes magnas erectus de optimis aulae Ministris illi mature providet. PERSONAE. Providentia. Genius Romani Imperii. Britannia. <stage type="mix" TEIform="stage">* S. Helena Mater Constantini fuit <corr sic="Brittanna" resp="transcriber" TEIform="corr">Britannia</corr>.</stage> Ministri. <stage type="mix" TEIform="stage">** Exhibentur illorum temporum calamitates.</stage> CHORUS</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Tempora funesta!</l>
+<l TEIform="l" part="N">O strages populorum</l>
+<l TEIform="l" part="N">Gementium infesta</l>
+<l TEIform="l" part="N">Sub mole Tyrannorum!</l>
+<l TEIform="l" part="N">Ah tandem pia sidera</l>
+<l TEIform="l" part="N">Amoenius lucete!</l>
+<l TEIform="l" part="N">Pellantur atra nubila!</l>
+<l TEIform="l" part="N">Dispareant Cometae!</l>
+</lg>
+<sp who="Genius_Roman_Imperii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tu esto Lucifer, chara Britannia!</l>
+<l TEIform="l" part="N">In filio tui Constantii</l>
+<l TEIform="l" part="N">Spes omnis micat reliqua.</l>
+<l TEIform="l" part="N">Suspicio Juvenis indolem;</l>
+<l TEIform="l" part="N">Si annuis, vocabo ad regimen.</l>
+</lg></sp>
+<pb id="s289" n="289" TEIform="pb"/>
+<sp who="Britannia" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Honoras me ... Sed rogo te,</l>
+<l TEIform="l" part="N">Festina de bonis Ministris Constantino prospicere, Ne spes praeclarae suffocentur in gramine.</l>
+</lg></sp>
+<sp who="Genius_Roman_Imperii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Memorem mones. Scio, quanti referat Principis,</l>
+<l TEIform="l" part="N">Ut bonis cinctus sit aulicis.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIETTA.</head>
+<l TEIform="l" part="N">Quod capiti sunt oculi,</l>
+<l TEIform="l" part="N">Quod manus, pedes, corpori,</l>
+<l TEIform="l" part="N">Hoc Aulici sunt Principi,</l>
+<l TEIform="l" part="N">Qui in Republica</l>
+<l TEIform="l" part="N">Est anima</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Fac anima sit optima:</l>
+<l TEIform="l" part="N">Distorta si sunt Organa,</l>
+<l TEIform="l" part="N">In lippis lippa oculis,</l>
+<l TEIform="l" part="N">In pede claudo debilis,</l>
+<l TEIform="l" part="N">In manu arida</l>
+<l TEIform="l" part="N">Est arida infelix anima.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>3.</head>
+<l TEIform="l" part="N">Sic boni saepe Principes</l>
+<l TEIform="l" part="N">De se conceptas fallunt spes,</l>
+<l TEIform="l" part="N">Si malos habent Proceres,</l>
+<l TEIform="l" part="N">Quos nempe consulunt,</l>
+<l TEIform="l" part="N">Quos audiunt.</l>
+<l TEIform="l" part="N">Sed hoc tu de me noli metuere:</l>
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">*Theatrum exhibet armamentarium, et curiam, et aerarium.</stage> Ecce! habeo Ministros optimos in omni genere.</l>
+<l TEIform="l" part="N">Eia! vestra deferte obsequia! ...</l>
+<l TEIform="l" part="N">Vin' Politicos? Vin' Milites? Vin' Oeconomos? selige.</l>
+</lg>
+<pb id="s290" n="290" TEIform="pb"/>
+<sp who="Miles" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ecce me! Minister optimus est miles magnanimus.</l>
+</lg></sp>
+<sp who="Politicus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Melior est prudens Politicus: ecce me!</l>
+</lg></sp>
+<sp who="Oeconomus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ambobus potior est bonus Oeconomus: ecce me!</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">ARIOSE.</stage>
+<sp who="Oeconomus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego, ego Principem</l>
+<l TEIform="l" part="N">Facio amabilem,</l>
+</lg></sp>
+<sp who="Politicus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego venerabilem,</l>
+</lg></sp>
+<sp who="Miles" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego formidabilem.</l>
+</lg></sp>
+<sp who="Oeconomus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per me dives,</l>
+</lg></sp>
+<sp who="Politicus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per me felix,</l>
+</lg></sp>
+<sp who="Miles" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per me gloriosus est.</l>
+</lg></sp>
+<sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per me Princeps, Princeps est.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">2.</stage>
+<sp who="Oeconomus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Verba vana sine re!</l>
+<l TEIform="l" part="N">Quid potestis sine me?</l>
+<l TEIform="l" part="N">Arma et ingenia</l>
+<l TEIform="l" part="N">Acuit pecunia?</l>
+<l TEIform="l" part="N">Ubi fulgor,</l>
+<l TEIform="l" part="N">Ibi Vigor:</l>
+<l TEIform="l" part="N">Florent Castra, curia,</l>
+<l TEIform="l" part="N">Aula, forum, omnia.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">3.</stage>
+<sp who="Miles" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Arma, Arma regiam</l>
+<l TEIform="l" part="N">Fulciunt potentiam:</l>
+<l TEIform="l" part="N">Arma pingunt purpuram,</l>
+<l TEIform="l" part="N">Arma ferunt gloriam:</l>
+<l TEIform="l" part="N">Quid sunt opes,</l>
+<l TEIform="l" part="N">Quid decreta,</l>
+<l TEIform="l" part="N">Nisi illas tueor,</l>
+<l TEIform="l" part="N">Nisi ista exsequor?</l>
+</lg></sp>
+<pb id="s291" n="291" TEIform="pb"/>
+<stage type="mix" TEIform="stage">4.</stage>
+<sp who="Politicus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quae jactatis singuli,</l>
+<l TEIform="l" part="N">Solus dabo Principi:</l>
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Designat cerebrum.</stage> Hic, hic est aerarium,</l>
+<l TEIform="l" part="N">Hic armamentarium;</l>
+<l TEIform="l" part="N">Hinc nummorum,</l>
+<l TEIform="l" part="N">Hinc telorum</l>
+<l TEIform="l" part="N">Summa in inopia,</l>
+<l TEIform="l" part="N">Subito est copia.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">Da capo. Ego, ego Principem etc.</stage>
+<sp who="Genius_Roman_Imperii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Placet amicum certamen: litem dirimo.</l>
+<l TEIform="l" part="N">Nolite dividi animo!</l>
+<l TEIform="l" part="N">Novo Domino simul omnes servietis:</l>
+<l TEIform="l" part="N">Sic opera unanimi Constantinum MAGNUM facietis.</l>
+</lg></sp>
+<sp who="Britannia" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ignosce! Verba placent: rem exigo.</l>
+<l TEIform="l" part="N">Sintne omnes futuri fideles, interrogo?</l>
+</lg></sp>
+<sp who="Genius_Roman_Imperii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid suspicaris, et cur?</l>
+</lg></sp>
+<sp who="Britannia" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid fiet, si Miles sit proditor?</l>
+<l TEIform="l" part="N">Si Politicus adulator?</l>
+<l TEIform="l" part="N">Si Oeconomus fur?</l>
+<l TEIform="l" part="N">Heu! omnia metuo.</l>
+</lg></sp>
+<pb id="s292" n="292" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA. 1.</head>
+<l TEIform="l" part="N">Quis hominum corda scrutetur?</l>
+<l TEIform="l" part="N">Quis angulos mentis rimetur?</l>
+<l TEIform="l" part="N">Qui saevius laedunt,</l>
+<l TEIform="l" part="N">Larvati incedunt:</l>
+<l TEIform="l" part="N">Est aulicae prima prudentiae lex:</l>
+<l TEIform="l" part="N">Sic stude servire,</l>
+<l TEIform="l" part="N">Ut putet, se scire,</l>
+<l TEIform="l" part="N">Et tamen, quis vere sis, nesciat Rex.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Haec, aiunt, est summa: placere,</l>
+<l TEIform="l" part="N">Et Regem faventem habere:</l>
+<l TEIform="l" part="N">Nil refert, quid jura,</l>
+<l TEIform="l" part="N">Quid poscat natura,</l>
+<l TEIform="l" part="N">Quid populi bonum, quid gloriae spes:</l>
+<l TEIform="l" part="N">Rex audit libenter:</l>
+<l TEIform="l" part="N">Loquamur ardenter!</l>
+<l TEIform="l" part="N">Si suadeo, placeo: Salva est res!</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>3.</head>
+<l TEIform="l" part="N">O Reges, si forte putatis,</l>
+<l TEIform="l" part="N">Ab his vos amari, erratis:</l>
+<l TEIform="l" part="N">Ipsimet, quod serunt,</l>
+<l TEIform="l" part="N">Ut inferant, quaerunt.</l>
+<l TEIform="l" part="N">Nil credite verbis; mendacia sunt!</l>
+<l TEIform="l" part="N">Frons, oculi, vultus,</l>
+<l TEIform="l" part="N">Submissio, cultus,</l>
+<l TEIform="l" part="N">Si etiam jurent, mendacia sunt.</l>
+<pb id="s293" n="293" TEIform="pb"/>
+</lg>
+<sp who="Genius_Roman_Imperii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non nego, ita esse, ut dicis: sed quid facias!</l>
+<l TEIform="l" part="N">Prospicer non possumus omnes fallacias.</l>
+</lg></sp>
+<sp who="Britannia" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hinc est, quod te obsecro, ne praecipitetur electio.</l>
+<l TEIform="l" part="N">In tanti momenti Negotio Caelum consulamus,</l>
+<l TEIform="l" part="N">Signum petamus,</l>
+<l TEIform="l" part="N">In quo Ministros fideles a perfidis dignoscamus.</l>
+</lg></sp>
+<sp who="Genius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Probo consilium. <stage type="mix" TEIform="stage">* Exhibetur eversum delubrum, et crux in nubibus cum Epigraphe: In hoc signo. Item Palatium gloriae Constantino destinatum.</stage> Age templum intremus,</l>
+<l TEIform="l" part="N">Interrogemus Oraculum.</l>
+</lg></sp>
+<sp who="Genius Britannia" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Superi! Quale spectaculum!</l>
+<l TEIform="l" part="N">Quae ruina? Quis Cometa? Quam terribilis crux!</l>
+</lg></sp>
+<sp who="Providentia" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">ex nubibus</stage> Amabilis, aurea crux! ...</l>
+<l TEIform="l" part="N">Curarum desinite! meus est Constantinus!</l>
+<l TEIform="l" part="N">Ego MAGNUM faciam.</l>
+<l TEIform="l" part="N">Quid velim, legite, intelligite!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Ego architecta sum,</l>
+<l TEIform="l" part="N">Quae in his runis</l>
+<l TEIform="l" part="N">Constantino splendidum</l>
+<l TEIform="l" part="N">Molior palatium:</l>
+<l TEIform="l" part="N">Vos fundamento lapides,</l>
+<l TEIform="l" part="N">Non luteos, non fragiles,</l>
+<l TEIform="l" part="N">Non molles, non friabiles</l>
+<l TEIform="l" part="N">Sed solidos requirite,</l>
+<l TEIform="l" part="N">Et fortiter duratos,</l>
+<l TEIform="l" part="N">Quos crucis hac imagine</l>
+<l TEIform="l" part="N">Videritis signatos,</l>
+<l TEIform="l" part="N">Et prius Numini,</l>
+<l TEIform="l" part="N">Quam Principi,</l>
+<l TEIform="l" part="N">Perspicue sacratos,</l>
+</lg>
+<pb id="s294" n="294" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">His nixa stabit fabrica,</l>
+<l TEIform="l" part="N">Et stellis propinquabit:</l>
+<l TEIform="l" part="N">Et nec procellas nubium,</l>
+<l TEIform="l" part="N">Nec impetum torrentium</l>
+<l TEIform="l" part="N">Impulsa formidabit.</l>
+<l TEIform="l" part="N">Non vento furente,</l>
+<l TEIform="l" part="N">Non terra tremente</l>
+<l TEIform="l" part="N">Succussa trepidabit:</l>
+<l TEIform="l" part="N">Nil agent hostes machinis,</l>
+<l TEIform="l" part="N">Nil arte, nil cuniculis:</l>
+<l TEIform="l" part="N">Fundata in cruce</l>
+<l TEIform="l" part="N">In gloriae luce</l>
+<l TEIform="l" part="N">Aeternum perdurabit.</l>
+</lg>
+<sp who="Genius Britannia" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Io! amant Superi Constantinum!</l>
+</lg></sp>
+<sp who="Britannia" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Beata sum!</l>
+<l TEIform="l" part="N">Solutum jam est dubium:</l>
+<l TEIform="l" part="N">Assentior; sit Imperator! ...</l>
+<l TEIform="l" part="N">Sed tu obedi monitis Caelitum,</l>
+<l TEIform="l" part="N">Nec destina Ministros alios,</l>
+<l TEIform="l" part="N">Quam quos probavero sincere Catholicos.</l>
+</lg></sp>
+<sp who="Genius_Roman_Imperii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Me mihi rapuit jucundissima Visio:</l>
+<l TEIform="l" part="N">Oboedio. In signo crucis fiat electio.</l>
+<l TEIform="l" part="N">Imus! signatos requirimus.</l>
+</lg></sp>
+<pb id="s295" n="295" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA</head>
+<l TEIform="l" part="N">Hucusque ego animum,</l>
+<l TEIform="l" part="N">Industriam, Consilium</l>
+<l TEIform="l" part="N">In aulicis laudavi:</l>
+<l TEIform="l" part="N">Plus non desideravi ...</l>
+<l TEIform="l" part="N">Erravi!</l>
+<l TEIform="l" part="N">Dos prima est Religio,</l>
+<l TEIform="l" part="N">Quam ego non curavi..</l>
+<l TEIform="l" part="N">Erravi!</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Religio, Religio</l>
+<l TEIform="l" part="N">Me sola facit tutum,</l>
+<l TEIform="l" part="N">Ut sciam, cui Domino</l>
+<l TEIform="l" part="N">Stet subditus ad nutum.</l>
+<l TEIform="l" part="N">Non fallit me, qui fallere</l>
+<l TEIform="l" part="N">Se scit non posse Deum:</l>
+<l TEIform="l" part="N">Qui timet, ne, si fallat me,</l>
+<l TEIform="l" part="N">Divino coram Judice</l>
+<l TEIform="l" part="N">Accusem olim reum.</l>
+</lg>
+<pb id="s296" n="296" TEIform="pb"/>
+</div2>
+<div2 id="NeTA.06.02" n="2" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<div3 id="NeTA.06.01.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>PARS I. Constantia Orthodoxa tentata. SCENA PRIMA. Constantius. Constantinus. <name type="person" TEIform="name">Procopius</name>. Joannes. Paulus. Terentianus. Severus. Marius. <name type="person" TEIform="name">Volusianus</name>. <name type="person" TEIform="name">Adocetus</name>.</head>
+<sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Dies aureo signandus calculo mihi! Te, fili, teneo ereptum tyranni fraudibus felici fuga! Applaudite Proceres! Festus hic dies eat.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivite Caesares uterque felix!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="person" TEIform="name">Procopio</name> me debes, Auguste Parens! <name type="person" TEIform="name">Procopius</name> sapiente consilio juventam rexit, et circumspecta prudentia elusit cruentos dolos. Adsum ex mortis faucibus tibi redditus: recipe redivivum, et patrio amplexu stringe.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Totus irrue! o quantus redis! Pericula, quibus objecit te immanis latro, suscepta fortiter, superata feliciter, de te conceptas confirmant spes. Vive! Insiste coeptis, Constantinum te magnum fac! At tu, <name type="person" TEIform="name">Procopi</name>, dignum his curis praemium a me spera. Docebo Principes, quantum Ministris debeant, quorum fidei se, ac suos debent.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Auguste, tuus me beat favor. Abunde felix sum, si fidem probavi tibi.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Scio, magna virtus maximum est praemium suum: sed tu, ut etiam virtutem exerceat Caesar, et gaudio tuo gaudeat, vide, quid tibi, quid filiis petas: quidquid petieris, dabo.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego, Caesar, ut Patri gratulor favores tuos, sic mihi mereri cupio non alienis precibus, sed labore meo.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Idem scio, a me exposcit Pater, infelix nimium, si pro degenere supplicaret.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<pb id="s297" n="297" TEIform="pb"/>
+<l TEIform="l" part="N">Sic placetis; cumulate merita, cumulabo favores: ornamentis meis et suis gloriosa <name type="person" TEIform="name">Procopii</name> domus inclitum in longam seriem posteris transmittet nomen. Nunc vos, amici, studiis paribus me et filium ulcisci juvate. Filium, quem honoris causa, et amicitiae titulo reliqueram alendum Romae, scitis, quam saepe repetierim: num obtinui? Pro obside tyrannus tenuit, pro captivo habuit, insidias vitae struxit, et, nisi obstitisset <name type="person" TEIform="name">Procopius</name>, fraudibus circumventum necasset scelestus: Quid sentitis? Non est digna ultione injuria? Meum haurire sanguinem voluisse Galerium, inultus feram?</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non est ferendum. Transfer ab innoxiis barbaris in perfidum tyrannun arma: dudum Romani gemunt sub jugo fessi, et expetunt Principem, qui prementem ferociam opprimat. Filium da ducem, Caesar, nos sanguinem nostrum dabimus, in quo suffocetur bellua, quae tuum sitiit! Armis plectatur dolus! Justa vindicta est, et bello pio favebunt Superi!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Justa vindicta est, et bello pio favebunt Superi.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bene est. Ergo placentur Superi, ut auspicatum consilium sit. Fili, tu hodie atlanti fesso commodabis humeros recentes aemulus <name type="myth" TEIform="name">Herculis</name>: eris imperii collega mei. Sic redi Romam: intelligat Galerius, quem fecerit hostem imprudens sibi.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Meus sit labor, Auguste Parens, honor tuus. Te auspice, vindictam illustrem expetam.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic decet me, et te. Ite omnes: totis haec jussa vulgentur castris: <orig reg="solennem" TEIform="orig">sollemnem</orig> exercitus totus pompam apparet! Hic tibi, Terentiane, incumbit labor. Insuper haec cura esto: Flamines mone, Sacrificium ut parent Jovi: ipse adero, et mecum, quotquot me amant, mei. <orig reg="Solennis" TEIform="orig">Sollemnis</orig> gaudii hoc initium sacremus Caelo: nemo absit! Commune beneficium est, communis sit actio gratiarum.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At hoc tamen, Caesar, inutile imperium est: invalescit in dies numerus spernentium Deos, et nescio quem Christum, te indulgente, colentium. Isti ut sacrificent Jovi?</l>
+</lg></sp>
+<pb id="s298" n="298" TEIform="pb"/>
+<sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut vero ausint se mihi opponere? Dissimulavi hactenus hoc sectae genus, non approbavi.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Conniventia audaces fecit, et maior, quam credis, est multitudo. Experieris, quanti se opposituri imperio sint.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic est, experiar hodie. Mandatum repeto, et addo poenas. Quisquis hodie ex proceribus abfuerit sacrificio, posthac exesto aula, et qua volet, exsulet. Non patior contumacem. Ite! <name type="person" TEIform="name">Procopi</name>, tu tuis fruere.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si prius liceat ad te verbum.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Loquere. Turbatum video per hanc sententiam: num Christum colis?</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pater, fateri dubitas?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Christum, Auguste, nos ambo colimus, et nobiscum Pater.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hem! Ut audaces pueri sunt!</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Discedite! Pater jubet.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.06.01.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SECUNDA. Constantius. Constantinus. <name type="person" TEIform="name">Procopius</name>.</head>
+<sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">NIhil ego tribuo meritis meis, Caesar, sed gloria mansuetudinis tuae animat, ut ad te dicere audeam contra te. Quaero, num diem tam felicem nefastam velis? Video innatare te gaudiis, et in luctu intempestivo aulam submergis? Constantine Princeps, hoc tu patieris? Nec intercedes decreto tam lugubri, die tam festa?</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nam quid affligit te? Quid statui adversum tibi?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Penetrasti sensum viri: promulgatum Sacrificium male habet.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Eccur autem? Num Christo tu forte jurasti fidem?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vulnus tangis: quamquam non mihi doleo: Christo, et tibi doleo. Ignosce exsulaturo, si loquar liberius: Nam ex quo Christum didici, didici, Ministri fidelis hoc primum officium esse, quod alii in postremis habent, dicere Principi veritatem, cum res postulat, et tempus admittit.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<pb id="s299" n="299" TEIform="pb"/>
+<l TEIform="l" part="N">Mihi hoc novum est, te Christianum esse. Audio tamen, quia, ut amen, obstrinxisti me tibi. Loquere fortiter; non sum osor veritatis, quam vir sapiens loquitur. Hoc primum declara: potuitne in aula sua cultorem <name type="religion" TEIform="name">Christi</name> Galerius ferre?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc primum queror: apud Galerium latere potui, nunquam imperatum sacrificium est: apud Constantium, ipsa, qua filium reduxi, hora prodere me ipsum cogor, et exilii audire sententiam. O tristem reditum! Poene me huc adigis, Caesar, ut optem adhuc cum Galerio esse. O spem fallacem! Reduxi filium, ut a parente disceret, quanti facienda sit Religio Principi sapienti, quam videbat a rudi tyranno Romae tot modis affligi: quid experior? Dum advenio, extra Romam invenio Galerium, Constantium non reperio. Auguste, obsecro, quid displicuit tam repente in cultoribus <name type="religion" TEIform="name">Christi</name>, aut quid in ipso cultu? Cultum exhibemus homini, qui, quod sit Deus, vitae sanctitate, doctrinae eminentia, prodigiorum gloria abunde demonstravit. Tu loquere Princeps, quid audiveris Romae, quid oculis videris, utique argumenta certissima, quod vera sint, quae de Christo narrantur, cum prope paria in <name type="religion" TEIform="name">Christi</name> discipulis admiremur.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil auget <name type="person" TEIform="name">Procopius</name>, Auguste parens! <name type="religion" TEIform="name">Christi</name> cultus facit homines in omni virtutum genere admirandos. Praecepta tenent tam consentanea rationi, ut ex philosophis nemo vel unum impugnare sit ausus: tam conformia Rei publicae bono regimini, ut, si serventur, et populus et Princeps necessario felices sint: tam exacta ad normam honestatis, ut vel cogitare de re turpi sit nefas.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et addunt praeceptis consilia, quibus se plurimi promovent in apicem altissimae perfectionis, unde despiciant ceteros, et velut terrae fungos misereantur. Quid jam de summis Mysteriis loquar, quorum illi fidem quotidianis prodigiis adstruunt? Deum esse unum natura, in personis trinum, alteram ex illis hominem factum, pro nobis mortuum, resurrexisse, venturum judicem,</l>
+<pb id="s300" n="300" TEIform="pb"/>
+<l TEIform="l" part="N">et quae sunt eiusmodi omnem intelligentiae nostrae facultatem excedentia ita illi praedicant imperterrite, ut nec superbiam Regum sibi obstrepentium, nec argutias Sophorum contra disputantium, nec fastidium hominum animalium ad haec tam spiritualia se non attollentium revereantur.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quos in sententiis, quae superant rationem, vincere rationibus non possunt, vincunt prodigiis: ad verbum, quo in nomine <name type="religion" TEIform="name">Christi</name> imperant, caeci vident, claudi ambulant, surdi audiunt, leprosi mundantur, mortui resurgunt.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed quod omnia prodigia superat, fortitudo est, qua, quod docent verbis, confirmant sanguine.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hic vero, Auguste, stupenda vidisses spectacula, quae Galerius exhibuit mihi, ut crudelitate tyranni infamia, ita patientium virtute admiranda. Adhuc liquescit animus cogitatione heroum in tormentis ludentium.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vera memorari, negare non possum: multa, quae memorastis, ipse conspexi exempla sub Maximis, et Diocletianis Caesaribus: atque idcirco nunquam sustinui persequi cultores <name type="religion" TEIform="name">Christi</name>: ut tamen probarem cultum unius <name type="religion" TEIform="name">Christi</name>, nondum convictus sum.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si non displicent cultores <name type="religion" TEIform="name">Christi</name>, cur cultus displicet, qui tales facit? Caesar, tua interest, ut laudes etiam. Fideles, ut habeas subditos, maxime proceres, non nescis, quanti referat: non est quies animi, non est salutis fiducia, non Rei publicae cura felix, cum es ambiegnus, an qui te adjuvant, servent juratam fidem: Se an te in consiliis quaerant: solertiam in negotiis imperatis adhibeant: cum hostibus non colludant: non adulentur, ut placeant: non metuant displicere, ut prosint: non quaestui magis suo, quam commodis subditorum prospiciant, in miserorum sudore, ac sanguine helluantes. Haec, Auguste, quam raro deprehendes quod fiant: quam raro audebis punire, si fiant, nisi certus de fide tuorum sis? Unde vero sis certus? Corda non licet scrutari: deferentium querelas metus aut spes suffocant: tacent.</l>
+<pb id="s301" n="301" TEIform="pb"/>
+<l TEIform="l" part="N">At nempe jurarunt! Ah! Jurarunt, per Deos scilicet, quorum origo commenta sunt, quorum cultus simulatio, quorum laudes foeda facinora, quorum aestimatio potestatis divisa in multos, sibique contrarios, ita, ut si offenderis unum, opem ab altero speres. O miserum juramentum, invocationi tam inutilis Dei innixum!</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Patiens sum: sed vide, ne <name type="religion" TEIform="name">Diis</name> opprobrium dicas.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ultimus sermo est, quo finito in exilium eo. Nisi te diligerem, Caesar, non loquerer tam audacter: malo id meo facio, sed bono tuo. Nunc tu juramenta nostra cum juramentis tuorum compara. Per Deum juramus non ligneum, imbellem, mutabilem, mollem, sed cujus <corr sic="credimns?" resp="transcriber" TEIform="corr">credimus</corr> potentiam invictam esse, sapientiam omnisciam, justitiam formidandam: per Deum, quem nemo latere potest, cum peccat, nemo effugere, cum peccavit, nemo placare, cum judicabit: per Deum, ex cujus unius favore, ac gratia salus et omnis nostra felicitas pendet praesens aeque, ac sempiterna. Talem credimus Deum nos, qui solus vivit, et regnat sufficiens sibi, nullius indigus, immortalis, unus Dominus, cujus ad nutum tremit orbis terrarum: talem, talem credimus, per talem vobis juramus, Principes! possumusne in oculis tanti Dei fidem fallere? Vivere scelerati? Vivere, ut vivunt alii, qui aliud credunt? non possumus, Auguste, nisi fidem abicimus, non possumus male vivere. Et tu decrevisti cogere tuos, ut abiciant fidem hanc, quae est tam sancta, et sanctos facit? Obsecro, consule sapientiam tuam, nec a te abige homines, qui neque male de te sunt meriti, neque, ne aliquando male mereantur, timendi. A praeteritis criminationibus innocentes nos probat, a futuris sceleribus immunes nos servat lex, quam profitemur.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Praeclara oratio, sed quam ego una interrogatione universam confutem. Hanc adeo sanctam legem, quam ore profitemini, num etiam servatis opere? Quod lingua dicitis, num omnes corde sincero creditis? Quid humeros contrahis? I nunc,</l>
+<pb id="s302" n="302" TEIform="pb"/>
+<l TEIform="l" part="N">donec occurrat quid respondeas. Mihi agendum est tecum, fili, quem video mihi aut Christianum rediisse Roma, aut Christianis affinem nimis.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tuere causam, Princeps, quam Deus jubet.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et te tuebor: confide mihi.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.06.01.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA TERTIA. <name type="person" TEIform="name">Procopius</name>. Joannes. Paulus.</head>
+<sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DUbius haeret animus, quid effecerim. Certum convitium est, quod lingua dicimus, non omnes corde sincero credimus, et legem, quam profitemur ore, non omnes servamus opere.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pater longum alloquium fuit, num aeque utile? Non tibi haesit lingua terrore Majestatis perculsa? Heu! Si forte timidius locutus es Caesari, nec pro auctoritatis tuae gravitate <name type="religion" TEIform="name">Christi</name> causam es tuitus?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Certe visus es nobis ad exilii sententiam palluisse, quin adhuc pallere videris, quod praeter spem evenerit tibi, Constantium fuisse mutatum. Nobis non est improvisa mutatio: instigante Galerio, jam diu urgent inimici <name type="religion" TEIform="name">Christi</name>: ut inimicum nobis Caesarem faciant.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nondum inimicus videtur, imo, nisi me vehementer decipio, idem, qui olim, Constantius est, et eodem affectu. <name type="religion" TEIform="name">Christi</name> legem non improbat: <name type="religion" TEIform="name">Christi</name> legem se profiteri jactantium quorundam mores improbat. Ego tanto tempore ab aula procul, nescio, quae sit vobis vitae ratio. Docete me, quid observastis?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tria hominum genera haec habet aula: aliqui christiani sunt, et non videntur, alii videntur Christiani, et non sunt, alii denique neque sunt Christiani, neque videntur.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Satis dixisti: jam nunc penetro mentem Caesaris: quartum vult nôsse genus ex illis constans, qui veri Christiani sunt, et videri etiam glorientur. Ergo jam non est latendi tempus: prodeamus in aciem: pugnandum est.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil igitur effecisti? Obstinavit se</l>
+<pb id="s303" n="303" TEIform="pb"/>
+<l TEIform="l" part="N">Caesar, et nisi sacrificemus, est exsulandum?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Est exsulandum. Cessisse querelis videtur Constantius, et vult amandare cultores <name type="religion" TEIform="name">Christi</name>: ne tamen cogatur eicere multos nimis, sacrificium imperavit, ut sinceri discernantur a fictis: et metuo, ne obtineat finem, ac pauci exilium ferant. Non vincent periculum, nisi in quibus fides vehementius ardet. Semi-mortua flamma pallentis faculae non sustinet furentis Boreae ferocem vim. In Constantino spes micat aliqua: de illo scite, abesse parum, quin <name type="religion" TEIform="name">Christi</name> sit.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quam magnum narras bonum! Constantinus Christo haeret!</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Salvi sumus! Rescindet precibus decretum impium: vincet Patrem.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aut a Patre vincetur. Spem et metum habeo.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Recenti beneficio, et tam grandi obstrictus est tibi Caesar, et tu metuis?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vos hinc concludite, quanti sit aulae gloria: vappa, fumus, bulla, inflatum nihil. Ecce dies una <name type="person" TEIform="name">Procopium</name> magnum et nullum videt. Quamquam non possum fieri maior, quam si propter te nullus fiam, propter te, Christe, qui propter me factus es opprobrium hominum, et abjectio plebis. Habetis imaginem, quam Romam abiens utrinque dedi?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ex collo pendet.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ecce Pater!</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Promite palam: sic exigit honor <name type="religion" TEIform="name">Christi</name>, sic salus nostra, sic proximi bonum: jam sine scelere non licet latere.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed irritabimus Caesarem: insultare nos credet sibi, atrocius furet?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Metuis tibi, cum res agitur? Verba fortia crepabas ante, facta exhibe. Aut utique Jovi sacrificabis, ne Caesar insultare te sibi putet? Hem falsum me! Tales educavit vos mater, cui tantillos tam sollicite commendavi, ut curam masculam in id intenderet, ut a cunis disceretis pro Christo expetere, etiam si sit opus, cruenta certamina?</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quiesce Parens: non defuit officio mater. Qua volet Christus, ferar, vel si in ferrum et ignes volet. Nec mea vox timentis fuit: cavebam tibi.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe quia occultare nos</l>
+<pb id="s304" n="304" TEIform="pb"/>
+<l TEIform="l" part="N">Christus non prohibet. Prodibimus in publicum, cum erit necesse. Ordinem tragoediae turbat, qui in theatrum prodit, priusquam Choragus jubet.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nunc jubet Deus. Quid agent milites, si nemo sit dux? Aut exsula, aut sacrifica! Est gravis tentatio: quam pauci vincent, nisi exemplum vincentis videant? Videant nos: trahemus cohortes Martyrum, si trahere volumus. Signa tollite! Sequentur nos!</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Moves Pater! Pro <name type="religion" TEIform="name">Christi</name> gloria, pro animarum bono, pro salute mea hoc signum palam affigo pectori.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O signum felix! Pater, sic sentio incendi animum, ut etsi sacrificares idolo tu: si idem frater, et mater facerent, resisterem solus, et verterem tergum Jovi.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic places equidem. Tamen metue tibi: non es fortior illo Apostolo, qui eadem poene jactabat verba: sed cum tentatio praesens fuit, negavit Christum miser, et panico prostratus metu commisit, quod horruit, scelus. Omne a Deo auxilium venit: de nobis speremus nihil, pro nobis omnia, sic vincemus. Quodsi, ut homines sumus, aliquando trepidat cor, prehendite crucem: crucifixus solacium, exemplum, auxilium feret.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.06.01.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUARTA. Accedunt <name type="person" TEIform="name">Volusianus</name>. <name type="person" TEIform="name">Adocetus</name>. Marius. Severus.</head>
+<sp who="Volusianus Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Iucundum spectaculum! Ergo <name type="person" TEIform="name">Procopius</name> Christum colit! Quantum es praesidium nobis!</l>
+</lg></sp>
+ <sp who="Marius Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et quantum decus!</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vidimus, quibus tu praesidiis tuos praepares ad instans praelium.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Jucundum spectaculum fuit. Amat nos Deus, qui tantum nobis in tantis periculis misit virum.</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tu nobis consilio adsis, et filum porrige, quo evadamus ex his erroribus.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tu es navita, qui regat</l>
+<pb id="s305" n="305" TEIform="pb"/>
+<l TEIform="l" part="N">fluctuantem inter scopulos ratim.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si Christum colitis, in eadem jactor vobiscum navi.</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Colimus, quousque licet. Ut semper liceat, tu efficere potenti eloquio potes.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Laboravi: non audit Caesar. Alio vertenda sunt vela: a precibus ad consilia, a consiliis ad patientiam. Unde venitis? Quo tenditis?</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Auditum est ferale praeconium: stat ara Jovi in mediis erecta castris: jam victimae ornantur, jam Flamines se accingunt scelesto operi: inter Ethnicos plausus est, inter Christianos murmur varium. Nam qui latebant hactenus, jam timent prodi: et qui nihil dissimulanter colebant Christum, timent adigi, ut abjurent:hinc varia consilia, discordes sententiae.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aliis fuga placet, aliis semet sistendi Caesari cupido flagrat, alios maeror, et horror in desperationis consilia proicit, non nullos solatur spes edicti mitigandi, reposita in Constantino, quem putant Christianis non male velle.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nos ad illum accessum quaerimus, supplices futuri, ut saltem executioni moram a Patre impetret: defervet flumen, et frangitur ad obicem fluctus.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Recte speratis patronum juvenem: magnus animus, et indoles placida pronum ad opem spondent, si potest ferre. Sed mihi occurrit aliud, quod juvet suadere insuper.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Oracula loqueris. Suade, loquere.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Concordia res parvae crescunt, discordia maximae dilabuntur. Ergo si vultis servare, concordes este: si tueri integram Christo juratam fidem, discordiam fugite: cor unum sit, et una anima, mens una omnium: Nolo sacrificare. Atque ut id constet palam, hanc quisque admotam pectori imaginem ferat: nemo, quis sit, dissimulet. Sic quisque se, sic quisque suos conformet nobis. Hoc si consilium placet, ducem me vobis in omnem eventum offero.</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! Nimis audax consilium est: quid hinc speremus?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Alterutrum: vel ut glorioso damnemur exilio omnes simul, vel ut Constantius tot, ac</l>
+<pb id="s306" n="306" TEIform="pb"/>
+<l TEIform="l" part="N">tantorum commotus constantia, urgere imperium cesset, et coepta persequi. Videtis, ut omnis salus sit in concordia? Ut tot ac tantis se Caesar una die spoliet viris, tam de se bene meritis, et bene merituris? Quid? Non est hoc facinus indignum fide? Sapiens Princeps est, gratus est, bonus est: non potest admittere tam stultum, tam crudele, tam noxium sibimet consilium. Facite tamen fieri, quod fieri non potest, scilicet beati sumus: eadem omnes manet pro Christo sors, gloriosum exilium.</l>
+</lg></sp>
+ <sp who="Ioannes Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Laeta sors!</l>
+</lg></sp>
+ <sp who="Volusianus Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dura tamen, et quam natura horret.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego hanc sortem amo. Vincenda natura est, et urgenda in cautes arduas, ubi virtus palatium posuit.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed quam facile praecipitamur. Videmur saepe in fastigio stare, cum repente rotans vertigo caput in ima devolvit miseros, contusos undique, et semianimes.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nisi fallor, amici, isti nutant. Fratres, firmate animos: forti viro ubique est patria.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Imo Christiano in terris nulla. In ipsa aula exilium est.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego impatiens ultimam expecto sententiam.</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! Ista conjuratio in exitium praecipites agit. Quantumvis multi sumus, quadruplo tamen maior est numerus Ethnicorum: obruimur.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et nescitis, quoties priores Caesares clade una, cum ducibus milites centenos et millenos in odium <name type="religion" TEIform="name">Christi</name> jusserint circumfuso exercitu cingi, et telis configi?</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et tu non invides hanc suam istis felicitatem? Pugnans pro Caesare, spectante Caesare, occumbis gaudens, si miles es: et moriens pro Christo, spectante Christo maerere ausis, querulari, gemere! O pectus molle! O virum feminam!</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non ita ego, quamquam aetate tenerior, et minor robore. Sit mihi caelum testis: idem est mihi animus, qui olim pueris babyloniis fuit: ardere vivus malo, quam Jovi tantillum granulum turis dare.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Erubescite viri!</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aut dicite saltem, blanditiae Principis, an minae terrent? Promittat opes, favorem,</l>
+<pb id="s307" n="307" TEIform="pb"/>
+<l TEIform="l" part="N">titulos: nugae! Hodie fruar, cras moriar: quid mihi hae ineptiae prosunt? Minetur exilium, tormenta crepet, mortem intentet: terriculamenta! Nam Deus nempe leviores intentat poenas? Minus, credo, ulcisci potest contemptum sui? Ah! Si quid timendum est, amici, Deum, Deum timeamus! Pellatur timore timor: agnovimus Christum, quid prodest, si non confitemur? Si nobis est gratia Constantii, quam Dei potior? Si ira tyranni, quam Dei formidabilior? Eia! Date nomina! En pugillares! Quem scribam? Catalogus offerendus Principibus est, ut sciant, quos debeant persequi.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego me dicto.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego socius sim. Adde Volusianum.</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Siste. Deliberabo, quid faciendum.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miserescite Superi! Iste deliberat, sitne Deus deserendus, an Caesar!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miserescite Superi!</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Averte hoc malum Deus, ut deseram te. Promptus est spiritus, sed caro infirma.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Me pudet mei! Heroes <name type="religion" TEIform="name">Christi</name> orate pro me!</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Orate! Orate! Orantibus robur cordis de caelo venit.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Perstemus; exemplo magis, quam verbis movebimus. Vos, viri fortes, dividite vos: per castra hinc cum vestris ite, nos isthinc ibimus, et quotquot possumus, hortabimur ad constantiam viros, nominaque referemus in pugillares, ex quibus deinde descripta Principibus offeram. Deus eventum, quem volet, dabit.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Consilium vere divinum est: ad unguem exsequar.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Animo altissimis desideriis pleno.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nos tibi haeremus Pater, quocumque ieris.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In Exilium, in tormenta, in mortem.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In Caelum.</l>
+</lg></sp>
+<pb id="s308" n="308" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.06.01.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUINTA. Marius. Severus.</head>
+<sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">FRater, potuitne fortunatior nobis venire prae ista dies? Tot votis optata se ultro offert occasio emergendi in lucem, et ponendi sedem nobilem in nube vicina Soli.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Micat amoena spes: sed nisi cauti sumus, potest illa dissolvi nubes, et in lacrimas fluere.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Omnia favent, excepto Christo, quem quidem haud lubens desero: sed quid agam? Necessitas cogit, et honoris, spei, ac familiae ratio: aliter me non extrico.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nullum est dubium: nam <name type="person" TEIform="name">Procopius</name> firmabit exemplo plurimos, qui sine ipso defecissent: et horum nos officia, dignitas, bona manent, si obedimus. Constantinus me tamen terret: nam si, quod aiunt, Christicolis favet, an favebit deserentibus Christum?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Justa facto asserenda est causa. Catalogus, quem meditatur <name type="person" TEIform="name">Procopius</name>, conjurationis speciem exhibet: utilis explicatio est, cui Terentianus pro suo in Christum odio facile pondus addet. Unde accedendus est ipse prior, et ante Caesaren.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Diceres aliquid, nisi nostrum etiam nomen in <name type="person" TEIform="name">Procopii</name> catalogo foret.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Umbram metuis: debuimus simulare constantiam, ut essemus consiliorum participes, quae celasset nos utique, si esset suspicatus apostatas. Sed properatione est opus, ne <name type="person" TEIform="name">Volusianus</name> et <name type="person" TEIform="name">Adocetus</name> praeveniant.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Accurate providus es. Certe illi vehementer dubitant, quo se acclinent. Nisi festinamus, priores ad Caesarem venient, submittent Imperio caput, praeripient speratos honores nobis: nam magna est Principum, et studiose affectata laetitia, si certare videant proceres, quis prior obsequium faciat. Imus.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Audi: Una tamen se opponit anxietas, et cor meum me exprobrat mihi: quantum est facinus, quod committis?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Scrupulus est.</l>
+</lg></sp>
+ <sp who="Marinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hypocrisis. Apostasia, perjurium, calumnia,</l>
+<pb id="s309" n="309" TEIform="pb"/>
+<l TEIform="l" part="N">homicidium est.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed expedit.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Alios per fortitudinis simulationem forte confirmavimus in sancta fide, et nos a Deo recedimus perfidi?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Modo expediat.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In Principis gratiam abdicamus nos jure Caeli!</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Servimus tempori. Quamdiu expedivit, servivimus Deo: nunc cum expedit servire Principi potius, noli credere, aegre ferre Deum, deseri se. Bonus est, amat nos: non exigit igitur, ut propter ipsum negligamus nos: non audis clamantem Christum, expedit vobis, ut ego vadam! Quid interest vero, ipse, cum expedit nobis, a nobis abeat, an nos ab ipso? Nunc occasio est, per aliorum casum nos evehendi, quae si elabitur, quando se offeret alia? Occasio redeundi ad Deum multiplex veniet. Potest se mutare Constantius, et sicut hactenus Christianis favit, ita aliquando ipse ad Christum converti: et tum revertemur cum ipso in viam. Potest Constantinus, cum erit successor, Patris decreta abrogare, et restituere fidei libertatem; en nova paenitendi occasio: denique quid quid futurum est, nunquam futurum est, ut me non possit huius perfidiae pudere, et pigere.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At nempe non quid quid fieri potest, futurum est etiam.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fortasse tamen.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fortasse non.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cessa has argutias. Quod decrevimus, scelus est, sed scelus utile; fruamur, dum prodest. Cum cessabit esse utile, tum exsecrabimur, et salvi erimus.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prope invitum trahis. Si malum nostra consilia sortientur exitum, tua sit culpa.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mea sit. Faciamus hodie, quod placet Principi: quod Deo placet, satis mature fiet, si fiet olim.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heus o bone, ita loqueris, velut nihil audisses umquam de lege <name type="religion" TEIform="name">Christi</name>: horror est vel audire.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Delicatas tu habes aures: sed audies suavius, cum assueveris sono. Audacter opprime latrantem cerberum: audaces fortuna juvat: neque primi sumus, neque postremi erimus, qui per hanc viam ad alta gradimur: trita est satis. Quod si te consilii paenitet, vale,</l>
+<pb id="s310" n="310" TEIform="pb"/>
+<l TEIform="l" part="N">solus ibo, quo beata me vocat spes. Tu vero in exilium ibis, ubi quid te cum tuis expectet, attende diligentius. Nempe aut fodere debebis, aut mendicare, quid resolvis?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Utrumque difficile nimis, et dedecoris plenum: neutrum possum: jacta est alea, sequor te.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic te amo. Ad Terentianum cito; doceri debet, quid fiat.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miserere mei Deus! me uxoris, filiorum, mei ipsius miseret: cogor hoc malum facere.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Est malum bonum.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">CHORUS I. Poena Principis maxima, Minister improbus, demonstrata in Rege Achabo, quem Deus in poenam scelerum malis Ministris decipiendum permittit. Theatrum exhibet solitudinem, in qua <name type="person" TEIform="name">Michaeas</name> Propheta in exstasi. Eius visio 3. Reg. 22. Sic narratur. Vidi Dominum sedentem super solium suum, et omnem exercitum Caeli assistentem ei a dextris, et a sinistris.</stage>
+<stage type="mix" TEIform="stage">PERSONAE. <name type="person" TEIform="name">Michaeas</name>. ANgelus Dei Judicis Vicarius. Spiritus mendax. Nuntius. Chorus Angelorum percutientium. Praecones.</stage>
+<sp who="Praecones" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad judicium! Ad judicium!</l>
+</lg></sp>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! Quo rapior? ubi sum?</l>
+</lg></sp>
+<sp who="Praecones" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">De Achabo sumendum est supplicium!</l>
+<l TEIform="l" part="N">Adeste Angeli vindices!</l>
+<l TEIform="l" part="N">Quid quid malorum aut tellus, aut orcus parturit, congerite!</l>
+<l TEIform="l" part="N">Ad judicium! Ad supplicium! ...</l>
+</lg></sp>
+<pb id="s311" n="311" TEIform="pb"/>
+<sp who="Angelus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fidele satellitium! <stage type="mix" TEIform="stage">* Et ait Dominus: quis decipiet Achab Regem <name type="nation" TEIform="name">Israel</name>, ut ascendat, et cadat in Ramoth Galaad?</stage> </l>
+</lg></sp>
+<sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Decretum est, non ultra parcere.</l>
+<l TEIform="l" part="N">Quem mittam: et quis ibit;</l>
+<l TEIform="l" part="N">Qui impium percutiat? qui perimat?</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>CHORUS.</head>
+<l TEIform="l" part="N">Ecce ego! mitte me!</l>
+<l TEIform="l" part="N">Ego vindicabo te!</l>
+<l TEIform="l" part="N">Nutu jube! Prompti stamus,</l>
+<l TEIform="l" part="N">Verbum oris adoramus!</l>
+<l TEIform="l" part="N">Dicis: vade! Vadimus!</l>
+<l TEIform="l" part="N">Dicis: fac hoc! facimus</l>
+</lg>
+<sp who="Angelus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Placet obedientia</l>
+</lg></sp>
+<sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed poena decreta est longe atrocissima:</l>
+<l TEIform="l" part="N">Putatis, quod sufficiat aliquis vestrûm, ut exsequatur,</l>
+<l TEIform="l" part="N">Quod rigidissima</l>
+<l TEIform="l" part="N">Exposcit justitia?</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">ARIOSE.</stage>
+<sp who="Angelus percutiens I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid? ... Si, qui olim Sodomam</l>
+<l TEIform="l" part="N">Combussi, nunc Samariam</l>
+<l TEIform="l" part="N">In cinere sepeliam?</l>
+</lg></sp>
+<sp who="Angelus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non est par poena sceleri:</l>
+</lg></sp>
+<sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Atrociorem statui.</l>
+</lg></sp>
+<sp who="Angelus percutiens II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et nullam fundam pluviam?</l>
+</lg></sp>
+ <sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non!</l>
+</lg></sp>
+<pb id="s312" n="312" TEIform="pb"/>
+<sp who="Angelus percutiens III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si ego ripas transeo</l>
+<l TEIform="l" part="N">Effuso cum diluvio?</l>
+</lg></sp>
+ <sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non!</l>
+</lg></sp>
+<sp who="Angelus percutiens IV" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si ego urbes diruo,</l>
+<l TEIform="l" part="N">Et summa imis misceo?</l>
+</lg></sp>
+ <sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non!</l>
+<l TEIform="l" part="N">Non est par poena sceleri;</l>
+<l TEIform="l" part="N">Atrociorem statui!</l>
+</lg></sp>
+<sp who="Angelus percutiens V" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ergo ego me jactabo:</l>
+<l TEIform="l" part="N">Fame regnum devastabo.</l>
+</lg></sp>
+ <sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non</l>
+</lg></sp>
+<sp who="Angelus percutiens VI" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego pestem inferam!</l>
+</lg></sp>
+ <sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non!</l>
+</lg></sp>
+<sp who="Angelus percutiens VII" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego bellum faciam!</l>
+</lg></sp>
+ <sp who="Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non!</l>
+<l TEIform="l" part="N">Non est par Poena sceleri:</l>
+<l TEIform="l" part="N">Atrociorem statui!</l>
+</lg></sp>
+<sp who="Angelus percutiens VIII" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nos vero triumphabimus! ...</l>
+<l TEIform="l" part="N">Dum corpus cruciabimus! ...</l>
+</lg></sp>
+<sp who="Angelus percutiens IX" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"> Renes urat calculus!</l>
+</lg></sp>
+<sp who="Angelus percutiens X" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"> Exta rodat volvulus!</l>
+</lg></sp>
+<sp who="XI" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pedes liget Podagra!</l>
+</lg></sp>
+<sp who="XII" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Carnem vorent ulcera!</l>
+</lg></sp>
+<sp who="XIII" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Febris pectus torreat!</l>
+</lg></sp>
+<sp who="XIV" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pulmo tabe putreat!</l>
+</lg></sp>
+<sp who="XV" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cibus gravet stomachum!</l>
+</lg></sp>
+<sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nullum sit remedium!</l>
+</lg></sp>
+<sp who="Angelus Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non!</l>
+<l TEIform="l" part="N">Non est par poena sceleri:</l>
+<l TEIform="l" part="N">Atrociorem statui!</l>
+</lg></sp>
+<sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ergo Aegyptiacas</l>
+<l TEIform="l" part="N">Plagas repetamus!</l>
+</lg></sp>
+<pb id="s313" n="313" TEIform="pb"/>
+<sp who="Angelus percutiens I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Meridiem in tenebras</l>
+<l TEIform="l" part="N">Cimmerias vertamus!</l>
+</lg></sp>
+<sp who="II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fontes, lacus, flumina</l>
+<l TEIform="l" part="N">In sanguinem mutemus!</l>
+</lg></sp>
+<sp who="III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Muscarum mille genera</l>
+<l TEIform="l" part="N">Ex aere creemus!</l>
+</lg></sp>
+<sp who="IV" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ex terra adsint sciniphes!</l>
+<l TEIform="l" part="N">Locustae producantur!</l>
+</lg></sp>
+<sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">De Caelo ruant grandines,</l>
+<l TEIform="l" part="N">Et fulmina labantur!</l>
+<l TEIform="l" part="N">Necentur Primogeniti!</l>
+<l TEIform="l" part="N">Sic est par poena sceleri!</l>
+</lg></sp>
+<sp who="Angelus Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non est par poena sceleri:</l>
+<l TEIform="l" part="N">Atrociorem statui! ....</l>
+<l TEIform="l" part="N">Quiescite! Et quid velim, intelligite!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Sunt graves istae poenae,</l>
+<l TEIform="l" part="N">Sed adhuc melle plenae:</l>
+<l TEIform="l" part="N">Sic punio, cum moneo,</l>
+<l TEIform="l" part="N">Et diligo, cum punio:</l>
+<l TEIform="l" part="N">Est poena medicina,</l>
+<l TEIform="l" part="N">Quam Bonitas divina</l>
+<l TEIform="l" part="N">Propinat aegris animis,</l>
+<l TEIform="l" part="N">Ac nondum desperatis:</l>
+<l TEIform="l" part="N">In fundo latet calicis</l>
+<l TEIform="l" part="N">Spes certa sanitatis.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Sed aliae sunt poenae</l>
+<l TEIform="l" part="N">Occulto felle plenae:</l>
+<l TEIform="l" part="N">Cum plecto, et qui plectitur,</l>
+<l TEIform="l" part="N">Se plecti non assequitur:</l>
+<pb id="s314" n="314" TEIform="pb"/>
+<l TEIform="l" part="N">Cum desero peccantem:</l>
+<l TEIform="l" part="N">Nec corrigo errantem:</l>
+<l TEIform="l" part="N">Cum sino ut consiliis</l>
+<l TEIform="l" part="N">Se suis ipse regat:</l>
+<l TEIform="l" part="N">Aut impiorum placitis</l>
+<l TEIform="l" part="N">Conformem vitam degat.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>3.</head>
+<l TEIform="l" part="N">Haec poena est horrenda,</l>
+<l TEIform="l" part="N">Haec una metuenda:</l>
+<l TEIform="l" part="N">Sic punio, ut puniam,</l>
+<l TEIform="l" part="N">Et non, ut reum corrigam:</l>
+<l TEIform="l" part="N">Sic miser laetus erit,</l>
+<l TEIform="l" part="N">Qua ipsa hora perit.</l>
+<l TEIform="l" part="N">Sic solent ante tonitru</l>
+<l TEIform="l" part="N">Jam fulmina ferire:</l>
+<l TEIform="l" part="N">Et perit absque strepitu,</l>
+<l TEIform="l" part="N">Quem volo sic perire.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et haec est poena, ad quam condemno Regem impium.</l>
+<l TEIform="l" part="N">Quem projeci a facie mea, velut miserationis indignum:</l>
+<l TEIform="l" part="N">Puniatur! ....</l>
+<l TEIform="l" part="N">Sed ut non sentiat se puniri, decipiatur,</l>
+<l TEIform="l" part="N">Ne forte convertatur.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>CHORUS.</head>
+<l TEIform="l" part="N">Terribile judicium! ...</l>
+<l TEIform="l" part="N">Sed justum est supplicium! ...</l>
+<l TEIform="l" part="N">Decipiatur!</l>
+<l TEIform="l" part="N">Ne forte convertatur!</l>
+</lg>
+<pb id="s315" n="315" TEIform="pb"/>
+<sp who="Angelus Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At jam, quis decipiet, ut ascendat,</l>
+<l TEIform="l" part="N">Et cadat in Ramoth Galaad?</l>
+<l TEIform="l" part="N">Permitto potestatem: do plenam facultatem!</l>
+</lg></sp>
+<sp who="Spiritus mendax" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Egressus est autem Spiritus, et stetit coram Domino, et ait: ego decipiam illum. Cui locutus est Dominus: In quo? Et ille ait: agrediar, et ero spiritus mendax in ore omnium Prophetarum eius.</stage> Ego decipiam illum, Ego, Ego!</l>
+</lg></sp>
+<sp who="Angelus Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In quo decipies?</l>
+</lg></sp>
+<sp who="Spiritus mendax" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Egrediar, et ero spiritus mendax</l>
+<l TEIform="l" part="N">In ore omnium Prophetarum eius.</l>
+<l TEIform="l" part="N">Promittent illi contra Syros victoriam: credet!</l>
+<l TEIform="l" part="N">Veriora dicentem non audiet: cadet!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Sat exploratam habeo</l>
+<l TEIform="l" part="N">Naturam Principis:</l>
+<l TEIform="l" part="N">Non erit opus studio,</l>
+<l TEIform="l" part="N">Est falli facilis.</l>
+<l TEIform="l" part="N">Superbus est, et credulus,</l>
+<l TEIform="l" part="N">Ac sui Capitis:</l>
+<l TEIform="l" part="N">Cupido, spes, ac impetus</l>
+<l TEIform="l" part="N">Sunt a consiliis.</l>
+<l TEIform="l" part="N">Quod optat, credit fore:</l>
+<l TEIform="l" part="N">Quod credit, uno ore</l>
+<l TEIform="l" part="N">Ministri omnes approbant,</l>
+<l TEIform="l" part="N">Et suis vota animant</l>
+<l TEIform="l" part="N">Insana calculis:</l>
+<l TEIform="l" part="N">Est falli facilis.</l>
+</lg>
+<sp who="Angelus Vicarius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">** Et dixit Dominus: decipies, et praevalebis: egredere, et fac ita.</stage> Video, Aula Achabi est tibi nota penitius:</l>
+<l TEIform="l" part="N">Decipies, et praevalebis! Egredere, et fac ita.</l>
+</lg></sp>
+<pb id="s316" n="316" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>CHORUS.</head>
+<l TEIform="l" part="N">Terribile judicium!</l>
+<l TEIform="l" part="N">Sed justum est supplicium:</l>
+<l TEIform="l" part="N">Decipiatur!</l>
+<l TEIform="l" part="N">Ne forte convertatur!</l>
+</lg>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu triste oraculum! Princeps miserabilis! ...</l>
+<l TEIform="l" part="N">Decipiatur, ne forte convertatur!</l>
+<l TEIform="l" part="N">Sententia terribilis! ...</l>
+</lg></sp>
+<sp who="Nuntius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Nuntius, qui ierat, ut vocaret <name type="person" TEIform="name">Michaeam</name>, locutus est ad eum, dicens etc.</stage> <name type="person" TEIform="name">Michaea</name>! Rex meus te jubet venire:</l>
+<l TEIform="l" part="N">Si vis, in gratiam potes redire.</l>
+<l TEIform="l" part="N">Oravit pro te Rex <name type="nation" TEIform="name">Juda</name> <name type="person" TEIform="name">Josaphat</name>,</l>
+<l TEIform="l" part="N">Qui cum ipso descendet contra Syriam</l>
+<l TEIform="l" part="N">In Ramoth Galaad.</l>
+</lg></sp>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et quid a me postulatur?</l>
+</lg></sp>
+<sp who="Nuntius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Oraculum, quo victoria promittatur.</l>
+<l TEIform="l" part="N">Ecce! Sermones Prophetarum ore uno</l>
+<l TEIform="l" part="N">Regi bona praedicant:</l>
+<l TEIform="l" part="N">Sit ergo sermo</l>
+<l TEIform="l" part="N">Tuus similis eorum,</l>
+<l TEIform="l" part="N">Et loquere bona.</l>
+</lg></sp>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivit Dominus,</l>
+<l TEIform="l" part="N">Quia, quodcumque dixerit mihi Dominus, hoc loquar.</l>
+<l TEIform="l" part="N">Praecede: ego sequar te.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">O Deus! terribilis Deus! ...</l>
+<l TEIform="l" part="N">Turbatus est animus meus! ...</l>
+<l TEIform="l" part="N">Mysterium horribile!</l>
+<l TEIform="l" part="N">Cum parcis, punis maxime! ..</l>
+<l TEIform="l" part="N">Timendus es praecipue,</l>
+<l TEIform="l" part="N">Quo non timeris tempore:</l>
+<pb id="s317" n="317" TEIform="pb"/>
+<l TEIform="l" part="N">Et virga quem non flexeris,</l>
+<l TEIform="l" part="N"><corr sic="Rompheae" resp="transcriber" TEIform="corr">Romphaea</corr> virum subicis</l>
+<l TEIform="l" part="N">Domine!</l>
+<l TEIform="l" part="N">Ab hac Misericordia</l>
+<l TEIform="l" part="N">O Domine! me libera!</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Sed bene! meretur perire,</l>
+<l TEIform="l" part="N">Qui grata a suis</l>
+<l TEIform="l" part="N">Quam vera a tuis</l>
+<l TEIform="l" part="N">Ministris malebat audire! ...</l>
+<l TEIform="l" part="N">Posteri sapite!</l>
+<l TEIform="l" part="N">Deum metuite!</l>
+<l TEIform="l" part="N">Felices vos esse putatis,</l>
+<l TEIform="l" part="N">Cum Deus connivet, erratis! ...</l>
+<l TEIform="l" part="N">Si subtrahit bona monentes,</l>
+<l TEIform="l" part="N">Nec abstrahit mala suadentes,</l>
+<l TEIform="l" part="N">Exitio proximi statis.</l>
+</lg>
+</div3>
+</div2>
+<div2 id="NeTA.06.03" n="3" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<div3 id="NeTA.06.01.06" n="6" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>PARS II. Constantia Orthodoxa probata. SCENA PRIMA. Constantius. Constantinus.</head>
+<sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ITA, Auguste Genitor, explicavi me tibi totum, quoniam sic urgebas. Hoc habe breviter: Roma, parum abest, quin Christianum me fecerit: itaque amo homines, et ne persequi velis, iterum oro. Si audiri non mereor, abdica filium; grave est, sine <name type="person" TEIform="name">Procopio</name> vivere, in exilium cum illo ibo.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Video te fervere. Confide,</l>
+<pb id="s318" n="318" TEIform="pb"/>
+<l TEIform="l" part="N">magna voluptas est mihi, audisse te, et qui sis, jam penitus nosse. Roma poene Christianum te fecit! Admiror potentiam <name type="religion" TEIform="name">Christi</name>! Nam ego toties te mihi reducem volui, non tam ut facerem collegam imperii, quam quod metuerem, ne odisse Christianos in consortio tyranni disceres. Didicisti amare: laus Christo sit, et post Christum <name type="person" TEIform="name">Procopio</name>, cui praeter cetera, non dubito, quin hoc etiam beneficium debeas.</l>
+</lg></sp>
+<sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Beneficium vocas, et benefactorem expellis? Ah! Illudor!</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Diffidere Patri cessa: explicasti te mihi, explicabo me tibi. Audi sollers. Hoc primum scito: si tibi est animus Christum sequi, nil me oppono, probo insuper, quin et praeibo.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic sperabam equidem: sed aliud haec jussa probant.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non possis patiens audire me? Crede fili, plures uno, non credo Deos: unum adoro: nam uni me soli totum debeo, scio.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Superi, quod gaudium audio!</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non sum ita insipiens, ut opinari hoc possim, quod me pluribus debeam. Quod enim signum, quae ratio est, quae saltem species argumenti? Ut sim, quod sum, potuit unus facere: certe. Aut si non potuit, apage miserabilem Deum! Si vero me facere unus potuit, utique unus fecit: nam qua prudentia adscivisset alios in societatem operis, quod poterat solus facere? Forte, ut citius, ut sapientius, ut facilius faceret? Indigna homine cogitatio. Ego sic persuasus sum: qui Deus est, unus sufficit ad omne opus, et qui non sufficit, non est Deus, proinde aut nullus est Deus, aut unus solus.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quam me recreas hoc sermone! Si tamen sentis, ut loqueris, quare, quem credis unum, unum non profiteris? Cur dividis in ea cultum, quae non sunt Deus?</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Absit, ut faciam, quod me arguis. Jam diu nostris nullum exhibui cultum <name type="religion" TEIform="name">Diis</name>: ut alii colerent, toleravi. Nam ut aris deicerem, quo fructu tentarem in tanta multitudine devotorum? Tibi reservatur haec</l>
+<pb id="s319" n="319" TEIform="pb"/>
+<l TEIform="l" part="N">gloria: tu, nisi me animus hic tuus fallit, primus eris Imperator, qui eversis profanorum Numinum delubris, templa. Dei unius consecrata honoribus ubique terrarum substitues. O cresce in spes altissimas, in quas es natus.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Utinam vates sis! Sed quis sum ego, ut tanto operi me putes parem?</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Solus non eris par: cum tuis eris, sed scilicet cum selectis. Nescis, quod possit Princeps cinctus selectis proceribus.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Auguste, quo evagaris? Scilicet ut distrahas mentem in curas alias, et a cura <name type="person" TEIform="name">Procopii</name> avoces? Ah! Si tanti momenti est, selectos habere proceres, cur aufers hodie? Tune meliorem <name type="person" TEIform="name">Procopio</name> dabis?</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aut ipsum, aut meliorem. Per Ambages deducendus es in penetralia paternae mentis, ut via planiore pervenias. Perge ire. Selectis cum proceribus prope omnipotens Princeps est: nihil est illi difficile, quia nunquam deesse possunt, qui suppeditent media: nunquam, qui feliciter applicent. Hoc unum est difficile Principi, ut haec selectio, quanti momenti est, tanta cum cura fiat. Ego duo tibi Praecepta trado. Inter Ethnicos et Catholicos aliquamdiu vivendum est tibi: Ethnicos noli offendere, hoc primum est: Catholicos stude colere, hoc est alterum. Ethnici ad fidem invitandi sunt, non pertrahendi: patientia! Exemplo, promissis, benevolos facies, ut tractabiles sint ad salutem. Quod si Catholicos praecipuo honore colis: si prae aliis evehis: si familiarius uteris: quantos viros superstitionibus subtrahes, primum quidem illectos spe bonorum, quae ostentas: sed mox percepta legis <name type="religion" TEIform="name">Christi</name> dulcedine, non ficta fide adhaesuros Deo, quem colis. Atque hac arte efficies, ut ex utraque gente optimi quique ipsi se seligant, et certent adjungi tibi.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed jam in ipso certamine difficultas se ingeret, ut optimos discernam a reliquis: nam et illud occurrit, fieri posse ut optimos putem, qui pessimi sunt.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tangis punctum: adverte igitur. Tres ego in</l>
+<pb id="s320" n="320" TEIform="pb"/>
+<l TEIform="l" part="N">Ministro dotes requiro: sit peritus in negotiis officii, quod ei committis: sit industrius in executione imperii, quod imponis: sit prudens, possitque sibi et tibi consulere in eventibus non praevisis. Tales omnino nautas sapiens gubernator seligit, nisi velit a turba remigum in syrtes et scopulos trahi.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Experimenta peritiae, prudentiae, industriae ut ego capiam, priusquam seligam, quo modo id fiet?</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe documenta a puero dederint, aut aliorum testimoniis credes: utrumque obnoxium fallaciae est. Itaque tribus his, ut addatur dos quarta, curabis, nempe fidelitas: fidelis qui est Principi, neque acceptabit officium, ad quod est ineptus: neque si acceptavit, fungetur neglectim. Nunc propius in nostram rem. Si infidelis minister sit, etsi ceteris dotibus polleat, quam sit perniciosus, satis, opinor, ipse intelligis.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Satis, omnino. Quin quo quis officii peritior est, eo tutius fallet: quo prudentior, eo nequius consulet: quo magis industrius, eo cautius laborabit pro se. Sed quid agas? Ut scirem judicare de fidelitate hominis, cor inspicere deberem, et Deus esse.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aliud est medium super. Quamquam si eligis Ethnicos, fateor, nulla te documenta securum fidelitatis praestabunt: mutantur etiam constantissimi, si nihil est intus, quod tenet. Hinc monui, ut vel Catholicos eligeres, vel faceres. Huc igitur, si vis optimos, huc confer industriam, et experimenta applica, ut scias, num sincere in Christum credant. Si mores exhibent vix diversos ab Ethnicis: si fidem venalem habent, parati mutare, cum expedit statui: hos tu scito, cane peius et angue vitandos esse. Neque enim sapienter credere potes, illos tecum verecundius agere, quam agant cum Deo. Jurant fidem tibi: per quem jurant? Per Deum nempe. Ergo si Deo non servant fidem, per quem jurant, num credendi sunt servaturi tibi, cui jurant?</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Penetro argumenti vim. Vis igitur, ut, an fideles sint</l>
+<pb id="s321" n="321" TEIform="pb"/>
+<l TEIform="l" part="N">mihi, ex moribus arguam: si timent Deum, si horrent offendere, si plus reverentur, quam me: his me tradam, his tuto utar: secus a me pro perfidis abigam.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prorsus ita ut sit haec tua in observandis Ministris regula: Non est fidelis Principi, qui non est Deo. Jam hoc ut scias, an teneant Deo fidem, interdum tentandi sunt. Modum exemplo doceo. Nondum probas?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sacrificium intelligis?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ipsum. Si sacrificat Ethnicus: tolera: nunquam juravit fidem: si Christianus, violavit juratam fidem: eice! Novo Caesari novos proceres adjungi ex optimis volo: hic modus noscendi est. Placet tandem?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Suspicio sapientiam, et curam paternam aestimo. Sed heu me! Si victus exilii metu. <name type="person" TEIform="name">Procopius</name> sacrificet Jovi! Illumne a me dimittam?</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Frustra times. Si <name type="person" TEIform="name">Procopius</name> dignus est, ut ametur, Christo servabit fidem: si non est dignus, amare cessa. Hodie documentum dabit. Tu confirma te, compone vultum, urge imperium: quo eris magis serius, hoc gloriosior est <name type="person" TEIform="name">Procopius</name></l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Confido virtuti viri. Quid tu petis Terentiane? Tempus sacrificii est?</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.06.01.07" n="7" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SECUNDA. Constantius. Constantinus. Terentianus. Severus. Marius.</head>
+<sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TEmpus est: parata sunt omnia, Caesares, praeter illos, qui deberent peragere. Atque hoc questum venio. Imperium totis castris insonuit praeco: nuntiatus est adventus Principis: promulgata denuntiatio belli inferendi tyranno, et decreta electio in collegam imperii: applausum est clamore concordi. Verum ut sacrificium indictum est, cum intentata se subtrahentibus exilii poena: varium murmur fuit, et scilicet, quod praedicebam, tumultuatum est,</l>
+<pb id="s322" n="322" TEIform="pb"/>
+<l TEIform="l" part="N">laudantibus aliis, aliis non obscure reprehendentibus religiosum imperium. Ex cujusque vultu conspexissetis, quis <name type="religion" TEIform="name">Diis</name>, quis Christo addictus esset: tantum repente discrimen fuit. Et abibant catervatim dejectis oculis, corrugata fronte, inter se mussitantes, et conferentes capita, in nescio quale consilium. Admonui duces, ut caverent, ne quid turbaretur: sed nec ab his quidem eodem oris habitu auditus fui. Ergo propere ad vos redeo: hic audio novum malum: <name type="person" TEIform="name">Procopium</name> etiam cum Christianis sentire. Expallui ad viri nomen, nam et affinis est meus, et amicus olim in paucis carissimus. Gemui, et mecum tacitus: qua res evadet, aio: <name type="person" TEIform="name">Procopius</name> Christianis favet! Quantus vir! Verbo, exemplo animat, ne oboediant Caesari! Heu! Ducem habent: quid restat, nisi ut habeant Caesarem etiam! Ita dum queror, subjungitur mihi: et habent Caesarem, nam Constantinus (ignosce Princeps, audita narro) Constantinus <name type="person" TEIform="name">Procopio</name> perversus odit Deos, Christum amat.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc de me? Quis?</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Marius et Severus omnia.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"> Marius et Severus non et ipsi adhaerent Romanis sacris?</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Puto, adhaesisse. Paenitere videntur: nam ab illis tota narratio est. Audire ipsosmet placet? Avide expetunt: expectant, dum vocentur.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Voca. Fili, nosse animos incipe: en se produnt.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prostrati ad sacros pedes rogamus veniam diri criminis, cujus nos sistimus sponte reos, sed paenitentes.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et exsecrantes temerarium facinus, quamquam ab invitis commissum.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Clementes habetis judices, si narratis fideliter, et sincere damnatis.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Damnamus! Haec causa impulit, ut ausi simus sperare veniam, quia paenitet facti</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cujus, et a quo facti?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Conjuratum est.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Conjuratum? Ubi? quando? adversum quem? Quo auctore?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Narro seriem. Colebamus cum pluribus Christum, non ita pertinaciter tamen, ut vellemus nos opponere Caesari. Itaque cum promulgatum</l>
+<pb id="s323" n="323" TEIform="pb"/>
+<l TEIform="l" part="N">sacrificium est, et murmurarent alii adversum vos, agitarentque consilia Majestati periculosa, clam a turba discessimus, ne involveremur maligno consortio. Vitavimus charybdim, incidimus in scyllam: euntibus obvius <name type="person" TEIform="name">Procopius</name> cum filiis fuit: pendebat singulis ad pectus crux, et animabat filios Pater ad fortem contumaciam. Stupuimus: nec enim scivimus antea <name type="person" TEIform="name">Procopium</name> Christianis favere, cum ille ad nos conversus, voce <corr sic="impariosa" resp="transcriber" TEIform="corr">imperiosa</corr>, Christiani estis, inquit: inquietum animum ex vultu colligo: turbavit edictum Caesaris. Nos siluimus, nec enim negare licuit, quod frons, oculi, tota facies garriebat. Ergo instare ille, animare ad pugnam, hortari ad constantiam, institit tamdiu, ut tandem victas dederimus manus, et promiserimus audire consilium.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed ficta promissio fuit, ore facta, non mente, ne crederet, a nobis proditum iri, quod moliretur. Continuo quid vellet, exposuit: castrorum partem, qua circuiremus, designavit: alteram jam circum cursat ipse, ut quotquot potest, firmet in cultu <name type="religion" TEIform="name">Christi</name>. Singulorum nomina collecta vobis deferet, credo, ut multitudine se opponentium territi cessetis urgere imperium. Vos an non hic aliud malum lateat, attendite Caesares: vir potens est, et amatur. Nostrum hoc scelus unum est, quod in rebellium catalogo post <name type="person" TEIform="name">Procopium</name> passi simus, nos primos scribi.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aboleat hanc culpam paenitentia celeris, quam videtis nos primos agere.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tenete iram, cum legetis nomina deprecantium scelus. Nos fidem servamus vobis.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Simulata paenitentia est. Si vultis, ut credam vobis, sacrificandum est Jovi.</l>
+</lg></sp>
+ <sp who="Marius Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sacrificabimus!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sacrificabitis exilii metu, Jovi ad speciem, revera Christo. Nam, quod qui ferio semel juravit Christo, et fidem tenuit, abjuret serio, Auguste Patens, ego non credo.</l>
+</lg></sp>
+ <sp who="Marius Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> juramus serio, non credimus Christum Deum, non colimus Dominum.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Iurastis cultores esse.</l>
+</lg></sp>
+<pb id="s324" n="324" TEIform="pb"/>
+<sp who="Marius Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Paenitet.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cur paenitet? Malum aliquod Christus fecit?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nullum fecit: faceret, nisi ab ipso deficientes rediremus ad <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>, faceret enimvero grande malum, cum exulare a vobis cogeret.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si tamen credidistis, Christum Deum esse, defectionem ne vindicet, non metuitis?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Deum credidimus, non credimus modo!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Eccur credere jam cessastis?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quia non expedit credere, cum prohibet Caesar.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Plus ergo me timetis, quam vestrum Christum?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et plus amamus.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed audio, poenas aeternas intentari deserentibus Christum: non timetis?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cum desinimus Christum credere, etiam credere infernum desinimus: nullus est.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">si tamen est infernus, num ideo cessabit esse, quia vos cessatis credere?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Equidem si est, non cessabit esse: sed nos tamen cessamus timere.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Urgere parcite Caesares, recipite supplices: tantus est amor vobis servire, ut, si propterea carendum sit caelo, et ardendum in inferno, eligere malimus utrumque, quam vestra gratia, et hoc aula excludi.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Magnus amor est: sed nondum facitis plenam fidem. Credam vero, si, donec veniamus ad sacrificii locum, dissimuletis hanc vestram defectionem, ac tum primi omnium dabitis tura Jovi. Spes est, plures posse exemplo trahi. In omni actione difficili arduum est primum esse: primum sequuntur plures.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic fiet, Caesares, trahemus exemplo plures.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Trahemus Omnes.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Potestis mereri gratiam.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tu accerse <name type="person" TEIform="name">Procopium</name>: quousque progressus sit ex ipso sciam. Venire si gravetur, gravius reus est: praetoriam cohortem adhibe, et ad tribunal trahe.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Magna sunt viri merita: sed ut impune contumax Caesaribus sit, non excusant.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Imperium facio.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cave nos <name type="person" TEIform="name">Procopio</name> prodere.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Audivi praeceptum. Dissimulate vos.</l>
+</lg></sp>
+<pb id="s325" n="325" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.06.01.08" n="8" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA TERTIA. Marius. Severus. <name type="person" TEIform="name">Volusianus</name>. <name type="person" TEIform="name">Adocetus</name></head>
+<sp who="Severus Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">VIvite o nostri Dii! beati sumus!</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Jam ego mihi videor paludatus incedere, et trahere ducale syrma tanto cupitum ambitu. Quod tot laboribus, per tot pericula, toties fuso sanguine comparare non potui, jam pro uno turis granulo meum erit.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Strenue promovimus navem: portus vicinus est. Unus superest labor, ut confirmemus nutantes, ne, si quis nobiscum deficiat, prae nobis proficiat. Splendeat hoc signum foris, et oculos simplicium mentito fulgore fascinet. Sic triumpho.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Exemplum sequor. Fingamus strenue: instar cautis te immotum in fide exhibe. Haec ars est artium, vel sagacissimos fallere. Veniunt. Salvete fratres, et gratulamini nobis!</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Gratulemur? Praeco extremum imperium sonuit: hac hora est convasandum. Aliud vobis innotuit bonum?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bonum optimum, triumphat Christus.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Triumphat Christus! Beati Caelites, quod gaudium audio? Narrate avidis, quid acciderit novi.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Audite, quanto nos robore, et quam feliciter iniverimus pugnam. Terentianus ex cruce agnitos traxit ad Caesarem. Hic sensimus verum, quod Christus promisit: cum ad Reges et Praesides ducemini, nolite cogitare, quomodo, aut quid loquamini. Dabitur enim vobis in illa hora, quid loquamini. Stupete fortitudinem animi, qua tunc nos induit ex alto Deus. Ego prior, Caesares, inquiebam, quanta ego vos hactenus veneratione colui: tanta, Ignoscite, tanta jam cogor execratione abominari, quando vos video ex imperatoribus degenerare in tyrannos, nec jam corporum contentos imperio, etiam imperare conscientiis velle.</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! tali exordio non poteras benevolos</l>
+<pb id="s326" n="326" TEIform="pb"/>
+<l TEIform="l" part="N">facere.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Neque volui. Exacerbare potius desiderium fuit, et concitare, ut atrocius furerent, quo nobis obtingeret illustrior corona Martyrii.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Subjeci ego stupentibus audaciam nostram, et jam per rabiem mordentibus labra: qui cessatis? Exilium destinatis non sacrificantibus sacrilego Jovi: parum est! Rogos, enses, rotas expedite, immittite belluas, tortores armate! Juvat pro Christo mori. Mox <corr sic="spiriritu" resp="transcriber" TEIform="corr">spiritu</corr> incitatior dissolvi vestes, nudavi collum, pectus obtuli, porrexi brachia, et, eia, clamabam, quod placet membrum? tyranne feri! Fode ungues, articulos trunca, linguam exscinde, suffoca guttur, oculos erue! aures et nares mutila! Quid petis amplius! Feri, et quem petis, cruorem hauri!</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prô! Quae est haec stultissima fortitudo! Per hanc insaniam rem Christianam omnem pessumdedistis.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid tu loqueris? Ecce frater, quam bonus sit Deus! Praeter tyranni rabiem hoc nostro decori addit Deus, quod a fratribus peius quam ab hostibus habeamur. Stulti, insani sumus: Io! Stulti propter Christum! Te Deum laudamus!</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ita animales homines non percipiunt, quae sunt spiritus, et sapientia <name type="religion" TEIform="name">Christi</name> stultitia est sapientibus secundum carnem. O stulti, et tardi corde! Vos scilicet vestra trepidatione, vestro metu, vestro puerili fletu rem christianam sustentabitis? Canes muti non valentes latrare, sic ovile <name type="religion" TEIform="name">Christi</name> custoditis?</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Parcius sancti Martyres, parcius ista viris? Nam et nos scimus, quid deceat. Loqui decet, cum fides in periculo est, sed in loco, in tempore, cum decore, fortiter, ita est, fortiter, sed prudenter.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic loqui, ut vos locuti estis, non est loqui; sed furere. Prudentes Principes, qualis est noster, non sunt impatientes veritatis, si, qui loquitur, prudens est. Aut cui putabatis vos loqui? Nesciebatis Constantium virum esse utique dissimilem Galerio, homini rustico, et ex hara in solium imperiale evecto?</l>
+<pb id="s327" n="327" TEIform="pb"/>
+<l TEIform="l" part="N">Galerio, Galerio si sic essetis locuti, excusarem factum, quia spes non erat, ratione duci illam belluam posse. At Constantius tantae sapientiae, tantae moderationis, tantae mansuetudinis Princeps, quam facile poterat permoveri, primum ut differret executionem decreti forte per impetum facti: deinde vinci rationibus opportune propositis, ut etiam revocaret.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Eleganter. Vide hic frater religiosum politicum! Et quorsum abiit Evangelicum illud: nolite timere eos, qui occidunt corpus?</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et ubi est politicum illud: Estote prudentes, sicut serpentes? Qui cavet, non ideo timet malum.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid vultis? Audite totum, et tum de prudentia judicate. Ecce nihil evenit mali. Attonuit Tyrannum haec fortitudo, coegit laudare nos, et liberos, ac illaesos dimittere.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe plus sapuit, et miseruit illum insaniae vestrae, cui si vos relinqueret, credidit, abunde punitos esse. Sed jam spes omnis periit faventis aureae! Submersa est Religio <name type="religion" TEIform="name">Christi</name> per istos Deicidas: non potest placari Caesar! Eamus, paremus iter.</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Iratus es: non decet discedere offensum fratribus: in quo peccârunt, imprudentia, non scelus fuit; hac Deus utitur, ut ad coronam vocet.</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Verum loqueris: et idem sentio, cum spes evanuit vitandi malum, succedere fortitudinem tolerandi. Ut trepidat ante praelium miles, quem videas cinctum hostibus ardere totum, et provocare pugnando mortem; sic mihi lapsus animus in pectus rediit, cum video non posse pugnam effugi. Ignoscite propero Zelo: fratres sumus, pugnemus simul!</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O verbum jucundum, pugnemus simul! Vix lacrimas laetitiae testes teneo!</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivite fratres! Haec una hactenus nos cura pressit, ne vos cadatis. Beastis nos! Pugnemus simul! En pugnae ducem.</l>
+</lg></sp>
+<pb id="s328" n="328" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.06.01.09" n="9" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUARTA. Accedunt <name type="person" TEIform="name">Procopius</name>. Joannes. Paulus. Terentianus.</head>
+<sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ITa me cogis odisse te. At vos urgete fortius virum, si amatis, ut tandem Caesaribus pareat. Audivi minas Principis: magna sunt viri merita dixit: sed ut impune sit contumax, non excusant.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Terentiane, talia inimico suade, si placet, tuo: ego scio, quid mihi prosit. Tu multo es miserior me, et ego exsul esse, quam caecus malo.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fiat tibi, sicut vis. At me poene vitae piget, quod auctor primum, et jam minister etiam sim tanti mali. Veniam da! Nunquam sic meus arsisset in <name type="religion" TEIform="name">Christi</name> cultores furor, si te scivissem unum ex illis esse.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec cessa queri, et a Christo deprecare injuriam: Ego felix sum, et opto, ut possim eiusdem te mecum reddere felicitatis participem! Sed mone Caesarem, adesse me, et suprema expectare mandata, paratum exequi, quidquid non jusserit contra Christum. Amici, gratulamini Christo! Magnus est numerus cultorum eius. Catalogum scripsi! Legat Caesar, quot et quantos amittat viros, si Christianos eiciat. Vos nullos scripsistis?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! In opere tam praeclaro occupatos Terentianus ad Caesares traxit. Irati ambo nostris conatibus, abire ex conspectu jusserunt, nec nisi sacrificio peracto redire. Obstinaverunt se, exsulandum est.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Irati ambo! Etiam Constantinus? Ah Constantinus unus est, qui mihi difficile exilium facit. Quam parum absit a regno Dei, ego novi. Galerio te subtraxi, o anima nobilis! Galerio nocentior Pater est: poene me beneficii paenitet. Nam quid est factu pronius, quam ut filium pervertat Pater, nisi, quod videtur, jam nunc perverterit.</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Spes omnis concidit. Nostri te misereat, quorum, o dedecus, adhuc in hoc catalogo non exstat nomen.</l>
+</lg></sp>
+<pb id="s329" n="329" TEIform="pb"/>
+<sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Adscribe, obsecro! Sero sistimur, serio pugnaturi.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sat cito, si sat bene. Preces audio: scribo nomen. Deus vos auro scribat in libro vitae. Ultimos insero: Primi fervore este!</l>
+</lg></sp>
+ <sp who="Volusianus Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Conatu erimus.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ergo ite in castra omnes, et ne quid mei causa turbetur absente me, habete curam. Tentabo ultima, ut ad meliora consilia Caesares moveam. Si ad vota succedit conatus, laudabimus Deum: Sin minus, laudabimus iterum. Nunc hoc agendum, ne quis de nostris loquatur aut agat aliquid, quo in reverentiam Caesaribus debitam peccatum fiat. Hoc cavete.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Erit haec nostra cura.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Innocentes nos decet pati. Christum infamamus, si discedimus exsules cum infamia. Una exilii causa Christus sit: si accedit culpa, miseri sumus.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Una exilii causa Christus sit! Dividamur.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.06.01.10" n="10" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUINTA. Accedit Constantinus.</head>
+<sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DA verba, Christe, quibus pertinaciam frangam. In tua manu sunt corda Regum: flecte tibi! Doma Constantium, Constantinum serva! Filii, sat fortes estis? Nunc res agenda! Juvate me, reverenter quidem, fortiter tamen dicite, quidquid loqui exiget honor <name type="religion" TEIform="name">Christi</name>. Alta sapite! Sursum corda! Nulla pectus promissa moveant, nullae quatiant minae: ad Caelum nati estis.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil metue nobis, Pater, nunquam videbis degeneres tibi.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Provocare hostem ausim, et animus in victoriam prurit. Vis, ut impia palam exsecrer sacra, et infame simulacrum <rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs> ex ara turbem? Ruo, quo tot heroum exempla trahunt.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et si hoc facinore efferatus Caesar exilium in mortem mutet:</l>
+<pb id="s330" n="330" TEIform="pb"/>
+<l TEIform="l" part="N">an vita tanti est? Moriamur! Eia! Probas consilium, Pater?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fervorem laudo: temperatum velim tamen, donec, ut sese totus exerat, poscat tempus. En Caesar prodit.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="person" TEIform="name">Procopi</name>! Maiora sunt tua in me merita, quam ut offensa una possint oblitterari. Sequestrum me pacis tibi apud Parentem offero, si admittis consilium. Quod tu cum tuis oblucteris imperio, vix toleraret alius Principum, etiam qui regnum deberet tibi: neque enim qui Regi utile servitium praestitit, ideo servus esse cessavit. Nunc cum audivit Caesar, id insuper a te agi, ut ab obedientia etiam alios abstrahas: quod circumiveris castra, confirmaveris dubios, obstinationis consilium affixa ad pectus cruce palam jactaveris: quo (nam tu ipse judica) quo animo potest hanc audaciam subditi Imperator sufferre? Per ego te illum amorem obsecro, quo te, velut si Pater esses, prosecutus sum semper, cede aliquid de illa tua religione austera nimis. Quid diem tam felicem mihi, aspero vultu temeras? Obsequere semel, aut saltem te obsequi simula: mitescet genitor, et paulatim in cua uterque vota lubentes ibimus. Nihil est praecipiti consilio nocivum magis: illustre facinus mora perficit. Qua ego mente in Christum sim, nosti satis, et ausim Patrem eodem trahere, nisi tu obicem ponas. Vide, quam tibi, et mihi noceas.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Princeps, non oportet me respondere ad ista tibi, quia cum Deus imperat, nullus audiendus est Imperator. Nihil omnium, quae feci, paenitet: accipe, quos numero, propositi sancti socios. Catalogum scripsi, porrige Caesari: videat, quantum beneficium faciam repugnando, nunc fidelis maxime, cum contumax sum. Quid enim hac circumcursatione volui? Quis animus fuit, nisi, ut consilium tam noxium vobis, quod improbare alius nemo est ausus, efficaciter dissuaderem, quod mihi visus sum non posse agi felicius, quam si palam omnes, ore, signis, et calamo se proderent, qui <name type="religion" TEIform="name">Christi</name> essent. Sic enim, et non aliter</l>
+<pb id="s331" n="331" TEIform="pb"/>
+<l TEIform="l" part="N">evidentius cognoscitis, quot et quanti viri uno edicto damnentur. Quodsi tanta vos nihil jactura moveat, juvat ire, quo Christus vocat. Te ego, Princeps, miseror, quem abeunte me, video relinqui sibi, et recta in interitum ire. O quis te error fascinat? Patrem revereris prae Deo! Quis magis est Pater, et a quo certior tibi felicitas venit? Ah! Si quid olim de te bene <name type="person" TEIform="name">Procopius</name> meruit, ne exue animum Christo affectum bene! Cogita, quos audisti, quos ipse tyrannos nosti, qui contra Christum sanguineo feroces vexillo moverunt bellum, quis tenuit feliciter sceptrum? Quis placide vitam finiit! Quis non documenta hostibus <name type="religion" TEIform="name">Christi</name> formidanda de se reliquit? Et ego te videam in haec vestigia ruere? Nam quid ex his initiis arguam? Non audes Patris decreto vel per preces obsistere, et exemplo audebis? Primo aspectu victus te hostis nostri arbitrio tradis, tot cinctus heroibus, quot Christiani in castris sunt: et his ejectis, solus et unus pugnabis Patri, ex prima victoria magis ferocienti? Ah! Non pugnabis, video, non pugnabis. O miserum juvenem! O spes fallaces! O infelices labores meos! O Princeps, gaudens aulam desero, gemens te! Timeo...</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">En verba abrumpit dolor!</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et talem a te dimittes?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Facite, ut cedat, et simulet saltem.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! Quid loqueris? Video, nondum satis est nota tibi sanctitas nostrae legis. Ut fictionem adeo turpem Christus ferat? Apage! Nihil peius, quam mendacium odit, qui veritas est. Ecce qui tibi ex cruce pendens languere, et torpere totus, et frigere videtur: vivit, si nescis, vivit, et regnat in Caelo, unde venturus est in fulminea nube, ut damnet eos, qui hanc nuditatem erubescentes, non ausi sunt coram hominibus confiteri filium Dei.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hic tu metue tibi, Princeps, tu, quem Christiana mater in lucem edidit: qui tot vidisti Romae prodigia fieri: tot simulacra sterni: tot viros claros pro Christo mori: cui <name type="person" TEIform="name">Procopius</name> tot monitis institit: tot argumenta</l>
+<pb id="s332" n="332" TEIform="pb"/>
+<l TEIform="l" part="N">attulit: tot dubia dissolvit. Noli huic tuae, quam ego venerabundus exosculor, purpurae fidere: cum ad Judicem veneris, ista non proteget. Vide, obsecro, quam nihil pro nobis, toti pro te solliciti simus. Miserere tui!</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miserere tui!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Terentiane, quid tu existimas? Verene aliquid a Christo timendum est mihi?</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego, quid possit, nescio. Posse aliquid nunc primum suadet huius viri <corr sic="autctoritas" resp="transcriber" TEIform="corr">auctoritas</corr>. Princeps, juva! Eximantur Christiani, ne sacrificio adesse debeant, ipse rogo.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non licet. Egi omnia apud Patrem: Urget. Quia tamen te amant, <name type="person" TEIform="name">Procopi</name>, voluit, ut ego loquerer tibi, ratus, fore, ut facilius persuaderem, ne nihil cederes. Redibo igitur infecta re? Insuper catalogum feram obstrepentium sibi? Apud subditos nihil impetro, apud Patrem sperem? Quod tu credebas remedium esse, obstaculum est: ipsa multitudo hominum, quam jactatis, irritavit, ut sacrificium urgeat: sperat minorem numerum fore, cum videbunt rem agi serio. Sic enim comparati sumus: multi sunt fortes ante pugnam, qui, cum pugnandum est, terga vertunt.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Neque saltem ultimum alloqui Caesarem licet?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nisi feram a te responsum modestius, non licet.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bene est. Ergo accingamur itineri. Princeps vale! Audiat Caelum, et gratuletur! Servivi Principi propter deum: eicior, quia servire nolui contra Deum: utrinque beatus sum! Beatissimus nunc, cum incipio servire soli Deo, propter se.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Abis? Heu! Quo adigis me? Deseris?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ne deseram Deum.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Rupes es! Nihil te movet?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bene est: abi, si potes. Totus non abibis. Ego filios mihi teneo. Terentiane, tua custodia sit.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Filios a Patre abstrahis?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut retineam Patrem.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! Mactas nos, Princeps, atroci consilio! Sie odisti? quid offendimus enim, ut esse captivos velis?</l>
+</lg></sp>
+<pb id="s333" n="333" TEIform="pb"/>
+<sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Captivos volo, ne exsules sitis. Sic amo.</l>
+</lg></sp>
+ <sp who="Ioannes Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nos Patrem sequimur.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Me vetante?</l>
+</lg></sp>
+ <sp who="Ioannes Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"> Filii sumus.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non sum Dominus? Quid <name type="person" TEIform="name">Procopi</name>, etiam hic te oppones?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid dicam? vim minaris, an licentiam petis? si primum, patior: si alterum, nego.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Negas amanti?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vel ideo noces.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mihi ut sint a cubiculis, volo.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mecum eant.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic ego certarem, si filium tibi peteres, Princeps, meum? Amice, quantam, et cujus tu gratiam spernis?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ne <name type="religion" TEIform="name">Dei</name> gratiam amittant filii. Suspicio amorem, Princeps, intelligo, quanti <name type="person" TEIform="name">Procopium</name> aestimes, quem sic honoras. Sed qui honoras servum, torques Patrem. Parce, obsecro, nec me a me ipso divide.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tu te dividis.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! Initiari pueri se sinent Jovi! Hoc ferat Pater?</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc metuis? .. Frater, sic noti sumus?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc scito, Princeps, si, ut pervertas, retines, inani te palpas spe! Ante ego ardebo vivus, quam per me granum turis minimum fumet Jovi.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ante ego discerptis sanguinem spargam membris, quam flectam genu futilibus <name type="religion" TEIform="name">Diis</name>.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non istud agitur: tenere patrem per vos est animus: si dividi vos aegre fertis, rogate, ut sacrificet.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Horruerunt aures! ut suadeam patri scelus, quod ego exsecror? I, perge Pater, in ultimam te Thulen abripe! Opto, ut nunquam te videam iterum, et ne redeas, votum Christo faciam.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At ego affusus genibus gratiam exilii peto: possumne per patris merita orare minus?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Abstrahite.</l>
+</lg></sp>
+ <sp who="Ioannes Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pater, nihil metue nobis: auferre te nobis possunt, Christum non possunt. Vale, et consta tibi!</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Princeps, nunquam ego tale spectaculum vidi.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego saepe. Sed hora est sacrificio destinata. <name type="person" TEIform="name">Procopi</name>, sentis te hominem esse? Delibera cito! Mihi ignosce amicam vim: cogit amor.</l>
+</lg></sp>
+<pb id="s334" n="334" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.06.01.11" n="11" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEXTA. <name type="person" TEIform="name">Procopius</name> solus.</head>
+<sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CRudelis amor. Enimvero sentio me hominem esse: nam quantus se movet modo, tantus nunquam fuit tumultus cordis. Trepidat constricta utrinque pietas formidine sceleris. Christum desero! Scelus est: filios desero! Scelus est: et non est medium: alterutrum ut eligam est necesse. O cujus causa hoc tantum tormentum fero, suggere consilium Christe, quod me expediat tam gravi malo! Ah! Filios relinquam Pater, agnos in medio luporum deseram? ut forti sunt animo satis, tamen juvenes sunt: et quantillum sufficit, ut se juvenis mutet! Infelicium omnium infelicissimus ego sum, si alteruter se <name type="religion" TEIform="name">Diis</name> mancipet, deserto te! Quos ego Romae vidi pro te ad necem rapi, ibant gaudentes! Merito, nam aut carebant filiis, aut cum illis ibant. At ego. ... Quid angar tamen? Scilicet ego ille sum, qui filiis constantiam dabo? Hem metum vanum! nempe ut sic emolliat paternum cor, hoc mihi malum fingit malignus <name type="religion" TEIform="name">Sathan</name>. Tibi, Christe, dicavi filios: in tua cura sunto, a te est robur: quid a me sperent? Tu illis sufficis. Pudet trepidasse! Securus exsulo.</l>
+</lg></sp>
+<pb id="s335" n="335" TEIform="pb"/>
+<stage type="mix" TEIform="stage">CHORUS II. Achab ab improbis Ministris male deceptus, misere perit. * Theatrum exhibet lucum, quem urbs Samaria terminat. Ad dextram ara <name type="person" TEIform="name">Baalis</name>.</stage>
+<stage type="mix" TEIform="stage">PERSONAE. <name type="person" TEIform="name">Michaeas</name> Minister probus. <name type="person" TEIform="name">Sedecias</name> coryphaeus inter improbos. <name type="person" TEIform="name">Ioram</name>, et <name type="person" TEIform="name">Ochozias</name> Filii Achab. Ephebi. Sacrificuli. MIlites. Aula. Cives.</stage>
+<sp who="Ioramus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non me decipis, <name type="person" TEIform="name">Sedecia</name>?</l>
+<l TEIform="l" part="N">Certa est de Syris Victoria?</l>
+</lg></sp>
+<sp who="Sedecias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Certa est, nisi credis mentiri oracula...</l>
+<l TEIform="l" part="N">Audite incolae, Cives Samariae, audite!</l>
+<l TEIform="l" part="N">Hac Hora reducem videbitis Regem:</l>
+<l TEIform="l" part="N">Victori plaudite!</l>
+<l TEIform="l" part="N">Victoriae auctorem Deum laudate! Io! Laudate!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>Chorus Sacrificulorum et Civium.</head>
+<l TEIform="l" part="N">Io! Io! Triumphum cantate!</l>
+<l TEIform="l" part="N">Victori paeana clamate! ..</l>
+<l TEIform="l" part="N">Periit Syria!</l>
+<l TEIform="l" part="N">Plaude Samaria! ...</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Baal</name> vicit! <name type="person" TEIform="name">Baal</name> Regem Protexit!</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Baali</name> Syria herbam porrexit!</l>
+</lg>
+<sp who="Michaeas" TEIform="sp"><stage type="mix" TEIform="stage">irridens</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Io! Io! Triumphum cantate!</l>
+<l TEIform="l" part="N">Victori paeana clamate! ...</l>
+<l TEIform="l" part="N">Periit Syria!</l>
+<l TEIform="l" part="N">Plaude Samaria!</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Baal</name> vicit! <name type="person" TEIform="name">Baal</name> Regem protexit!</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Baali</name> Syria herbam porrexit! <stage type="mix" TEIform="stage">Joannes.</stage> </l>
+</lg></sp>
+<pb id="s336" n="336" TEIform="pb"/>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Adhuc obmurmuras stolide? ... Rapite!</l>
+<l TEIform="l" part="N">Plectatur pertinacia! ... Hic pro Victoria,</l>
+<l TEIform="l" part="N">Ut primum redierit Pater,</l>
+<l TEIform="l" part="N">Deo, quem despicis, cades victima.</l>
+</lg></sp>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O misera conditio Principis,</l>
+<l TEIform="l" part="N">Qui jam a puero decipi gaudet jucundis mendaciis!</l>
+<l TEIform="l" part="N">Iorame! si Achab redierit in pace (audiat omnis populus.)</l>
+<l TEIform="l" part="N">Non est locutus ex me Dominus!</l>
+</lg></sp>
+<sp who="Sedecias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* <name type="person" TEIform="name">Michaeas</name> rapitur immolandus.</stage> Mihi, mihi locutus est Dominus! non tibi, ...</l>
+<l TEIform="l" part="N">Princeps! Nihil metue verba inania!</l>
+<l TEIform="l" part="N">Cultrum praepara!</l>
+<l TEIform="l" part="N">Tua manu decet, ut <name type="person" TEIform="name">Baali</name> immoletur haec hostia.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Assuesce Prophetas ridere,</l>
+<l TEIform="l" part="N">Qui Principes gaudent terrere:</l>
+<l TEIform="l" part="N">Qui nuntiant tibi,</l>
+<l TEIform="l" part="N">Nec sciunt, quod sibi</l>
+<l TEIform="l" part="N">Immineat malum a te.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Sunt homines crudi, audaces,</l>
+<l TEIform="l" part="N">Verbosi, superbi, fallaces:</l>
+<l TEIform="l" part="N">Si audis, inflantur,</l>
+<l TEIform="l" part="N">Per aulam bacchantur,</l>
+<l TEIform="l" part="N">Imperium trahunt ad se.</l>
+</lg>
+<pb id="s337" n="337" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>3.</head>
+<l TEIform="l" part="N">Spelaea bubonum sunt aedes;</l>
+<l TEIform="l" part="N">In Regia nulla sit sedes:</l>
+<l TEIform="l" part="N">Quas alis, sint aves,</l>
+<l TEIform="l" part="N">Jocosae, et suaves,</l>
+<l TEIform="l" part="N">Quae canant, quod recreet te.</l>
+</lg>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Liberat eum <name type="person" TEIform="name">Ochozias</name> ex acie fugiens, et mendacem <name type="person" TEIform="name">Sedeciam</name> trucidat, quod ei <name type="person" TEIform="name">Michaeas</name> non obscure praedixerat.</stage> Praeceptum hoc est Musici, non Aulici! ...</l>
+<l TEIform="l" part="N">Sed hem! quem vides ingredi?</l>
+</lg></sp>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Io! Vive frater mi!</l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! Heu! frater mi!</l>
+<l TEIform="l" part="N">Vix manus Syrorum cum his paucis evasi! ...</l>
+<l TEIform="l" part="N">Et tu ades, Propheta mendacissime!</l>
+<l TEIform="l" part="N">Quem ego...</l>
+<l TEIform="l" part="N">Cito, cito miles, fugientem persequere! ...</l>
+<l TEIform="l" part="N">O <name type="person" TEIform="name">Michaea</name>! Tibi oportuit credere! ...</l>
+<l TEIform="l" part="N">Vincula, jubeo, vincula solvite! ...</l>
+</lg></sp>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid loqueris? Quid jubes metuere?</l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Periimus, frater carissime!</l>
+</lg></sp>
+<sp who="Sedecias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Parcite! Ah parcite!</l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tenete! Confodite!</l>
+</lg></sp>
+ <sp who="Sedecias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Parcite! Obsecro!</l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Perimite!</l>
+</lg></sp>
+ <sp who="Sedecias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! Heu! Heu me!</l>
+</lg></sp>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prô! Atrox spectaculum!</l>
+</lg></sp>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Jam nempe, quod dixi, impletur oraculum.</l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Eheu! Impletum est!</l>
+</lg></sp>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Caelum! Patrem, asseris, esse mortuum?</l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Propinquat triste feretrum!</l>
+</lg></sp>
+<pb id="s338" n="338" TEIform="pb"/>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O me infelicissimum!</l>
+<l TEIform="l" part="N">Occurro! Forte adhuc Pater trahit anhelitum!</l>
+<l TEIform="l" part="N">Forte obtutu ultimo dignabitur filium!</l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sera vota sunt. Cives properate,</l>
+<l TEIform="l" part="N">Ultimos Regi vestro honores date.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>CHORUS.</head>
+<l TEIform="l" part="N">Vah! ... Haec illa splendida</l>
+<l TEIform="l" part="N">Sunt tandem vaticinia!</l>
+<l TEIform="l" part="N">Sic redit Victor Rex!</l>
+</lg>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Vidi cunctum <name type="nation" TEIform="name">Israel</name> dispersum in montibus, quasi oves non habentes pastorem. 3. Reg. 22.</stage> Dispersum vidi populum</l>
+<l TEIform="l" part="N">Ut solet spargi ovium,</l>
+<l TEIform="l" part="N">Pastore caeso, grex.</l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vir Dei! Tibi Pater non credidit:</l>
+<l TEIform="l" part="N">Peccavit! Ah peccavit!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">O caecas Regentium mentes!</l>
+<l TEIform="l" part="N">Sic scilicet sumus prudentes! ...</l>
+<l TEIform="l" part="N">Habemus, quos consulimus:</l>
+<l TEIform="l" part="N">Quid consulant, praescribimus,</l>
+<l TEIform="l" part="N">Sic consulunt, quod volumus:</l>
+<l TEIform="l" part="N">Quid hoc est, quam jubere,</l>
+<l TEIform="l" part="N">Ut velint imperantibus</l>
+<l TEIform="l" part="N">Parere,</l>
+<l TEIform="l" part="N">Non suadere.</l>
+</lg>
+<pb id="s339" n="339" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Sic stulti magnis sumptibus,</l>
+<l TEIform="l" part="N">Ministros malos alimus:</l>
+<l TEIform="l" part="N">Fovemus in sinu serpentes</l>
+<l TEIform="l" part="N">Heu! Misera conditio!</l>
+<l TEIform="l" part="N">In nostram, uno calculo,</l>
+<l TEIform="l" part="N">Perniciem consentientes!</l>
+<l TEIform="l" part="N">Sic scilicet sumus prudentes!</l>
+</lg>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et haec stultitia est poena maxima,</l>
+<l TEIform="l" part="N">Qua plectit Dominus Principum crimina.</l>
+<l TEIform="l" part="N">Ita, dum plecti se non sentiunt, pereunt</l>
+</lg></sp>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Frater! Frater adjuva! <stage type="mix" TEIform="stage">* Achabi in praelio sagitta occisi cadaver infertur sepulchro sub lugubri symphonia.</stage> </l>
+</lg></sp>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ingreditur pompa funerea!</l>
+</lg></sp>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Emorior tristitia.</l>
+</lg></sp>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Utinam ista miseria vos faciat sapere! ..</l>
+</lg></sp>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Subsistite!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">O Dies nefasta! O Pater!</l>
+<l TEIform="l" part="N">Quis mihi det mori pro te! ...</l>
+<l TEIform="l" part="N">O telum crudele! ... O Frater!</l>
+<l TEIform="l" part="N">Permitte, ut vertam in me! ...</l>
+<l TEIform="l" part="N">O Consultores pessimi!</l>
+<l TEIform="l" part="N">O Proditores impii!</l>
+<l TEIform="l" part="N">Sicarii vocandi!</l>
+<l TEIform="l" part="N">Et morte non una necandi!</l>
+<pb id="s340" n="340" TEIform="pb"/>
+<l TEIform="l" part="N">O Caelum! O providum Caelum!</l>
+<l TEIform="l" part="N">Quam bene damnâsti hoc bellum! ...</l>
+<l TEIform="l" part="N">Sed tamen quid Pater peccavit,</l>
+<l TEIform="l" part="N">Cum Syros se contra armavit?</l>
+<l TEIform="l" part="N">Credere facilis,</l>
+<l TEIform="l" part="N">Credidit perfidis! ...</l>
+<l TEIform="l" part="N">Et tibi poena sit</l>
+<l TEIform="l" part="N">Tanta crudelitas</l>
+<l TEIform="l" part="N">Quam simplex meruit</l>
+<l TEIform="l" part="N">Credulitas?</l>
+</lg>
+<sp who="Ochozias" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Inutilia desine, frater, lamenta! ... Procedimus!</l>
+<l TEIform="l" part="N">Sepulchro Majorum corpus inferimus.</l>
+</lg></sp>
+<sp who="Ioram" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Taedet vivere! Procedite!</l>
+<l TEIform="l" part="N">Eodem cum Patre tumulo <name type="person" TEIform="name">Ioramum</name> condite.</l>
+</lg></sp>
+<sp who="Michaeas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego precabor Dominum <stage type="mix" TEIform="stage"><name type="religion" TEIform="name">Jehu</name> deinde iubente Deo 70. Achabi filios necavit, et totam stirpem excidit. 4. Reg. 10.</stage> </l>
+<l TEIform="l" part="N">Ne filios involvat Patris supplicium! ...</l>
+<l TEIform="l" part="N">Quamquam, o quale mihi animus canit praesagium!</l>
+<l TEIform="l" part="N">Stirpem invisam Superis extremum manet excidium...</l>
+<l TEIform="l" part="N">Ibunt filii in Parentis vestigia:</l>
+<l TEIform="l" part="N">Deos alienos non deserent,</l>
+<l TEIform="l" part="N">Paria ab impiis consilia audient:</l>
+<l TEIform="l" part="N">Par igitur omnes feriet, et disperdet sententia.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Hic finis est: Sic pereunt</l>
+<l TEIform="l" part="N">Osores veritatis!</l>
+<l TEIform="l" part="N">Inflati sunt, dissiliunt</l>
+<l TEIform="l" part="N">Tumore vanitatis!</l>
+<pb id="s341" n="341" TEIform="pb"/>
+<l TEIform="l" part="N">O stultae spes! O digna res</l>
+<l TEIform="l" part="N">Torrente Lacrimarum,</l>
+<l TEIform="l" part="N">Quod scelerati proceres</l>
+<l TEIform="l" part="N">Columnae sint aularum.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Ah! nisi domum Dominus</l>
+<l TEIform="l" part="N">In petra solidet:</l>
+<l TEIform="l" part="N">Est labor omnis irritus</l>
+<l TEIform="l" part="N">Repente concidet.</l>
+<l TEIform="l" part="N">Columnae arundineae.</l>
+<l TEIform="l" part="N">Medulla vacuae</l>
+<l TEIform="l" part="N">Repente fatiscent,</l>
+<l TEIform="l" part="N">In rimas dehiscent,</l>
+<l TEIform="l" part="N">Frangentur, corruent:</l>
+<l TEIform="l" part="N">Et sibi innitentes</l>
+<l TEIform="l" part="N">Ruina oppriment.</l>
+</lg>
+</div3>
+</div2>
+<div2 id="NeTA.06.04" n="4" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<div3 id="NeTA.06.01.12" n="12" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>PARS III. Constantia Orthodoxa Honorata. SCENA PRIMA. Constantinus. Terentianus. Joannes. Paulus. Severus. Marius.</head>
+<sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">QUid sit deliberatum <name type="person" TEIform="name">Procopio</name>, expecto impatiens. I Terentiane, responsum exige.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quousque inanem, Princeps, alis spem? Mutare se non potest Pater: Christum amat.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et exilium prae aula amat, in qua amare Christum vetatur sibi.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et ego, Princeps, suspicio constantiam viri. Si Caesar essem, non</l>
+<pb id="s342" n="342" TEIform="pb"/>
+<l TEIform="l" part="N">dimitterem: placeret haec contumacia, quae animum fortem arguit, atque tenacem recti. Nam sic existimo, Deum, cui vir tantus tanta cum pertinacia se addixit, non posse esse indignum cultu.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hem! Triumphas Christe! Quanta vis est veritatis! Linguas adeo inimicas adigit in laudem sui.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fallor, an te edicti fuisse auctorem paenitet? Cessasti odisse cultores <name type="religion" TEIform="name">Christi</name>?</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Certe incipio admirari.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Macte animo! Sic te Christus diligat, et faciat suum.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nunc imperata fac. Praeco sacrificium insona!.. <stage type="mix" TEIform="stage">* Sonat tuba.</stage> </l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pro! Sonum auribus piis gravem!</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et coges, ut hos oculos cruciemus spectaculo tam atroce! Sic amas?</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O sine, obsecro, Patrem sequi!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Parete mihi! Ego sim vobis parens. Mox Caesarem me creabit Augustus; non jurabitis fidem?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad primum tubae sonum adsumus, Princeps, ut promptos ad imperium videas. Utinam exemplum sequantur, quos verbis potuimus nullis trahere.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ex omni numero, praeter nos, paret Caesaribus nemo, ut Christum abdicet. Sic animos obstinavit <name type="person" TEIform="name">Procopius</name>.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Superi! Quod audio malum?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vos abdicatis?</l>
+</lg></sp>
+ <sp who="Marius Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Caesaribus oboedire nos decet.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Digna vos obedientiae tam celeris merces manet.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nullam mercedem vir bonus exigit: sufficit placuisse.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O vox indigna viro! Caesar, avem ex cantu noscis? Hoc tibi placet tetrum facinus? sacrilegam tu perfidiam probes?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tu, qui Romae toties laudasti Martyres? Cui Tyrannis Galerii tam invisa fuit?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nunc aliud Pater imperat.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Imperat jure suo, et imperanti nos decet obsequi. Vos qui estis, qui tantis Dominis effrontem spiritum audetis opponere, et per impudentiam non ferendam jubentibus dicere. Non oboedio! </l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vos qui estis, qui audetis praecipientis hominis vocem plus vereri, quam prohibentis Dei majestatem,</l>
+<pb id="s343" n="343" TEIform="pb"/>
+<l TEIform="l" part="N">promissa, minas? Nescitis, a quo vestra felicitas pendeat?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Utique a Caesaribus pendet. Si sapitis, juvenes, sequimini nos: quid juvet vos Christus? Haerete obstinati: exuti bonis, ab aula pulsi, egeni, mendici propter Christum eritis.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et vos mendici propter diabolum estis. Nullam mercedem vir bonus exigit: Sufficit placuisse! Audisti, Caesar, mendici vocem! Sufficit placuisse! O vocem pauperis! O famelicum spiritum, cui istae siliquae sapiunt!</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tanti est placere homini, ut spiritus Dei capax, cibo tam grosso satur, exclamat: Sufficit! Sufficit placuisse mortali Domino immortales? Abjecistis cum fide etiam rationis judicium?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Princeps, haec convitia patiens audis? Quia obedimus Augusto, pueris adeo stulti videmur?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mihi haec contentio placet. Isti fortiter urgent: si estis viri, defendite vos.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Princeps, si audivisses tu istos paulo ante, quantis se phaleris pro Christo ornarint, quam jactaverint se, quam gloriose se Crucifixo devoverint, credidisses, nullum te Romae vidisse Martyrem, cui non isti fortitudinis palmam praeripuissent: nunc repente juratam Christo violant fidem impii, rebelles, perfidi, non quia tormenta estis minati, sed quia sic se sperant placere. Quid? Tam mollis, tam femineus animus placeat Caesari? Quid grande speretis ab istis Proteis? Quibus in momenta mutandis quilibet Favonius sufficit?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sufficit placuisse! Ergo, Princeps, si evenerit, ut placere Galerio magis istorum intersit, quam placere vobis, deserent vos: quam jurarunt fidem vobis, abicient, et adhaerebunt Galerio. Plus dicamus: in quae non scelera promptus est, cui sufficit placuisse? Ponite nactos vos esse Principem, qualis Galerius est, avarum, libidinosum, crudelem: quid? Non vos illius avaritiae, libidini, crudelitati toto animo servietis, ut possitis placere? En animum nobilem, cujus haec tota beatitudo est, placere!</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non ita pueri sumus, Princeps, ut non ista</l>
+<pb id="s344" n="344" TEIform="pb"/>
+<l TEIform="l" part="N">didicerimus ex <name type="religion" TEIform="name">Christi</name> lege concludere. Nobis hoc axioma inculcavit parens: sic studete placere Principi, ut nunquam Deo Displiceatis: a Deo, non a Principe omnis felicitas pendet huius vitae, et futurae.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Eice ex aula, Princeps, tum sentient, unde felices sint, et quid ista de Deo garrulitas prosit. Mihi in hac vita Caesar pro Deo est.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Egregie! Exulta, Princeps! Iste ex te idolum facit. ...<stage type="mix" TEIform="stage">Sonat tuba.</stage> En praeco insonat! Age, deturba <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>, Constantinum impone aris! Nam qui a Christo defecisti, quid interest, si etiam a <rs type="myth" n="Iuppiter" TEIform="rs">Iove</rs> deficias? Adulator putide! Si placere vis, Heliogabalo, vel Caligulae loquere, non Constantino.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Princeps, ego stupeo patientiam. Te tacite ferre decet hoc impudens os?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mihi non faciunt male: vos videritis. Quid tu vultu novum laetiore praefers?</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.06.01.13" n="13" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SECUNDA. Accedunt <name type="person" TEIform="name">Procopius</name>. <name type="person" TEIform="name">Volusianus</name>. <name type="person" TEIform="name">Adocetus</name>. Socii.</head>
+<sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">VIcisti Princeps! Inveni <name type="person" TEIform="name">Procopium</name> hominem! Servatus est amicus mihi! Sacrificabit.</l>
+</lg></sp>
+ <sp who="Ioannes Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prô tonitru grave!</l>
+</lg></sp>
+ <sp who="Marius Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="person" TEIform="name">Procopius</name>?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Rem incredibilem narras.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ex ore viri. Unum rogat, ut non assistere modo liceat, sed etiam sacerdotis officio fungi.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mecum ad Caesarem perge.</l>
+</lg></sp>
+ <sp who="Ioannes Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nisi decipimur, ut tali nos mendacio in scelus pertrahant.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ruenti occurrimus.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic ex portu in medios eicimur fluctus. Nam si mentem mutavit <name type="person" TEIform="name">Procopius</name>, haud dubium est, quin traxerit socios: ita spes omnes nostrae naufragio mersae sunt.</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Me aliud angit praeterea. Vidisti, ut frigeat Constantinus? Ut petulantiam</l>
+<pb id="s345" n="345" TEIform="pb"/>
+<l TEIform="l" part="N">puerorum non modo tulerit, sed probaverit etiam? Ut ad auditam mutationem <name type="person" TEIform="name">Procopii</name> obstupuerit? An signum laetitiae dedit? An potius animi turbati indicia in vultu, et sermone notasti? Prorsus velut defecisse doleret. Metuo, ne totus ad Christum transierit.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic deserentes se deseret Deus, ut solet. Trepidus in hanc cogitationem delabor: repente excidissemus simul utraque gratia Dei et Caesaris: qua quae posset cogitari miseria maior?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Concutior totis artubus. Ecquis vero tanti mihi esset auctor futurus mali, praeter te? Et tum sceleste, ita per <name type="myth" TEIform="name">stygem</name> juro, aut consilium felicius, aut sanguinem dabis. ... <stage type="mix" TEIform="stage">* Sonat tuba.</stage> </l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Jacta est alea: ad <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> fugio. <stage type="mix" TEIform="stage">** Ara <rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs> prostat.</stage> Viden' ut haec majestas blanditur nobis, terret aemulos? Super alis aquilae feremur in Solis thronum.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc de me filii credunt?</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pater! Hoc de istis quis credidisset? Isti fecerunt, ut jam nihil incredibile sit.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Adestis miseri transfugae! Huc splendida illa verba, huc jurata fides, huc magnifica promissa reciderunt?</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Exprobras, quod facis tu, quod omnes tui?</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Superbus novo titulo Sacerdos <rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs>!</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! Ut falsi estis! Jam abiissemus exsules, nisi malum nos vestrum torqueret. Detestor <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>! Christum adoro, num facio fidem?</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pereat <name type="myth" TEIform="name">Jupiter</name>, Christus regnet!</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec vox me recreat.</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ignosce credulis! Decepti sumus.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil mutavi me! Vos ut mutetis male mutatam mentem, amici, per quidquid est carum rogamus vos! Ex tantis vos esse solos, qui abiciant fidem, hoc vestrum sanguinem decet? Hoc Christus meruit? Qua spe transfugitis? Ah! Quid prodest homini, si mundum universum lucretur? si perit anima, quid non perit?</l>
+</lg></sp>
+ <sp who="Volusianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Creditis, invito, inimico Christo vos posse felices esse?</l>
+</lg></sp>
+ <sp who="Adocetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quodsi sinat Christus sperato per scelus potiri bono, cogitate, quamdiu illud erit? Et quid deinde?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed exemplo suadeamus, quod decet. Caesar adest.</l>
+</lg></sp>
+<pb id="s346" n="346" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.06.01.14" n="14" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA TERTIA. Accedit Constantius. Aula. Milites.</head>
+<sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TAndem, ut audio, dedisti te: sacrificabis! Sacerdos esse vis? Cujus victimae?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">Insignia reddit.</stage> Haec est victima: honores, titulos, amicos, filios, me ipsum sacrifico Christo, et pro te Caesar, et pro filio tuo sacrifico: ille Deus, qui regnat solus, et in cujus unius manu rotantur fata Principum, hoc sacrificio placatus tibi, sic faveat, ut totus in cultum unius eas. Hoc si exoro, impetravi, quod implet vota.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec vota omnes facimus.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hem! Decepisti me igitur ambiguis verbis!</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Recipite, quae dedistis, honorum insignia! Volentes deponimus ad sacros pedes: vos credite, nunquam honoratos nos esse magis, quam cum <name type="religion" TEIform="name">Christi</name> causa honores exuimus. Circumspicite, Caesares, quem videtis pallere? Quis tremit horrore exilii? Quis non exundantis laetitiae, qua cor afficitur, signa in vultu circumfert? Augusti, si male conscii nobis, si praestiti ignave servitii rei, si nostra culpa indigni gratia pelleremur, scilicet pudore dejecti, tristitia absorpti, desperatione oppressi abiremus cum gemitu: nunc, quando una exilii causa Christus est, imus laetantes, neque de bonis, quae amittimus, anxii, neque de malis, quae expectamus solliciti, quoniam <name type="religion" TEIform="name">Christi</name> gratia sufficit nobis. Tanti est, non quid patiaris, sed cur! Ecce de magno numero nemo deterreri se passus est a <name type="religion" TEIform="name">Christi</name> fide, nisi duo isti miseri transfugae, quorum perfidia, nescio, an etiam vobis placeat: estis enim sapientes, nec potestis probare, ut in gratiam mortalis Domini Dominus immortalis deseratur. Sed abrumpendus est sermo: valete Caesares! Vivite felices, Victores, Patres! Addat ad cumulum felicitatis misericors Numen, ut uterque se Christo jungat.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Valete etc.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ultimas his votis, si quid umquam merui, liceat preces addere, quarum causa huc nos contulimus. Nolite admittere, ut</l>
+<pb id="s347" n="347" TEIform="pb"/>
+<l TEIform="l" part="N">quisquam ex nostro numero abeuntibus desit. Liceat Mario et Severo confidentius loqui, ut revertantur: et mihi filios liceat auferre mecum, quamquam non tam mei, quam <name type="religion" TEIform="name">Christi</name> sint. Admovete vos genibus, carissimi, et vestram vobis libertatem a Dominis exorate: si verba deerunt, perorent lacrimae: evincetis.</l>
+</lg></sp>
+ <sp who="Ioannes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Augusti, quo nostro merito nos sic odistis, ut a patre velitis abstractos? Si scelus est, Christum colere, rei eiusdem sceleris cum patre sumus: nec deprecamur, nec paenitet etiam: Christum colimus! Christus Deus est, et unus Deus!</l>
+</lg></sp>
+ <sp who="Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Christus Deus est, et unus Deus! Quid? Non meremur hac publica professione exilium! Ah! Liceat exulare! Quod si non licet, timete Caesares juvenilem audaciam: possumus vindicare nos de vestris <name type="religion" TEIform="name">Diis</name>, et erit occasio.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Masculos habent animos pueri.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">En! Moveri videntur Principes! Severe, Mari, urgete coepta: invitat Christus ad reditum: Caesares dabunt exsulandi licentiam: numquid transfugii paenitet? Quid resistitis? Porta ad gratiam patet: ultimum per nos loquitur Christus vobis! Si non auditis, claudetur janua, sero clamabitis: utinam rediissem! Rumpite moram! En responsum expectant Caesares! Per si quid de vobis Christus meruit, Christum colite!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per si quid etc.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Irascor Caesares, audaciae hominum! In oculis tuis nos audent. invitare ad contumaciam! Nos obedimus vobis! Colimus <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>! Christum non novimus!</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Colimus <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>! Christum non novimus!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Blasphemia gravis! O Caelum! Quanta patientia perfidos toleras!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Auguste genitor! Non ultra me teneo. Huc usque processum sit satis.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Satis est. Amici, sacrificet Jovi, qui vult: non tollo vobis antiquos ritus, sed nec exigo mihi. Haec virorum constantia prae omni sacrificio est: omen capio, favet Deus! Secure ad filii electionem procedo. Terentiane, amicum tibi <name type="person" TEIform="name">Procopium</name> reddo. Tu cessa Christum persequi.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Didici hodie aestimare. Sed quid fiet denique?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vicistis amici! Et vicit in</l>
+<pb id="s348" n="348" TEIform="pb"/>
+<l TEIform="l" part="N">vobis Christus: recipite honores positos: mei estis, et ego vester!</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ex hac die liberam omnibus promulgo facultatem profitendi Christum. Nemo cuiquam molestus sit <name type="religion" TEIform="name">Christi</name> causa: nemo obicem ponat legi, quam Imperator non improbat. Abscedat stupor! Fictio fuit, quidquid feci adversum vos! Non odi Christum: parum abest, etiam colo. Periclitari constantiam lubuit, ut ex fidei firmitate erga Deum intelligerem, quos potissimum novo imperii mei collegae Ministros legerem, quibus ille se possit tuto confidere.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Triumphat Christus: vivite Caesares! Totus jam vester <name type="person" TEIform="name">Procopius</name> erit: totus Constantii, totus Constantini.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O grande prodigium <name type="religion" TEIform="name">Christi</name>! O admiranda mutatio! Vivite Caesares!</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Huc insignia imperii: Filio jurabitis fidem.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Jurabimus. Gaudio implêsti omnes, cum <name type="person" TEIform="name">Procopium</name> servas.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid ita? Coronabitur Filius, neque ante sacrificium fiet?</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Factum est a <name type="person" TEIform="name">Procopio</name> magnificum satis. Quid ad te?</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Palam est modo animus vester: convictus sum, dignos esse, quos filius colat in primis.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.06.01.15" n="15" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUARTA. Coronatio et Homagium.</head>
+<sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">PLacatus Caesaribus Christus hanc fausto omine signet diem!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Placatus etc.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Paratam pompam infero: impone coronam gaudio, quod lucem istam beatam reddit. Vivat Constantinus Imperii consors tui!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivat Constantinus Imperii consors tui!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vobis vivam.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Equidem, Proceres, semper amavi vos, semper amâstis me! Nunc hoc delectat maxime, videre pronos in meum votum. Jam senior providere imperio velim. Videtis silium indole, animo, virtute imperio parem: merui, ut acceptetis, et laborabit ipse, ut fateamini meruisse. Prosequatur parentis morem, vestris semper commodis, non suis invigilans, et memor, Regem propter populum esse, non populum propter Regem. Itaque neque premet oneribus, nisi quae gravia esse nemini</l>
+<pb id="s349" n="349" TEIform="pb"/>
+<l TEIform="l" part="N">possunt, quia communi bono necessaria: neque premi patietur ab hostibus, adversum quos armabit se ipse, nulli labori, quin nec sanguini parcens, quem fundere sit necesse, ut vobis sit bene. Unum postulat vicissim a vobis, ut sitis concordes, et quam estis religione diversi, tam animo similes. Nolite petere, ut, quod Romae Galerius facit, ferro et igne <name type="religion" TEIform="name">Christi</name> cultores persequens, idem faciat ipse in Gallia: non faciet, et sua erit, sicut sub patris, ita sub filii imperio libertas cuique salva. Homines pacifici sunt, magno animo, et fideles Principi, quamdiu servant Christo fidem! ergo cur persequamur? imo cur non in honore et amoribus sint, praecipue quia plerique vestrum ita aestimant <name type="religion" TEIform="name">Christi</name> legem, ut ab eius acceptatione nihil, nisi austera sanctitas praeceptionum absterreat. Quod si spondetis pacem, corono filium, et Caesarem dico.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego, viri, quam hactenus alienus a legibus <name type="religion" TEIform="name">Christi</name> fui, tam in istis, quos hic videtis, hodie didici magnifacere. Amemus viros, quos amant Caesares! Sinamus, quem sunt meriti, amore frui.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Toti vestris ut commodis devoti vivamus, ipse, quem adoramus unum, nos Christus jubet. Quamdiu videtis nos servire Christo, tamdiu servimus vobis: securi estis.</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivite, et gaudete favore Caesarum in nostrum bonum!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivite, et gaudete favore. Caesarum in nostrum bonum!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic placetis. Sic animo uno omnes conspiramus in communem felicitatem. Concordia invictos, beatos facit.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ergo quod felix, faustumque sit, laurum cape, fili, imperii consors mei! Sceptrum arripe! Tolle in clypeos miles, et fidem jura!</l>
+</lg></sp>
+ <sp who="Terentianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Stringite gladios, curvate genu, clamate unanimi voce: quod fideles, quod fortes, quod constantes in famulatu Constantini futuri simus, juramus!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">quod fideles, quod fortes, quod constantes in famulatu Constantini futuri simus, juramus!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vicissim ego vobis amorem, curam, solertiam spondeo.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivite Caesares! Felices, Victores, Patres vivite!</l>
+</lg></sp>
+<pb id="s350" n="350" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.06.01.16" n="16" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUINTA. Electio Procerum.</head>
+<sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">AT tu Severe, tu Mari, per quem jurâstis? Per Christum, an per <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>?</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dubitant miseri! Ah tandem sapite!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per quemvis juraverint, perinde periuri sunt: abdica Pater! Non fido infidis.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sapiens es. Nec enim erunt fideles tibi, qui non sunt Deo. Imbelles homulli! tantam ignaviam credidistis, impunem fore? Videte hic, quid vos vestra adulatio juverit. Istorum tam gravi experimento probata constantia digna est praemio! recipite insignia! In nulla alia manu securius splendent: quin augebo honoribus. Praetorii Praefectum <name type="person" TEIform="name">Procopium</name> dico: Volusianum a cubiculis, Adocetum a secretis constituo. Justine, Asclepiodote, vos Severi et Marii tenebitis locum: ceteros pro suo quemque gradu levabo altius: sic decet honorare viros, qui Dei causa contemni non timent.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Princeps, digne, quem Christus amet!</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vos ego aureis vinculis devincio mihi! Crescite amores mei! Masculi pugiles! Magna olim magni parentis gloria!</l>
+</lg></sp>
+ <sp who="Ioannes Paulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut forte hoc sit vinculum, fortiore tamen Christus nos stringit vobis.</l>
+</lg></sp>
+ <sp who="Procopius Filii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Christus vobis reddat vices, pro gratiis, quas in nos confertis! Christus aeternum beatos velit!</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At vos abite nunc quidem ex oculis statim, cras etiam a castris longe, perjuri, perfidi!</l>
+</lg></sp>
+ <sp who="Marius Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Paenitet! Pudet!</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miseri!</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O si tu pro nobis ores!</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nolo orare quempiam. Deo perfidos haec aula non tolerat.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Paenitet tamen.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non possum fidere.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Corrigent se.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non possum fidere.</l>
+</lg></sp>
+ <sp who="Procopius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Compensabunt maioribus meritis.</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Perjuri Deo fuerunt: non possum fidere.</l>
+</lg></sp>
+ <sp who="Constantinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Abite! A Christo sperare veniam licet, a nobis nulla est: ille cor inspicit, videt, an paeniteat serio! Nos perjuris Deo non possumus fidere. Exemplum omnibus Ministris este, ut sciant, quid primum in ipsis velim.</l>
+</lg></sp>
+ <sp who="Severus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O <name type="religion" TEIform="name">Dies</name> nefasta!</l>
+</lg></sp>
+ <sp who="Marius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O maledicta simulatio!</l>
+</lg></sp>
+ <sp who="Constantius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego hoc, amici, gaudeo, quod filium heredem habeam, qui vestra opera absterget lacrimas Christianorum. Sic libens morior. Plaudite!</l>
+</lg></sp>
+</div3>
+</div2>
+</div1></body></text>
+
+
+
+
+
+
+</TEI.2>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+	<teiHeader type="text">
+		<fileDesc TEIform="fileDesc">
+			<titleStmt TEIform="titleStmt">
+				<title TEIform="title">Poemata Georgii Sabini.</title>
+				<title type="sub" TEIform="title">Machine-readable text</title>
+				<author n="Sabinus" TEIform="author">Sabinus, Georg</author>
+				<editor TEIform="editor" role="editor">Camerarius, Joachim</editor>
+			</titleStmt>
+			<editionStmt TEIform="editionStmt">
+				<edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+				<respStmt TEIform="respStmt">
+					<name TEIform="name">?</name>
+					<resp TEIform="resp">markup</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/sabin1" type="href" id="sabin1" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">sabin1</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">sabinuspoemata.html</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">sabin001.jpg</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">sabinuspoemata.xml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">sabin1/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+			<sourceDesc default="NO" TEIform="sourceDesc">
+				<bibl default="NO" TEIform="bibl">[Leipzig]: Voegelin, um [1568?].</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc TEIform="encodingDesc">
+			<editorialDecl default="NO" TEIform="editorialDecl">
+				<p TEIform="p">Regeln fuer die Texterfassung 12/2000</p>
+			</editorialDecl>
+			<refsDecl TEIform="refsDecl" doctype="TEI.2">
+				<p TEIform="p">not necessary</p>
+			</refsDecl>
+		</encodingDesc>
+    <profileDesc TEIform="profileDesc">
+		<creation TEIform="creation">sabin1</creation>
+		<textClass default="NO" TEIform="textClass">
+			<classCode TEIform="classCode">bis</classCode>
+		</textClass>
+    </profileDesc>
+		<revisionDesc TEIform="revisionDesc">
+			<change TEIform="change">
+				<date TEIform="date">20 June 2003</date>
+				<respStmt TEIform="respStmt">
+					<name TEIform="name">Ruediger Niehl</name>
+					<resp TEIform="resp">markup</resp>
+				</respStmt>
+				<item TEIform="item">typed text -structural tagging complete - no semantic tagging - no spell check</item>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text><front>
+<pb id="s001" TEIform="pb"/>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">Poemata GEORGII SABINI BRANDEBURGENSIS V. CL.
+ET NVMERO LIBRORVM ET ALIIS ADDITIS AVCTA, ET EMENdatius denuo edita.
+<figure TEIform="figure"><head>Ill.</head><figDesc TEIform="figDesc">??</figDesc></figure>
+
+IN OFFICINA VOEGELIANA Cum Privilegio Decennii.
+</titlePart></titlePage>
+<pb id="s003" TEIform="pb"/>
+<div type="dedication letter" org="uniform" sample="complete" TEIform="div" part="N">
+<head>ILLVSTRISSIMO ET REVERENDISSIMO PRINCIPI AC DOMINO, DOMINO Sigismundo, Archiepiscopo Magdeburgensi, Primati Germaniae, Administratori Halberstatensi, Marchioni Brandeburgensi, Stetinensium, Pomeraniae, Cassubiorum, Vandalorum et Crosnae in Silesia Duci: Burggravio Noribergensi ac Rugiae Principi etc. Domino suo Clementissimo, S. P. D.</head>
+<p TEIform="p">CVM mihi significatum esset ab amicis Lipsicis, futurum ut ibi denuo exprimerentur poemata ac cetera scripta Clarissimi viri et Poetae D. Georgii Sabini, et pleniora et emendatiora quam antea, petitumque, ut ad elaborationem huius libri aliquid a me quoque conferrem: De ceteris quidem, quibus ornaretur opus istud non tulit res et tempus, ut quod pretium operae esset, a me praestaretur, ad <corr sic="Celsitudinem" resp="transcriber" TEIform="corr">Cesitudinem</corr> vero tuam (Reverendiss. et illustriss. Princeps) compellationem meam quoque sub
+<pb id="s004" TEIform="pb"/>
+iectissimo studio ut praeponerem, et mihi est visum, et prudentiores suaserunt. Etsi enim ipse D. Sabinus haec ingenii sui monumenta ad talem modum uno libro collecta cum ederet, peculiari epistola et qua si dedicatione sua Illustrissimae Celsitudini tuae ea consecravit, Ego tamen alteram hanc veluti nuncupationem ad eandem Cels. T. hac potissimum de causa suscepi, ne ulla occasio a me praetermitteretur celebrandi tuae Cels. et Illustrissimorum gentilium huius beneficia erga D. Sabinum et familiam eius, et ut eidem, socero de me optime merito, a me officio aliquo quasi parentaretur. Primum autem natus est D. Sabinus in ditionis Illustriss. Cels. vestrae oppido eo, quo dignitas Septem viratus Imperatori creando in inclita Marchionum familia fundatur, parentibus in ea Repub. honestis et primariis. Is postquam puer admodum singularis indolis et ingenii specimen praeclarum edidisset, ab Illustrissimo Cels. V. avo Ioachimo Primo Brandeburgensi Electore, et huius fratre Alberto Septemviro Moguntino, ac Magdeburgensi Archiepiscopo etc. benignissime habitus fuit, quorum munificentia non nostris solum hominibus, sed et Italiae ac ceteris nationibus D. Sabini ingenium
+<pb id="s005" TEIform="pb"/>
+innotescere coepit. Postea contracta affinitate cum Philippo Melanthone, sanctae me moriae, ab Alberto Moguntino Septemviro, Archiepiscopo etc. inter huius familiares in aulam ascitus, et ab eo propter prudentiam et facundiam inter primarios consiliarios cooptatus est. Inde paulo post de voluntate Illustriss. Principis D. Ioachimi Marchionis Brandeburgensis Electoris, etc. in scholam Francofordianam vocatus est, quam nomine et operis suis aliquanto celebriorem reddidit. Accidit autem non multis annis post, ut illustriss. Borussiae Dux Albertus Senior, de constituenda in Regiomonte Borussiae schola publica piam ac Principe bono dignam susciperet deliberationem. Cumque in hoc sancto pro posito ea potissimum cura optimum Principem exerceret, ut non solum eruditione ac sapientia praestantis, sed et ingenii monumentis clari cuiuspiam viri copiam, quantiscumque etiam sumptibus, compararet, cuius ductu, consilio et <orig reg="auctoritate" TEIform="orig">autoritate</orig> res scholastica constitueretur, gubernaretur atque conseruaretur: D. Sabinus in multis celeberrimis Germaniae scholis unus inventus est, qui ad hanc rem idoneus vide retur. Et suo igitur et aliorum iudicio Illustrissimus Princeps Albertus I. Borussiae
+<pb id="s006" TEIform="pb"/>
+Dux ab Illustrissimo Electore Brandeburgensi obtinuit, ut potestas D. Sabino fieret, hoc sanctum et salutare opus promovendi. Itaque D. Sabino administro et opera huius inclita schola Regio montana constituta est, ac frequentia discentium et eruditis monumentis publice ibi editis paulatim celebrari coepit etiam apud exteros. Ea vero confirmata, iam D. Sabinus ad Illustrissimum Electorem Brandeburgensem Ioachimum II. in Academiam patriam rediit, ut constitutum erat. Ac iam aetate gravis, rerumque usu edoctus, non solum scholae docendo ac consulendo praefuit, sed et ab Illustrissimo Electore Brandeburgensi, etc. Cels. Vestrae patre et Illustriss. Celsitudine vestra inter consiliarios praecipuos ascitus est, et tum domi ad deliberationes gravissimas ac secretas adhibitus, tum foris in expediendis non par vis <orig reg="negotiis" TEIform="orig">negociis</orig> apud exteros reges ac Principes, fidem, industriam, dexteritatemque suam Illustrissimae domui vestrae probavit, et apud exteros laudem sibi peperit, nomenque suum hac accessione admodum amplificavit. De his vero et ceteris virtutibus eius politicis in praesentia plura non addam, quarum vivi testes sunt Magnifici et Amplissimi viri, virtute, sapientia,
+<pb id="s007" TEIform="pb"/>
+ac dignitate vere nobiles D. Paulus Praetorius, et D. Thomas Matthias eorundem Principum consiliarii intimi et primarii, consiliorum huius, studiorum et operarum omnium maxime conscii. Praecipue vero ingenii eius monumenta quae <orig reg="exstant" TEIform="orig">extant</orig>, universae Germaniae et vero inprimis patriae ornamento, et apud exteros admirationi singulari sunt et erunt, quam diu aliqua erit docta et erudita posteritas. A multis nunc saeculis celebratur memoria Orphei, Amphionis, Lini et similium, quorum alios sua Musica feras demulsisse, alios saxa et arbores traxisse ferunt. Apparet autem veteres sapientes non tantum singularem in his et quasi prodigiosam ingenii vim et orationis fulmen praedicare voluisse, sed potius ostendere, excellentem sapientiam, Heroicam ingeniorum vim, et eloquentiae flumen, propria et miran da Dei opera esse generi humano maximarum in universa vita utilitatum causa concessa. Ac quantum Apud homines ad persuadendum et excitandos animi quosuis motus valeat eloquentia manifestum est. Haec ve ro omnia conspectiora et admirabiliora sunt, magisque afficiunt, cum oratio sonora numeris et legibus inclusa, quam poeticam vocant, proponitur. Haec vero vis ingenii
+<pb id="s008" TEIform="pb"/>
+rara est, quam etsi arte excitari et excoli necesse est: tamen semina caelitus trahit et admirandum Dei donum est in natura. Sicut autem modulationes Musicae non unius modi sunt, Ita huius divinae Musicae veteres Graeci quinque genera nominant. Unum Paeanicum quo comprehendisse videntur omnia quae ad Religionem illorum temporum pertinuerunt. Alterum <gap desc="Greek word" TEIform="gap"/>, hoc est, praeceptorum et instructionis ad honestatem et decus. Tertium <gap desc="Greek word" TEIform="gap"/>, quo laudes decantantur, et quasi praeconia fiunt virtutis et haec praestantium hominum. Quartum <gap desc="Greek word" TEIform="gap"/>, quo in funerum <orig reg="tristitia" TEIform="orig">tristicia</orig> et lamentis usi fuere. Quintum <gap desc="Greek word" TEIform="gap"/> quo complectimur illa omnia quae ad delectationem componuntur. In quibus omnibus quid praestiterit D. Sabinus, et quam prope absit ab exemplo veterum ii statuent, qui haec monumenta versuum ipsius legerint. Nos haec nostro quasi praeconio proclamare minus fortassis deceat, et Graecus versus quaerit <gap desc="Greek words" TEIform="gap"/>? Ingenii certe vim divinam ad fundendam orationem numerosam, sonoram, dulcem auribus atque gratam mentibus eruditorum, natura ei attribuit, quam ipse a puero artium ac rerum cognitione multiplice, excoluit, auxit et ornavit, seque ad
+<pb id="s009" TEIform="pb"/>
+imitationem optimorum in omni genere <orig reg="auctorum" TEIform="orig">autorum</orig> composuit. Idque duce natura et arte magistra consecutus est, ut ab ingenio et eruditione laudem inter nostrae aetatis doctos non postremam habeat. Huius vero si aliqua ad seram usque posteritatem fama, et praedicatio feretur, Tuae Celsitudini, eiusdemque patri, avo et gentilibus aliis debebitur tota, quorum et munificentia D. Sabinus evectus est, et virtutes ac laudes vicissim hisce ingenii eius monumentis praeclare celebrantur. Verum Cels. T. haec pro sua sapientia rectius intelligit, quam submisse oro, ut quemadmodum exemplo avi, patris et reliquorum gentilium suorum D. Sabinum vivum benignissime complexa est, propter eius ingenium ac virtutes, cuius et fidem ac industriam in nego ciis arduis saepe experta est: Ita et familiam eius pari clementissimi respectus benignitate foveat. Fuit enim is pater multorum liberorum, magisque iuvandis aliis quam suis suorumque commodis studuit. Quo factum est, ut immatura praeventus morte praeter nominis sui famam sempiternam <orig reg="hereditatis" TEIform="orig">haereditatis</orig> parum reliquerit suis. Oro autem filium Dei Dominum nostrum Iesum Christum <gap desc="Greek words" TEIform="gap"/>, ut Illustriss. Cels. T. Clementer gubernet ac protegat,
+<pb id="s010" TEIform="pb"/>
+corporisque et animae viribus confirmet, augeatque, ut quam longissime gubernationi salutari, et propagationi doctrinarum, publicaeque tranquillitatis defensioni superstes sit. Bene ac feliciter valeat Illustriss. Cels. Tua. Vuitebergae III. Cal. Maii. 1563.</p>
+<p TEIform="p">Illustriss. Cels. Tuae humiliter deditus Eusebius Menius.</p>
+</div>
+<div type="introductory letter" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s011" TEIform="pb"/>
+<head>IOACHIMUS CAMERARIVS EUSEBIO MENIO, S. D.</head>
+<p TEIform="p">TUam Epistolam accepimus tempori. Etsi enim paulo serius illa huc missa est, nihil tamen morata est editionem hanc, quam impedire nescio quid coeperat. Afferuntur autem difficultates, cum aliae saepe hominum conatibus, tum praecipuae operarum et impensarum penuria. Quanto enim egeat instrumento typographia, non est obscurum. Sed erant omnia expeditiora, si non cupiditates nimiae in hoc et aliis quoque quaestibus iam elaborationis diligentiae officerent. Quae scilicet cum aliis huius saeculi incommodis ferenda sunt mutari enim nequeunt. Sane tuam epistolam legens in memoriam redii mecum necessitudinis, eius quae cum tuo socero mihi fuit singularis, non illam quidem extinctam, sed hac occasione eminentem clarius, luminis instar cui instilles oleum. Ac inter graves dolores amissi illius, nonnulla voluptate affici me sensi recordantem suavissimi usus amicitiae mutuae. Nam a primis pueritiae eius annis et dilexi ipsum,
+<pb id="s012" TEIform="pb"/>
+et de praestantia laudis ad quam peruenturus esset haud falsam cepi coniecturam. Erat autem certissimum signum naturae excellentis et magni ingenii, Cupiditas immensa animi ardentis incredibili amore liberalis cognitionis et doctrinae eruditae, et sibi ipsi irascentis in frustratione. Atque vidi ego lacrimas eius et querimonias audivi, non proce dentibus iis quae instituerat componendo aliquid Musici operis. Quo nomine cum valde tristem aliquando este cernerem, eum ego et consolatus et ad incumbendum in adamata studia cohortatus sum. Ab hac igitur ille incitatione sua ad eam perfectionem eruditae doctrinae processit, quae et nunc est et deinceps erit celebris ubicumque delubra Musarum colentur et conseruabuntur sacra. Narrant quendam olim se ipsum ad studia disciplinarum liberalium verberibus etiam instigasse. Id quidem nugatorium vel etiam in humanum videri possit. Ista autem vera est et utilis castigatio, succensere neglegentiae, reprehendere desidiam, indignari si videat alterum, qui aetate eadem sit, antevertere. Sic enim qui impelluntur, ii contendendo vincunt et obtinent palmam, quam meretur ingenii, studii, industriae cursus. Non potui non mentionem facere
+<pb id="s013" TEIform="pb"/>
+quasi incunabulorum laudum soceri tui, cuius tu granditatem praedicares, perstringendo quidem verius quam explicando. Atque ego hoc cum praeclare de ipso commemorari iudice, tum spero momenti non nihil habiturum ad aliquorum animos excitandos et corroborandos exemplo, ne vel in isto <orig reg="spatio" TEIform="orig">spacio</orig> defatigentur, vel virtutis praemia sine molestia laboris se sperent esse consecuturos. Et in certaminibus enim imponuntur coronae fortibus, et Epicharmi versus nescio quem vetat mollia sectari ne obtingant dura, quemadmodum illum Socrates Xenophonteus exposuit, his verbis:
+<gap desc="Greek section" TEIform="gap"/></p>
+<p TEIform="p">Equidem <orig reg="auctor" TEIform="orig">autor</orig> atque hortator fui Ernesto nostro ut in sua officina iterum exprimendum librum hunc curaret, quod requiri exemplaria et lectionem illius Prodesse studiosis bonarum literarum ac artium magnopere posse scritem, et cuperem nomen soceri tui summi viri omnibus modis celebrari: Qui me amando ac colendo sic est de me meritus, ut plurimum illi a me deberi ingenue confiteri nunquam dubitarim. Et cum statuam mihi perhonorificam fuisse coniunctionem nostram, cumque
+<pb id="s014" TEIform="pb"/>
+Deo aeterno ita visum sit, ut ante me ille excederet e vita qui ingressus eam esset serius: Si non quibuscumque rebus et modis liceat ac concedatur, memoriam grati in mortuum quoque animi declarari studeam, quis non me iure optimo improbum et levem perhibeat? Quod ego Quidem crimen atrox et omnibus viribus fugiendum esse existimo. Tu vero quod et abs te aliquid contulisti ad alteram hanc editionem, et soceri tui quasi curriculum in patriae suae Principum Illustrissimi splendoris laudatissima familia confectum magis indicasti quam enarrasti, (hoc enim iam historiae opus futurum erat) gratiam tibi habeo, et tuae pietatis subiectissimum studium Reverendiss. et Illustriss. Principi, quem compellas, clementissime gratum acceptumque futurum esse, certo scio. Quo etiam meliore cum spe elaboratio libri huius (quem et nos epistolis quibusdam auximus) susciperetur, ius privilegii de talibus scriptis mihi aliquando impetrati impertiendum Typographo putavi, non minus merentibus hoc monumentis soceri tui, quam ullius alterius, eorum quoque quibus antiquitas <orig reg="auctoritatem" TEIform="orig">autoritatem</orig> addit. Quae ad te omnia perscribenda duxi, ut hac in parte <orig reg="prompti" TEIform="orig">promti</orig> animi cupiditas significaretur.
+<pb id="s015" TEIform="pb"/>
+Atque utinam facultas sit luculentius illam demonstrandi: Sed ut possumus, aiunt. Te quam rectissime vivere et optime valere, cum Sabiniana sobole, cui tu nunc alter parens relictus es, precor. Vale. Lips. Id. Maii. Anno CHRISTI IESU, M. D. LXIII.</p>
+</div>
+<div type="toc" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s016" TEIform="pb"/>
+<head>CATALOGVS EORVM QVAE HOC VOlumine continentur.</head>
+<p TEIform="p">Elegiarum libri VI. Caesares Germanici. Pag. 220</p>
+<p TEIform="p">De nuptiis Regis Poloniae carmen Heroicum, Continens praecipuas omnium Polonicorum Regum historias. 237.</p>
+<p TEIform="p">Ecloga de Gallo ad Ticinum capto. 256</p>
+<p TEIform="p">Ecloga de nuptiis Illustrissimi Principis Alberti Marchionis Brandeburgensis, primi Ducis Prussiae. 260</p>
+<p TEIform="p">Epigrammatum et Hendecassyllaborum libri II. 268</p>
+<p TEIform="p">Liber Carminum Adoptivus. 342</p>
+<p TEIform="p">Additae sunt aliquot epistolae, cum ipsius Sabini: tum Petri Bembi, aliorumque eruditorum, et Caroli V. Imperatoris, de Sabino scriptae. 412.</p>
+<p TEIform="p">Accesserunt etiam praecepta de carminibus ad veterum imitationem artificiose componendis. et quaedam insuper epistolae antea non editae. 489.</p>
+</div>
+<div type="introductory letter" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s017" TEIform="pb"/>
+<head>ILLVSTRISSIMO ET REVERENDISSIMO PRINCIPI AC DOMINO, DOMINO Sigismundo, Archiepiscopo Madeburgensi, Primati Germaniae, administratori Halberstatensis Ecclesiae, Marchioni Brandeburgensi, Stetiniensium, Pomeraniae, Cassubiorum, Vandalorum, et Crosnae in Silesia Duci: Burggravio Noribergensi, ac Rugiae Principi: GEORGIUS SABINVS S. P. D.</head>
+<p TEIform="p">UT alii motus heroici, quibus ceu flammis accenduntur excellentes virtutes, sunt singularia Dei opera in hominum natura, ut Herculis, Achillis, Alexandri fortitudo: ita non dubium est, vim ingenii excellentem ad fundendum carmen sonorum, copiosum, dulce mentibus auribusque eruditorum, proprie Dei opus esse, ac singulare et mirandum naturae humanae decus. Lucet autem magis, cum res Sapienter
+<pb id="s018" TEIform="pb"/>
+cogitatae, et illustratae verborum Luminibus, numerosa oratione exponuntur: quod sine multarum artium ac rerum cognitione effici non potest. Quid enim excogitari <orig reg="pulchrius" TEIform="orig">pulcrius</orig> in natura humana potest tali seu musica seu poetica, quae instructa sapientia et cognitione rerum optimarum, fundit ceu flumen, illam magnarum rerum expositionem dulcissima harmonia numerosae orationis? Talis est Homeri, Virgilii et Ouidii Poetica: et fortassis talia fuerunt multorum aliorum excellentium virorum scripta, Orphei, Amphionis, Lini, Musaei, Ennii: quorum etsi non <orig reg="exstant" TEIform="orig">extant</orig> integra volumina, tamen cum tam honorifica de eis iudicia facta sint, ut alii feras, et saxa traxisse ferantur, alii summis viris familiares fuerint, et fragmenta ostendant eos res maximas carminibus complexos esse: credibile est vim naturae in eis et sapientiam fuisse maiorem, quam qualis est in mediocribus hominibus. Itaque de vera Poetica cogitans, magnum quiddam et divinum, eam esse affirmare non dubito. Ac saepe doleo non solum reges et Principes, qui non sunt
+<pb id="s019" TEIform="pb"/>
+exculti doctrina,  <orig reg="pulchritudinem" TEIform="orig">pulcritudinem</orig> huius facultatis non considerare: sed hos etiam quorum ingenia non abhorrent ab hac musica, adeo negligentes esse, ut naturae facultatem non studeant augere et ornare doctrina, et imitatione optimorum exemplorum. Aliqui etiam vim ingenii in materiis indignis lectu, in maledictis, aut obscenitate consumunt. Sed profecto aliqua est et principum in ea re culpa, qui si et eligerent, et foverent ingenia, plures ad verum decus tenderent. Nam quantulumcumque est, quod studio ad naturam adici potest, tamen postulat tempus, otium, animum vacuum sordidis curis, rerum multarum doctrinam, collationem iudiciorum cum doctioribus, emendationem: nec quicquam praeclarum subito nascitur. Haec autem fieri non possunt, nisi principum sapientia et discernantur ingenia, et liberalitate adiuventur. Cum ineptus quidam Poeta olim in convivio peteret ab Archelao Macedonum rege munus magni precii: in eodem vero convivio Euripides quoque adesset: rex iubet mox afferri munus, ac dari Euripidi: addens
+<pb id="s020" TEIform="pb"/>
+sui iudicii significationem, his verbis: iste dignus est qui petat, Euripides dignus est qui accipiat. Si hoc modo et discernerentur et alerentur ingenia, tum literis tum rei publicae melius consuleretur. Non haberet haec aetas tam multum perniciosorum librorum, qui spargunt errorum et seditionum semina, si gravi <orig reg="auctoritate" TEIform="orig">autoritate</orig> ad diligentiam in scribendo bona ingenia invitarentur, et naturae distortae, monstrosae, seditiosae, venenatae, reprimerentur. Mores civitatum mutari dixit vetustas, mutata musica: verius est, quod nos vidimus, mores hominum mutari scriptis sine delectu editis. Et saepe fit, ut clamores <orig reg="tribunicii" TEIform="orig">tribunitii</orig>, quia alludunt ad populi affectus, vincant. Huius rei cum haec aetas habeat insignia exempla, commoveri certe Principes gemitibus bonorum omnium debebant, ut studia doctrinarum maiore cura inspicerent, et regerent: discernerent ingenia, invitarent bonas mentes ad diligentiam, compescerent audaciam temere scribentium sine cura veritatis, et sine cura publicae salutis. Scio tantum <orig reg="auctoritatis" TEIform="orig">autoritatis</orig> in oratione mea non esse, ut his tantis malis publicis
+<pb id="s021" TEIform="pb"/>
+mederi queam: nec profecto unus illam infinitam turbam malorum scriptorum pellere potest. Sed tamen cum haec mea scripta ederem, dolor qui mihi cum omnibus bonis communis est, me impulit, ut hanc querelam effunderem. Equidem fateor me et amare et magni facere Poeticam, et optare ut eius  <orig reg="pulchritudinem" TEIform="orig">pulcritudinem</orig> plures intelligerent: sed excellentibus scriptoribus nequaquam me insero, et propter ingenii imbecillitatem, et propterea quia in hac confusione temporum non licuit mihi tribuere huic arti tantum studii, quantum magnitudo rei poscit: conspici tamen in carminibus meis, et voluntatem honestam et mediocrem diligentiam existimo: materias enim utiles <orig reg="sumpsi" TEIform="orig">sumsi</orig>, et recte loqui studeo.</p>
+<p TEIform="p">Ceterum haec scripta, qualiacumque sunt, tibi dedico Sigismunde Princeps Illustrissime, propter memoriam tuorum maiorum, qua nihil tibi sanctius, nihil antiquius esse debet. Nam plerique eorum, a quibus paternum et maternum genus ducis, his ingenii mei monumentis celebrantur: nec dubito te, ut principem egregia indole praeditum decet
+<pb id="s022" TEIform="pb"/>
+imitaturum esse exempla virtutum, quas in tuo avo, patre, et agnatis, laudo. Ferunt Q. Maximum Publium Scipionem, vehementissime ad virtutem incensum fuisse conspectis maiorum imaginibus: nec fieri potest, quin tuus quoque animus vere generosus ad virtutem et gloriam incendatur lectis maiorum praeconiis, quae versibus mandavi. Cum vero in Germania (quod pace aliorum dixerim) magis a Marchionibus Brandeburgensibus ornatae sint Musae, quam ab aliis: praeclare facies, si huius gloriae <orig reg="hereditatem" TEIform="orig">haereditatem</orig> conseruaveris. Petivi olim iuveniliter a Cardinale Alberto, Archiepiscopo Moguntino Maecenate meo, ad quem <orig reg="exstat" TEIform="orig">extat</orig> prima elegia in his Poematis a me scripta, <gap desc="Greek word" TEIform="gap"/>: idque ioco feci, non tam impudentia, a qua ingenium meum fuit semper alienum, quam ipsius facilitate et humanitate adductus: erat enim Princeps omnium humanissimus, meque inter aulicos et familiares suos singulari benignitate complectebatur. Sed nunc aetate provectior, serio abs te hoc peto ac flagito, quo nihil honestius neque a me peti, neque abs te praestari
+<pb id="s023" TEIform="pb"/>
+potest, nempe ut bonarum artium studia, quae a plerisque fastidiuntur, exemplo maiorum tuorum benigne ac liberaliter foveas: ea tamen ratione, ut (quemadmodum monui) ingenia discernantur.</p>
+<p TEIform="p">Datae Idibus Novembris Anno Christi M. D. LVIII. Francofordiae ad Oderam.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

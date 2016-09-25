@@ -1,0 +1,3914 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd">
+<TEI.2>
+<teiHeader type='text'>
+<fileDesc>
+<titleStmt>
+<title>Tragoedia nova Pammachius.</title>
+<title type='sub'>Machine-readable text</title>
+<author n='Naogeorg'>Naogeorg, Thomas</author>
+<editor>Naogeorg, Thomas</editor>
+</titleStmt>
+<editionStmt>
+<edition>XML version, markup prototype, December 1999</edition>
+<respStmt><name>Ruediger Niehl</name><resp>markup</resp></respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Camena</publisher>
+<address>
+<addrLine><anchor n="http://www.uni-mannheim.de/mateo/camena/naogeorg1" type="href" id="naogeorg1"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt>
+<note type="href">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname">naogeorg1</note>
+<note type="filename">naogeorguspammachius.html</note>
+<note type="titleimage">s001.html</note>
+<note type="srcfile">naogeorguspammachius.xml</note>
+<note type="imgpath">naogeorg1/jpg</note>
+<note type="imgtype">html</note>
+</notesStmt>
+<sourceDesc>
+<bibl>Wittenberg: Johann Luft, 1538.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl>
+<p>not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc>
+<change>
+<date>January 2005</date>
+<respStmt>
+<name>Manuel Roehrich (spell check), Ruediger Niehl (tagging)</name>
+<resp>markup</resp>
+</respStmt>
+<item>
+new TEI header; typed text - structural tagging complete - no semantic tagging - Morpheus spell check</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<gap id='GR'/>
+<pb id='s001'/>
+<titlePage><titlePart>
+TRAGOEDIA NOVA PAMMAchius, auctore Thoma Naogeorgo Straubingensi.
+Cum Praefatione luculenta.
+Excusum Vitebergae, Typis Ioannis Luft
+Anno MDXXXVIII. Tertio Idus Maii
+</titlePart></titlePage>
+<pb id='s002'/>
+<pb id='s003'/>
+<div type='dedication'>
+<head>REVERENDISSIMO PATRI D. THOMAE ARchiepiscopo Cantuariensi digniss. Thomas Naogeorgus S. D.</head>
+<p>
+Cogitanti mihi saepe de summis Dei opti. maxi. beneficiis, quibus nos dum in hac vita versamur pro
+singulari sua erga nos clementia, cottidie cumulat, ut per ea ad salutem et veram sui agnitionem, quae est
+aditus ve rus ad vitam aeternam, perducamur, nullum quidem nobis vel maius vel gratius videri debere
+existimo, quam quod verbi sui ministerium apud nos instituit, per quod in omni genere afflictionum et
+tentationum in quibus nihil nos levare vel consolari potest, praeterque verbi cognitio, omnes recte
+instruamur de Dei voluntate, erga nos discamusque illum non solum timere, verum etiam dilige re et
+agnoscere pro patre, cui nos curae sumus, et qui velit servare et liberare nos ex angustiis et malis, quibus vel
+propter peccata, vel diaboli saevitiam
+<pb id='s004'/>
+ac tyrannidem assidue premimur, atque exercemur. Per hoc enim ministerium non solum proponitur no bis
+doctrina nota etiam aliquo modo rationi, quae cum ostendat nos non casu natos, aut hunc mundum fortuito
+ortum, simul etiam monet Deum esse qui inspiciat res humanas et curet cas, puniat malos et benefaciat
+bonis, verum etiam explicatur nobis arcana Dei voluntas de perpetua et ineffabili misericordia illis
+promissa, qui agnoscunt suam indignitatem et apprehendunt silium propter quem velit ipse nobis esse
+propitius, et recipere nos in gratiam etiamsi simus indigni et sentiamus nos meritos aeternam iram
+ac damnationem. Cum enim nemo ea sit innocentia praeditus quin in magnis calamitatibus vel tentationibus
+sentiat se merito et perditum et reiectum a Deo, nihil profecto perturbatae menti salubrius et gratius esse
+potest, quam vox Euangelii de gratuita remissione peccatorum propter Christum, quam solum ministerium
+verbi nobis commonstrat et patefacit, Itaque saepe scriptura nobis magnifice praedicat dignitatem
+ministerii, quod profecto quia vocem Dei ad nos perfert amplissimum est, et bonis mentibus eo nihil
+iucundius aut magis salutare contingere potest, Sicut et Esaias docet cum ait Quam speciosi pedes evangelizantium pacem, et evangelizantium bona. Intelligit enim propheta hominem
+<pb id='s005'/>
+afflictum, nec in ratione, nec in lege reperire ullum solacium, quo se crigat ac sustentet, sed tantum 
+in verbo de promissa misericordia per Christum quod annun datur per ministros, quorum voce et num cio
+nihil potest esse dulcius consternatis metu conscientiis propter conspectum immunditiei et indignitatis
+nostrae. Ut autem nulla functio in terris sanctior et praestantior est ministerio verbi, ut perquam solam fiant
+homines participes beneficii Christi, et consequantur remissionem peccatorum, ac aeternam salutem, ita e
+contra nullum gravius scelus ex cogitari potest, quam vi ac fraude saluberrimum munus in deterrimam
+pestem, et perniciem animarum et totius ecclesiae convertere, quemadmodum iam multis annis ab impiis
+pontifiabus Romanis est factitatum li enim avaritia, ambitione, et aliis sceleribus in citati sacratissimum
+munus a Christo institutum et Apostolis traditum ita perverterunt, ut pontificatus pro immanissima
+tyrannide iure haberi possit. Quaeso enim, ut Pontifices dominentur Regibus, et summis <corr sic='?' resp='monarchis?'>monarhis</corr> totius
+orbis, ut infinita pecunia cumulent opes, ut fruantur turpissimis voluptatibus, quid non iuris sibi sumunt?
+quam non sibi potentiam arrogant? Primum enim ut habeant Reges obnoxios, et trahant ad se regna mundi,
+fingunt se habere utrumque gladium hoc est, non solum potestatem ecclesiasticam
+<pb id='s006'/>
+sed etiam civilem, qua liceat ipsis pro libidine Regibus ac Principibus eripere regna, et quibus ipsi velint
+deferre, et quidem se omnibus praeponunt, quod quo speciosiore fuco faciant, magna impudentia depravant
+scripturam, et abutuntur eius auctoritate ubi commodum est. Quod si quis reclamet et disputer aliam esse
+sententiam, obiciunt, ad se pertinere ius interpretandi, nec esse reprehendendos, vel si (ut ipsorum Canon
+ait) multa animarum milia perdant. Igitur tantum abest ut nostri Pontifices suo fungantur officio ad salutem
+animarum et conscientiarum, ut etiam nomine sui officii flagitiosissime abutantur ad exitium Ecclesiae,
+quod profecto plenum sceleris ac plusquam tyrannicum est. Et ut atrocius peccat is qui eum ex officio iuvare
+debebat, illo ipso laedit quod nome gerit, sicut proditores multo deteriores hostibus sunt, qui praetextu
+amicitiae perdunt, ita <corr sic='?' resp='pontifices?'>potifices</corr> multo maiore odio digni sunt, qui cum sine summi custodes religionis
+constituti, eam ipsi ut privatas cupiditates expleant scelerate proiciunt et opprimunt. Nam cum ideo sint in
+superiore Ecclesiae loco constituti, ut maiore auctoritate gubernent eam, conseruent et propagent religionem,
+ordinent perso nas aptas ad docendum Euangelium, ipsi omissa hac cura stabiliunt suam tyrannidem,
+rapiunt regna mundi, et pro iis etiam armis saepe acerrime dimicant,
+<pb id='s007'/>
+invaduntque in alienam functionem, publico et orbis et Ecclesiae malo. Neque vero cum alienis principibus
+tantum belligerantur de ditionibus et imperio, aut eos iniustis excommunicationibus conatant ad arma, ut
+alieno damno suam potentiam augeant et confirment Sicut Gregorius septimus etiam silium cum patre commisit. Alexander tertius praestantissimum imperatorem, et cumulatum omni laude heroicarum virtulum
+Fredericum primum implicuit atrocissimis bellis eumque indignis contumeliis affecit. Cum enim optimus
+imperator publicae pacis causa se ad pedes pontificis abiecisset ut peteret absolutionem, pontifex eius
+cervici pedem imposuit, et ut augeretur rei indignitas acclamari superbe iussit versum ex Psalmo. Super
+aspidem et basiliscum ambulabis et conculcabis leo nem et Draconem. Cum quidem scriptura praecipiat ut
+magistratum sanctissime et reverenter colamus. Sic enim ait, Principi populi tui non maledicas. Denique ne
+plures commemorem, nostris temporibus Iulius secundus suis technis totum fere orbem terrarum bellis
+accenderat. Ipsi pontifices inter se et armis, et saevissimis odiis de Principatu concertant. Neque vero opus
+est ut pluribus exemplis ex historia allatis fidem huius rei faciam, unum hoc pro multis satis declarabit
+quanta immanitate et rabie, de honoribus et opibus soleant contendere.
+<pb id='s008'/>
+Cum temporibus Arnolphi imperatoris atrox scisma fuisset coortum inter Sergium et Formosum, Sergio
+pulso, Formosus arripuit Pontificatum, postea mortuo Formoso, Sergius rediens Romam, immani cupiditate
+vindictae inflammatus, effodit cadaver Formosi, quod crudelissime tractatum, postea truncavit capite. et in
+Tyberim praecipitavit. At huic similes multi alii fuerunt, non solum flagitiis, sed etiam ingenii monstrosa
+tarditate insignes, et nulla bonarum rerum cognitione instructi, qualis hic tamen Sergius inprimis fuisse
+perhibetur, ut videlicet esset <foreign lang='GR'>phlo\s ai(mati pefurmenos</foreign>, quod rhetor olim de Tyberio Caesare dixisse fertur, cum animadvertisset
+in eius mente incredibilem stuporem cum singulari saevitia coniunctum. Haec quamquam horribilia sunt,
+tamen illa adhuc vincunt quod eo tandem furoris processerunt pontifices, ut sicut Christus praedixit, in
+templo Dei postulaverint se pro numine coli et ado rari. Nunc cum illa reprehenduntur violenter ferunt
+quod tyrannorum proprium est, et ferro indicunt silentium bonis, qui non approbant ipsorum impietatem et
+scelera, et quemadmodum truculentus ille lorarius in Comoedia ait, Indigna, digna habenda sunt herus
+quae facit. Ita illi nolunt quicquam vel lae vissime notari, etiamsi nihil nisi mera sacrilegia et portenta
+praecipiant et faciant. Tolerari enim
+<pb id='s009'/>
+fortassis poterant, si mediocriter labefactarent statum Ecclesiae. Nunc cum religionis nomen habeant in quaestu,
+imperitis <corr sic='?' resp='pretio'>pretio</corr> vendant caelum, immensam pecuniarum vim extorqueant commentitiis indulgentiis,
+condant novas et blasphemas traditiones de coe libatu, de Missa, exerceant plus quam phalaricam saevitiam
+in fideles, cumque eis praecipue sit commissa cura religionis tuendae ac defendendae, relictis his ineptiis,
+ut ipsi pro sua eximia sapientia loquuntur, genio prolixe indulgent ac ventri tamquam summo deorum sicut
+Cyclops in Tragoedia serviunt, eique sacra faciunt foedissimis voluptatibus. Sed ne mutire quidem
+adversus haec impune permittunt, quin potius quemadmodum teterrimus tyrannus apud Herodotum, cum
+silium Harpago epulandum proposuisset, interrogas setque patrem quomodo placeret ipsi factum,
+nequaquam volebat vituperari, sed potius audire bellissimam scilicet vocem, quicquid Rex facit, hoc mihi
+placet, ita ipsi damnari nolunt, etiamsi dira committant, quod ipsis non est novum. Illis enim, ut Bassiani
+noverca dicebat quicquid libet, licet. Ego vero ex animo dolco infelicissimam quarundam regionum
+conditionem, quae tantam tyrannidem vel per superstitionem, et ignorantiam verbi, velper vim coguntur
+adhuc sustinere. Nobis autem cum ex tantis tenebris et carnificina corporum et animorum nunc beneficio
+<pb id='s010'/>
+ renovatae doctrinae ecclesiasticae simus aliquo modo liberati, sitque nobis verus ministerii usus
+iterum restitutus alienissimus a Pontificum tyrannide, existimo assidue coram Deo agendas gratias. In
+primis vero gratulor Angliae vestrae quae sapientissimi Regis studio ac pietate nunc etiam a tali peste quae
+occupavit totum pene Christianum orbem ceperit purgari. Ac praecipue in hoc meretur praedicari sapientia
+serenissimi Regis qui prae reliquis finitimarum nationum Principibus ac Regibus rem tanti mo menti
+<unclear reason='?'>animaduc??erit</unclear>, et constituerit non diutius fer re in sui regni finibus intolerabilem istam Pontificum
+tyrannidem sine modo grassantem et Cancri more Ecclesias iam multos annos depascentem. Nec dubium
+est Deum affuturum piis consiliis Regis, quem videmus summa vi in id incumbere ut regnum suum reddat
+cum aliis bonis rebus ornatiss. videlicet literis, legibus, et aliis politicis ordinationibus, tum vero maxime
+religione quae salutem et pacem animis solidam ac perpetuam parit, et pertinet ad gloriam et nomen Dei
+maxime illustrandum. Neque vero ornatissime presul parum tibi debebit Anglia vestra, qui ut accipi mus
+nullo studio, consilio, ac opera, cessas tam pia et salutaria Regis consilia confirmare et adiuvare, quae cum
+ad salutem Ecclesiae et religionem provehendam pertincant, te, id est Episcopo singulari pietate
+<pb id='s011'/>
+et doctrina praedito, maxime dignum facis Cum autem iudicaverim plurimum referre etiam publice ut
+animi a pueris imbuantur acri odio tyrannidis cuius modi iam annos plus quam 400. exercuerunt Pontifices,
+composui Tragicam fabulam, in qua tenerae aetati eius aliquam imaginem exprimere ac depingere utcumque
+conatus sum. Neque enim periculum est ne perpetuo exagitandis impie et scelerate factis, nimium
+procedatur. Ac videmus nihilo minus pontifices vel parum vel nihil nisi quod vi extorquetur remittere de sua
+pertinacia. Nec videntur desituri, donec ipsorum impia doctrina et auctoritas penitus subvertatur. Neque
+enim Tyranni prius desinunt sui similes esse, quam extrema urgeant. Sicut Dionysius Siculus olim fertur
+dixisse. Tyrannidem non de bere relinqui ab illo qui insideat equo, sed qui trahatur pedibus. Cum igitur
+exhibuissem harum regionum aliquot bonis et doctis viris meum scriptum et intellexissem ipsis consilium
+meum non displicere, visum est ad tuam dignitatem mittere, ut intelligeres et peregrinis gentibus studium
+vestrum in renovanda doctrina Ecclesiastica, et tollendis abusibus, qui iam longo tempore in Ecclesia
+invaluerant, maximopere probari, simul etiam exemplis confirmaremini, ut maiore animo quod instituistis
+perficeretis.
+<pb id='s012'/>
+Decet enim magno consensu nos omnes anniti, it Tyrannis ex Ecclesia praesertim extirpetur. Et quoniam
+meum scriptum minime eius generis esse scio in quo vel ingenium vel eloquentia te acerrimo iudicio
+praeditum, magnopere delectare possit, valde optarim te pro tua singulari humanitate, quam audio te cum
+eximia doctrina coniunxisse, boni consulere studium meum, quod ut facias, et me tuae dignitati
+commendatum habeas vehementer etiam atque etiam rogo. Bene vale.
+</p>
+</div>
+<div type='dedication'>
+<pb id='s013'/>
+<head>SACRARUM LITERARUM EXImio professori, Doctori Martino Luthero, Thomas Naogeorgus S. D. P.</head>
+<lg>
+<l>Quod Graecus ait, <foreign lang='GR'>o(q' h( a)maqi/a me\n qrasei=s, o)knhrou\s de\ to\ lelogisme/non a)perga/zetai</foreign>,</l>
+<l>Numquam (eximie Doctor) sensi esse verius</l>
+<l>Quam hoc tempore in me, qui praesentes audeam</l>
+<l>Et serias res et plenas periculo,</l>
+<l>Insido plerumque theatro committere.</l>
+<l>Sane veteres, qui scripserunt Tragoedias</l>
+<l>Praeterita tum tractarunt argumenta, nec</l>
+<l>Res praesentes quisquam ausus est proponere.</l>
+<l>Quo factum, ut et ipsi tuti essent, et omnium</l>
+<l>Pro industria commendarentur vocibus,</l>
+<l>Prudenter illi, ceterum ego <foreign lang='GR'>a)maqe/steron</foreign>,</l>
+<l>Qui non per illorum incedam vestigia,</l>
+<l>Sed re praesenti multorum in me provocem</l>
+<l>Odium, et labore meo quidem, quo quid potest</l>
+<pb id='s014'/>
+<l>Dici stultius, huius si mundi commoda</l>
+<l>Quaerimus et amamus? Si placet assentatio?</l>
+<l>Si multorum volumus probari calculis?</l>
+<l>Sed quid agam? Christiani non esse censeo</l>
+<l>Hominum seruire duntaxat libidini,</l>
+<l>Et veritatis deserere patrocinium, et</l>
+<l>Id solum spectare, ut probetur omnibus,</l>
+<l>Quum tamen impia sit pars hominum quam maxima,</l>
+<l>Cui non nisi suis similia moribus placent.</l>
+<l>Quapropter et Pauli nota est sententia</l>
+<l>Qua, si place at hominibus, se Christi negat</l>
+<l>Servum esse. Nam displicuisse malis maxima</l>
+<l>Laus est, Contra et summum placuisse dedecus.</l>
+<l>Si igitur a veterum discessi vestigiis</l>
+<l>Non <foreign lang='GR'>a)maqi/a</foreign> solum in causa est, sed multo magis</l>
+<l>Hostilis in Baptismo iuratus animus</l>
+<l>Adversus pompas et Satanae collegium.</l>
+<l>Cuius animi quantum licet esse destino.</l>
+<l>Irascatur Satanas et sentina mali.</l>
+<l>Odio me prosequantur quanto collibet.</l>
+<l><foreign lang='GR'>Ou) ne/mesis a)mfi\ a)lhqei/a| polu\n xro/non,</foreign></l>
+<l><foreign lang='GR'>tou\s kednou\s xristianous pasxein a)/lgea,</foreign></l>
+<l><foreign lang='GR'>h(/t' e)le/nhs kalli/wn poiei=t' eu)dai/monas.</foreign></l>
+<l>Quia igitur tu nobis primus eam tenebris</l>
+<l>Oppressam Aegyptiacis, in hanc clarissimam</l>
+<pb id='s015'/>
+<l>Lucem (irato quamvis tenebrarum Principe)</l>
+<l>Reduxisti, et primos incursus hostium,</l>
+<l>Et syncrotismum omnem Satanae sodalium</l>
+<l>Scuto fidei et gladio excepisti spiritus,</l>
+<l>(Quo sane plurimis dedisti animum, ut simul</l>
+<l>Pro veritate eadem subeant pericula)</l>
+<l>Tuo sub nomine hanc placuit Tragoediam</l>
+<l>Spectandam veritatis sectatoribus</l>
+<l>Aedere, ut his primiciis mea erga te omnibus</l>
+<l>Pro doctrina nota esset observantia,</l>
+<l>Quodque fatear me tibi debere plurimum, et</l>
+<l>Omni velim modo me gratum ostendere.</l>
+<l>Tu quaeso exiguum non spernas munusculum,</l>
+<l>Sed me hactenus ignotum tibi, vel ultimum</l>
+<l>Tuos inter amicos habere sinas locum,</l>
+<l>Quem dudum amici ultro es dignatus nomine.</l>
+</lg>
+<closer>FINIS.</closer>
+</div>
+<pb id='s016'/>
+<div type='prologue'>
+<head>PROLOGUS</head>
+<lg>
+<l>Quid adferamus, si vacat cognoscere</l>
+<l>Spectatores, paucis exponam singula.</l>
+<l>Pammachium, qui Romanus est Episcopus,</l>
+<l>Euangelicae doctrinae coepit taedium,</l>
+<l>Mox simul ac Iulianum duxerat ad fidem,</l>
+<l>Per quem cunctis pax concessa est Ecclesiis.</l>
+<l>Pammachius igitur inflatus superbia,</l>
+<l>Res magnas quaeritans, Porphyrium nactus est</l>
+<l>Applausorem consilii longe pessimi</l>
+<l>Ut se Satanae dedant, a Christo devient.</l>
+<l>Christus non ignarus rerum istarum omnium,</l>
+<l>Satanam iam mille annis vinctum solvi iubet,</l>
+<l>Et veritatem interea terras linquere.</l>
+<l>Satanas solutus convocat vicarios,</l>
+<l>Expiscatur quid illo exegerint die.</l>
+<l>Interea cum Porphyrio Pammachius adest,</l>
+<l>Satanici regni postulans consortium.</l>
+<l>Recipitur, iure iurando data side,</l>
+<l>Quo facto, Caesarem (qui cum contentio</l>
+<l>Illi ante inciderat) eicit ex Ecclesia,</l>
+<l>Deponit ab imperio. Tum Caesar angitur</l>
+<l>Vehementer tam subito perturbatus malo,</l>
+<l>Pammachii gratiam impetrare destinat,</l>
+<pb id='s017'/>
+<l>Multum frustraque dissuadente Nestore.</l>
+<l>Adit. Doctrinam Pammachii audit impiam,</l>
+<l>Illius et creaturas videt novas.</l>
+<l>Restituitur, sed duris conditionibus,</l>
+<l>Quum subiectis iurasset oboedientiam.</l>
+<l>Quo digresso, Satanas vocatus advenit</l>
+<l>Creata videt, gesta audit, miratur, probat.</l>
+<l>Tanta erigit tropheum pro victoria.</l>
+<l>Epulantur ex adeptis spoliis in dies.</l>
+<l>Interea a Christo exorato in terris loco</l>
+<l>Redit cum Paulo veritas, ut gloriam</l>
+<l>Christi illustret, Papaeque doctrinam arguat.</l>
+<l>Quod quum sit, Satanae irascitur collegium.</l>
+<l>Consiliis captis, doctrinae et doctoribus</l>
+<l>Variis exitium moliuntur machinis.</l>
+<l>Res est non obscura, intuenti tempora</l>
+<l>Et praeterita et praesentia, si collegerit</l>
+<l>Apostolicae doctrinae summam, et quae dein</l>
+<l>Doctrinae monstra Papatus, turpis lucri</l>
+<l>Aut ambitionis gratia produxerit.</l>
+<l>In summa. Papatum suis coloribus</l>
+<l>Depinximus. Non carpimus si quid boni</l>
+<l>A Romana umquam productum est Ecclesia.</l>
+<l>Habent bona suas laudes, ut quae dicimus</l>
+<pb id='s018'/>
+<l>A divino haud dubium profecta spiritu.</l>
+<l>Superstitiones, luxum, decreta impia,</l>
+<l>Superbiam, arrogantiam, pessima opera,</l>
+<l>Crudelitatem, perniciosa dogmata,</l>
+<l>Avaritiam, imposturas, contemptum Dei,</l>
+<l>Laudet alius, qui pasci amat mendaciis,</l>
+<l>Qui plus mundi favorem certat quaerere,</l>
+<l>Quam veritatem sectari et verbum Dei.</l>
+<l>Nos certe qualescumque sumus, mendaciis</l>
+<l>Et errori favere nondum possumus.</l>
+<l>Vos aequi adeste iudices Tragoediae,</l>
+<l>Quam orbi doctrinae peperit controversia.</l>
+<l>Res ficta est, ita tamen, ut adsit veritas</l>
+<l>Quae iucundum coniuncta dant et utile.</l>
+</lg>
+</div>
+<div type='dramatis personae'>
+<lg>
+<pb id='s019'/>
+<head>INTERLOCUTORES.</head>
+<l>Christus.</l>
+<l>Petrus Apostolus,</l>
+<l>Paulus Apostolus.</l>
+<l>Pammachius Episcopus.</l>
+<l>Porphyrius Sophista.</l>
+<l>Iulianus Caesar.</l>
+<l>Nestor Cancellarius.</l>
+<l>Satanas.</l>
+<l>Planus.</l>
+<l>Stasiades.</l>
+<l>Chremius.</l>
+<l>Dromo servus.</l>
+<l>Veritas.</l>
+<l>Parrhesia ancilla.</l>
+<l>Ptorophon veredarius.</l>
+<pb id='s020'/>
+</lg>
+</div>
+</front>
+<body>
+<div1 id='NaPW.01' n='1' type='act'>
+<head>ACTUS PRIMUS.</head>
+<div2 id='NaPW.01.01' n='1' type='scene'>
+<head>Christus, Petrus, Paulus.</head>
+<lg>
+<l>Senescentis iam mundi ratio postulat,</l>
+<l>Ut errorum mala inserantur semina,</l>
+<l>Suasque inimicus noster vires exserat,</l>
+<l>Et summe contra veritatem, turpibus</l>
+<l>Inauditisque praevaleat mendaciis,</l>
+<l>Nomenque meum atque religionem funditus</l>
+<l>Exstinctam velit, in eoque sudet maxime</l>
+<l>Divinum ut omnem in sese cultum transferat.</l>
+<l>Adeo post mille annos solutus vinculis</l>
+<l>Fremet, et squalores ulciscetur carceris.</l>
+<l>Recte tu eum Petre rugientem pinxeras</l>
+<l>Leonem, qui vorandos quaerat iugiter.</l>
+<l>Nonne videtis quantum cathenas dentibus</l>
+<l>Nitatur conterere, et parieti cornua</l>
+<l>Illidat, et serpentinis se motibus</l>
+<l>Torqueat? Heu sursum mox atque; deorsum omnia</l>
+<l>Miscebit, strenue et neglecta sarciet.</l>
+<l>Veh Christianis, veh populis et Gentibus,</l>
+<l>Magnum iam tandem habebitis adversarium.</l>
+<l>Quem nosse, quem cavere, cui resistere</l>
+<l>Non cuiusuis, sed erit divina prediti</l>
+<l>Virtute, et quem Dei servarit dextera.</l>
+<pb id='s021'/>
+<l>Iam vigiliis, nec non orationibus</l>
+<l>Et sobriis illis opus erit mentibus</l>
+<l>Plusque ante hac umque. Quippe inundabunt mala,</l>
+<l>Regnante summo iniquitatis principe.</l>
+<l>Sed apparebit, amici, sole clarius</l>
+<l>In hisce malis, an cordi sint mortalibus</l>
+<l>Meae vestraeque contiones, in quibus</l>
+<l>Mali venientis mentionem fecimus.</l>
+<l>Si fuerint cordi, animas tuebuntur suas,</l>
+<l>Sin minus, in communibus involventur malis.</l>
+<l>Sed utcumque cadat, inimicus solvendus est.</l>
+<l>A cuius tamen illecebris fortiter meos</l>
+<l>Servabo, iniquitati ne apponant manus.</l>
+<l>Nemo surripiet eos quos mihi dedit Pater:</l>
+<l>Haec vos amicos ignorare nolui.</l>
+<l>Sed et ante nostis tempus sic fore ultimum.</l>
+<l>PET. Etiam ne ea iam (Magister) adsunt tempora.</l>
+<l>Quibus Satanas laxis habenis imperet,</l>
+<l>Erroresque potenter perniciosos serat?</l>
+<l>CHR. Adsunt. Seriem ipsi temporum revolvite</l>
+<l>Nunc ante consummationem saeculi,</l>
+<l>Quam plurimum conceditur libidinis</l>
+<l>Et Satanae et impiis symmistis omnibus,</l>
+<l>Ut aeternum dein potenter ardeant.</l>
+<pb id='s022'/>
+<l>PET. Tanto igitur res confundente adversarie</l>
+<l>Tuo sanctissimo quid siet nomini?</l>
+<l>CHR. Eius redigetur cognitio ad paucissimos.</l>
+<l>Ut vix salutem a me quaerat millesimus.</l>
+<l>Alia sibi salutis quaerent nomina</l>
+<l>Homines, tota in quibus haereant fiducia,</l>
+<l>Quae in cunctis invocent necessitatibus.</l>
+<l>Et hominum existimabitur stultissimus,</l>
+<l>Salutis qui suae firmam et sacram anchoram</l>
+<l>Nomen meum solum statuerit, scilicet</l>
+<l>Nolens sperare auxilium ab impotentibus.</l>
+<l>In partes mille alii sua scindent pectora,</l>
+<l>In nullo collocantes solo spem suam.</l>
+<l>Magnis surdos inclamabunt boatibus,</l>
+<l>Persuasi falsis inimici miraculis,</l>
+<l>Ut olim in Israel Sacerdotes Baal.</l>
+<l>PE. Quae illa, magister, erunt nomina quaeso, aut in quibus</l>
+<l>Ad ea homines current necessitatibus?</l>
+<l>CHR. Catalogus nominum pene infinitus est.</l>
+<l>Appellabunt partim bona opera et ordines,</l>
+<l>Partim merita et afflictiones corporis,</l>
+<l>Cucullos, pereginationes, et preces</l>
+<l>Rosarum dictas nomine, horasque canonicas,</l>
+<l>Ieiunia, caelibatum, atque indulgentias,</l>
+<pb id='s023'/>
+<l>Missas, sacrificia, defunctorum vigilias,</l>
+<l>Et aquilae tandem consecratae aspergines.</l>
+<l>Ad isthaec peccatorum pressi pondere</l>
+<l>Diffugient, afflictisque conscientiis,</l>
+<l>Eius modi vanis putabunt consuli.</l>
+<l>PAV. Prorsus inaudita, Magister, dicis nomina.</l>
+<l>CHR. Nec mirum Paule si illa ignorasti hactenus.</l>
+<l>Homines <foreign lang='GR'>a)lfhstai\</foreign> surgent, quos tu dicere</l>
+<l>Soles <foreign lang='GR'>e)feureta\s kakw=n</foreign>, qui simplici</l>
+<l>Sanaque fidei doctrina haud contenti erunt.</l>
+<l>PAV. Et his suis inventis atque somniis</l>
+<l>Remissionem peccatorum consequi</l>
+<l>Se posse sperabunt? CHR. Nil exploratius</l>
+<l>Habebunt Paule, quam isthaec magni ponderis</l>
+<l>Apud patrem meum esse. PAV. Usque adeo sanguinis</l>
+<l>Tuaeque mortis obliviscentur homines?</l>
+<l>CHR. Prorsus. Surget Monachorum pestiferum genus.</l>
+<l>Qui ridiculas inventiones, et suos</l>
+<l>Cucullos, et professionis impiae</l>
+<l>Mysteria, sanguini longe doceant meo</l>
+<l>Praestare. PAV. Quid ais? Tantum ne impudentiae</l>
+<l>Et impietatis hominibus inesse poterit?</l>
+<l>CHR. Etiam. Doctore Satana. Pulchre tu Petre</l>
+<l>Illos ostendis dicens, <foreign lang='GR'>yeudodida/skaloi</foreign></l>
+<pb id='s024'/>
+<l>Erunt in vobis, qui introducant haereses</l>
+<l>Perditionis, <foreign lang='GR'>to\n despoth\n a)rnou/menoi</foreign></l>
+<l><foreign lang='GR'>to\n a)gora/sant' au)tou/s.</foreign> PET. Memini. PAV. Num tam impia</l>
+<l>Docentes invenient qui credant? CHR. Maxime.</l>
+<l>Num non tuae recordaris sententiae,</l>
+<l>A veritate auditum aversuros, et ad</l>
+<l>Vanas homines se conversuros fabulas?</l>
+<l>Placebunt mendacia, et impostores magis</l>
+<l>Quam veraces et sani diligentur, et</l>
+<l>Quo perditior quisque, hoc cunctis carior erit.</l>
+<l>Mundus vult decipi, illusores diligit,</l>
+<l>Nugatoresque omnis pascit pinguissimis.</l>
+<l>Aderunt igitur et cuncta implebunt pulpita.</l>
+<l>PA. Heu heu, male erit quas plantavimus Ecclesiis,</l>
+<l>Nostrique labores sic reddentur irriti.</l>
+<l>CHR. Nil certius. PA. Sed tamen Episcopos puto</l>
+<l>Sanam doctrinam defensuros fortiter.</l>
+<l>Nec tam facile mundi cessuros Principi.</l>
+<l>Unde haud dubium ex populo servari plurimos.</l>
+<l>Nam quidquid Princeps calliditate diruet,</l>
+<l>Per illos mox constantes instaurabitur.</l>
+<l>Facile a nocturnis servantur oves bestiis,</l>
+<l>Si pastor operam navet sitque pervigil.</l>
+<pb id='s025'/>
+<l>CHR. Nisi illi primi Paule ad Satanam cesserint.</l>
+<l>PAV. Horrendum ais. Tum nil spei esset reliquum.</l>
+<l>CHR. Factum docebit paulo post, quam gnaviter</l>
+<l>Satanae resistant, quam sint constantes, diu</l>
+<l>Noctuque quantum vigilent, quantum gloriae</l>
+<l>Mihi dent, et quantum nomen promoveant meum.</l>
+<l>PET. Atqui mihi spes est in eo qui praesidet</l>
+<l>Romanis, Pammachio, quem industrium ferunt,</l>
+<l>Doctum, fortem, atque strenuum laboribus.</l>
+<l>CH. Fuit is quidem, ut dicis. Sed per multum interest</l>
+<l>An perpetim quis perseveret, qui fuit.</l>
+<l>Nam repperisse veritatis tramitem</l>
+<l>Magnum est, sed in eo perstitisse iugiter</l>
+<l>Maximum, et opera demum commendat omnia.</l>
+<l>Pammachius, in quo solo tibi spes est, cave</l>
+<l>Externa te decipiat sanctimonia.</l>
+<l>Abstrusis nondum cogitationibus</l>
+<l>Interes, et cordis arcana haud intelligis.</l>
+<l>Is enim prae ceteris mei fastidium</l>
+<l>Capit, et doctrinae iam me dium unguem porrigit.</l>
+<l>Ultro ad Satanam vult cum symmistis pergere.</l>
+<l>PE. Heu quanta de spe decidi. CH. Hic nihil est spei.</l>
+<l>Fastum, potentiam, et mundi ambit glorias</l>
+<l>Unde et in omnibus adversum mihi ponet gradum</l>
+<pb id='s026'/>
+<l>Ego pauper vixi, ille erit ditissimus.</l>
+<l>Ego salutis viam commonstravi hominibus,</l>
+<l>At ille operam dabit, ne quis eam intelligat.</l>
+<l>Caras ego mihi animas habui mortalium, et</l>
+<l>Ut viverent, morte mea effeci lugubri,</l>
+<l>Quas perdidisse summum ille putabit lucrum.</l>
+<l>Ego Magistratus omnes atque Caesarem,</l>
+<l>Oboedientia observavi debita,</l>
+<l>Orbis Monarchas ille et Principes viros</l>
+<l>Pedibus premet et indignis tractabit modis.</l>
+<l>Ego abiectus discipulorum lavi pedes,</l>
+<l>Ille ad pedum haud quosuis admittet oscula.</l>
+<l>Ego pacem suasi et promovi maxime,</l>
+<l>Ille etiam inter pacificos dissidia seret.</l>
+<l>Ego gloriam nomenque fugi regium.</l>
+<l>Miris aliorum ille invadet regna artibus.</l>
+<l>Meis ego crucem humeris ad mortem pertuli,</l>
+<l>Ille sublimis feretur a compluribus.</l>
+<l>Ego sanavi, quos nemo sanare poterat,</l>
+<l>At perdet ille, quos nemo potest perdere.</l>
+<l>Coronam ego capite gestavi spineam,</l>
+<l>Ille superbus triplici incedet diademate.</l>
+<l>Nudis pedibus ego multum confeci itineris,</l>
+<l>At ille auratis ornatus erit calceis.</l>
+<pb id='s027'/>
+<l>Euangelium docens, peragravi oppida,</l>
+<l>Bellator ille armatus cinget milite.</l>
+<l>Turbatas pacificavi conscientias,</l>
+<l>Ille quietis hostis erit conscientiis.</l>
+<l>Meis ego divitiis beavi plurimos,</l>
+<l>Regnorum ille omnium loculos exhauriet.</l>
+<l>Testamentum quoque quod in cena condidi,</l>
+<l>Tantum ne me cum sapiat, vertet perside.</l>
+<l>In summa, nihil umquam meo se nomine</l>
+<l>Texit, quod sic pugnaret me cum ex diametro.</l>
+<l>PE. Horresco (magister) tantum abs te audiens mali</l>
+<l>De Pammachio, quem ego putavi fore optimum.</l>
+<l>Sed Antichristus (quantum nunc intelligo)</l>
+<l>Et recti fideique evadet <foreign lang='GR'>panoleqri/a</foreign>.</l>
+<l>PAV. Is ne est, qui dudum Iulianum Caesarene</l>
+<l>Et una cum illo magnam multitudinem,</l>
+<l>Tuis Magister verbis duxit ad fidem?</l>
+<l>CH. Rem tangis. PAV. Et tam cito ad aliud mutabitur?</l>
+<l>CHR. Humana sic sunt ingenia prona in malum,</l>
+<l>Mox ut divina alio gratia discesserit.</l>
+<l>PET. Pereat ille, ut meretur cum sodalibus,</l>
+<l>Totaque farina haec te experiatur iudicem.</l>
+<l>Sed quantum hisce malis constituisti temporis?</l>
+<l>CHR. Tempora suis sunt praefinita terminis,</l>
+<pb id='s028'/>
+<l>Quos te scire nihil opus. suam invenient viam.</l>
+<l>Hoc tantum accipe, quod etiam a me dictum est prius,</l>
+<l>Propter iustos illi breviabuntur dies.</l>
+<l>Meique rursus crescet gloria nominis.</l>
+<l>Et ubique regni Euangelium docebitur,</l>
+<l>Ut vel pauci a Diabolo retrahant pedes,</l>
+<l>Et obstinatis exstet testimonium.</l>
+<l>Adventu deinde meo perdentur impii,</l>
+<l>Poenasque iniquitatis perpetuas luent.</l>
+<l>Interea regnet Satanas cum suis sinam, et</l>
+<l>Super omne extollantur quod dicitur Deus.</l>
+<l>Praevale at iniquitas, intereat aequitas,</l>
+<l>Nulla fidei sit ratio, sana qui docet</l>
+<l>Magna approbatione multitudinis</l>
+<l>Interficiatur, ut recti ne gry quidem</l>
+<l>Supersit, fastus, luxus, mentis caecitas,</l>
+<l>Tenebrae, avaritia, regnent, et discordia.</l>
+<l>Doctores tantum videant quid populus velit,</l>
+<l>Quid quisque audire gaudeat improbus, et quibus</l>
+<l>Magnates oblectentur atque Principes.</l>
+<l>Perrari sint quibus cordi sit veritas.</l>
+<l>PAV. In hoc ergo malorum mare cadere sines</l>
+<l>Ecclesias, tuoque sacra nomini?</l>
+<l>CHR. Quid ni? Omnis ad purum hoc rerum negotio</l>
+<pb id='s029'/>
+<l>Probabitur electus denique. Sed ceteri</l>
+<l>Ante suis quam mactentur iniquitatibus</l>
+<l>Pinguescent, et rerum numerus implebitur.</l>
+<l>Sed tu angele acceptis abyssi clavibus</l>
+<l>Antiquum cito solvas hostem. Et ut illi locus</l>
+<l>Sit amplior ubique imperetque latius,</l>
+<l>Dic veritati, ut propere terris abeat, et</l>
+<l>Nulla illius regnum turbet molestia.</l>
+<l>Fore enim, quum se rebus velit immiscerier,</l>
+<l>Praeter statutum tempus, ut plagas ferat,</l>
+<l>Aut ovis illi os obturetur putridis.</l>
+<l>Proinde si sapit caveat, et in aliud</l>
+<l>Mordacia sua verba, tempus differat.</l>
+</lg>
+</div2>
+<div2 id='NaPW.01.02' n='2' type='scene'>
+<head>Iulianus, Nestor.</head>
+<lg>
+<l>Quid tibi nova religio Nestor placet? NE. Optime.</l>
+<l>Gratiam habeo Deo, qui me dignatus est</l>
+<l>Ex inferis revocare, inque sui silii</l>
+<l>Ex sola gratia ponere consortium.</l>
+<l>IV. Recte sentis. Saepe ego me cum considero</l>
+<l>In quantis versati fuimus erroribus,</l>
+<l>Viventes in summa Dei ignorantia,</l>
+<l>Nec id scientes perspicue quod viximus.</l>
+<l>Magnum est, dei sic praeveniri gratia,</l>
+<pb id='s030'/>
+<l>Et tantas res sine magnis scire sumptibus.</l>
+<l>Certe omnes Gentes sunt caecae atque perditae,</l>
+<l>Quae Christum penitus, adeoque ignorant Deum.</l>
+<l>Heu quam mala sunt semper conscientia,</l>
+<l>Incertis et doctrinis semper fluctuant.</l>
+<l>Quod nunc sentio, postquam tenebris erutus</l>
+<l>Prioribus, in Iesum Christum credere</l>
+<l>Coepi. Iam tutiora sunt pericula</l>
+<l>Omnia, mortis abest terror longe maximus.</l>
+<l>Cur anteponam thesauros hisce Arabum? Et ad</l>
+<l>Haec universi quid mundi est potentia?</l>
+<l>NE. Equidem Caesar, mundana omnia si conferas</l>
+<l>Ad cognitionem hanc, vix sunt digna nomine.</l>
+<l>Nihil illi deest, qui Christum vere noverit.</l>
+<l>IV. Proinde multum prorsus debemus Deo</l>
+<l>Eiusque ministris et fidei doctoribus,</l>
+<l>Per quos velut e sepulchris tandem emersimus.</l>
+<l>Quid censes? NE. Haec mea Caesar est sententia.</l>
+<l>Deo quidem, donec hos artus spiritus</l>
+<l>Rexerit, agendae grates sunt quam maximae</l>
+<l>Tantumque donum perpetuo in animo haere at.</l>
+<l>Porro ministris et fidei doctoribus,</l>
+<l>Quia nobiscum vivunt et multis indigent,</l>
+<l>Quum postulaverint tuleritque occasio,</l>
+<pb id='s031'/>
+<l>Factis referatur gratia liberalibus.</l>
+<l>Ne spiritus quum nobis semina severint,</l>
+<l>Ipsi nostris non gaudeant carnalibus.</l>
+<l>IV. Placet dictum. Nam quum alias mala, tum maxime</l>
+<l>In doctrinis ingratitudo pessima est.</l>
+<l>Num ergo quod iussi singulis provinciis,</l>
+<l>Et earum ducibus cunctis et rectoribus,</l>
+<l>Meo scripsisti literas ex nomine,</l>
+<l>Ut Christianis sit pax et securitas,</l>
+<l>Possintque conventus agere in ecclesiis,</l>
+<l>Et absque omni timore sua tractent sacra?</l>
+<l>NE. Factum est, et iam dudum rediere nuntii.</l>
+<l>IV. Etiam ne illae sunt expeditae literae</l>
+<l>Ut exules quam primum redeant in sua,</l>
+<l>Et damnati ad metalla liberi exeant,</l>
+<l>Et si quid illis ablatum est, vel vineae,</l>
+<l>Vel agri, vel domus, vel pecora, publicis</l>
+<l>Protinus id omne restituatur sumptibus?</l>
+<l>NE. Nondum ea Caesar conscripta sunt diplomata.</l>
+<l>Scribae hactenus impediti bacchanalibus</l>
+<l>Nil sani iurarunt se posse scribere. Ut</l>
+<l>Scribantur autem quam primum curavero.</l>
+<l>IV. Age vade iam, ne protrahas negotium,</l>
+<l>Ut plerique solent nesciente Principe.</l>
+<pb id='s032'/>
+<l>Scribarum segniciem emendes quantum potes,</l>
+<l>Ut ad sua semper sint intenti munia.</l>
+<l>Illis scriptis ad me redito. Ego hinc eo</l>
+<l>Ut visam quid Pammachius agat negotii.</l>
+</lg>
+</div2>
+<div2 id='NaPW.01.03' n='3' type='scene'>
+<head>Pammachius, Porphyrius.</head>
+<lg>
+<l>Cui haec committam tuto quam velim dari.</l>
+<l>Res magna est. Non manebit in cerdonibus</l>
+<l>Tonsoribusue, qui rerum pericula</l>
+<l>Numquam considerant. Mei similem volo.</l>
+<l>At distringor curis perplexusque haesito,</l>
+<l>An cogitata procedant feliciter.</l>
+<l>Varii et insidi sunt animi mortalium,</l>
+<l>Aliorum prosperis obstant successibus.</l>
+<l>Aut si nequaquam obstare possunt, invident</l>
+<l>Mordentque clanculum, Sibi detractum putant</l>
+<l>Secundis quod alii feruntur flatibus.</l>
+<l>Sed perfricanda frons est, atque fortiter</l>
+<l>Audendum quidquid aggredi decreveris.</l>
+<l>Et invidorum sunt spernenda murmura.</l>
+<l>Ilia dirumpantur quibus isthaec displicent.</l>
+<l>Sed quid ago? Quo feror? Quod primum aut ultimum</l>
+<l>Exsequar? An isthaec concedet Rhamnusia?</l>
+<l>Eundum est, et quaerendus cui communicem.</l>
+<pb id='s033'/>
+<l>Sed en Porphyrius recte venit obviam.</l>
+<l>Quam pulchre similes semper coniungit Deus.</l>
+<l>Non poterat vir melior aut mihi coniunctior</l>
+<l>Occurrere, nec cui isthaec credam tutius.</l>
+<l>Aggrediar hominem. Quo nunc vadis Porphyri?</l>
+<l>POR. Ad te ibam Pammachi pater, visurus, an</l>
+<l>Recte valeres. PAM. Recte, ut nunc se res habent.</l>
+<l>POR. Quid ergo solito es tristior? Non hic fuit</l>
+<l>Ante hac vultus colorque. Certe aut fallor, aut</l>
+<l>Non ex sententia vales, aut quippiam</l>
+<l>Malorum non communium tibi accidit.</l>
+<l>Fortes enim non frustra tristantur. viri.</l>
+<l>Quid suspiras? Quin dicis quid nam sit mali?</l>
+<l>Equidem consilio te vel opibus iuvero.</l>
+<l>Num perniciosa fidei surgunt dogmata?</l>
+<l>Aut fratrum aliquis insigne commisit scelus?</l>
+<l>PAM. Haec me parum movent, licet sint maxima.</l>
+<l>Primum quidem isthaec ante curabam omnia,</l>
+<l>Ut plurimas noctes vigil transduxerim.</l>
+<l>At nunc laboris plurimum, lucri parum</l>
+<l>Inesse sentiens, desino. Maioribus</l>
+<l>Operam locare rebus est animus mihi</l>
+<l>POR. Id tristis scilicet iam cogitas pater?</l>
+<l>PA. Id ipsum. PO. At quibus? aut quomodo assequi potes?</l>
+<pb id='s034'/>
+<l>PAM. Non cuncta sunt narranda cunctis cordium</l>
+<l>Consilia, praesertim in quibus periculum</l>
+<l>Consistit aut lucrum. Ne igitur interroges.</l>
+<l>POR. Nosti tu quoque tacita consilia, nemini</l>
+<l>Communicata, in re difficili maxime,</l>
+<l>Saepius esse calamitatis ingentis caput,</l>
+<l>Nihil laboro scire, Nil periculi</l>
+<l>Ex me tibi erit, tuis nec adversor lucris.</l>
+<l>Hercule nullus est, quantum ego reor, cui tutius</l>
+<l>Quodcumque est committas, neque etiam qui magis</l>
+<l>Tua promovere consilia possit. PAM. Grave est</l>
+<l>Dicere, PO. Quid ita? PA. Tute improbabis forsitan</l>
+<l>PO. Nihil minus. PA. Sed eamus intro, ne invidus</l>
+<l>Aut coryceus aliquis, quae loquar, audiat.</l>
+<l>PO. Quidquid novi est, malum tantum ne sit precor.</l>
+<l>PAM. Nihil est mali. Ausculta duntaxat ut queas</l>
+<l>Intelligere. Te continentis hactenus</l>
+<l>Linguae novi, meisque rebus omnibus</l>
+<l>Favere. POR. Quid non faveam ego? <unclear reason='Sanctissim.?'>Sanctissim?</unclear></l>
+<l>E pectore haud consilia nisi sanctissima</l>
+<l>Prodire possunt. Tu nihil nisi sanctitas.</l>
+<l>PAM. Quamque grave est rem tantam manifestare, tum</l>
+<l>Quod est periculosum, tum quod pessimi</l>
+<l>Haec si scirent, nobis omnibus illuderent,</l>
+<pb id='s035'/>
+<l>Quia vero etiam in angusto magna res nequit</l>
+<l>Concludi, sido et tacituro dicam tibi.</l>
+<l>Sperans simul te in eandem posse pertrahi</l>
+<l>(Quae multum ex usu sit tuo) sententiam.</l>
+<l>Animadvertis enim, Christiana quomodo</l>
+<l>Vexetur undique religio, vix ut locus</l>
+<l>Sit respirandi. Omnis iam nostro sanguine</l>
+<l>Madet tellus. Interitum iam nostrum, mare,</l>
+<l>Ignis, fluminaque viderunt. In montibus</l>
+<l>Complures delitescunt desertis boni.</l>
+<l>Tot sunt hostes, tot persecutores mali,</l>
+<l>Nomen qui Christianum exosum habent nimis.</l>
+<l>Hinc nos et supplicia manent quam plurima,</l>
+<l>Carcer, fames, eculeus, crus et lampades,</l>
+<l>Metalla, fervens oleum, et saevae bestiae.</l>
+<l>Ut prorsus admirer, quid sibi Christus velit</l>
+<l>Rebus tam turbatis. Cur ferat, aut cur suos</l>
+<l>A pessimorum non defendat morsibus.</l>
+<l>Certe olim populus qui Dei vocatus est</l>
+<l>Non tanta pertulit mala, nec tot mortibus</l>
+<l>Fuit subiectus, sed vixit suaviter,</l>
+<l>Pace et tranquillitate pastus est,</l>
+<l>Regnavit, Gentibus et dominatus est foris</l>
+<l>Nos vero nihil quam ludibrium et cadavera.</l>
+<pb id='s036'/>
+<l>Huius dein populi ego Episcopus vocor,</l>
+<l>Quapropter ceteris plus petor ab hostibus.</l>
+<l>Ut sperant pastore occiso, licentius</l>
+<l>In oves miseras grassari posse. Sic ego</l>
+<l>Timoribus in perpetuis quottidie obambulo.</l>
+<l>Nusquam securus. Vita tenui stamine</l>
+<l>Pendent. Quid vero mihi volo? Cur servio</l>
+<l>Tam miseram servitutem? Cur obtempero?</l>
+<l>Equidem tu praedicabas olim Porphyri,</l>
+<l>Secundum qui rationem viveret, bene</l>
+<l>Iusteque eum vivere. Nam ratio ad optima</l>
+<l>Hortatur. POR. Prorsus. PAM. At quid rationi ma gis</l>
+<l>Adversum, qui due magis stultitiae proximum,</l>
+<l>Atque scientem ac volentem ultro ruere in necem?</l>
+<l>Qui profitentur Christum, quid faciunt minus?</l>
+<l>Non paret rationi, qui mala non vitaverit.</l>
+<l>Extreme Christum quum omneis homines oderint,</l>
+<l>Ratio vult diligi, non odium accersere.</l>
+<l>Non ita denique in hanc vitam producti sumus</l>
+<l>Statim ut ruamus in mortem, furiis velut</l>
+<l>Acti, sed ut seruemus vitam, munere</l>
+<l>Dei concessam qu<foreign lang='GR'>ei=</foreign>scumque poterimus modis.</l>
+<l>Creatura hoc omnis testatur, serviens</l>
+<l>Ad hoc ipsum, parentes, caelum, terra, sol,</l>
+<pb id='s037'/>
+<l>Ferae, pisces, pecudes, volucres, et quidquid est.</l>
+<l>Quae insania est, quum omnia nobis velint bene</l>
+<l>Nos ipsos perdere? Eumque sectari, male</l>
+<l>Qui periit? periere et symmistae plurimi.</l>
+<l>POR. Bene profecto omnia. PA. Quippe illius dogmata</l>
+<l>Depugnant cum ratione velut ex diametro,</l>
+<l>Cumque omni hominum sensu. Quid enim? Non vindicem?</l>
+<l>Dimittam tunicam et pallium? Morem geram</l>
+<l>Ad mille passus adigenti? Percussus ut</l>
+<l>Percutiar amplius sinam? denique omnibus?</l>
+<l>Ego ne inimicos diligam? Aut benefaciam</l>
+<l>Odientibus? Aut orem pro persequentibus</l>
+<l>Calumniantibusve? Quis unquam talia</l>
+<l>Vir prudens faceret? Quid tandem est quod praedicat</l>
+<l>Beatos pauperes? opesque spernere.</l>
+<l>Et dignitates posthabere praecipit?</l>
+<l>Haec mente capti sectentur vilisque plebs,</l>
+<l>Egregium quae nil aut excelsum cogitat.</l>
+<l>Ast ratione et natura ego praeditus bona</l>
+<l>Ducem sequar rationem. POR. Bene facis pater.</l>
+<l>Hoc et fortis viri est officium. PAM. Me subtraham</l>
+<l>Ab hisce perpetuis mortis terroribus,</l>
+<l>Vitae tranquillitatem quaeram scilicet.</l>
+<l>POR. Sed quo pacto tandem id poterimus consequi?</l>
+<pb id='s038'/>
+<l>Quippe et ego res tranquilliores quaerito,</l>
+<l>Quas sperabam ex conversione Caesaris.</l>
+<l>PAM. Is nostris rebus pulchrum dabit exordium.</l>
+<l>Pax nulla est Porphyri Christum sectantibus.</l>
+<l>Nulla laborum merces, nulla est securitas.</l>
+<l>Ut ipse videre potes. Quare si quaerimus</l>
+<l>Res nostras stabilire, et dignis honoribus</l>
+<l>Frui, Christum cum doctrina sua ceteris</l>
+<l>Et infimae sortis linquamus hominibus,</l>
+<l>Nos ipsi mundi serviamus Principi.</l>
+<l>POR. Dispeream, si non hoc consilium est optimum,</l>
+<l>Nec umquam vidi melius consilium dari.</l>
+<l>PAM. Is, si alios nobis haud quaquam pares, suo</l>
+<l>Fovet regno, magnisque eos honoribus,</l>
+<l>Potentia, divitiis beat et nomine,</l>
+<l>Non dubito quin nos sit facturus maximi.</l>
+<l>PO. Deum immortalem, haesito quid admirer magis</l>
+<l>Fortunam ne, an mortalium prudentiam?</l>
+<l>Hercule nulla salus poterit nec felicitas</l>
+<l>Deesse, si non consilium defuerit. Hinc</l>
+<l>Longe optimus est, cui semper consilium est domi.</l>
+<l>PAM. At in Christi sicut vides negotio,</l>
+<l>Inopes, afflicti, et numerus duntaxat sumus,</l>
+<l>Quos omnium oportuit esse populorum caput.</l>
+<pb id='s039'/>
+<l>POR. Magnifice sentis, fortuna modo dextera</l>
+<l>Aspiret, cunctaque sint e medio obstacula.</l>
+<l>PA. Quod Satanas dabit. At quae sunt Christi praemia?</l>
+<l>Dabit, quottidie ut verser in periculis,</l>
+<l>Quottidiana et conficiar sollicitudine,</l>
+<l>Labore quanto potior, tanto abiectior</l>
+<l>Ut sim, degamque prorsus hic inglorius.</l>
+<l>Egregia eiusmodi sunt Christi praemia.</l>
+<l>POR. Recte hoc vel tandem pater intelligis. Haud bene</l>
+<l>Vixit, pusilli qui animi nulla posteris</l>
+<l>Vitae suae reliquit monumenta, tenebris</l>
+<l>Aut deditus ultro, aut impotens emergere,</l>
+<l>PAM. Non amplius illa me spe protrahi sinam,</l>
+<l>In regeneratione fore laboribus</l>
+<l>Nostris mercedem. Nunc ego bonis perfrui,</l>
+<l>Et praesentes fructus malo decerpere,</l>
+<l>Post mortem incerta quum sit res et pendula.</l>
+<l>Ne quis hians privetur simul et praesentibus</l>
+<l>Atque futuris, risumque cunctis praebeat.</l>
+<l>PO. Et quis scit tandem, an nostra resurgant corpora, aut</l>
+<l>Cum reliquis perpetuo pereant animantibus?</l>
+<l>Certe nulla hoc poterit ratio concludere,</l>
+<l>Eadem numero redire corrupta semel, et</l>
+<l>In idem destructam restitui substantiam.</l>
+<pb id='s040'/>
+<l>PAM. Pulchre dicis. Sed heus te quaeso Porphyri,</l>
+<l>Ioco ne an serio mea laudas omnia?</l>
+<l>POR. non ferio laudem pater? Quid est magis</l>
+<l>Tuo meoque ex usu, quam quod praedicas</l>
+<l>Et instituis? Quin etiam omnibus Ecclesiis</l>
+<l>Ornamentum decusque haud vulgare adferet.</l>
+<l>Tantum ut coepisti perge fortiter aggredi.</l>
+<l>Non poteris errare, neque vel hoc delinquere.</l>
+<l>Fas omne nefasque, et legum in mundo quidquid est,</l>
+<l>In pectoris tui versatur scrinio.</l>
+<l>Ut omnium tibi cedat merito auctoritas</l>
+<l>Si quando homines (ut sunt complures improbi</l>
+<l>Quos haeretica movet et agitat insania)</l>
+<l>Facta tua reprehendere vellent, quae a spiritu</l>
+<l>Longe altiori proficiscentur, quam queant</l>
+<l>Terrestria capere ingenia mortalium.</l>
+<l>Quare age, magnum tibi me adiutorem possides.</l>
+<l>PAM. Si quidem istuc diceres ex animo Porphyri.</l>
+<l>POR. Dispeream, si non vera et ex animo loquor.</l>
+<l>PA. Animum auges. Iam nunc mea quae sit sententia</l>
+<l>Palam ita humi serpere, nec nomen Episcopi</l>
+<l>Sine magnis arridet cognosces, et quid te facere velim.</l>
+<l>Non placet reditibus, Unde me</l>
+<l>Humo tollere constitui, quocumque poterit</l>
+<pb id='s041'/>
+<l>Modo, et ad id conari, quo praeferar omnibus</l>
+<l>Qui in mundo sunt Episcopis, et maxima</l>
+<l>Auri argentique vis congesta suppetat.</l>
+<l>Deinde et regia cognoscere negotia,</l>
+<l>Omnesque subiectos habere Principes,</l>
+<l>Magnificum et dulce erit, ut timear ab omnibus,</l>
+<l>Nullusque diu mihi aude at resistere.</l>
+<l>In his operam mihi tuam naves Porphyri.</l>
+<l>Rationem quaeras, Scripturasque contrahas</l>
+<l>Ut confieri possint, ne plebis intelligat</l>
+<l>Favore mundi concinnata Principis.</l>
+<l>Christus enim in his linquendus est conatibus,</l>
+<l>(Ut dictum est) interim tamen Christi volo</l>
+<l>Sectator dici et haberi longe maximus.</l>
+<l>POR. Ardua quidem sunt quae instituis, tuae tamen</l>
+<l>Nil arduum dici debet prudentiae.</l>
+<l>Facile assequere. Non deerit ratio, neque</l>
+<l>Scripturarum refragabitur auctoritas,</l>
+<l>Praesertim si illas paululum contorseris,</l>
+<l>Solumque te verum dixeris interpretem.</l>
+<l>PAM. Recte, ita vivam, mones. Ius omne scilicet</l>
+<l>Scripturas exponendi praesumam mihi.</l>
+<l>Ut omnis ex ore meo manet concio.</l>
+<l>POr. Id per quam utile futurum est. Si quis quippiam</l>
+<pb id='s042'/>
+<l>In te iaculari ausus fuerit indignius.</l>
+<l>In inferos ut haereticum submergito.</l>
+<l>PAM. Oportebit prorsus. Sed metuo Caesarem,</l>
+<l>Ne non sinat ad id ascendere fastigii.</l>
+<l>POR. Quem metuis? Caesarem? Nemo metuendus est.</l>
+<l>Sed contemnendum quidquid est potentiae.</l>
+<l>Neophyto Caesari nullo negotio</l>
+<l>Potest imponi, nobis a Doctoribus.</l>
+<l>Aut si omnino molestus esse <unclear reason='coeperit?'>caeperit</unclear>,</l>
+<l>Ad inferos triplici trudatur fulmine.</l>
+<l>Regnum eius subneruetur et deponitor.</l>
+<l>Invenies alium regnandi libidine</l>
+<l>Tumidum, qui tibi sit concessurus omnia.</l>
+<l>PAM. Divinum et efficax consilium Porphyri,</l>
+<l>Nunc nihil est scrupuli. Res ipsa cetera</l>
+<l>Docebit, et quottidiano usu doctior</l>
+<l>Fiam. PO. Haud dubium, usus suppeditabit plurima.</l>
+<l>PAM. Cur ergo non mox supplicatum pergimus</l>
+<l>Ad Satanam, eiusque postulamus gratiam?</l>
+<l>POR. Ubi vis, nihil moror. Inter eundum latius</l>
+<l>De rebus his, ut dignum est, commentabimur.</l>
+</lg>
+</div2>
+<div2 id='NaPW.01.04' n='4' type='scene'>
+<head>Porphyrius. Pammachius, Iulianus.</head>
+<lg>
+<pb id='s043'/>
+<l>Sed quid ais? Num ipsum convenire possumus</l>
+<l>Satanam? aut ad illius eundum est vicarium?</l>
+<l>PA. Ad illum ipsum. Quippe solutum arbitror, ut mihi</l>
+<l>Exploranti annos tradidere calculi.</l>
+<l>Sed in ipso apparebit an ita sit collegio.</l>
+<l>IV. Templum ob seratum mirumque est silentium.</l>
+<l>Forsan domi est, et instat lectionibus.</l>
+<l>POR. Hem Caesar obviam, Te quaerit Pammachi.</l>
+<l>PA. Videtur, sic huc recta gressum dirigit.</l>
+<l>POR. Si placet, illius oblique tentemus animum,</l>
+<l>An quae de crevisti concedat omnia.</l>
+<l>Si difficilis fuerit, eam mox pergito</l>
+<l>Quam monstravi viam, tum ultro aderit supplicans.</l>
+<l>PA. Suades probe. Tuis nunc utere artibus,</l>
+<l>IV. Eccum a domo venit cum Porphyrio. Bene est.</l>
+<l>PA. Salve Imperator, Mene quaeris? IV. Te pater.</l>
+<l>PA. Quid est novi? IV. Nihil equidem. Pacem tibi</l>
+<l>Tuisque in omnibus datam provinciis</l>
+<l>Dicere volebam. Iam potestis liberos</l>
+<l>Ubique habere conventus, et omnia</l>
+<l>Interrite vestra peragere mysteria.</l>
+<l>PAM. Bona nuntias, quae tamen ab aliis antea</l>
+<l>Audivi, at te referente certiora sunt.</l>
+<l>IV. Sic ego me erga vos gratum volui ostendere.</l>
+<pb id='s044'/>
+<l>PAM. Laudo. IV. Reducentur quam primum etiam exules</l>
+<l>Et ablata illis restituentur omnia.</l>
+<l>PAM. Pie facis, et ut Christiano convenit.</l>
+<l>IV. Nonne satis me fecisse putas? PO. Pro exordio</l>
+<l>Quidem imperator non nihil est, sed conferes</l>
+<l>Quottidie si sapis maiora, ut gratior</l>
+<l>Semper silius appareas Ecclesiae</l>
+<l>IV. Adnitar sedulo ne ingratus criminer.</l>
+<l>Dicite duntaxat si quid vultis, in quibus</l>
+<l>Mea vobis ferre opem poterit clementia.</l>
+<l>(Salva regni maiestate tamen) omnia</l>
+<l>Patres mei feretis liberaliter,</l>
+<l>POR. Laudanda sunt haec verba, sed facta amplius.</l>
+<l>IV. Quae verbis dico, factis quoque probavero.</l>
+<l>Est ne aliquid quo indiges pater? PO. Etiam rogas?</l>
+<l>Permulta sunt. Sed hic perpaucis hactenus</l>
+<l>Contentus esse didicit, nec frequentibus</l>
+<l>Voluit precibus molestus esse Regibus.</l>
+<l>Sperans ipsos disposituros optime</l>
+<l>Etiam ultro, quidquid postulat necessitas.</l>
+<l>IV. Data pace et tranquillitate liberis.</l>
+<l>Et libertate damnatis, quid amplius</l>
+<l>Vobis victu provisis atque vestibus</l>
+<l>Desit, nisi dixeritis, quo pacto intelligam?</l>
+<pb id='s045'/>
+<l>Dic Pammachi. PAM. Quid dicam Caesar nescio,</l>
+<l>Non quaero grandia, vita instructus paupere.</l>
+<l>Nec occurrit quid primum aut ultimum petam.</l>
+<l>PO. Ut dixi, hic homo simplex est, et quam dominii</l>
+<l>Pecuniaeve, literarum est avidior.</l>
+<l>Vos ipsos esset cogitare iustius</l>
+<l>Quibus in rebus iuvandae sint Ecclesiae.</l>
+<l>Et quae praemia reddenda sint Doctoribus.</l>
+<l>IV. Multae sunt cogitationes Caesaris,</l>
+<l>Nec solus tamen omnia potest et singula</l>
+<l>Pro conditione et dignitate debita,</l>
+<l>Aut cogitare aut commode componere.</l>
+<l>Unde ministris opus est et suggestoribus.</l>
+<l>Tu suggere Porphyri, quid concedam amplius.</l>
+<l>Nam te haud reor ita inexpertum esse aut simplicem</l>
+<l>Ut nescias, quid vobis atque Ecclesiis</l>
+<l>Conveniat, et quibus concessis maxime</l>
+<l>Triumphetis. Ego in id incumbam perfortiter</l>
+<l>Ne ingratitudinis succumbam crimino.</l>
+<l>POR. Si vis Pater dicam, et compendio quidem.</l>
+<l>PA. Dicito. PO. Primum Caesar post concessa hoc dari</l>
+<l>Omnes ubique efflagitant Ecclesiae, ut</l>
+<l>Immunes sint et a liturgiis vacent.</l>
+<l>IV. Quos nominas Ecclesiarum nomine?</l>
+<pb id='s046'/>
+<l>Populum ne, an Doctores omnis et Episcopos?</l>
+<l>POR. Episcopos inquam et Doctores ple bis, et</l>
+<l>Quicumque clericorum splendent nomine.</l>
+<l>IV. Illis facile potest concedi immunitas,</l>
+<l>Etiam si rebus detrahatur publicis.</l>
+<l>POR. Deinde Episcopatus omnes maximis</l>
+<l>Ornes opibus, et Principum substantia.</l>
+<l>IV. Ah quid ais Porphyri? Ego vobis concessero</l>
+<l>Quod ad victum satis est. Et si haec quae contuli</l>
+<l>Non sufficiunt, addam maiora Porphyri.</l>
+<l>Ad quid vobis tantas opes Doctoribus</l>
+<l>Quaeritis, ut vel magnos aequetis Principes?</l>
+<l>Plurima magnis (ut scis) insunt mala opibus, et</l>
+<l>Illis raro bene uti norunt pauperes.</l>
+<l>An dimissa doctrina et codicibus Sacris,</l>
+<l>Litibus, equis, iudiciis atque fastui</l>
+<l>Operam dabitis? Non sunt haec vobis (credite)</l>
+<l>Utilia, nec patrem talia puto quaerere.</l>
+<l>PA. Cur non quaeram? Nemo divitias iustius</l>
+<l>Aut quaerit aut possidet, atque hi qui alios docent.</l>
+<l>IV. Novum dogma tot usque ignoratum saeculis.</l>
+<l>POR. Quae dico (si me audis) dare non gravabere.</l>
+<l>IV. Deliberabo Porphyri in re tam ardua</l>
+<l>Nec quid sine meorum consensu Principum.</l>
+<pb id='s047'/>
+<l>Vobis dedero, quod auferendum sit aliis.</l>
+<l>POR. Et omnes quum sic sint donati Episcopi.</l>
+<l>Romanus longe opibus anteeat ceteros.</l>
+<l>Splendoreque vincat omnis et potentia.</l>
+<l>Posside at Romam et universam Tusciam,</l>
+<l>Et Episcopatus omnis illi serviant.</l>
+<l>Ex omni imperio converrat pecuniam, et</l>
+<l>In cunctis sua negotia agat provinciis</l>
+<l>Tuo iussu, nec sit qui contra tussiat.</l>
+<l>Doctores sic Ecclesiasque promove,</l>
+<l>Ecclesiae ut dignus dicaris silius.</l>
+<l>IV. Iocaris Porphyri, nec talia quaeritis.</l>
+<l>Dic serio, in quibus vos ornem rebus, ut</l>
+<l>Doctrinae nulla prodeant obstacula.</l>
+<l>PAM. Quid semper mentionem doctrinae facis</l>
+<l>Doctrinae tum demum accesserit auctoritas,</l>
+<l>Cum nos sublimes et praelatos omnibus</l>
+<l>Conspexerint homines. Tum non (ut hactenus)</l>
+<l>Docentes nos irriserint, neque manibus</l>
+<l>Auriculas asini finxerint, sed cernui et</l>
+<l>A longe doctrinam nostram susceperint.</l>
+<l>PO. Sic est. Quapropter haud ioco isthuc quaerimus</l>
+<l>IV. Serio igitur? POR. Prorsus. IV. Revocate patres mei animum,</l>
+<pb id='s048'/>
+<l>Nec vestrae huc cogitationes incidant.</l>
+<l>Maiora quaeritis, quam Episcopos decet.</l>
+<l>Episcopi doceant, et verbo Ecclesiis</l>
+<l>Praesint, verbo hortentur, verboque corrigant,</l>
+<l>Sanam si quis contra doctrinam vixerit.</l>
+<l>Pecunias opesque avari congregent,</l>
+<l>Dominentur Principes, Ducesque militent,</l>
+<l>Romanis Tusciaeque Caesar imperet.</l>
+<l>Sic ordini quisque suo fecerit satis.</l>
+<l>POR. Ho ho, etiam nos docturus Caesar advenis?</l>
+<l>An nos doctores esse ignoras, tam tuos.</l>
+<l>Quam Christianorum omnium? Nos audias,</l>
+<l>Nobis obtemperes, si Christum diligis.</l>
+<l>A nobis disce, quo pacto suo ordini</l>
+<l>Quisque satis faciat. Non exoriare denuo,</l>
+<l>Qui nobis praecepta det aut quidquam corrigat.</l>
+<l>PA. Recte. IV. Satis superbe adversus Caesarem.</l>
+<l>Si non vestrae essem fidei haud sic contemneres.</l>
+<l>Scio vos esse Doctores, quos audiam</l>
+<l>Si sana docueritis, secus si morbida.</l>
+<l>Nulla <foreign lang='GR'>ei)s a)/peiron</foreign> ligat oboedientia.</l>
+<l>Achillis audi Porphyri sententiam</l>
+<l><foreign lang='GR'>kai\ toi=s a)trei/dais h)\n men h(gw=ntai kalw=s</foreign></l>
+<l><foreign lang='GR'>peiso/meq', o(tun de\ mh\ kalw=s, ou) peiso/meqa.</foreign> <note>Euripid. in Iphigenia in Aulide.</note></l>
+<pb id='s049'/>
+<l>Huius et ego sum (ne quid erres) sententiae.</l>
+<l>POR. Is scilicet tu es, qui doctrinam iudicet</l>
+<l>An sana aut morbida sit? IV. Non ego (bone) sed sacrae</l>
+<l>Ostendent literae sanum atque morbidum.</l>
+<l>POR. Et eas tu intelligis? Mox te, quantum quidem</l>
+<l>Video, damnabili inquinabis haere si</l>
+<l>Volens Scripturas aliter intelligere, quam a</l>
+<l>Sacra Romana permittitur Ecclesia.</l>
+<l>IV. Tu homo fere mihi stomachum moves. Tibi sua deo</l>
+<l>Linguae imperes tuae, nec ita clementia</l>
+<l>Abutaris mea atque mansuetudine.</l>
+<l>Dic mihi Pater, quae postulat hic, num postulat</l>
+<l>Tuo ex animo? PA. Sic iussi. IV. Iussisti? O Deum</l>
+<l>Immortalem, Romam Tuscosque postulas,</l>
+<l>Cur non etiam imperium omne postulas simul?</l>
+<l>PAM. Et id meum erit, a me instituentur Caesares,</l>
+<l>Ex pectoris omnes emanabunt scrinio.</l>
+<l>IV. Quod scrinium mihi narras? PA. Nempe illud, ex</l>
+<l>Quo cordis sancta prodeunt mysteria.</l>
+<l>IV. Et ex illo instituentur (inquis) Caesares?</l>
+<l>PA. Prorsus ut ut libuerit, IV. Te quaeso pammachi</l>
+<l>Conatus istos et studia deponito.</l>
+<l>Te digna postules, benevolum me tibi</l>
+<l>Experiere, neque tuas aversabor preces.</l>
+<pb id='s050'/>
+<l>Ornare volo Doctores et Episcopos,</l>
+<l>Sed ita tamen, ne me pessumdent, aut super</l>
+<l>Me ascendant, et regni teneant fastigium.</l>
+<l>Quis Deus hoc tibi suggessit, ut tam incongrua,</l>
+<l>Absurda et inaudita hactenus, proponeres?</l>
+<l>Quis Caesar rexve est tibi concessurus sua?</l>
+<l>Largitur prudens quisque, ne ipse postea</l>
+<l>Ege at, et mendicus aliorum adeat fores.</l>
+<l>PO. Nobis eundum est Pater. Hic nil tibi (ut audio)</l>
+<l>Concedet dignitatis aut potentiae.</l>
+<l>IV. Rem tangis, nec opus est. Hoc mihi dicas velim, an</l>
+<l>Petrus et quotquot fuerunt ante te Episcopi,</l>
+<l>In hoc umquam proruperint superbiae,</l>
+<l>Ut et Tuscis et Romanis dominarier</l>
+<l>Vellent aut conarentur? An Episcopis</l>
+<l>Se cunctis praetulerint? An opibus studuerint?</l>
+<l>An se Caesareis miscuerint negotiis?</l>
+<l>PAM. Fatui fuerunt ante cessores mei,</l>
+<l>Nec sacros studiose evolverunt codices.</l>
+<l>Unde pusillanimitate ducti et inertia,</l>
+<l>Doctorum non intellexerunt munia,</l>
+<l>Nec ad magnas res nisi sunt ascendere,</l>
+<l>Ad quod tamen Euangelium hortatur. At mihi</l>
+<l>Nil crassa eorum praeiudicat inscicia.</l>
+<pb id='s051'/>
+<l>IV. Quod illi in Euangeliis tot iam saeculis</l>
+<l>Non reppererunt, vos ipsis cornicibus</l>
+<l>Oculatiores tandem effoditis? Quis hominum</l>
+<l>Audivit umquam Euangelium dissolvere</l>
+<l>Politias, et adimere regibus imperia? Ubi</l>
+<l>Docet ambitionem, avaritiam et superbiam,</l>
+<l>Quae vos iam dudum parturire intelligo?</l>
+<l>PAM. Non est quod multa de hisce rebus disputes.</l>
+<l>Neophytus es, nec res mysticas intelligis.</l>
+<l>Si non confers sponte, ast invite conferes.</l>
+<l>IV. Coges ergo me? Pa. Prorsus. Iv. Forte exercitu?</l>
+<l>PA. Non. IV. Scio, meos captivos duces subditos?</l>
+<l>PA. Nequaquam. IV. Exures forsitan provincias?</l>
+<l>Pa. Neque hoc. IV. Quib. ergo me expugnabis machinis?</l>
+<l>PA. Paulo post curiae Romanae practicam</l>
+<l>Persenties, quam omnes timebunt Principes.</l>
+<l>IV. Pereat male, quae imperium turbarit practica,</l>
+<l>Adeo ne omnis religionis feruor tibi</l>
+<l>Excussus est, et prior interiit tam cito</l>
+<l>Probitas, ut facias male qui tibi faciunt bene?</l>
+<l>PO. Miseret tui me, qui patri haud obtemperes</l>
+<l>Eumque his dictis facias inimicum tibi.</l>
+<l>IV. Tua cesset miseratio. An in hoc vos audiam?</l>
+<l>Quis non videt vos desipere praeter modum?</l>
+<pb id='s052'/>
+<l>Proferte Practicam cunctasque machinas,</l>
+<l>Nec tamen imperium Episcopis concessero.</l>
+<l>PAM. Videbimus quid facto opus sit postea.</l>
+<l>IV. Videte. Nil me vestrae perterrent minae.</l>
+<l>Et nisi meliora ceperitis consilia, mox</l>
+<l>Exercitu huic posuero maliciae modum.</l>
+<l>POR. Eamus pater, haud prodest haec contentio.</l>
+<l>PA. Crede mihi Caesar, si vixero. IV. Non me minis</l>
+<l>Vinces. Abito et pereas male, PA. Tu pessime.</l>
+<l>Sed heus, legiones quas potes huc adducito.</l>
+</lg>
+</div2>
+<div2 id='NaPW.01.05' n='5' type='scene'>
+<head>Iulianus.</head>
+<lg>
+<l>Nisi me fallit animus, magnum isti homines dabunt</l>
+<l>Malum. Quid enim ultra sperem, quando Episcopiet</l>
+<l>Doctores tam perversa cogitant? Quis est</l>
+<l>Qui non hinc fidei calamitatem surgere</l>
+<l>Existimet? Aperte dicam quod sentio.</l>
+<l>Non a Deo isthaec consilia profecta sunt.</l>
+<l>Nec Episcopi conatibus his Christi viam</l>
+<l>Aut quaerunt aut inveniunt. Quin potius mali</l>
+<l>Mendaciorumque pater isthaec suggerit,</l>
+<l>Ad eumque cogitata tendunt omnia.</l>
+<l>Et mirum fuerit, si non hoc ipso itinere</l>
+<l>Ut oestro exagitati ad Satanam perrexerint.</l>
+<pb id='s053'/>
+<l>Adeo nullis ab incepto sermonibus</l>
+<l>Divelli possunt, Et nobis tam incongrua</l>
+<l>Negantibus (ut imperii maneat dignitas)</l>
+<l>Tragicum quiddam minantur. Tantum audaciae</l>
+<l>Doctores incessit nec non Episcopos,</l>
+<l>Adversum Caesares ut contendant minis.</l>
+<l>Armis possem quidem his minis ire obviam.</l>
+<l>Sed Episcopos laedere videtur impium.</l>
+<l>Verum ego tantum ex illorum verbis colligo,</l>
+<l>Si possent quod ego, nequaquam mihi parcerent.</l>
+<l>Heu quid futurum est, si de orum quispiam</l>
+<l>Illorum consilia promove at prospere?</l>
+<l>In cunctis primum oves errabunt montibus,</l>
+<l>Sedebunt otiose pastores domi.</l>
+<l>Ludent, bibent, habebunt curam abdominis,</l>
+<l>Ut nil malorum de pulvinis excitet.</l>
+<l>Etiam si deglubantur oves, quam vis fame</l>
+<l>Pereant, aut in mortiferis degant pascuis,</l>
+<l>Illis supinis collibebit stertere.</l>
+<l>Ridebunt, si quam devorari viderint.</l>
+<l>Et ex earum interitu quaestum colligent.</l>
+<l>Sic tunc ferentur res. Sed utinam mentiar,</l>
+<l>Et doctores sua haec consilia corrigant.</l>
+<l>Suis contenti sint nec maiora ambiant.</l>
+<pb id='s054'/>
+<l>Instent doctrinis, et curent Ecclesias,</l>
+<l>Sed obstinatio haec vix cuiquam cesserit.</l>
+<l>Et corrugata frons, et quassatum caput,</l>
+<l>Oculi ardentes toruique, vultus pallidus,</l>
+<l>Effrenis et praeceps lingua, labia tremula,</l>
+<l>Vix hercle quidquam prae se ferre solent boni.</l>
+<l>Heu pax quam bona mortalibus es possessio,</l>
+<l>Si firmis modo te ferre possint tibiis.</l>
+<l>Quippe (ut proverbium est) <unclear reason='felicia?'>felicia</unclear> tempora</l>
+<l>Successusque bonos, haud quivis ferunt pedes.</l>
+<l>Multi rebus in adversis se gerunt probe,</l>
+<l>Qui in pace plerumque applicant sceleri manus.</l>
+<l>Situ ut metalla contrahunt rubiginem,</l>
+<l>Sic, ni subinde agitetur, integritas perit.</l>
+<l>Nam quamvis persecutiones Gentium</l>
+<l>Ecclesias afflixerint gravissime,</l>
+<l>Effecere tamen, ut maior constantia,</l>
+<l>Pietas, probitasque fuerit in credentibus.</l>
+<l>Ati ista pax quam Christianus contuli,</l>
+<l>Multum (ut conicio) Christianis adferet</l>
+<l>Mali, ut avaritia flagrent, ut socordia</l>
+<l>Tacti suorum obliviscantur munerum, ut</l>
+<l>Superbia, ambitione, et mundi gloria</l>
+<l>Tumeant, ut inflentur, dominandique scabie</l>
+<pb id='s055'/>
+<l>Mirum in modum agitentur. Non huc opus</l>
+<l>Remota adducere exempla, vel Episcopi</l>
+<l>Petita, dictis suffragantur cominus.</l>
+<l>O quoties nos fallimur homines, et irritas</l>
+<l>Sententias dicimus, abstrusos cordium</l>
+<l>Ignorantes motus. Quis umquam Episcopos</l>
+<l>Doctoresque putasset conari talia?</l>
+<l>Verum esse sentio quod loquuntur rustici,</l>
+<l>Quo sanctior quis, hoc est impius magis.</l>
+<l>Nec delictis docti communibus student.</l>
+<l>Quippe et Satanas artifices eligere solet</l>
+<l>Haud imperitos rerum, sed doctissimos.</l>
+<l>Sed quid cesso ire domum? ut haec Nestori meo</l>
+<l>Communicem, et discam, quo pacto horum minae, aut</l>
+<l>Spernendae sint, aut propulsandae fortiter.</l>
+</lg>
+</div2>
+<div2 id='NaPW.01.06' n='6' type='scene'>
+<head>Porphyrius, Pammachius.</head>
+<lg>
+<l>Enimvero Pater, iratum tu Caesarem</l>
+<l>Liquisti. Nonne vides quantum deliberet?</l>
+<l>Quam spargat huc illucque manus, quam iactitet</l>
+<l>Caput? PA. Video, et pro verbis duntaxat. Quid est</l>
+<l>Deinde facturus, quum facta senserit?</l>
+<l>POR. Excruciabit sese mirabiliter, scio.</l>
+<pb id='s056'/>
+<l>PA. Bene habet. Docendus est, quam sint Episcopi et</l>
+<l>Doctores omnes digniores Caesare.</l>
+<l>Iam tibi mox impetrata Satanae gratia</l>
+<l>Illud negotii do, ut omnes subditos</l>
+<l>Ab illius solvas oboedientia.</l>
+<l>POR. Satis quo pacto id fieri possit calleo.</l>
+<l>Agno tibi mitiorem dedero Caesarem,</l>
+<l>Vide bis ipse et practicam mirabere.</l>
+<l>PAM. Eiusmodi in illo exempla, Porphyri, edito,</l>
+<l>Ne quis posthac me cum audeat contendere.</l>
+<l>POR. Oh nil opus est iussu, confectum credito.</l>
+<l>PAM. Et ut cunctis nostris fave at conatibus</l>
+<l>Gladio utatur nostra solum ex sententia, et</l>
+<l>Sua omni nobis serviat potentia.</l>
+<l>POR. Incumbam, nec quidquam diffido confore.</l>
+<l>PA. Tum rerum si illum habemus fautorem omnium</l>
+<l>Ac promotorem, ceterorum opponere</l>
+<l>Se audebit nemo, Ab omnibus laudabimur.</l>
+<l>PO. Pulcherrime. PA. Sed hoc curandum ante omnia,</l>
+<l>Seruire nos Satanae nullus ut intelligat.</l>
+<l>POR. Christo duntaxat serviemus nomine,</l>
+<l>At facta Satanae ex officinis prodeant.</l>
+<l>Quae Christiano sunt tegenda pallio,</l>
+<l>Ut imperitis imponatur callide.</l>
+<pb id='s057'/>
+<l>PA. Bene consulis. Imposturis opus est maximis,</l>
+<l>Ne populus abominetur nos atque fugiat.</l>
+<l>Nec enim tales umquam ferent Episcopos,</l>
+<l>Qui Satanae serviant, si cognoscant modo.</l>
+<l>Hoc antevenire convenit periculum,</l>
+<l>Ne descendamus, dum volumus ascendere.</l>
+<l>POR. Nulla Satanae siet mentio, sed vel Dei,</l>
+<l>Vel Christi cuncta sunt fucanda nomine.</l>
+<l>PA. Scite. PO. Illud populus suscipiet, vertens bene</l>
+<l>Quae egerimus omnia. PA. Pulchre. PO. Scripturis quoque</l>
+<l>Res defendemus nostras quam fortissime.</l>
+<l>Nil de sanctissimis ut cogitent mali.</l>
+<l>PA. Laudo. PO. Nos interim cutem curabimus,</l>
+<l>Statuemus, ordinabimus, mandabimus,</l>
+<l>Quae faciant in rem nostram, Pammachi pater.</l>
+<l>PA. Hoc unum restat, haec consilia ut sunt bona,</l>
+<l>Ita quam primum sunt perficienda Porphyri. PO. Hem</l>
+<l>Quid currenti addis calcaria? PA. Tu promove</l>
+<l>Ac commenda me Satanae. Virtutes meas</l>
+<l>Narra. Magna tibi habebitur a me gratia.</l>
+<l>Apud me primus eris. PO. Bene ego prote loquar.</l>
+<pb id='s058'/>
+</lg>
+</div2>
+</div1>
+<div1 id='NaPW.02' n='2' type='act'>
+<head>ACTUS SECUNDUS.</head>
+<div2 id='NaPW.02.01' n='1' type='scene'>
+<head>Satanas, Veritas, Parrhesia.</head>
+<lg>
+<l>Quod mundo et impiis felix faustumque sit,</l>
+<l>Adsum profectus e profundis manibus,</l>
+<l>Gravibus post annos mille solutus vinculis.</l>
+<l>Certe diu de sideratum me scio.</l>
+<l>Non cuncta possunt conficere vicarii.</l>
+<l>Non tantae sunt auctoritatis, nec eadem</l>
+<l>A subditis solet impendi reverentia.</l>
+<l>Plus irati valet conspectus Principis,</l>
+<l>Quam armati sexcentae vicarii minae.</l>
+<l>Idem etiam permultum placatus promovet.</l>
+<l>Serenum gaudent intueri Principem</l>
+<l>Et serui et subditi, quos nulla criminis</l>
+<l>Tecta aut aperta vexat conscientia.</l>
+<l>Isthaec apud probos sunt vera Principes,</l>
+<l>Apud improbos magni fiunt deterrimi,</l>
+<l>Qui etiam in regno primas ubique tenent meo.</l>
+<l>Illis ego hodie apparebo optatissimus.</l>
+<l>Cui nec viso quidem iam serviunt diu.</l>
+<l>Sed ubi primum meos quaeram vicarios?</l>
+<l>Quid agant miror, quod non ut semper hactenus</l>
+<l>Quottidiana ad me regni gesta perferunt.</l>
+<pb id='s059'/>
+<l>VE. Quandoquidem isthuc Christo placet Parrhesia,</l>
+<l>Collectis spelaea subeamus sarcinis,</l>
+<l>Quoad melior spiraverit aura. Nil moror.</l>
+<l>Regnet Satanas late in suum ipsius malum.</l>
+<l>Fortasse olim rursus desiderabimur.</l>
+<l>PAr. Nisi prorsus res Deus humanas sternere velit.</l>
+<l>VE. Tolle haec et sequere. Sed video ne Satanam? PA. Is est.</l>
+<l>Ut exsultans ingreditur, et solus quidem.</l>
+<l>VE. Nescio. Cedamus illi paululum e via.</l>
+<l>Nec tam furio sis obsistamus motibus.</l>
+<l>Silentio praetereamus. Sa., Sed Veritas</l>
+<l>Ante omnes. At me orum cerno neminem.</l>
+<l>Ho veritas, alio nunc migras forsitan?</l>
+<l>VE. Nil respondeas. SA. Recte isthuc cogitas.</l>
+<l>Quid enim tu hic facias, me imperante cum meis,</l>
+<l>Ubi etiam si quid dixeris rectissime</l>
+<l>Obtemperat nemo? PAR. Haud propter te pessime</l>
+<l>Abimus, sed Christi paremus iussui.</l>
+<l>VE. Tace. PAr. Ingredere, farci mumdum mendaciis.</l>
+<l>SA. Id siet, etiam si tu minime iusseris.</l>
+<l>PAR. Diu desideratus es a perditis.</l>
+<l>VE. Tace obsecro. SA. Scio. Ulnis excipiar obviis.</l>
+<l>PAR. Cur non te comitantur proceduntve obviam?</l>
+<l>SA. Sunt occupati, meque venire nesciunt.</l>
+<pb id='s060'/>
+<l>VE. Quid multa loqueris? Sequere huc. PAR. Aliquando simul</l>
+<l>Poenas dabitis. SA. Id perlongum est. Nos interim</l>
+<l>Pro libero nostro vivemus arbitrio.</l>
+<l>Abite, Nil prodestis hic, nec filiae</l>
+<l>Alterius apud me umquam ferentur saeculi.</l>
+</lg>
+</div2>
+<div2 id='NaPW.02.02' n='2' type='scene'>
+<head>Dromo, Satanas.</head>
+<lg>
+<l>Vicariis magna hercle sunt negotia</l>
+<l>Hodie, ut non possint convenire Principem.</l>
+<l>Nec res adeo bene gesta est, ut properent. Mihi</l>
+<l>Ut perferam de dere, quum nil sit lucri.</l>
+<l>At ubi bene geritur, tum currunt percite,</l>
+<l>Alius alium antevenire cupiens pro lucro.</l>
+<l>Bona numquam ad me devolvitur provincia.</l>
+<l>Sed quando omnes timent, tum ego extrudor miser.</l>
+<l>Verum ne vapulem currendum est. SA. Sed Dromo.</l>
+<l>Hem Dromo. Quo curris Dromo? Mane mane Dromo.</l>
+<l>DRO. Quis me vocat? SA. Huc ad me aio, quam primum redi.</l>
+<l>DRO. At at Princeps est. Certe rupit vincula,</l>
+<l>Captivitatem tam infinitam non ferens.</l>
+<l>Te salvum eliberatum Princeps gaudeo.</l>
+<pb id='s061'/>
+<l>SA. Credo. Quo curre bas nunc? DRO. Ad te. SA. Salvane</l>
+<l>Sunt omnia? DRO. Non prorsus. SA. Quid ais? Non ? Ubi manent</l>
+<l>Vicarii, quod eorum nullum conspicor?</l>
+<l>Nec quisque hodie ad me descendit? DR. Se maximis</l>
+<l>Teneri aiebant rebus, nec latum pedem</l>
+<l>Terris abscedere posse sine periculo.</l>
+<l>Quamobrem me ad te destinarunt nuntium.</l>
+<l>SA. Quid nuntias ergo? DRO. Regni omnia habent bene,</l>
+<l>Nisi. SA. Nisi? Quid illud est? DRO. Quod quidam Episcopus</l>
+<l>A regni societate avulsit Caesarem.</l>
+<l>SA. Hem Caesarem? Et id neglexerunt vicarii?</l>
+<l>DRO. Quo pacto factum sit nescio, non adfui.</l>
+<l>Ex ipsis melius audies. SA. Mox igitur huc</l>
+<l>Ad me illos convoca. Quid stas? Vola ocius.</l>
+<l>O perfidiam, socordiam et <unclear reason='o scitantiam?'>oscitantiam</unclear>,</l>
+<l>Non curant, non resistunt, non pro viribus</l>
+<l>Absente me regni tractant negotia.</l>
+<l>Haud modicum regno meo nocuit captivitas:</l>
+<l>Non potui captivus tot par esse populis.</l>
+<l>Praesertim nova quum Christi caepit crescere</l>
+<pb id='s062'/>
+<l>Fides. Iam oportuisset esse in Affrica,</l>
+<l>Nunc in Asia, iam in Europa. Sunt regna, sunt</l>
+<l>In omini regno civitates plurimae.</l>
+<l>Quas visitare quottidie, non unius</l>
+<l>Vel vigilantissimi est labor. Quare Duces</l>
+<l>Absentisque mei constitui vicarios,</l>
+<l>Quibus universas res credidi et exercitum.</l>
+<l>Qui sibi deinde procrearunt plurimos</l>
+<l>Tribunos ac centuriones, qui non minus</l>
+<l>Etiam ipsi servos, vulgus innumerabile</l>
+<l>Iam possident, ut spes me haberet optima,</l>
+<l>Haud secus a tot res omnis procurarier,</l>
+<l>Ac si ipse semper essem praesentissimus</l>
+<l>Sed quod dicunt verum est. Quo plures quippiam</l>
+<l>Curant, eo curatur negligentius.</l>
+<l>Et si dormiturit Princeps, iam stertere</l>
+<l>Incipiunt praefecti, et sopor occupat duces.</l>
+<l>Mane nisi primo rector surgat aedium,</l>
+<l>Parum oscitantes promovebunt servuli.</l>
+<l>Hac, si licuisset, essem usus prudentia,</l>
+<l>Nec res meas commisissem vicariis,</l>
+<l>Nec regni veniens vastitatem cernerem.</l>
+<l>Veniant. Omnem hanc vomam in eos aegritudinem.</l>
+<pb id='s063'/>
+</lg>
+</div2>
+<div2 id='NaPW.02.03' n='3' type='scene'>
+<head>Planus, Stasiades, Chremius, Satanas.</head>
+<lg>
+<l>Quid isthaec quaerimus? quasi non tempus siet</l>
+<l>Eum post annos mille reddi liberum?</l>
+<l>Eamus potius, ne ignis igni addatur, et</l>
+<l>Irritata nimis noceat iracundia.</l>
+<l>ST. Recte inquis. Verbis est placandus mollibus.</l>
+<l>Non tarditate nostra, aut contumacia</l>
+<l>Exasperandus. PLA. Adsumus Princeps, tibi</l>
+<l>Adventum in primis gratulantes prosperum.</l>
+<l>Deinde etiam audituri, quidnam nos velis.</l>
+<l>SA. Mittamus nunc alia. Quod me movet loquar.</l>
+<l>Quid tandem est o Duces? Aut cur permittitis,</l>
+<l>Ut negligentia (dicam) aut socordia</l>
+<l>Populus desciscat vestra? Vestras hercule</l>
+<l>Iam prorsus virtutes desidero. Parum</l>
+<l>Aberat, omnes ut ad nos vertissent pedem,</l>
+<l>Tot poenis, tot periculis, tot mortibus</l>
+<l>Acti, qui soli nobis sunt contrarii,</l>
+<l>At res per vos sursum ac de orsum vertitur.</l>
+<l>Aequum ne est, me diu noctuque sedulo</l>
+<l>Instigando, monendo, terrendo quoque,</l>
+<l>Manibus, pedibusque, et mille calliditatibus,</l>
+<pb id='s064'/>
+<l>Quanta harum vincto potuit adesse copia,</l>
+<l>Imperii nostri promovisse commoda,</l>
+<l>Vos interim altum stertere? Proh pudor. Duces</l>
+<l>Quos primos actores rerum esse convenit,</l>
+<l>Recondunt otiosas in sinum manus.</l>
+<l>Condingna an vobis non possum persolvere</l>
+<l>Praemia? an ita hactenus de vobis meritus? Aut</l>
+<l>Eam tandem vos gratiam rependitis?</l>
+<l>PLA. O Princeps mundi atque Monarcha potentissime,</l>
+<l>Quid nos serui tui curavimus minus?</l>
+<l>SA. Rogas? Qui talem nuper hominem amisimus</l>
+<l>Ignavia vestra? Fautorem aequissimum</l>
+<l>Simul et propugnatorem strenuum imperi?</l>
+<l>Aliorum utinam decem periissent milia,</l>
+<l>Atque hic unus vir (heu) regni nostri anchora.</l>
+<l>Num propterea vos constitui vicarios,</l>
+<l>Ut ea quae nullius sunt pretii, callide</l>
+<l>Custodiatis, et perdatis optima?</l>
+<l>PLA. Non maceres te mundi Princeps optime,</l>
+<l>Nostrarum haud erat illum tenere virium.</l>
+<l>SA. Quid audio? Ubi igitur artes vestrae pristinae?</l>
+<l>An ea dediscitis sola, in quibus est lucrum? Et</l>
+<l>In quibus omnia regni consistunt commoda?</l>
+<l>Non post tot annos exeunti carcerem,</l>
+<pb id='s065'/>
+<l>Iucundum isthuc primum expedistis nuntium.</l>
+<l>In mille annis nihil factum est indignius.</l>
+<l>Audivi multa haud admo dum ex sententia,</l>
+<l>Tuli. Sed gravius est hoc quam ut ferri queat.</l>
+<l>O interitus regni, rerumque vastitas.</l>
+<l>Vir ille Christianos, hostes maxime</l>
+<l>Infestos nobis, debellabat fortiter.</l>
+<l>Nos venerabatur, nos colebat hostiis,</l>
+<l>Adversis invocabat nos et prosperis.</l>
+<l>Quae nolebamus per nos exsequi, impiger</l>
+<l>Currebat ultro. Vel solo hoc laudabilis</l>
+<l>Facto, quod antesignanum Christi, virum</l>
+<l>Fortem Paulum, haud contemnendum adversarium,</l>
+<l>Qui multas depraedatus est provincias,</l>
+<l>Complures Regi adducens milites suo,</l>
+<l>Prostravit. Nunc et ipse negligentia</l>
+<l>Seductus est vestra. PLA. Seduxit Episcopus</l>
+<l><foreign lang='GR'>a)katablh/tw| lo/gw|.</foreign> SA. Resistendum fuit</l>
+<l>Vel mille technis. PLA. Equidem, Princeps optime,</l>
+<l>Quantum in nobis fuit nil omissum scio.</l>
+<l>Nam verba sumus interpretati pessime.</l>
+<l>Et regnum et dignitates inculcavimus.</l>
+<l>Largis praeterea est invitatus praemiis</l>
+<l>Animum erga nos conservaret ut immobilem.</l>
+<pb id='s066'/>
+<l>Sed vicit fortior, vicit potentior,</l>
+<l>Hanc diruptis feram eripuit e cassibus.</l>
+<l>SA. Parum profecto vobis est negotii</l>
+<l>Cum subiectis et sponte servientibus,</l>
+<l>Ut universis hostes possint copiis</l>
+<l>Terreri, et integro vexari exercitu.</l>
+<l>Violentis ut cedant impressionibus.</l>
+<l>STA. Faciemus Princeps, ut iubes, ac fecimus.</l>
+<l>SA. Fecistis? Heu heu quanta de spe decidi.</l>
+<l>Qui Christi nomen exstingui speraverim,</l>
+<l>Per vos ita versipelles et doctissimos</l>
+<l>Posse, nec (ut nuntiastis) aberat plurimum,</l>
+<l>At nunc repullulat surgitque fortiter.</l>
+<l>(Quod male vertat) Per hoc regni sceptrum, per et</l>
+<l>Caput hoc sacrum, quantum fuerit potentiae,</l>
+<l>Quantum roboris altissimarum virium,</l>
+<l>Et Christum omnesque Christianos persequar.</l>
+<l>Illorum me usque ingurgitabo sanguine.</l>
+<l>Donec nemo sit qui aude at resistere,</l>
+<l>Vel solus, si vobis grave est aut displicet.</l>
+<l>PLa. Non hercle, Princeps maxime, bonorum dator,</l>
+<l>Praestabimus quod in nobis est strenue.</l>
+<l>SA. Ad hoc vel ius iurandum a vobis praestitum</l>
+<l>Commoveat, et pudor, et mei reverentia.</l>
+<pb id='s067'/>
+<l>Per hanc ante datam vobis oro dexteram,</l>
+<l>Vigilate, circumite, fatagite, quaerite,</l>
+<l>Resistite, ac pecuniis corrumpite,</l>
+<l>Persequimini, Satanaque dignos Principe</l>
+<l>Vos gerite. PLA. Fiet. SA. Quae nam hodie negotia</l>
+<l>Tractastis? Tu Plane quid? PLA. Ego equidem iam diu</l>
+<l>Sudavi in hoc (regno nostro utilissimum</l>
+<l>Sciens) ut inter Christianos haeresim</l>
+<l>Sererem quam maximam. Sudavi plurimum,</l>
+<l>Perfeci hodie. Iam mista videres omnia,</l>
+<l>Dubitant, de cernunt, persequuntur invicem,</l>
+<l>Fugant, occidunt, sua defendunt maxime,</l>
+<l>Plaerique novis gaudent, antiqua deserunt</l>
+<l>Quaecumque ab Apostolis feruntur tradita.</l>
+<l>Magistri ple bis et qui sunt doctissimi,</l>
+<l>Prae sana doctrina amplectuntur haeresim.</l>
+<l>At contra increduli rident suaviter,</l>
+<l>Abominantur Christum, et respuunt fidem,</l>
+<l>Tam variis quae laceratur opinionibus.</l>
+<l>Nec melius cos putavi posse vincere,</l>
+<l>Quam si inter sese plurimum dissentiant.</l>
+<l>Sic res, quantum ad nos, bene habet. SA. Euge, prospere</l>
+<l>Successit, quod habeo mercedem dabo maximam.</l>
+<pb id='s068'/>
+<l>Quid tu vero Stasiades? Equidem et tu soles</l>
+<l>Facinora perpetrare quam fortissima.</l>
+<l>STA. Ego, Princeps, hodie surgendo lentius</l>
+<l>Gressumque promovendo tardius, parum</l>
+<l>Peregi. SA. Quid? (malum) Hoc ipsum est quod conqueror,</l>
+<l>Vos lentulos esse atque tardiusculos.</l>
+<l>Sed effare quid egeris. STA. In urbem maximam</l>
+<l>Circa nonam veniens, populares convoco,</l>
+<l>Quid (inquam) o socii, tam grave suffertis iugum?</l>
+<l>An non parentes vos genuere liberos?</l>
+<l>Cur ergo servitis? Cur suppeditamini?</l>
+<l>An non est vestra civitas? et flumina</l>
+<l>Sunt vestra, viaeque. Quid ergo vectigalia,</l>
+<l>Census, tributa, exactionesque spoliant</l>
+<l>Substantiam vitamque vestram? An hoc leve</l>
+<l>(O cives) libertate privari et bonis</l>
+<l>Simul? Diurnis quidquid vos laboribus</l>
+<l>Sudoribusque perpetuis acquiritis,</l>
+<l>Vel una isthuc consumunt cena Principes</l>
+<l>Magistratusque vestri <foreign lang='GR'>dhmobo/roi</foreign>. Interim</l>
+<l>Vos longe victu vivitis miserrimo.</l>
+<l>Copia utinam panis vel furfuracei</l>
+<l>Famem expleret vestram, sitimque aqua frigida.</l>
+<l>Quottidianis at illi semper diffluunt</l>
+<pb id='s069'/>
+<l>Adnauseam usque voluptatibus, e reculis</l>
+<l>Vestris coemptis. Licet et stertere pinguibus,</l>
+<l>Et pedere otiosis. Satius bestias</l>
+<l>Esse, atque sic vivere, ut aliquis laboribus</l>
+<l>Marcescat propriis, ceteri alienis cutem</l>
+<l>Feliciter curent. Quin tandem surgitis,</l>
+<l>Libertatemque pristinam capessitis</l>
+<l>O cives? Ubi virilia vestra pectora,</l>
+<l>Paternaque virtus? An libertatem a Deo</l>
+<l>Datam, a mortalibus tolli patiemini?</l>
+<l>An nescitis, quantum libertas sit bonum?</l>
+<l>En magna vestrum multitudo est. Hercule</l>
+<l>Iniquum et paenitendum, a paucioribus</l>
+<l>In servitutem redigi. Vobis arma sunt</l>
+<l>Viresque ingenuae, illis mollicies officit</l>
+<l>Viresque effeminatae, et insuetae manus</l>
+<l>Armorum. Vos bonam, illi causam pessimam</l>
+<l>Habent, cui et caelestes adversarier</l>
+<l>Vobisque suppetias ferre est certissimum.</l>
+<l>Nonne ante vos tulere Atheniensibus,</l>
+<l>Romanis, Lacedemoniis et compluribus</l>
+<l>Aliis? Quod si vobis ipsi defueritis</l>
+<l>Nunc, quum tale nihil suspicantur, postea</l>
+<l>Quum angustiati, afflicti, oppressi, perditi,</l>
+<pb id='s070'/>
+<l>Et servitute, et gravibus denique oneribus,</l>
+<l>Flentes clamaveritis, adiuturos Deos</l>
+<l>Nolite sperare. Neque enim illos audiunt</l>
+<l>Qui negligenter ipsi et male tractant sua.</l>
+<l>Hoc iam iam a vobis coniuges et liberi</l>
+<l>Vestri, magnis requirunt vocibus, quibus</l>
+<l>Aut libertatem pepereritis dulcissimam, aut</l>
+<l>In servitutem tradideritis perpetim.</l>
+<l>His et aliis dictis moti animi civium,</l>
+<l>Faces et arma corripiunt. Furoribus</l>
+<l>In curiam contendunt. Opulentum domos</l>
+<l>Diripiunt, incendunt, Prosternunt obvios</l>
+<l>Quosque. Tumultus clamorque ingens vocantium</l>
+<l>Ad pileum, expetentiumque Principes</l>
+<l>Magistratusque ad poenam. At pars quae sanior</l>
+<l>Erat, stare a Magistratibus, occurrere</l>
+<l>Sediciosis, cedes orta est miserrima.</l>
+<l>His occupatus fui per integrum diem.</l>
+<l>SA. Neque prorsus haec abiit sine linea dies,</l>
+<l>At Chremi, quae tua fuerunt negotia?</l>
+<l>CHR. Meus equidem labor nullo frustra est die,</l>
+<l>Quod te Princeps non latet. Omnes pecuniam</l>
+<l>Quaerunt ac diligunt. Me faciunt plurimi, et</l>
+<l>Gentes et Christiani, quorum plurimos</l>
+<pb id='s071'/>
+<l>Ditavi hodie, quo Christum iam'curant minus.</l>
+<l>Nos venerantur, nos laudant, nobis serviunt.</l>
+<l>Quos puto constantiores multo Gentibus</l>
+<l>Fore, et iam praeter nomen Christi, nil habent</l>
+<l>Tantae quod sit professioni consonum.</l>
+<l>SAT. Bene actum. CHRE. Praeterea mea arte, homicidia</l>
+<l>Confeci mille, adulteria quingenta, nec</l>
+<l>Furtorum aliquis est numerus. Iudicum decem</l>
+<l>Corrupi milia. Ducentas quoque virgines</l>
+<l>Fefelli, et hastis expugnavi argenteis.</l>
+<l>Quid memorem imposturas fraudesque maximas</l>
+<l>Negotiatorum? quid scribarum dolos,</l>
+<l>Causidicorumque technas ac mendacia</l>
+<l>Dicam? Nobilium compilationibus</l>
+<l>Rapinisque, laborem commonstravi meum.</l>
+<l>Pigros etiam paravi ventres plurimos,</l>
+<l>Inertiae atque falsitati deditos.</l>
+<l>Falsos Prophetas, nugatores optimos,</l>
+<l>Adulatores, asinos, bestias malas.</l>
+<l>Spectaculum hercle nobis iucundissimum.</l>
+<l>Haec nostra tibi perfecta dedit industria.</l>
+<l>SA. Ha ha ha, mirabilis regni nostri artifex.</l>
+<l>Dignus profecto apud me qui primus sies.</l>
+<pb id='s072'/>
+<l>Ita res curate vestras, praemia vos manent</l>
+<l>Maxima. Coronas interim hasce sumite.</l>
+<l>Plane hanc nigram, Stasiades purpuream cape,</l>
+<l>Maculosam Chremi ac pallidam. Ne isthuc quidem</l>
+<l>Laboris, mercedem de sideraverit</l>
+<l>Condignam. Tantum agite iam diligentius</l>
+<l>Ac confortamini, ut pro perdito viro</l>
+<l>Maius lucrum succedat. PLA. Res iam vertitur</l>
+<l>(Ut spero) in cardine. Nescio quid suspicor.</l>
+<l>SA. Non suspecto, sed facto opus est. CH. Id censeo.</l>
+<l>PL. Conabimur. SA. Hac tu Plane, illac vos pergite</l>
+<l>PLA. Atat, quid hoc rei est? Quid tandem hostes volunt?</l>
+<l>SA. Qui hostes? PLA. Viden? SA. Hui tam prope. O audaciam</l>
+<l>Insignem. Huccine rerum venimus, ut hostibus</l>
+<l>Tam prope veniendi sit libido ac copia?</l>
+<l>Manete. Experiar quid ferant negotii.</l>
+</lg>
+</div2>
+<div2 id='NaPW.02.04' n='4' type='scene'>
+<head>Porphyrius. Pammachius, Satanas.</head>
+<lg>
+<l>Certe solutus est. Nam eum esse opinor in</l>
+<l>Cathedra sedentem, saevum, cornutum, hispidum,</l>
+<pb id='s073'/>
+<l>Vultu tragico, oclis horrendum flammantibus</l>
+<l>Atque rotundis, naso aquilino ac nodoso, et ore</l>
+<l>Insuete largo, corpore toto aterrimo.</l>
+<l>PAM. Rem tangis, is est. POR. proh totus horreo Pammachi.</l>
+<l>PAM. Contemnas aspectum, donis egregius est.</l>
+<l>Qui duntaxat semel illius aspectum tulit,</l>
+<l>Facile vel quottidie feret illum postea.</l>
+<l>POR. Sed Pammachi qui sunt coronati? Viden?</l>
+<l>PAM. Regni proceres puto. SA. Non tamen vultum hosticum</l>
+<l>Prae se ferunt, sed demissos ac supplices</l>
+<l>Video, quasi aliquid postulaturi sient.</l>
+<l>Sed audiam. PO. Et illi quam similes sunt Principi,</l>
+<l>Ex eadem fornace veniunt calcaria.</l>
+<l>PAM. Accedamus. PO. Salve Princeps fortissime.</l>
+<l>SA. Quid vos hostes apud me? POR. Quid dicam? Metu</l>
+<l>Lingua haesitat. Sum acri voce territus. PA. Animo</l>
+<l>Fac praesenti sis. POR. Est aliquid servis tuis</l>
+<l>Negoti, quod petimus clementer ut audias.</l>
+<l>SA. Quid est? POR. Quamvis, Princeps optime, ad hostes grave est</l>
+<l>Verba facere, nec non impetrare quippiam</l>
+<l>Necessitate coactos, ab eis quos prius</l>
+<pb id='s074'/>
+<l>Verbis factisque laeseris, difficile, nos</l>
+<l>Tamen tua dexteritate ac clementia</l>
+<l>Freti, nihil diffidimus, quin supplices</l>
+<l>Nos tua respiciat gratia, Experti hactenus</l>
+<l>Sumus insuperabilem tuam potentiam,</l>
+<l>Atque id nostro damno ac labore maximo.</l>
+<l>Vidimus item quam larga tuis des praemia,</l>
+<l>Quam splendeant in mundo, quantumque omnibus</l>
+<l>Honori sint, divitiarum ac licentiae</l>
+<l>Quantum, rebusque quanta sit tranquillitas.</l>
+<l>Regnant, triumphant, et sectantur otia,</l>
+<l>Quibus est laboris minimum, plurimum lucri.</l>
+<l>At nobis isthaec cuncta sunt contraria.</l>
+<l>Despectui sumus omnibus, atque nullius</l>
+<l>Prorsus numeri. Paupertas in felix premit,</l>
+<l>Accusamur, multamur atque cedimur.</l>
+<l>Domus, agri, vineae, parentes, liberi, et</l>
+<l>Omnia, perpetuis subiacent periculis,</l>
+<l>Recteque factis nulla refertur gratia.</l>
+<l>Haec sunt <foreign lang='GR'>brabei=a</foreign> nostra, neque id iniuria.</l>
+<l>Nam quum vivimus in mundo, quae est insania</l>
+<l>Tandem, ut mundi nos opponamus Principi?</l>
+<l>Equidem observare convenit Domesticos</l>
+<l>Domus dominum, atque nequaquam adversarier.</l>
+<pb id='s075'/>
+<l>Haec cogitasse nos fuisset iustius,</l>
+<l>Atque tuae ingenti restitisse potentiae.</l>
+<l>Sed quod factum, factum est in ignorantia.</l>
+<l>Quapropter nunc veniam precamur supplices.</l>
+<l>Ne seruis imputes tuis. Luimus satis,</l>
+<l>Ut qui sero sapiunt. Sed nunc consortio</l>
+<l>Regnoque tuo ne dedigneris iungere</l>
+<l>Precamur, quod colere et augere gnaviter</l>
+<l>Pro viribus nostris summis certabimus</l>
+<l>Corde, opere, verbo, praesentique industria,</l>
+<l>Ne nos in infimis fuisse iudices</l>
+<l>Ipse, sed huc usque si vidisti strenuos</l>
+<l>Adversum te, nunc pro te strenuos magis</l>
+<l>Experiere, ut satrapis queamus omnibus</l>
+<l>Si superiores non dici at certe pares.</l>
+<l>SA. Fortunati vos, qui tandem resipiscitis</l>
+<l>Ultro ante quam omnem in vos de duxi exercitum,</l>
+<l>(Quod iam statueram) quo victi, non hoc loco</l>
+<l>Res vestrae essent, neque tanti apud me. Numque ego</l>
+<l>Cruento marte victos, pono Principes,</l>
+<l>(Quamvis in regno patiar) sed qui transeunt</l>
+<l>Sponte ad me, quique amicitiam nostram ambiunt,</l>
+<l>Priore post tergum relicto Principe,</l>
+<l>Hos diligo, his omnem committo exercitum,</l>
+<pb id='s076'/>
+<l>His communico bona quae mihi sunt omnia,</l>
+<l>Honores, divitias, voluptates meas.</l>
+<l>Et quamvis nonnulli, defectores male</l>
+<l>Suscipiant, aut certe priori principi</l>
+<l>Remittant, scilicet quibus haud habent fidem,</l>
+<l>Tamen apud me (scio) ubique primas obtinent.</l>
+<l>Nec mirari satis possum, quid ceteros</l>
+<l>Haec quum videant, detineat, quo minus frui</l>
+<l>Amicitia nostra velint, aut vivere</l>
+<l>Suaviter exoptent, sed spoliari bonis,</l>
+<l>Affligi, persecutionem perpeti</l>
+<l>Malint. Patiantur. Nec enim aliter fieri potest,</l>
+<l>Ut tam rebelles in regno feram meo.</l>
+<l>Vos bene sperate. Amicitia mea nemini</l>
+<l>Negata est, nec qui voluit regni particeps</l>
+<l>Fieri, frustratus est. Sed cedite dexteras.</l>
+<l>Et nomina vestra quae sunt dicite ut sciam.</l>
+<l>POR. Pammachius hic, ast ego Porphyrius nuncupor.</l>
+<l>SA. Quae sunt artes vestrae? Narrate, ut quid velim</l>
+<l>Per vos fieri, possitis cognoscere. Equidem</l>
+<l>Tu videris eloquens esse. Ipse si voles</l>
+<l>Prudenter ac magnifice regni commoda</l>
+<l>Valebis promovere. Sed quis alter est?</l>
+<pb id='s077'/>
+<l>Episcopo videtur similis. POR. Recte ais.</l>
+<l>Maximus est. SAT. Narret ergo prior. POR. Hic iam nihil</l>
+<l>Pro se dicere vult quamvis alias eloquens,</l>
+<l>(Nam singulari est praeditus modestia)</l>
+<l>Ne plus dicat quam possit praestare, aut minus.</l>
+<l>SA. Isthic hercule nihil opus est modestia.</l>
+<l>Nil refert, dicat quisque quantum collibet</l>
+<l>Et quid, nam libertas apud me maxima est.</l>
+<l>Et verum dicere extremum est piaculum.</l>
+<l>POR. Hic est vir ille, qui regno dudum abstulit</l>
+<l>Opimam praedam, nempe Caesarem, potens</l>
+<l>In Scripturis, nugis multo potentior,</l>
+<l>Avaritia tumens morbo tibi placito, et</l>
+<l>Superbia dederit secundas nemini,</l>
+<l>Impietate egregius. Audet resistere</l>
+<l>Vel ipsi Christo, vel quidquid potentiae</l>
+<l>Adversatur tibi tuisque commodis.</l>
+<l>Hic vel totam fidem novit subvertere.</l>
+<l>Hic mutuis valet odiis connectere</l>
+<l>Quidquid in orbe est regum, ducum, atque Principum.</l>
+<l>Huic mandes si quid recte curatum velis.</l>
+<l>Et ut concludam, virum habes ex sententia.</l>
+<l>Haec me iussit loqui, ut se commendem tibi.</l>
+<pb id='s078'/>
+<l>Ego haud multum differo. SA. Graphicum bercle Porphyri</l>
+<l>Narras virum. Et o duces principia habent bene.</l>
+<l>Auget fortuna animum, et succedunt omnia.</l>
+<l>Quoties enim optavi talis mihi viros</l>
+<l>Dari? Adsunt. Scilicet mea clementia</l>
+<l>Inducti. Si igitur talis es virtutibus</l>
+<l>Tantusque, dispeream si non exercitus</l>
+<l>Te tocius iam iam posuero Principem.</l>
+<l>Vos igitur Chremi, Plane, Stasiades, virum hunc</l>
+<l>Sectemini, colite, parete in omnibus.</l>
+<l>Hic Dux vester erit. Tuque obserues Porphyri</l>
+<l>Quem tantopere laudasti. PO. Faciam. SA. Dignavos</l>
+<l>Omnes manent praemia. PAM. Credimus. SA. Ad hoc velim</l>
+<l>Ante omnia, ne principio publicis viis</l>
+<l>Ingrediamini. In insidiis clanculariis</l>
+<l>Melior est ratio et formula efficacior</l>
+<l>Decipiendi. PA. Novimus. Et Christi nomine</l>
+<l>Negotium exsequemur nostrum. SA. Callide.</l>
+<l>Meae profecto vos multum prudentiae</l>
+<l>Tenetis, namque et ego me in lucis angelum</l>
+<l>Transformo, si speciem videntur quaerere</l>
+<l>Homines, religiosum, benignum, humilem, pium,</l>
+<pb id='s079'/>
+<l>Modestum, pacientem, iustum ac mitissimum</l>
+<l>Fingo. Quod si ignoratis, ex me discite.</l>
+<l>PA. Perfacile. Sed Princeps, inter agendum rogo</l>
+<l>Si quando verbis tibi forte adversabimur.</l>
+<l>Ne aegre feras. Tragoedia isthuc postulat,</l>
+<l>Ut tam divina homines lateant mysteria.</l>
+<l>SA. Ut verbis adversemini facile fero,</l>
+<l>Dum facta modo mihi semper respondeant.</l>
+<l>PAM. Curabitur Princeps. SA. Diadema aliquis triplex</l>
+<l>Huc cum signis ferat et iurandi formula.</l>
+<l>PL. Adsunt. SA. Accede nunc. Hosce vides Pammachi</l>
+<l>Quos nuper pro factis ornavi fortibus</l>
+<l>Coronis quas gestant, tu tamen ut sentias</l>
+<l>Quam largus ac beneficus sim erga omnis eos</l>
+<l>Amicitia nobiscum qui iungi volunt,</l>
+<l>Nullis adhuc meritis factisue insignibus.</l>
+<l>Peractis, auditis tantum virtutibus</l>
+<l>Isthac corona triplici mox ornabere,</l>
+<l>Fidelissimus ut sis cum regno tum mihi.</l>
+<l>Ius iurandum tamen ante, quod omnes ceteri</l>
+<l>Iurare mei solent duces, oportet ut</l>
+<l>Iures. PA. Nihil detrecto. SA. Pax sit caetui.</l>
+<l>Silete, attendite, sed et capita aperite. Tu</l>
+<pb id='s080'/>
+<l>Ad dextram Porphyri, laevam Plane occupa.</l>
+<l>Lege nunc, duobus erectis digitis. Sat est.</l>
+<l>PAM. Per Principis Satanae sacrum iuro caput</l>
+<l>Perque universam regni eius potentiam,</l>
+<l>Me nil honesti, iusti, casti, aut integri,</l>
+<l>Sancti, piive (per quae ius et aequitas</l>
+<l>Regni violatur) facturum, sed gnaviter</l>
+<l>Quantumque potest fieri, hostes et Christi omnia</l>
+<l>Eversurum. Et quod iuravi in praesentia</l>
+<l>Verbis, praestaturum operibus in absentia.</l>
+<l>SA. Afferte nunc coronam. Etiam atque etiam vide</l>
+<l>Horum ut memineris, mihi multum est in te spei.</l>
+<l>PAM. Faciam hercle sedulo. SAT. Hanc coronam suscipe</l>
+<l>Tenebrarum ac caecitatis. Regibus impera.</l>
+<l>Dominare populis. Inferorum maximis</l>
+<l>Praesis portis. Omnes tuorum pulverem</l>
+<l>Pedum lingant. Secundus in regno sies.</l>
+<l>Plaudite, io io. PO. Hoc quoque, Princeps, existimo</l>
+<l>Tua iam prorsus dignum magnificentia,</l>
+<l>Quoniam quidem hunc populis praefers et regibus</l>
+<l>Satrapisque cunctis, edicto ut iube as tuo</l>
+<l>Ne pedibus terram tangat, sed quicumque sunt</l>
+<l>In regno primates ac praestantissimi</l>
+<pb id='s081'/>
+<l>Sublimem humeris ferant. SA. Age fiat. Tollite</l>
+<l>Cathedram plane, Stasiades, Chremi ac Porphyri.</l>
+<l>Circumferte hic semel, bis, ter. Deinde si</l>
+<l>Quid aliud vultis, dicite. POR. Hoc quoque minime</l>
+<l>Fuerit ineptum, ut populus optimatium</l>
+<l>In regno, provoluti, supplices pedum</l>
+<l>Petant oscula. Quod si qui detrectaverint,</l>
+<l>Religione aliqua moti aut contumacia,</l>
+<l>Regno ac tuis penitus priventur gratiis.</l>
+<l>SA. Ita firmum ac sanctum esto. Tu primus porphyri.</l>
+<l>Vos sequimini. Praeterea his signis Pammachi</l>
+<l>Res gestas litterasque signato tuas,</l>
+<l>Statim ut his visis, mei sciam esse Principis.</l>
+<l>PA. Pulchre. PO. Numquid etiam me iurare est opus?</l>
+<l>SA. Non mihi, sed huic Episcopo quod valuerit</l>
+<l>Iures. PA. Faustum et felicem hunc vidimus diem.</l>
+<l>SA. Abite nunc felices et prosperrimi,</l>
+<l>Regni vestrae fidei commissis commodis.</l>
+<l>Acta ad me quottidie perscribantur volo.</l>
+<l>Ut quid agatur sciam. POR. An vis sub plumbo ut solent</l>
+<l>Maxima Romae venundari diplomata?</l>
+<l>SA. Vel sub plumbo vel aliter, magnifice modo.</l>
+<l>Sic agite, sic res omnis vestras tollite, ut</l>
+<l>Regni maiestas innotescat omnibus.</l>
+<pb id='s082'/>
+<l>PA. Haec Princeps ante multum cogitavimus.</l>
+<l>Sed Dromo nobiscum eat. Sa. I atque subserui Dromo.</l>
+<l>Sed heus, reducite nobis Caesarem Apostatam.</l>
+<l>PO. Nihil facilius. Et hoc cum aliis curabitur.</l>
+</lg>
+</div2>
+<div2 id='NaPW.02.05' n='5' type='scene'>
+<head>Satanas, Planus, Stasiades.</head>
+<lg>
+<l>Papae, successus hos non sperassem Duces.</l>
+<l>Cum Christianis quin sit actum haud dubito. Sed</l>
+<l>Quid vos putatis? STA. Quid? Certissimum hoc. Viri</l>
+<l>Industrii sunt ad mala prudentissimi.</l>
+<l>Advigilabunt causa quum nostri, tum sui.</l>
+<l>Sed et nos interea nihil cessabimus.</l>
+<l>SA. Hoc ipsum agite et abite. PLA. Sed quo vis? SA. Probe</l>
+<l>Mones. Illi subiugandae Europae sunt satis,</l>
+<l>Vos in Asiam ite, dein si licet in Aphricam.</l>
+<l>Ubique pro arte quisque operam naver sua,</l>
+<l>Ne doctrinae supersit sanae quid piam.</l>
+</lg>
+</div2>
+<div2 id='NaPW.02.06' n='6' type='scene'>
+<head>Porphyrius, Pammachius, Dromo.</head>
+<lg>
+<l>Adhuc quae quaeris ceciderunt feliciter,</l>
+<l>Et in cunctis adiutor tibi summus fui.</l>
+<l>PA. Gratiam habeo. Sed unum mihi molestum fuit.</l>
+<pb id='s083'/>
+<l>PO. Num quid peccavi ego Pater sanctissime?</l>
+<l>PA. Alia quam quae dixisti dicere oportuit.</l>
+<l>PO. Quae? PA. Bona non mala. Sed si quid mihi inesset mali</l>
+<l>Tacendum erat. PO. Oh erras Pater. Non omnia</l>
+<l>Apud omnes sunt laudanda. Sed qui est callidus</l>
+<l>Personas observabit atque tempora,</l>
+<l>Ne forsan laudet quod laudatum incommodet,</l>
+<l>Aliud (ut scis) regnum alios mores postulat.</l>
+<l>In Satanae regno vix commendantur alia,</l>
+<l>Quam si sis flagitio sus, et egregie scelus.</l>
+<l>Sed mentiar, si non laus mea tibi prosuit,</l>
+<l>Ut tanti apud Satanam habeare, et in caput</l>
+<l>Populorum solus sis suffectus omnium.</l>
+<l>Recte. Haec mittamus. Mox cathedram mihi regiam</l>
+<l>Parari cum triplici corona praecipe, et</l>
+<l>Ornatus ex auro paretur splendidus.</l>
+<l>Vade, ut quam primum comparentur omnia.</l>
+<l>Quibus paratis huc ad me recurrito.</l>
+<l>PO. Curabo. Sed Dromo me cum. DRO. Sequar. PA. Et Caesarem.</l>
+<l>Audin? PO. Audio. Melius quam credas omnia</l>
+<l>Perfecta dabo etiam si nullus iusseris.</l>
+<l>PA. O fortuna potens hanc effice Tragoediam.</l>
+<pb id='s084'/>
+</lg>
+</div2>
+</div1>
+<div1 id='NaPW.03' n='3' type='act'>
+<head>ACTUS TERTIUS.</head>
+<div2 id='NaPW.03.01' n='1' type='scene'>
+<head>Nestor, Iulianus, Pterophon.</head>
+<lg>
+<l>Facite ut iussi. Scribantur isthaec ocius.</l>
+<l>Ego hinc ad Caesarem eo. Si quid fuerit opus,</l>
+<l>Mox huc revertar. Sed adest. Hem Caesar, cito</l>
+<l>Redis, iam nunc ad te volebam pergere.</l>
+<l>IV. Utinam me cum fuisses Nestor. NE. Cur ita?</l>
+<l>IV. Audisses certe tot inaudita saeculis.</l>
+<l>NE. Mala fortassis? Nam te subtristem conspicor.</l>
+<l>IV. Non admodum bona. NE. Quid Pammachius? Num valet?</l>
+<l>IV. Valet quidem, sed pessime. NE. Aegrotat igitur?</l>
+<l>IV. Non corpore, sed animo, haud perinde bene valet.</l>
+<l>NE. Quid ais? Eo tamen esse solet sanissimo.</l>
+<l>IV. Nescio quid nam tam prave animum invertit hominis.</l>
+<l>Inauspicato hodie domo extuli pedem,</l>
+<l>Mihi illius ut innotesceret audacia.</l>
+<l>NE. Vereor quid dicas. IV. Pacem contuli, et omnibus</l>
+<l>In rebus eorum conditioni congruis</l>
+<l>Ornatos volui Episcopos, et maxime</l>
+<l>Pammachium, per quem conversi sumus ad fidem.</l>
+<pb id='s085'/>
+<l>NE. Scio IV. At ille Croesi gazas postulat dari.</l>
+<l>NE. Satis avare. IV. Urbisque dominium sibi expetit</l>
+<l>Et Italiae imperium. NE. Quid audio? Satis</l>
+<l>Ambitiose. IV. Imperium omne suum dicit fore.</l>
+<l>NE. Satis arroganter. IV. Et a se postea Caesares</l>
+<l>Institui oportere. NE. Satis imperite. IV. Ait</l>
+<l>Apostolos et primos quosque Episcopos,</l>
+<l>Et quod contenti docendi munere,</l>
+<l>Nullis sua ademerint imperia Regibus,</l>
+<l>Fatuos fuisse, et ignaros rerum omnium.</l>
+<l>NE. Satis impie. IV. Ad hoc se Scripturarum praedicat</l>
+<l>Habere auctoritatem ac Christum tradere.</l>
+<l>NE. Satis (quod ego sciam) mendaciter, tua</l>
+<l>Quod venia dictum sit Caesar. Quis obsecro</l>
+<l>Isthaec iam tandem illi in mentem misit Deus?</l>
+<l>Quid tu vero? An concedes illis talia,</l>
+<l>Per quae imperii minuitur maiestas tui?</l>
+<l>IV. Non concessuro comminatus est male.</l>
+<l>NE. Satis proterve. Non tamen video, illius</l>
+<l>Incommodare quid tibi possint minae.</l>
+<l>Quare spernas et animo sis aequissimo.</l>
+<l>Ante hac Episcopos minatos Caesari</l>
+<l>Inauditum est. Sed etiam quum mollissimis</l>
+<l>Alloquerentur verbis, vitae periculum</l>
+<pb id='s086'/>
+<l>Formidandum fuit. IV. Verum dicis. Neque</l>
+<l>Nunc impune ferrent, si non propter fidem</l>
+<l>Hoc modo aliquo esset perferenda insania. Et</l>
+<l>Si ego haud gratissimum me vellem ostendere,</l>
+<l>Mox sciret, quantum in altum lapides mittere</l>
+<l>Prodesset, et contendere cum maioribus,</l>
+<l>Bonos quam raro sorciatur exitus.</l>
+<l>NE. Dandum est aliquid Episcopis. Fortassis et</l>
+<l>Istam mutabit paulo post sententiam.</l>
+<l>IV. Si non mutaverit, experietur Caesarem</l>
+<l>Quam sole at pravis occurrere conatibus.</l>
+<l>NE. Demiror, quo isthaec suggerente cogitet?</l>
+<l>Et an putet regni proceres esse capitis</l>
+<l>Tam vacui, ut etiam si tu maxime velis</l>
+<l>Quae postulat, dare, illi permittant dari?</l>
+<l>IV. Quid effrenis sibi, Nestor, non audacia</l>
+<l>Promittit? Quid non aggreditur? Quo non abit?</l>
+<l>Habet praeterea Porphyrium, intimum suis</l>
+<l>Consiliis, hominem doctum, iuxta ac improbum.</l>
+<l>A quo illum perfortiter impelli existimo.</l>
+<l>Quin etiam alioqui humana sic sunt ingenia,</l>
+<l>Etiam si alius nemo impellat, prona in malum.</l>
+<l>Quippe mali in natura nostra haerent semina,</l>
+<l>Quibus si non obstiteris aut oppresseris,</l>
+<pb id='s087'/>
+<l>Quin pullulent et emergant fieri haud potest.</l>
+<l>Quanto magis surgent, si quid cessaveris,</l>
+<l>Et agrum, quo crescant, fecundaveris fimo?</l>
+<l>Qui sic se instituit, tum demum vere est malus.</l>
+<l>NE. Certe Pammachius, in hisce inique cogitat,</l>
+<l>Sive a se ipso, sive alio suadente in animum</l>
+<l>Inducat. Te hoc curare Caesar convenit</l>
+<l>Ut merito semper augustus dicare. Nec</l>
+<l>Rebus quid per te detrahatur publicis.</l>
+<l>Episcopos alio ornare poteris modo,</l>
+<l>Ut fidei et ipsis possit esse commodum.</l>
+<l>Illi verbo et doctrina praesint omnibus,</l>
+<l>Doceant incredulos, hortentur credulos,</l>
+<l>Neque sic laborantibus honor de sit duplex.</l>
+<l>Tu interea dignitatem conserues tuam.</l>
+<l>Neque enim hoc sides requirit, ut cedas loco,</l>
+<l>Aut deseras imperium, aut minuas, sed in eo</l>
+<l>Ut irreprehensibiliter te semper geras.</l>
+<l>Istuc etiam omnes de bent animadvertere,</l>
+<l>An regna posteris relinquant integra,</l>
+<l>Aucta, decorata, et pacata, atque an strenue</l>
+<l>Suum in hoc mun do confecerint munus, sine</l>
+<l>Facto aliquo quod iure reprehendi possiet.</l>
+<l>Commissorum namque Deus rationem exiget.</l>
+<pb id='s088'/>
+<l>Ignavos odit et aversatur prodigos.</l>
+<l>Fideles in cunctis <foreign lang='GR'>oi)konomous</foreign>, diligit.</l>
+<l>At collata ipsius sorte omnes utimur.</l>
+<l>Deinde etiam, tametsi de deris omnibus</l>
+<l>Quaecumque petunt, et id iratum habeant Principes,</l>
+<l>Qui scis an successoribus idem placeat? Aut</l>
+<l>Lauderis a tuis propterea heredibus?</l>
+<l>Nil dignius bono viro, quam ut gnaviter</l>
+<l>Et praesenti et futurae famae consulat.</l>
+<l>Famam solet parare liberalitas.</l>
+<l>Numquam laudatur, sed ridetur prodigus,</l>
+<l>Et perpetuo haere dum suggillatur odio.</l>
+<l>Urbes donare, totas et provincias,</l>
+<l>Principis est prodigi, et qui non fideliter</l>
+<l><foreign lang='GR'>oi)konomi/an</foreign> tractet datam divinitus.</l>
+<l>Si nunc tu urbes aliquot imperio abstuleris, et</l>
+<l>Regnum earum indoctis tradideris Episcopis,</l>
+<l>Atque hoc factum successorum unus et alter, aut</l>
+<l>Complures aemulentur, quid erit relliquum,</l>
+<l>Tandem imperio? Paulatim dilapidabitur,</l>
+<l>Ut paulo post nomen sine re obtineant Caesares.</l>
+<l>Omne imperium devolvetur ad Episcopos.</l>
+<l>Quo prorsus fiet, ut currus bovem trahat,</l>
+<l>Nec verbo iam, sed gladio Christus imperet,</l>
+<pb id='s089'/>
+<l>Quod olim se negavit facturum fuga.</l>
+<l>Praeterea in donis et beneficiis solet</l>
+<l>Observari, ne prodesse volens, maxime</l>
+<l>Tum rebus et privatis atque publicis</l>
+<l>Incommodet. Si vis prodesse Episcopis,</l>
+<l>Ne facito rebus publicis iniuriam.</l>
+<l>Quin etiam Episcopis hoc non prodes modo.</l>
+<l>Opes magnae magnas habent molestias.</l>
+<l>Crescit servorum numerus, inflantur, tument,</l>
+<l>Docendi studium obruitur, pietas interit.</l>
+<l>Haud melius cerdonem a labore dimoves,</l>
+<l>Quam si locupletem feceris, nec Episcopis</l>
+<l>Ansam, ut sacros quam primum claudant codices,</l>
+<l>Praestiteris fortius, quam si provincias</l>
+<l>Et urbes illis ad regendum cesseris.</l>
+<l>Sed oportet esse Doctores, qui plebibus</l>
+<l>Deum colendi rectam commonstrent viam,</l>
+<l>At non docebunt divites Episcopi,</l>
+<l>Quamobrem et ipsis et cunctis populis obest,</l>
+<l>Ut divitiarum praegraventur sarcina.</l>
+<l>Sed quod minamur oportebit contemnere,</l>
+<l>Ne <foreign lang='GR'>riyaspis</foreign> videare vel propter minas.</l>
+<l>Benefac illis, quo debes et potes modo.</l>
+<l>Quod si non tulerint, abeant, et curent sua.</l>
+<pb id='s090'/>
+<l>Tu dignitatem facile tuam tuebere.</l>
+<l>IV. Te diligo Nestor quia prudenter consulis</l>
+<l>Quum semper, tum etiam nunc. Nec personas soles</l>
+<l>Sed aequum duntaxat semper habere in oculis.</l>
+<l>Nunc eadem, quae et ego, sentis. Contemno minas.</l>
+<l>Non annuo, nec annui horum quid piam.</l>
+<l>Si nolunt clementem ferre, iratum ferent.</l>
+<l>Fortassis, et inclementem honore debito</l>
+<l>Observabunt, quem nunc contemnunt rustice.</l>
+<l>PTE. Accipitc mox equum ut conveniam Caesarem.</l>
+<l>Res magna est, nec dilationem sustinet.</l>
+<l>NE. Non idcirco credidimus Christo, ut omnia</l>
+<l>Quae nostra sunt avari expilent Episcopi.</l>
+<l>IV. Aliquis pulsat fores Nestor, quis sit vide.</l>
+<l>NE. Pterophon est. IV. Ingrediatur. Aliquid forsitan</l>
+<l>Novi adfert. PTE. Salve Caesar. IV. Quid Pterophon ait?</l>
+<l>Quid anhelas? Quin sudorem abstergis antea?</l>
+<l>PTE. Festinus advolavi Caesar nuntius,</l>
+<l>Ut res videntur postulare pessimae.</l>
+<l>IV. Quid ais? Bona loquere. PTE. Ut se res habent loquar.</l>
+<l>Atque utinam res bonas iam possem proloqui.</l>
+<l>IV. Quid suspiras? Dic quid sit. PT. Non iam Caesar es</l>
+<pb id='s091'/>
+<l>IV. Hem quid? Cur non cedo? quid lacrimas? PTE. Omnibus</l>
+<l>In portis urbium et templorum ianuis,</l>
+<l>Affixae magnis sunt sigillis literae.</l>
+<l>IV. Quis literarum auctor? PTE. Pammachius Episcopus.</l>
+<l>IV. Quid narrat? PT. Te indignum Caesareo culmine</l>
+<l>IV. Quid postea. PTE. Illis depositus es, et inferis</l>
+<l>Auctoritate addictus Apostolica. IV. Equidem</l>
+<l>Nestor, Tum etiam cuiusdam meminit practicae</l>
+<l>Romanae. Dispeream si non haec practica est.</l>
+<l>NE. O audaciam insignem. Quid dicam nescio.</l>
+<l>IV. Hem tibi minas illas. NE. Legisti literas</l>
+<l>Pterophon? PTE. Legi et relegi diligentius,</l>
+<l>Ut essem certior rerum harum nuntius.</l>
+<l>NE. Cuiusnam auctoritatem allegat rogo? PTE Petri et</l>
+<l>Pauli. NE. Nullum illi deposuerunt Caesarem</l>
+<l>Qum viverent, et nunc deponunt mortui?</l>
+<l>IV. Nestor, num non censes armato milite</l>
+<l>Tam perfidis esse medendum conatibus?</l>
+<l>NE. Et nisi Caesar quam primum occurreris, indies</l>
+<l>Magis ac magis isthaec augebitur audacia.</l>
+<l>Notum est, non numque post folia cadere arbores.</l>
+<pb id='s092'/>
+<l>Non usque adeo reverendi sunt Episcopi,</l>
+<l>Ut tandem etiam opprimere nitantur Caesares.</l>
+<l>PTE. Audite reliqua. IV. Etiam ne amplius est quippiam?</l>
+<l>PTE. Est. Pro cunctis popello contionibus,</l>
+<l>Illae horribiliter exponuntur literae.</l>
+<l>Te damnant, te exsecrantur, in te clamitant,</l>
+<l>Quam primum tricephalo obiciendum Cerbero.</l>
+<l>IV. Hui, tantum ne mali? O me miserum. Quod est meum</l>
+<l>Tam grande peccatum, tantam ut Tragoediam</l>
+<l>Adversum me moveant? PT. Nescio Caesar, nisi</l>
+<l>Quod ventrosi harum contionum Principes</l>
+<l>Petri te possidere aiunt patrimonium, et</l>
+<l>Ideo sacrilegum quod nolis restituere.</l>
+<l>IV. O impudentiam. Quod mihi patrimonium</l>
+<l>Narrant scelesti? Ego ne quidquam possideo, quod</l>
+<l>Petri aut est, aut umquam fuit? NE. Magna hercule</l>
+<l>Haec Caesar est insania. PTE. Litteras legunt</l>
+<l>A Constantino quodam Caesare aeditas,</l>
+<l>Quae nominatim res quae sint patrimonii</l>
+<l>Ostendunt. Certe pene infinitas opes.</l>
+<l>IV. Proh Deum atque hominum fidem, quae isthaec est malicia?</l>
+<pb id='s093'/>
+<l>Falsas audent etiam proferre literas?</l>
+<l>Aeruscatores non Doctores hercule.</l>
+<l>Sed quid? num isthaec credit populus? PTE. Et maxime.</l>
+<l>Illis credunt, ut dignis et Doctoribus,</l>
+<l>Qui Pammachium non posse errare garriunt,</l>
+<l>IV. Vah homines pariter et scelesti et impii.</l>
+<l>Non errat? Hiccine est error quam maximus?</l>
+<l>Nec sufferendus, sed tollendus sanguine,</l>
+<l>Regnum affectare, et maiestatem le dere?</l>
+<l>PTE. Omnes praeterea absolvunt a te subditos,</l>
+<l>Tibique datam fidem irritam pronuntiant.</l>
+<l>IV. Et his parere volunt? PTE. Ut est dementia.</l>
+<l>Iam iam videres conspirare Principes,</l>
+<l>Mussare civitates, esse neminem</l>
+<l>Tuas qui partes aude at defendere, et</l>
+<l>Plane tuo de capite habentur comitia.</l>
+<l>Multi volunt tuos honores carpere,</l>
+<l>Locum gaudent datum, quo possint libere</l>
+<l>Et praedari et quaecumque volunt invadere.</l>
+<l>In summa. Deficiunt a te omnes subditi,</l>
+<l>Alium proclamant Caesarem, qui exercitu</l>
+<l>In primis te tuosque cunctos opprimat,</l>
+<l>Ad quod largas pater dedit indulgentias.</l>
+<l>Hoc agitur Caesar, tu quid facias consule.</l>
+<pb id='s094'/>
+<l>IV. Heu Pterophon, iam rerum es malarum nuntius.</l>
+<l>Infausta, horrenda, repentina mala nuntias.</l>
+<l>Sed abito. Ego quid sit faciundum videro.</l>
+<l>O me miserum, et infelicem atque perditum.</l>
+<l>Actum est. Huccine rerum venire dedit Deus?</l>
+<l>O mi Nestor, mala isthaec audis? quid agimus?</l>
+<l>NE. Ne lacrima. Inre mala consilio opus est bono.</l>
+<l>Invicto sis animo. Bello haec iniuria</l>
+<l>Est propulsanda. Ego eo, ut conscribam milites,</l>
+<l>Ut summis contra sediciosos viribus</l>
+<l>Pugnemus. Emori fatius est hercule,</l>
+<l>Quam ut insignis feratur haec contumelia,</l>
+<l>In sempiternum maiestatis dedecus,</l>
+<l>Et in Caesarei contemptum fastigii.</l>
+<l>O ingratos et perfidos Episcopos.</l>
+<l>Haec ne parere? has vos consuere discordias?</l>
+<l>IV. Mane mi Nestor, NE. Cur maneam? IV. Eheu actum agis.</l>
+<l>Non possunt scribi milites. Aliud age.</l>
+<l>NE. Quid agam? Non prodest longa consultatio</l>
+<l>Peristi, nisi quam mox rebus succurrimus.</l>
+<l>Procrastinatio in periculis mala est.</l>
+<l>IV. Quos scribes milites? An adversarios?</l>
+<l>An eos qui me exsecrantur? An qui cogitant</l>
+<pb id='s095'/>
+<l>Nos omnes disperdere? Qui ruperunt fident?</l>
+<l>Alium qui sibi conclamant Caesarem dari?</l>
+<l>O prorsus desperatae res et perditae.</l>
+<l>NE. Non sic existimes Caesar. Non omnibus</l>
+<l>Opinor eadem est contrate sententia.</l>
+<l>IV. Abfalleris Nestor. Miseris perrarus est</l>
+<l>Amicus, afflictos et ipsa odit salus.</l>
+<l>Consilium omne mihi in tam repentino malo</l>
+<l>Ablatum est. Quo me vertam? Quem implorem miser?</l>
+<l>Quem sic furiarum subverterunt germina?</l>
+<l>NE. Non te afflictes quaeso. Si non exercitum</l>
+<l>Placet contrahere, et res armis defendere,</l>
+<l>Aliud restat, quo rebus possit consuli</l>
+<l>Vel turbatis et in universum perditis.</l>
+<l>IV. Quid illud est? In me dium profer obsecro.</l>
+<l>NE. Minime est honestum, nec maiestas sustinet.</l>
+<l>Et ego nolim te quidquam indignum perpeti.</l>
+<l>IV. Quid est cedo? ut vel una salutis sit via.</l>
+<l>Ego iam plane (quod aiunt) inter malleum</l>
+<l>Versor et incudem. Fac ut eripiar rogo.</l>
+<l>NE. Non consulo tibi caesar, quamquam utile siet.</l>
+<l>Quippe extrema experiri multo utilius est.</l>
+<l>IV. Quid tergiversaris, quin dicis quidquid est?</l>
+<l>NE. Si placaretur Pammachius turbae caput,</l>
+<pb id='s096'/>
+<l>Haud dubito quin etiam turba haec quiesceret.</l>
+<l>IV. Placet hoc consilium. Eamus ergo Nestor. NE. Heu</l>
+<l>Cur non silui primum? Quid agis? Non consulo.</l>
+<l>IV. In rerum hoc articulo melius fieri haud potest.</l>
+<l>NE. Ah non est te dignum Caesar. Quid agas vide.</l>
+<l>IV. Num dignum censes ut opprimar exercitu?</l>
+<l>Et omni spolier dignitate proditus?</l>
+<l>Alii regnent pro me, ego misere agam in carcere?</l>
+<l>NE. Verum. Sed magna est pauperum superbia,</l>
+<l>Quum Reges viderint orare supplices.</l>
+<l>Conditiones pacis scribunt durissimas,</l>
+<l>Quas quam ut feras satius sit interire. IV. Si</l>
+<l>Ego (quantum iam Romanam intelligo practicam)</l>
+<l>Non tulero, alius pro me Nestor feret lubens.</l>
+<l>Dimidium ego quam totum malo perdere.</l>
+<l>Res istae non ferunt aliter. Nec scio aliud</l>
+<l>Praesens consilium Nestor, quod rebus meis</l>
+<l>Mederi possit. Quid censes? NE. Haec tu quidem</l>
+<l>Prudenter cogitas. Sed ego vereor, ut his</l>
+<l>Manere avita imperii possit dignitas.</l>
+<l>IV. Si quid perit imperio Nestor, satis vides</l>
+<l>Me nolente fieri et impulsu Principum,</l>
+<l>Qui me res imperii tuentem, exercitu</l>
+<pb id='s097'/>
+<l>In diversam cogunt ce dere sententiam.</l>
+<l>NE. Verum est. Vah Pammachio malefaciat Deus</l>
+<l>Qui caelum terrae miscet, et colo mare,</l>
+<l>Et in hoc prorumpit usque tandem audaciae,</l>
+<l>Ut omnes vexet Reges atque Principes.</l>
+<l>Et dominis prohibeat parere subditos.</l>
+<l>IV. Isthaec olim Nestor, suam invenient viam.</l>
+<l>Me certe insignis horsum adigit necessitas,</l>
+<l>Quae semper cunctis imperat mortalibus,</l>
+<l>Ut faciam, quae me facturum numquam in animum</l>
+<l>Induxi. Pendat qui est rerum istarum caput.</l>
+<l>Sequere Nestor, pacemque nobis impetres</l>
+<l>Ab illo, cui misero ante pacem contuli,</l>
+<l>Et despectum magnis ornavi honoribus,</l>
+<l>Sed simul ac est misertum interiit gratia.</l>
+</lg>
+</div2>
+<div2 id='NaPW.03.02' n='2' type='scene'>
+<head>Veritas, Parrhesia.</head>
+<lg>
+<l>In <corr sic='?' resp='angulum'>augnlum</corr> hunc dextrorsum proice sarcinas</l>
+<l>Parrhesia. Satanae regno cedat male</l>
+<l>Quod terris eicimur hodie, quam maxime</l>
+<l>Et semper hominum promoventes commoda.</l>
+<l>Ah quam libenter scire velim, quid interim</l>
+<l>Geratur inter homines, quum me senserint</l>
+<pb id='s098'/>
+<l>Abscessisse. Quibus studeant. Quae sectentur. An</l>
+<l>Quisquam sit veritatem qui desideret.</l>
+<l>PAR. Experientur domina paulo post, nostra quid</l>
+<l>In cunctis rebus profuerit praesentia.</l>
+<l>VE. Quid si terras rursus adeas Parrhesia, et</l>
+<l>Intersis rebus tacite. PAR. Faciam si iubes.</l>
+<l>VE. Mihique perferas quid agatur ut sciam.</l>
+<l>PA. Recte. VE. Sed intersis tantum, ne gry quidem.</l>
+<l>PAR. Vix potero. VE. Vide ut possis. Quippe hoc tutum arbitror</l>
+<l>Praesertim in Satanae imperio, ut singula audias,</l>
+<l>Et videas tam bona quam mala, nec quicque arguas,</l>
+<l>PA. Scio. VE. Proinde cave sodes Parrhesia.</l>
+<l>Abi bonis avibus, et mox revertere.</l>
+</lg>
+</div2>
+<div2 id='NaPW.03.03' n='3' type='scene'>
+<head>Porphyrius, Dromo. Parrhesia.</head>
+<lg>
+<l>Si vera sunt quae dicis Dromo, pulcherrime</l>
+<l>Hodie proce demus. DRO. Verissima Porphyri.</l>
+<l>POR. Et tantum habent auctoritatis literae?</l>
+<l>DRO. Habent. Vix verbis istuc consequi potest,</l>
+<l>Quam summa eas susceperint reverentia.</l>
+<pb id='s099'/>
+<l>POR. Pulchre ita me amet Satanas. DRO. Quam capite cernuo</l>
+<l>Etiam procul adoraverint. POR. Papae Dromo</l>
+<l>Quam oboedienter. DRO. Etiam si carissimos</l>
+<l>Iugulare parentes iussisset sanctissimus,</l>
+<l>Se dixerunt obedire paratos. Nam eo</l>
+<l>Iubente, facta alioqui vel turpissima,</l>
+<l>Mera persuasum tenent esse <foreign lang='GR'>katorqw/mata.</foreign></l>
+<l>PO. Papae quam Euangelice. DR. Iam oderunt Caesarem</l>
+<l>Cane peius et angue. POR. Pie. DRO. Magnas turbas movent.</l>
+<l>POR. Sancte. DRO. Caesare as quisque spirat glorias.</l>
+<l>POR. Magnifice. Pammachium deinceps qui volet</l>
+<l>Irritato. Non dubito quin palmarium</l>
+<l>Mihi hoc futurum sit. Sic commovi omnia</l>
+<l>Ex imis sedibus. Iam nunc ades Dromo,</l>
+<l>Hanc Cathedram baiula, et ornatum tollito.</l>
+<l>Ego coronam feram, ut eamus propere ad patrem.</l>
+<l>DRO. Defessus sum currendo tam longam viam,</l>
+<l>In omnes civitates et provin cias,</l>
+<l>Nec tibi tamen videor fecisse satis, nisi</l>
+<l>Etiam vix hausto spiritu aliud imperes,</l>
+<l>Scilicet haec ferre, quae nullus asinus ferat</l>
+<l>Vel Reatinus vel Arcas, sive Cappadox.</l>
+<pb id='s100'/>
+<l>Quin etiam ubi paveris impera (ut proverbium est)</l>
+<l>PO. Amabo te Dromo. Non recuses quid piam</l>
+<l>Hodie. Nonne vides ut succedunt omnia?</l>
+<l>In messe metendum est et hibernis imbribus</l>
+<l>Cessandum. Qui opportunitatem negligit,</l>
+<l>Numquam rem faciet. Quare Dromo sis impiger</l>
+<l>Hodie, posthac si vis annum sterte integrum.</l>
+<l>DRO. Faciendum est propter Principem cui servio</l>
+<l>Non equidem propter te. POR. Non curo, fac modo. DRO. Hui</l>
+<l>Vix atlas tantam celi molem sustinet.</l>
+<l>Da scipionem, ut me sustentem paululum.</l>
+<l>POR. Accipe. Praeibo tu sequere. Ho Parrhesia</l>
+<l>Quo tu sola? PAR. Illo ubi turbae sunt quam maximae</l>
+<l>Et nova plurima. POR. Nobiscum ergo Parrhesia.</l>
+<l>PAR. Quo isthaec fertis? POR. Romam. PAR. Quid illic agitur? POR. Hem</l>
+<l>Nescis? PAR. Abfui aliquantisper, sed dic rogo</l>
+<l>POR. Illuditur mundo, ut dicam paucissimis.</l>
+<l>Illic et Aeoliae sunt turbarum omnium.</l>
+<l>PAR. Recte, illuc ibo, et vobiscum si non grave est</l>
+<l>Solam ambulare mulierem haud decet. POR. Veni.</l>
+<pb id='s101'/>
+</lg>
+</div2>
+<div2 id='NaPW.03.04' n='4' type='scene'>
+<head>Pammachius, Porphyrius, Parrhesia.</head>
+<lg>
+<l>Vix post annum reverteris. POR. Eia Pammachi</l>
+<l>Sanctissime Pater, Iram mitte. Negotia</l>
+<l>Non eadem absolvuntur qua mandantur opera.</l>
+<l>Est quod leteris, res ad affectum bene</l>
+<l>Cessit. Dignus ego qui doner statua Pater,</l>
+<l>Sic multa et magna brevi confeci practice.</l>
+<l>PA. Non frustrabere te digno premio. PO. Dromo</l>
+<l>Huc ad templi foros depone, et vade quo</l>
+<l>Lubet. PAM. Quid hanc tecum ducis mulierculam?</l>
+<l>Quid vult? POR. Parrhesia est. Contemplatum venit</l>
+<l>Novas res et tuam adeo magnificentiam.</l>
+<l>PAM. Recte. Verum ne sit molesta suadeo.</l>
+<l>Novi Parrhesiae mores, etiam antea.</l>
+<l>Praefracte solet arguere quidquid displicet.</l>
+<l>Potesne silere mulier? PAR. Optime. In angulum hunc</l>
+<l>Concedam, et digitum ori supponam meo.</l>
+<l>PAM. Sic facito. Vide as, audias, non arguas.</l>
+<l>PAR. Num hic est Satanae regnum? PAM. Quid ais? PAR. Nil equidem,</l>
+<pb id='s102'/>
+<l>Sed tussiebam. PAM. Mulier si verbum, Cave.</l>
+<l>Tu Porphyri erigito cathedram. et subsellia</l>
+<l>Disponito, parietes vestito purpura,</l>
+<l>Aulaeis totum consessum cingito, solum</l>
+<l>Insternito tapetibus, supra caput</l>
+<l>Cadurcum immine at auro intertextum, Dein</l>
+<l>Et sacros nobis exportato codices.</l>
+<l>POR. Adsunt, soliumque tibi est paratum Persice.</l>
+<l>PAM. Cortinas applica et extende, ut vestiar ego.</l>
+<l>Da diadema triplex et capiti imponas meo.</l>
+<l>POR. Sic hercle nulli maiestate cesseris.</l>
+<l>Et ipse tuus Pater aspectus vel saxa vel</l>
+<l>Asinos ad religionem atque fidem moverit.</l>
+<l>Et nunc plane bos in quadra est argentea.</l>
+<l>PAM. Hem quid dixti? POR. Quid? ut quadris inambules</l>
+<l>Argenteis. PA. Dignus ego. PO. Oh nemo dignior.</l>
+<l>PAM. Revolve nunc cortinas, ut viderier</l>
+<l>Ab omnibus possim, et supremum me sciant</l>
+<l>Cunctarum rerum moderatorem, qui vicem</l>
+<l>Christi in terris gerat, cuius etiam in manu</l>
+<l>Et regna dare et auferre semper sit situm.</l>
+<l>PO. Deum immortalem, quanta ad hoc spectaculum</l>
+<l>Confluxit multitudo populi tam cito?</l>
+<pb id='s103'/>
+<l>PAM. Pulchre. Nolim sic ornari ni a maxima</l>
+<l>Mortalium viderer multitudine.</l>
+</lg>
+</div2>
+<div2 id='NaPW.03.05' n='5' type='scene'>
+<head>Porphyrius, Pammachius, <corr sic='Iulianus' resp='editor'>Iuliaanus</corr>, Nestor, Parrhesia.</head>
+<lg>
+<l>Vis ne ut proponam populo quae te digna sunt?</l>
+<l>PA. Prorsus. Loquere quae iussi singula. PO. Faciam</l>
+<l>Sed ita ut mei memineris. PA. Non mihi excides.</l>
+<l>NE. Certe imperator. Numquam aliquod iter animo</l>
+<l>Confeci iniquiore, atque hoc. Et si meum</l>
+<l>Negotium ageretur, metalla ante foderem</l>
+<l>Quam ut a viro tam indigno peterem gratiam.</l>
+<l>IV. Tu Fortiter quidem, sed prudenter parum.</l>
+<l>Non semper quod volumus, sed quod tempora ferunt</l>
+<l>Et res humanae, facere Nestor convenit.</l>
+<l>NE. Vide bis ipse in quod te praecipites malum.</l>
+<l>IV. Bene ominare, res alioqui sunt malae.</l>
+<l>Sed quid sibi vult haec turba? NE. Quid? Heu quid hoc novi?</l>
+<l>Pammachius regali vestitus purpura?</l>
+<l>IV. Ubi est? NE. Ah non vides idolum carneum</l>
+<l>Tua tenentem sceptra? IV. O mala plusque Lemnia.</l>
+<pb id='s104'/>
+<l>Ab omni adoratur populo. NE. O stulte popule,</l>
+<l>Ut ad speciem semper es intentus exteram.</l>
+<l>En tibi quem contemnebas. IV. Et diademate</l>
+<l>Est ornatus triplici. NE. Iure. Namque Aphricae</l>
+<l>Asiae et Europae regnum tenet. Accede nunc.</l>
+<l>Vellet tibi barbam pulchre. IV. In arctum cogimur.</l>
+<l>Sed accedamus propius, ut quid praedicet</l>
+<l>Auscultemus. PA. Libros expande Porphyri,</l>
+<l>Ut adsit maior dicendis auctoritas.</l>
+<l>Quaecumque enim dixeris, ex sacris ea libris</l>
+<l>Profecta putabunt homines. PO. Ut pulchre sapis.</l>
+<l>Audite omnes populi, dateque silentium.</l>
+<l>IV. Ausculta Nestor. NE. Ambas aures arrigo.</l>
+<l>POR. Ut cognoscatis quid sibi haec mysteria</l>
+<l>Velint, iure ne fiant aut iniuria</l>
+<l>Ne quis forte imperitus rerum aliter putet</l>
+<l>De sede Apostolica quam conveniat, et in</l>
+<l>Haereticam forte pravitatem corruat,</l>
+<l>Atque putre membrum scindatur ab Ecclesia.</l>
+<l>Quare omnes ad ea quae dicam animum advortite.</l>
+<l>Christus Iesus Dominus noster, summam Petro</l>
+<l>Potestatem solvendi atque ligandi dedit,</l>
+<l>Ut et ligata in terris in caelis quoque</l>
+<l>Essent ligata, solutorum eadem est ratio. Iam</l>
+<pb id='s105'/>
+<l>Romanam primus rexit ille Ecclesiam, et</l>
+<l>Potestatem illam a cunctis orbis partibus</l>
+<l>Romam transtulit, ut esset illa perpetim</l>
+<l>Cunctarum Ecclesiarum et rectrix et caput.</l>
+<l>Nec tantundem ullis concessum est Ecclesiis{21. dist. cap. in novo. Dist. 12. cap. Praeceptum cap. Non</l>
+<l>decet. Et.. 24. q. A recta. Dist. 19. Sic oemps}</l>
+<l>Quantum Romanae atque Petri successoribus.</l>
+<l>Hoc scire magnopere prodest credentibus,</l>
+<l>Ne forte aliud sibi constituere caput velint,</l>
+<l>Atque Petri ita indignationem provocent,</l>
+<l>Et mox in primis fidei errent exordiis.</l>
+<l>Quid enim credent mortales, si ignoraverint</l>
+<l>Cui sit credendum maxime prae ceteris?</l>
+<l>Aut quem sequentur, illum si nesciverint</l>
+<l>Qui cunctos absque errore possit ducere?</l>
+<l>Aut quid habebunt certi, nisi ab illo didicerint</l>
+<l>Qui certitudinis implet venis omnia?</l>
+<l>Quapropter toto Christianus pectore,</l>
+<l>Romanum discat observare Praesulem,</l>
+<l>Ex quo doctrina manat omnis et fides,</l>
+<l>Cui commissae sunt ad pascendum Christi oves,</l>
+<l>Cui claves sunt caelorum regni traditae,</l>
+<l>Qui etiam universalis cunctarum Gentium</l>
+<l>Pater est et Doctor, et Patriarcha, et Episcopus,</l>
+<l>Sine quo nulli potest salus contingere</l>
+<pb id='s106'/>
+<l>Ut autem isthaec probetis vera, non modo</l>
+<l>Permultis Scripturarum testimoniis</l>
+<l>Certum est (quae si recitare velim, non hic dies</l>
+<l>Suffecerit) sed etiam ex hoc sciri potest.</l>
+<l>Quod Deus illum, ut videtur in praesentia,</l>
+<l>Pactolis totis et talentis Tantali,</l>
+<l>Et splendida ornavit Salomonis gloria.</l>
+<l>Ut non auctoritate solum polleat.</l>
+<l>Prae ceteris orbis totius Episcopis,</l>
+<l>Sed etiam Reges omnis praecellat opibus.</l>
+<l>Abundat auro et argento atque purpura,</l>
+<l>Et serico et gemmis, ut iam iure que at</l>
+<l>Nec Rex, nec Caesar, nec Primas, nec Episcopus</l>
+<l>Sed aliquis appellari terrestris Deus.</l>
+<l>Quin etiam inter Faunos et Silvanos, locum</l>
+<l>Primum obtinet sine omni controversia.</l>
+<l>Unde potest colligi, nil esse ita splendidum</l>
+<l>Aut ita sanctum in rebus profanis aut fide,</l>
+<l>Quod splendor huius non obruat et sanctitas.</l>
+<l>Et sic rebus in humanis, omnium parens,</l>
+<l>Nil sanctius, nil dignius, nil altius,</l>
+<l>Nil splendidius, nil melius, nil beatius,</l>
+<l>Quam Romanum creavit Pontificem. Unde nec</l>
+<l>Consueto debet Episcoporum nomine</l>
+<pb id='s107'/>
+<l>Deinceps appellari, sed nomen aliud</l>
+<l>Admirandi concedat interiectio,</l>
+<l>Papa vocetur, mundi solus miraculum.</l>
+<l>Nec ab re. Quid enim aut est, aut dicit, aut facit,</l>
+<l>Quod non quis dignum iudicet miraculo?</l>
+<l>Hinc Satanam iratum habeat et apertos inferos,</l>
+<l>Qui hoc nomen sibi deinceps usurpaverit,</l>
+<l>Solus habe at, ut soli data est auctoritas{Dist. 12. de conser. dist. 3. ca. celebritatem Ca Haec est fides ca.</l>
+<l>sequentia. 24. q. 1. 17. q. 4. Si quis sua dente}</l>
+<l>Ligandi ac solvendi, et caelorum clavibus</l>
+<l>Prae cunctis sublimatus est Episcopis.</l>
+<l>Proinde hunc colite, huic parete in omnibus,</l>
+<l>Hunc audite, et in hunc solum oculos intendite,</l>
+<l>Ab hoc, si quid adhuc fidei deest, discite.</l>
+<l>Christum audit, qui hunc audit, et huius sententiae</l>
+<l>Divina ex tripode putanda sunt oracula.</l>
+<l>Haec praefari libuit, ut esset omnibus</l>
+<l>Qui Christiani esse volunt, quam notissimum</l>
+<l>Quod, quantum, et quale haberent in mundo caput.</l>
+<l>Iam ipsa capita et articulos fidei cognoscite.</l>
+<l>Ante omnia edico vobis omnibus, ut ab</l>
+<l>Haeretica quisque pravitate caveat. Et</l>
+<l>Si quis e a iam tenetur, paenitentiam</l>
+<l>Dignis agat operibus, ne pereat perpetim.</l>
+<pb id='s108'/>
+<l>Solet autem haeresis (ut et hoc sit vobis cognitum)</l>
+<l>Tribus contingere modis. Et primo quidem,</l>
+<l>Quum quis Papam esse negat Ecclesiae caput.</l>
+<l>Deinde, si quis opiniones impias,</l>
+<l>In Romanae sedis struxerit incommodum.</l>
+<l>Postremo, si quis Scripturas aliter Sacras</l>
+<l>Interpretando ausus fuerit, proponere,</l>
+<l>Quam a sede Romana sit permissum. Neque</l>
+<l>Enim evangelio nec Scripturis omnibus</l>
+<l>Credendum est quidquam, neque aliqua est auctoritas</l>
+<l>Si non Papae fuerint probatae calculis.</l>
+<l>Si quis in harum haere sum aliquam forte ceciderit,</l>
+<l>Vel errore animi, vel persuasus malicia,</l>
+<l>Se caelesti et terrestri exurendum sciat</l>
+<l>Igni, a Satanae etiam alienum esse gratia,</l>
+<l>Et Romanas ipso facto indulgentias</l>
+<l>Amisisse. Hinc etiam atque etiam cavete, ne</l>
+<l>Animas perdatis vestras pravo dogmate.</l>
+<l>Sed in his vestrum sit studium, quae nunc singula</l>
+<l>Vobis proponam. Vos facite imis sensibus</l>
+<l>(Res sunt haud quaquam spernendae) reponite.</l>
+<l>Primo, quod ad Fidem attinet, omnes symbolum</l>
+<l>Quod Apostolorum nuncupant, perdiscite.</l>
+<l>In quo haud opus est, ut quis sit curiosior,</l>
+<pb id='s109'/>
+<l>Et articulos ad unguem velit expendere.</l>
+<l>Nam facile curiosa hominum errant ingenia,</l>
+<l>Et se putant scire quod ignorant maxime.</l>
+<l>Vobis verba tenere satis est. Episcopis</l>
+<l>Sensum relinquite, et nobis Doctoribus,</l>
+<l>Quos explicatam habere fidem oportet, qui altius</l>
+<l>Divina possunt speculari mysteria.</l>
+<l>Secundo, Quia in Adami homines primi patris</l>
+<l>Omnes peccavimus inobedientia</l>
+<l>Ut nullus hominum caelum possit ingredi,</l>
+<l>Deus misertus nostri misit filium,</l>
+<l>Qui pro peccato originis faceret satis.</l>
+<l>Et sic redempti ab illo peccato sumus,</l>
+<l>Ut libera de inceps sit ad caelum via.</l>
+<l>Tertio, Aliis quia etiam peccatis dein</l>
+<l>Studemus, nec satis carni resistimus,</l>
+<l>Ex hoc mundo rediens Servator ad Patrem,</l>
+<l>Septem reliquit sacramenta credulis,</l>
+<l>Quae ex opere operato suscipienti conferunt</l>
+<l>Remissionem peccatorum apud Deum.</l>
+<l>Quarto, Quum haud quaque sola iustificet fides,</l>
+<l>Peccataque infinita sint mortalium,</l>
+<l>Arbitrium nobis liberum dedit Deus,</l>
+<l>Illius per quod impetrari gratia,</l>
+<pb id='s110'/>
+<l>Atque Decalogus impleri perfecte queat.</l>
+<l>Illic facite quod in vobis est, tum Deus</l>
+<l>Nulli vestrum suam negabit gratiam.</l>
+<l>Quinto, In Sacramentis quis ordo sit et modus</l>
+<l>Et finis observandus, scire convenit.</l>
+<l>Nam Christus quum propere terris discesserit,</l>
+<l>Haud comminisci solus quivit omnia,</l>
+<l>Quae aut ad salutem aut ad decorem conferunt,</l>
+<l>Sed multa Petro Petrique successoribus,</l>
+<l>Statuenda, mutanda, et tollenda, traditis</l>
+<l>Reliquit caelorum clavibus. Ut etiam ea</l>
+<l>Tanque a Deo essent tradita, suscipienda sint.</l>
+<l>Quare Baptismum Christi verbis tradere,</l>
+<l>Nullis se dis Romanae annexis ritibus,</l>
+<l>Ridiculum esset, et omnino absque capite fabula.</l>
+<l>Nam haud verbis duntaxat abiguntur daemones,</l>
+<l>Sed sale opus est, et Episcopali Chrismate.</l>
+<l>Quae mirabiliter cuncti exhorrent Daemones.</l>
+<l>Nec simplex nec quaevis sumatur aqvula, sed</l>
+<l>Quae magnificis confecta sit ceremoniis.</l>
+<l>Ne isthaec prorsus rebus inemptis constent sacra.</l>
+<l>Sexto, quia Christus sub duplici specie, corporis</l>
+<l>Scilicet et sanguinis, cenam instituens suam,</l>
+<l>Non animadvertit oportere inter Laicos</l>
+<pb id='s111'/>
+<l>Atque Sacerdotes esse differentiam,</l>
+<l>Nec, sanguinem ab imperita multitudine</l>
+<l>Effundi posse, statuimus, ut populo altera</l>
+<l>Species negetur, et una contentus abeat.</l>
+<l>Uncti vero ambabus duntaxat gaudeant,</l>
+<l>Ut sacrarum confectores rerum unici.</l>
+<l>Qui etiam tamen, si se populo coniunxerint</l>
+<l>Nec per se divina peragant mysteria,</l>
+<l>Aut morbo, aut re alia praepediti qua piam,</l>
+<l>A calice abstineant cum populo. Certum est enim</l>
+<l>Panis sub specie contineri et sanguinem.</l>
+<l>Deinde, Nec communionis amplius</l>
+<l>Nec cenae Dominicae placet appellatio.</l>
+<l>Sacrificium et Missa vocetur, quae mortuis</l>
+<l>Vivisque ex opere operato cunctis impetret</l>
+<l>Remissionem peccatorum apud Deum.</l>
+<l>Verum, nec ad hoc solum applicetur Missa, sed</l>
+<l>Pregnantibus, iter agentibus, venantibus,</l>
+<l>Negotiantibus, uxores ducentibus,</l>
+<l>Mare ingredientibus, atque tempestatibus</l>
+<l>Oppressis, subveniat. Et nil incommodi</l>
+<l>Usquam emergat, quod non Missa queat tollere.</l>
+<l>Septimo, Homines quia tanta tenet infirmitas</l>
+<l>Ut in multis omnes offendamus, dein</l>
+<pb id='s112'/>
+<l>Et peccatorum semper crescit sarcina,</l>
+<l>Nec in solo Christi nomine pendet salus,</l>
+<l>Neque fide sola contingit remissio,</l>
+<l>Plurima vobis narrabo alexipharmaca,</l>
+<l>(Inter quae Missa principem tenet locum)</l>
+<l>Quibus cuncta aboleri peccata credite.</l>
+<l>In primis, largas vobis indulgentias</l>
+<l>Romanus pro argento donabit Pontifex.</l>
+<l>Quibus non solum in hac vita magna scelera</l>
+<l>Redimere possitis, et paruo maximam</l>
+<l>Parare gratiam, sed etiam ab ignibus</l>
+<l>Securi porsus reddi purgatoriis.</l>
+<l>Quin, et bonis operibus gratiam licet</l>
+<l>Et veniam peccatorum semper consequi.</l>
+<l>Ieiuniis, vigiliis et chameuniis,</l>
+<l>Afflictionibus et orationibus,</l>
+<l>Eleemosynis et castigationibus,</l>
+<l>Semper regni patuit caelestis ianua.</l>
+<l>Quisque suis pro facultatibus Ecclesias</l>
+<l>Iuvet, ut Sacerdotes pascantur pinguibus,</l>
+<l>Illi pro vobis orabunt, illi gravem</l>
+<l>Adversum vos iram poterunt avertere.</l>
+<l>Qui, quo Deo sunt propiores, hoc facilius</l>
+<l>Pro peccatis vestris possunt facere satis.</l>
+<pb id='s113'/>
+<l>Romanus etiam pater, ex cordis scrinio</l>
+<l>Feturam vobis producet pulcherrimam,</l>
+<l>Mille Monachorum formas, et centum ordines.</l>
+<l>Qui castitate et vitae sanctimonia,</l>
+<l>Mirifica religione et oboedientia,</l>
+<l>Et paupertate o prorsus intolerabili,</l>
+<l>Inexhaustum meritorum thesaurum parent,</l>
+<l>Et longe plura agant quam praecepit Deus.</l>
+<l>Unde haud sibi solum ex condigno atque congruo</l>
+<l>Dei merebuntur favorem, sed etiam</l>
+<l>Quod superest, in aliorum cedet commodum.</l>
+<l>Ad eos igitur emptum merita contendite.</l>
+<l>Quicumque vero a sancto ductus spiritu,</l>
+<l>Illorum sese iunxerit collegio.</l>
+<l>Mox omnium peccatorum veniam sciat</l>
+<l>Se obtinuisse, haud minus quam si Baptismatis</l>
+<l>Accepisset sacrum, Christive sanguine</l>
+<l>Esset lotus. Adeo raso esse vertice,</l>
+<l>Et veste stulta contegi, et fidem irritam</l>
+<l>Humanis facere constitutionibus,</l>
+<l>Supremo caelestique perplacet Patri.</l>
+<l>Praeterea, non satis est vobis negotia</l>
+<l>Cum vivis esse solis, nisi et a mortuis</l>
+<l>Speretis sanctis auxilium atque gratiam.</l>
+<pb id='s114'/>
+<l>Quippe illi iam dudum soluti corpore,</l>
+<l>Et faciem iugiter contemplantes Dei,</l>
+<l>Mediatores vestri esse, et semper optimis</l>
+<l>Deo vos commendare valent suffragiis.</l>
+<l>Proinde ad eos peccati pressi pondere</l>
+<l>Convertimini. Feriis nec non ieiuniis</l>
+<l>Colite, invocate, adorate, atque maximi</l>
+<l>Cuiusque nomen facite, ut cuique contigit</l>
+<l>Et a Deo est commissa procuratio.</l>
+<l>Aras illis struite, sacrificia facite,</l>
+<l>Templaque in illorum consecrate nomine,</l>
+<l>Statuas illorum honore afficite et imagines.</l>
+<l>Attentiorem vestri quo curam gerant,</l>
+<l>Quos tam occupatos in honore suo senserint.</l>
+<l>At in primis Mariam observare discite,</l>
+<l>Cui nil rerum potest negare filius.</l>
+<l>In eam oculos defigite, et fiduciam</l>
+<l>In eam omnem collocate. Omnis periculi</l>
+<l>Eam habete spem, portumque et anchoram sacram.</l>
+<l>Sit vita vestra, sit dulcedo maxima,</l>
+<l>Sit adiutrix, sit advocatrix unica,</l>
+<l>Ad eam stentoreis conclamate vocibus.</l>
+<l>Ad eam devoto suspirate pectore.</l>
+<l>In illius sinum animas vestras fundite.</l>
+<pb id='s115'/>
+<l>Cum illa praecipuum vestrum sit negotium.</l>
+<l>Hoc quoque permagni refert scire, non eam</l>
+<l>Divos loco in quovis velle dare gratiam.</l>
+<l>Sed virtutem omnem certis addicere locis.</l>
+<l>Iis praesertim in quibus ossa illorum cubant.</l>
+<l>Illuc etiam a remotis orbis partibus,</l>
+<l>Peregrinatum magnis sumptibus accurrite.</l>
+<l>Remissionem ut impetretis criminum,</l>
+<l>Et magnis caelum meritis liceat scandere.</l>
+<l>Magna etiam iustificationis copia</l>
+<l>Secundum magis et minus, in pecuniis</l>
+<l>Sita est. Illis enim expugnantur omnia.</l>
+<l>Datis numis, mox iustificatur impius.</l>
+<l>Datis numis, praecepta cedunt omnia.</l>
+<l>Datis numis, quae quisque vult facere licet.</l>
+<l>Datis numis, Dei impetratur gratia.</l>
+<l>Datis numis, merita et opera emuntur bona.</l>
+<l>Datis numis, emuntur indulgentiae.</l>
+<l>Datis numis, licet inferos evadere.</l>
+<l>Datis numis, fugit ignis purgatorius.</l>
+<l>Datis numis, folvuntur matrimonia.</l>
+<l>Datis numis, frater sorori iungitur.</l>
+<l>Datis numis, ius est parentes caedere.</l>
+<l>Datis numis, votorum tollitur fides.</l>
+<pb id='s116'/>
+<l>Quare ad pecunias animos advortite.</l>
+<l>Et nil refert quo tandem acquirantur modo.</l>
+<l>NE. Quid haec tibi concio placet Caesar? IV. Tace.</l>
+<l>PAR. Deus te cum doctrina isthac perdat tua.</l>
+<l>POR. Quid gannis mulier? Nisi tacueris, mox tibi</l>
+<l>Et os caputque fustibus dolabitur.</l>
+<l>PA. Cur hanc loquacem adduxisti mulierculam.</l>
+<l>Ut contiones interturbet optimas?</l>
+<l>PO. Dico tibi mulier, si amplius te audivero.</l>
+<l>IV. Audin, ut nil dicitur hic sine periculo?</l>
+<l>PO. Et nil refert (inquam) quo acquirantur modo.</l>
+<l>Sine illis nil Romana praestat curia.</l>
+<l>Solet enim ex aliorum incommodis mortalium,</l>
+<l>Sua (quod bene vertat) comparare commoda.</l>
+<l>NE. Deum immortalem, quid putas? IV. Tace obsecro.</l>
+<l>POR. Romanus praeterea constituit Pontifex,</l>
+<l>Ut pro peccatorum venia, Veneris dic, et</l>
+<l>Aliis diebus quadraginta et noctibus</l>
+<l>Et singula quaque anni parte, et vigiliis</l>
+<l>Complurium festorum, a lacte et carnibus</l>
+<l>Et ovis, magna abstineant observantia,</l>
+<l>Qui Romanis volunt gaudere gratiis.</l>
+<l>Et certe furto quatuor abegisse equos,</l>
+<pb id='s117'/>
+<l>Et hominem occidisse, facile redimi potest,</l>
+<l>Sed tempore vetito gustasse caseum,</l>
+<l>Aut ovum aliquod, aut pullum gallinaceum,</l>
+<l>Omnemue carnem, ut peccatum est gravissimum,</l>
+<l>Ita etiam difficilime dimitti potest.</l>
+<l>Quapropter Pontificis Romani dogmata,</l>
+<l>Mosaicis tabulis longe praeferenda sunt.</l>
+<l>Quid enim sunt Moses et Prophetae et Apostoli</l>
+<l>Ni Christi illos probaverit vicarius?</l>
+<l>Secreta quoque debet fieri confessio.</l>
+<l>Contritioque prius deinde satisfactio.</l>
+<l>Praecipua in peccatis Alexipharmaca.</l>
+<l>Quibus peccata indubie cedunt maxima.</l>
+<l>PAR. <foreign lang='GR'>tou= xristou= d' ou)dei\s lo/gos.</foreign> POR. Hem Christum nominas?</l>
+<l>Cave inquam, ut Christum mulier post hac nomines.</l>
+<l>Quid ego tibi multa dicam? Si verbum amplius.</l>
+<l>Hoc tamen observan dum in quibus dam casibus,</l>
+<l>Quod non cuiusuis valeat absolutio,</l>
+<l>Nisi Episcopalis consulatur dignitas,</l>
+<l>Et <foreign lang='GR'>au)tokra/twr</foreign> ipsus petatur clavium.</l>
+<l>Praeterea, Si quis instigante Diabolo</l>
+<l>Interdiu noctuve malis operam artibus,</l>
+<l>Furtis, rapinis, et scortationibus</l>
+<pb id='s118'/>
+<l>Dederit, is mox quantum potest Ecclesias</l>
+<l>Adeat, et aquae aliquot sacratae guttulis</l>
+<l>Se lustret, vel salis adiurati aliquid voret,</l>
+<l>Quod est reme dium adversus peccata efficax.</l>
+<l>Et Diabolo venenum praesentissimum.</l>
+<l>Sic minima opera peccata possunt dilui.</l>
+<l>Postremo. Si quis in omni vita, sceleribus</l>
+<l>Ita studuit, ut omnes numeros impleverit,</l>
+<l>Iamque vocat mors, et anima timet periculum,</l>
+<l>Haud quaquam se adflictet nec desperet miser,</l>
+<l>Nam est via, qua etiam damnatis possit consuli, et</l>
+<l>Anima ex ipsis trahi inferorum faucibus.</l>
+<l>In primis Pontificis diploma redimat, et</l>
+<l>Potestatem experiatur summam clavium.</l>
+<l>Dein Monachorum (quos creabo) gratiam</l>
+<l>Emat, ut pro peccatis permutent bona opera,</l>
+<l>Illi eius suscipiant peccata scilicet,</l>
+<l>Et contra eum bonis exornent operibus.</l>
+<l>Neque dubium est, quin talis permutatio,</l>
+<l>Apud supremum rata habeatur iudicem.</l>
+<l>Neque Monachis, etiam ex peccatis maximis</l>
+<l>Quidque formidandum est discriminis. Nihil</l>
+<l>Satanae cum illis propter vestem est negotii.</l>
+<l>Conducatur Missarum magna copia,</l>
+<pb id='s119'/>
+<l>Psalteriorum quoque vis comitetur animam.</l>
+<l>Moriens etiam ad arcendos poterit Daemones,</l>
+<l>Cinere multo et aquis conspergi lustralibus,</l>
+<l>Atque dein Franciscana veste contegi,</l>
+<l>(Quam paulo post qua forma sit videbitis)</l>
+<l>Et longa efferri pompa. Quin et funebres</l>
+<l>Multo sint ante constitutae naeniae.</l>
+<l>Pulsentur nolae, animarum habeantur balnea.</l>
+<l>His factis nulli umquam desperanda est salus.</l>
+<l>His factis Satanas luget et gaudent Angeli.</l>
+<l>His factis summa moventur atque infima</l>
+<l>Ut peccatori cooperentur in bonum.</l>
+<l>Licet et vobis ipsis alios fingere modos</l>
+<l>Ad expianda peccata. Rose as preces,</l>
+<l>Periammata, exorcismos, et alia plurima, ut</l>
+<l>Pereundi in peccatis nulla sit occasio.</l>
+<l>Poteritis facile peccatis resistere,</l>
+<l>Arbitrii liberi intellectis viribus.</l>
+<l>Quibus haec quae dixi possunt omnia perfici.</l>
+<l>Romano duntaxat obedite Episcopo,</l>
+<l>Illius ea fide suscipite dogmata,</l>
+<l>Ut si aliud vel de caelo docuerit Angelus,</l>
+<l>Anathema sit vobis et abominatio.</l>
+<l>Quo pacto semper caeli vobis ianua</l>
+<pb id='s120'/>
+<l>Patebit, semper aderunt indulgentiae,</l>
+<l>Semper vos pater in cordis habebit scrinio,</l>
+<l>Nec umquam eius vos destituet benedictio.</l>
+<l>Haec sunt quae Christianos scire convenit,</l>
+<l>Ut cognoscant se habere caput et Episcopum,</l>
+<l>Cui nullus sit similis doctrina et nomine.</l>
+<l>Certe sacrorum singularis artifex.</l>
+<l>Fidei genitor, et ceremoniarum regula.</l>
+<l>Unde etiam triplici est ornatus diademate,</l>
+<l>Vestitus auro et argento atque purpura,</l>
+<l>Ut quasi sol omnes illuminet Ecclesias.</l>
+<l>PAR. Ha ha ha, per elegans illuminatio.</l>
+<l>POR. Rides mulier, et haec subsannas omnia?</l>
+<l>An haeretica divexat temalicia? PA. Quin</l>
+<l>Extrahas hanc mulierem per capillos Porphyri</l>
+<l>Pugnis in os ingestis? PAR. Sanctissime Pater</l>
+<l>Meae loquacitati des veniam obsecro.</l>
+<l>Magis ero muta quam piscis. Mi Porphyri</l>
+<l>Parce precor. Si quidquam post hac occidito.</l>
+<l>PA. Si fallis mulier, ut fefellisti hactenus,</l>
+<l>Facto ipso eadem te suscipiet sententia.</l>
+<l>Dimitte Porphyri. Cave ut quid grunnias.</l>
+<l>PAR. Sic facite rogo sanctissimi patres. PO. Pater</l>
+<l>Iam nunc imperii fundamenta iacta sunt.</l>
+<pb id='s121'/>
+<l>Per me, ut iussisti. Nunc tu aedifices quae iubet.</l>
+<l>Qui non pareat opinor esse neminem.</l>
+<l>PAM. Pulchre. Creaturas ego creabo novas.</l>
+<l>Creare ne soli relinquatur Deo.</l>
+<l>Exoriantur cito mei regni Cardines.</l>
+<l>POR. Papae. Quid isthuc? Orti sunt et tam cito. Haec</l>
+<l>Divina est vis. Ad verbum parent omnia.</l>
+<l>PAM. Producat doctrina mea Monachorum ordines</l>
+<l>Tonsos et intonsos, pullos et candidos.</l>
+<l>Mixtique coloris, pauperes et divites,</l>
+<l>Cinctos et discinctos, pelliceos, laneos,</l>
+<l>Et lineos, Epicuraeos et Stoicos.</l>
+<l>POR. Produxit. Hercule novum ranarum genus</l>
+<l>Quod vino (ut video) delectatur non aquis.</l>
+<l>PAM. Pariat doctrina mea Canonicos nobiles,</l>
+<l>Qui canibus et equis Romanam doceant fidem.</l>
+<l>POR. Adsunt. Oh quam pingues et ventre turgido.</l>
+<l>PAM. Aedificentur praelargis templa sumptibus.</l>
+<l>Monasteria, sacella, in cunctis angulis,</l>
+<l>Agris, vicis, domibus, castellis, urbibus,</l>
+<l>Magna auri et argenti struantur copia.</l>
+<l>PO. Facta video. O Deum immortalem, numque ego</l>
+<l>Tantam apud homines putassem vim esse pecuniae,</l>
+<l>Quae tam splendida, tam sumptuosa condere</l>
+<pb id='s122'/>
+<l>Posset. Nec ulla alia effecissent dogmata,</l>
+<l>Quae tua doctrina et verbum adeo effecit tuum.</l>
+<l>PA. Effodiantur divorum relliquiae, osculis</l>
+<l>Honorentur, gemmis tegantur lucidis.</l>
+<l>PO. Fit. Certe Deus aliquis es, sic verbo omnia</l>
+<l>Potes, sic prompti homines sunt ad ea quae iubes.</l>
+<l>PA. Divis ponantur statuae, pingantur imagines,</l>
+<l>Appareant animae, fiant miracula.</l>
+<l>PO. Cessa rogo, et die quiesce septimo.</l>
+<l>Equidem Satanas creaturas has mirabitur.</l>
+<l>Neque enim, certo scio, illas posset fingere,</l>
+<l>Quantumvis sit sapiens longaevusque artifex.</l>
+<l>PA. Vellem Satanas adesset, et isthaec cerneret.</l>
+<l>Curret Dromo et advocet. PO. Curre. Haec oportuit</l>
+<l>Non audiente dixisse populo Pater.</l>
+<l>PA. Prae gaudio ubi sim ne scio, videns mea</l>
+<l>Nova toreumata. Nimia delinquunt gaudia.</l>
+<l>PO. Unum tamen in creando Pater oblitus es.</l>
+<l>PAM. Quid illud? POR. Quid? Nullum creasti Caesarem.</l>
+<l>NE. Hem Caesarem nominat. IV. Ademus. Vix apud</l>
+<l>Me sum nova isthaec intuens et audiens.</l>
+<l>PA. Recte mones. Creabo. PO. Non licet Pater</l>
+<l>Creatorem ultra sex dies aliquid novi</l>
+<pb id='s123'/>
+<l>Creare. PAM. Quid ergo faciam? POR. Quae creata sunt</l>
+<l>Auge. Ex Principibus aliquem institue Caesarem.</l>
+<l>Multi sunt Caesaris, qui quaerant glorias.</l>
+<l>NE. Audis isthaec? IV. Audio. Festina progredi</l>
+<l>Cubito obstantes arceto. PA. Quem creem voca.</l>
+<l>PO. Audite, silete. Hesternum nostis Caesarem</l>
+<l>Divina auctoritate trusum ad inferos.</l>
+<l>Quare si quis vestrum Caesaris ambit locum,</l>
+<l>Procedat, et Papae osculetur calceos.</l>
+<l>Multi procedunt, ut dixi. NE. Audi Porphyri.</l>
+<l>Licet ne paucis alloqui Patrem? PO. Haud scio,</l>
+<l>Sed explorabo. Caesar adest, et te Pater</l>
+<l>Conventum expetit. PAM. Abeat. Non audiam. PO. Ah Pater</l>
+<l>Non ita facias. PA. Sulpur olet et fulmen Iovis.</l>
+<l>PO. Audi duntaxat. Si non optata loquitur</l>
+<l>Decreta manent. Fortassis faciet quae cupis.</l>
+<l>Arcus tendi potest quantum vis scilicet.</l>
+<l>PA. Persuasisti. PO. Vix impetravi. Accedite.</l>
+<l>NE. Beatissime Pater. IV. Loquere mollissimis.</l>
+<l>NE. Quae nuper inter vos habita est contentio</l>
+<l>Super aliquibus rebus Romanae Ecclesiae</l>
+<l>Concedendis, quas (ut tum erat sententia)</l>
+<pb id='s124'/>
+<l>Te urgente Caesar noluit concedere,</l>
+<l>In quod malum evaserit hic declarat dies.</l>
+<l>Nam pauca Caesar dum voluit defendere,</l>
+<l>Nec Episcopalis quae sit vidit dignitas</l>
+<l>Omne imperium te iudicante perdidit.</l>
+<l>Nec imperium modo, sed etiam quod maius est</l>
+<l>Romanis cunctis est privatus gratiis,</l>
+<l>Et e Christicolarum eiectus consortio,</l>
+<l><corr sic='?' resp='aeternis'>Eternis </corr>etiam addictus est incendiis.</l>
+<l>Et iure fortassis (quid enim isthuc disputem?)</l>
+<l>Quod tunc et nos et ipsum fugit Caesarem.</l>
+<l>Etenim si scivisset, quid verbis est opus?</l>
+<l>Haud quaquam esset tam aequas aversatus preces.</l>
+<l>Quod ex aliis Pater potes cognoscere,</l>
+<l>In quibus erga te illius est humanitas</l>
+<l>Et ut opinor, facilitas perspecta omnibus.</l>
+<l>Hic durior fuit, et erravit maxime</l>
+<l>Christi in terris exasperans vicarium,</l>
+<l>Et Apostolicis non annuens conatibus.</l>
+<l>Factum fatetur, et fecisse paenitet.</l>
+<l>Neque tantum errorem esse putat, ut sententiae</l>
+<l>Tam horribili subiace at, nec dimitti queat.</l>
+<l>Quis enim est hominum qui non peccet? Qui non ruat?</l>
+<pb id='s125'/>
+<l>Errare, a vulua ipsa agnatum est mortalibus.</l>
+<l>Boni tamen resipiscunt paenitentia,</l>
+<l>Quum ceteri suis pereant erroribus.</l>
+<l>Quare etiam Caesar huc (beatissime pater)</l>
+<l>Ad te supplex venit, peccatorum petens</l>
+<l>Remissionem et veniam, et se totum tibi</l>
+<l>Subiciens, ut decretum retractes tuum,</l>
+<l>Eumque in pristino ma nere sinas gradu,</l>
+<l>In quem haud dubitat se constitutum ese a Deo.</l>
+<l>Et si quid umquam tibi concessit gratiae,</l>
+<l>Si quid Dei opitulatus est ecclesiae,</l>
+<l>Id repetit beneficii. Nec spes enim habet mala</l>
+<l>Te non fore duriorem, nec clementiam</l>
+<l>Quam Christianis dedit ipse, in se claudier.</l>
+<l>PA. Responde Porphyri, ut Papalis dignitas</l>
+<l>Requirit. PO. Romanus non solum Pontifex</l>
+<l>Omni praeest ecclesiastico ordini,</l>
+<l>Sed cunctis etiam Principibus et Regibus</l>
+<l>In caput est (ne quis erret) factus a Deo.</l>
+<l>Quid enim non obtinet potestas clavium?</l>
+<l>An qui caelum potest vel verbo claudere,</l>
+<l>Idem Principibus non claudat provincias?</l>
+<l>Aut, cui rerum est commissa spiritualium</l>
+<l>Cura, idem haud possit statuere de carnalibus?</l>
+<pb id='s126'/>
+<l>Quia igitur Caesar ausas est contendere</l>
+<l>Adversus hanc auctoritatem clavium,</l>
+<l>Nec debitam exhibuit reverentiam patri,</l>
+<l>Ceterum in hereticam pravitatem corruit,</l>
+<l>Divino ab imperio est deiectus fulmine.</l>
+<l>Indignum quippe ut Christianis imperet,</l>
+<l>Qui Christianorum haud honorat praesulem.</l>
+<l>Depositus est. Habeat. Et discat Episcopos</l>
+<l>Privatus honore afficere, quos contempsit in</l>
+<l>Imperio. Cedat digniori, qui sciat</l>
+<l>Se suaque omnia Papae pedibus substernere.</l>
+<l>NE. Quid nunc agimus? IV. Insta etiam atque etiam ut impetres,</l>
+<l>Quae iusserit omnia me facturum dicito.</l>
+<l>NE. Beatissime pater. Nequaque supplices</l>
+<l>Averseris. Neque enim istuc agere solet Deus.</l>
+<l>Recipit peccatores qui se converterint,</l>
+<l>Dicitque de conversis gaudere angelos.</l>
+<l>Quando quidem igitur tu illius agis vicarium,</l>
+<l>Ne sis in danda venia inexorabilis.</l>
+<l>Talem te cunctis exhibeto iudicem,</l>
+<l>Qualem te peccante Deum fore desideres.</l>
+<l>Si quidque hactenus ignoravit Caesar, suo</l>
+<l>Iam praesenti satis didicit periculo.</l>
+<l>Melius deinceps sapiet, morem in omnibus</l>
+<pb id='s127'/>
+<l>Gerendo Episcopis, Romano maxime.</l>
+<l>Nec temere umque posthac Camarinam moverit.</l>
+<l>Quin iam paratus est facere quae iusseris</l>
+<l>Omnia, quod an alius aliquis tibi fecerit</l>
+<l>Nondum constat. Potest enim institui novus,</l>
+<l>Qui pro beneficiis te affligat maxime.</l>
+<l>PA. Huc Porphyri. Faciunda puto quae postulat.</l>
+<l>Tamen sub illis (quas scis) conditionibus.</l>
+<l>Eas illi propone singulas, Dein</l>
+<l>Adactus iureiurando, se perpetim</l>
+<l>Meas observaturum leges spondeat.</l>
+<l>PO. Audi Caesar. Sanctissimus in Christo pater</l>
+<l>Ex multis causis supplices tuas preces</l>
+<l>Dignatur exaudire, quamvis quid aliud</l>
+<l>Tua effrenis meruisset contumacia.</l>
+<l>Posset enim ex lapidibus his creare Caesares,</l>
+<l>Et ab oriente in occidentem, a meridie</l>
+<l>In aquilo nem imperii locum pervertere.</l>
+<l>Tu tamen ut sentias, quam dignus sit Dei</l>
+<l>Vicarius in terris, et misericordia</l>
+<l>Deum aemuletur, dat veniam erratis tuis.</l>
+<l>Revocatque ex inferis, si conditionibus</l>
+<l>(Quas audies) ad parendum animum induxeris</l>
+<l>NE. Propone, parebit procul dubio, Nisi</l>
+<pb id='s128'/>
+<l>Caesar aliud vis? IV. Nequaque. Parebitur.</l>
+<l>PO. Quod peccasti, aliter Caesar dimitti nequit,</l>
+<l>Nisi te hic pronum super terram prostraveris,</l>
+<l>Quo te plane humiliatum pater intelligat.</l>
+<l>NE. En principium, ut dixi tibi. IV. Quid faciam aliud</l>
+<l>In arctum compulsus? Detrectare nequeo.</l>
+<l>PA. Super Aspidem Basiliscumque ambulabis, et</l>
+<l>Conculcabis Leo nem et Draconem. IV. Haud tibi</l>
+<l>Hunc tribuo honorem, sed Petro. PA. Et mihi et Petro</l>
+<l>PAR. Vah homines impii, summum mundi caput</l>
+<l>Pedibus conculcant. Te Deus piaculum</l>
+<l>Exterminet, ut illudis hominibus et Deo.</l>
+<l>PA. Eice mox mulierem multatam pessime,</l>
+<l>Os collinito stercore, vel si mavis luto.</l>
+<l>PAR. Quin mittis me pessime, tuasque res agis?</l>
+<l>Heu etiam verberat, et faciem pingit luto.</l>
+<l>Hem proditor, nebulo, sycophanta, carnifex.</l>
+<l>PO. Abi in malam rem haeretica Viclevitica.</l>
+<l>PAR. Olim sceleste mihi poenas dabis, nisi</l>
+<l>Omnis prorsus periit iustitia apud Deum.</l>
+<l>PO. Nunc Caesar conditiones pacis accipe.</l>
+<l>Credis Papam summum esse ecclesiae caput?</l>
+<l>Dic credo. IV. Credo. PO. Credis decreta illius</l>
+<l>Divini verbi habere vim, nec quippiam</l>
+<pb id='s129'/>
+<l>Errare posse? IV. Credo. PO. Credis cum supra</l>
+<l>Patres et concilia esse, et posse a nemine {Extrade Concess. pre. Pro posuit. Et de Appel. Ut debitus Cle.</l>
+<l>past ad finem de sente. et re iudi. Constantinus c. 16. Distin. Extrade iu. cap. 3 Extrade Ro. Ecc. ca. Sin.}</l>
+<l>Aut iudicari aut damnari mortalium?</l>
+<l>IV. Credo. PO. Credis Papam imperii heredem esse, nec</l>
+<l>Valere Caesarem absque eius sententia?</l>
+<l>Dic credo. IV. Credo. PO. Ex his iam pater intelligit</l>
+<l>Te esse orthodoxum nullaque infectum haeresi.</l>
+<l>Vis igitur illius parere dogmatis?</l>
+<l>Dic volo. IV. Volo. PO. Vis regionem Tusciae et Petri</l>
+<l>Patrimonium restituere, et defendere,</l>
+<l>Si quis regum illud invaserit aut Principum?</l>
+<l>IV. Volo. PO. Vis dominium Romae illi concedere,</l>
+<l>Ut Constantini postulat donatio,</l>
+<l>Nec Romam nisi vocatus advenire, nec</l>
+<l>Dimissus hic haerere diu, ceu in domo</l>
+<l>Aut urbe aliena? IV. Volo. PO. Vis res Ecclesiae,</l>
+<l>Episcoporum investituras, Pallia,</l>
+<l>Abbatias, Praelaturas, et negotia</l>
+<l>Ecclesiastica, in universum cedere</l>
+<l>Romano Pontifici et aliis Episcopis?</l>
+<l>IV. Volo. PO. Vis Papam, ut tuum tuorumque dominum</l>
+<l>Agnoscere? Dic volo. IV. Volo. PO. Vis Ecclesiae</l>
+<l>Hostes et haereticos pro summis viribus</l>
+<l>Extirpare, et in omni imperio proscribere?</l>
+<pb id='s130'/>
+<l>IV. Volo. PO. Vis comitia nulla habere Principum,</l>
+<l>Nisi legatus Pontificis intersit? IV. Volo.</l>
+<l>PO. Vis nihil in imperii rebus concludere</l>
+<l>Aut ordinare, sine Papae summa manu?</l>
+<l>IV. Volo. PO. Haec sunt capita Caesar, pro quibus tibi</l>
+<l>Erratorum veniam dabit sanctissimus.</l>
+<l>Et gratia in priorem restituet locum.</l>
+<l>Si illa igitur tibi sunt cordi, nullaque fictio</l>
+<l>Subest, fac iureiurando affirmes fidem.</l>
+<l>Nequando gratiae huius paeniteat patrem</l>
+<l>NE. Qui equum usque ad ferreos voravit calceos,</l>
+<l>Facile et tantum ferri poterit consumere.</l>
+<l>IV. Pacis supra scripta capita ut recitata sunt</l>
+<l>Iuro tibi Papae per patrem et filium</l>
+<l>Et spiritum sanctum, me ex animo et firmiter</l>
+<l>Sentire, cunctaque facturum firmissime.</l>
+<l>PO. Accede iam et patris osculare calceos.</l>
+<l>Quod Regibus cunctis est signum gratiae.</l>
+<l>Et merito omnibus est gaudendum, si digitulo</l>
+<l>Tantam uno possint sanctitatem tangere.</l>
+<l>PA. Iam nunc fili iuris iurandi esto memor.</l>
+<l>Atque deinceps nostris pareto iussibus.</l>
+<l>IV. Dabo equidem operam pater. PA. Abito nunc ad tuos</l>
+<pb id='s131'/>
+<l>Mox ego cunctis Principibus atque subditis</l>
+<l>Isthaec foedera scribam, ut te agnoscant Caesarem, et</l>
+<l>Priores literas esse sciant irritas.</l>
+<l>IV. Recte. Vale igitur. PA. Abi feliciter. IV. Tibi</l>
+<l>Gratiam habeo Porphyri, pro isthac opera tua,</l>
+<l>Et tibi lubens bene faxim. NE. Oh subigas in crucem.</l>
+<l>PO. Equidem Caesar agere gratias nihil est opus,</l>
+<l>Libenter soleo tuis operam dare commodis.</l>
+<l>IV. Veni Nestor. NE. Tenebris perpetuis hic dies</l>
+<l>Involvatur. Adeo invisa dedit omnia.</l>
+<l>Audire impia, et horrenda fecit cernere.</l>
+<l>Dominantur serui, at sanguis nobilissimus,</l>
+<l>Scabellum servilis capitis conspectus est.</l>
+<l>Isthaec ante veritus sum Caesar. Heu mihi</l>
+<l>Cur non interea in inferorum faucibus</l>
+<l>Egi, ne testis et spectator fabulae</l>
+<l>Tam inauditae essem? Imperium ab equis (quod dicitur)</l>
+<l>Ad asinos descendit. IV. Sat est Nestor. Tace.</l>
+<l>Et istuc facinus in Melampygum incidet.</l>
+<l>Omnia tulit, fert atque feret longus dies.</l>
+</lg>
+</div2>
+<div2 id='NaPW.03.06' n='6' type='scene'>
+<head>Porphyrius, Pammachius, Satanas, Planus.</head>
+<lg>
+<pb id='s132'/>
+<l>Bellus profecto homo sum. Mihi etiam gratiae</l>
+<l>Aguntur plurimae summa pro iniuria.</l>
+<l>PA. Fortasse tibi cum plurimis hoc est datum,</l>
+<l>Ut ab amicis et inimi cis gratiam ineas</l>
+<l>PO. Sic censeo. Sed vides ne in quem per me locum</l>
+<l>Sis evectus. Satanae commendavi, et tuas</l>
+<l>Virtutes feci ut essent acceptabiles,</l>
+<l>Meis consiliis iuvi, nil mihi sed tibi</l>
+<l>Quaerens omnia, pedibus subieci Caesarem, et</l>
+<l>Per me assecutus es quae sunt carissima,</l>
+<l>Ut nomen inter magnos habeas maximum.</l>
+<l>Quid pro tantis mihi retribues sudoribus?</l>
+<l>PA. Multa satis, si quidem tulerit occasio.</l>
+<l>Nunc cardinum sis primus. Veneris tibi</l>
+<l>Episcopatus, et quidquid animo lubet,</l>
+<l>Per me licebit, et favebit Delia.</l>
+<l>SA. Euge socii. Neque ante vincula quippiam</l>
+<l>Melius successit, nec ego neque vos talia</l>
+<l>Ante hac umque efficere potuimus. Sed Dromo</l>
+<l>Pammachium etiam heroica fecisse praedicat.</l>
+<l>PLA. Credo. SA. Sed eamus ad eu exploratum omnia.</l>
+<l>PLA. Sequimini omnes. PO. Placet pater venatio.</l>
+<l>Ferae pingues solent esse in Germania,</l>
+<l>Illic primum tendam casses. PA. Phy, si placet</l>
+<pb id='s133'/>
+<l>Legatus sis meus a latere in Germania.</l>
+<l>PO. Placet. Si magni ponderis indulgentias</l>
+<l>Simul dederis. Mirum quam iners ille populus</l>
+<l>Quaeritet et delectetur indulgentiis</l>
+<l>PA. Vel plaustrum onustum tecum infer. Bene habet si ea</l>
+<l>Cupiunt quibus Romana abundat curia</l>
+<l>Novum hoc erit aucupium. Sed Satanas introit.</l>
+<l>Nihil est iam quod malim. SA. Sane te Pammachi</l>
+<l>Geris magnifice. Sed qui tibi principia habent?</l>
+<l>PA. Ad affectum Princeps succedunt omnia.</l>
+<l>SA. Gaudeo. Nemo tibi restitit? PA. Audeat aliquis.</l>
+<l>SA. Pulchre profecto. At o terra et Stygia palus,</l>
+<l>Quis huius est creationis artifex?</l>
+<l>PA. Ego. SA. Tu? PA. Ego inquam. Sa. Non sum falsus Porphyri.</l>
+<l>PO. Minime Princeps. Divinum hunc obtines virum.</l>
+<l>Atque id magis scires, si praesens omnibus</l>
+<l>Interfuisses. Verbo sunt facta omnia.</l>
+<l>SA. Quid ais? Est verum Pammachi? PA. Verissimum</l>
+<l>Tantae sum auctoritatis, et sic soleo. SA. Vah</l>
+<l>Vix decimam partem mihi narravit Dromo. Adeo</l>
+<l>Arrident cuncta, meraque sunt miracula.</l>
+<l>Sed quaeso te, cuius creasti gratia?</l>
+<pb id='s134'/>
+<l>Ipso etiam espectu delector. De singulis</l>
+<l>Quid habeant utilitatis dicito rogo.</l>
+<l>PA. Isti sunt (Princeps) regni nostri cardines,</l>
+<l>Ad hoc facit, ut tibi perinde ut ego serviant.</l>
+<l>Quae in rem tuam sint consulant, Provincias</l>
+<l>Expilent. Decreta tua seruent perpetim.</l>
+<l>Et si quis post me Papa a te desciscere</l>
+<l>Voluerit, prohibeant, resistant, arguant,</l>
+<l>Venenis semper ad hoc paratis obruant.</l>
+<l>SA. Necessarium opificium. PA. Quos rasos vides</l>
+<l>Aliis atque aliis pennis vestitos, genus</l>
+<l>Humile quidem videntur, sed habent maximam</l>
+<l>Inregno promovendo vim et potentiam.</l>
+<l>Eos cunctis in scandalum feci hominibus,</l>
+<l>Ut fictis mundo illudant relligionibus,</l>
+<l>Et meritorium apud eos habeantur nundinae.</l>
+<l>Ipsi spernant Christum, doceantque spernere.</l>
+<l>De viribus summe suis superbiant,</l>
+<l>Meique sacra sint Papatus anchora,</l>
+<l>Et ad converrendas undique predas canes.</l>
+<l>SA. Ha ha he. Melius ipse haud potuissem fingere</l>
+<l>PA. Quid referam singula? Relliquiae, templa, statuae</l>
+<l>Canonici illi inversis pellibus, imagines,</l>
+<l>Animarum spectra, monasteria, miracula,</l>
+<pb id='s135'/>
+<l>Et si quae alia me a peperere dogmata,</l>
+<l>Hoc faciunt, ut Christi obscuretur gloria,</l>
+<l>Aliisque viis mortales caelum scandere,</l>
+<l>Nitantur, doctrinaque tollatur sanior.</l>
+<l>SA. Pulcherrime isthaec cogitas prae ceteris</l>
+<l>PA. Et de tota fide nil sis sollicitus, ac</l>
+<l>Quo pacto populus ad verbum pareat tibi.</l>
+<l>Effecta credito, si postrema exordio</l>
+<l>Respondeant. SA. Admiror virtutem tuam.</l>
+<l>In his quae cerno, Pammachi, neque timeo</l>
+<l>Peiorem te fore, sed industrium magis</l>
+<l>Exspecto, ut beneficiis meis respondeas.</l>
+<l>Isthaec ad opprimendam Christi gratiam</l>
+<l>Satis esse video, Sed quid ais de Caesare?</l>
+<l>PA. His ipsis (Princeps) illum pressi calceis,</l>
+<l>Et in mea iuravit verba ante paululum</l>
+<l>Quam tu venires. SA Oh salui sumus undique</l>
+<l>Nam et in Asia res bene cecidit ducibus. PA. Ais?</l>
+<l>Quo pacto obsecro? Vix hac mea felicius.</l>
+<l>SA. Feliciter satis, ut ipsi narrant duces.</l>
+<l>Vera ne sunt Plane, quae narrasti facta? PLA. Res</l>
+<l>Ipsa docebit, Princeps, nil esse verius,</l>
+<l>SA. Dic etiam illis. PLA. Dicam, et compendio quidem.</l>
+<l>Bellatorem et prophetam suscitavimus</l>
+<pb id='s136'/>
+<l>Mahumetem nomine, qui novam Christi fidem</l>
+<l>Evertit, odit, et dissipat Ecclesias,</l>
+<l>Ut Christianos in Asia vix quindeam</l>
+<l>Repperias, sanae doctrinae prorsus nihil.</l>
+<l>SA. Audis hoc? PA. Magnum hercule. SA. Nunc non me paenitet</l>
+<l>Fuisse aliquantisper vinctum, et vix denique</l>
+<l>Solutum, quum me tanta haec excipiunt bona.</l>
+<l>Nihil queror. Iam altum licebit stertere,</l>
+<l>Nec Christus amplius erit formidabilis.</l>
+<l>Sed agite omnes. Tantarum rerum <foreign lang='GR'>e)pini/kion</foreign></l>
+<l>Triumphemus, tropaeumque erigamus, et</l>
+<l>Haec magna in iubilo celebremus gaudia.</l>
+<l>Ut inde virtus excitetur omnium,</l>
+<l>Isthaec tueri parta, et maiora parere.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='NaPW.04' n='4' type='act'>
+<head>Actus Quartus</head>
+<div2 id='NaPW.04.01' n='1' type='scene'>
+<head>Parrhesia. Veritas.</head>
+<lg>
+<l>Vere dictum est. <foreign lang='GR'>sigh=s a)ki/ndunon ge/ras</foreign></l>
+<l>Deorum mundo acceptiorem neminem</l>
+<l>Harpocrate esse reor, sic vult laudari sua,</l>
+<l>Sic absque contradictione suae accipi.</l>
+<l>Ego quia vix mussavi, tuberibus mihi</l>
+<pb id='s137'/>
+<l>Caput effloruit, evulsi etiam miserae pili,</l>
+<l>Facies deturpata luto. Haec refero praemia.</l>
+<l>O impios sophistas, scelerata capita,</l>
+<l>Hoccine docere vos, et tanta audacia</l>
+<l>Agere, ut linguas coherceatis omnium?</l>
+<l>VE. Hem Parrhesia, quid istuc ornatus rogo?</l>
+<l>Num lapsa es alicubi in lutum? PAR. Nequaque hera</l>
+<l>Hunc mundum mihi sophistarum affixit cohors.</l>
+<l>VE. Quapropter? PAR. Ah rogitas? Parrhesia sum. Haud fero</l>
+<l>Si quis agat aut doceat male. VE. Tamen ego tibi</l>
+<l>Interminata sum, ne sola quid hisceres.</l>
+<l>PAR. Fateor. Sed quis truncus has ferat ineptias?</l>
+<l>VE. Inepta igitur audisti? PAR. Non dici potest</l>
+<l>Quam inepta, absurda, scelesta et impia cernere</l>
+<l>Contigit et audire hodie, ut mallem septies</l>
+<l>Exuri, quam illa meo probare silentio.</l>
+<l>VE. Fortassis Satana praesidente? PAR. Non hera,</l>
+<l>Sed Pammachio. VE. Quid? Pammachius docet impia?</l>
+<l>PAR. Et facit et docet impia. VE. Quid ais? Episcopus?</l>
+<l>PAR. Quantum ex dictis et factis hodie intelligo,</l>
+<l>Nil opus erit Satana ad exstinguendam fidem.</l>
+<l>Episcopi et sophistae incumbunt fortiter,</l>
+<pb id='s138'/>
+<l>Ne Christi beneficia populus intelligat,</l>
+<l>Et ne priscae maneat fidei sinceritas.</l>
+<l>Haec audiens, vix verbis argui tribus.</l>
+<l>Pro tribus ita verbis sexcenta fero verbera.</l>
+<l>VE. Absterge lutum, et quid agatur dic apertius.</l>
+<l>PAR. Paucis absolvam. Episcopi munus suum</l>
+<l>Linquunt, et militares spirant glorias.</l>
+<l>Pammachius praesertim impietatis artifex</l>
+<l>Nova etiam gignit dogmata, novam ecclesiam</l>
+<l>Sine fide solis producit ceremoniis,</l>
+<l>Sedet in templo Dei et in humanis cordibus,</l>
+<l>Adorari, timeri cupiens, ut Deus.</l>
+<l>Multum potest, sed non propria potentia.</l>
+<l>Reges timent, pro illo decertant Principes.</l>
+<l>Quin etiam pedibus conculcavit Caesarem,</l>
+<l>Et iuratum in suam illum habet sententiam.</l>
+<l>Praeterea nova creavit terrae pondera,</l>
+<l>Qui pauperum fortiter exsugant sanguinem,</l>
+<l>Pro auro argentoque sua vendentes stercora.</l>
+<l>Qui, ut sibi nodo bene sit, multoque abdomine</l>
+<l>Ventres distendant, miserorum mortalium</l>
+<l>Pravis doctrinis interitum haud faciant pili.</l>
+<l>VE. Cessa obsecro Parrhesia, quantum narras malie.</l>
+<l>PAR. Plus est quam quisque verbis possit consequi.</l>
+<pb id='s139'/>
+<l>In summa autem, mendaciis sunt compita,</l>
+<l>Templa, viae, et omnia plena, nec mirum quidem</l>
+<l>Te absente. Vivunt homines quasi sint perpetim</l>
+<l>Victuri, et impune agere liceat quodlibet.</l>
+<l>VE. O miseros mortales, me absente et perditos.</l>
+<l>Vidisti ne aliquos hanc deplorare miseriam,</l>
+<l>Desiderare me, et meliora quaerere?</l>
+<l>PAR. Hera (ut vere dicam) perpaucos, vix decem</l>
+<l>Ex mille, Illos etiam iam taedet vivere.</l>
+<l>Pro te suspirant, nec verbum audent proloqui.</l>
+<l>Orant Deum tacite duntaxat, ne simul</l>
+<l>Cum Sodomis et Babylone illos perdere velit.</l>
+<l>VE. Roma igitur Sodoma est et Babylon, et si quid est</l>
+<l>Babylo ne peius? PAR. Certe in hoc rerum statu.</l>
+<l>VE. Quid ergo agimus? Num non putas nobis locum</l>
+<l>Superesse in terris? PAR. Ex meo hoc periculo</l>
+<l>Disce. Quid alibi sit in tot regnis nescio,</l>
+<l>Romana locum tibi non concedet curia.</l>
+<l>Quin etiam Itali, Illyrici, Scoti, Hungari,</l>
+<l>Hispani, Galli, Angli, Germani, Sarmatae,</l>
+<l>Danique, idolum Romanum omnes pertiment.</l>
+<l>VE. Heu miserae mihi, perpetuum exilium nuntias.</l>
+<l>PAR. Nequaque hera, si mavis exuri millies.</l>
+<l>VE. Num exurent immortalem? PAR. Sic videbitur.</l>
+<pb id='s140'/>
+<l>Mortalibus et immortalibus homines parant</l>
+<l>Mala, et gygantum instaurant exemplum vetus.</l>
+<l>VE. Frustra terres. Mihi apud homines esse volupe est</l>
+<l>PAR. Hem, fac periculum si lubet. VE. Aliquis locus</l>
+<l>Quaerendus est, ubi inter homines libere</l>
+<l>Verser. Sed iam teneo. Domicilium vetus</l>
+<l>Asiam adibo. PAR. Nisi eam Satanas totam occupat.</l>
+<l>VE. Qui scis? Satis opinor in Europa habet agere.</l>
+<l>PAR. Non vidi in Europa Satanam, sed omnia</l>
+<l>Solus devastat <foreign lang='GR'>a)por)r(w\c</foreign> furiarum. VE. Quem ais?</l>
+<l>PAR. Pammachium. Quare Satanam opinor in Asiam</l>
+<l>Duxisse exercitum, ut etiam vestigia</l>
+<l>Reliquiasque tuas (si quae illic sunt) deleat.</l>
+<l>VE. Quo me vertam nescio. Quid tantum misera ego</l>
+<l>Commerui, ut nullus in terris mihi sit locus?</l>
+<l>Sequere me. Recta ad Christum concedam, cui</l>
+<l>Isthaec exponam omnia, petamque ut mihi locum</l>
+<l>Det meliorem, quam istam vastam solitudinem.</l>
+</lg>
+</div2>
+<div2 id='NaPW.04.02' n='2' type='scene'>
+<head>Satanas, Dromo.</head>
+<lg>
+<l>Audite me commilitones optimi.</l>
+<l>Parta felici de Christo victoria</l>
+<l>Tropaeis erectis consultum censeo,</l>
+<l>Ut curemus cutem de spoliis hostium,</l>
+<pb id='s141'/>
+<l>Totos genialiter consumentes dies.</l>
+<l>Nullus laboret, sed feriae sint perpetim.</l>
+<l>Ludamus, saltemus, bibamus ordine.</l>
+<l>Et nullus oblatum anteponat poculum,</l>
+<l>Quam ter quaterue exhauserit. Si quis etiam</l>
+<l>Post vomitum se exhibet potorem strenuum,</l>
+<l>Plexis caput sacrum exornetur pampinis.</l>
+<l>Et si dies ad haec celebranda gaudia</l>
+<l>Breviores fuerint, pars addatur noctium.</l>
+<l>Nihil relinquamus quod ad luxum attinet.</l>
+<l>Et mortui et vivi suppeditabunt lucrum,</l>
+<l>Ut sine sollicitudine mea in mensa impleamini</l>
+<l>Cibo, potuque, vel si lubet ad nauseam.</l>
+<l>Eia agite, Sedete. Huc Pammachi et tu Porphyri,</l>
+<l>Tu Plane Pammmachio claude latus dextrum.</l>
+<l>Tu Chremi laevum. Stasiades sit proximus</l>
+<l>Porphyrio, Hem ubi reliqui sunt convivae Dromo?</l>
+<l>DRO. Qui? SA. Rogitas? Canonici, Monachi atque Cardines</l>
+<l>Officiales, Episcopi, et qui Principum</l>
+<l>Nostris decreverunt favere partibus.</l>
+<l>DRO. Adsunt hiantes. Iam olim Monachorum cohors</l>
+<l>Ad devorandum adest laxato cingulo.</l>
+<l>SA. Recte. Sibi quisque locum eligat quem percupit.</l>
+<pb id='s142'/>
+<l>DRO. Hem monachi sortiuntur verberibus locum.</l>
+<l>SA. Ha ha he. Quernos illis adfer fustes Dromo.</l>
+<l>Sic ista solent constare sacra. Non parcite.</l>
+<l>Caedite, bibite, turbis, rixis, clamoribus,</l>
+<l>Alatis poculis resonet convivium.</l>
+<l>Vultis adducam singulis scortum elegans?</l>
+<l>Video vos velle. Adduc Dromoque plurima.</l>
+<l>Nulla sine mulieribus sunt plena gaudia.</l>
+<l>DRO. Rursus pugna incrudescit. SA. Iam patinas Dromo</l>
+<l>Adfer bonis avibus. En hic Princeps fuit,</l>
+<l>Animae suae per vos consulere volens. Boni</l>
+<l>Consulite, edite. Quid Pammachi? Cur non capum hunc</l>
+<l>Dilaceras? Cur non rabidam depellis famem?</l>
+<l>Sic facito, et ceteros convivas admone.</l>
+<l>Adfer aliud Dromo, nempe assum Haec comesa sunt</l>
+<l>Carpite nunc. Istuc est cadaver divitis,</l>
+<l>Quem iussi vobis testamentum condere.</l>
+<l>DR. Oh rursus pugnant. SA. Recte. Infunde largius,</l>
+<l>Cadaver, ut videtis, est pinguissimum.</l>
+<l>Tolle hoc et appone aliud. Haec vidua est domus</l>
+<l>Quae vestrarum precum esse volebat particeps.</l>
+<l>Opima suppellex est. Vorate singula,</l>
+<pb id='s143'/>
+<l>Nec tectis his nec fundamentis parcite.</l>
+<l>DRO. Hem vix posita in mensam sunt correpta omnia</l>
+<l>Non sine vulneribus. SA. Tales convivas volo.</l>
+<l>Da missum alium. Cur patera non obambulat?</l>
+<l>Cur ita taciti? DRO. Quasi pleno possint gutture.</l>
+<l>Nec alium alius vorando certet vincere.</l>
+<l>SA. Haec farcimina sunt, magnis confecta artibus</l>
+<l>Miserorum hominum e medullis atque sanguine.</l>
+<l>DRO. Diripiunt ultro et plenis buccis devorant.</l>
+<l>SA. Super haec unus quisque calicem plenum bibat.</l>
+<l>Perfortiter hercule. Sequimini omnes. Iam Dromo</l>
+<l>Quintum actum profer. DRO. En habes. SA. Qui negligens</l>
+<l>Fuit hactenus (convivae) istoc decet ultimo</l>
+<l>Edulio saturetur. Cras dabo lautissima.</l>
+<l>Hic mercatoris est sacculus, aere gravidus.</l>
+<l>Apponite manus. DRO. Haud sine pugnis ferculum.</l>
+<l>Lapitharum isti sunt mores. SA. Quin fustibus</l>
+<l>Rem agitis aut sudibus? Isthaec sunt puerilia.</l>
+<l>Sic facite reverendi patres. Heus o bone</l>
+<l>Tu nobis exemplum instauras Philoxeni?</l>
+<l>Recte, ita vivam, solus corripuit. DRO. Ego hercule</l>
+<l>Malo esurire, quam hoc saginari modo.</l>
+<l>SA. Recte, nihil relinquitis. Bellaria</l>
+<pb id='s144'/>
+<l>Appone Dromo. Haec sunt bellaria plusque Attica.</l>
+<l>Omnis generis delicta sunt mortalium, ex</l>
+<l>Quibus sibi quisque sumat quantum collibet.</l>
+<l>Prosunt omnia, mirificeque palatum iuvant.</l>
+<l>Nullum tam leve peccatum est, quod non commodum</l>
+<l>Vestrae adferat culinae. Agite ergo strenue.</l>
+<l>Sua uni cuique sit commissa portio.</l>
+<l>DRO. Nequaque illis Melissa opus est. Nam ceteris</l>
+<l>(Ut video) omissis hoc unum summe student.</l>
+<l>SA. Scis quid tibi sit faciundum Dromo? DRO. Si dixeris</l>
+<l>Sciam. SA. Interim dum nos epulamur, hoc tibi</l>
+<l>Curae sit. Omnes percurrito provincias,</l>
+<l>Odorator caute an sint tranquilla omnia.</l>
+<l>Ne quid bibentibus nobis et ebriis</l>
+<l>Mali oriatur. Si quid fuerit, mox nuntia.</l>
+<l>Sic liberabis nos curis, ut pocula</l>
+<l>Et omnis luxus continuetur perpetim.</l>
+<l>DRO. Faciam. Si tres prius calices exhausero.</l>
+<l>SA. Vidistis iam commilitones optimi</l>
+<l>Quid vobis proponam, quam etiam dapaliter</l>
+<l>Cuncta ministrem, ut nullus idem faciat Principum,</l>
+<l>Quapropter spero vos fore constantissimos</l>
+<l>Apud me, quum saginem vos pinguissimis.</l>
+<pb id='s145'/>
+<l>Valeat Christus cum paupertate sordida,</l>
+<l>Cum tormentis, cum poenis, cum laboribus,</l>
+<l>Cum curis, cum carceribus, cum periculis.</l>
+<l>Vos non curate quid vesper serus vehat.</l>
+<l>Ita vivite, ut vixisse vos mundus sciat.</l>
+<l>Nil vobis deerit, me mundi negotia</l>
+<l>Gubernante, et praesente rebus omnibus.</l>
+</lg>
+</div2>
+<div2 id='NaPW.04.03' n='3' type='scene'>
+<head>Christus, Paulus, Petrus, Veritas,</head>
+<lg>
+<l>Nullus ne vobis angelorum rettulit</l>
+<l>Quid agatur in terris? PAU. Nullus. Sed quesumus</l>
+<l>Magister, ut communices apostolis.</l>
+<l>CH. Mira est rerum facies. PE. Hem. CH. Satanas imperat</l>
+<l>Longe lateque, et ad nutum eius omnia</l>
+<l>Versa atque reversa sunt. PE. Heu. CH. Ille ecclesias</l>
+<l>Disiecit omnes, aut corrupit haeresi.</l>
+<l>Vix septem in orbe sunt relicta milia,</l>
+<l>Qui Romanae non acceperunt bestiae</l>
+<l>Characterem, qui non credunt mendaciis,</l>
+<l>Nec primis Satanae cesserunt furoribus.</l>
+<l>PAU. O miseros mortales, CH. In summa. Res ita</l>
+<pb id='s146'/>
+<l>Ut dudum dixi prosperantur impiis.</l>
+<l>Optimus habetur, qui agere novit pessime.</l>
+<l>Laudantur nova repperientes idola, qui</l>
+<l>Cultum offendit novum, sanctorum catalogo</l>
+<l>Asscribitur. Sed veritas huc advenit,</l>
+<l>Aliquid opinor apportans novi. PE. Satis</l>
+<l>Sunt haec quae dixti, etiam si aliud nihil adferat.</l>
+<l>CH. Hem surge Veritas. Quid vis? quid postulas?</l>
+<l>VE. Domine Iesu Christe, potestas tibi maxima</l>
+<l>Caelestium rerum est data et terrestrium.</l>
+<l>Cur non res humanas et me miserrimam</l>
+<l>Et exulem aspicis? Dominantur impii.</l>
+<l>Satanas ubique regnat. Res sunt tam malae,</l>
+<l>Ut peiores esse nequeant. Nosti omnia</l>
+<l>Et connives. Quousque tandem isthaec rogo?</l>
+<l>CH. Quid fles? VE. Iussisti me terris ex cedere,</l>
+<l>Et consueta humana relinquere commercia,</l>
+<l>Ut Satanae regnandi locus esset amplior</l>
+<l>Obedivi, excessi, liqui charam domum,</l>
+<l>Quam mihi in hominum solam pararas cordibus.</l>
+<l>In usta iam diu degi solitudine.</l>
+<l>Interea tamen (amore tactus intimo</l>
+<l>Prioris domicilii) volens cognoscere,</l>
+<l>An bene merita usquam quaererer a mortalibus,</l>
+<pb id='s147'/>
+<l>Ancillam in terras visum iussi pergere.</l>
+<l>Quae rettulit, neque tui neque mei <foreign lang='GR'>lo/gou</foreign></l>
+<l>Haberi usquam. Adeo Satanas vertit omnia.</l>
+<l>Pervenit Romam, an illic cura esset tui,</l>
+<l>Sed ecce Pammachius vastavit omnia.</l>
+<l>Mendacia illic, luxus, et superoia,</l>
+<l>Inauditaque scelera regnant. Homines tamen</l>
+<l>Sana (ut res loquitur) prorsus mente perdita,</l>
+<l>Pammachium adorant, de illius calice bibunt.</l>
+<l>Sicque omnes terras vomitu replent ebrii.</l>
+<l>CH. En quod dixi de Pammachio. PAV. O hominem impium</l>
+<l>VE. Nec calicem facile sinunt e manibus eripi.</l>
+<l>Sic arrident imposturae, sic falsitas</l>
+<l>Est cordi, sic nihil est sani relliquum,</l>
+<l>Sic doctrina humano inquinata stercore</l>
+<l>Placidas repperit aures. Nec doctrinam impiam</l>
+<l>Pammachio auctore probant homines solum, sed et</l>
+<l>Turpissima facta iustitias cognominant.</l>
+<l>Persuasi falso Pammachium una cum suis</l>
+<l>Non posse errare. Ego magis credo (et res docet)</l>
+<l>Non posse recte facere, aut si quid fecerit</l>
+<l>Quasi errorem corrigere. Quod tu Caesari</l>
+<l>Quae Caesaris sunt iussisti omnes reddere,</l>
+<pb id='s148'/>
+<l>Usque adeo curat, ut pedibus illum premat,</l>
+<l>Tributa, et honorem neget et oboedientiam.</l>
+<l>Res Caesaris ipse habet, nil aliud Caesari</l>
+<l>Reliquit iurato, quam nomen Caesaris.</l>
+<l>Haec quum videret et audiret Parrhesia,</l>
+<l>Indigne tulit (ut solet) et verba vix tria</l>
+<l>Contra locuta, tuberosum fert caput,</l>
+<l>Comam evulsam, os contusum et oblitum luto,</l>
+<l>Nec his contenti, ignes minantur insuper,</l>
+<l>Et ut lubet haereseos cuique asscribunt dicam.</l>
+<l>Ut nulla me spes habeat posthac hominibus</l>
+<l>Placere posse, ut me reducant exulem.</l>
+<l>Ergo ne perpetuo mihi exulandum erit?</l>
+<l>An ita pulchrum est Satanam oppressisse, quae diu</l>
+<l>Multoque labore tui docuere Apostoli?</l>
+<l>Aut vis totum mundum perdere mendaciis?</l>
+<l>Certe scio aliquos superesse tuos, in quibus</l>
+<l>Iustitiae veritatisque residet amor, et</l>
+<l>Adhuc perfecto ad te suspirant pectore.</l>
+<l>Illorum te miserescat Christe. An impios</l>
+<l>Et hoc posse sines, ut non exitium sibi</l>
+<l>Operentur solis, sed simul etiam pios</l>
+<l>Perdant? Servator diceris, serva tuos</l>
+<l>Quos tibi dedit pater, qui credunt sanguine</l>
+<pb id='s149'/>
+<l>Sese tuo redemptos, et fiducia</l>
+<l>Mortis tuae Satanae promissa negligunt.</l>
+<l>Illis me mitte, illi suscipient, et locum</l>
+<l>Dabunt, ne in horrida hac peream solitudine.</l>
+<l>CH. Auditis nunc, quis sit rerum in mundo status?</l>
+<l>PAV. Totus magister exhorresco hanc audiens</l>
+<l>Narrationem. PE. Afflictis rebus consule</l>
+<l>Magister, veritatique tribuas locum.</l>
+<l>Ne Pammachius expugnatis mortalibus,</l>
+<l>Et in perpetuam servitutem traditis,</l>
+<l>Nobis dein caelestibus negotium</l>
+<l>Facessat, et in caelum usque regni proferat</l>
+<l>Pomoeria. VE. Certe Petre, timen dum censeo.</l>
+<l>Nam quantum intellexi id videtur struere, nec</l>
+<l>Frustra de caeli gloriatur clavibus.</l>
+<l>PE. De adulterinis forsan? Nam primas ego</l>
+<l>Probasque habeo. Nihilo minus tamen, seram</l>
+<l>Magister censeo mutandam, et obicem</l>
+<l>Firmum et adamantinum applicandum ianuae.</l>
+<l>CH. Nil hoc opus est timere Petre. Non huc sinam</l>
+<l>Nec Satanam, nec Pammachium quemque ascendere,</l>
+<l>Quantum etiam de caeli se iactent clavibus.</l>
+<l>Eant illuc, ubi nullis opus est clavibus,</l>
+<l>Ubi dies et noctes late patet ianua,</l>
+<pb id='s150'/>
+<l>Suas quo etiam praemittunt indulgentias.</l>
+<l>Illuc trudentur cum omnibus Gigantibus,</l>
+<l>Qui divos hominesque ausi sunt affligere.</l>
+<l>Quapropter Veritas, sis animo aequissimo.</l>
+<l>Multo sunt plura quam quae narrasti mala.</l>
+<l>Non fiunt me ignorante. Ego etiam videro</l>
+<l>Ne ultra quam constitutum est procedant, neque</l>
+<l>Ut in infinitum praevaleat iniquitas,</l>
+<l>Propter meos, quorum unus est mihi carior,</l>
+<l>Quam omnes Pammachii, quam cunctae Satanae tribus.</l>
+<l>Nihil timeas ut iustos perdant impii.</l>
+<l>Aut a mea faciant alienos gratia.</l>
+<l>Utcumque premantur et affligantur, nil tamen</l>
+<l>De illorum apud me hereditate deperit.</l>
+<l>Sunt filii, sunt heredes, quanque undique</l>
+<l>Circumstrepat malorum turba. Tu feras</l>
+<l>Mecum quae sunt ferenda. Porro, quod locum</l>
+<l>Alicubi in terris postulas tibi dari,</l>
+<l>Neque exilium amplius ferre potes, vix tibi</l>
+<l>(Quantum ego Satanam novi) est futurum commodum.</l>
+<l>Dissidia et motus excitabis maximos.</l>
+<l>Bellabum adversum te plenis tibiis.</l>
+<l>Gladiis, igni et aqua, milleque modis te volent</l>
+<l>Exstinctam. Ut nulla lupis cum agnis concordia est,</l>
+<pb id='s151'/>
+<l>Sic tibi mendaciisque nulla foedera</l>
+<l>Cohaerent, iugis erit <foreign lang='GR'>A)spondo/ste po/lemos</foreign></l>
+<l>Haec praedico, futuri ne sis insciens,</l>
+<l>Ut etiam atque etiam quid agas recte cogites.</l>
+<l>Non venies ad pacem, aut choros, aut gaudia,</l>
+<l>Sed omnium in malorum colluviem et mare.</l>
+<l>VE. Immortalis sum. Monstra duntaxat locum,</l>
+<l>Satanae et Pammachii facile furores perferam.</l>
+<l>CH. Ut vis. Quandoquidem etiam alioqui tempus est</l>
+<l>Ut Satanae turbetur regnum, tam prosperos</l>
+<l>Tolerante haud amplius cursus Rhamnusia.</l>
+<l>Monstrabo tibi locum. VE. Rogo domine ut velis.</l>
+<l>CH. Vides Germaniam? VE. Video, CH. Ad boream vide.</l>
+<l>VE. Heu, Num me etiam vis macerare frigore?</l>
+<l>CH. Confide, calesces plus satis. Albis ubi fluit?</l>
+<l>VE. Video. Illic ex Bohemia magno alveo</l>
+<l>Per Mysiae campos et per fortes Saxones,</l>
+<l>In Oceanum devolvitur Germanicum.</l>
+<l>CH. Recte. Hinc eunti trans Albim est sita civitas</l>
+<l>Bis longitudine vincens latitudinem.</l>
+<l>Arx est in parte quae occidentem respicit,</l>
+<l>Quam Saxonum Dux condidit, qui primus est</l>
+<l>Conversus ad fidem. VE. Quid postea? In angulum</l>
+<l>Illum me divertere iubes? CH. Scilicet. Abi.</l>
+<pb id='s152'/>
+<l>VE. Ad quem? CH. Ad Theophilum. Illum tuas doce vias.</l>
+<l>Ut Papatus cuncta patefaciat hulcera,</l>
+<l>Ut somnolentos Germanos excitet, et ut</l>
+<l>E templo rursus pellat nummularios,</l>
+<l>Qui ecclesiam latronum speluncam putant,</l>
+<l>Qui capiunt et opes animasque indulgentiis,</l>
+<l>Qui ut fungis cunctis illudunt mortalibus.</l>
+<l>Te Theophilus suscipiet scio cupide, et locum</l>
+<l>Parabit ampliorem in terris omnibus.</l>
+<l>VE. Euge Domine, sic consule miseris mortalibus.</l>
+<l>Unum tamen adhuc supplex abs te peto. CH. Quid est?</l>
+<l>VE. Paulum mihi viae comitem addas obsecro, ut</l>
+<l>Illo praesente maior sit verbis fides.</l>
+<l>Neu sola in tam feris verser nationibus.</l>
+<l>CH. I Paule. Conduc veritatem, et adiuva</l>
+<l>Mei nominis ut rursus crescat gloria.</l>
+<l>Etiam si Satanae Pammachioque ilia crepant.</l>
+<l>PAV. Eo magister, tutus iam a periculis.</l>
+<l>Sed si mihi ferenda essent, quae olim pertuli</l>
+<l>Mortalis adhuc, vix huius essem audaciae.</l>
+<l>Eamus Veritas, ne nox nos obruat.</l>
+<l>CH. Ite. Sed heus, Theophilum armatote fortiter</l>
+<l>Verbo et scripturis, ne formidet congredi</l>
+<l>Cum Pammachio, cui ne mo quivit hactenus</l>
+<pb id='s153'/>
+<l>Resistere, sed omnes oppressit nequiter.</l>
+<l>Me praedicet, me commendet, me diligat,</l>
+<l>Satanas Pammachiusque sit abominatio.</l>
+<l>Ego protegam, murumque illum dabo aereum.</l>
+<l>PAV. Sat est magister, sedulo curabitur.</l>
+</lg>
+</div2>
+<div2 id='NaPW.04.04' n='4' type='scene'>
+<head>Dromo, Satanas, Pammachius, Porphyrius.</head>
+<lg>
+<l>O Stygia palus quantum est malorum. Vix queo</l>
+<l>Resumere spiritum. Hem quid hoc? Nemo audiet?</l>
+<l>Dormitis? Eho, nullus vestrum est sobrius?</l>
+<l>Quid dicam? Vomitu omnes mensae et scamna perfluunt.</l>
+<l>Hosce tuba vix resuscitaret ultima.</l>
+<l>O Satana non audis? Etiam tu stertere</l>
+<l>Didicisti? SA. Hem quis vocat? Quid clamas pessime?</l>
+<l>DRO. Quid ego clamem? Dormitis in discrimine</l>
+<l>Tanto? SA. Quid narras? DR. Hui bellum, arma, surgite</l>
+<l>PO. Oh vix possum aperire oculos. PA. Quis clamoribus</l>
+<l>E tam dulci somno excitat? SA. Quid est rei?</l>
+<l>PA. Hem Dromo reverteris? quid fers? quid nuntias?</l>
+<l>DRO. Rerum iam certe sum malarum nuntius.</l>
+<l>SA. Ludis Dromo. DRO. Ego ne luderem in re seria?</l>
+<l>Quod vidi et audivi vobis referam. PA. Bene.</l>
+<l>DRO. Consurrexere hostes in vos fortissimi.</l>
+<pb id='s154'/>
+<l>SA. Hem quid ais? DR. Rem ipsam. SA. Cessa. Suscita Episcopos</l>
+<l>Monachos, Canonicos, Cardines et ceteros.</l>
+<l>PA. Hui surgite, surgite omnes. DR. Quam graviter queunt</l>
+<l>Hesternam prorsus crapulam destertere?</l>
+<l>SA. Recita nunc clare. DRO. Quam voletis clarius.</l>
+<l>Consurrexere hostes in vos fortissimi,</l>
+<l>Monarchiae qui vestrae pessime volunt.</l>
+<l>PA. Qui sunt? Ubi? quis defectionis auctor? Et</l>
+<l>Quapropter? quando? quo robore? quo exercitu?</l>
+<l>DRO. Hem istuc ibam. Ad septentrionem Saxones</l>
+<l>Habitant, inter hos vidi doctorem novum,</l>
+<l>Qui Veritate Pauloque exhortantibus</l>
+<l>Adversum vos Germanos omnes excitat,</l>
+<l>Doctrinae vestrae gratia et tyrannidis,</l>
+<l>Quae amplius haud toleranda esse suadet fortiter.</l>
+<l>Et modo sane non Saxones solum, sed et</l>
+<l>Germani ferme omnes vestrum abiciunt iugum.</l>
+<l>Vos veluti impostores detestantur male.</l>
+<l>SA. Audis haec Pammachi? PA. Oh totus ardeo</l>
+<l>Iracundia, et animi perplexitate. Si</l>
+<l>Quis Veritatem mihi iam et Paulum traderet,</l>
+<l>Simul et doctorem illum scelestum, in temporis</l>
+<l>Puncto cum ipsis omnes vorarem vestibus.</l>
+<pb id='s155'/>
+<l>SA. Heu praestitisset vigilare, haud totos dies,</l>
+<l>Abdomini, somno, ventrique impendere.</l>
+<l>PA. O haereticos, o schismaticos, o perfidos,</l>
+<l>Qui haec in Romanae sedis interitum struunt.</l>
+<l>PO. Dic mihi Dromo, quid docent, quae illorum dogmata?</l>
+<l>DRO. Docent homines sola iustificari fide.</l>
+<l>PO. O errorem crassum. PA. Vaeh nostris ventribus.</l>
+<l>DRO. Salutem in solo Christi haberi nomine.</l>
+<l>PO. O haereticos. PA. Vaeh vaeh meis honoribus.</l>
+<l>DRO. Papam docent non esse caput ecclesiae.</l>
+<l>POR. Ad ignem, ad ignem. PA. Vaeh triplici diademati</l>
+<l>DRO. Legem impleri non posse nostris viribus,</l>
+<l>Multo minus plus fieri posse a quopiam.</l>
+<l>PO. O fatuitatem. PA. Vaeh creaturis meis.</l>
+<l>DRO. Nihil prodesse sacramenta sine fide.</l>
+<l>Nec iustificari ex opere operato quem piam.</l>
+<l>PO. O distortos homines. PA. Vaeh doctrinae meae.</l>
+<l>DRO. Nec Missam opus esse, quod vivis et mortuis</l>
+<l>Ex opere ipso veniam peccatorum impetret.</l>
+<l>Nec recte populo speciem subtrahi alteram.</l>
+<l>PO. O Viclevitas. PA. Vaeh vaeh nostris mercibus.</l>
+<l>DRO. Itidem confessionis vestrae mystica, et</l>
+<pb id='s156'/>
+<l>Alia multa onera reprobant conscientiae.</l>
+<l>PO. O maliciam inauditam. PA. Veh nostris sacculis</l>
+<l>DRO. Nec invocari Divos debere approbant.</l>
+<l>Nec peregrinationes, nec ieiunia,</l>
+<l>Nec omnia opera humana, quantum vis bona,</l>
+<l>Remissionem peccatorum operarier.</l>
+<l>PO. O impios plane homines. PA. Veh ceremoniis.</l>
+<l>DRO. Nec ad salutem dicunt indulgentias</l>
+<l>Requiri vestras. Quidam nec faciunt pili.</l>
+<l>PO. Hem istuc etiam tradunt? PA. Vaeh nostris nundinis.</l>
+<l>Quid nunc facimus Satana? SA. Quid? macta, interfice</l>
+<l>Terra, aere, igni, aqua, omnes quos huius viae</l>
+<l>Nactus fueris. Unde ego vos posthac pascerem,</l>
+<l>Si dogmata haec abstulerint vectigalia?</l>
+<l>Huc res ut video tendit. Nunc omnis lapis</l>
+<l>Movendus est. Nunc vires vestras promite.</l>
+<l>Nunc nunc novus scribendus est exercitus.</l>
+<l>PO. Sic Pammachi male succedet venatio,</l>
+<l>Etiam plaustrum exonerandum est indulgentiis.</l>
+<l>PA. Si quis mihi daret huius doctrinae caput,</l>
+<l>Frustillatim dentibus illud discerperem.</l>
+<l>Hoccine parare quem piam mortalium?</l>
+<l>Itane tandem spernere Christi vicarium?</l>
+<l>SA. Hui mox huc primores omnes concedite,</l>
+<pb id='s157'/>
+<l>Ut quid nobis faciundum sit, sententia</l>
+<l>Quisque sua dicat. In tantis periculis</l>
+<l>Nihil est cunctandum. Haec opprimenda censeo,</l>
+<l>Dum adhuc in herba sunt, nae roborata, plus</l>
+<l>Laboris postulent, plus et periculi.</l>
+</lg>
+</div2>
+<div2 id='NaPW.04.05' n='5' type='scene'>
+<head>Satanas, Pammachius, Porphyrius Planus, Stasiades, Chremius.</head>
+<lg>
+<l>Accumbite. Audistis quae nos premant mala,</l>
+<l>Qui hostes, quae dogmata, quaeve conspiratio</l>
+<l>In nos consurgat a quibusdam perfidis.</l>
+<l>Ut timeam non pro me modo, sed pro vobis magis,</l>
+<l>Pro me quidem, quod Christi surgit gloria,</l>
+<l>Quam ego una vobiscum prope dudum exstinxeram.</l>
+<l>Quamvis nec ex vestra re sit eam crescere.</l>
+<l>Pro vobis vero, et vestris pro crumenulis,</l>
+<l>Quod commeatui vestro hinc periculum</l>
+<l>Haud vulgare venit. Quin et vectigalibus</l>
+<l>Magna per haec dogmata vestris lis intenditur,</l>
+<l>Ut res vestrae ad Saguntinam spectent famem.</l>
+<l>Scitis enim, ex missis et ex ceremoniis,</l>
+<l>Ex relliquiis, et ex Divorum cultibus,</l>
+<l>Ex operibus bonis, et ex ieiuniis,</l>
+<l>Ex naeniis animarum, ex indulgentiis,</l>
+<pb id='s158'/>
+<l>Et ex confessione, ex paenitentia,</l>
+<l>Proventus esse vestros. Quare si omnia</l>
+<l>Turbarint hostes, et homines averterint,</l>
+<l>Ne vestro sint intenti posthac quaestui,</l>
+<l>Unde ego vos odosos pascam? Aut unde vos</l>
+<l>Equos, scorta, canes alere poteritis? Aut quibus</l>
+<l>Regales instruetis pompas? Ne igitur huc</l>
+<l>Veniatur, omni cur andum est industria.</l>
+<l>Unus quisque suam iam dicat sententiam.</l>
+<l>Qua re, rebus tam afflictis succurri queat.</l>
+<l>Dic Pammachi. PA. Adversus cos, Princeps, Caesarem</l>
+<l>Armabo terrarumque reges omnium,</l>
+<l>Qui nobis sunt iurati, qui sunt filii</l>
+<l>Semper dilecti, qui colunt nos hactenus.</l>
+<l>Episcopis, et cunctis qui potentiam</l>
+<l>Vel unius muscae obtinent, praecepero</l>
+<l>Ut ante quidem caelesti tactos fulmine</l>
+<l>Exterminent, perdant, occidant, strangulent,</l>
+<l>Sine iudicio, sine lege, absque misericordia,</l>
+<l>Omnes qui adversum me haec docuerint dogmata.</l>
+<l>SA. Recte. Dic Porphyri. PO. Studiorum censeo</l>
+<l>Magnis promissis adduci collegia, ut</l>
+<l>Etiam suis haec dogmata damnent calculis.</l>
+<l>Unde facile toti orbi innotescet, perdite</l>
+<pb id='s159'/>
+<l>Illos omnes errare qui susceperint,</l>
+<l>Et merito ex humano eici consortio,</l>
+<l>Et aeternis iure plectendos ignibus.</l>
+<l>Deinde libri tam perversorum dogmatum,</l>
+<l>Sacris urantur exsecrationibus.</l>
+<l>Pecus suillum grunniat, latrent canes,</l>
+<l>Obrudant onagri, in caelum mugiant boves.</l>
+<l>Scribant libros sophistae valde blittei,</l>
+<l>Hira, anguli, mustellae, atque coclearia.</l>
+<l>A nobis magnifica sperantes premia.</l>
+<l>Sic haeretici opprimentur multitudine,</l>
+<l>Et os vel invitis facile obturabitur.</l>
+<l>SA. Pulchre. Dic Plane. PL. Mihi videtur optimum,</l>
+<l>Cur are, ne illi inter se unanimes sint diu.</l>
+<l>Sed inter sese pugnent et dissentiant.</l>
+<l>Subinde et alia suscitabo dogmata,</l>
+<l>Longe peiora istis, quasi tamen orta sint</l>
+<l>Ex his, ut in popelli rapiantur odium.</l>
+<l>Nobisque ad expugnandum aditus sit facilior</l>
+<l>SA. Belle. Dic Stasiades. ST. Ut Princeps, dogmatis</l>
+<l>Quae in Papatus exitium coorta sunt</l>
+<l>Minus applaudatur, et favoris sit minus</l>
+<l>Omnem ex Asia traducam mox exercitum, ut</l>
+<l>Sub illius praetextu doctrinae, vagi</l>
+<pb id='s160'/>
+<l>Ad seditiones commoveantur rustici,</l>
+<l>Dominorum grave conantes excutere iugum.</l>
+<l>Quod cordati videntes homines, qui hactenus</l>
+<l>Pacifice egerunt sub Papatu, et qui novis</l>
+<l>Non gaudent rebus, quantumvis melioribus,</l>
+<l>Abominabuntur nova isthaec dogmata, et</l>
+<l>Pacificum nostrum regnum amplectentur magis.</l>
+<l>SA. Bene. Dic Chremi. CH. Si (Princeps) mea munera</l>
+<l>Measque artes bene novi, haud diffido fore</l>
+<l>Quin multi in nostra maneant observantia,</l>
+<l>Pecuniis corrupti et auri copia.</l>
+<l>Video enim vix quemque applicari dogmatis</l>
+<l>Hisce novis posse, si non in periculum</l>
+<l>Vitam suam suaque deponat omnia.</l>
+<l>Cuius animi non sane permultos fore</l>
+<l>Puto. Ridebunt viso argento plurimi.</l>
+<l>Credent quae quisque volet exactor aut dator.</l>
+<l>Neque bolum ex faucibus sibi sinent eripi.</l>
+<l>SA. Percommode dixistis omnes omnia, et</l>
+<l>Diversa licet, tamen in unum tendunt scopum,</l>
+<l>Scilicet ut surgentia sternantur dogmata.</l>
+<l>Et Papatus suis floreat honoribus.</l>
+<l>Nec Christi tam alte praedicetur gratia.</l>
+<l>Proinde iam nunc consulta aggrediamini.</l>
+<pb id='s161'/>
+<l>Uni cuique sua commissa sit sententia.</l>
+<l>Tu armato Episcopos, Reges, et Caesarem.</l>
+<l>Tu doctis et indoctis dato negotium,</l>
+<l>Ut doctrinis hisce adversentur sedulo.</l>
+<l>Tu subserito haereses, et prava dogmata.</l>
+<l>Tu bella et seditiones parito rusticas</l>
+<l>Tu fortes enervato animos pecuniis.</l>
+<l>Ita facite, ut Satana digni vide amini.</l>
+<l>Res non patitur lentae manus conamina.</l>
+<l>Agite, surgite, furioso cuncta spiritu</l>
+<l>Subvertite, <foreign lang='GR'>kai\ o)rgh=s mnh/sasqe qou/ridos.</foreign></l>
+<l>Oculi, dentes, lingua, manus, oraque, gladiis</l>
+<l>Atque venenis armata sunto Colchicis.</l>
+<l>Non magis huius doctrinae sectatoribus</l>
+<l>Parceri volo, quam rabidis canibus aut lupis.</l>
+<l>Qui primus hostium mihi nunc occurrerit,</l>
+<l>Illius ad nauseam me explebo sanguine.</l>
+</lg>
+</div2>
+<div2 id='NaPW.04.06' n='6' type='scene'>
+<head>Epilogus Actus Quinti.</head>
+<lg>
+<l>Ne iam exspectetis. Spectatores optimi,</l>
+<l>Ut Quintus huic addatur actus fabulae,</l>
+<l>Suo quem Christus olim est acturus die.</l>
+<l>Interea Actus Quarti consilia res movent</l>
+<pb id='s162'/>
+<l>Rursum prorsum, ut videtur in praesentia,</l>
+<l>Totum Satanae iam perstrepit negotium.</l>
+<l>Defenditur Papatus cultusque impii.</l>
+<l>Perstrenue Christi adversatur gloriae.</l>
+<l>Propter superstitiones et ceremonias</l>
+<l>Quae cum scripturis et verbo pugnant Dei.</l>
+<l>Multum quottidie christiani sanguinis</l>
+<l>Effunditur, quasi is demum certissimus</l>
+<l>Dei cultor sit, et pietati deditus,</l>
+<l>Qui multas hominum fecerit succidias,</l>
+<l>Qui iugulare homines pro delectamento habet.</l>
+<l>Insaniunt in nos Turcae perfortiter.</l>
+<l>Insanimus nos in nos ipsos haud minus.</l>
+<l>Ut Christianis sit molestum vivere, et</l>
+<l>Spectare iugiter Satanae Tragoedias.</l>
+<l>Nec sperandum humanis consiliis res fore</l>
+<l>Meliores, nisi Deus istius Tragoediae</l>
+<l>Finem fecerit adventu Filii sui.</l>
+<l>Suos qui ex mundo tollat, ut aurum ex stercore,</l>
+<l>Et impios perpetuis tradat ignibus,</l>
+<l>Quod fabulae totius erit <foreign lang='GR'>katastrofh\</foreign>.</l>
+</lg>
+</div2>
+<closer>
+<foreign lang='GR'>Te/los.</foreign>
+</closer>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+ <teiHeader type="text">
+    <fileDesc TEIform="fileDesc">
+      <titleStmt TEIform="titleStmt">
+        <title TEIform="title">Centuria I. (-VI.) epigrammatum.</title>
+	<title type="sub" TEIform="title">Machine-readable text</title>
+        <author n="Moscherosch" TEIform="author">Moscherosch, Johann Michael</author>
+        <editor TEIform="editor" role="editor">Moscherosch, Johann Michael</editor>
+      </titleStmt>
+      <editionStmt TEIform="editionStmt">
+        <edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+        <respStmt TEIform="respStmt"><name TEIform="name">Ruediger Niehl</name><resp TEIform="resp">markup</resp></respStmt>
+      </editionStmt>
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/moscher1" type="href" id="moscher1" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note>
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">moscher1</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">moscheroschcenturiae.html</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">moscheroschcenturiae.xml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">moscher1/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+      <sourceDesc default="NO" TEIform="sourceDesc">
+        <bibl default="NO" TEIform="bibl">Frankfurt (Main): Rohner, 1665. </bibl>
+      </sourceDesc>
+    </fileDesc>
+   <encodingDesc TEIform="encodingDesc">
+      <editorialDecl default="NO" TEIform="editorialDecl">
+          <p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+       </editorialDecl>
+      <refsDecl TEIform="refsDecl" doctype="TEI.2">
+          <p TEIform="p">not necessary</p>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc TEIform="revisionDesc">
+     <change TEIform="change">
+	<date TEIform="date">19 November 2004</date>
+	<respStmt TEIform="respStmt">
+	  <name TEIform="name">Manuel Roehrig (corrections), Ruediger Niehl (tagging)</name>
+	  <resp TEIform="resp">markup</resp>
+	</respStmt>
+	<item TEIform="item">Metre not tagged. TEI header and tagging added; typed text - structural tagging complete - no semantic tagging - Morpheus spell check</item>
+     </change>
+     </revisionDesc>
+ </teiHeader>
+
+
+
+<text><gap id="GR"/><front>
+
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart"><pb id="s001" TEIform="pb"/>
+Epigrammata
+IOH. MICH.
+MOSCHEROSCH
+
+FRANCOFURTI
+Impensis
+Sebastiani
+Rohneri
+
+<figure TEIform="figure"><head>Illustration</head></figure>
+
+<pb id="s003" TEIform="pb"/>
+Centuria Prima
+Epigrammatum
+<name type="person" TEIform="name">IOHAN. MICHAELIS
+MOSCHEROSCH.</name>
+</titlePart>
+<epigraph TEIform="epigraph">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><foreign lang="GR" TEIform="foreign">Mh\ Mw=mon a)na/pses;</foreign></l>
+<l TEIform="l" part="N"><foreign lang="GR" TEIform="foreign">Te/xnas d' o(mo/technos i)/due.</foreign></l>
+</lg>
+<bibl default="NO" TEIform="bibl">Phocylid. v. 67 et 85</bibl>
+</epigraph>
+</titlePage>
+<pb id="s004" TEIform="pb"/>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<p TEIform="p">Cum
+
+NUlla in mundo possit esse Fortuna, quam Literarum non augeat gloriosa notitia.
+Cassiodorus.</p>
+<q TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><foreign lang="GR" TEIform="foreign">Timh\ ga\r pe/fuke pa=si paidei/a brotoi=s.</foreign></l>
+<l TEIform="l" part="N">Mortalibus enim Doctrina honori est omnibus.</l>
+</lg>
+</q>
+<p TEIform="p">
+ERgo: Quis tandem me reprehendat, aut quis mihi iure succenseat, si quantum
+ceteris ad suas res
+obeundas, quantum ad festos dies ludorum celebrandos, quantum ad alias voluptates,
+et ad ipsam requiem
+Animi et Corporis conceditur Temporis: quantum denique aleae, quantum pilae:
+tantum mihi egomet ad
+haec studia recolenda sumpsero? Cicero pro Archia.</p>
+</div>
+<pb id="s005" n="3" TEIform="pb"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<head>ACADEMIAE ARGENTORATENSI. AUGUSTAE. Piae. Felici.
+
+Studiorum meorum Primae Matri.
+
+NUTRICI. PATRONAE. Rectrici. Dominae.
+
+Salutem et Incrementum!
+</head>
+<p TEIform="p">
+MAter Honoratissima. Tria vero sunt, de quibus Tibi supplicare, mihi gratulari
+debeam: Quod ex obscura
+ignorantiae abysso, celebri illa et famosa Iuventutis peste me eripueris, et
+oculis me meis videre feceris.
+Quod literis et moribus imbutum me reddideris. Quod viam Felicitatis mihi
+praemonstraveris. Tria sunt; at
+Tria fere <sic corr="?" TEIform="sic">Infintia</sic>: Quid enim potuisses addidisse magis? Omnia
+Tu dedisti. Ecce namque, vix natum
+uberibus 'tuis aluisti. Ulnis Tuis gestasti. Lingua loqui congrue me docuisti.
+quod impedimenti fuerat;
+Industria Tua correxisti. studiis meis vitam dedisti. optimo ad senectutem viatico
+me donavisti; etiam, si
+Sors ita tulerit, vel cum Aristippo exulantem. Magnus semper fuit
+Affectus in me Tuus, invictus semper.
+potuisses peregrinae iniuriae expositum, Marti venditum me deseruisse; verum, non
+passa es, adeo crudele
+servitium me subire; enixa potius, raptum Ingenuitati pristinae restituisse.
+Rectrix veneranda,
+
+<pb id="s006" n="4" TEIform="pb"/>
+Infinita sunt et haec et illa. At, ne tibi, ut Proverbium est, <foreign lang="GR" TEIform="foreign">lo/gous ant' a)lfi/twn</foreign>; En Animum meum!
+Aliter certe non possum, Mater carissima. Tibi namque Reverentiam Oboedientiamque
+promitto eam, quam
+Pietas Tua meretur, summam, a DEO primam. Sanctum est mihi nomen Tuum, Memoria
+Tua: <corr sic="Utrumqne" resp="transcriber" TEIform="corr">Utrumque </corr> perpetua celebratione decantandum. Taces? mea Domina: Indignaris victimam isthancce? Homagium
+hocce? non indignaris certe; En divina facies Tua, quam supplex intueor, adoro,
+ipsa silendo mihi loqui; nec
+indignationis fulmen, sed favorabiles Clementiae reflexus promittere videtur. Et
+quem admodum Numen
+Tuum, Gratiae Tuae, Pharos quidam sunt, et Ductrix et Regula, et Lex meorum
+studiorum, Epigrammatum
+horum; Ita eadem nunc virtuti Tuae consecrata suscepturam Te penitus confido. Si
+indigna sunt? quod
+subvereri quidem deberem, eo plus laudis Te, tam vile et exile donum non
+repellentem manebit. Ego, quam
+Fasces tuos venerer et <corr sic="Impernm" resp="transcriber" TEIform="corr">Imperium</corr>.
+Sancta loquatur Veritas! non ipse quidem effabor; ne, quod alii sibi
+promittunt, a Te eblandiri videar. Quaerebat sane et allectabat me amicabilis illa
+Musarum seductrix
+<foreign lang="GR" TEIform="foreign">Enuw\</foreign>: Potosi montes promittebat: Parare tamen
+nolebam: Picem subolfaciebam, non gustabam: Ac, ut
+dicam quod res est, ne nunc quidem <foreign lang="GR" TEIform="foreign">A)rgura/gxhn pa/sxw; Mh\ po/qos ei)s xru/son h)/ ei)s a)/rguron</foreign> Dignius quod
+meditor Germano pectore
+nomen. Malo, hercule, numquam currere, quam male currere, ita delitescere, quam
+patriae cum malo
+adsurgere. Rident haec <foreign lang="GR" TEIform="foreign">filai/matoi</foreign> isti: sed rideant: ita mihi
+placeo, si
+
+<pb id="s007" n="5" TEIform="pb"/>
+bonis placeo; ipsi suo malo tandem quoque; sed frustra, resipiscent.
+
+Nunc autem Patrona; Mater Optima Maxima, Ecce Talentum quod dedisti.' non
+abscondidi; lucratus
+insuper aliud: utrumque iam cum usura depono: Ita tamen, ut et pone Consilium Tuum
+et Patrocinium
+implorem: Accipe ergo et fove <foreign lang="GR" TEIform="foreign">h(dwni/dia</foreign> haecce Tua, hunc
+ingenii mei fetum: quem
+Censurae Tuae (addo et vitam meam et omnia) ex aequo et iure submitto. Deum pro
+Salute Tua precor: pro
+incremento Tuo invoco: pro Felicitate Tua adoro.
+</p>
+<p TEIform="p">Argentorati, XVII. Kal. Iul. An. Christianor. 1630.</p>
+
+<p TEIform="p">Amplissimi et Gratiosissimi Patrocinii Tui
+
+Subiectissimus
+
+Ioh. Michael Moscherosch.
+
+Ex Episcopatu Argentoratensi trans Rhenum Wilstadiensis.
+</p>
+</div>
+<pb id="s008" n="6" TEIform="pb"/>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>De Centuria Prima Epigrammatum D. Iohannis- Michaelis Moscherosch. ad Lectorem.</head>
+
+<l TEIform="l" part="N">ISthic invenies, Amice Lector,</l>
+<l TEIform="l" part="N">Nec Lusus, neque fabulas inanes,</l>
+<l TEIform="l" part="N">Non partum Veneris, Iovisve cunas,</l>
+<l TEIform="l" part="N">Non pugnam Titanum, Rheaeve fraudes,</l>
+<l TEIform="l" part="N">Sive his consimiles iocos tricasque,</l>
+<l TEIform="l" part="N"><reg orig="Queis" TEIform="reg">Quis</reg> mulcere studet Poeta vanus</l>
+<l TEIform="l" part="N">Vanos et cupidos ineptiarum:</l>
+<l TEIform="l" part="N">Sed <foreign lang="GR" TEIform="foreign">gnw/mas</foreign> veterum et recentiorum</l>
+<l TEIform="l" part="N">Perdoctas, scio, nec minus politas:</l>
+<l TEIform="l" part="N">Has Tu pellege: sat scio, placebunt.</l>
+<l TEIform="l" part="N">Promittit similes novus Poeta,</l>
+<l TEIform="l" part="N">At non inferior bonis Poetis.</l>
+<l TEIform="l" part="N">Hunc laude tenui Tibi Phaleuco.</l>
+</lg>
+<closer TEIform="closer">Daniel OEsinger D.</closer>
+</div>
+
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>Ad Auctorem, Amicum Perdilectum.</head>
+<l TEIform="l" part="N">CArminis ergo genus, non quod male prurit, at urit.</l>
+<l TEIform="l" part="N">Et quod subtili cuspide pungit, amas?</l>
+<l TEIform="l" part="N">Pectoris hic opus est, opus est hic mentis aceto,</l>
+<l TEIform="l" part="N">Stylo est qui penetret, pungat et urat, opus.</l>
+<l TEIform="l" part="N">Quis tibi sit Stylus produnt tua carmina: acetum</l>
+<l TEIform="l" part="N">Quod tibi sit vultus prodit <corr sic="acedo" resp="printer" TEIform="corr">aceto</corr> tui.</l>
+
+<pb id="s009" n="7" TEIform="pb"/>
+<l TEIform="l" part="N">Unum LANE deest tibi, qui compenset acetum</l>
+<l TEIform="l" part="N">Maecenas, eadem Sors quoque Phoebe tua est.</l>
+</lg>
+<closer TEIform="closer">
+M. Ioh. Conradus Dannhauver.
+P.L.et P.P.</closer>
+</div>
+
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">QUod cudunt alii multum sudante Minerva,</l>
+<l TEIform="l" part="N">Id tibi vel lusus, delitiaeque manet.</l>
+<l TEIform="l" part="N">Sic te Phoebus amat, sic illum semper amasti,</l>
+<l TEIform="l" part="N">Ut tibi nunc pleno flumine Musa fluat.</l>
+<l TEIform="l" part="N">Perge! et quae mansit frondescens gloria Ovvenum,</l>
+<l TEIform="l" part="N">Haec eadem pennis te super astra vehet.</l>
+</lg>
+<closer TEIform="closer">
+In Amicitia magmentum scribebat
+Ioh.Heinricus Schill / D.I.V.</closer>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Iohannes Michael Moscheroschius. <foreign lang="GR" TEIform="foreign">A)nagr.</foreign> Hoc Rosae simile: Hic anne Moschus?</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">SUnt inter Magnos, obscurum quodque, Poetas,</l>
+<l TEIform="l" part="N">Obscenum quodvis qui decus esse putant.</l>
+<l TEIform="l" part="N">Rectius hic noster dilucida quaeque, Poeta,</l>
+<l TEIform="l" part="N">Moribus apta bonis. Haec decus esse putat.</l>
+<l TEIform="l" part="N">Auribus apta refert Verba, et Res Moribus aptas,</l>
+<l TEIform="l" part="N">Mens nostri Moscho convenit, Osque Rosae</l>
+<l TEIform="l" part="N">Hoc Opus esse Rosae Simile at qui forte negabit?</l>
+<l TEIform="l" part="N">Gustet, gustato dicet odore: Novus</l>
+<l TEIform="l" part="N">Anne Poeta Hic Moschus? sunt bene olentia cuncta:</l>
+<l TEIform="l" part="N">Mens Moschum spirat suaviter, osque Rosas.</l>
+</lg>
+<closer TEIform="closer">Suo F. Carolus Eggen.</closer>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s010" n="8" TEIform="pb"/>
+<head>Ioannes Michael Moscheroschius. <foreign lang="GR" TEIform="foreign">a)nagr.</foreign> Hoc Helicone Musis amores canis.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">QUi super umbrosum Musas Helicona locavit,</l>
+<l TEIform="l" part="N">Erycique amores insidere credidit.</l>
+<l TEIform="l" part="N">Ille quidem Vatem se non ostendit ineptum,</l>
+<l TEIform="l" part="N">Sed ipse falsus est suapte fabula:</l>
+<l TEIform="l" part="N">Non adeo Aniis iuga sunt spatiosa Deabus,</l>
+<l TEIform="l" part="N">Praerupta nec semper colit Cypris loca.</l>
+<l TEIform="l" part="N">Namque hoc arctari lepido potuere libello</l>
+<l TEIform="l" part="N">Novem Sorores atque Veneres et Ioci.</l>
+<l TEIform="l" part="N">Hic Helicon, hic alius Eryx placet esse Camenis.</l>
+<l TEIform="l" part="N">Ubi MOSCHEROSCH breves amores accinit.</l>
+</lg>
+<closer TEIform="closer">M.Ioh.Matthias Schneuber. P. L. Poes. in sup. Gym. Arg. Pr.</closer>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DRammata iam scribant, Satyras, Epigrammata, Vates.</l>
+<l TEIform="l" part="N">Cunctis materiam saecula nostra dabunt.</l>
+<l TEIform="l" part="N">Nam quoquo tandem vertat sua lumina Vates.</l>
+<l TEIform="l" part="N">Flere aut ridere, aut scit facere ambo brevis.</l>
+<l TEIform="l" part="N">Tu postrema facis, Te illuc enim Apollo vocavit:</l>
+<l TEIform="l" part="N">Et tibi succinctis ilibus halat opus.</l>
+<l TEIform="l" part="N">Rides si qua animae pulmo praelargus anhelet,</l>
+<l TEIform="l" part="N">Spumosa et pingui cordice siqua vomit.</l>
+
+<pb id="s011" n="9" TEIform="pb"/>
+<l TEIform="l" part="N">Atque tribus rides verbis, modicisque cachinnis.</l>
+<l TEIform="l" part="N">Et tamen in brevibus versibus urna salis.</l>
+<l TEIform="l" part="N">Me ridere potes, cui iam sub pollice longi</l>
+<l TEIform="l" part="N">Repunt Hexametri, difficilesque ioci.</l>
+<l TEIform="l" part="N">At quia non omnes sumus omni tempore: quod tu</l>
+<l TEIform="l" part="N">Iam facis, id quondam fecero, tu quod ego.</l>
+<l TEIform="l" part="N">Perge, nota turpes, Vates tersissime, mores,</l>
+<l TEIform="l" part="N">Meque tuae Musae delicia interama.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>Ad eundem.</head>
+<l TEIform="l" part="N">CUm me Brixia militem fovebat,</l>
+<l TEIform="l" part="N">Ad Musas monitis tuis redivi.</l>
+<l TEIform="l" part="N">Tu.cum Celtica rura permearas,</l>
+<l TEIform="l" part="N">Ut vitam excoleres probe futuram,</l>
+<l TEIform="l" part="N">Ductu, nescio quo, prope incidisti</l>
+<l TEIform="l" part="N">In Martis laqueos, quod <corr sic="improbabas" resp="printer" TEIform="corr">hem probabas</corr>,</l>
+<l TEIform="l" part="N">Ni musae monitu ipsius redisses,</l>
+<l TEIform="l" part="N">Et pro Marte tibi ipse Martialis</l>
+<l TEIform="l" part="N">Et sit reddita Penna pro Bipenni.</l>
+</lg>
+<closer TEIform="closer"><corr sic="Illusit" resp="printer" TEIform="corr">Allusit</corr> amicus amico Ioh.Nicolaus Furichius Med. D. et Poet. C.</closer>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DUm Numeros Numero multos complecteris uno</l>
+<l TEIform="l" part="N">Laudo tuum Numerum, Laudo tuos numeros.</l>
+</lg>
+<closer TEIform="closer">Amico suo fecit M. sebastianus Konig SS. Th. St.</closer>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">QUantum Virgilius laudis meruisse videtur.</l>
+<l TEIform="l" part="N">Quod magni fuerit sollers imitator Homeri:</l>
+
+<pb id="s012" n="10" TEIform="pb"/>
+<l TEIform="l" part="N">Tantum Laudis habes. quod sis imitator Ovveni,</l>
+<l TEIform="l" part="N">Grande Epos ille quidem, Tu tersum Epigramma figuras.</l>
+</lg>
+<closer TEIform="closer">Samuel Glonerus.</closer>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TUtelae Alsaticae Sacer Minervae</l>
+<l TEIform="l" part="N">Fetus ingenii politioris,</l>
+<l TEIform="l" part="N">Qui lucis penetrat recens in oras:</l>
+<l TEIform="l" part="N">Et docto tibi quid ni, Amice, patri</l>
+<l TEIform="l" part="N">Tutelam Alsaticae impetret Minervae?</l>
+</lg>
+<closer TEIform="closer">Robertus Koenigsmann.</closer>
+</div>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Ad Lectorem De Editione Tertia.</head>
+<q TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Saepe stylum vertas --</l>
+</lg>
+<bibl default="NO" TEIform="bibl">Horat. lib. I. Serm.Satyr. 10.</bibl>
+</q>
+<p TEIform="p">
+Mentem ego Poetae secutus, id idem in hac Editione praestiti, quam nunc tibi
+emendatiorem sisto. Vale, et
+te quoque emenda.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Centuria III. Epigrammatum IOHAN-MICHAELIS MOSCHEROSCH.
+
+
+Principibus brevis esto viris. Auth.
+
+
+
+FRANCOFURTI, Sumptibus SEBASTIANI ROHNERI, Typis DANIELIS FIEVETI.
+M. DC. LXV.
+
+
+
+
+NIl adeo Invidiae faces, quam parium impar virtus excitat. Saxo Grammaticus.
+
+
+INvidet vero quispiam? hoc ipso se inferiorem ostendit. Lipsius.
+
+
+STudendum ergo semper, melioribus placere, quam pluribus, Matth. Zuber Aeolohyl.
+pemm. 3. dedio.
+
+
+
+Illustrissimo Celsissimoque Principi ac Domino, Domino ERNESTO BOGISLAO, Croyae et
+Arschotti
+Duci S.R.I. Principi. Marchioni in Have Comiti in Fontenoy et Bayonne Domino
+Dommartini et
+Venustingae Domino meo omnium Clementissimo. 
+
+
+Illustrissime Celsissimeque Princeps
+Domine
+Clementissime
+
+PErmisit Venerandus mihi Parens, Roganti ut succisiva opera, et post severiora
+Iuris exercitia, relaxandi
+animi gratia Iuveniles eius ac liberioris animi conceptus et chartas Poeticas
+maxime rure quondam scriptas,
+inspicere atque in ordinem redactas publici Iuris facere liceret. Venit in manus
+primo intuitu, tertia haec
+Epigrammatum Centuria Illustrissimo Nomini Summisque Virtutibus tuis, Princeps
+Celsissime, alligata, eo
+modo quo ad te heic ipsa destinata properat. Accipe eam serena fronte o Princeps,
+sit propter Parentis mei,
+fidelia et proficua terris Tuis, in quibus non tantum cum hominibus, iuriumque
+tuorum hostibus, sed bello
+fame et peste non parum insumpto patrimonio nostro decertandum ipsi fuerat:
+servitia, sit propter
+Celsissimum
+
+Nomen Tuum. quo Celsissima Mater initiatum, sicque Illustrissimo Patrocinio tuo me
+uti frui dignum
+voluit: suppliciter orans, ut non tantum eam, quam de Alcibiade ut Pseudo
+Politicorum Moribus annis
+abhinc decem Tuae Celsitudini inscripsi Disputationem, sed et haec Epigrammata
+oculis aspicere
+clementibus, et studia atque conatus clementissime fovere eius velis; cuius Nomen
+bene merendi studia
+atque animus servitiis Tuis ab ineunte mancipatus non potest esse quam
+
+
+Illustrissimae Celsitudini Tuae
+Carissimus, Subiectissimus, atque ad Aram Devotisimus
+
+
+Francofurthi Cal. Martii. 1665.
+
+
+Ernestus Bogislaus Moscherosch. I. U. C.
+
+
+
+
+Illustrissimo, Reverendissimo Celsissimoque Principi ac Domino, Domino ERNESTO
+BOGISLAO Croyae
+et Arschotti Duci S. R. I. Principi. Episcopo Caminensi Marchioni Haurechio Comiti
+fontenaci et Bayonnae
+Domino Dommartini et Fenestrangiae. Domino meo Clementissimo Iustitiam,
+Clementiam, felicitatem!
+
+AEliani lib. 5. cap. 4. in historiis verba sunt, Famam fuisse, in Deloprovenisse
+Olivam et Palmam atque hac
+tacta, Latonam a)pokuh=sai subito partum edidisse, cum ante id
+facere non potuisset.
+
+
+Aliquot iam anni sunt Domine, cum severior et vita et studium ab his me studiis
+avocaverunt, in tantum
+quorundam opinione, ut abs me ea in desertum ivisse credita fuere; Sed evenit quod
+Latonae mihi inter
+litterae Illustrissimi Stemmatis Tui intentius haerenti, ac in his regium Avorum
+Tuorum Nomen et priscae
+Magnitudinis Magnificentiaeque altius ruminanti monumenta, ut, ad aram gratiis
+tuis sacram, Olivam istam
+palmamque vitae, virtutumque Tuarum subito partum hunc et fovere sinu, et ut ad
+lucem vides edere ac eniti
+inceperim, quem alias forte concipere ne vix ausus fuissem. Bonum factum! Spes in
+vitam Tuam virtutemque nobis est, pacatum brevi tranquillumque Imperium misero et
+emedullato ad agonem populo tuo affore.
+
+Accipe ergo partum istum, et si apparet embryo, Serenitatis Tuae Clementia
+perfectioni restituendum refice.
+Hunc tibi nudum ego sisto, ut in mundum venit, sine ullo vel fuco vel colore,
+simplicem, apertum stylo et
+filo natum. Verba loquitur tria tria, nota, intellectuque facilia. Nimis enim alta
+fari, obscura meditari, et
+ingratum est Lectori, et bono viro odiosum: Principi vero indignum. In ligurinum
+scite Martialis inquit, lib. 3. Epigr. 44.
+
+
+Occurrit tibi nemo quod libenter,
+Quod quacumque venis fuga est et ingens
+Circa te Ligurine solitudo
+Quid sit scire cupis? nimis Poeta es.
+
+
+ODi poetas nimis poetas. Parva stultitia excusationem meretur; ingens, vituperium.
+Displicet Scriptorum
+genus illud, ad quod capiendum opus est ingenio. Adhuc Aeliani historia est. lib. 10. c. 10. Cum Ars
+pingendi iam ortum duceret, et quodam- modo in lacte fasciisque versaretur, adeo
+rudi, obscuro et impolito
+stylo depinxerunt animantia, ut adscribere ad ea pictores necesse esset. Hoc est
+bos! hoc est equus! hoc est
+arbor! Indice hoc atque divinatore Carmina mea non indigent: misellus Scriptor
+est, qui lectorem dubium
+magis quam certum reddit, et quem ipse, nisi ingentia lexicorum iugera
+perambulaverit, invenire non possit.
+Sed hic vela contraho, prospiciens in quo vitam mihi quietemque et post tot Belli famis pestisque mala
+devorata restitutionem iacturae omnium bonorum nostrorum promitto, mitissimum
+nempe Illustrissimi
+Nominis tui virtutisque portum.
+
+Id adprecans saltem Felicitati tuae a DEO; det, vitam et vitam: hoc est:
+Iustitiam, ut floreas, sicut Palma et
+multiplicere sicut Cedrus Libani. Ecclesiast. Clementiam, ut Domus Tua tranquilla
+exsistat atque felix.
+Seneca lib. 1. de Clem. Conscientiam, ut nocere nolis cum possis, et sic conserves
+gloriam, Regibus dignam.
+Cetera cuncta dedit. e Fenestrangia tua S. R. I. Mareschallatu X. Decembris Anni
+Christianorum. M. DC.
+XXXIX.
+
+
+Illustrissimae Celsitudinis Tuae
+Iurata fide atque exorata a summo Oboedientissimus
+Ioh. Michael Moscherosch.
+
+
+
+
+Ad Centuriam Tertiam Epigrammatum. Ioh. Michael Moscherosch. Ad Auctorem.
+
+MOnsieur Fils et Compere, Iayreceu ces Iours passer Vostre liuret, que ie trouve
+bien couche, et a mon
+goust. Vostre style, pour estre bien Court me plaist D'avantage, que le long
+discours de Monsicur Gloner et
+d'autres Longuebardes. Ie vous enouye mon passe temps que i'ay forge ceste
+semaine,
+fur la, chasse et
+pesche que vous feistes dernierement, chez moy icy dans Wibelshaim. Ma femme est
+deliberee de voir un
+de ces iours sa commere, vostre femme. Car encore que sa fillole est morte, elle
+ne laissera, pourtant pas de
+voir la mere en sa couche, et de luy donner quelque petite souvenance. Lapremiere
+fois que i'auray
+l'honneur de voir Monseigneur le Comte de Hanau nostre bon maistre, ie ne
+laisseray luy entamer quelque
+mot pour vostre avancement: Ces messieurs sont de courte memoire, il les faut
+faire souvenir de leur
+promesse, puis que leur parolle, cedisent-ilz; leur doit estre aussy chere que la
+vie. Ie vous soubhaite, toutte
+prosperite et demeure Filz et Compere
+Vostre bien affectionne.
+
+
+
+
+Carmina scripsisti nuper, nunc retia tendis,
+Insidias Avibus struis hic, Vulpesque Luposque
+Impetis atque fugas lepores pavidos in campis,
+Squamiferos capis et pisces in flumine mutos
+Auceps, Piscator, Venator et ipse Poeta,
+
+
+In Wibhaetzheim 22. Iunii 1630.
+Philippus Bockle a Bocklins Avv. etc.
+
+
+
+
+Clarissimo Iuveni Viro Dn. IOH. MICHAELI MOSCHEROSCH designato Crehangiae
+Praefecto Amico
+meo.
+
+EGo vero quod pro lepidissimis tuis Epigrammatibus tibi reponam non habeo praeter
+ingentes gratias.
+Video in te, mi Moscheroschi, rarum illud consortium iudicii recti et felicis
+Ingenii: Quod ne te tibi
+prolixius laudare velle videar, brevi hoc disticho, ex animi mei sententia,
+exprimo:
+
+
+Aurea qui patriae dedit haec Epigrammata nostrae 
+Dic annon Vates aureus ille siet?
+
+
+Quae denuo misisti Apophthegmata, tam grata sunt, quam quae gratissima. Admisi
+illa reliquorum in
+collegium, et suis locis collocavi. Tu sic pergas quaeso, et in me Patriam tibi
+devincias, licet iam ante tibi
+tuoque amori obstrictissimam. Quae de traiectione literarum illarum initialium H.
+M. M. ut illae quidem a
+te positae, qua de re mihi eae suspectae omnino fuerunt nominis tui, mones, volo
+quod vis, et ita ut via inter
+anonymos inferam.
+
+Vale, et me tui amantissimum redama, salutato a me longe Meritissimo Domino
+Berneggero nostro, apud
+Goarinos XII. Mensis mihi Cognominis. 1630.
+
+
+Tui studiosissimus
+I. W. Zingresius.
+
+
+
+
+
+
+
+
+
+
+
+
+Centuria IV. Epigrammatum IOHAN-MICHAELIS MOSCHEROSCH.
+
+
+
+Ventosa remurmurat Echo.
+Tit. Calphurn. Eclog. 4.
+
+
+
+
+FRANCOFURTI,
+Sumptibus SEBASTIANI ROHNERI,
+Typis DANIELIS FIEVETI.
+M. DC. LXV.
+
+
+
+
+
+Delectandi gratia etiam notissima dicuntur, ubi non ipsa, sed modus quo dicuntur
+attenditur. D. Augustinus
+lib.3. de Doctrina Christ.
+
+
+Facile quidem est, demoliri quod alius exstruxit; at difficilimum, idem, aut melius
+aliquid exstruere; ita
+aliorum opera reprehendere in proclivi est: at eodem modo meliusve dicere, non est
+perinde facile.
+Plutarchus.
+
+
+Ego certe integrum libellum numquam texuerim, si singulorum me accomodare
+stomachis vellem. Zuber.
+dedic. Demotheniae.
+
+
+
+Illustri ac Generoso Domino, Domino Wilhelmo Curtio, Equiti Baronetto: Serenissimo
+Electori Palatino a
+Consiliis Interioribus, Praefecto in Umbstatt et Ottsberg! Domino Meo Gratioso
+
+TAntum non precibus Bibliopola, Civis optimus atque Amicus, a Venerando Parente
+meo obtinuit, ut
+succisivis horis Iuvenilia ipsius scripta pervestigarem, Epigrammatumque Centurias
+aliquod in lucem
+exponerem: aegre Satis, hoc quidem politico, id est, dubio atque invidioso feculo
+passus est. Audeo vero
+Illustris ac Generose Domine hanc Tuae Generosit: Centuriam quartam offerre,
+Simplici humilique affectu,
+devotissimoque cum candore et Cultu Neque inde aliquid ambio, nisi Generosam Illustris animi Tui
+Clementiam, Gratias istas atque Divas, quibus non tantum Amicos Tuos atque Patriam
+ipsam,
+Serenissimamque Archipalatinam Domum, sed et potentissimum Angliae Scotiae ac
+Hiberniae Regem
+immerita nuper sorte habitum, novo plane atque inaudito emeritissimae
+promptitudinis ac fidei Exemplo ad
+perpetuam a)ntidwrh/an Tibi Illustrique familiae Tuae faventem
+reddidisti. Patere Vir
+
+Illustris atque Generose ut haec Tibi Inscriptio documentum omnimodae subiectionis
+nostrae ad
+posteritatem exstet, et me meosque Illustris familiae Tuae mancipia ita fore
+permitte. Francofurthi Calendis
+Martii 1665.
+
+
+Illustris Generositatis Tuae
+humilimus devotione cultuque servus
+Ernestus Bogislaus Moscherosch. I. u. Cand.
+
+
+
+
+
+
+
+
+
+
+
+Centuria Quinta. Epigrammatum IOHAN - MICHAELIS MOSCHEROSCH.
+
+
+Contentus paucis Lectoribus.
+Horat. lib. 1. Satyr. 10.
+
+
+
+FRANCOFURTI, Sumptibus SEBASTIANI ROHNERI,
+M.DC.LXV.
+
+
+
+
+
+--- Non semper ficta Poeta refert.
+Laudimus in vanis: ubi res est seria verum
+Promimus: et proni sic in utroque sumus.
+
+I. P. Crusius in Epigr 2.
+
+Delectandi gratia etiam nota dicuntur, ubi non ipsa, sed modus quo dicuntur,
+attenditur. D. August. lib.3.de
+Doctr. Christ.
+
+
+Dia Poesis ab Hominibus trivialibus et barbaris prostituta est, ut eat exulatum.
+Eat autem. Imo ivit. Theod.
+Rhod. Poetae Melisseas in Praefat. sup, Colignium.
+
+
+
+Nobilissime, Amplissimo, Excellentissimo Domino Iohanni Danieli Horstio, Medicinae
+Doctori Experientis
+simo, Serenissimi Hassia Principis Archiatro h.t.in Reupbl. Francofurt. Practico
+felicissimo meritissimo
+Patrono meo.
+
+COllegi non nesciente venerando Parente meo Centurias aliquot Epigrammatum, quae
+in Academiis
+adolescens, in peregrinationibus ac primis functionibus suis
+iuvenis ipse pridem conscripserat:
+Horum, vir Amplissime, Centuriam hic unam, sic enim horum studiorum mos invaluit,
+Tuo sub Auspicio in
+publicum produco, Nominique Tuo, tot in Patriam atque Serenissimum Principem, tot
+in Academiam, tot in
+Clientes et bonos omnes officiis atque meritis clarissimo inscribo atque subicio:
+nec vero insolutum, sed
+arrhae tantum loco. Cum enim omni officio cunctis hominibus, imprimis Patronis
+satisfacere debeam, quibus
+sciam poteroque; Tibi tamen maxime, cuius collatorum in nos beneficiorum sanctam
+ad posteros
+iuravi memoria, eam quae nulla umquam interitura sit oblivione. At haec quidem ne
+minimam referendae
+gratiae partem habent, sed eo tantum modo tendunt, ut scilicet in publico Tibi nos
+tot Nominibus sistamus
+Debitores. sic enim spero Amplitudinem Tuam facturam quod ii Creditores facere
+solent, qui benignos se
+Debitoribus praebent: ubi nova obligationis recognitione publicaque Debiti
+confessione tantisper
+sustentantun, usque deum meliori rerum feliciorique proventu sortem ipsam cum
+usuris exsolvant. Id ut
+brevi fiat, Deum omnipotente supplex oro, et spe certa confido. Vale. Franc. Cal.
+Mart. 1665.
+
+
+Nob. Ampl. et Excell. Tuam
+Summa cum Observ. et Submiss. colens E. B. M.
+
+
+
+
+
+
+
+
+
+
+
+Centuria Sexta. Epigrammatum IOHAN - MICHAELIS MOSCHEROSCH. 
+
+
+
+Longa sat haec brevitas si repetatur erit.
+Marc, Zub. P. Melisseus.
+
+
+
+FRANCOFURTI, Sumptibus SEBASTIANI ROHNERI,
+M.DC.LXV.
+
+
+
+
+
+Tamdiu parergis immorandum est, quamdiu nihil agere animus maius potest. Seneca
+Epist. 89.
+
+
+Exempla omnia iacerent in tenebris, nisi literarum lumen accederet Cicero pro Archia P.
+
+
+Si multi inebrientur vino, non ob id incidendae vites, ut fecit Lycurgus, sed
+propius admovendi fontes: ita
+si multi abutentur poetica, non protinus abicienda, sed adhibenda Cautio, ut fiat
+salutaris. Plutarchus.
+
+
+
+Inclutam
+Meritissimae Felicitatis
+Rem publicam Francofurthanam
+Hoc una Gubernantium
+Anno
+M DC LXV.
+Auctoritate Pietateque in Patriam
+Illustrium Consulum
+Generosi Domini
+IOHANNIS HECTORIS ab
+Holtzhausen
+Consulis Senioris.
+Generosi Domini
+IOHAN. HIERONYMI STEFFAN
+a Cronstetten
+Consulis Iunioris
+FILIIS DILECTISSIMIS
+Generis prosapia Literis et Virtute
+Clarissimis.
+TIBI
+Nobilissime Domine
+IOHANNES HECTOR ab Holtzhausen/
+TIBI
+Nobilissime Domine
+HIERONYME ADOLPHE STEFFAN
+a Cronstetten.
+
+
+
+Hanc
+Epigrammatum Paternorum
+Centuriam Sextam:
+Pignus
+Eius quae in Academiis suas egit radices.
+In Mediomatricum nuper Gallia
+florem ac spiravit odorem.
+Nunc vero
+Post in Patriam Reditum
+Illustrium Parentum Benevolentia
+Clarissimorum Amicorum favore
+Sanctiorisque Consortii nexu atque Amore
+In perennantem exsurgit fructum
+Amicitiae:
+Observantiae itidem atque homagii
+Monumentum
+Offert. Dicat. Dedicat.
+Ernestus B. Moscherosch.
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

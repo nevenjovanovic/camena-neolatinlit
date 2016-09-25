@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Poematum Nathanis Chytraei praeter sacra omnium libri septendecim.</title> 
+<title type="sub" TEIform="title">Machine-readable text</title> 
+<author n="Chytraeus" TEIform="author">Chytraeus, Nathan</author> 
+<editor role="editor" TEIform="editor">Chytraeus, Nathan</editor> 
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition> 
+<respStmt TEIform="respStmt">
+<name TEIform="name">?</name> 
+<resp TEIform="resp">markup</resp> 
+</respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher> 
+<address TEIform="address">
+<addrLine TEIform="addrLine">
+<anchor n="http://www.uni-mannheim.de/mateo/camena/chytr1" type="href" id="chytr1" TEIform="anchor"/> 
+</addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" place="unspecified" anchored="yes" TEIform="note">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" place="unspecified" anchored="yes" TEIform="note">chytr1</note> 
+<note type="filename" place="unspecified" anchored="yes" TEIform="note">chytraeuspoemata.html</note> 
+<note type="titleimage" place="unspecified" anchored="yes" TEIform="note">chyt001.jpg</note> 
+<note type="srcfile" place="unspecified" anchored="yes" TEIform="note">chytraeuspoemata.xml</note> 
+<note type="imgpath" place="unspecified" anchored="yes" TEIform="note">chytr1/jpg</note> 
+<note type="imgtype" place="unspecified" anchored="yes" TEIform="note">html</note> 
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Rostock, 1579.</bibl> 
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 12/2000</p> 
+</editorialDecl>
+<refsDecl doctype="TEI.2" TEIform="refsDecl">
+<p TEIform="p">not necessary</p> 
+</refsDecl>
+</encodingDesc>
+<profileDesc TEIform="profileDesc">
+<creation TEIform="creation">chytr1</creation> 
+<textClass default="NO" TEIform="textClass">
+<classCode TEIform="classCode">chytraeuspoemata</classCode> 
+</textClass>
+</profileDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">24 October 2003</date> 
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name> 
+<resp TEIform="resp">markup</resp> 
+</respStmt>
+<item TEIform="item">typed text - structural tagging complete - incomplete semantic tagging - no spell check. could not identify reference of errata-list item: "p. 114 sine". The "Varia itinera" have been double-keyed and manually checked - should be rather neat.</item> 
+</change>
+<change TEIform="change">
+<date TEIform="date">09 April 2004</date> 
+<respStmt TEIform="respStmt">
+<name TEIform="name">Kim Barkowski</name> 
+<resp TEIform="resp">markup</resp> 
+</respStmt>
+<item TEIform="item">Morpheus spell check performed</item> 
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text><gap id="GR"/><gap id="sampling"/><front>
+ 
+ 
+<titlePage TEIform="titlePage">
+<pb id="s001" n="1b" TEIform="pb"/> 
+<titlePart type="main" TEIform="titlePart">
+POEMATUM NATHANIS CHYTRAEI PRAETER SACRA OMNIUM. LIBRI SEPTENDECIM. 
+<figure TEIform="figure">
+<figDesc TEIform="figDesc">CANDORIS AMABILE SIGNUM.</figDesc> 
+</figure>
+ROSTOCHII Imprimebat Stephanus Myliander. Anno M.D.LXXIX. 
+</titlePart>
+</titlePage>
+<div type="dedication" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s002" n="2a" TEIform="pb"/> 
+<head>
+<foreign lang="GR" TEIform="foreign">SYN THEO</foreign>. 
+<name type="person" TEIform="name">FRIDERICO SECUNDO</name> 
+<name type="place" TEIform="name">DANIAE</name>, 
+<name type="place" TEIform="name">NORVEGIAE</name> 
+, GENTIUMQUE SEPTEMTRIONIS REMOTISSIMARUM AMPLISSIMARUMQUE REGI SERENISSIMO ET POTENTISSIMO, POEMATA HAEC SUA, 
+<reg orig="tanquam" TEIform="reg">tamquam</reg> 
+primario eorum Patrono, submissa compellatione dedicat et consecrat. 
+<name type="person" TEIform="name">NATHAN CHYTRAEUS</name> 
+. 
+</head>
+<lg met="hexa" org="uniform" sample="complete" part="N" TEIform="lg">
+<l part="N" TEIform="l">
+SUnt homines non pauci equidem convicia 
+<name type="myth" TEIform="name">Musis</name> 
+</l>
+<l part="N" TEIform="l">Qui faciant, sacroque ortas e carmine laudes</l> 
+<l part="N" TEIform="l">Despiciant, vatumque illas deliria dicant,</l> 
+<l part="N" TEIform="l">
+Quique adeo 
+<name type="myth" TEIform="name">Musasque</name> 
+ipsas, castosque poetas 
+</l>
+<pb id="s003" n="2b" TEIform="pb"/> 
+<l part="N" TEIform="l">Regibus indignos clament, aliisque patronis.</l> 
+<l part="N" TEIform="l">
+Insani: qui cum 
+<reg orig="nunquam" TEIform="reg">numquam</reg> 
+laudabile quidquam 
+</l>
+<l part="N" TEIform="l">
+Sint facere aggressi, 
+<name type="myth" TEIform="name">Bacchi</name> 
+, 
+<name type="myth" TEIform="name">Venerisve</name> 
+gulaeve 
+</l>
+<l part="N" TEIform="l">
+Mancipia, aut 
+<name type="myth" TEIform="name">Pluti</name> 
+technas et lucra secuti: 
+</l>
+<l part="N" TEIform="l">Laudari quoque vile putant. sua crimina quidam,</l> 
+<l part="N" TEIform="l">Barbariemque animi, et vastum sine pectore corpus</l> 
+<l part="N" TEIform="l">Caelari sic posse ferunt, si carmine salso</l> 
+<l part="N" TEIform="l">Nemo ea depingat sero exagitanda nepoti.</l> 
+<l part="N" TEIform="l">Propterea pulsas toto obmutescere mundo</l> 
+<l part="N" TEIform="l">
+Optarent, turpique fame tabescere 
+<name type="myth" TEIform="name">Musas</name> 
+. 
+</l>
+<l part="N" TEIform="l">
+Nequidquam. nam nunc etiam 
+<name type="myth" TEIform="name">Phalarisque</name> 
+<name type="myth" TEIform="name">Midaeque</name> 
+, 
+</l>
+<l part="N" TEIform="l">
+Et 
+<name type="person" TEIform="name">Licinii</name> 
+sunt infames: non facta 
+<name type="myth" TEIform="name">Perilli</name> 
+</l>
+<l part="N" TEIform="l">
+Dira latent: rabies non est ignota 
+<name type="person" TEIform="name">Neronis</name> 
+. 
+</l>
+<l part="N" TEIform="l">
+At quanto melius sapiens rex ille 
+<name type="place" TEIform="name">Canopi</name> 
+, 
+</l>
+<l part="N" TEIform="l">
+<name type="person" TEIform="name">Magnus Alexander</name> 
+, 
+<name type="person" TEIform="name">Maecenas</name> 
+, 
+<name type="person" TEIform="name">Scipio</name> 
+, 
+<name type="person" TEIform="name">Cyrus</name> 
+</l>
+<l part="N" TEIform="l">
+<orig reg="Consuluerunt" TEIform="orig">Consuluere</orig> 
+sibi, atque etiam post funera famae 
+</l>
+<l part="N" TEIform="l">Illustri, cuius vivi quoque carpere fructus,</l> 
+<l part="N" TEIform="l">Iam tum iucundos, oculis animisque solebant,</l> 
+<l part="N" TEIform="l">Cum facerent laudanda ipsi, summosque poetas,</l> 
+<l part="N" TEIform="l">Historicosque suae testes virtutis haberent,</l> 
+<l part="N" TEIform="l">Eloquio insignes, nullaque aetate premendos.</l> 
+<pb id="s004" n="3a" TEIform="pb"/> 
+<l part="N" TEIform="l">
+Omnibus in reliquis ( 
+<name type="myth" TEIform="name">Dircaeo</name> 
+credere 
+<reg orig="cycno" TEIform="reg">cygno</reg> 
+</l>
+<l part="N" TEIform="l">Si volumus) primum decus est, feliciter uti</l> 
+<l part="N" TEIform="l">Fortuna, et gestis laudandum evadere rebus:</l> 
+<l part="N" TEIform="l">Alterum ab hoc notae certos virtutis habere</l> 
+<l part="N" TEIform="l">
+Praecones, 
+<name type="myth" TEIform="name">Musis</name> 
+et 
+<name type="myth" TEIform="name">
+<corr sic="Phoebo" resp="transcriber" TEIform="corr">phoebo</corr> 
+</name>
+digna sonantes. 
+</l>
+<l part="N" TEIform="l">At si, quod rarum est, uni contingat utrumque;</l> 
+<l part="N" TEIform="l">Is vero ante alios summam fert iure coronam.</l> 
+<l part="N" TEIform="l">Inclite rex, tibi, si cuiquam, laus utraque cedit</l> 
+<l part="N" TEIform="l">Haud equidem immerito. quis enim tua fortia magni</l> 
+<l part="N" TEIform="l">Facta animi, quis nescit opes? quis regna? quis arces?</l> 
+<l part="N" TEIform="l">Quis classem? quis vitricis palmaria dextrae?</l> 
+<l part="N" TEIform="l">Accedunt his historici, doctique poetae,</l> 
+<l part="N" TEIform="l">Cuncta haec qui serae cupiant transcribere famae</l> 
+<l part="N" TEIform="l">Carminibus scriptisque suis. quos inter et ipse,</l> 
+<l part="N" TEIform="l">Sim minimus licet, et tanto vix nomine dignus;</l> 
+<l part="N" TEIform="l">Prolubium, mentemque meam, studiumque placendi</l> 
+<l part="N" TEIform="l">En declaro tuae rex optime maiestati,</l> 
+<l part="N" TEIform="l">In fastis meliora etiam quandoque daturus,</l> 
+<l part="N" TEIform="l">Numina si faveant, et mitis dextra patroni.</l> 
+<pb id="s005" n="3b" TEIform="pb"/> 
+<l part="N" TEIform="l">Tu, quos iam dixi, regum laudata secutus</l> 
+<l part="N" TEIform="l">Exempla, invalidas non aspernare camenas:</l> 
+<l part="N" TEIform="l">Non laudes, contemne tuas, laudesque tuorum,</l> 
+<l part="N" TEIform="l">
+Quas 
+<name type="person" TEIform="name">Friderice</name> 
+tuis a laudibus haud alienas 
+</l>
+<l part="N" TEIform="l">
+Dixeris. hic 
+<name type="person" TEIform="name">Sophia</name> 
+est 
+<name type="nation" TEIform="name">
+<orig reg="Danaorum" TEIform="orig">Danaum</orig> 
+</name>
+regina, tuique 
+</l>
+<l part="N" TEIform="l">Rex consors thalami: sunt divi encomia patris,</l> 
+<l part="N" TEIform="l">
+Sunt soceri, socrusque tuae, 
+<reg orig="sobolisque" TEIform="reg">subolisque</reg> 
+serenae, 
+</l>
+<l part="N" TEIform="l">Heroumque adeo, tua qui celeberrima regna</l> 
+<l part="N" TEIform="l">Virtutum efficiunt merito: praeconia quorum</l> 
+<l part="N" TEIform="l">Iam dextra victrice tenes: evolvere et illa</l> 
+<l part="N" TEIform="l">
+O utinam libeat, roseisque attendere 
+<name type="myth" TEIform="name">Musis</name> 
+. 
+</l>
+<l part="N" TEIform="l">Quod facies, nisi me bonitas tua regia fallit,</l> 
+<l part="N" TEIform="l">Et solidae praeter laudis nullius avarus</l> 
+<l part="N" TEIform="l">Excelsusque animus, factaeque ad maximae vires.</l> 
+<l part="N" TEIform="l">Sic semper laudanda geras, laudanda sequaris,</l> 
+<l part="N" TEIform="l">Et regno factisque tuis super aethera notus,</l> 
+<l part="N" TEIform="l">
+Aeterno a 
+<name type="myth" TEIform="name">Musis</name> 
+felix celebreris honore. 
+</l>
+</lg>
+</div>
+<div type="dedication letter" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s006" n="4a" TEIform="pb"/> 
+<gap desc="toc" resp="sampling" TEIform="gap"/> 
+<pb id="s007" n="4b" TEIform="pb"/> 
+<head>
+<name type="person" TEIform="name">
+<abbr expan="IOHANNES" TEIform="abbr">IOHAN.</abbr> 
+POSTHIUS&gt; 
+</name>
+, Medicus et Poeta 
+<abbr expan="clarissimus" TEIform="abbr">clariss.</abbr> 
+<name type="person" TEIform="name">NATHANI CHYTRAEO</name> 
+<name type="place" TEIform="name">Mencingio</name> 
+populari suo 
+<abbr expan="Salutem Dicit" TEIform="abbr">S. D.</abbr> 
+</head>
+<lg met="dist" org="uniform" sample="complete" part="N" TEIform="lg">
+<l part="N" TEIform="l">Patria communis, quod glorior, est mihi tecum,</l> 
+<l rend="indent" part="N" TEIform="l">
+Culta 
+<name type="place" TEIform="name">Palatinus</name> 
+qua regit arva Leo. 
+</l>
+<l part="N" TEIform="l">
+Arva illa auriferis undis interflua 
+<name type="place" TEIform="name">Rheni</name> 
+, 
+</l>
+<l rend="indent" part="N" TEIform="l">
+Et 
+<name type="myth" TEIform="name">Bacchi</name> 
+et 
+<name type="myth" TEIform="name">Cereris</name> 
+ditia muneribus. 
+</l>
+<l part="N" TEIform="l">
+Hic ego, 
+<name type="person" TEIform="name">Lotichio</name> 
+sacros monstrante recessus, 
+</l>
+<l rend="indent" part="N" TEIform="l">
+<name type="myth" TEIform="name">Aoniae</name> 
+didici fila movere lyrae. 
+</l>
+<l part="N" TEIform="l">
+Hic etiam cultis mihi primus 
+<name type="?" TEIform="name">Erastus</name> 
+in hortis 
+</l>
+<l rend="indent" part="N" TEIform="l">
+<name type="myth" TEIform="name">
+<reg orig="Paeonias" TEIform="reg">Poeonias</reg> 
+</name>
+docta voce reclusit opes. 
+</l>
+<l part="N" TEIform="l">
+At tu 
+<rs type="place" n="Varnus" TEIform="rs">Varniades</rs> 
+puer olim ductus ad undas 
+</l>
+<l rend="indent" part="N" TEIform="l">
+<orig reg="Ornavisti" TEIform="orig">Ornasti</orig> 
+eximiis artibus ingenium. 
+</l>
+<l part="N" TEIform="l">
+<name type="myth" TEIform="name">Castalidum</name> 
+<reg orig="inprimis" TEIform="reg">imprimis</reg> 
+pulchro succensus amore 
+</l>
+<l rend="indent" part="N" TEIform="l">Virginei hausisti largiter amnis aquam.</l> 
+<l part="N" TEIform="l">
+Hinc tibi proveniunt 
+<name type="myth" TEIform="name">Musis</name> 
+et 
+<name type="myth" TEIform="name">Apolline</name> 
+dextro 
+</l>
+<l rend="indent" part="N" TEIform="l">Carmina vel priscis aequiparanda choris.</l> 
+<l part="N" TEIform="l">
+Sive tui sequeris vestigia magna 
+<name type="person" TEIform="name">Maronis</name> 
+, 
+</l>
+<l rend="indent" part="N" TEIform="l">Sive libet teneris verba ligare modis:</l> 
+<l part="N" TEIform="l">
+Seu 
+<rs type="person" n="Ennius" TEIform="rs">
+<name type="place" TEIform="name">Calabro</name> 
+</rs>
+certas docta testudine 
+<name type="person" TEIform="name">Flacco</name> 
+, 
+</l>
+<l rend="indent" part="N" TEIform="l">
+Dat palmam ingenio 
+<name type="myth" TEIform="name">Cynthius</name> 
+ipse tuo. 
+</l>
+<pb id="s008" n="5a" TEIform="pb"/> 
+<l part="N" TEIform="l">Adde, quod externas iuveni perquirere gentes</l> 
+<l rend="indent" part="N" TEIform="l">Tempore longinquo, ceu mihi, cura fuit.</l> 
+<l part="N" TEIform="l">Diversisque locis diversas discere linguas,</l> 
+<l rend="indent" part="N" TEIform="l">Artis, et ingenii dexterioris opus.</l> 
+<l part="N" TEIform="l">
+Scit pater 
+<name type="place" TEIform="name">Eridanus</name> 
+, cum 
+<name type="place" TEIform="name">Tibride</name> 
+novit et 
+<name type="place" TEIform="name">Arnus</name> 
+, 
+</l>
+<l rend="indent" part="N" TEIform="l">
+Novit honoratae 
+<name type="place" TEIform="name">Sequana</name> 
+rector aquae. 
+</l>
+<l part="N" TEIform="l">
+Novit et uberibus formosa 
+<name type="place" TEIform="name">Britannia</name> 
+campis, 
+</l>
+<l rend="indent" part="N" TEIform="l">
+Mercibus et dives 
+<name type="place" TEIform="name">Belgica</name> 
+novit humus. 
+</l>
+<l part="N" TEIform="l">Paene et utrique tulit similes sors aspera casus,</l> 
+<l rend="indent" part="N" TEIform="l">Sive aliqua adversi stella sinistra poli.</l> 
+<l part="N" TEIform="l">Ut sumus aeratas ausi conscendere naves,</l> 
+<l rend="indent" part="N" TEIform="l">Et pelagi insanis credere corpus aquis.</l> 
+<l part="N" TEIform="l">Utque per insidias latronibus undique septi</l> 
+<l rend="indent" part="N" TEIform="l">Fecimus obscurae tempore noctis iter.</l> 
+<l part="N" TEIform="l">Inque ipsis adeo hospitiis per rura, per urbes,</l> 
+<l rend="indent" part="N" TEIform="l">Saepius occultos sensit uterque dolos.</l> 
+<l part="N" TEIform="l">Parva loquor: vitae discrimen adivimus ambo:</l> 
+<l rend="indent" part="N" TEIform="l">Nomine quique fuit hospes, is hostis erat.</l> 
+<l part="N" TEIform="l">Sensimus aestiferis quoque febribus ima peruri</l> 
+<l rend="indent" part="N" TEIform="l">
+Viscera, 
+<name type="myth" TEIform="name">Paeonia</name> 
+vix reparata manu. 
+</l>
+<l part="N" TEIform="l">Postque tot exhaustos terraque marique labores</l> 
+<l rend="indent" part="N" TEIform="l">Ad patrios salvi venimus inde lares:</l> 
+<l part="N" TEIform="l">Doctaque nobilibus velati tempora sertis,</l> 
+<l rend="indent" part="N" TEIform="l">Solvimus aeterno vota precesque Deo.</l> 
+<pb id="s009" n="5b" TEIform="pb"/> 
+<l part="N" TEIform="l">
+Ille, 
+<name type="person" TEIform="name">Chytraee</name> 
+, velit longam nos vivere vitam, 
+</l>
+<l rend="indent" part="N" TEIform="l">Dotibus ut longum prosit uterque suis.</l> 
+<l part="N" TEIform="l">Perpetuos sacro tu condas carmine fastos,</l> 
+<l rend="indent" part="N" TEIform="l">Ut celebrent nomen saecula cana tuum.</l> 
+<l part="N" TEIform="l">Ipse ego sim medica non ultimus arte, meamque</l> 
+<l rend="indent" part="N" TEIform="l">Servatus laudet plurimus aeger opem.</l> 
+</lg>
+</div>
+<div type="letter" org="uniform" sample="complete" part="N" TEIform="div">
+<head>
+EIDEM 
+<name type="person" TEIform="name">
+<abbr expan="NATHANI" TEIform="abbr">N.</abbr> 
+CHYTRAEO 
+</name>
+<name type="person" TEIform="name">IOHANNES SCHOSSErus Aemilianus</name> 
+. 
+</head>
+<p TEIform="p">
+Suavissima tua poemata, quibus a te non tam donatus quam locupletatus sum, legi magna cum voluptate; laetatusque sum, te ad eam in hoc genere scribendi, quam ego iam pridem excellens ingenium et naturam tuam intuens, animo cogitationeque praeceperam, maturitatem perfectionemque pervenisse. Quo sane nomine 
+<abbr expan="reipublicae" TEIform="abbr">reipub.</abbr> 
+quoque gratulor; qua 
+<reg orig="exstinctis" TEIform="reg">extinctis</reg> 
+praecipuis nostri ordinis luminibus, eiusmodi viros quorum opera, divina illa poesis adversus tetram barbariem conservaretur, desiderare magnopere videbatur. Sed qualia quantaque in posterum 
+<pb id="s010" n="6a" TEIform="pb"/> 
+a te nobis 
+<reg orig="exspectanda" TEIform="reg">expectanda</reg> 
+erunt, mi clarissime iucundissimeque 
+<name type="person" TEIform="name">Chytraee</name> 
+, qui iuvenis propemodum, tam praeclara ingenii tui monumenta edideris. In quo ne morientibus fere literis, et tuae gloriae desis, amabo te, quantum potes, potes autem plurimum, enitere. Verum de hoc fatis; ne vel auribus tuis blandiri, vel amori erga te meo nimis indulgere videar. 
+<name type="person" TEIform="name">Caselio</name> 
+nostro, si ad academiam vestram reversus est, utere, ut soles, amantissime, et ex doctissimis eius colloquiis, id quod mihi negatum esse vehementer doleo, veros et uberes sapientiae fructus percipe. Exaravi ad ipsum quoque epistolam, quam huic adiunxi. Eam si vobiscum est 
+<name type="person" TEIform="name">Caselius</name> 
+, per te ipsi tradi; sin adhuc alibi commoratur, vel per certos homines ad eum perferendam curari, vel mihi remitti cupio. Est enim scripta de rebus quibusdam nostris privatis, quas in cuiuslibet manus pervenire prorsus nolim. Bene vale. 
+<name type="place" TEIform="name">Francofordiae</name> 
+ad 
+<name type="place" TEIform="name">Viadrum</name> 
+, 
+<date value="1567-01-01" TEIform="date">Kal. Ian. anno 1567.</date> 
+</p>
+</div>
+<div type="dedication letter" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s011" n="6b" TEIform="pb"/> 
+<head>
+<name type="person" TEIform="name">GEORGIUS FABRICIUS</name> 
+<name type="person" TEIform="name">DAVIDI CHYTRAEO</name> 
+<abbr expan="Salutem Dicit" TEIform="abbr">S. D.</abbr> 
+</head>
+<p TEIform="p">
+Clarissime vir, amice observande. 
+<name type="myth" TEIform="name">Cornu Amaltheae</name> 
+est, non quod Poetae fingunt: sed illud ex quo nascuntur, 
+<foreign lang="GR" TEIform="foreign">Filoi, Boethoi, martyres</foreign> 
+: ut Graecus Poeta, ni fallor, dixit. Tuus igitur frater 
+<name type="person" TEIform="name">Nathan</name> 
+tale ad me attulit, cuius amicitia iucunda, familiaritas grata, convictus optatus fuit: quem propter eruditionem, verecundiam, pietatem, et rerum cognitionem plurimarum, amo et amabo dum vivam. Quod, si quod speravit, hic non invenit, ferat id pro sua humanitate, aequo animo: et si tractatus in mea familia non est, ut par fuit: illud quoque ignoscat meis. De meo vitae genere, et de meis occupationibus, et de animis ingratis invidorum, et de perfidia notorum hominum, ipse narrare tibi poterit, qui de 
+<pb id="s012" n="7a" TEIform="pb"/> 
+tuis quoque calamitatibus dixit. Sed quid nos facere aliud decet, quam esse firmos et patientes, et divinum 
+<reg orig="exspectare" TEIform="reg">expectare</reg> 
+auxilium? Quod te quidem virum 
+<abbr expan="exercitatissimum" TEIform="abbr">exercitatiss.</abbr> 
+facere, non dubito: ego studere paulatim incipio. Gratulor tibi talem accidisse fratrem, qui potest esse tibi et solacio et ornamento: et ipsi gratulor, tot peracta itinera, beneficio Die, quibus non minus instructus est sapientia et virtute, quam si interim aliquam bibliothecam 
+<orig reg="devoravisset" TEIform="orig">devorasset</orig> 
+, bene magnam. Erit inter nos iam amicitia firmior, sermo literarum frequentior, oratio et communicatio de studiis liberior: eaque ut uti possimus suavitate diutissime, faciat DEUS. Non debui esse prolixior: cum habeas vivam epistolam, fratrem optimum, et hominem disertum. Vale 
+<name type="place" TEIform="name">Misena</name> 
+. 
+<date value="1567-08-13" TEIform="date">Idib. Augusti anno 1567.</date> 
+</p>
+</div>
+<div type="introduction" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s013" n="7b" TEIform="pb"/> 
+<head>
+LECTORI BENEVOlo et candido 
+<rs type="person" n="Stephanus Myliander" TEIform="rs">Typographus</rs> 
+<abbr expan="Salutem" TEIform="abbr">S.</abbr> 
+</head>
+<p TEIform="p">
+Eiusdem 
+<name type="person" TEIform="name">Nathanis Chytraei</name> 
+libri tres Imaginum et Meditationum sacrarum iampridem seorsum editi, in sequentibus quoque, si quae futurae sunt, editionibus, ab istis poematis seiungentur. Sicuti etiam libri XII 
+<term type="literary" TEIform="term">Fastorum</term> 
+<name type="org" TEIform="name">Ecclesiae Christianae</name> 
+, ubi aliquando confecti erunt, in peculiare volumen referentur. 
+</p>
+</div>
+<div type="introduction" org="uniform" sample="complete" part="N" TEIform="div">
+<head>
+EIDEM 
+<rs type="person" n="Nathan Chytraeus" TEIform="rs">Auctor</rs> 
+<abbr expan="Salutem Plurimam Dicit" TEIform="abbr">S.P.D.</abbr> 
+</head>
+<lg met="dist" org="uniform" sample="complete" part="N" TEIform="lg">
+<l part="N" TEIform="l">Diversis haec temporibus cum scripta videbis,</l> 
+<l rend="indent" part="N" TEIform="l">Sunt bona mixta malis, et mala mixta bonis</l> 
+<l part="N" TEIform="l">Clamabis forsan. fateor: cogorque fateri</l> 
+<l rend="indent" part="N" TEIform="l">Extremam haec semper non habuisse manum,</l> 
+<l part="N" TEIform="l">Nec potuisse etiam, sic tum properata tulerunt</l> 
+<l rend="indent" part="N" TEIform="l">
+Tempora quae modulis causa 
+<orig reg="fuerunt" TEIform="orig">fuere</orig> 
+meis. 
+</l>
+<l part="N" TEIform="l">Tu si plura bonis mala sint, quod non puto, totum hoc</l> 
+<l rend="indent" part="N" TEIform="l"><reg orig="Abiice" TEIform="reg">Abice</reg>: si vero sint bona plura malis,</l> 
+<l part="N" TEIform="l">Quod credo et spero: quaeso ne turpis arachne:</l> 
+<l rend="indent" part="N" TEIform="l">Sed potius castae morem imiteris apis.</l> 
+</lg>
+</div>
+<div type="poem" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s014" n="8a" TEIform="pb"/> 
+<head>
+<name type="person" TEIform="name">
+<abbr expan="Paulus" TEIform="abbr">P.</abbr> 
+MELISSUS 
+</name>
+<name type="person" TEIform="name">NATHANI CHYTRAEO</name> 
+qui carmina sua non scripta de rebus divinis profana vocaverat. 
+</head>
+<lg met="arc1" org="uniform" sample="complete" part="N" TEIform="lg">
+<l part="N" TEIform="l">
+Edita 
+<name type="myth" TEIform="name">Pieridum</name> 
+sacris ex carmina fanis 
+</l>
+<l rend="indent" part="N" TEIform="l">Tune profana vocas?</l> 
+<l part="N" TEIform="l">Ne vanus dicare cave, tua quando profanas:</l> 
+<l rend="indent" part="N" TEIform="l">Teque sacrasque deas.</l> 
+<l part="N" TEIform="l">
+<orig reg="Patravisti" TEIform="orig">Patrasti</orig> 
+laesae pol crimina maiestatis 
+</l>
+<l rend="indent" part="N" TEIform="l">Terque quaterque reus.</l> 
+<l part="N" TEIform="l">
+Damnas proinde esto 
+<name type="person" TEIform="name">Chytraee</name> 
+, aut pendere multam 
+</l>
+<l rend="indent" part="N" TEIform="l">Aut revocare nefas:</l> 
+<l part="N" TEIform="l">Nam capitis vatem parcunt anquirere et ipse</l> 
+<l rend="indent" part="N" TEIform="l">
+<name type="myth" TEIform="name">Phoebus</name> 
+et ipse chorus. 
+</l>
+<l part="N" TEIform="l">Unius ob vocis, crudele, piacula totum</l> 
+<l rend="indent" part="N" TEIform="l">Plectere velle caput.</l> 
+</lg>
+</div>
+</front><body><div1><p/></div1></body></text>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Fabularum veterum Aesopiarum libri duo.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Christ" TEIform="author">Christ, Johann Friedrich</author>
+<editor TEIform="editor" role="editor">Christ, Johann Friedrich</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, April 2004</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Knebusch</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/christ1" type="href" id="christ1" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">christ1</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">christfabulae.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">christfabulae.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">christ1/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Leipzig: Breitkopf, 1749.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">15 August 2005</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Jutta Jaeger, Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">Note: The enclitic 'que' which appears separately in the original has been joined to the preceding word throughout. Note: The commentary to the fables is not included in this transcription. Typed text - structural tagging complete - no semantic tagging - Morpheus spell check
+</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+
+
+
+<text><gap id="GR"/><gap id="Greek"/><gap id="sampling"/><body><div1 type="book"><pb id="s036" n=""/>
+<pb id="s037" n="1" TEIform="pb"/>
+<head><abbr expan="IOHANNI" TEIform="abbr">IOH.</abbr> <abbr expan="FRIDERICI" TEIform="abbr">FRIDER.</abbr> CHRISTII <abbr expan="FABULARUM" TEIform="abbr">FABUL.</abbr> <abbr expan="VETERUM" TEIform="abbr">VET.</abbr> <abbr expan="AESOPIARUM" TEIform="abbr">AESOPIAR.</abbr> LIBER PRIMUS</head>
+<div2 id="ChFL.01.01" n="1" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>PROOEMIUM</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In quo laborat omne nomen fabulae,</l>
+<l TEIform="l" part="N">Ut sermo pectus hauriat salutifer,</l>
+<l TEIform="l" part="N">Figura mentem tecta multiplici petit</l>
+<l TEIform="l" part="N">Agitatque fraude, tenue discrimen mali,</l>
+<l TEIform="l" part="N">Quod saepe fallit, apta tradere ac boni.</l>
+<l TEIform="l" part="N">Nunc utriusque noxiae, mali ac boni,</l>
+<l TEIform="l" part="N">In homine fons est. Munus ergo viris bonis</l>
+<l TEIform="l" part="N">Propriae feruntur fabulae, malis malae.</l>
+<pb id="s038" n="2" TEIform="pb"/>
+<l TEIform="l" part="N">Ita comparamus. Pluribus malae malis,</l>
+<l TEIform="l" part="N">Raris dabuntur hominibus paucae bonae</l>
+<l TEIform="l" part="N">Uterque noscat copiae vicem suae.</l>
+<l TEIform="l" part="N">Plerumque multi praemiis rectum putant</l>
+<l TEIform="l" part="N">Diversa vitant exitus mali metu,</l>
+<l TEIform="l" part="N">Et vera discunt segniter, qua lex iubet</l>
+<l TEIform="l" part="N">Sed qua poetae muniunt anfractibus,</l>
+<l TEIform="l" part="N">Viaque veri carminum insidias locant,</l>
+<l TEIform="l" part="N">Exempla quivis arripit celerrime.</l>
+<l TEIform="l" part="N">Quibus adiuvande scilicet, promptus parum,</l>
+<l TEIform="l" part="N">Exstante vitae in bestiis imagine,</l>
+<l TEIform="l" part="N">Natura quae relinquat, aut petat, vide.</l>
+<l TEIform="l" part="N">Hac fine paucis iuvit edere fabulis</l>
+<l TEIform="l" part="N">Me nunc terentem semitas minime novas</l>
+<l TEIform="l" part="N">Relata falsis facta vera vultibus.</l>
+<l TEIform="l" part="N">Latina reddo e turbidis, qua nunc minor</l>
+<l TEIform="l" part="N">Favet Albulae meatus, ac vati venit</l>
+<l TEIform="l" part="N">Musam secutus lenis Egeriae liquor.</l>
+<l TEIform="l" part="N">Tu gesta credes tradita Aesopi fide,</l>
+<pb id="s039" n="3" TEIform="pb"/>
+<l TEIform="l" part="N">Qui Graeca quondam, laude dignus plurima,</l>
+<l TEIform="l" part="N">Dedit ampliora. Rapuit haec oblivio,</l>
+<l TEIform="l" part="N">Et fortium ruina tempus invidum.</l>
+<l TEIform="l" part="N">Formas ferarum prodidit loquentium,</l>
+<l TEIform="l" part="N">Chorique vulpem fecit inventi ducem:</l>
+<l TEIform="l" part="N">Ut sub figura redderet mores suos,</l>
+<l TEIform="l" part="N">Vocesque, stultae civium superbiae,</l>
+<l TEIform="l" part="N">Variosque casus, ac brevis vitae vices.</l>
+<l TEIform="l" part="N">Nam fabularum discito natas strophas,</l>
+<l TEIform="l" part="N">Ut inveniret pronius verum fidem</l>
+<l TEIform="l" part="N">Fallace falsi conditum sub illice.</l>
+<l TEIform="l" part="N">Ut ficta rerum mollius mentes petant,</l>
+<l TEIform="l" part="N">Nudata quam si dicta veris asperes.</l>
+<l TEIform="l" part="N">Falso ille creber recta lecturos monet,</l>
+<l TEIform="l" part="N">Monstratque honestis additam calumniam</l>
+<l TEIform="l" part="N">Ab improbis, et gloriae laqueos, viris:</l>
+<l TEIform="l" part="N">Et plena fraude miseriisque fora omnia.</l>
+<l TEIform="l" part="N">Virtutis inter ista sed constantiam,</l>
+<l TEIform="l" part="N">Dum res superbo vana consilia excutit,</l>
+<l TEIform="l" part="N">Praebere firmum pauperi quamvis statum.</l>
+<pb id="s040" n="4" TEIform="pb"/>
+<l TEIform="l" part="N">Mactare veri stricta fulmina denique</l>
+<l TEIform="l" part="N">Meliore vitam, blanda quam laus,exitu.</l>
+<l TEIform="l" part="N">Sollers figurae regula, ac ratio boni</l>
+<l TEIform="l" part="N">Specimenque moris, quae ferarum vocibus</l>
+<l TEIform="l" part="N">Ingenia vatum docta reddunt optime.</l>
+<l TEIform="l" part="N">Hos inter aliquis Phaedri habetur nomine,</l>
+<l TEIform="l" part="N">Non ille durus: nam facetum existimo;</l>
+<l TEIform="l" part="N">Sic veterem, ut edidere docti, non puto.</l>
+<l TEIform="l" part="N">Quare ipsa, quae novarat, eruo e libris,</l>
+<l TEIform="l" part="N">Quibus usus ille, cuncta per vestigia</l>
+<l TEIform="l" part="N">Et verba prima, et res, et ingenium viri,</l>
+<l TEIform="l" part="N">Ut salva duret litterarum veritas,</l>
+<l TEIform="l" part="N">Sequor ac refingo. Magna si non protinus</l>
+<l TEIform="l" part="N">Ac scitiora reddo iniquus omnia:</l>
+<l TEIform="l" part="N">Antiqua certe, et optima, ut fuerant, fide</l>
+<l TEIform="l" part="N">Sincera praesto. Quo, quid ille omiserit</l>
+<l TEIform="l" part="N">Boni, patebit, et, quid addiderit mali,</l>
+<l TEIform="l" part="N">Sua dum paratis dicta miscet fabulis,</l>
+<pb id="s041" n="5" TEIform="pb"/>
+<l TEIform="l" part="N">Saepe idem Iambi celeris haud veros modos.</l>
+<l TEIform="l" part="N">Sed qualecumque reddimus, quia candide,</l>
+<l TEIform="l" part="N">Nec te malignum carpere invidia decet.</l>
+<l TEIform="l" part="N">Pueros virosque frugis augemus bonae</l>
+<l TEIform="l" part="N">Saltem libellis. pagina sumes brevi</l>
+<l TEIform="l" part="N">Quo commeatu Sortis eludas minas,</l>
+<l TEIform="l" part="N">Clypeoque recti tecta gestes pectora.</l>
+<l TEIform="l" part="N">Vives solutus, purus admissi, metu,</l>
+<l TEIform="l" part="N">Inimicum in animo, quod pavescas, nil habens.</l>
+<l TEIform="l" part="N">Aequis Athenae temperatae legibus,</l>
+<l TEIform="l" part="N">Servare certae mutuas iuris vices,</l>
+<l TEIform="l" part="N">Ratione potius rem tenebant, ac metu:</l>
+<l TEIform="l" part="N">Animique patrum recta civili modo</l>
+<l TEIform="l" part="N">Ad vota facti, nunc regebant omnia,</l>
+<l TEIform="l" part="N">Nunc se regendos deferebant civibus,</l>
+<l TEIform="l" part="N">Quos lex praeire iusserat, vel mox sequi.</l>
+<l TEIform="l" part="N">Hanc aequitatem sustulit potentia</l>
+<l TEIform="l" part="N">Paucorum, ut omnes regna iam mallent pati.</l>
+<l TEIform="l" part="N">Iam voce multa flagitabantur dii,</l>
+<pb id="s042" n="6" TEIform="pb"/>
+<l TEIform="l" part="N">Ut mitterent, qui vi malos compesceret.</l>
+<l TEIform="l" part="N">Exsistit unus, plebis ille primum amor,</l>
+<l TEIform="l" part="N">Mox magnus aeque terror optimis viris</l>
+<l TEIform="l" part="N">Nec iure factus, atque iure pessimis.</l>
+<l TEIform="l" part="N">Utrinque poenas exigit, praedas agit.</l>
+<l TEIform="l" part="N">Non ille morem saevus ultra regium,</l>
+<l TEIform="l" part="N">Sed quatenus res omnis insuetos gravat,</l>
+<l TEIform="l" part="N">Athenienses angit in miserum modum.</l>
+<l TEIform="l" part="N">Languent priorum cuncta laude temporum.</l>
+<l TEIform="l" part="N">Aesopus illos inter ista creditur</l>
+<l TEIform="l" part="N">Solatus hisce, quas citabo, fabulis.</l>
+<pb id="s043" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.02" n="2" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA I Ranae Regem petentes.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ranae vagantes liberae in paludibus</l>
+<l TEIform="l" part="N">Clamore regem flagitabant ab Iove,</l>
+<l TEIform="l" part="N">Qui cuncta sub ius unus acciperet suum,</l>
+<l TEIform="l" part="N">Ac dissolutis moribus legem daret.</l>
+<l TEIform="l" part="N">Vulgi innocentis stulta risit Iuppiter</l>
+<l TEIform="l" part="N">Lusitque vota. truncus exesae arboris</l>
+<l TEIform="l" part="N">Rex est, tigillum: quod cito accidens, gravi</l>
+<l TEIform="l" part="N">Motu sonoque terruit pavidum genus.</l>
+<l TEIform="l" part="N">Limo sepultae cum laterent ceterae,</l>
+<l TEIform="l" part="N">Metu una victo tacitum aquis effert caput,</l>
+<l TEIform="l" part="N">Visoque, mirum, rege, cunctas evocat.</l>
+<l TEIform="l" part="N">Illae timore posito item omnes adnatant:</l>
+<l TEIform="l" part="N">Mirantur: audent tangere: is nihil movet.</l>
+<l TEIform="l" part="N">Quid istud? Edas voce, si quid vis, rogant.</l>
+<l TEIform="l" part="N">Ubi, quidquid unda iactet, immotum vident,</l>
+<pb id="s044" n="8" TEIform="pb"/>
+<l TEIform="l" part="N">Petulante lusu plebs ducem supra sedet.</l>
+<l TEIform="l" part="N">Omni tigillum turba contumelia</l>
+<l TEIform="l" part="N">Conculcat: ultro paenitet legis datae,</l>
+<l TEIform="l" part="N">Poscuntque regem protinus Iovem novum.</l>
+<l TEIform="l" part="N">Iratus ille, quale contumax furor</l>
+<l TEIform="l" part="N">Studiumque vulgi segnis exemplum meret,</l>
+<l TEIform="l" part="N">Pacata mutat regna, dum Iento gravem</l>
+<l TEIform="l" part="N">Suffecit hydrum. Dente rex acri breves</l>
+<l TEIform="l" part="N">Ranas in altis facile corripiens aquis,</l>
+<l TEIform="l" part="N">Vesci parata saevus incipit dape,</l>
+<l TEIform="l" part="N">Et pinguiorum rapta corpora carpere.</l>
+<l TEIform="l" part="N">Fugitant inertes, voce praeclusa metu,</l>
+<l TEIform="l" part="N">Nec iam malorum talium effugium vident.</l>
+<l TEIform="l" part="N">Mandata furtim lata Mercurio ad Iovem:</l>
+<l TEIform="l" part="N">Desistat ille. nos perimus scilicet.</l>
+<l TEIform="l" part="N">Concessa quando non bona audetis pati,</l>
+<l TEIform="l" part="N">Modice feretis missa pro meritis mala,</l>
+<l TEIform="l" part="N">Ne peius instet porro nec sperantibus.</l>
+<l TEIform="l" part="N">Haec Iuppiter consultus ac divi undecim.</l>
+<pb id="s045" n="9" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.03" n="3" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA II Gallus gallinaceus et margarita.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dum gallus escam forte gallinaceus</l>
+<l TEIform="l" part="N">Sibi, farra, quaerit, unguibus limum petens,</l>
+<l TEIform="l" part="N">E sterculino margaritam proruit.</l>
+<l TEIform="l" part="N">Miratus addi sordibus cum stercore</l>
+<l TEIform="l" part="N">Decus id, capillo virginali debitum,</l>
+<l TEIform="l" part="N">Bona res, in isto quid iaces, ait, loco.</l>
+<l TEIform="l" part="N">Non dignus hic te splendida: frustra nites.</l>
+<l TEIform="l" part="N">Si te inveniret cupidus, auferret lubens,</l>
+<l TEIform="l" part="N">Tua forma honori redderetur pristino.</l>
+<l TEIform="l" part="N">Ego nactus escam scilicet, non te, peto.</l>
+<l TEIform="l" part="N">Nihil repertae prodero: nil tu mihi.</l>
+<l TEIform="l" part="N">Valet in superbum vatis illa fabula,</l>
+<l TEIform="l" part="N">Concessa quisquis dona non intellegit.</l>
+<pb id="s046" n="10" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.04" n="4" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA III Lupus et Agnus.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad rivum eundem fertur agnus et lupus:</l>
+<l TEIform="l" part="N">Ut in remota parte deponant sitim,</l>
+<l TEIform="l" part="N">Diversa quisque spatia per ripam tenent.</l>
+<l TEIform="l" part="N">Supra lupi vis: longe at inferior stetit,</l>
+<l TEIform="l" part="N">Ut biberet, agnus. Huic ut hostis litiget</l>
+<l TEIform="l" part="N">Quibus ciendae cumque rixae vocibus,</l>
+<l TEIform="l" part="N">Perturbat, inquit, ille aquas puras mihi.</l>
+<l TEIform="l" part="N">Respondet agnus, Qui queo, inferius bibens?</l>
+<l TEIform="l" part="N">Decurrit abs te per meos rictus liquor.</l>
+<l TEIform="l" part="N">Non cedit ille veritati. Tu mihi</l>
+<l TEIform="l" part="N">Maledicis, inquit, mensibus sex his modo.</l>
+<l TEIform="l" part="N">Sed natus illo tempore, agnus, non eram.</l>
+<l TEIform="l" part="N">Nisi tu, male ergo dixit ante tuus pater,</l>
+<l TEIform="l" part="N">Rabidum scelesta fauce concitus intonat,</l>
+<l TEIform="l" part="N">Sive aiat istud crimen ille, seu neget,</l>
+<l TEIform="l" part="N">Fatum innocenti triste venturus lupus.</l>
+<l TEIform="l" part="N">Iras potentum nostra tangit fabula,</l>
+<l TEIform="l" part="N">Qui lite ficta saepe tenues opprimunt.</l>
+<pb id="s047" n="11" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.05" n="5" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA IIII Graculus inter Pavones.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tumens inepta graculus superbia</l>
+<l TEIform="l" part="N">Pennas pavonum, quae ceciderant, sustulit,</l>
+<l TEIform="l" part="N">Ac pectus inde texit, et pedes, sui</l>
+<l TEIform="l" part="N">Contemptor ortus, splendidi gregis aemulus,</l>
+<l TEIform="l" part="N">Intra pavonum septa, qua falsus color</l>
+<l TEIform="l" part="N">Adiuvit, et persona, paene pavonem agens.</l>
+<l TEIform="l" part="N">Illi insolenti sumpta detrahunt avi</l>
+<l TEIform="l" part="N">Gestamina, urguent, morsibus nudum petunt.</l>
+<l TEIform="l" part="N">Hic veste rapta mancus, haud propriae potens,</l>
+<l TEIform="l" part="N">Euasit aegre, seque reddidit suis.</l>
+<l TEIform="l" part="N">Nec ius probavit publicum postliminI</l>
+<l TEIform="l" part="N">Mulcatus isto civibus propriis modo,</l>
+<l TEIform="l" part="N">Timidusque poenae, sponte nudatus sua,</l>
+<l TEIform="l" part="N">Domo reiectus, alteram subiit notam.</l>
+<l TEIform="l" part="N">Tunc unus horum, quos prius despexerat,</l>
+<l TEIform="l" part="N">Contentus aptis si fuisses cultibus,</l>
+<l TEIform="l" part="N">Natura quidquid dederat ut posses pati,</l>
+<l TEIform="l" part="N">Ferres nec illam nempe contumeliam,</l>
+<l TEIform="l" part="N">Nec in hac repulsae miseria, dixit, fores.</l>
+<l TEIform="l" part="N">Non appetes sic, invide, alterius bona,</l>
+<l TEIform="l" part="N">Ut ne tuis te vivere iuvet amplius.</l>
+<pb id="s048" n="12" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.06" n="6" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA U Canis exta ferens.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Viator amnem fors natatu transiens</l>
+<l TEIform="l" part="N">Ferebat exta rapta dentibus canis.</l>
+<l TEIform="l" part="N">Umbras profunda dum repercussas aqua</l>
+<l TEIform="l" part="N">Speculo dearum conspicit, formam sui,</l>
+<l TEIform="l" part="N">Aliamque praedam ab altero ferri putat,</l>
+<l TEIform="l" part="N">Eripere voluit. unde capta avidi fames</l>
+<l TEIform="l" part="N">Dimisit offam, nec tenuit umbram levem.</l>
+<l TEIform="l" part="N">Sic saepe, quisquis alteram captas opem,</l>
+<l TEIform="l" part="N">Vacuus parata, luderis specie levi.</l>
+<pb id="s049" n="13" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.07" n="7" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA VI Societas pecudum cum Leone.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ovis, et capella, et vacca, quodam tempore</l>
+<l TEIform="l" part="N">Commune pactae cum leone in saltibus</l>
+<l TEIform="l" part="N">Ius, atque talem foederis socii fidem,</l>
+<l TEIform="l" part="N">Aequis ut esset partibus venatio.</l>
+<l TEIform="l" part="N">Ingente cervum corpore aggressus leo,</l>
+<l TEIform="l" part="N">Deiecit, in commune proponens ferum,</l>
+<l TEIform="l" part="N">Fecitque partes omnium in praesentia:</l>
+<l TEIform="l" part="N">Sed praestitisse lege tali traditur.</l>
+<l TEIform="l" part="N">Ego posco primam partibus de quattuor,</l>
+<l TEIform="l" part="N">Quia iure credor nobilior ac vos, leo:</l>
+<l TEIform="l" part="N">Posco secundam nempe vobis fortior:</l>
+<l TEIform="l" part="N">Operam sequetur commodum, sors tertia,</l>
+<l TEIform="l" part="N">Qua plus cucurri: nemo quartam denique</l>
+<l TEIform="l" part="N">Tetigerit, aut se norit affici malo.</l>
+<l TEIform="l" part="N">Hac voce doctus, o tenuis, magnos cave.</l>
+<l TEIform="l" part="N">Numquam fidelis cum potente societas.</l>
+<pb id="s050" n="14" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.08" n="8" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA VII Sol maritus.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">E publico fur et decus, et amplam sibi</l>
+<l TEIform="l" part="N">Rem fecerat, dum lege plebem agraria</l>
+<l TEIform="l" part="N">Stultam beabat. Collocavit filiam</l>
+<l TEIform="l" part="N">Fur maior illi: magna gratulatio</l>
+<l TEIform="l" part="N">Pervasit urbem de tribuni nuptiis.</l>
+<l TEIform="l" part="N">Inventus aliquis inter haec prudentior,</l>
+<l TEIform="l" part="N">Percipite cives vestra, dixit, gaudia.</l>
+<l TEIform="l" part="N">Fit Sol maritus. orbis at convicio</l>
+<l TEIform="l" part="N">Rogatus, auctor ut veniret nuptiis,</l>
+<l TEIform="l" part="N">Negat favere Iuppiter tantis malis.</l>
+<l TEIform="l" part="N">Sol unus aestus, en, videtis quos habet:</l>
+<l TEIform="l" part="N">Natura ut omnis unius face deficit?</l>
+<l TEIform="l" part="N">Quid erit, ubi ille procreabit filios.</l>
+<l TEIform="l" part="N">Non gratulandum temere rebus in novis,</l>
+<pb id="s051" n="15" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.09" n="9" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA VIII Lupus et Grus.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Os devoratum faucibus sedit lupi,</l>
+<l TEIform="l" part="N">Modisque miris belluam aegram exercuit.</l>
+<l TEIform="l" part="N">Tandem dolore victus, implorans aves,</l>
+<l TEIform="l" part="N">Mucrone rostri tantum ut extraherent malum,</l>
+<l TEIform="l" part="N">Proposuit ingens praestitae operae praemium.</l>
+<l TEIform="l" part="N">Persuasa sancto iureiurando lupi,</l>
+<l TEIform="l" part="N">Credensque colla longa Cerbereae gulae,</l>
+<l TEIform="l" part="N">Discrimen aditura medicam grus fert opem.</l>
+<l TEIform="l" part="N">Cui, quando pactum flagitabat praemium,</l>
+<l TEIform="l" part="N">Ingrata, dixit, ore quod nostro caput</l>
+<l TEIform="l" part="N">Incolume servas, pretium habebis scilicet,</l>
+<l TEIform="l" part="N">Ne postulare plura cures insuper.</l>
+<l TEIform="l" part="N">Qui pretia meriti ab improbis desiderat,</l>
+<l TEIform="l" part="N">Bis peccat: adiuvare primum dum malos</l>
+<l TEIform="l" part="N">Inceptat, et qua deinde poscit eos bonum,</l>
+<l TEIform="l" part="N">Natura quorum rumpitur, nisi dat malum.</l>
+<pb id="s052" n="16" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.10" n="10" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA VIIII Lepus et Passer.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Oppressum ab aquila, fletibusque gravem suis</l>
+<l TEIform="l" part="N">Leporem admonebat passer. At pernicitas</l>
+<l TEIform="l" part="N">Ubi nunc tua? leves ergo cessabant pedes?</l>
+<l TEIform="l" part="N">Tricare nimium, ignave. curras, dum potes.</l>
+<l TEIform="l" part="N">Hoc te subire fecit insidias avis.</l>
+<l TEIform="l" part="N">Necopina frustra est passeris sapientia.</l>
+<l TEIform="l" part="N">Namque ipse cautor capitur. Accipiter rapit,</l>
+<l TEIform="l" part="N">Questuque vano clamitantem interficit.</l>
+<l TEIform="l" part="N">Lepus ista vidit, mortis et solacia</l>
+<l TEIform="l" part="N">Nonnulla cepit inde, qua monitor levis</l>
+<l TEIform="l" part="N">Errore in illo prensus est, quem corrigit.</l>
+<l TEIform="l" part="N">In damna nostra lusit importuna avis:</l>
+<l TEIform="l" part="N">Simili querela fata nunc ploret sua.</l>
+<l TEIform="l" part="N">Plerumque cautor additus recte alteri,</l>
+<l TEIform="l" part="N">Ubi fraus in ipsum vertitur, parum cavet.</l>
+<l TEIform="l" part="N">Ne te ista damnet culpa, stans etiam vide.</l>
+<pb id="s053" n="17" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.11" n="11" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA X. Lupus et Vulpes Simio iudice.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Furti dolosam vulpem avarus arguit</l>
+<l TEIform="l" part="N">Sumpsitque simium arbitrum raptor lupus.</l>
+<l TEIform="l" part="N">Sedet ille: stantes, vera dicant, admonet.</l>
+<l TEIform="l" part="N">Agit petitor, ac ream urguet acriter,</l>
+<l TEIform="l" part="N">Forique ritu plurimum excipit rea,</l>
+<l TEIform="l" part="N">Negatque factum. Velle denique simius</l>
+<l TEIform="l" part="N">Proferre causam tali ait sententia:</l>
+<l TEIform="l" part="N">Tu non videre perdidisse, quod petis:</l>
+<l TEIform="l" part="N">Te credo sustulisse, quod pulchre negas.</l>
+<l TEIform="l" part="N">Si fraude pravi vita claruit semel,</l>
+<l TEIform="l" part="N">Mox, vera quamquam dicat, amisit fidem.</l>
+<pb id="s054" n="18" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.12" n="12" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XI Cervus ad fontem.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In fonte cervus cornua adspexit bibens</l>
+<l TEIform="l" part="N">Magna, ac timendum vertice arduo decus.</l>
+<l TEIform="l" part="N">Laudare coepit: crura tenuia temnere.</l>
+<l TEIform="l" part="N">Mox hausit auribus vigil venantium</l>
+<l TEIform="l" part="N">Voces virorum, et cornuum mixtos sono</l>
+<l TEIform="l" part="N">Gravi minantium saeva latratus canum:</l>
+<l TEIform="l" part="N">Praecipiteque abiit culta per et agros fuga.</l>
+<l TEIform="l" part="N">Et hactenus beneficio tutus pedum</l>
+<l TEIform="l" part="N">Silvas petivit. Quas, ubi intrat, ilico</l>
+<l TEIform="l" part="N">Properantem in arctis usque ramis arborum</l>
+<l TEIform="l" part="N">Morantur alta ac prodidere cornua.</l>
+<l TEIform="l" part="N">Hic imminens a morsibus fatum ut videt,</l>
+<l TEIform="l" part="N">Pedum salubrem gratus effert sero opem,</l>
+<l TEIform="l" part="N">Decus exsecratur capite pestiferum suo.</l>
+<l TEIform="l" part="N">Habet omnis illam vita nostra fabulam:</l>
+<l TEIform="l" part="N">Solemus, acti turbine erroris gravi,</l>
+<l TEIform="l" part="N">Humanitati qualis infirmae nocet,</l>
+<l TEIform="l" part="N">Ancipitibus gaudere, vera spernere.</l>
+<pb id="s055" n="19" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.13" n="13" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XII Corvus et Vulpis.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Positum canistro corvus aufert caseum,</l>
+<l TEIform="l" part="N">Sedetque rapto usurus alta in arbore.</l>
+<l TEIform="l" part="N">Rem conspicata vulpis, ac praedae appetens,</l>
+<l TEIform="l" part="N">Daturaque illi verba, sic coepit loqui:</l>
+<l TEIform="l" part="N">O quis tuarum, corue, pennarum vigor?</l>
+<l TEIform="l" part="N">Si vocem haberes ampliorem, non foret</l>
+<l TEIform="l" part="N">Te praepetium vel oscinum ulla avium prior.</l>
+<l TEIform="l" part="N">Vocem ampliorem gestit expedire avis:</l>
+<l TEIform="l" part="N">Sed ab insolente praeda rictu decidit:</l>
+<l TEIform="l" part="N">Simul hanc dolosa vulpis adsilit occupans,</l>
+<l TEIform="l" part="N">Ac denique oscen fraude captus ingemit.</l>
+<l TEIform="l" part="N">Quicumque ineptus laude ducitur levi,</l>
+<l TEIform="l" part="N">Sapit ille stulta sero paenitentia.</l>
+<pb id="s056" n="20" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.14" n="14" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XIII Canis calumniator.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Calumniator dixerat canis haec ovi:</l>
+<l TEIform="l" part="N">Tu debitum refunde libi mutui.</l>
+<l TEIform="l" part="N">Debere quidquam mutui innocens ovis</l>
+<l TEIform="l" part="N">Negat. profecto se dedisse ait canis.</l>
+<l TEIform="l" part="N">Ad iudicem itur. ille testes exigit:</l>
+<l TEIform="l" part="N">Habere testes actor hunc et hunc ait,</l>
+<l TEIform="l" part="N">Ducens sodales miluum canis et lupum.</l>
+<l TEIform="l" part="N">Debere liba uterque iuratus refert</l>
+<l TEIform="l" part="N">Ouem. dedisse se canem praesentibus.</l>
+<l TEIform="l" part="N">Sic illa falsis victa testimoniis</l>
+<l TEIform="l" part="N">Accepta numquam liba reddere cogitur.</l>
+<l TEIform="l" part="N">Sed, unde solvat iudicatum, non habens,</l>
+<l TEIform="l" part="N">Vestem coacta velleris nivei unicam</l>
+<l TEIform="l" part="N">Instante brumae misera vendere sidere.</l>
+<l TEIform="l" part="N">Sic undecumque divitum calumnia</l>
+<l TEIform="l" part="N">Nudam relinquit pauperum innocentiam.</l>
+<pb id="s057" n="21" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.15" n="15" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XIIII Canis et Scrofa.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Instante partu nixibus rogat canis</l>
+<l TEIform="l" part="N">Suem cubile. Scrofa de suo locum,</l>
+<l TEIform="l" part="N">Qua parte tuto feta deponat suos,</l>
+<l TEIform="l" part="N">Concedit. illa tempus amplius rogat,</l>
+<l TEIform="l" part="N">Dum firmiores viribus catuli exeant.</l>
+<l TEIform="l" part="N">Etiam hoc roganti praestat. At, longa est mora,</l>
+<l TEIform="l" part="N">Nec migrat illa. denique haec repetit locum.</l>
+<l TEIform="l" part="N">Canicula magno irata cum stomacho refert:</l>
+<l TEIform="l" part="N">Nobis molesta quid venis? Quod si mihi</l>
+<l TEIform="l" part="N">Meisque pugnans esse par catulis potes,</l>
+<l TEIform="l" part="N">Cedemus aliquo, cum libebit, tempore.</l>
+<l TEIform="l" part="N">Nimis benignos admonebit fabula,</l>
+<l TEIform="l" part="N">Ne largiantur impudenti audaciae:</l>
+<l TEIform="l" part="N">Scelus aliorum nutriant damnis suis:</l>
+<l TEIform="l" part="N">Neu sint, egentes ipsi, eis ludibrio.</l>
+<pb id="s058" n="22" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.16" n="16" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XV Canes famelici.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Inuncta sueti saepe lora mandere,</l>
+<l TEIform="l" part="N">Depressum in alto flumine corium vident,</l>
+<l TEIform="l" part="N">Atque, ut celeriter extrahant, properant canes.</l>
+<l TEIform="l" part="N">Sed rostra multum detinet fusus liquor,</l>
+<l TEIform="l" part="N">Ne possit ullo mersa res tangi modo.</l>
+<l TEIform="l" part="N">Igitur bibendo quidquid urguetur super,</l>
+<l TEIform="l" part="N">Removere tentant spem retardantis aquas.</l>
+<l TEIform="l" part="N">Sed ante ruptis turba pereat lactibus,</l>
+<l TEIform="l" part="N">Quam rem petitam absumptus exhibeat latex.</l>
+<l TEIform="l" part="N">Quisquis negatis vanus inceptis manus</l>
+<l TEIform="l" part="N">Maiore viribus opere graves inserit,</l>
+<l TEIform="l" part="N">Nil praestat: aliis luditur: perit sibi.</l>
+<pb id="s059" n="23" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.17" n="17" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XVI Leo senex et Asinus.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Desectus annis, destitutus viribus,</l>
+<l TEIform="l" part="N">Leo iacebat spiritum extremum trahens.</l>
+<l TEIform="l" part="N">Gesturus illi bella dentis fulmine,</l>
+<l TEIform="l" part="N">Et par recepto redditurus vulneri,</l>
+<l TEIform="l" part="N">Venit aper: ursus unguibus fidens venit.</l>
+<l TEIform="l" part="N">Depulsus aptis saepe fremitu pascuis</l>
+<l TEIform="l" part="N">Hostile taurus cornibus fodit latus.</l>
+<l TEIform="l" part="N">Ignavus illa facta asellus dum videt</l>
+<l TEIform="l" part="N">Impune sic abire, miratus redit,</l>
+<l TEIform="l" part="N">Strictis tremendum calcibus regem petens.</l>
+<l TEIform="l" part="N">Leo ingemiscens denique indigne tulit.</l>
+<l TEIform="l" part="N">Natura, dixit, tale nobis dedecus</l>
+<l TEIform="l" part="N">Ergo parabas, ultimis ut sim iocus!</l>
+<l TEIform="l" part="N">Dum salva virtus, omnium steti metu,</l>
+<l TEIform="l" part="N">Et vasta fecit cuncta circum opinio.</l>
+<l TEIform="l" part="N">Quibus peperci, quasue contempsi feras,</l>
+<l TEIform="l" part="N">Hae nunc quoque ipsae laedere aegrum gestiunt.</l>
+<l TEIform="l" part="N">Qui me tegebat cessit ex animis metus.</l>
+<l TEIform="l" part="N">Haec vana monstri turbulenti oratio</l>
+<l TEIform="l" part="N">Benignus ut sis, quisquis es potens, monet.</l>
+<pb id="s060" n="24" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.18" n="18" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XVII Mustela et Homo.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mustela murem fugere properantem capit,</l>
+<l TEIform="l" part="N">Homo hanc vicissim. Capta, Parce mihi, rogat:</l>
+<l TEIform="l" part="N">Per me molestis muribus caret domus.</l>
+<l TEIform="l" part="N">Respondet, Id si gratia faceres mea,</l>
+<l TEIform="l" part="N">Gratum putarem: redderem veniam tibi.</l>
+<l TEIform="l" part="N">Nunc ipsa mures, ut cito haurias, necas,</l>
+<l TEIform="l" part="N">Atque insuper quascumque reliquias domi,</l>
+<l TEIform="l" part="N">Quas omnis illa turba murium mihi</l>
+<l TEIform="l" part="N">Vix leviter est rosura, totas devoras.</l>
+<l TEIform="l" part="N">Noli imputare, stulta, beneficium irritum.</l>
+<l TEIform="l" part="N">Ad hos refertur sermo, qui faciunt sibi,</l>
+<l TEIform="l" part="N">Ultroque nobis imputant meritum malum.</l>
+<pb id="s061" n="25" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.19" n="19" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XVIII Canis fidelis.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hominis beati in tecta nocturnus parat</l>
+<l TEIform="l" part="N">Fur aditum, et offam panis obicit cani,</l>
+<l TEIform="l" part="N">Quae fidi agebat liminis custodiam,</l>
+<l TEIform="l" part="N">Ut pasta sese ac tacita parcat prodere.</l>
+<l TEIform="l" part="N">Gratis ne panem porrigis, dixit canis,</l>
+<l TEIform="l" part="N">An hoc volebas, ut minor domino meo</l>
+<l TEIform="l" part="N">Et laesa donis nostra militet fides?</l>
+<l TEIform="l" part="N">Haec offa vocem nempe praecidet mihi,</l>
+<l TEIform="l" part="N">Pro rebus illis ut sonet submissior,</l>
+<l TEIform="l" part="N">Meaque nunc tu fraude compares lucrum.</l>
+<l TEIform="l" part="N">Nam panis aliter praebiti ut reddam vicem?</l>
+<l TEIform="l" part="N">Sed finge, si factura: num posthac mihi</l>
+<l TEIform="l" part="N">Praestabis eadem cuncta, ne moriar fame,</l>
+<l TEIform="l" part="N">Quae semper ille, cuius excubias ago?</l>
+<l TEIform="l" part="N">Neque te daturum, nec vel alios, censeo.</l>
+<l TEIform="l" part="N">Hunc deserenti nemo credet postea,</l>
+<l TEIform="l" part="N">Meruit herili qui meam cibo fidem.</l>
+<l TEIform="l" part="N">Pro munere, fuge urguere, perfidia vicem</l>
+<l TEIform="l" part="N">Non redditura, nostra nolo prodere.</l>
+<l TEIform="l" part="N">Fulgens repente grata liberalitas</l>
+<l TEIform="l" part="N">Stultis videtur, sed peritis irrita est.</l>
+<pb id="s062" n="26" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.20" n="20" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XVIIII Rana et Bos.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vix rana viso pascere ad lacum bove,</l>
+<l TEIform="l" part="N">Livore tantae tacta magnitudinis,</l>
+<l TEIform="l" part="N">Tumuit retento viscera intra spiritu.</l>
+<l TEIform="l" part="N">Mox visa profecisse flatibus suis,</l>
+<l TEIform="l" part="N">Exempla natos poscit ut modo conferant,</l>
+<l TEIform="l" part="N">Dicantque matri, si sit altior bove?</l>
+<l TEIform="l" part="N">Illi negabant. amplius tendit cutem,</l>
+<l TEIform="l" part="N">Rursumque quaerit, Altior ne sic quidem?</l>
+<l TEIform="l" part="N">At bos, fatemur, maximis superat modis.</l>
+<l TEIform="l" part="N">Dum nititur differre membra valdius,</l>
+<l TEIform="l" part="N">Perit effluente rupta misere spiritu.</l>
+<l TEIform="l" part="N">Exempla cautos ista reddant infimos,</l>
+<l TEIform="l" part="N">Ne cum potente sumptibus certet minor.</l>
+<l TEIform="l" part="N">Imitatus illos rumpitur plerumque inops.</l>
+<pb id="s063" n="27" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.21" n="21" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XX Canis et Crocodilus.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vulgata habetur litteris opinio,</l>
+<l TEIform="l" part="N">Qua Nilus alta labitur tumens aqua</l>
+<l TEIform="l" part="N">Crocodili avari semper anxiis metu,</l>
+<l TEIform="l" part="N">Possint ut acrem belluae exire impetum,</l>
+<l TEIform="l" part="N">Canibus bibendum perpetim currentibus.</l>
+<l TEIform="l" part="N">Ita dum cucurrit margine immodestius,</l>
+<l TEIform="l" part="N">Coepitque dulcis admovere haustus aquae,</l>
+<l TEIform="l" part="N">Admonita quondam fertur a monstro canis:</l>
+<l TEIform="l" part="N">Noli vereri: at otiose, dem lubet,</l>
+<l TEIform="l" part="N">Quacumque parte fluminis propior bibe:</l>
+<l TEIform="l" part="N">Turbabo nullo praebitos latices dolo.</l>
+<l TEIform="l" part="N">Respondet illa, Quod iubes, facerem, ac lubens,</l>
+<l TEIform="l" part="N">Nisi te caninae crederem cupidum nimis.</l>
+<l TEIform="l" part="N">Apertus hostis prava consilia applicans,</l>
+<l TEIform="l" part="N">Et ludit operam, et luditur damno suo.</l>
+<pb id="s064" n="28" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.22" n="22" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXI Vulpis et Ciconia.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cenam datura vulpis est ciconiae.</l>
+<l TEIform="l" part="N">Vocata postquam, quo solet, venit gradu,</l>
+<l TEIform="l" part="N">Disco in patente iura sorbitiunculae</l>
+<l TEIform="l" part="N">Invenit, oris unde mucro buxei</l>
+<l TEIform="l" part="N">Ac tenta longe rostra nil caperent sibi.</l>
+<l TEIform="l" part="N">Positum istud, et nil postea in cena brevi.</l>
+<l TEIform="l" part="N">Auis esurire irata: mox pudens abit.</l>
+<l TEIform="l" part="N">Vulpem Ciconia, mora parui temporis</l>
+<l TEIform="l" part="N">Cum transiisset, lege non alia vocat.</l>
+<l TEIform="l" part="N">Positum in lagona praebet, ac sumit cibum</l>
+<l TEIform="l" part="N">Prior ipsa: vulpem hortatur, ut rostrum inserat.</l>
+<l TEIform="l" part="N">Dolosa vulpis invicem carens cibo.</l>
+<l TEIform="l" part="N">Iniuriae ipsa sensit ingenium suae.</l>
+<l TEIform="l" part="N">Auis addit istis, Ecce, quae dabas, habe:</l>
+<l TEIform="l" part="N">Aut parce, si indignaris, exemplo tuo.</l>
+<l TEIform="l" part="N">Derisor usque quem libet ludos face:</l>
+<l TEIform="l" part="N">Debere sed te cuique ludibrium puta.</l>
+<pb id="s065" n="29" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.23" n="23" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXII Canis et Vultur.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tumulo ut sepulcri mixtum humo cinerem ruunt,</l>
+<l TEIform="l" part="N">Hominisque nudant ossa, vultur et canis,</l>
+<l TEIform="l" part="N">Inventus est thesaurus ingens, Manibus</l>
+<l TEIform="l" part="N">Non aequa laeso iure cogitantibus.</l>
+<l TEIform="l" part="N">Ex hoc scelesta cupiditas auri cani</l>
+<l TEIform="l" part="N">Obiecta, moto ut penderet poenas sacro.</l>
+<l TEIform="l" part="N">Dum servat aurum sedulo, oblitus cibi,</l>
+<l TEIform="l" part="N">Defecit inedia. Illius comes haec ait:</l>
+<l TEIform="l" part="N">Insana vota, qui iaces, merito luis,</l>
+<l TEIform="l" part="N">Quia concupisti regias animis opes,</l>
+<l TEIform="l" part="N">Trivio creatus, educatus stercore.</l>
+<l TEIform="l" part="N">Auare, te, te tangit hoc. Peris prius,</l>
+<l TEIform="l" part="N">Quam possidendi cesset impius furor.</l>
+<pb id="s066" n="30" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.24" n="24" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXIII Aquila et Vulpes.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vulpina tentans antra, vulpis extulit</l>
+<l TEIform="l" part="N">Catulos cubili matris, unguibus suis</l>
+<l TEIform="l" part="N">Gestura pullis aquila promissam dapem.</l>
+<l TEIform="l" part="N">Suppliciter illam mater orat, ut suos</l>
+<l TEIform="l" part="N">Reddat sibi: immortalem eam fore gratiam.</l>
+<l TEIform="l" part="N">Contempta tandem, genere et inferior loco,</l>
+<l TEIform="l" part="N">Gravi dolore vincitur, facem petens</l>
+<l TEIform="l" part="N">Ardentem ab ara, ut arborem flammis cremet,</l>
+<l TEIform="l" part="N">In qua rapinam et prolem avis habebat suam:</l>
+<l TEIform="l" part="N">Mixtura damnum hostile proprio sanguine.</l>
+<l TEIform="l" part="N">Attonita donec tanto avis discrimine,</l>
+<l TEIform="l" part="N">Incolume vulpi dum summe reddit genus,</l>
+<l TEIform="l" part="N">Communione pestis eximit suos.</l>
+<l TEIform="l" part="N">Vir dives iram pauperis lentam cave.</l>
+<pb id="s067" n="31" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.25" n="25" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXIIII Columbae et Miluus.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Adhuc columbae saeva bella milui</l>
+<l TEIform="l" part="N">Praecipite saepe vana reddiderant fuga,</l>
+<l TEIform="l" part="N">Exilio agrorum redimere assuetae necem.</l>
+<l TEIform="l" part="N">Stricto sub ungue saepe lapsae fugerant,</l>
+<l TEIform="l" part="N">Salute pennae celeritati debita.</l>
+<l TEIform="l" part="N">Ubi vidit armis genus inerme non capi,</l>
+<l TEIform="l" part="N">Consilia raptor vertit ad fallaciam.</l>
+<l TEIform="l" part="N">Sollicita semper turba cur, inquit, ducem</l>
+<l TEIform="l" part="N">Creare cessas impigrum, ut vos unice</l>
+<l TEIform="l" part="N">Defendat? et vel me create, si lubet:</l>
+<l TEIform="l" part="N">Iniuriae vos omnis immunes dabo.</l>
+<l TEIform="l" part="N">Miserae fidem addunt dicto, et audent miluo</l>
+<l TEIform="l" part="N">Se credere. Ille imperia saevis unguibus</l>
+<l TEIform="l" part="N">Exercet, arripitque civium optimos,</l>
+<l TEIform="l" part="N">Facturus, aliquo iure, deditas aves</l>
+<l TEIform="l" part="N">Herilis aulae nempe legitimam dapem.</l>
+<l TEIform="l" part="N">Hine una, Cladi subsumus merito novae,</l>
+<l TEIform="l" part="N">Dem sponte, ne fugiamus, accipimus malum,</l>
+<l TEIform="l" part="N">Monstro sub isto tenuem agentes spiritum.</l>
+<l TEIform="l" part="N">Hac lege, quisquis credit hostibus metu,</l>
+<l TEIform="l" part="N">Auxilia quae putabat, exitium invenit.</l>
+<pb id="s068" n="32" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.26" n="26" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXV Cervus et Boves.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Strepitu fugatus cervus insidiantium,</l>
+<l TEIform="l" part="N">Ut arte saevos praecaveret impetus,</l>
+<l TEIform="l" part="N">Quos vel virorum tela, rostra vel canum</l>
+<l TEIform="l" part="N">Factura, tergis imminebant, ocius,</l>
+<l TEIform="l" part="N">Qua proximam se villa praebuerat locis,</l>
+<l TEIform="l" part="N">Trepido in bovillis tecta prosiluit pede.</l>
+<l TEIform="l" part="N">Narrare causam bubus arreptae fugae</l>
+<l TEIform="l" part="N">Instituit, ac, ne se indicent, rogat miser.</l>
+<l TEIform="l" part="N">At bos, Vel hic te prodis ad certam necem,</l>
+<l TEIform="l" part="N">Si forte nescis. Silva seruet rectius,</l>
+<l TEIform="l" part="N">Vel si patentis ante plurimos canes</l>
+<l TEIform="l" part="N">Deserta campi celere carpas ungula:</l>
+<l TEIform="l" part="N">Hic, hic future inemptus homini iam cibus.</l>
+<l TEIform="l" part="N">Tamen ille supplex, Me brevi modo tempore</l>
+<l TEIform="l" part="N">Celate: noctu tutus ibo quo libet:</l>
+<l TEIform="l" part="N">Pavidumque in alte corpus abdidit strue.</l>
+<l TEIform="l" part="N">Stramenta, foenum, ervum, omne pabuli genus,</l>
+<l TEIform="l" part="N">Bubulci in unam forte iecerant struem.</l>
+<l TEIform="l" part="N">Huic plura portant vesperi: cervum haud vident.</l>
+<l TEIform="l" part="N">Quum se recepit in boville villicus,</l>
+<l TEIform="l" part="N">Lustravit omnia: et abit inviso fero.</l>
+<pb id="s069" n="33" TEIform="pb"/>
+<l TEIform="l" part="N">Hoc ille gaudens bubus agere gratias,</l>
+<l TEIform="l" part="N">Laudare, tutam quod darent misero fugam.</l>
+<l TEIform="l" part="N">Tunc unus, Euasisse te cupimus quidem.</l>
+<l TEIform="l" part="N">Sed ille, qui rem curat unus, qui videt</l>
+<l TEIform="l" part="N">Luminibus ista centum, ne videat, vide.</l>
+<l TEIform="l" part="N">Post verba dominus illa venit, et qui boum</l>
+<l TEIform="l" part="N">Neglecta nuper non probaret corpora,</l>
+<l TEIform="l" part="N">Culpat bubulcos, excutit praesepia.</l>
+<l TEIform="l" part="N">Haec ut vacare, et pabuli contra videt</l>
+<l TEIform="l" part="N">Positos aceruos, tentat iratus locum,</l>
+<l TEIform="l" part="N">Sumpturus ipse frondis, ut bubus ferat:</l>
+<l TEIform="l" part="N">Simul intuetur celsa cervi cornua.</l>
+<l TEIform="l" part="N">Miratur. Hunc nos unde nacti? interrogat</l>
+<l TEIform="l" part="N">Servos vocatos. Quisque iurat, nil sibi</l>
+<l TEIform="l" part="N">Liquere. Non quaesita gaudens invenit,</l>
+<l TEIform="l" part="N">Agitque laetos inde cum suis dies.</l>
+<l TEIform="l" part="N">Hinc disce, dominum sapere rebus in suis,</l>
+<l TEIform="l" part="N">Non serva certe corda, ne, quod ipse agas,</l>
+<l TEIform="l" part="N">Mandare suetus talibus, male rem geras.</l>
+<l TEIform="l" part="N">Vigilant sibi hi plerumque: nobis dormiunt.</l>
+<l TEIform="l" part="N">Si deinde cervum sic perisse etiam doles:</l>
+<l TEIform="l" part="N">Servatur sorte quisque, non merito suo.</l>
+<pb id="s070" n="34" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.27" n="27" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXVI Canis et Lupus.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Silvis amicus factus obviam cani,</l>
+<l TEIform="l" part="N">Ut pastus omni pelle curata nites?</l>
+<l TEIform="l" part="N">Corpusculum istud unde, frater? ait Lupus.</l>
+<l TEIform="l" part="N">Respondet ille, Divitis custos domus,</l>
+<l TEIform="l" part="N">Contra dolosos nocte fures excubo:</l>
+<l TEIform="l" part="N">Si quis propinquet, voce fida nuntio.</l>
+<l TEIform="l" part="N">Ob ista multus administratur cibus,</l>
+<l TEIform="l" part="N">Et reliquiarum quidquid in tota domo,</l>
+<l TEIform="l" part="N">Seu carne superet, sive inunctis ossibus.</l>
+<l TEIform="l" part="N">Familia fautrix omnis atque blandiens,</l>
+<l TEIform="l" part="N">Dum copiam fastidit, obicit mihi.</l>
+<l TEIform="l" part="N">Nam diligor: nec defit ullo tempore</l>
+<l TEIform="l" part="N">Lentum bibenti aqua bona: sub tectis cubo,</l>
+<l TEIform="l" part="N">Atque otiosus unice vita fruor.</l>
+<l TEIform="l" part="N">Contingat o si talis otii mihi</l>
+<l TEIform="l" part="N">Usura, frater, praebita ut <sic TEIform="sic">satier</sic> dape,</l>
+<l TEIform="l" part="N">Ac tutus intra tecta vivam, ait lupus.</l>
+<l TEIform="l" part="N">Canis, At licebat, inquit, et mecum veni</l>
+<l TEIform="l" part="N">Audacter, in meum cubile: ne time.</l>
+<l TEIform="l" part="N">Una ambulabant. In via collum canis</l>
+<pb id="s071" n="35" TEIform="pb"/>
+<l TEIform="l" part="N">Socius notavit a catena tritius.</l>
+<l TEIform="l" part="N">Interrogabat, Istud in collo, quid est?</l>
+<l TEIform="l" part="N">Nihil id quidem est, reponit alter acrior</l>
+<l TEIform="l" part="N">Quoniam videbar, alligant interdiu:</l>
+<l TEIform="l" part="N">Vagor solutus nocte, quantum animo libet.</l>
+<l TEIform="l" part="N">Ad quae, Valebis, ille, et uteris tuis</l>
+<l TEIform="l" part="N">Dapibus revinctus. at mihi est nil his opus.</l>
+<l TEIform="l" part="N">Ego malo liber quidquid acciderit pati:</l>
+<l TEIform="l" part="N">Errare campis. Non catena, nec metu</l>
+<l TEIform="l" part="N">Vetabor, ut ne mille per silvas viis</l>
+<l TEIform="l" part="N">Cenatus ovibus auferar, ludam canes.</l>
+<l TEIform="l" part="N">Tu suetus isto more: sed vivam meo.</l>
+<l TEIform="l" part="N">Non regna quaevis merear, ut ne sim meus.</l>
+<l TEIform="l" part="N">Miser profecto, sit, licet, ditissimus,</l>
+<l TEIform="l" part="N">Qui liberum esse velle, quantum sit bonum,</l>
+<l TEIform="l" part="N">Et posse se expedire, non intellegit.</l>
+<pb id="s072" n="36" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.28" n="28" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXVII Scrutarius et Asellus.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut scruta vendat, properat institor in via</l>
+<l TEIform="l" part="N">Onusto asello sarcinis, ad nundinas:</l>
+<l TEIform="l" part="N">Neu sine lucello septa calfaciat fori,</l>
+<l TEIform="l" part="N">Fuste ac flagellis caedit ignavum male.</l>
+<l TEIform="l" part="N">Hic morte saltem optaverat finem mali</l>
+<l TEIform="l" part="N">Quassatus invenire dudum: denique,</l>
+<l TEIform="l" part="N">Cessante numquam fuste, plagis occidit.</l>
+<l TEIform="l" part="N">Sed nec malorum terminus vitae modus:</l>
+<l TEIform="l" part="N">Necatum iniqua consequuntur verbera,</l>
+<l TEIform="l" part="N">Fatique dura imperia post funus gravant.</l>
+<l TEIform="l" part="N">Nam cribra fiunt, ac sonora tympana,</l>
+<l TEIform="l" part="N">Et quidquid incessante quassum verbere</l>
+<l TEIform="l" part="N">In manibus ullo sine modo ac pausa ingemit,</l>
+<l TEIform="l" part="N">De pelle miseri, cuius aeger spiritus</l>
+<l TEIform="l" part="N">Plagis recessit: vapulare vita erat.</l>
+<l TEIform="l" part="N">Vox ista fati dicta mortali viro:</l>
+<l TEIform="l" part="N">Pugnare noli legibus sortis tuae,</l>
+<l TEIform="l" part="N">Ne, quo volentes duco, nolentem traham.</l>
+<pb id="s073" n="37" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.29" n="29" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXVIII Vipera et Lima.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In officinam lapsa cuiusdam fabri,</l>
+<l TEIform="l" part="N">Dum quaerit escam, qua iuvetur, vipera,</l>
+<l TEIform="l" part="N">Coepit iacentem forte limam rodere.</l>
+<l TEIform="l" part="N">Arridet illa, et, Quid tibi improba vis, ait,</l>
+<l TEIform="l" part="N">Meos ne dentes laedere, an minui tuos?</l>
+<l TEIform="l" part="N">Nam sueta ferrum rodere: aut, si quid magis</l>
+<l TEIform="l" part="N">Durum, asperumue, lene reddo, dum frico.</l>
+<l TEIform="l" part="N">Vix angulosa terga paullum torsero,</l>
+<l TEIform="l" part="N">Statim patebit, utra mordeat magis.</l>
+<l TEIform="l" part="N">Ex ore dentes, vulnerare quibus meum</l>
+<l TEIform="l" part="N">Frustra laboras horridum stilis latus,</l>
+<l TEIform="l" part="N">Nullo labore, stulta, decutiam tibi.</l>
+<l TEIform="l" part="N">Malus malum si fraudibus petit virum:</l>
+<l TEIform="l" part="N">Iniquo iniquus, durus instat ferreo:</l>
+<l TEIform="l" part="N">Non vincit: atteruntur ambo: beant bonos.</l>
+<pb id="s074" n="38" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.30" n="30" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXVIIII Musca et Formica.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Formica patiens operis, et musca irrita</l>
+<l TEIform="l" part="N">Pensi movendi ullius omnes in dies,</l>
+<l TEIform="l" part="N">Certare verbis, utra nobilior genus,</l>
+<l TEIform="l" part="N">Coepere. Musca est orsa dicere hoc modo:</l>
+<l TEIform="l" part="N">Potes meis te comparare laudibus?</l>
+<l TEIform="l" part="N">Degusto prima, ubi immolant, libamina:</l>
+<l TEIform="l" part="N">Ebur curule rex: ego regem premo:</l>
+<l TEIform="l" part="N">Matrona quaevis nostra sentit oscula:</l>
+<l TEIform="l" part="N">Re qualibet, si libeat, ad summam fruor.</l>
+<l TEIform="l" part="N">Contingit inde rusticae nihil tibi.</l>
+<l TEIform="l" part="N">Formica contra, Nempe laudes, pessima,</l>
+<l TEIform="l" part="N">Quas ipsa memoras, indicant mores tuos:</l>
+<l TEIform="l" part="N">Ut invocata accedis, et gravis omnibus.</l>
+<l TEIform="l" part="N">Optata tu non ora regis attigas,</l>
+<l TEIform="l" part="N">Matrona nec te roscidis circumferat</l>
+<l TEIform="l" part="N">Turpem labellis: ni sine venia ac modo</l>
+<l TEIform="l" part="N">Facias. At unicuique es invisa: undique</l>
+<l TEIform="l" part="N">Te flabra pellunt, publicam molestiam.</l>
+<pb id="s075" n="39" TEIform="pb"/>
+<l TEIform="l" part="N">Aestate sola si vales, hieme occidis.</l>
+<l TEIform="l" part="N">At me laboris providam tenet modus</l>
+<l TEIform="l" part="N">In opere duro frigus autem qua subit,</l>
+<l TEIform="l" part="N">Utor paratis, laeta vivere de meo.</l>
+<l TEIform="l" part="N">Vices laborum dia mutant otia.</l>
+<l TEIform="l" part="N">Sapis, instituti parce laudator tui:</l>
+<l TEIform="l" part="N">Facile obloquatur, rectiora qui sciat.</l>
+<pb id="s076" n="40" TEIform="pb"/>
+</lg>
+</div2>
+<div2 id="ChFL.01.31" n="31" type="poem" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>FABULA XXX Calvus et Musca.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In capite calui musea iam diu gravis</l>
+<l TEIform="l" part="N">Nudam capillo morsibus tundit cutem.</l>
+<l TEIform="l" part="N">Non parcit ille, perdere incautam volens,</l>
+<l TEIform="l" part="N">Alapa frequenti plectere immeritum caput.</l>
+<l TEIform="l" part="N">Inflicta ridet verbera ales improbus.</l>
+<l TEIform="l" part="N">Me propter in te, insane, saevi qua libet,</l>
+<l TEIform="l" part="N">Ait, et reflexa vertici insultat fuga.</l>
+<l TEIform="l" part="N">At calvus, Offers te, inquit, exitio, mala:</l>
+<l TEIform="l" part="N">Nam facile mecum, si tetigero, in gratiam,</l>
+<l TEIform="l" part="N">Decies vel ictus, redeo: sed si te semel</l>
+<l TEIform="l" part="N">Contingo, nulla es, ac peristi funditus.</l>
+<l TEIform="l" part="N">Audacis ista fabula arguit viri</l>
+<l TEIform="l" part="N">Gravem immerenti saepius petulantiam.</l>
+<l TEIform="l" part="N">Evertit ipsum, quidquid alteri nocet.</l>
+<pb id="s077" n="41" TEIform="pb"/>
+</lg>
+</div2>
+</div1></body></text>
+
+
+
+</TEI.2>

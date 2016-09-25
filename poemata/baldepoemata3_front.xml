@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+ <teiHeader type="text">
+    <fileDesc TEIform="fileDesc">
+      <titleStmt TEIform="titleStmt">
+        <title TEIform="title">Poemata.</title>
+        <title type="sub" TEIform="title">Machine-readable text</title>
+        <author n="Balde" TEIform="author">Balde, Jacob</author>
+        <editor TEIform="editor" role="editor">Balde, Jacob</editor>
+      </titleStmt>
+
+     <editionStmt TEIform="editionStmt">
+        <edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+        <respStmt TEIform="respStmt"><name TEIform="name">Ruediger Niehl</name><resp TEIform="resp">markup</resp></respStmt>
+      </editionStmt>
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/bald3" type="href" id="bald1" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">bald3</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">baldepoemata3.html</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">bald001.jpg</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">baldepoemata3.xml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">bald3/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+
+     <sourceDesc default="NO" TEIform="sourceDesc">
+        <bibl default="NO" TEIform="bibl">Balde, Jacob SJ: Poemata. Koeln: Busaeus, 1660. T. 3: Complectens Satyrica. 252 [recte 254], [9] S.; Signatur: Sch 073/265 Notation: L 334 D 027</bibl>
+     </sourceDesc>
+   </fileDesc>
+   <encodingDesc TEIform="encodingDesc">
+      <editorialDecl default="NO" TEIform="editorialDecl">
+          <p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+        </editorialDecl>
+      <refsDecl TEIform="refsDecl" doctype="TEI.2">
+          <p TEIform="p">not necessary</p>
+     </refsDecl>
+    </encodingDesc>
+    <revisionDesc TEIform="revisionDesc">
+        <change TEIform="change">
+          <date TEIform="date">16 December 2001</date>
+          <respStmt TEIform="respStmt">
+            <name TEIform="name">Ruediger Niehl</name>
+            <resp TEIform="resp">markup</resp>
+          </respStmt>
+          <item TEIform="item">semantic tagging and spelling only partially corrected</item>
+         </change>
+     </revisionDesc>
+ </teiHeader>
+ 
+
+
+<text><gap id="gre"/><gap id="sampling"/><gap id="heb"/><gap id="transcriber"/><front>
+ <!-- to define the ID, hk -->
+
+ <!-- to define the ID, sm -->
+
+ <!-- to define the ID, sm -->
+
+ <!-- to define the ID, sm -->
+
+<titlePage TEIform="titlePage">
+<titlePart type="main" TEIform="titlePart">
+
+IACOBI BALDE e SOCIETATE IESU POEMATUM TOMUS III, complectens 
+SATYRICA.
+COLONIAE UBIORUM, Apud IOANNEM BUSAEUM. M. DC. LX. Cum Privilegio 
+Caesareo.
+</titlePart>
+
+</titlePage>
+
+<gap desc="toc" resp="sampling" TEIform="gap"/>
+
+<pb id="s003" n="3" TEIform="pb"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<p TEIform="p">
+<hi TEIform="hi">
+VULTUOSAE TORVITATIS ENCOMIUM, in gratiam Philosophorum, ac Poetarum explicatum.
+</hi></p>
+<p TEIform="p">Ad Nobilissimum Iuvenem <name type="person" TEIform="name">PONTICUM CRESCENTIUM Marconam</name>, Philosoph. et LL. AA. Candidatum PARAENESIS, Philosophis, ac Poetis, cultum, nitoremque formae, vestium, et calamistri, ceteraque corporis commoda non magnopere curanda esse.
+
+Praemittitur Dissertatio praevia, DE STUDIO POETICO, vi Professionis suae, Torvos alumnos requirente.
+</p>
+</div>
+
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<head>DISSERTATIO PRAEVIA. De Studio Poetico.</head>
+
+
+<p TEIform="p">
+Iam dudum adverteram, Optime <name type="person" TEIform="name">Crescenti</name>, te laude, atque amore Artis Poeticae capi. Quia
+
+<pb id="s004" n="4" TEIform="pb"/>
+
+indoles, ardensque cupiditas huc ducunt; idemtidem sollicitas, ut experientia rerum, et usu instructus, non sinam perire, quae Iuventuti utilia fore confidas. Sed substringenda esse tua vota tantisper existimo, donec Curriculum Peripateticum confeceris. Si intenderes elicere Iuveniles meas <name type="myth" TEIform="name">Musas</name>; possem fortassis hactenus indulgere. Nihil enim adhuc earum nugarum edidimus in lucem, quibus nugari didicimus. Sin ad Grammaticorum Leges, vel potius lites respicis, hortator, ut illorum more praecepta conscribam, numerosa, onerosa, plurima, diversa, distincta; nihil impetras. Non vacat mihi, post tot emissa Poemata, hac aetate declivi, non vacat, inquam, numerare, vel multiplicare Appendices Tertii generis etc. Despauterii pulverem elementarium lambant, qui volent; et cum <name type="person" TEIform="name">Palaemone</name>, ipsoque <name type="person" TEIform="name">Prisciano</name>, vulpinentur, quantum volent. per me licet. Praecepta petis? Nova, an vetera? Veteribus abundamus: adiungere Nova, non est necesse. Copiosa iam olim, non sine insigni delectu, vel ex sola <name type="religion" TEIform="name">Societate</name> nostra tradidere Doctissimi Viri; <name type="person" TEIform="name">Iacobus Pontanus</name>, <name type="person" TEIform="name">Alexander Donatus</name>; novissime <name type="person" TEIform="name">Iacobus Masenius</name>, perquam nitide. Quid Academicis Prolusionibus <name type="person" TEIform="name">Famiani Stradae</name> illustrius? quid Allocutionibus <name type="person" TEIform="name">Vincentii Guinisii</name> prudentius? Uterque ingenium tuum, Poetarum mysteriis initiandum excolent. Si subvereris sublimiores pro captu: priores adi. admove sugentibus labris illorum Promptuaria. facilius, atque uberius lactant. Nocet tamen et horum nimius haustus. imbribus nimiis videmus sterni segetes.
+
+<pb id="s005" n="5" TEIform="pb"/>
+
+Haut aliter immensa <corr sic="praeceptionem" resp="transcriber" TEIform="corr">praeceptionum</corr> copia, velut inundatione quadam, obruuntur adolescentes discentium plantae. Multi Grammatici magna tempestas: lis sine fine: finis sine iudicio: iudicium sine ingenio. Ubi roduntur syllabae, nulla unquam malacia Maris animi. Multi Medici perdiderunt Caesarem. Multi Grammatici Iuventutem.
+</p>
+<p TEIform="p">
+Nescio etiam, quomodo praeceptis tradendis supra modum dediti, in se ipsos peccent. Sibimet obstetricantur, et tamen abortiunt; aut nimis praefidentes, aut nimis anxii. Fiducia sui plus iusto elati, nonnunquam proprios Canones abrogant, tamquam Auctores potestate praediti, quidus ius, fas sit, habenas <name type="myth" TEIform="name">Pegaso</name> laxare, vel restringere. Atqui saepe in procursu erramus: et decipiunt nos opiniones nostrae. Non continuo tetigeris scopum sagitta <name type="myth" TEIform="name">Phoebi</name>, quem tangi posse monstrabis. <corr sic="nimitum" resp="transcriber" TEIform="corr">nimirum</corr> aliud est, arma fabricare; aliud, iisdem strenue uti posse. quasi etiam hic valeat illud <name type="person" TEIform="name">Senecae</name>: Longum iter est per praecepta, breve per exempla. In anxiis autem haeret regularum, et mille observationum conferta, si non et supervacanea farrago, suffocans sementem laetioris naturae, <name type="myth" TEIform="name">Musarumque</name> liberalium indolem. Superstitiose serviunt idolis suae mentis, trepidant ad omnes umbras, etiam fictorum corporum. rixantur cum certis syllabis, atque nominibus; perinde ac si in iis rerum cardo verteretur. Stilla, an gutta in versum assumenda sit, dubitant, consulunt, expendunt. quippe cum <name type="person" TEIform="name">sallustio</name>, Deliberandum est diu, quod statuendum est semel. prius stillae, guttaeque omnes
+
+<pb id="s006" n="6" TEIform="pb"/>
+
+per clepsydram fluent, quam statuerint. Hi ipsi tamen ceteris in rebus maioris momenti quandoque incurii, an etiam ignari! Quo statu, pereunt vires, et tristi marcore flaccescunt. Perit ille floridae hilaritatis succus, ac quaedam genialis ubertas. turbatur vena phanaticis commentis, et exhauritur ante, quam fluat: vigore, qui ad afflatum numinis debebat effundi, per ignobiles Didascalorum derivationes, iam consumpto: immo non sine animi moerentis supplicio adhibitis siphonibus, carptim verius extracto. Ut adeo, neque hoc titulo, verbosior praeceptionum structura sit optabilis. Ego alia te via ducam, ausculta.
+</p>
+<p TEIform="p">
+Plurima in omni Scientiarum, Artiumque genere, praesertim autem in addiscenda, tantoque magis in exercenda Poesi, qualis Veterum fuit, sacra, solidaque, requiruntur ad Potentiam, quam vocant, Expeditam, ut prono nisu in actum emicet. quorum unum si desit, ut cetera suppetant, quemcumque parturias ingenii foetum, elumbem protruseris. hic error inobservatus, vel per incuriam neglectus, multos fefellit; multos fallit: quosdam maiora viribus suis molientes, in ipsis aggressionibus strangulat. Dictum, scriptumque sine invidia hoc, atque ambitione esto. examina veritatem lanci impositam; et fidem habebis. Quot se iam <name type="myth" TEIform="name">Delphos</name> penetrasse existimant, intraque cortinam <name type="myth" TEIform="name">Apollinis</name> latitare: et vix in atrii septis stant, toti adhuc profani! Eminus aspicere <rs type="myth" n="Parnasus" TEIform="rs">montem bicipitem</rs>, invocare Lebetrides Deas: <name type="myth" TEIform="name">Proserpinae</name> currum sequi, <name type="myth" TEIform="name">furiarum</name> nomina, et mores nosse, turbare <name type="myth" TEIform="name">Avernum</name>, vincire capita <name type="myth" TEIform="name">Cerberi</name>: ab <name type="myth" TEIform="name">Elysiis</name> hortis ad superos remigrare; librare primi,
+
+<pb id="s007" n="7" TEIform="pb"/>
+
+et secundi <name type="myth" TEIform="name">Iovis</name> tricuspides: Orientem Solem adorare, Occidentem commendare <name type="place" TEIform="name">Gadibus</name>, <name type="myth" TEIform="name">Aurorae</name> lacrymas detergere, Hesperum substituere fratri fundere nimbos rosarum, addere nives liliorum: tum vero amplius luxuriare in descriptionibus montium, nemorum, fluminum, locorumque, quae fabulosus <name type="place" TEIform="name">Hydaspes</name> lambit; incipientium Poetarum primam tincturam voces. Primordia haec, sicut requiruntur, ita supponuntur. usurpata placent, sed dignitatem non obtinent, nec punctum ferunt. phaleras ab iusta armatura distinxeris. cristata cassis ornat virum; gladius defendit. Quo tendo? Supra memorata, comere, non consummare Carmen, instar aromatis adhibenda, pone, abundanter istud inspergi: nondum sapiet omnibus. ubi curiosa, felixque inventio? ubi solers, prudensque dispositio? ubi mascula, casteque florens, sed et continua, nullisque paroxysmis interrupta elocutio?
+</p>
+<p TEIform="p">
+Poetam te, <name type="person" TEIform="name">Crescenti</name>, volo, non versificatorem, nam isto hominum genere nihil est vilius. omnes parietes, ipsum pavimentum, quod calcant, extemporalibus, et inficetis versiculis gaudent incrustare: (an conspurcare?) Tales vestiunt muros, suspendunt emblemata: ad ravim usque laudant vivos, functosque. imminent tumulis, ac cunis. Rhythmicos dicas pollinctores; circulatorios paranymphos, nuptiales agyrtas, genethliacos chiromantas. ubique declamant recitatores molestissimi. felices se putant, quia veloces: cum velocitatis caussa potius inscitia sit, quam gratia. Considera situs. Versificator sedet, cupiditas volat, animus pendet, ingenium iacet, inscitia stat, versus
+
+<pb id="s008" n="8" TEIform="pb"/>
+
+currunt, et praecipitantur per saxa, tesqua, confraga; infantibus, puerperis, natalibus, thalamis, piis, impiisque manibus venales pretio, quo praesagia sua vendunt Cingari. Interim nulla dubitandi ratio, mutandive quidquam occurrit; nulla subducendi lineam, delendive caussa. odere lituras: quia melius nihil incideret. ergo placentes sibi, sua, et quidem omnia, amant sine competitore, probant sine teste, absolvunt sine iudice. Quamquam et nimiis suarum rerum, scrupulosisque osoribus, alterum extremum instat, naufragantis diligentiae non minus periculum: Iuvenibus tamen rarius timendum. Aliqui pueriliter solliciti, et ab ecte pavidi, ad morosissimum examen conceptuum suorum haerent, tamquam ad scopulum allisi, nec progredi possunt, nec regredi audent, tardat mora: displicet celeritas. nulla trutina satisfacit, semper incubant ovis: pullorum nihil excludunt. Sunt, qui in se ipsos proprias vertunt manus, et censoria crudelitate transversum acti, quidquid excluserint, iugulant, perduntque. Alii, cupiditate maioris famae consequendae, nullum finem inveniunt exornandi simiolum suum: quoque magis excolunt, turpius dedecorant. Nec temere, nec timide, cuiusdam Domini peculiaris gnoma est, trahens ortum ex illo vetustiore oraculo: Virtus est medium vitiorum, et utrinque reductum. Vide, si placet, XII. Articulos Agonalibus <name type="myth" TEIform="name">Heliconiis</name> praefixos, in certamine nostro Poetico de Vanitate Mundi.
+</p>
+<p TEIform="p">
+Quae commemorantur idcirco, non ut propositis difficultatibus deterrere quemquam velimus
+
+<pb id="s009" n="9" TEIform="pb"/>
+
+ab ascensu montis; sed praecipitio, salebrisque ostensis, qua praemonendo, qua praecurrendo, securius attolere. Ac vide, quam nihil dissimulem. Aio, non omnes disciplinas eodem modo se habere, ad capessendum propitias. simul atque nonnullas liquida cognitione hauseris; erunt ex integro tuae. Philosophicas intra triennium adipisci potes. nitide, copiose, clareque adeptus, thesauro frueris non alieno, sed tuo. Disserens, disputans, aciem praeliaris ingenii in omnem partem rotans: dicerisque Philosophus, ab <name type="person" TEIform="name">Aristotele</name> Aristotelicus, a <name type="person" TEIform="name">Platone</name> Platonicus; non quod ipse tales dialogos, atque problemata, velut tui ingenii monumenta posteritati tradideris; seu tradita, probeque intellecta, in tui usum adlegeris quorum scita defendis, horum et nomen, famamque sortiris.
+</p>
+<p TEIform="p">
+Longe in alios anfractus porrigitur iustae magnitudinis Poesis. ideone sublimioribus scientiis anteferenda? minime vero: sed declaranda, ne tortuosa eius indoles ignorata, inhiantum vota destituat. Lustrum, et amplius fortassis insumes, lustrabisque canorae Rupis fundamenta, omnium Vett. Poetarum arcana: Ilias, Aeneis, Thebais, Metamorphoses, Pharsalia in te condita sint. supponam, te etiam universa Mythologia, immo encyclopaedia Poetica, seu tunica <name type="myth" TEIform="name">Martis</name> adamantina, circumdatum: quamdiu intra metas, sive sphaeram intelligentiae stas, nihil profeceris optimus Poetarum interpres, non Poeta vocaberis. Quo nomine Commentatores eruditissimi censebuntur, ante quos mystica Vatum caligo, quasi in meridie posita iacet. callent
+
+<pb id="s010" n="10" TEIform="pb"/>
+
+versus, illorumque vim, et nervum, ut digitos, oculosque suos. explanant figmenta tam vivaciter, ac si ipsi finxissent. iube, ut aemulentur; subducent humeros: abnutabunt. De lauro scribunt, sed laurum non gestant. praecipiunt aliis, quae ipsi exsequi non valent. Ut <name type="person" TEIform="name">Flaccus</name> ait:
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- Funguntur vice cotis, acutum</l>
+<l TEIform="l" part="N">Reddere quae ferrum valet, exsors ipsa secandi.</l>
+</lg>
+<p TEIform="p">
+Supra monui, in Philosophum evasuro, Philosophiae ab aliis acceptae cognitionem sufficere, ad dignitatem nominis tuendam, sine auctario domestico: quod a Poeta docti exigunt. Ulterius ingenii exporrigenda vis est; dandumque specimen, an ad illos, quorum decus tibi vindicas, imitatione legitima accedas. <name type="person" TEIform="name">Aristotelem</name> legis, intelligis, explanas: Aristotelicus es. <name type="person" TEIform="name">Virgilium</name> legis, intelligis, probas: non es propterea Virgilianus, non es felix Aeneidos auctor. eius gloria penes <name type="person" TEIform="name">Maronem</name> manet; Thebais, etiam penitissime intellecta, penes <name type="person" TEIform="name">Statium</name>. Vis in similes statuas adoptari? vis et tu digito monstrari dignus imagine macra? Eia: cane et tu pascua, rura, duces, parili avena, aequali fistula, respondente tuba. Exquire tecum, an Fraternas acies, alternaque regna profanis Decertata odiis, sontesque evolvere <name type="myth" TEIform="name">Thebas</name>, <name type="myth" TEIform="name">Pierius</name> menti calor incidat. Conatum omnes laudabunt: successui, tot saeculorum decursus, fataliter oppositus reclamabit. Unde in diversis artibus, atque scientiis hic ancipitis aleae iactus? in Philosophia, et Poesi tam enorme discrimen? Nimirum Philosopho, veritatem amanti, novitas interdicitur: a Poeta, figmentis delectante, exposcitur, fidibus, et fidiculis.
+</p>
+
+<pb id="s011" n="11" TEIform="pb"/>
+
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et prodesse volunt, et delectare Poetae,</l>
+<l TEIform="l" part="N">Aut simul et iucunda, et ideonea dicere vitae.</l>
+</lg>
+<p TEIform="p">
+Neque simplex novitas poscitur, sed illecebrosa; neque haec tantum, sed scita dictione, facilique imitandi felicitate, fragrantia Veterum vina redolens, contrariis quodammodo se intendentibus. Antiquitatis venerandae ratio semper habenda est, musteaque dictio cratere, ex quo <name type="person" TEIform="name">Augustus</name> Caes. bibit, temperanda. castam Latinitatem nisi <name type="myth" TEIform="name">Pegasides</name> propinent: nullum venustum Carmen exsurget.
+</p>
+<p TEIform="p">
+At enim difficultas crescit ex eo: quod, sicut intra maiorum vestigia iuberis indulgere tibi; ita, nisi exerres, tamquam ruptis repagulis, nullus habearis. quid enim? tua petuntur, non antiqua, nova, inquam: non <name type="person" TEIform="name">Virgilii</name>, non <name type="person" TEIform="name">Ovidii</name>, non <name type="person" TEIform="name">Lucani</name>, non <name type="person" TEIform="name">Horatii</name> monumenta. iam olim perlustravi, dicet aliquis semper simulare Cupressum! iam cupiam de cedro dici qua vena tuum stillet ingenium; aperi. Vetustatem indagavi exactissime. nostrum aevum quid agit? inventa invenire, cantata canere, rapto vivere; sit tantae molis negotium! Talibus argutans, ante portam crucem statuet, tamquam furtorum reo, et plagiario plagis digno. Ergo non licebit, inquies, <name type="person" TEIform="name">Claudianum</name> imitaturo, ex raptae <name type="myth" TEIform="name">Proserpinae</name> quasillo decidentes colligere flores! phrases, vis dicere. Sane licebit. poteris etiam tibi circumdare opes, et angues <name type="person" TEIform="name">Ruffini</name>, <name type="person" TEIform="name">Gildonis</name> aristas, <name type="person" TEIform="name">Alarici</name> spolia, laciniam ex purpura <name type="person" TEIform="name">Honorii</name>, cristas, quae in galea <name type="person" TEIform="name">Stiliconis</name> steterant. Quin etiam fasciculum ex fascibus irrisi Spadonis conficis? iubar quoque serenissimum splendescet ex
+
+<pb id="s012" n="12" TEIform="pb"/>
+
+Serenae laudibus. Si tamen praeter febriculosos versus a te compositos, quibus similia insperguntur, novi nihil, atque egregii attuleris; frustra te <name type="person" TEIform="name">Claudiani</name> pullum vocabis: nulla donandus statua, manebis inglorius. unde originem trahas, cuias, cuiusque fortunae sis; nec <name type="place" TEIform="name">Alexandria</name> <name type="place" TEIform="name">Aegypti</name>, nec <name type="place" TEIform="name">Italiae</name> <name type="place" TEIform="name">Florentia</name> curabit inquirere. Praeterquam, quod cornicula furtivis nudata coloribus, risum creat; nihil audere, nihil excogitare posse, nulla dictione uti, nisi empta; extremae vilitatis est: servilis immo sortis, egentis ingenii, pravi iudicii.
+</p>
+<p TEIform="p">
+Memento, <name type="nation" TEIform="name">Graios</name> eodem vocabulo <name type="myth" TEIform="name">Phoebi</name> Sacerdotem cohonestare, quo Deum: quem Poetam a faciendo, fingendoque vocant. uterque statuit opus foras productum, quod paullo ante in rerum natura non erat: Deus ex nihilo; Poeta ex cerebro. Unde et Carmen condere dicitur, quomodo Deus Mundum condidisse. quem loquendi modum Oratores usurpare verentur. Orationes suas componunt, non condunt. Vides igitur, ex hoc quoque capite, aliquid novi a Poeta exspectari. Quòd si defectu naturae, artis, gratiae non affert; culpabitur aliena vineta cecidisse: non fecisse versus, sed transplantasse germina peregrina, ex suo horto sumptum sevisse nihil, praeter carduum, et fungos. Atqui, obicere potes, ad imitandum provocamur. Recte, non nisi lectione Vett. in nostros usus conversa. Nec hoc negabitur. sed <corr sic="intetest" resp="transcriber" TEIform="corr">interest</corr>, cibum emendicatum continuo evomas, adhuc crudum; an, eo in sanguinem verso firmeris, adolescas, vires augeas, haut aliter, lectorum Carminum frusta cum <name type="myth" TEIform="name">Poliphemo</name> semesa eructes, an, ut
+
+<pb id="s013" n="13" TEIform="pb"/>
+
+alimenta concoquas; impleasque, ex bene digestis, subactisque, Poeticam venam: qua secta generosus sanguis, tuus utique, ebulliat; et <name type="myth" TEIform="name">Castalius</name> liquor despumet in pateram <name type="myth" TEIform="name">Apollini</name> offerendam. Haec assequi ut velimus, ac possimus, facilè suggeruntur; non itidem impetrantur. multorum votum, paucorum est domum, ab Veterum auctoritate non recedere; ab iisdem tamen, propriis inventis, novis loquendi modis, tropis, atque figuris ex vitali cordis fonte manantibus, recedere. At fieri id ipsum posse, docuit <name type="person" TEIform="name">Cl. Claudianus</name>, auctor clarissimus, quadringentis annis post Aureum seculum, novo Consulari auro, nitidissime, venustissimeque effulgens. <name type="myth" TEIform="name">Thebas</name>, <name type="myth" TEIform="name">Troiam</name>, <name type="place" TEIform="name">Pharsaliam</name> peragraverat; <name type="person" TEIform="name">Maronem</name>, <name type="person" TEIform="name">Ovidium</name>, <name type="person" TEIform="name">Lucanum</name>, <name type="person" TEIform="name">Statium</name> evolverat; haut dubie in florem sanguinis, et animae suae verterat: non tamen apparet, quid <name type="person" TEIform="name">Virgilio</name>, quid caeteris debeat. gazam suo labore acquisitam, facundissime dispensavit, ut propriam. Nec facilè reperias segmenta, ex quibus deprendas, accuses, aut velut Veterum pedissequum despicere possis. Divitiis animosus suis, prisco non indiget aevo. Cecinit <name type="person" TEIform="name">Catullus</name> Epithalamium: cecinit invidendum <name type="person" TEIform="name">Statius</name>: cecinit et <name type="person" TEIform="name">Claudianus</name> in nuptiis <name type="person" TEIform="name">Honorii</name>, et <name type="person" TEIform="name">Mariae</name> confer molles numeros, confer ingenium, inventionem, maiestatem, lepôres, Decorum: inter hos tres <name type="myth" TEIform="name">Paris</name> iudex dubitet, cui nuptiale Pomum debeatur. ego ultimo assignarem: <name type="person" TEIform="name">Statio</name> post <name type="person" TEIform="name">Virgilium</name> in omnibus primas.
+</p>
+<p TEIform="p">
+Ex his, opinor, intelliges, Poema novum, rarum, elegans, eruditum sine fastu, expolitum sine fuco, derasum sine fastidio: quodque inter ingenii, iudiciique libramentum, ex amoena caligine
+
+<pb id="s014" n="14" TEIform="pb"/>
+
+profundorum sensuum enitescens cum voluptate consurgat; rerum unam esse difficillimam. quale est, quod invitat ad imitandum, anhelantis coepta frustratur; plusque significat communibus verbis, quam aliud quodvis ampullantibus promittat. Huc conducet adhibendi styli necessaria cognitio, quamvis enim omnium Poetarum notitia praeditus, abundes insuper copia verborum exquisita; si tamen stylorum vim, ordinem, genium, varietatem, mixturamque nescias aptare materiae, rerum naturis, tempori, personis, tibi ipsi. tuique, et alterius animi affectibus; inconditum chaos excitabis: similis Citharoedo, qui se <name type="myth" TEIform="name">Orpheum</name> professus, ignorat temperare fides.
+</p>
+<p TEIform="p">
+Adice iam animum, si placet, ad <name type="place" TEIform="name">Venusinam</name> <name type="myth" TEIform="name">Pyram</name>. Odae <name type="person" TEIform="name">Q Horatii Flacci</name>, usu iam, et veneratione antiquitatis, ab omnibus doctis receptae, commendantur a nitore <name type="nation" TEIform="name">Latini</name> sermonis, a salibus, et iocis: obtinuere venustatis non simplicis decus, influuntque auribus, non operosa suavitate felices. etiam, cum alliduntur, et cespitant, decorem trahunt a quaesito neglectu. Sic credere cogimur. Quotidie, etiam testudinis peritissimi, perfunctoria manu in chordas ruunt, carptimque, quasi somnolenti, percutiunt. An <name type="person" TEIform="name">Horatius</name> prae mera otii dulcedine, dedignatus se totum semper exerere, contentus fuit, petulanti digitorum incursu, verberare barbitum? an homo ventri, vino, Venerique deditus, non potuit, aut voluit sufficere solertibus citharae curis? certe nonnunquam tepidissimos versus, more pandiculantis sub arbore, aut ad splendidiorem vitro Blandusiae
+
+<pb id="s015" n="15" TEIform="pb"/>
+
+fontem, fudit. seu tunc Lalagen suam sobrius, sive lagenam ebrius aspexerit: certum est, multas Odas privilegio insignitae Vetustatis honorari. quaedam membratim divisa, si inspiciantur, nullam admirabilitatem excitant, reicienda fortassis, si Neotericus scripsisset. nunc stant suo nomine firmata, contra ire non licet. Quid igitur ages scripturus Odas? <name type="person" TEIform="name">Horatiani</name> Carminis Idea Divinitatis titulo consecrata est. placuit etiam <name type="person" TEIform="name">Nasoni</name>, nasutissimo Vati. clamat ex <name type="place" TEIform="name">Ponto</name>:
+</p>
+<lg met="dist" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Detinuit nostras numerosus <name type="person" TEIform="name">Horatius</name> aures:</l>
+<l rend="indent" TEIform="l" part="N">	Dum ferit <name type="place" TEIform="name">Ausonia</name> carmina culta lyra.</l>
+</lg>
+<p TEIform="p">
+Non est amplius liberi arbitrii, seligere, vel aspernari. ius nobis ademit fama nominis, quaque ab exequiis intenditur, veneratio. Hunc sequi huic cedere, hunc adorare debebis: huic etiam meliora submittere. imitaberis? nempe eiusdem cimmelia proferes. demptis hellenismis, exhauries illius supellectilem brevi tempore, etiam parce vivendo. Vitreum <name type="myth" TEIform="name">Proteus</name> pecus egit altos visere montes: Poscat agna: Urget odoribus: Simplex munditiis: Intentata nites: Benignius deprome quadrimum: Animaeque magnae prodigum <name type="person" TEIform="name">Paullum</name>: Brachia cerea: Macerer ignibus: Quinta parte sui nectaris imbuit. Malus celeri saucius <name type="nation" TEIform="name">Africo</name>: Pinus silvae filia nobilis: Imbelli cithara carmina divides: Quem - criminosis - cumque voles modum, etc. Insani leonis vim stomacho apposuisse nostro: Igneam defendit aestatem capellis: Deviae olentis uxores mariti: Hîc in reducta valle caniculae: Arcanique fides prodiga, perlucidior vitro: Urit grata protervitas: Et vultus nimium lubricus aspici: Frangere persequor: Iecur ulcerosum: Natis in usum laetitiae scyphis:
+
+<pb id="s016" n="16" TEIform="pb"/>
+
+Solutis <name type="myth" TEIform="name">Gratiae</name> Zonis: Mordet aqua taciturnus amnis: Quo bruta tellus et vaga flumina: Lascivis hederis ambitiosior: Penna metuente solvi: Umbram hospitalem: Lympha fugax trepidare rivo: Fuge suspicari: Iam tibi lividos distinguet Autumnus racemos: Iuvenumque prodis publica cura: Desine mollium tandem querelarum: Facili saevitia negat: Platanusque caelebs: Myrtus, et omnis copia narium: Dulcem elaborabunt saporem: Nec tinctus viola pallor amantium: Nec <name type="nation" TEIform="name">Mauris</name> animum mitior anguibus: Protervo cruda marito: Splendide mendax: Loquaces Lymphae desiliunt: Et cadum <name type="nation" TEIform="name">Marsi</name> memorem duelli. Late Tyrannus: Perfidum ridens <name type="myth" TEIform="name">Venus</name>: Munitaeque adhibe vim sapientiae: Plurima naribus duces thura: Niveus videri, cetera fulvus: <name type="myth" TEIform="name">Eurus</name> per <name type="nation" TEIform="name">Siculas</name> equitavit undas: Et vitem viduas ducit ad arbores: Ridet argento domus: Impellunt animae lintea <name type="place" TEIform="name">Thraciae</name>. Ut ne plura referam: haec sunt non tantum aliqua, sed multò pars maxima earum rerum, quas in <name type="person" TEIform="name">Flacco</name> Lyrico admiramur. certe in similibus elegantiis infinitus non est. Imitator in eadem si semper impingat, non Horatianus, sed <name type="person" TEIform="name">Horatius</name> erit, frustra rescribendus. Si relinquat insulam <name type="place" TEIform="name"><corr sic="Crypri" resp="transcriber" TEIform="corr">Cypri</corr></name>, ubi habitavit, et elegantias suxit, maximam partem vetitas: id est, si non eadem chorda oberret, eamdem, quod aiunt, serram reciprocet, nullus habebitur. Quid igitur facias? Recedendo, tamquam ab igne, frigebis: accedendo propius, ambures florem castimoniae; (quod Heterodoxi non curant: putantque, se iam tenerrime, cultissimeque loqui, si sint lascivi:) perdes oleum, et operam. a Latinitate, iisdemque dictionibus, modisque loquendi <name type="person" TEIform="name">Horatianis</name> abstinens, de tuo necessum
+
+<pb id="s017" n="17" TEIform="pb"/>
+
+erit, ut sufficias natura, et arte mixtum. Legimus Auctores iuratos in verba Magistri, qui tantum non perpetuas Parodias recitarunt, <corr sic="fine" resp="transcriber" TEIform="corr">sine</corr> plausu exceptos.
+</p>
+<p TEIform="p">
+Sic tecum reputa: Nisi stylum erigas, reptans calcaberis; petiturus ardua, vel cum <name type="myth" TEIform="name">Icaro</name> decides, vel super volantem pauci aspicient. quo altius iveris, minor propter distantiam sub visum cades; ac nisi per nubila continuis alludentibus radiis intermices, ignoratus, voluisse latere censeberis. vitio obscuritatis damnabunt, quamvis ipsi vitio caecitatis laborent: oculosque <name type="myth" TEIform="name">Lethaeo</name> humore suffusos, <name type="myth" TEIform="name">Arcadicae</name> pecudis glaucoma corruperit, in quocumque tandem error sit; Docti, indoctique, quem mente apprehendere desperant, nec manu multùm prehendent. Superest media via: Medio tutissimus ibis. Quomodo tutissimus? medio iturum, euntemque, quivis Aristarchus de ponte deiciet; rediget in ordinem; coget in trivium; despiciet infra subsellia vulgi depressum: Nam, quid novi lemmatis attulit propter quod legi dignus fatigaverat praelum? nil molle, nil facetum, nihil supra vulgus! hic se Vatem Lyricum venditet, hymnidicus esuritor, forensis <name type="person" TEIform="name">Tuccius</name>! nam quando assurgit? quando feliciter est audax, prudenter timidus, fortiter cautus? quoties festive ludit inopinato subsultu? quod <name type="person" TEIform="name">Flacco</name> tamen familiare fuisse constat. Vix hunc Poetastrum agnosco. nunquam mulcet, nunquam terret; nunquam fricat, nunquam delectat, ne titillat quidem. At sermone nitet, verba nisi ex <name type="person" TEIform="name">Horatii</name> sacrario desumpta promere religio est. Respondebit, repete: iam audivi millies; iam legi centies. exspectabam nescio quid! ad repetitam
+
+<pb id="s018" n="18" TEIform="pb"/>
+
+cramben mittor. Hae tunc voces erunt. Ibis tu tamen excusso missus in astra sago,
+</p>
+<p TEIform="p">
+Terremus nempe larvis, et fingimus vanos metus! Non habeas fidem meis obtestationibus, nisi, quae hactenus asserui, ipsius <name type="person" TEIform="name">Horatii</name> verbis, quem tu iuxta mecum aestimas, luculenter confirmavero. Attende, quae Pisonibus suis, quos Arte Poetica imbuendos susceperat, quaeque alibi in Satyris, et Epistolis suis sparsim, instillet. Ad huius exemplum, et stimulos provocasti; fruere.
+</p>
+<p TEIform="p">
+Cuperes, non alto clivo, aut praecipiti via, sed humiliore semita, tutioreque <name type="myth" TEIform="name">Parnassum</name> scandere? accipe monitum.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O maior Iuvenum, quamvis et voce paterna</l>
+<l TEIform="l" part="N">Fingeris ad rectum, et per te sapis: hoc tibi dictum</l>
+<l TEIform="l" part="N">Tolle memor. Certis medium, et tolerabile rebus</l>
+<l TEIform="l" part="N">Recte concedi. Consultus Iuris, et Actor,</l>
+<l TEIform="l" part="N">Caussidicus mediocris, abest virtute diserti</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Messallae</name>; nec scit, quantum <name type="person" TEIform="name">Cascellius Aulus</name>:</l>
+<l TEIform="l" part="N">Sed tamen in pretio est. MEDIOCRIBUS ESSE POETIS.</l>
+<l TEIform="l" part="N">NON HOMINES, NON DII, NON CONCESSERE COLUMNAE.</l>
+</lg>
+<p TEIform="p">
+Promisi monitum, habes oraculum, ore rotundissimo pronuntiatum. Mediocritas tibi, <name type="person" TEIform="name">Marcona</name>, secundum hunc quidem superanda est: minimum vitanda. vitare autem cupienti, multoque magis egressuro cum laude successus, pluribus annis opus erit, quam <name type="myth" TEIform="name">Musarum</name> numerus includat. Neque enim semper labori respondet proventus;
+
+<pb id="s019" n="19" TEIform="pb"/>
+
+Poeta exspectationi, exspectatio votis, vota ingenio. hortabuntur amici: fodicabunt gratissimis stimulis, omnia in coelum efferre parati. pulsabit unus pede, eriget manum, torquebit oculos. tam cito, tam belle! iurabit parasitus per nonaginta novem patinas: praeferet antiquis. Haec enimvero est, dicet, fabula plausibilis. Sed de te fabula agetur. Poeta, <name type="myth" TEIform="name">Ianus</name> bifrons sit, oportet. ante, retroque perspiciat, falsum a vero discernens; futura cum praeteritis conferens: interdum deliberans; num vera dixit! num sic vena fluit! num Rupem ascendimus ipsam!
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">
+Non cuivis homini contingit adire <name type="place" TEIform="name">Corinthum</name>.
+</l>
+</lg>
+
+<p TEIform="p">
+Tametsi contigeris <name type="myth" TEIform="name">Parnassum</name>, quid tum postea? hic mons, instar Fodinae metalliferae Suazensis, infra, supraque confossus, et perfossus est: vix ullam venam reperies intactam. hoc est; quod cruciat <name type="myth" TEIform="name">Parnassios</name> fossores. novis inventionibus destituuntur. multa tibi polliceberis, non aureum, sed aeruginosum ingenium ostensurus. Pergamus.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- Neque enim concludere versum</l>
+<l TEIform="l" part="N">Dixeris esse satis neque si quis scribat, uti nos,</l>
+<l TEIform="l" part="N">Sermoni propiora, putes hunc esse Poetam.</l>
+<l TEIform="l" part="N">Ingenium cui sit, cui mens divinior, osque</l>
+<l TEIform="l" part="N">Magna sonaturum; des nominis huius honorem.</l>
+</lg>
+<p TEIform="p">
+Unde colligas; inscriptionibus, Chronostichis, Anagrammatismis, Epicyclis, Rhombis, cuneis, in quorum figuram, et ordinem, nonnulli principia, finemque metrorum, velut arbores in
+
+<pb id="s020" n="20" TEIform="pb"/>
+
+quincuncem directas, disponunt; Poetae decus nequidquam obtineri. Mechanicum, et Circulatorium inventum dixeris. Genialia <name type="myth" TEIform="name">Lucinae</name>, funebria <name type="myth" TEIform="name">Libitinae</name> in medio relinquuntur. Excande fieri possunt ab ingeniis, et magnum nomen mereri; sed quando?
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Difficile est proprie communia dicere: tuque</l>
+<l TEIform="l" part="N">Rectius <name type="myth" TEIform="name">Iliacum</name> carmen deducis in actus;</l>
+<l TEIform="l" part="N">Quam si proferres ignota, indictaque primus.</l>
+</lg>
+<p TEIform="p">
+Quae proprie dicuntur, nunquam displicent; quia sine ambitione. hanc minus vitabis dicturus communia, vel nitidius, vel altius. quod tamen fieri necesse est; ne sermone pedestri eques laureatus videatur incedere. tunc scilicet omnes equitant, cum <name type="myth" TEIform="name">Solis</name> equi describendi sunt. his cum <name type="myth" TEIform="name">Phaethonte</name> prolapsis, magna Pars Vatum pedibus conficit viam. humilia loquuntur, neque <name type="myth" TEIform="name">Solis</name> currum decentia. Miser <name type="myth" TEIform="name">Phaethon</name> in <name type="myth" TEIform="name">Eridano</name> fumans absque funebri cultu relinquitur; nisi si Sorores eius, tuto stantes in littore silvae, in subsidium electra conferant. At enim summa Veterum laus fuit, etiam humilia non vulgariter efferre. Apud <name type="person" TEIform="name">Virgilium</name>: Ita farier infit. Tunc sic orsa refert. etc.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- Carmen reprendite, quod non</l>
+<l TEIform="l" part="N">Multa dies, et multa litura coercuit, atque</l>
+<l TEIform="l" part="N">Perfectum decies non castigavit ad unguem.</l>
+</lg>
+<p TEIform="p">
+Non tam mollia fila sunt croci, non tam subtilia <name type="myth" TEIform="name">Arachnae</name>, quam ea, quibus delicatum Poema conficitur. Sic <name type="myth" TEIform="name">Minerva</name> docuit, poscitque similem telam, qualem multi se arbitrantur texere,
+
+<pb id="s021" n="21" TEIform="pb"/>
+
+quasi de <name type="nation" TEIform="name">Serum</name> stamine: cum reversa saepe tantummodo ex scissis in partes rudentibus horribilis lodix appareat: Poema nullius gratiae, aut illecebrae. verborum quidem ampullantium vorticosa conglobatio; sed inanis, sine pondere, <corr sic="sie" resp="transcriber" TEIform="corr">sine</corr> sensu. possumus etiam inter astra sublimes repere: contra, in terra coelum tangere. proinde ad limam accedendum est. figendus unguis in tuberibus metrorum: extinguendae verrucae; nisi si quaedam relicta, decere placitura credatur. quemadmodum in facie humana, eaque emendatissima, nonnunquam relinqui unam, et gratiose nitere videmus.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- <name type="person" TEIform="name">Pollio</name> Regum</l>
+<l TEIform="l" part="N">Facta canit, pede ter percusso. forte epos acer,</l>
+<l TEIform="l" part="N">Ut nemo <name type="person" TEIform="name">Varius</name> ducit. molle, atque facetum</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Virgilio</name> annuerunt gaudentes rure <name type="myth" TEIform="name">Camoenae</name>.</l>
+</lg>
+<p TEIform="p">
+Genium, vimque diversorum Vatum exprimit. Amentata metra, ceu missilia ad iactum confecta, tanti non videtur facere. Est quidem Epigrammatum venustas, et elegantia magna; si in tempore spargantur. Mirum tamen! <name type="person" TEIform="name">Augusti</name> temporibus non aestimabantur. Sub <name type="person" TEIform="name">Domitiano</name> <name type="person" TEIform="name">Martialis</name> Coquus ollarem Poesin intendit. laudamus omnia: sed tu, <name type="person" TEIform="name">Marcona</name>, dabis operam; ut pharetra <name type="myth" TEIform="name">Apollinis</name> instructus, cum <name type="person" TEIform="name">Virgiliano</name> <name type="myth" TEIform="name">Aenea</name> tres littore cervos Cornibus arboreis sternas: non contentus spiculis <name type="place" TEIform="name">Bilbilitano</name> aceto tinctis, cornicum oculos configere.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc erat, experto frustra <name type="person" TEIform="name">Varrone Atacino</name>,</l>
+<l TEIform="l" part="N">Atque quibusdam aliis, melius quod scribere possem.</l>
+</lg>
+<p TEIform="p">
+Cur <name type="person" TEIform="name">Atacinus</name> displicuerit, non explicat. An maiora viribus suis aggressus, destinata consequi
+
+<pb id="s022" n="22" TEIform="pb"/>
+
+non potuit? Vetus illud: possunt, quia posse videntur. An sufficere putavit, summa mente complecti; deses deinde supersedit urgere conatum? id hodieque obtinet.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Maxima pars Vatum, pater, et iuvenes patre digni,</l>
+<l TEIform="l" part="N">Decipimur specie recti. brevis esse laboro,</l>
+<l TEIform="l" part="N">Obscurus fio. sectantem laevia, nervi</l>
+<l TEIform="l" part="N">Deficiunt, animique. professus grandia turget:</l>
+<l TEIform="l" part="N">Serpit humi, tutus nimium, timidusque procellae.</l>
+<l TEIform="l" part="N">In vitium ducit culpae fuga, si caret arte</l>
+</lg>
+<p TEIform="p">
+Misera sors Scriptorum, omni aevo; sed maxime Poetarum communem loquendi modum egredi iubentur; a Communitate tamen nisi etiam intelligantur, censuris cruciandi despicatui ducentur. Quis has tenebras dispellet? obscurisissimus mortalium habitat in caligine. ut Hesperugo nebulas, ut sepia nigrorem diffundit. Neque vero haec involucra, ab recondita, spissaque eruditione intenduntur. Animi nox est oculis meis inimica. Auctorem deprehendo obnubilum. vacuitas cerebri, scriptionem tenebris replevit. Et verò Poema sine claritate; Mundus sine Sole, Sol sine luce est. <name type="person" TEIform="name">Crescenti</name>, clarescere debes. pauci ex Commentario volunt sapere.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- Pictoribus atque Poetis,</l>
+<l TEIform="l" part="N">Quidlibet audendi semper fuit aequa potestas.</l>
+</lg>
+<p TEIform="p">
+Poetas, et Pictores, multa similitudine necti, nemo negaverit. Ut dissimilia praeteream, etiam extra quidlibet audendi potestatem, in quibus conveniunt, haec sunt. Utrique circa simulacra mentis exprimenda occupantur. In Larario Phantasiae idola fabricant; (et hercle nescio, an non aliquando iis sacrificent, tura ferant, placendi studio.) figmentis indulgent, Hypotiposes
+
+<pb id="s023" n="23" TEIform="pb"/>
+
+exhibent: hi coloratas, isti sonoras. hi penicillo ludunt, isti plectro. hi oculos pascunt, isti aures. Utraque Natio topographica, utraque sicci fugiens, amans umbrae, et cortinae, intra quam pingunt velamine reducto, tum verò ostentare gaudent opera perfecta. Ante ultimam manum impositam, spectator est fastidio: censor etiam odio, rudis ludibrio. Sed propiora instituto nostro persequar. Nonne advertimus, iam pueros in ludo, proclivitate nescio qua, sine arte, et modo, conari tamen adumbrare leporem, muscam, cervum, canem, asinum? Naturalis propensio manum otiose ducit. Admoveantur adulti serio penicillo. Ut longo tempore discant, ut omnes vires exserant, ut toto ingenio utantur; quot ex magno numero evadent <name type="person" TEIform="name">Titiani</name>, <name type="person" TEIform="name">Dureri</name>, <name type="person" TEIform="name">Rubenii</name>? Semina Poesios plerisque ingeniis inspersa sunt. produnt argutius dicta, sententia vibrans, et subita, cum lepôre non quaesito: Versiculus extemporalis, epigramma suavitate philautiae conditum: Amor huius studii, metri sonantis; et vel in vernacula voluptas Rhythmi. Quidam tantum non effusis habenis illuc aguntur, ubi Enthusiasmi habitant. Pulcra spes magnarum Rerum. Post aliquot Olympiades studio Poetico impensas, ipsimet multi fatebuntur, didicisse se scandere <name type="myth" TEIform="name">Olympum</name>, sed non <name type="myth" TEIform="name">Parnassum</name>. Non omnia maturantur, non omnis vena fons est. tota spes plurimorum Adolescentum dehiscit. Destitere: Aio, vires animi assequi non potuisse, Alterum est. Aliquorum Pictorum vis ad parva duntaxat se extendit, magnis ostentis impar. in annuli gemma ducit aliquis
+
+<pb id="s024" n="24" TEIform="pb"/>
+
+effigiem, pusillas imagines in charta, ebore, argento, marmore. Ad <name type="person" TEIform="name">Rubenianam</name> Statuam, torosam, vivacem, analogice metricam, quasi extantem, ad clamantem colossum trepidat, haeret, stupet. Nec similem pedem efformaverit. Inter argutos versiculos, iustumque Poema, et lauro dignum, magnum discrimen est. <name type="person" TEIform="name">Horatio</name>
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">
+Scribendi recte, sapere est, et principium, et fons.
+</l>
+</lg>
+
+<p TEIform="p">
+Ac si diceret: Virtus est, vitium fugere: et sapientia prima, Stultitia caruisse.
+</p>
+<p TEIform="p">	
+Nam sine mente ruere in commenta Poetica, aut iam credere, intra quinquennium, omnia ad fastigium necessaria, possideri; fugientis iudicii nota certissima est. quippe qui nec intellexerit comprehendenda: nedum in cumulum collecta comprehenderit. ergo et ingenio opus est, ut ingenium exerceas; et iudicio altero, ut illo utaris.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non satis est puris versum praescribere verbis:</l>
+<l TEIform="l" part="N">Quem si dissolvas, quivis stomachetur, eodem</l>
+<l TEIform="l" part="N">Quo personatus pacto pater.</l>
+</lg>
+<p TEIform="p">
+Versus in sua membra fracti, nihilominus Poeticam laurum redoleant: quomodo flores in coronam illigati, quamvis stemmate dissoluto, adhuc fragrant. Sunt varii loquendi modi: qui cuique Carminis genio conveniant, nasuti statim odorantur. Aliter rem Historicus, vel Orator effert; aliter Poeta. In ipsa Poesi aliter Elegiacus, aliter Satyricus: a se remoti invicem, plerumque non tam sono distantium verborum; quam structura totius artificii, et fluitantis spiritus, qui molem agitans, sensa, vitamque insinuat. sed iam
+
+<pb id="s025" n="25" TEIform="pb"/>
+
+passim, instar Andabatarum, promiscuis saevitur instinctibus caeco furore, tenera, fortia, mollia, dura, Heroica, Lyrica, Elegiaca, Satyrica in eumdem alveum rapiuntur.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Interdum speciosa iocis, morataque recte</l>
+<l TEIform="l" part="N">Fabula, nullius Veneris, sine pondere et arte,</l>
+<l TEIform="l" part="N">Valdius oblectat populum, meliusque moratur,</l>
+<l TEIform="l" part="N">Quam versus inopes rerum, nugaeque canorae.</l>
+</lg>
+<p TEIform="p">
+Ita est. Quot videmus fabulas quotidie dari ab iis, qui Poesin ne quidem intelligunt! nec absque plausu; vitio vulgi; cuius tota voluptas stat in sensibus: maxime natat in oculis: in auribus iam vix praeter modulatam haeret. Recita Carmen pulcherrimum. praeferetur illi gannitus Cauponis ebrii. stulti clava, clavam <name type="myth" TEIform="name">Herculis</name> in populari Dramatio superabit. Parasitus, Rusticus titubans, Nuntius mendax primariae personae, ceteros Actores obscurant. plauditur comice. Sapienter dicta Tragoedi praetervolant. Totius Tragoediae ad affectum concitandum ingeniosa Inventio, dispositaque scenae, sine monstris subsidunt. si <name type="myth" TEIform="name">Medea</name> exhibenda est; sanguine theatrum cruentet, necesse est; vivis infantibus ante ora Spectatorum laceratis. quidquid reclamet <name type="person" TEIform="name">Horatius</name>, cum <name type="person" TEIform="name"><corr sic="Euripe" resp="transcriber" TEIform="corr">Euripide</corr></name>, <name type="person" TEIform="name">Empedocle</name>, et <name type="person" TEIform="name">Sophocle</name>. Vidimus busta: surrexit incendium. tonuerunt fabrefactae nubes. audivimus fragorem, et sonitus irati <name type="myth" TEIform="name">Iovis</name>. volarunt ignei alipedes. <name type="myth" TEIform="name">Neptunus</name> inter septem Phocas tridentem septies movit. Tum enim vero <name type="myth" TEIform="name">Pluto</name> quatuor equis, flammas vomentibus, invectus, totam litem diremit. ingens Choragi ingenium! iste <name type="myth" TEIform="name">Musis</name> operatur; olim haut dubie miranda
+
+<pb id="s026" n="26" TEIform="pb"/>
+
+quaedam edet in lucem. ita pyrausta et Poeta, unum, idemque nomen, et decus obtinent Quod stupeas, saepe magni Viri, et, qui docti videri volunt, his sumptuosis, et illustribus nugis (quae valdius oblectant populum) capti, domum revertuntur. Spectavimus, inquiunt, mirabilia, et Docta: ignari, Agyrtam, an Poetam spectaverint.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ficta voluptatis caussa, sint proxima veris.</l>
+<l TEIform="l" part="N">Nec quodcumque volet, poscat sibi fabula credi.</l>
+</lg>
+<p TEIform="p">
+Alibi dixerat: Ridentem dicere vera, quid vetat? Recte. lepôres, et Apologos commendaverat. Quisquis a <name type="myth" TEIform="name">Musis</name> delectamenta sequestrat; aceto submersus intereat. Videbis tu tamen multos, familiare colloquium obviis hilarare facetiis, atque fabellis; quippe comes, urbani, eutrapelici audire gestientes. eosdem, cum festivum Poema pangendum foret, esse frigidissimos mortalium. imperiti, et insulsi, ad voluptatem nihil apte fingere queunt. adeo et solertia iocandi, iocique quotidiani dissentiunt.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Omne tulit punctum, qui miscuit utile dulci,</l>
+<l TEIform="l" part="N">Lectorem delectando, pariterque monendo.</l>
+<l TEIform="l" part="N">Hic meret aera liber <name type="person" TEIform="name">Sosiis</name>: hic et mare transit,</l>
+<l TEIform="l" part="N">Et longum noto scriptori prorogat aevum.</l>
+</lg>
+<p TEIform="p">
+Amoenitatem ingenii a Poeta omnes petunt, et amant. secus: labascit et cupiditas lectoris, et Auctoris auctoritas. cui bona Poema hirtum, hispidum, asperum, insulsum, morosum, strigosum, re, verbisque, ac sententiis inamabile? Ex decoro grave, festivum, ac molle, haec praesertim tempora amant. quod lectum delectet, delectando moneat, monendo moveat, movendo cupiditatem lectoris magis accendat. Poeta cantor est.
+
+<pb id="s027" n="27" TEIform="pb"/>
+
+nihil autem inficetius Phonasco, qui artificiose (ut ipse quidem putat; ut alii, fastidiose) corvina magis, quam cygnea vocum intemperie, per immaniter longos gutturis tractus, contrarium iudicium pugnat. nempe profitetur artem! nempe ego illam curem; quae tympano sensus horrorem, dentibus stridorem, animo toedium inducit.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">
+Ridetur, chorda qui semper oberrat eadem.
+</l>
+</lg>
+
+<p TEIform="p">
+Sed quid, si non nisi unam didicerit ferire! Non cuiusvis est Symphoniam facere pleno choro: omnes barbiti partes explere. Quidquid in praecordiis haeret, congestumque est optimi sanguinis, quidam in unicam Declamationem, vel Oden prodigunt: addant decem; exsucci erunt. laurus illorum radice caret. primoribus labris attigere peregrinae scatebrae venam: quae in proprii nominis fontem, iusta possessione nondum transiit. etsi in mortario contundas, nihil extundes aliud, quam quod audisti. semper eadem redibunt.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic mihi, qui multum cessat, fit <name type="person" TEIform="name">Chaerilus</name> ille.</l>
+<l TEIform="l" part="N">Quem bis, terque bonum cum risu miror, et idem</l>
+<l TEIform="l" part="N">Indignor.</l>
+</lg>
+<p TEIform="p">
+Ut vides, non omni laudanti nostra, superbe credendum est. quaedam approbatio commendantis in speciem speciosa, nonnunquam velut unguentum, Aegro Recitatori, pro medicina adhibetur; vel ut stimulus, et calcar ad pergendum, et meliora tentanda: vel denique, ut Auditor rabie Cantantis fatigatus, congiarium laudis exspectantem, citissime expediat. Ecce, <name type="person" TEIform="name">Horatius</name> aliquem cum risu miratur, idem tamen tacite indignans.
+
+<pb id="s028" n="28" TEIform="pb"/>
+
+Quis iam a rigido cachinno securus erit? Ut non metuat <name type="person" TEIform="name">Aristarchi</name> virgulam, censorum ludibria? quando iam etiam praeconia fallaci palpo subsannant. Saepe ergo illud eiusdem <name type="person" TEIform="name">Horatii</name>, ante ora, oculosque versetur, penitus immo auribus, et memoriae impressum. Ludere qui nescit, campestribus abstinet armis: Ne spissae risum tollant impune coronae. Expende, obsecro: Spissae, risum, impune. Secundum haec cavebis ciconiarum crepitantium rostra. infames digitorum micabunt figurae. Ante, retroque pinsent. nec bifrons <name type="myth" TEIform="name">Ianus</name> evadat.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Idcircone vager, scribamque licenter? an omnes</l>
+<l TEIform="l" part="N">Visuros peccata putem mea? tutus, et intra</l>
+<l TEIform="l" part="N">Spem veniae cautus.</l>
+</lg>
+<p TEIform="p">
+Quid iuvat sibi theatrum struxisse? intus suis <name type="myth" TEIform="name">Musis</name> cecinisse? cum illis domesticum foedus sancire? velis, nolis, foras prodeundum est in foro, placeas, an displiceas, exaudies. cogêris dicere:
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- Vitavi denique culpam;</l>
+<l TEIform="l" part="N">Non laudem merui.</l>
+</lg>
+<p TEIform="p">
+Consonat cum illo, quod in principio posui, non licere Poetis esse mediocribus. credo, quod Auditor semper ab ipsis Responsa Deorum exspectet. non creduntur habere commercia cum Superis, nisi mortalem egressi modum, etiam tenuissimam rem nobilitent; et infra plebem sita, supra vulgus ferant. Vitasse culpam, laudi non est. aliquid laudabiliter conatum esse; nondum est admirationi. addidisse nonnihil miri, nondum nomen explevit. si invidiosum non esset, commonstrare exemplis operosum non foret.
+</p>
+
+<pb id="s029" n="29" TEIform="pb"/>
+
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic Animis natum, inventumque Poema iuvandis,</l>
+<l TEIform="l" part="N">Si paullum summo discessit, vergit ad imum.</l>
+</lg>
+<p TEIform="p">
+Terribile pronuntiatum! nam quis arcus non rumpitur, si nulla intermissione intendatur? Atqui etiam in summis Poetis advertitur quaedam inconstantia mentis. inaequales sunt temporum, affectuum, animorumque vices; et inde promanans eloquentiae iam acclivis, iam declivis, varietas. equidem ab egregie coeptis nunquam remittere, sed eiusdem Epici, Lyricive Carminis, multoque magis aliquot librorum continuare tenorem; hic labor, hoc opus est.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- Si quid tamen olim</l>
+<l TEIform="l" part="N">Scripseris in <name type="person" TEIform="name">Mecii</name> descendat Iudicis aures,</l>
+<l TEIform="l" part="N">Et patris, et nostras: nonumque prematur in annum.</l>
+<l TEIform="l" part="N">Membranis intus positis, delere licebit,</l>
+<l TEIform="l" part="N">Quod non edideris. nescit vox missa reverti.</l>
+</lg>
+<p TEIform="p">
+Aetatem latura, nonum in annum premenda monet, more tunc recepto; si grande opus, dignumque posteritate susciperet Auctor. Ut male parta, male; ita cito parta, cito dilabuntur. sed iam <name type="myth" TEIform="name">dialia</name> petuntur ab iis, qui <name type="myth" TEIform="name">Musas</name> servire cogunt turpissimam servitutem. ad nutum cuiusque succinctae stare coguntur: arridere infanti recens effuso: eius vagitum sistere; quatere cymbala. Aliàs obnubere sponsam, formae maculas eluere, subligare flammeum, distinguere attollendas faces. Aliàs Hortum principem in areolas dividere; viventia tondere septa; statuere iuxta floridas pyramides <name type="myth" TEIform="name">Faunos</name>, <name type="myth" TEIform="name">Vertumnum</name>, <name type="myth" TEIform="name">Cererem</name>, <name type="myth" TEIform="name">Liberum</name>, virides <name type="myth" TEIform="name">Napaeas</name>. Aliàs curare cadavera, iusta exequialia prosequi, in cenotaphia inanes prodigere ingenii sumptus; splendide, pieque mentiri. talia exiguntur praepropere. Felicem <name type="person" TEIform="name">Statii</name> furorem, ut haec
+
+<pb id="s030" n="30" TEIform="pb"/>
+
+posset, et vellet; propria voluptas, amicorumque inunctae preces adegerunt. Quid facias? canendum est. raptim petita, raptim da, securus famae. quis talia curat? si non potes figere cupressum; fige taxum. inopiam palmarum pensabit quaevis salix. De lauro nil cogites, nil speres.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et quodcumque semel chartis illeverit, omnes</l>
+<l TEIform="l" part="N">Gestiet a furno redeuntes scire, lacuque,</l>
+<l TEIform="l" part="N">Et pueros, et anus.</l>
+</lg>
+<p TEIform="p">
+Quidquid effuderint, proiecerintve, aeterna memoria dignum putant. obsistas? credet aliquis horum, te laudis aemulum, praeripere decus velle: nunc timere, ne alter in aequalitatem nominis succrescat. Ad ultimum, convictus argumentis, ingesto quoque in oculos probro, vocem illius Avari emittet: Populus me sibilat. ast mihi plaudo ipse domi. Haec dicens sua basiabit encomia: quasque chartas cruciare debuerat, murice tinctas Orchestrae praefiget. Quod si pium aliquid composuerit, a profano cultu abhorrens; tanto magis intumescet: quippe se, suaque pietatis titulo solabitur: specie Religionis exornari, praeferrique volet. quasi vero non et in Coelitibus colendis possimus esse socordes, ac barbari.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Navem agere ignarus navis timet: abrotonum aegro,</l>
+<l TEIform="l" part="N">Non audet, nisi qui didicit, dare. quod Medicorum est.</l>
+<l TEIform="l" part="N">Promittunt Medici: tractant fabrilia fabri.</l>
+<l TEIform="l" part="N">Scribimus indocti, doctique Poemata passim.</l>
+</lg>
+<p TEIform="p">
+Habes in compendio sparsim dicta. Quot Caesarei, quot laureati Poetae monstrantur, rectius carduis, et lappa coronandi! titulos sine re crepant.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Multi Thyrsigeri: quotus est ex agmine <name type="myth" TEIform="name">Bacchus</name>?</l>
+<l TEIform="l" part="N">Multi Laurigeri: quotus est nisi nomine <name type="myth" TEIform="name">Phoebus</name>!</l>
+</lg>
+<p TEIform="p">
+Febriculosis gratulationibus, et proluvie miseranda
+
+<pb id="s031" n="31" TEIform="pb"/>
+
+versuum scatent libri: sub finem inficetae adulationis, Auctoris nomen: <name type="person" TEIform="name">H. I. K.</name> pastor ad <name type="religion" TEIform="name">S. Annam</name>, Poeta Caes. Laureatus. melius poneretur; Larvatus. Itaque tu, <name type="person" TEIform="name">Crescenti</name>, non patieris hoc fermento te corrumpi. <name type="place" TEIform="name">Fescennina</name>, praesertim a Veneris flamma fumantia, gnomas vulgi morem, vel stabulum olentes, talibus relinque proferendas. Tu cum <rs type="person" n="Vergilius" TEIform="rs">principe Poetarum</rs> dicas: Maius opus moveo. Cum <rs type="person" n="Horatius" TEIform="rs">Caes. <name type="person" TEIform="name">Augusti</name>, et <name type="person" TEIform="name">Mecaenatis</name> Amico</rs>: Exegi monumentum aere perennius: cum <rs type="person" n="P. Ovidius Naso" TEIform="rs"><name type="place" TEIform="name">Sulmonensi</name> Vate</rs>: 
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Iamque opus exegi, quod nec <name type="myth" TEIform="name">Iovis</name> ira, nec ignes, nec <corr sic="ferrnm" resp="transcriber" TEIform="corr">ferrum</corr> poterit, nec edax abolere Vetustas.</l>
+</lg>
+
+
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ridentur, mala qui componunt carmina: verum</l>
+<l TEIform="l" part="N">Gaudent scribentes; et se venerantur, et ultro,</l>
+<l TEIform="l" part="N">Si taceas, laudant; quidquid scripsere, beati.</l>
+</lg>
+<p TEIform="p">
+Si deinde primum voces acclamantium, saepe plus iusto extollentium accedant, qua vera, qua falsa narrando; magnifice intumescunt: ac vi dulcissimi huius morbi pene linquuntur animo. Morbi, inquam; nam venenatior bolus non est, quam fraudulentum praeconium: illo hausto, penitusque in praecordia recepto, immodici aestimatores sui, ita sibi satisfaciunt, ut semper faciant satis. intractabilem animum etiam amicis monitoribus praebebunt. ut, si saxa spuant, loquantur silices; gemmarum loco ducant. Summa intemperies, sed suavis. si revoces: deliriis, sentiantque errorem, dicent, quod ille ingesto helleboro curatus, quum ad se rediret: Pol me occidistis amici. Cur excitastis a veterno? mente captus nesciebam aerumnas meas.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At, qui legitimum cupiet fecisse Poema,</l>
+
+<pb id="s032" n="32" TEIform="pb"/>
+
+<l TEIform="l" part="N">Cum tabulis animum Censoris sumet honesti.</l>
+<l TEIform="l" part="N">Audebit, quaecumque parum splendoris habebunt,</l>
+<l TEIform="l" part="N">Et sine pondere erunt, et honore indigna feruntur,</l>
+<l TEIform="l" part="N">Verba movere loco, quamvis invita recedant.</l>
+</lg>
+<p TEIform="p">
+Sapientius utique, verax, et artis callens: Criticus, honori nostro prospecturus, etiam <name type="nation" TEIform="name">Attico</name> talento emetur. rogabitur, ut serius esse velit, ac quam minimum parcere. Si rogatus dixerit: Saepe stylum vertas, iterum, quae digna legi sint, Scripturus; neque, te ut miretur turba, labores, Contentus paucis Lectoribus: an tua demens Vilibus in ludis dictari carmina malis. Tali crede vel non iuranti, Tuam famam, gloriamque cordi habet: invitato eo ad convivium, adlecto inter primae admissionis amicos, decore feceris. Nullo simili reperto, eia tute Critici personam indue. Succensere tibi, et reconciliari potes.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nunc satis est dixisse: Ego mira Poemata pango.</l>
+<l TEIform="l" part="N">Occupet extremum scabies; mihi turpe relinqui est,</l>
+<l TEIform="l" part="N">Et quod non didici, sane nescire fateri.</l>
+</lg>
+<p TEIform="p">
+Talis, non exspectato Flamine, sibi Aram struit, sibi sacrificat, sibi tus adolet. simul idolum et popa. Ac si quis sibi dicat: tibi aras, tibi occas, tibi seris, tibi eidem et metis. Omnino, quisquis es, philautia capte; aras fundum arenosum; occas glebam infrugiferam; seris stultitiam: metes ignominiam. ubi sunt mira Poemata, quae pangis? Simioli affabilis affaniae <name type="person" TEIform="name">Apuleianae</name>. ludo in affaniis.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- Paupertas impulit audax,</l>
+<l TEIform="l" part="N">Ut versus facerem sed, quod non desit, habentem;</l>
+<l TEIform="l" part="N">Quae poterunt unquam satis expurgare cicutae,</l>
+<l TEIform="l" part="N">Ni melius dormire putem, quam scribere versus?</l>
+</lg>
+<p TEIform="p">
+Subscribo. Si, qui sui iuris est, et opulentus, versusque factitet, non cogente natura, non suadente
+
+<pb id="s033" n="33" TEIform="pb"/>
+
+penuria; sed opinione sui deceptus, et praepostera cupiditate mordendi qualemcumque laurum, veluti feminae pica laborantes: eaque propter laborioso stylo iam lenonibus serviat, iam vespillonibus: mox segmentatis ubi dormit parvula cunis, somnum conciliet: aut si quod generosum pus, inciso brachio exit; phlebotomiam faciat mendaciis splendescere. Hunc enim vero cum vivo <name type="myth" TEIform="name">Marsya</name> laniato, iubeam postibus <name type="place" TEIform="name">Cyrrhae</name> suffigi. quae enim necessitas coegit sponte insanire? Cur famelicis ingeniis pabulum praeripit.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fecundi calices quem non fecere disertum;</l>
+<l TEIform="l" part="N">Contracta quem non in paupertate solutum!</l>
+</lg>
+<p TEIform="p">
+Quid dissimulamus? Fabula est <name type="myth" TEIform="name">Pegasus</name>, et <rs type="myth" n="Hippocrene" TEIform="rs">fons ictu pedis excitatus</rs>. Divinus humor ex vite, non ex ungue, fluit. excitat vinum spiritus, tunc liberius meantes, cum in venis geminavit calorem. Sed an Vates, non nisi potus? Nempe sicut <name type="person" TEIform="name">Bessus</name> miles, qui <name type="person" TEIform="name">Alexandrum M.</name> non nisi super mensa debellavit. nimis sicca ingenii vena est, quae irriguo <name type="myth" TEIform="name">Bacchi</name> semper indiget.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nulla placere diu, nec vivere carmina possunt,</l>
+<l TEIform="l" part="N">Quae scribuntur aquae potoribus.</l>
+</lg>
+<p TEIform="p">
+Stat Oraculum immobile. Contra hoc euntem, vel disputantem, Academicis fustibus <name type="person" TEIform="name">Aristotelice</name> agendum est. Tamen et Cygni, inquies, Poetarum famosissimae aves in aqua degunt. ideo non nisi morientes cantant. Si post fata venit gloria, non propero.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">
+Vina fere dulces oluerunt manè <name type="myth" TEIform="name">Camoenae</name>.
+</l>
+</lg>
+
+<p TEIform="p">
+Cur manè? <name type="person" TEIform="name">Horatio</name> quaecumque sitis diem, et cadum aperuit idem illi fons lucis, et laticis e coelo. Siccis omnia dura Deus proposuit, inquit alibi. Confirmavit <name type="person" TEIform="name">Iuvenalis</name>: Satur est, cum clamat <name type="person" TEIform="name">Horatius</name>,
+
+<pb id="s034" n="34" TEIform="pb"/>
+
+ohe! Itaque, qui necessitatem scribendi carminis alteri infert, addita sitientis abstinentiae lege: hunc ipsum ego dignum censeam, qui vitibus lupulisque proxime admotus, poenas <name type="myth" TEIform="name">Tantali</name> renovet: immo in culeum insutus super <rs type="myth" n="Hippocrene" TEIform="rs">stagnum Caballinum</rs> proiciatur: ut inter aquas degat, nec tamen etiam has bibat.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="person" TEIform="name">Ennius</name> ipse pater, nunquam nisi potus ad arma</l>
+<l TEIform="l" part="N">Prosiluit dicenda. forum, putealque <name type="person" TEIform="name">Libonis</name></l>
+<l TEIform="l" part="N">Mandabo siccis; adimam cantare severis.</l>
+</lg>
+<p TEIform="p">
+Decisa lis est, <name type="person" TEIform="name">Flacco</name> Iudice. Nunc est bibendum: nunc pede libero pulsanda tellus. <name type="person" TEIform="name">Ennius</name> ipse bibit. quid igitur? Ut bella fama constant, sic carmina vino! Neutiquam. Quidam ex <name type="myth" TEIform="name">Hippocrene</name> bibunt, sicut canes e <name type="place" TEIform="name">Nilo</name>: ex <name type="myth" TEIform="name">Bacchi</name> dolio, sicut <name type="nation" TEIform="name">Afri</name> serpentes ex fluvio. Ceterum multi, licet musto, temeto, zytho obruas, manebunt pumices. Cor non saliet, Vena non fluet. nihil ex ebriosa premes spongia praeter vappam inconditorum versuum. tales erunt <name type="myth" TEIform="name">Pegasi</name> ad pabulum, asini ad lyram.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Qui studet optatam cursu contingere metam,</l>
+<l TEIform="l" part="N">Multa tulit, fecitque puer; sudavit, et alsit.</l>
+<l TEIform="l" part="N">Abstinuit Venere, et vino, qui <name type="myth" TEIform="name">Pythia</name> cantat</l>
+<l TEIform="l" part="N">Tibicen: didicit prius, extimuitque magistrum.</l>
+</lg>
+<p TEIform="p">
+Labor commendatur, et sub perito Magistro constantia. iam se sudasse putant, si desultorio gradu <name type="myth" TEIform="name">Heliconis</name> proscenia ludibundi percurrerint. unum, alterumve Poetam salutarunt a limine. bis, terve ex pulpito declamatum est. Aliquot acute dictis distrinxere aures; Dramatiis generis Epicoeni, oculos: omnia promiscue adhibentes. quippe in Comicis Tragice, in Tragicis Comice versari soliti, Tragelaphos, seu Hircocervos, ne monstra
+
+<pb id="s035" n="35" TEIform="pb"/>
+
+spectaculo desint, venantur. illorum hinc tota Poesis pendet. Vah!
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- Vitanda est improba <name type="myth" TEIform="name">Syren</name></l>
+<l TEIform="l" part="N">Desidia: aut quidquid vita meliore parasti,</l>
+<l TEIform="l" part="N">Ponendum aequo animo.</l>
+</lg>
+<p TEIform="p">
+Audis iterato: Desidiam vitandam esse; diu, noctuque operi insistendum. Hinc manavit illud <name type="person" TEIform="name">Ciceronianum</name> Elucubrare: aliquid ad nocturnum lumen conficere. Non es ferventioris, aut felicioris ingenii <name type="person" TEIform="name">Papinio Statio</name>, exclamante tamen palam: O mihi bissenos multum vigilata per annos <name type="myth" TEIform="name">Thebai</name>! Tibi dormienti, sive oscitanti excident oracula in pelvim! somniare in bicipiti <name type="myth" TEIform="name">Parnasso</name>, est cum <name type="person" TEIform="name">Persio</name> vigilare. qui Poeta, non immerito creditur, omnia sua noctu composuisse: quippe fumosa, et luce carenia.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Garrulus, atque piger scribendi ferre laborem,</l>
+<l TEIform="l" part="N">Scribendi recte: nam ut multum, nil moror.</l>
+</lg>
+<p TEIform="p">
+Advertis, <name type="person" TEIform="name">Crescenti</name>, Recte scribendi studium, laborem dici. Atqui Iuvenes nostri, voluptatis gratia captandae calamum scindunt tum desides inflant eumdem, quo scribunt. Non audent fortiter imperare sibi, ut <corr sic="sinr" resp="transcriber" TEIform="corr">sint</corr> strenui; magnis promissis, magnaque exspectatione modice contenti, laudem ex pigritia quaerunt: nonnunquam et commodum experiuntur. Atqui, Carmina secessum scribentis, et otia quaerunt. Sane. Retine vocabula, et accipe sensum. Secessus Poetarum, vocatur tranquilla libertas animi; Otium, studium nulla ingrati laboris acerbitate corruptum. Eius somnia sunt doctae excubiae; impetus, vehemens industria; furor, agilitas mentis.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="person" TEIform="name">Quinctilio</name> si quid recitares, corrige, sodes,</l>
+<l TEIform="l" part="N">Hoc, aiebat, et hoc; melius te posse negares,</l>
+
+<pb id="s036" n="36" TEIform="pb"/>
+
+<l TEIform="l" part="N">Bis, terque expertum frustra; delere iubebat,</l>
+<l TEIform="l" part="N">Et male tornatos incudi reddere versus.</l>
+<l TEIform="l" part="N">Si defendere delictum, quam vertere malles;</l>
+<l TEIform="l" part="N">Nullum ultra verbum, aut operam sumebat inanem:</l>
+<l TEIform="l" part="N">Qui sine rivali, teque, et tua solus amares.</l>
+</lg>
+<p TEIform="p">
+<name type="person" TEIform="name">Quinctilius</name> iste, omni honore dignissimus erat, simplex veritatis assertor. Hoc, aiebat, et hoc. plena quidem calamis theca. Sed, Estne aliquid, quo tendis, et in quo dirigis arcum? Poeta figuli officium quodammodo occupat, vasorum aeque, et imaginum artifex; monendus quandoque, ne a proposito aberret, massamque corrumpat; alioqui inclamabitur: Amphora coepit Institui: currente rota, cur urceus exit? promiserat Vates Cothurnum: inducit Soccos. Expectamus Odas: missi sunt hymni, minime <name type="person" TEIform="name">Pindarici</name>. interrogavimus de caepis: respondit allia.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vir bonus, et prudens versus reprehendit inertes:</l>
+<l TEIform="l" part="N">Culpabit duros: incomtis allinet atrum</l>
+<l TEIform="l" part="N">Transverso calamo signum: ambitiosa recîdet</l>
+<l TEIform="l" part="N">Ornamenta: parum claris lucem dare coget.</l>
+<l TEIform="l" part="N">Arguet ambigue dictum; mutanda notabit:</l>
+<l TEIform="l" part="N">Fiet <name type="person" TEIform="name">Aristarchus</name>: nec dicet; cur ego amicum</l>
+<l TEIform="l" part="N">Offendam in nugis? hae nugae seria ducent</l>
+<l TEIform="l" part="N">In mala, derisum semel, exceptumque sinistre.</l>
+</lg>
+<p TEIform="p">
+Quippe ni? praecoces fructus non durant. Nactus Iuvenis delicatus Adulatorem, sive Sycophantam, nihil audiet eorum, quae <name type="person" TEIform="name">Horatius</name> audiri vult, Critice, et Stoice. Sed: certe egregie. pulcra Declamatio. Iste puer non illepidos finxit vultus. Alter quoque pusio, flore verecundiae commendabilis, quam gratiose oculis nostris illuxit! Haec ille, tam callidus censor, quam crepida penicilli. Interea alterius surgunt animi: fluctuat fastus: procellae verberant pectus. Simul detumuit tempestas assentatoria;
+
+<pb id="s037" n="37" TEIform="pb"/>
+
+naufraga Poesis illisa in scopulos, vellit herbas, esurit: haec sunt seria mala.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut mala quem scabies, aut morbus regius urget,</l>
+<l TEIform="l" part="N">Aut fanaticus error, et iracunda <name type="myth" TEIform="name">Diana</name>:</l>
+<l TEIform="l" part="N">Vesanum tetigisse timent, fugiuntque Poetam.</l>
+</lg>
+<p TEIform="p">
+Quis talem non vitet? iracunda <name type="myth" TEIform="name">Diana</name> <name type="myth" TEIform="name">Actaeonem</name> in canes misit, cervo mutatum. quasi vero irata <name type="myth" TEIform="name">Pallas</name> aliquem odiosum non possit commutare in asinum: ut aeque det spatium collo, summasque cacuminet aures Importunus Recitator, plagâ Gentis <name type="myth" TEIform="name">Cadmaeae</name> tenetur, vel tenet. Obsecro: num sapit iam aureus sibi visus <name type="myth" TEIform="name">Mida</name>, mox acutus. Atqui talis exporrigit inscius aures pyramidales. Nam Indoctum, doctumque fugat Recitator acerbus. Quem verò arripuit, tenet, occiditque legendo.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">
+Tu nihil invitâ dices faciesve <name type="myth" TEIform="name">Minervâ</name>.
+</l>
+</lg>
+
+<p TEIform="p">
+Sed illa te invito minus. Cum hiscente hiscet: cessante te, et ipsa cessabit. manum exserenti commodabit adiutrices manus: imitaturo <name type="person" TEIform="name">Demosthenem</name>, subministrabit oleum Accuso ignaviam implorantium praecepta; querentium sibi deesse subsidia, cum circumfluant. Quid statis otiosi? incumbite in libros non proni, sed recti; non cubito, sed capite; sic quidem, ut supinum instantes excubias continuet. defraudentur somni; relegantur oracula, mandentur memoriae: quotidianae exercitationes se trudant. tunc intelligam primum, quid talibus auspiciis Posteritati promittere possitis. Nunc videas, inertes stare ad marginem <name type="myth" TEIform="name">Castalii</name> fontis; exspectare motum aquae, nescio, in cuius paralytici gratiam, ab incognitae lucis Angelo commovendae. Cur non etiam supplices, sed manibus post terga revinctis, (quandoquidem operari nolunt) exspectant
+
+<pb id="s038" n="38" TEIform="pb"/>
+
+sonum spiritus vehementis, ab aethere <name type="myth" TEIform="name">Heliconio</name>, ruituri in animos patientes alieni laboris! Notum illud: Est Deus in nobis. et: Spiritus aetheriis. et <name type="person" TEIform="name">Horat.</name>
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quod si, Frigida curarum fomenta relinquere posses,</l>
+<l TEIform="l" part="N">Quo te coelestis sapientia duceret, ires.</l>
+</lg>
+<p TEIform="p">
+Hinc illae lacrymae! Multi omnia alia agunt, quam agenda. permiscentur tempora, et studia, sine ordine, et modo. referuntur pleraque ad voluptatis gustum, qua modice delibata, deseritur totus apparatus. succedunt inutiles curae, quibus incuriose vagae Animulae distrahuntur. flagrant cupiditate videndarum rerum extra conspectum iacentium: Novarum urit sitis. anguntur desideriis, quae ignari alunt. ita fluctuantibus obrepit languor: terror quoque, quoties ostensi Montis apices, semitasque petrosas intuentur!
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Interdum vulgus rectum videt: est, ubi peccat;</l>
+<l TEIform="l" part="N">Si Veteres ita miratur, laudatque Poetas,</l>
+<l TEIform="l" part="N">Ut nihil anteferat, nihil illis comparet; errat.</l>
+</lg>
+<p TEIform="p">
+Hic tandem se aperiunt <name type="person" TEIform="name">Horatiani</name> soles. Praerogativa non solum Veterum, et <name type="nation" TEIform="name">Romanorum</name>, et <name type="person" TEIform="name">Augustaeorum</name> fuit, bene scribere vorsa, prosaque: et novis Ingeniis patet campus. quod manifestissimum, nostro aevo, fecit <name type="person" TEIform="name">Ioannes Barclaius</name>, <name type="place" TEIform="name">Romam</name> <name type="nation" TEIform="name">Romano</name> qui docet ore loqui. Quid illi deest, nisi aetas comparata? immo quid illi non adest, nisi comparanda? Eius <unclear reason="?" TEIform="unclear">Argenis</unclear>, etiam provocare potest. Si nihil ex aequo dissimulare volumus, multos vicit. quo stimulo Iuventus usa, quid obstat, quo minus ad eadem se extendat?
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si foret hoc nostrum fato dilatus in aevum;</l>
+<l TEIform="l" part="N">Detereret sibi multa: recideret omne, quod ultra</l>
+
+<pb id="s039" n="39" TEIform="pb"/>
+
+<l TEIform="l" part="N">Perfectum traheretur; et in versu faciendo</l>
+<l TEIform="l" part="N">Saepe caput scaberet, vivos et roderet ungues.</l>
+</lg>
+<p TEIform="p">
+Altius memini annotatum, nos multa Veterum monumenta mirari, qui in haec regressi tempora fortasse mirarentur et nostra. Nunquam tam male cum rebus humanis agitur, ut omnium felicitatum cumulus, in unum, alterumve seculum stipetur, cunctis sequentibus praeteritis. vocetur a Priscis aureum, Argenteumve Eloquentiae Seculum: nostrum ferreum. Nomina non mutant rerum naturas. potest hodieque, ex vena, stricturisque ingeniorum, nobilius metallum protrudi. proinde nepotibus non desperandum est, sed ex Choro <name type="nation" TEIform="name">Laconico</name> iterandum: Quod sumus, fuistis. Quod estis, erimus. <name type="person" TEIform="name">Horatius</name> antecedentes se correcturus erat: num statim et subsequentes omnino omnes? semper quaedam, temporum decursu, dignius maturantur. Et honos erit huic quoque pomo, inquiebat ille <rs type="person" n="Vergilius" TEIform="rs"><name type="place" TEIform="name">Mantuanus</name> Pastor</rs>. Qui labori non parcit, idem repetat. Sint antiquitatis mala <name type="nation" TEIform="name">punica</name>, <name type="place" TEIform="name">Cydonia</name>, aurea: et honos erit huic quoque pomo; quo tamen nullam <name type="myth" TEIform="name">Cydippen</name>, <name type="person" TEIform="name">Ovidiani</name> <name type="myth" TEIform="name">Acontii</name> more, deludam.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nemo adeo ferus est, ut non mitescere possit,</l>
+<l TEIform="l" part="N">Si modo culturae patientem commodet aurem.</l>
+</lg>
+<p TEIform="p">
+Praemoneo: nec culturam, nec exercitationem ad aetatis extrema differat. Poesis calore fovetur. Hyeme nil crescit. quid sterilis senectus, praeter pauca fortassis Epitaphia proferret? Canis capitibus cum nix alta iacet; glaciem cum flumina trudunt (permitte huc illud <name type="person" TEIform="name">Maronianum</name> applicari) intra venarum ripas, pigri cruoris coagulum; marcent, vel iam diffugerunt negotiosi spiritus. quid igitur dignum
+
+<pb id="s040" n="40" TEIform="pb"/>
+
+fatidico pectore, frigidus <name type="person" TEIform="name">Chremes</name> eluctabitur! Ut merito in Lyricis nostris libro primo, Ode quarta, Seni cantum dissuaserimus. frustra Hellenismos citabit, quos olim usurpaverat: frustra elegantias <name type="place" TEIform="name">Athenarum</name>: quando iam madentis infantia nasi rediit, reliquias <name type="place" TEIform="name">Graeciae</name> decedentis signans. Omega cum Iota subscripto, hoc est, stilla pendens ex naribus, admonet totam priorem sagacitatem esse emunctam.
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Format enim natura prius nos intus ad omnem</l>
+<l TEIform="l" part="N">Fortunarum habitum. iuvat, aut impellit ad iram,</l>
+<l TEIform="l" part="N">Aut ad humum moerore gravi deducit, et angit:</l>
+<l TEIform="l" part="N">Post effert animi motus interprete lingua.</l>
+</lg>
+<p TEIform="p">
+Naturae, propter eiusdem conditorem, plurimum tribuimus. Ceterum nascantur Poetae, an fiant, quanquam et <name type="person" TEIform="name">Horatius</name> sententiam suam dixit, nos quoque Quaestionem in hac ipsa Paraenesi decidimus, paullo prolixius, num. 24.
+</p>
+<p TEIform="p">
+Illud fortasse tibi restat inquirendum, cupienti scire, quae habitudo Corporis, ex quatuor Humorum genitali permistione, Praedominantis sortita nomen, ac vires, Philosophicae, atque Poeticae facultati sit magis idonea? Nulla non ad sanctimoniam coelestis vitae pertingere potest. a <name type="myth" TEIform="name">Phoebi</name> Aris aliquam arcebimus! Sed quid communiter fiat, rogas? Dicam, quod sentio.
+</p>
+<p TEIform="p">
+Phlegmaticos toto absistere luco iubeo. rarissime vittas, laurumque contingunt. Non innatat pituitae aetherius calor, opifex magnarum rerum, ut proinde desperata habeatur in excellentibus literis horum gloria.
+</p>
+<p TEIform="p">
+Sed enim Sanguinei, quorum in venis copia sanguinis iuveniliter, et exsultim vibrat; grata, amoenaque temperie fruuntur. percurrit faciem ingenuus
+
+<pb id="s041" n="41" TEIform="pb"/>
+
+rubor, specioso illectu; malae florentes; oculorum fulgor iam pudibundus, mox volubilis. ipsi verò toti fociabiles, iucundi, alacres, faceti in laetitiam, et carmina se diffundunt. sed non diu durant, nihil arduum, perenne, laboriosum moliuntur. Quaedam ingenia semper scintillant: nunquam micant constanti luce. Quod delectat, carptim diripiunt, Poemati operoso minime suffecturi. unum, alterumve epithalamium, molles aliquot elegias; Monosticha partim arguta, partim obtusa; aliaque erotica amicis divident: quomodo in nuptiis <name type="myth" TEIform="name">Thalassius</name> nuces spargit.
+</p>
+<p TEIform="p">
+Cholericorum alius genius, diversus habitus. Animosi sunt, ac celeres; quippe praefer vidi nativo calore: qui tamen, nisi benigna irrigatione mitigetur, torrentior urit viscera, inducit exsuccam gracilitatem: faciem reddit gilvam: lumina magna, ac sub fronte plerumque recondita, errantibus flammis exasperat. capiti minatur procellas, et turbines. Horum aliquis maxima audebit, praesumetque. quae tamen velocissime assequi, et subigere non valebit: omittet etiam in medio cursu: quia oestrum repente desierit. fatiscunt ardentium lassae vires, sicut modicum aquae videmus incensae tegulae affusum momento in fumum dissipari.
+</p>
+<p TEIform="p">
+Optimum fuerit, si utrumque humorem, rubrum, et flavum, sanguineum, et biliosum, sinu suo Melancholia recipiat. Non illam intelligas velim, quae Divis, hominibusque odiosa, speciem morbi praebet, et quandoque mortem operatur: ultima Naturae deficientis sedes, et faex. hominem omnium amoenitatum vitali gustu privat, bonaeque
+
+<pb id="s042" n="42" TEIform="pb"/>
+
+mentis exsortem, in teterrimam sui solitudinem relegat: non raro, ut dixi, illaetabilis, et lethi caussa; maniae periculum secum trahens. ab atra bile accenditur, ferali busto in sontem fumum desinente: quo deinde, velut spissis nubibus, obductum caput, nullo unquam serenatur tempore. Signa sunt, continua tempestas animi, semper decumanos fluctus metuentis: frons in moerorem crudissimum contumax: color a plaga coeli, in qua degit, nimium quantum divertens: puta, in frigida nigrior, et <name type="myth" TEIform="name">Memnonio</name> suppar; contra sub zona torrida ruffus. praeterea vultus magnam partem sideratus; </p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vixque tenens lacrymas, quod nil lacrymabile cernat. </l>
+</lg>
+
+<p TEIform="p">Aut nullus, aut Sardonicus risus, ipsa oris diductione praesentes affligens. Cum gaudere volunt; lucent instar Cometae: cum florere: florent, sicut foliis oleaster amarus; intus autem <name type="myth" TEIform="name">Caci</name> spelunca. omnis generis fuliginosae suspiciones, velut semesa frusta in cerebro, et vero etiam de cerebro iacent. vivitur in tali hospitio ex coenomya; muscis praegrandibus: volant, revolantque caesim, ac punctim ferientes Pectus fit denique <name type="myth" TEIform="name">Pelopeia</name> Culina, Ahenum <name type="myth" TEIform="name">Atrei</name>: in quo sanguis etiam fraternus coqui possit. Quis non exclamet? Dii talem terris avertite pestem! 
+</p>
+<p TEIform="p">
+Est et altera Melancholiae species, haut paullo melior; depressi tamen et ipsa, limosique humoris, infra ceteros, restagnatio. Absque lue, naturali situ, et modo, citra noxiam intemperiem substernitur. neque circa horrendorum phantasmatum examen occupata est; sed moerore pascitur subridente. non audax, non dissolute hilaris, non lasciva, non adulatorie blanda, non desperate
+
+<pb id="s043" n="43" TEIform="pb"/>
+
+silens, non cum insano fremitu erumpens, suo succo vivit; nullius indiga, nullius contemptrix. Ad aulam non nata, nec Aulae fugiens, nec appetens, diem die trudit. casam, et palatium iuxta habet. haec sibi scenam facere novit: interque nimbos, lucida caligine radiat. Hanc Melancholiam aiunt, celebris Eutrapeliae Matrem esse. quis crederet? nisi, quia a Filia, laetisque Sororibus <name type="myth" TEIform="name">Gratiis</name> non abludit, servire tamen nescia suam voluntatem, suae libertatis decretum pro imperio iocandi exspectat. Quo more, facetiarum, leporumque, ac gravissimorum Poematum, nec non omnium scientiarum parens, et altrix dici meruit. Ne vigor exsultans sanguinis, in eoque latentium spirituum in auras, per mera gaudia, diffletur, cavet; choleramque suasmet vires depascentem temperat. negotiosas autem mentis imagines, magnorum operum effectrices, suscipit tenaci humore, viscosoque complexu fovet, macerat, excoquit; demum pulcerrime elaboratas auctori, qui transmiserat, in tempore remittit: unde Poema conficitur; quale nec solo sanguine luxurians, nec acerrima inflammatus ira, unquam in medium dabit. Haut absimili Melancholia praeditum fuisse accepimus <name type="person" TEIform="name">Angelinum Gazaeum</name>, ipsissimum Auctorem Piorum Hilarium: ut publicae professionis titulum statim intelligas. idem morosus, ac laetus; dulcis, et acidus; facundus, et taciturnus; comis, et acer; iucundus, et torvus fuit. ita perhibent viri fide dignissimi. Gustatis eius salibus, dicendum est aliquid Samsonicum: De torvo exiit Hilaritas, et de amaro egressa est dulcedo.
+</p>
+<p TEIform="p">
+
+<pb id="s044" n="44" TEIform="pb"/>
+
+Tales, Orbe toto, plures maximi Nominis viros, plerosque Philosophos, ac Poetas, cum temperamento Melancholico torvos fuisse contendo: hodieque vix alios reperiri. In hunc finem integra Paraenesis proponitur, Vultuosae Torvitatis Encomium, Iuventuti ad ardua tendenti, festive insinuans.
+</p>
+<p TEIform="p">
+Ad militiam ne respexi quidem. Quis enim dubitet inter praecipua bellatoris ornamenta, si quidem ab externa specie corporis sumuntur, esse masculam Torvitatem, naresque pilosas, Et formidandum laxata in casside vultum? Quisquis molliorem in illo venustatem requirit; dignus est <name type="myth" TEIform="name">Narcissi</name> forma, et fato plecti.
+</p>
+<lg met="pent" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">
+	Torva viri facies, torvus in ore decor.
+</l>
+</lg>
+
+<p TEIform="p">
+Innumeris Ducibus, quos nominare possem, praetermissis; <name type="person" TEIform="name">Ovidianus</name> <name type="myth" TEIform="name">Aiax</name>
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">----- <name type="place" TEIform="name">Sigeïa</name> torvo</l>
+<l TEIform="l" part="N">Littora respexit, classemque in littore, vultu.</l>
+</lg>
+<p TEIform="p">
+Si <name type="place" TEIform="name">Thracia</name> torvitas Militibus non est dedecori, nec Stoica, opinor, Philosophis; nec <name type="myth" TEIform="name">Delphica</name> Poetis probro erit. Modo tamen non omnia ad vultum aspectabilem referas; sed multo magis ad internam faciem, rigoremque animi abhorrentis a luxu voluptatum, muliebribus munditiis, effeminatis moribus, enervi mollitudine. Ista praesens Paraenesis culpat. cuius Oeconomiam, membratim distinctam, quo sensum melius, atque commodius assequaris, in fine positam reperies.
+</p>
+<p TEIform="p">
+Quod si nihilominus, his perceptis, Argumentum Scriptionis nostrae, prorsus heteroclitum videbitur, paradoxum, a communi sensu alienum:
+
+<pb id="s045" n="45" TEIform="pb"/>
+
+laudari torvam faciem! cur non apertam deformitatem! cur non vitia? cur non monstra?
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Talia iactanti stridens Aquilone procellae</l>
+<l TEIform="l" part="N">Velum adversa ferit.</l>
+</lg>
+<p TEIform="p">
+Sed omisso <name type="person" TEIform="name">Marone</name>, sic respondeo. Supra commendavi Novitatem, velut alteram Animam Poetae. Disce ergo, <name type="person" TEIform="name">Crescenti</name>, circa insolens, novumque Thema facunde versari posse. disce ad paradoxa tamquam ad palum exerceri. disce ludicra velitatione proludere maioribus Fastis. disce per umbratica bellorum simulacra, scribendo, ad seria arma, ad <name type="myth" TEIform="name">Iliacas</name> acies, et <name type="place" TEIform="name">Pharsaliam</name> <name type="person" TEIform="name">Lucani</name> te praeparare.
+</p>
+<p TEIform="p">
+Requiris stylum? vergit in Satyricum. Novum crimen! nova accusatio! semper in Satyras ruere! criminari, conviciorum torrentes infundere! Aut loquitur, aut scribit, aut somniat Satyrica! Ehodum, bone vir, quid ais? inquit apud <name type="person" TEIform="name">Terentium</name> nonnemo. etiam Satyras somnio! ut hoc, atque utinam ex vero possim! concedam; siquidem Poetis somniare, in vigiliarum decus computatur: nulla me tibi propterea sentio verecundia obstrictum. Sed non conqueruntur. quid curo gemitus turturum? Cum torvis alitibus mihi negotium est. albulos columbulos <name type="person" TEIform="name">Catulli</name> haut moror. Murmurant alii. sine, obsecro: murmurent. Clamor Momorum, classicum est Poetarum. non moventur istis sonoribus, nisi ad arma, et novas Satyras. Has, ut intelligo, aliqui rudes, et famosos libellos, eadem aestimatione expendunt. digni censura sua ridiculi censores. est enim sive inscitia, sive calumnia vulgi, haut vulgaris. Tu, <name type="person" TEIform="name">Marcona</name>, si sapis, vitabis hosce manifestos, Declaratosque Ignorantes;
+
+<pb id="s046" n="46" TEIform="pb"/>
+
+quo supplicii genere nullum acerbius, atrociusve, a <name type="person" TEIform="name">Francisci Petrarchae</name> temporibus, in <name type="myth" TEIform="name">Parnasso</name> statuerunt Docti. Scilicet, Religiosi, iique doctissimi Viri, ut Clarissimos taceam, praecepta tradidissent scribendi Satyras; si existimassent, hoc scribendi genus, detrimento esse bonis moribus, aut iniuriose flagitia proterere. Procul <name type="person" TEIform="name">Pasquini</name>, procul <name type="person" TEIform="name">Marfori</name>; et quidquid ex indigno famam innocentium laedit.
+</p>
+<p TEIform="p">
+Non nescio, multos simplices, indoctosque, vel afflatu Satyrici Nominis offendi. cum auditur, contremiscunt; ac si boa serpens, cognatum capiti cymbalum quassaret, perterriti ad reptantis Satyrae sibila. Anguem putas; Anguilla est: lubrica elabenti, optima epulanti. Apage diras, et male feriatas Columnarum Inscriptiones, in maximis Urbibus frequentes; et vel Sartoribus, ac Cerdonibus usitatas. Nihil cum his commune habet, animosi, robustique Carminis genus, Satyra; ac, quale quidem <name type="person" TEIform="name">Iun. Iuvenalis</name> consectatur, si quid experto credis, propius summo. hinc est, quòd post Lyrica nostra, quando et <name type="person" TEIform="name">Flaccus</name> Lyricen, per intervalla, stylo <name type="person" TEIform="name">Lucilii</name>, circum praecordia lusit, tanto libentius, ut ne dicam, honestius amplexi simus. Quae enim voluptas in vili humilium metrorum tritura! qualis quotidianis postulantium usibus, et declamatoriis crepundiis impenditur.
+</p>
+<p TEIform="p">
+An malles, et nostros Elegos absolvi? dabitur opera, simul destinata expedivero, ea quoque de gratia: Ne solos se <name type="person" TEIform="name">Ovidianos</name> putent, qui neque Lyrici, neque Satyrici sunt. A proposito non deterret ullus, aevo nostro, mollium amorum,
+
+<pb id="s047" n="47" TEIform="pb"/>
+
+vel numerorum Scriptor. Contraria videbor possidere velle; et ima summis, summa imis commiscere. quod in <name type="myth" TEIform="name">Helicone</name> rarum est.
+</p>
+<lg met="pent" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">
+	Quis prohibet raris nomen inesse meum?
+</l>
+</lg>
+
+<p TEIform="p">
+An unicus <name type="person" TEIform="name">Dan. Heinsius</name>, inter ignitos lapides novit ambulare? ego, citra iactantiam, castiores, illi gemmas opponam: quae nihilominus in nova prorsus, quod sciam, teneraque, et ad delectandum in primis apta materia coruscabunt.
+</p>
+<p TEIform="p">
+Ad Satyram revertor: bonarum mentium tutelam, malarum frenum; amicam Veritatis, scelerum inimicam; assentationis extirpatricem, insontium patronam; Iustitiae ministram. Haec amplissimum aperit Eloquentiae campum, virtutibus aream, ingeniis forum, Religioni templum, Prudentiae Curiam, probis coelum, impiis <name type="myth" TEIform="name">Avernum</name>. Gestientis facundiae nervis, et arcu freta, blanditur, et tonat; terret, ac mulcet; ferit, et sanat; delectat, et urit. Sed enim sua verba ex macello quoque fertur emere. Qui hoc obiciunt, ansatam phrasin circumagunt, ex <name type="person" TEIform="name">Iul. Caes. Scaligeri</name>, Viri Clariss. libris mutuati. Ita est: etiam ex macello; sed opinor, <name type="nation" TEIform="name">Romano</name>, in <name type="nation" TEIform="name">Latino</name> foro. quasi vero <name type="person" TEIform="name">Horatius</name> nesciverit, ubi optima obsonia Rhetorum, Vatumque compararentur. Et tamen fateri cogimur; multa verba in Satyris usurpare, quae in Lyricis nunquam positurus erat. Ceterum nulla <name type="myth" TEIform="name">Musa</name> in <name type="myth" TEIform="name">Parnasso</name> opulentius coenat, Satyrica, sint quaedam, licet, fercula ex macello deprompta inferuntur patinae plenae cibis aliquid significantibus. spumant pocula ex meliori <name type="myth" TEIform="name">Aganippide</name>, Delectatur acidulis, lactucis agrestibus, carne bubula, et sarcasmis dulci rore suffusis. boletis
+
+<pb id="s048" n="48" TEIform="pb"/>
+
+item piperatis, et conditis dicteriis. vescitur sententiis in cerebro <name type="myth" TEIform="name">Iovis</name>, et <name type="myth" TEIform="name">Minervae</name> natis. praeter analecta omnium fabularum, suae condimenta mensae in promptu habet: concham puri salis, acetum, sinapi, aromata; argutias, festiva dicta, alludentes tropos in nebulis lacteis. Quid multis? alia pleraque Poemata imputes Iuventae, aetatis humanae Veri, velut flores: aut aestati, ut segetes; SATYRA, virilis animi, maturique Iudicii fructus est, ac vitae debetur Autumno. quem iuvenes optare quidem possunt, non item carpere. Absistant igitur ignavi adversus Satyrographos mutire, nedum loqui. saepe meremur id pati, propter quod rei facti sumus,
+</p>
+<p TEIform="p">
+Unum non dissimulabo. Molestissimum accidit, Carminis huius dignitatem, legesque intelligentibus, non licere prosequi: vel religione prohibitis, vel iniuriam temporis metuentibus. hinc sanctae Honestatis oculi, inde peccantium delicatae aures obstant. Potuit <name type="person" TEIform="name">Iuvenalis</name> aevi sui vitia, quantumvis immania, immanitate dicendi aequare: quia potuit per Urbem stridentia flagitiis plaustra, stridentibus verbis insequi. Gulam, luxum, avaritiam, periuria, lasciviam, Circensia exagitans, ea libertate scripsit, qua liber populus peccavit: vel sic quoque histrionis exsul factus. semper enim Veritas odium parit: formosa mater, deformem filiam. Nostrum seculum eadem scelera, quae Calvi <name type="person" TEIform="name">Neronis</name>, inquinant; si non etiam maiora. quis audeat <name type="person" TEIform="name">Iuvenalis</name> esse? in apricum proferre occulta? Incassum verò scribere, stulto labore consumi, alterius lateritio favori incumbere, replere archivia, forulos, loculamenta, cistas, saccos; non vacat.
+
+<pb id="s049" n="49" TEIform="pb"/>
+
+nam cui bono tam male effusus sudor! possis laudabilius quiescere. Rursus, in Satyram ruere, Panicis terroribus refertam, culpare nugas, phocis relictis piscari gobios. est enimvero hoc nugari: luctari cum larvis; plostello adiungere mures; Ludere par, impar; equitare in arundine longa: quandoquidem verus <name type="myth" TEIform="name">Pegasus</name> ephippium cum tergo negat. Si fas esset, nunc quoque, Scapham Scapham nominare, et ficum ficum, oculis portenta, auribus tonitrua ingereremus: nec inaequale pondus orationi Vett. fortasse consurgeret. A nequitiis facunde expositis, Versus aeque resonans concuteret auditum; fulgurans perstringeret visum. Iam Satyrae nomen usurpamus, non potestatem; umbratici pugiles. nec erubescimus confiteri. Et tamen naturale vinum, tanta arte non infunditur vitro; quanta fictum penicillo, allinitur tabulae. Hactenus cum Medicis festive iocati sumus; cum Tabacophilis fumose nugati sumus. Hac scriptione Vultuosam Torvitatem laudamus; hoc est, Philautiam, et Philocaliam plectimus. dignam scilicet Satyra materiam! monstra ridendorum facinorum. Quis <name type="myth" TEIform="name">Hercules</name> haec mactet? mitiga verborum sonum, et pene virtutes erunt.
+</p>
+<p TEIform="p">
+Sed praestat severiores colentem <name type="myth" TEIform="name">Musas</name>, esse pudice inglorium, quam illicite disertum. tibi, <name type="person" TEIform="name">Crescenti</name>, in exemplum: cui si praeceptiones Poeticas petenti fecimus satis; bene est, sin minus: iam nunc edico; <name type="person" TEIform="name">Orbilium</name> vulpes foetentem aversor. urgere porro cessa, certus repulsae. ab elephanto stipem petis, et inexorabilem ianuam pulsas. aliam Laurum, aliam quercum excute. Hoc saltem, ista quali quali scriptiuncula; compendii me lucratum
+
+<pb id="s050" n="50" TEIform="pb"/>
+
+esse censebo, quod Lectoribus abiectius supplicare non cogar; fiducia caussae, quam ago; beneficio praerogativae. qua fruor. passim, sollicitis praefationibus, implorati Lectores optantur Candidi, mites, benevoli, propitii, amabiles, pii, iucundi: ego peto TORVOS.
+</p>
+</div>
+
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

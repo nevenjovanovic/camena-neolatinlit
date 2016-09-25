@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Herodiados libri tres.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Hutten" TEIform="author">Bidermann, Jakob</author>
+<editor TEIform="editor" role="editor">Rem, Ulrich</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, January 2003</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Knebusch</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/bider2" type="href" id="bider2" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">bider2</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">bidermannherodias.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">bider001.jpg</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">bidermannherodias.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">bider001/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Ed. Ulrich Rem. Herodiados libri tres. Dillingen 1622.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">8 Feb 2003</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Martin Tavakolian</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">typed text - structural tagging complete - no semantic tagging - Morpheus spell check</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+<text><gap id="sampling"/><front>
+ <!-- to define the ID, mt -->
+
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">
+<pb id="s001" TEIform="pb"/>IACOBI BIDERMANI 
+E SOCIETATE IESU
+HERODIADOS.
+LIBRI TRES,
+Sive
+DD.INNOCENTES CHRISTO-MARTYRES,
+AB HERODE TYRANNO CRUDELITER CAESI
+
+Formis Academicis.
+DILINGAE
+Cum Privilegio Caesaris,
+Auctoritate Maiorum.
+Apud UDALRICUM REN.
+-----------------
+M. DC. XXII.
+</titlePart></titlePage>
+
+<pb id="s002" TEIform="pb"/>
+<div type="epigraph" org="uniform" sample="complete" TEIform="div" part="N">
+<p TEIform="p">TUNC
+HERODES. IRATUS. EST. VALDE
+ET. MITTENS
+OCCIDIT. OMNES. PUEROS
+QUI. ERANT. IN. BETHLEHEM
+ET. IN. OMNIBUS. FINIBUS. EIUS
+A. BIMATU. ET. INFRA
+Matth. 2.</p>
+</div>
+
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s003" n="1" TEIform="pb"/>
+<p TEIform="p">SERENISSIMO PRINCIPI
+PHILIPPO
+GUILIELMO
+WOLFG. GUILIEL. F.
+Comiti Palatino Rheni,
+Bavariae, Iuliae, Cliviae et Montium
+Duci, etc.
+Principi Iuventutis:
+IACOBUS BIDERMANUS
+E SOCIETATE IESU.
+LECTISSIME PRINCEPS.</p>
+<p TEIform="p">INFANTES tibi scribimus, sed iam militiae gnaros, 
+et bimulos heroas;
+quos in cunis plerosque,
+et adhuc nascentes bella
+excepere oppido cruenta: ubi, quamquam 
+nec aetas aderat, nec vires, quibus
+
+<pb id="s004" n="2" TEIform="pb"/>
+telum stringere, hostemque ferro ferire
+sinerentur; ita tamen de sinu pugnarunt
+inermes, ut cum acie victi caderent omnes, 
+omnes de hostis victoria triumpharent. 
+Hos, inquam, tales tibi mittimus, 
+lactentem turbam. Eccui enim alteri 
+ephebulos hos purpuratos inscribere 
+mallemus? Suspicis dudum amasque
+tu illos; et impense te illi. Nec dubium
+est, quin utrisque suae sint causae.</p>
+<p TEIform="p">Nondum ab illorum aetatula tua te
+Praetexta longe seiunxit: et est morum
+elegantissimorum adhuc innocentia ea,
+quam ipsi supparem suae lubentes agnoscunt: 
+eaque similitudine delectati,
+serenissmo clienti benevole patrocinantur. 
+Ad haec praeclarum est aliud, nescio 
+quod studium, quo eos tibi haud
+paullo arctius coniungis. Nam, ut teneri 
+etiamdum illi ac bullati milites, FORTIA PATI 
+pro Religione generose didicerunt; 
+ita te vident pulchris initiis
+iam nunc puerum ostendere, pro eadem
+illa propediem FORTIA FACTURUM.</p>
+
+<pb id="s005" n="3" TEIform="pb"/>
+<p TEIform="p">Ceterum est, cur tibi, quem sexennem
+adhuc, non modo ad hanc praetextata
+aetatis innocentiam exprimendam; sed
+ad HEROUM quoque decora aemulanda, 
+iam docilem videmus, prolixe
+gratulemur: quod in ea fortuna genitus
+es, ut non longe tibi sint inquirendi,
+quorum heroicas virtutes imitere. Exemplis 
+enim domesticis abundas: quando 
+in oculis assidue versantur, PARENTUM, 
+conspicua in DEUM Pietas; Charitas 
+erga cives admiranda; adversus
+inopes effusa Liber alitas; Humanitas in
+omnes, et quidquid aliarum virtutum
+lucere in principe fortuna potest. Quibus 
+tu (nisi opum caelestiam, quam caducarum 
+alii limites forent) id unum
+succensere posses, quod Philippo potuit 
+Alexander, iam tum in ephebo Magnus: 
+cum quereretur, tot patris victoriis
+nihil sibi reliquum fieri, in quo suam ipse
+virtutem experiretur. Secundum hos
+intueris e vicino, avi tui GUILIELMI,
+intueris avunculi MAXIMILIANI
+
+<pb id="s006" n="4" TEIform="pb"/>
+(quid nisi Maximorum Principum?) cognata 
+exempla: quibus singulis singulae
+possent aetates gloriari.</p>
+<p TEIform="p">In hoc virtutum heroicarum theatro,
+vbi tales agere ROSCIOS quotidie vides;
+non potes tu Magna indoles, quotidie vides;
+eadem, selicissime assuescas; eosque imitando, 
+facias multa iam PUER, viris Principibus 
+imitanda. Servet hanc nobis
+INDOLEM virtus: et nostra TE Societas 
+(cuius capacissimum Ingenium litteris 
+nunc imbuit) mox sentiat, in se fovenda 
+et tuenda, vestigiis Serenissimorum 
+pare tum insistere. E Collegio
+Societatis IESU Dilingae v. Kalend Ianuarias, 
+die SS. Innocentibus festo:
+M. DC. XXI.</p>
+</div>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s007" n="5" TEIform="pb"/>
+<p TEIform="p">LECTORI BENEVOLO BENE.</p>
+
+<p TEIform="p">QVod nuper Epigrammatis
+meis et futurum esse praesensi, et factum deinde vidi; 
+ut, quae viri prudentes
+et magni benevole accepissent, 
+eadem Psylli, et pusilli, nescio qui, nec
+latini sermonis, nec artis poeticae ignari.
+libere criminarentur; laudaturi, si sui.
+similia reperissent: id utrosque in hoc etiam 
+poemate facturos exspecto. Atque alteros 
+quidem, utne aliud velint, obiestor.
+alteros autem, in incepto pergant, nec ne,
+(ingenue dicam) non moror. Absolvi se
+carmen putat, quod a talibus condemnatur; 
+damnandum profecto, si illis placeret.
+Cum praesertim pueros audiam quosdam
+heri natos, et adhuc a matre rubentes,
+ipsum velle Maronem, (ingenium tot saeculis et ingeniis laudatum) 
+in ordinem redigere, et inter poetarum lixas iam reconsere; 
+quod planius scripserit, quam
+
+<pb id="s008" n="6" TEIform="pb"/>
+putent oportuisse; quodque cum Pacuviis
+antique et horride, cum Papiniis tumide, 
+cum Persus obscure loqui refugerit.
+Digni censura sua ridiculi censores. Quibus 
+sicarmen hoc parum videbitur grande, 
+sciant de Infantibus, non Gigantibus
+scriptum esse. Porro prioribus illis, rationem 
+instituti mei breviter edam.</p>
+<p TEIform="p">Anni sunt haud minus viginti, cum
+adolescens inter alia poemata hoc de Infantibus 
+Herodianis composui: argumentum pluribus 
+poetis libatum prius, aut strictim exitinere contactum; 
+a nullis, quos viderim, uberius et ex instituto
+perscriptum. Sumpsi
+primus scribere: et ad conandum aliquid, trahebar affectu.
+Id ubi legere postea quidam aut audiere,
+excitati suavissimo lemmate, eosdem Infantes 
+suis sibi epigrammatis exornandos 
+merito putarunt: quos opinor, alii aliique 
+excipient; dum sese in Caelites hos praetextatos 
+totus olim Helicon effundet.</p>
+<p TEIform="p">Tres operis constitui partes; Harum
+prima caedes commemoratur: verae 
+
+<pb id="s009" n="7" TEIform="pb"/>
+quidem illae, ac faedae; etsi non eo sortassis
+modo, quo reipsa sunt perpetratae; certe
+autem quo patrari potuerunt. Etfas fuit
+poetae, ubi historia tacuit, verisimilia divinare. 
+Neque enim, quos in Aeneide legimus cecidisse, 
+ferrum ea parte omnes receperunt, qua carmini visum fuit. 
+In nominibus decorum fuerat, si gentilia deligerentur. 
+Sed ea fuere Hebraea, sane magnam partem aut aspera, 
+aut ad numeri leges contumacia; ut pleraque me a Graecis
+Latinisue (quibus Iudaei iam per id tempus assueverant) 
+opportuerit accire. Quod ne idem in Graecorum fabulis auderem
+(quarum feracissima poesis est) obstitit
+gentis Religio: ut satius mihi fuerit, aliquam 
+nitoris poetici (qui plurimus inde
+se offerebat) iacturam facere, quam ab
+hoc decoro iudicioque discedere. Placuit
+tamen quasdam Imagines, seu penicillo,
+seu acu pictas poemati permittere: quod
+ab iis auctoribus numquam ego steteram,
+qui Iudaeis omni Imaginum usu fuisse interdictum 
+censuere: cum iam olim in
+
+<pb id="s010" n="8" TEIform="pb"/>
+eorum partes discesserim, quibus visum est,
+non aeque omnes imagines, lege aut more
+vlle, Iudaeis negatas fuisse. Et sane expediebat 
+poesi hanc opinionem alteri anteferre.</p>
+<p TEIform="p">Altero volumine, caesorum pridie Infantu 
+exsequiae narrantur. Additi ludi, quos
+Herodes, velut periculo defunctus, militum
+ductoribus in Circo dedit. Sed adortae illum
+denuo curae, filium ei, nondum trimulum,
+in suspicionem adduxere: quem idcirco,
+(si Macrobio sides) ceterorum neci impius 
+parens auctarium adiecit.</p>
+<p TEIform="p">Postremus labor, varie divisus; iam
+caesi agminis manes, ad Elysium pratum
+consequitur: ubi longam proavorum seriem 
+complexi; denique a vate divinitus edocentur, 
+quibus olim poenis reservetur
+Tyrannus; simul aliorum faeda quaedam
+supplicia monstrantur: Iam profugum ad
+Aegyptios Iosephum; ibique cum Puero et
+Virgine coniuge exulantem, comitatur;
+Iam denique in Herodis aegritudine, et postremo 
+eius furore, funereque explicando
+immoratur, cognosce ingenue lector, et si
+
+<pb id="s011" n="9" TEIform="pb"/>
+qua errasse ingenium videris, homini consitenti 
+ignosce: si quid probaveris, boni auctorem 
+Deum agnosce. Vale.</p></div>
+
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N"><p TEIform="p">APPROBATIO R. P.
+PROVINCIALIS.</p>
+<p TEIform="p">EGO CHRISTOPHORE
+GRENZING Societatis IESU per Superiorem Germaniam 
+Praepositus Provincialis.
+potestate mihi ab admodum.
+R. P. N. Mutio Vitellesco
+Praeposito Generali, facta, tres libellos Herodiados, 
+quos poemate latino composuit IACOBUS BIDERMANUS, 
+quosque nostrae
+Societatis aliquor Sacerdotes censuerunt et
+approbarunt, typis edi permitto. Idque manu, 
+et consueto Societatis insigne confirmo.
+Dilingae XVII. Octobr. MDCXXI.
+Christophorus Grenzing.</p>
+
+<pb id="s012" n="10" TEIform="pb"/>
+<p TEIform="p">B. IOSEPHO
+MAGNAE VIRGINIS
+CASTISSIMO SPONSO
+INNOCENTISSIMI INFANTIS
+ET
+MAGNE EXULIS
+FIDISSIMO
+COMITI
+NUTRITIO
+TUTORI
+HOC PRIMUM
+DE INNOCENTIBUS
+VOLUMEN
+SACRUM DICATUM
+ESTO.</p>
+</div></front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

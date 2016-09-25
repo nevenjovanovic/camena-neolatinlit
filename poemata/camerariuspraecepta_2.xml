@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+	<teiHeader type="text">
+		<fileDesc TEIform="fileDesc">
+			<titleStmt TEIform="titleStmt">
+				<title TEIform="title">Praecepta vitae puerilis, cum parte paraenetici Isocratis ad Daemonicum in latinum conversa. Vitae, morumque honestatis atque decori praecepta exposita versibus. De gymnasiis dialogus.</title>
+				<title type="sub" TEIform="title">Machine-readable text</title>
+				<author n="Camerarius" TEIform="author">Camerarius, Joachim</author>
+				<editor TEIform="editor" role="editor">Camerarius, Joachim</editor>
+			</titleStmt>
+			<editionStmt TEIform="editionStmt">
+				<edition TEIform="edition">XML version, markup prototype, Dec. 1999</edition>
+				<respStmt TEIform="respStmt">
+					<name TEIform="name">Niehl, Ruediger</name>
+					<resp TEIform="resp">markup</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/camer3" type="href" id="camer3" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">camer3</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">camerariuspraeceptahtml</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">camerariuspraeceptaxml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">camer3/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+			<sourceDesc default="NO" TEIform="sourceDesc">
+				<bibl default="NO" TEIform="bibl"> Basel: Hervagius, 1536.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc TEIform="encodingDesc">
+			<editorialDecl default="NO" TEIform="editorialDecl">
+				<p TEIform="p">Regeln f_ Texterfassung 04'/2000</p>
+			</editorialDecl>
+			<refsDecl TEIform="refsDecl" doctype="TEI.2">
+				<p TEIform="p">not necessary</p>
+			</refsDecl>
+		</encodingDesc>
+		<revisionDesc TEIform="revisionDesc">
+			<change TEIform="change">
+				<date TEIform="date">05 May 2004</date>
+				<respStmt TEIform="respStmt">
+					<name TEIform="name">Ruediger Niehl</name>
+					<resp TEIform="resp">markup</resp>
+				</respStmt>
+				<item TEIform="item">worked in corrections supplied by Georg Burkard; TEI header, markup, lines added; typed text - structural tagging complete (except sp-tags at end) - no semantic tagging - manual spell check; note: abbreviations have been mostly resolved without indication!</item>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	
+
+
+
+<text><body><div1 type="book">
+<pb id="s033" n="33" TEIform="pb"/>
+<epigraph TEIform="epigraph">
+<lg met="phal" org="uniform" sample="complete" TEIform="lg" part="N">
+<head>THOMAE VENATORIO, S. P. D.</head>
+<l TEIform="l" part="N">DVM tu somnia luculenta Thoma,</l>
+<l TEIform="l" part="N">Scribis de cruce versibus severis,</l>
+<l TEIform="l" part="N">Inter discipulos ego otiosus</l>
+<l TEIform="l" part="N">Artem purpurei levem Decori,</l>
+<l TEIform="l" part="N">Mando pondere carmini carenti,</l>
+<l TEIform="l" part="N">Tales teque decent tuasque Musas</l>
+<l TEIform="l" part="N">Thoma relligiose scriptiones.</l>
+<l TEIform="l" part="N">Talis me decet et meas Camenas</l>
+<l TEIform="l" part="N">Susceptae labor institutionis.</l>
+<l TEIform="l" part="N">Quod si conferimus iocationes,</l>
+<l TEIform="l" part="N">Lusus, peruigiles moras Lyaei,</l>
+<l TEIform="l" part="N">Et crebras simul ambulationes,</l>
+<l TEIform="l" part="N">Cur non haec potius probatiora</l>
+<l TEIform="l" part="N">Nobis ludicra carminis Latini</l>
+<l TEIform="l" part="N">Sint communia: sic ut esse debent.</l>
+<l TEIform="l" part="N">Quare hac lege meum tibi libellum</l>
+<l TEIform="l" part="N">Mitto ut tu mihi plurimos remittas.</l>
+<l TEIform="l" part="N">Sed iam tristia, si placet, sinamus,</l>
+<l TEIform="l" part="N">Iam sint omnia plena gaudiorum.</l>
+<l TEIform="l" part="N">Martinalia festa sunt propinqua</l>
+<l TEIform="l" part="N">Martinalia vina cum bibemus</l>
+<l TEIform="l" part="N">Martinalia carmina accinamus,</l>
+<l TEIform="l" part="N">Martinalia io valete curae.</l>
+</lg>
+<p TEIform="p">Calendis Novembribus Anni XXVIII.</p>
+</epigraph>
+<pb id="s034" n="34" TEIform="pb"/>
+<head>PRAECEPTA HONESTATIS ATQUE DEcoris puerilis.</head>
+<lg met="dist" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ALEA lucrosae si qua ludatur ab arte,</l>
+<l rend="indent" TEIform="l" part="N">Materiam talos si quoque scriptor habet.</l>
+<l TEIform="l" part="N">Praelia carminibus veteres si ficta latronum,</l>
+<l rend="indent" TEIform="l" part="N">Sique duos scrupos et docuere decem.</l>
+<l TEIform="l" part="N">Si legimus praecepta tuae damnosa camenae,</l>
+<l rend="indent" TEIform="l" part="N">Traditus exilii cui fuit autor Amor.</l>
+<l TEIform="l" part="N">Tu quoque Calliope, rerum decus, omnia reddens</l>
+<l rend="indent" TEIform="l" part="N">Diva venustifico nomine pulchra tuo,</l>
+<l TEIform="l" part="N">Tu quoque ades felix, nostroque faveto labori</l>
+<l rend="indent" TEIform="l" part="N">Qui melius si non, at meliora canam.</l>
+<l TEIform="l" part="N">Est aliquid mores pueros servare probatos</l>
+<l rend="indent" TEIform="l" part="N">Atque his aetati conciliare decus.</l>
+<l TEIform="l" part="N">Quodque decet, si sint videantur ut esse modesti,</l>
+<l rend="indent" TEIform="l" part="N">Omnia et aspectu sint speciosa suo.</l>
+<l TEIform="l" part="N">Quid iuvat ingenuas didicisse fideliter artes,</l>
+<l rend="indent" TEIform="l" part="N">Quam levis est linguas gloria scire duas,</l>
+<l TEIform="l" part="N">Si non accedat vitae cultura decorae,</l>
+<l rend="indent" TEIform="l" part="N">Nescio quo tantum res placet ista modo.</l>
+<l TEIform="l" part="N">Vidi ego multarum claros quos gloria rerum,</l>
+<l rend="indent" TEIform="l" part="N">Virtutisque bona fecerat arte labor,</l>
+<l TEIform="l" part="N">Ipsos dedecorique sibi probroque fuisse,</l>
+<l rend="indent" TEIform="l" part="N">In caussa vitium moris inertis erat,</l>
+<l TEIform="l" part="N">Heu mihi quam vulgus generosi fallitur ortus,</l>
+<l rend="indent" TEIform="l" part="N">Duritiem laudi qui tenuisse putant.</l>
+<l TEIform="l" part="N">At tibi Peliden iuvenem iustissime Chiron,</l>
+<pb id="s035" n="35" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Non fuit his studiis erudiisse pudor.</l>
+<l TEIform="l" part="N">Ah quoties Pindi referentem vertice praedam</l>
+<l rend="indent" TEIform="l" part="N">Seu leo seu ferrum tinxerat ursa suum,</l>
+<l TEIform="l" part="N">Sive erat in dama telis iuveniliter usus,</l>
+<l rend="indent" TEIform="l" part="N">Cum tibi quicquid erat poneret ante pedes,</l>
+<l TEIform="l" part="N">Non sivisti epulis agrestem immittere dextram,</l>
+<l rend="indent" TEIform="l" part="N">Quantumuis stimulos subiciente fame.</l>
+<l TEIform="l" part="N">Sed prior et servare modum et servare decorum</l>
+<l rend="indent" TEIform="l" part="N">Res erat, et certa sumere lege cibum.</l>
+<l TEIform="l" part="N">Quaeque iocis licitisque dabas sua tempora ludis,</l>
+<l rend="indent" TEIform="l" part="N">Nanque nec his rebus tempora nulla dabas.</l>
+<l TEIform="l" part="N">Efficere arbitrio moderando cuncta solebas,</l>
+<l rend="indent" TEIform="l" part="N">Haec ut et ipsa forent non vitiosa tuo.</l>
+<l TEIform="l" part="N">Quid quod naturam ut posses frenare ferocem,</l>
+<l rend="indent" TEIform="l" part="N">Quaeque sui nullum sciret habere modum,</l>
+<l TEIform="l" part="N">Flumine Castalidos conspersa virescere fontis</l>
+<l rend="indent" TEIform="l" part="N">Iussisti, et pulchrum gignere corda decus.</l>
+<l TEIform="l" part="N">Sic neque rusticitas te laesit regia virgo</l>
+<l rend="indent" TEIform="l" part="N">Nescia feminea veste latere virum.</l>
+<l TEIform="l" part="N">Hunc etiam arte boni captam Lyrnesida moris,</l>
+<l rend="indent" TEIform="l" part="N">Credibile est alia demeruisse sibi.</l>
+<l TEIform="l" part="N">Illa et praecones inter duo iussa venire</l>
+<l rend="indent" TEIform="l" part="N">Ad Regem lento dicitur isse gradu.</l>
+<l TEIform="l" part="N">Credite compositi res est pulcherrima moris,</l>
+<l rend="indent" TEIform="l" part="N">Turpius inculta rusticitate nihil.</l>
+<l TEIform="l" part="N">Sed nisi dum tenerum est aevum discuntur et anni,</l>
+<l rend="indent" TEIform="l" part="N">Postmodo nulla potest cura docere senes.</l>
+<l TEIform="l" part="N">Quare ades et si cui placet, huius percipe laudis</l>
+<l rend="indent" TEIform="l" part="N">Quae praecepta artis nos tibi prima damus.</l>
+<pb id="s036" n="36" TEIform="pb"/>
+<l TEIform="l" part="N">Principio quem vera parum delectat honestas,</l>
+<l rend="indent" TEIform="l" part="N">Spurcaque cui potius verbaque resque placent,</l>
+<l TEIform="l" part="N">Iste procul nostris monitis procul esto profanus,</l>
+<l rend="indent" TEIform="l" part="N">Virtutis cupidis scribimus illa sacrae.</l>
+<l TEIform="l" part="N">Flagitiis alibi multus patet undique ludus,</l>
+<l rend="indent" TEIform="l" part="N">Balnea, cauponae, lustra, culina, tori.</l>
+<l TEIform="l" part="N">Haec est virtutis schola, primum dura, sed altae</l>
+<l rend="indent" TEIform="l" part="N">Grata habet ex imis culmina summa viae.</l>
+<l TEIform="l" part="N">Hinc etiam es factus qui post Alcida fuisti,</l>
+<l rend="indent" TEIform="l" part="N">Quando tibi Libyci cessit Atlantis onus.</l>
+<l TEIform="l" part="N">Nam satus Amphitryone puer dum forte per aestum,</l>
+<l rend="indent" TEIform="l" part="N">Iuxta Asopeas dispatiatur aquas.</l>
+<l TEIform="l" part="N">Qua se discerpti tollunt iuga conscia Penthei,</l>
+<l rend="indent" TEIform="l" part="N">Oppida ubi rubro stant Hysiaea solo.</l>
+<l TEIform="l" part="N">Virginei geminas facies se protinus oris,</l>
+<l rend="indent" TEIform="l" part="N">Contra directo cernit adire gradu.</l>
+<l TEIform="l" part="N">Quarum purpureis splendebat vestibus una</l>
+<l rend="indent" TEIform="l" part="N">Aurea tota pedes, aurea tota caput.</l>
+<l TEIform="l" part="N">Vultus perfusum referebat lacte cruorem,</l>
+<l rend="indent" TEIform="l" part="N">Albave sanguineis lilia mista rosis.</l>
+<l TEIform="l" part="N">Pendebant digiti gemmarum pondere lassi,</l>
+<l rend="indent" TEIform="l" part="N">Colli erat in gravido torque smaragdus opus.</l>
+<l TEIform="l" part="N">Neve sui cultus alios pars ulla lateret,</l>
+<l rend="indent" TEIform="l" part="N">Ibat adornato lentius illa gradu.</l>
+<l TEIform="l" part="N">Ardua ad a tergo reflectens colla sequentes,</l>
+<l rend="indent" TEIform="l" part="N">Inque umbram figens lumina saepe suam.</l>
+<l TEIform="l" part="N">Alterius crinisque habitusque in corpore simplex</l>
+<l rend="indent" TEIform="l" part="N">Inque color vultu non alienus erat.</l>
+<l TEIform="l" part="N">Ipsa verecundo decorabant lumina motu</l>
+<pb id="s037" n="37" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Compositum mundo corpore rite statum.</l>
+<l TEIform="l" part="N">Quaeque erat ingenuae mentis candoribus apta,</l>
+<l rend="indent" TEIform="l" part="N">Induerat nivea libera membra stola.</l>
+<l TEIform="l" part="N">Illa ut erat verbis audax, vultuque proteruo,</l>
+<l rend="indent" TEIform="l" part="N">Prima dedit tales ore procace sonos.</l>
+<l TEIform="l" part="N">Alcmenae formose puer mea iussa capesse,</l>
+<l rend="indent" TEIform="l" part="N">Et bene fac vitae dum licet usque tuae</l>
+<l TEIform="l" part="N">Neve tuos saevis praecerpe laboribus annos,</l>
+<l rend="indent" TEIform="l" part="N">Utque diu possis vivere vive bene.</l>
+<l TEIform="l" part="N">Dux ego diva viam quam iussi incedere pandam,</l>
+<l rend="indent" TEIform="l" part="N">Haec est purpureis consita tota rosis.</l>
+<l TEIform="l" part="N">Utque scias quae sim, Nomen mihi blanda voluptas</l>
+<l rend="indent" TEIform="l" part="N">Omnes me sancte Dique hominesque colunt.</l>
+<l TEIform="l" part="N">Haec est delitium, famulas monstrabat, et haec est</l>
+<l rend="indent" TEIform="l" part="N">Edita spumanti Cypria diva mari.</l>
+<l TEIform="l" part="N">Quid memorem reliquas? An cui Cytherea ministra est?</l>
+<l rend="indent" TEIform="l" part="N">Scilicet, hanc dubitas Hercule parue sequi.</l>
+<l TEIform="l" part="N">Vive tibi speciose puer, vitamque suavem</l>
+<l rend="indent" TEIform="l" part="N">Redde quibus poteris reddere cumque modis.</l>
+<l TEIform="l" part="N">Sic ait, Alcidaeque amplexu colla petivit,</l>
+<l rend="indent" TEIform="l" part="N">Quid facis o meritis efficiende Deus.</l>
+<l TEIform="l" part="N">Quid facis exclamas quae viderat altera. Laudis</l>
+<l rend="indent" TEIform="l" part="N">Ah quantas segetes proteret ista tuae?</l>
+<l TEIform="l" part="N">Haec est si nescis patrantes cuius ocelli</l>
+<l rend="indent" TEIform="l" part="N">Nullius esse diu fortia corda sinunt.</l>
+<l TEIform="l" part="N">Perdidit ista prius Reges urbesque beatas,</l>
+<l rend="indent" TEIform="l" part="N">Vivere si non vis huc periture veni.</l>
+<l TEIform="l" part="N">Nam simul ut vacuas animum exhalarit in auras</l>
+<l rend="indent" TEIform="l" part="N">Hanc quisquis sequitur nil super huius erit.</l>
+<pb id="s038" n="38" TEIform="pb"/>
+<l TEIform="l" part="N">Nec te decipiat, quae prima est semita mollis,</l>
+<l rend="indent" TEIform="l" part="N">Me miseram quorsum semita mollis abit.</l>
+<l TEIform="l" part="N">Ad me igitur mihi care puer concede, Deusque</l>
+<l rend="indent" TEIform="l" part="N">Incipe pollicitis caelifer esse meis.</l>
+<l TEIform="l" part="N">Scire cupis quae sim? Quae sim tibi nomina dicent</l>
+<l rend="indent" TEIform="l" part="N">En assum Virtus Amphitryoniade.</l>
+<l TEIform="l" part="N">Quae prius innumeris ornavi sidera divis,</l>
+<l rend="indent" TEIform="l" part="N">Per quoque me regnum Iuppiter ipse tenet.</l>
+<l TEIform="l" part="N">Sed neque pelliculam curant mea signa sequentes</l>
+<l rend="indent" TEIform="l" part="N">Delitias metam nec posuere sibi.</l>
+<l TEIform="l" part="N">Ipse pater statuit me duros ante labores,</l>
+<l rend="indent" TEIform="l" part="N">Quoque petor plenum est asperitatis iter.</l>
+<l TEIform="l" part="N">Cum tamen evictis ventum est ad summa salebris,</l>
+<l rend="indent" TEIform="l" part="N">Iam facilis, quamuis ante molesta, via est.</l>
+<l TEIform="l" part="N">Praemia nunc audi, tangunt quoque praemia Divos,</l>
+<l rend="indent" TEIform="l" part="N">Te sibi erit generum cum Iovis uxor emet.</l>
+<l TEIform="l" part="N">Dixit et adductum modico conamine dextrae</l>
+<l rend="indent" TEIform="l" part="N">Alcidem aeterno iunxit amore sibi.</l>
+<l TEIform="l" part="N">Is quoque non tenues accepit pectore flammas,</l>
+<l rend="indent" TEIform="l" part="N">Nec nisi Virtutis suscipiebat opus.</l>
+<l TEIform="l" part="N">Ergo etiam multi, si vera est fama, magistri</l>
+<l rend="indent" TEIform="l" part="N">Iussu animos teneros erudiere patris.</l>
+<l TEIform="l" part="N">Castorque, Harpalycusque, Linusque, Philammonidesque,</l>
+<l rend="indent" TEIform="l" part="N">Usque adeo totum fecerat illa suum.</l>
+<l TEIform="l" part="N">Prae cunctis igitur laudem Virtutis amabis,</l>
+<l rend="indent" TEIform="l" part="N">Quae veluti dici sic facit esse bonos.</l>
+<l TEIform="l" part="N">Huius opus primum est caeli terraeque parentem</l>
+<l rend="indent" TEIform="l" part="N">Voce animoque simul concelebrare Deum.</l>
+<l TEIform="l" part="N">Quod sumus hoc autore sumus, qui cuncta creavit,</l>
+<pb id="s039" n="39" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Quique creata manu cuncta potente regit,</l>
+<l TEIform="l" part="N">Ille potest nostris successus addere rebus,</l>
+<l rend="indent" TEIform="l" part="N">Iratusque potest maxima damna dare.</l>
+<l TEIform="l" part="N">Ergo hunc quicquid ages, casto venerare timore,</l>
+<l rend="indent" TEIform="l" part="N">Unde salutifera fons fluit ortus aqua.</l>
+<l TEIform="l" part="N">Nec prius ad tibi propositos accede labores,</l>
+<l rend="indent" TEIform="l" part="N">Quam laudante Dei voce precatus opem.</l>
+<l TEIform="l" part="N">Formam cuique suam poterit dictare magister,</l>
+<l rend="indent" TEIform="l" part="N">Propositi non est ista docere mei.</l>
+<l TEIform="l" part="N">Sic tamen exurgens discusso mane sopore,</l>
+<l rend="indent" TEIform="l" part="N">Commendare Deo te studiumque potes.</l>
+<l TEIform="l" part="N">Nunc iterum nos iucundam dans cernere lucem,</l>
+<l rend="indent" TEIform="l" part="N">Eque pater tenebris sancte videre diem.</l>
+<l TEIform="l" part="N">Nox abiit, splendor circum se tollit olympum,</l>
+<l rend="indent" TEIform="l" part="N">Stellaque vicini praevia lucis adest.</l>
+<l TEIform="l" part="N">Et nunc rava nitent, Phoebea lampade pulsa</l>
+<l rend="indent" TEIform="l" part="N">Quaeque nitent modicum sidera lumen habent,</l>
+<l TEIform="l" part="N">Iam nos e stratis excivit mollibus ales</l>
+<l rend="indent" TEIform="l" part="N">Quae tacitum nullum tempus abire sinit.</l>
+<l TEIform="l" part="N">Ergo ad consuetas operas studiumque redimus,</l>
+<l rend="indent" TEIform="l" part="N">Nostraque iam recipit pensa diurna manus.</l>
+<l TEIform="l" part="N">O pater usque tua praesens ope sancte guberna,</l>
+<l rend="indent" TEIform="l" part="N">Quod sumus, et quod mox aggrediemur opus.</l>
+<l TEIform="l" part="N">Et fac ingressum nos sic decurrere solem,</l>
+<l rend="indent" TEIform="l" part="N">Laudis uti sumus pars quotacumque tuae.</l>
+<l TEIform="l" part="N">Sic lucem incipiens sanctum praefare timorem,</l>
+<l rend="indent" TEIform="l" part="N">Atque ita, vel simili vespere claude modo.</l>
+<l TEIform="l" part="N">Iam Phaethonteos ignes pepulere tenebrae,</l>
+<l rend="indent" TEIform="l" part="N">Fumantesque egit sub mare Phoebus equos.</l>
+<pb id="s040" n="40" TEIform="pb"/>
+<l TEIform="l" part="N">Umbrae iam faciunt aequalia cuncta videri,</l>
+<l rend="indent" TEIform="l" part="N">Omnibus in rebus cum color unus inest.</l>
+<l TEIform="l" part="N">Lucibus exiguis tantum vox atra nitescit,</l>
+<l rend="indent" TEIform="l" part="N">Plurima qua tremulo lumine stella micat.</l>
+<l TEIform="l" part="N">Aurea gemmati temones plaustra reducunt,</l>
+<l rend="indent" TEIform="l" part="N">Iamque moves segnes tarde Boota pedes.</l>
+<l TEIform="l" part="N">Ipseque fulgentes humeros ostendit Orion,</l>
+<l rend="indent" TEIform="l" part="N">Atque uno pressam sub pede calcat humum.</l>
+<l TEIform="l" part="N">Ibimus hinc solito capturi tempore somnum,</l>
+<l rend="indent" TEIform="l" part="N">Ut renovet dulcis languida membra quies.</l>
+<l TEIform="l" part="N">O pueri vera condemur imagine mortis</l>
+<l rend="indent" TEIform="l" part="N">Quisque Dei casta voce precemur opem.</l>
+<l TEIform="l" part="N">O pater hanc noctem ne quo perdamur ab hoste,</l>
+<l rend="indent" TEIform="l" part="N">Auxilio firma praesidioque tuo.</l>
+<l TEIform="l" part="N">Cumque sopor fessos studiis recreaverit artus,</l>
+<l rend="indent" TEIform="l" part="N">Lumina da laetum cernere nostra diem.</l>
+<l TEIform="l" part="N">Atque ita seu capient nocturnam membra quietem</l>
+<l rend="indent" TEIform="l" part="N">Sive die iussum perficiemus opus,</l>
+<l TEIform="l" part="N">Esse tuos semper facias semperque manere,</l>
+<l rend="indent" TEIform="l" part="N">Haec pater est nostrae summa caputque precis.</l>
+<l TEIform="l" part="N">Prima Deum res est coluisse, secunda parentes,</l>
+<l rend="indent" TEIform="l" part="N">Et si qui horum alii pondus et instar habent.</l>
+<l TEIform="l" part="N">His observatis merito veneramine, cunctos</l>
+<l rend="indent" TEIform="l" part="N">Cana quibus barba est esse putato patres.</l>
+<l TEIform="l" part="N">Illis cede loco et consuetum defer honorem,</l>
+<l rend="indent" TEIform="l" part="N">Vertice seu nudo sive cadente genu.</l>
+<l TEIform="l" part="N">Nanque imbecillis quae per se non sapit aetas</l>
+<l rend="indent" TEIform="l" part="N">Instruitur cura praecipiente senum.</l>
+<l TEIform="l" part="N">Illis emersi iam longi temporis usus,</l>
+<pb id="s041" n="41" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Et sapere et reliquos posse docere dedit.</l>
+<l TEIform="l" part="N">Deinde tuis studiis aequales dilige, et illo</l>
+<l rend="indent" TEIform="l" part="N">Quo tibi quos iungit sanguis habeto loco.</l>
+<l TEIform="l" part="N">Hos neque mendaci nec vero laedito dicto.</l>
+<l rend="indent" TEIform="l" part="N">Irruptamque tene semper amicitiam.</l>
+<l TEIform="l" part="N">Nec tibi sint cordi lites, certamina, rixae,</l>
+<l rend="indent" TEIform="l" part="N">Sed veneranda quies ingenuusque pudor.</l>
+<l TEIform="l" part="N">Sepibus inclusit linguam natura duabus,</l>
+<l rend="indent" TEIform="l" part="N">Ne sit inexpensi prompta loquela soni.</l>
+<l TEIform="l" part="N">Vix unquam tacuisse nocet, nocet esse locutum,</l>
+<l rend="indent" TEIform="l" part="N">Est sibi qui accersit garrulitate necem.</l>
+<l TEIform="l" part="N">Scire loqui laus est, laus est quoque scire tacere,</l>
+<l rend="indent" TEIform="l" part="N">Illa magis pulchra est, haec quoque pulchra magis.</l>
+<l TEIform="l" part="N">Hinc ne verborum plus fac quam postulet usus,</l>
+<l rend="indent" TEIform="l" part="N">Atque odiosa cave sint ea si qua facis.</l>
+<l TEIform="l" part="N">Aera putant nosci tinnitu, pectora verbis,</l>
+<l rend="indent" TEIform="l" part="N">Sic est, nanque id sunt utraque quale sonant.</l>
+<l TEIform="l" part="N">Quod Thersita feris lacerabas dentibus omnes</l>
+<l rend="indent" TEIform="l" part="N">Planxerunt tergum regia sceptra tuum.</l>
+<l TEIform="l" part="N">Quique luis poenas fugitivus mersus in undis,</l>
+<l rend="indent" TEIform="l" part="N">Incastigatae crimina vocis habes.</l>
+<l TEIform="l" part="N">In studiis virtus pacis quos educat almae</l>
+<l rend="indent" TEIform="l" part="N">Iurgia sit valida tollere voce nefas.</l>
+<l TEIform="l" part="N">Qui vis esse bonus tales vitato furores.</l>
+<l rend="indent" TEIform="l" part="N">Fax parui ingentis saepe fuere mali.</l>
+<l TEIform="l" part="N">Haec est carnivorum tristis natura ferarum.</l>
+<l rend="indent" TEIform="l" part="N">Tene studes saevis assimulare feris?</l>
+<l TEIform="l" part="N">Praecipue quaedam cum dantur tempora ludis,</l>
+<l rend="indent" TEIform="l" part="N">Absint permissis dicta cruenta iocis.</l>
+<pb id="s042" n="42" TEIform="pb"/>
+<l TEIform="l" part="N">Si puer in ludo mentem Patrocle domasses,</l>
+<l rend="indent" TEIform="l" part="N">Non foret aequalis caussa pudenda fugae.</l>
+<l TEIform="l" part="N">Quare age forma movet sensus si cuius honesti</l>
+<l rend="indent" TEIform="l" part="N">Consona sint placidis facta pudica sonis.</l>
+<l TEIform="l" part="N">Foedius at multo est absentum rodere famam,</l>
+<l rend="indent" TEIform="l" part="N">Et viridi tinctos spargere felle sales.</l>
+<l TEIform="l" part="N">Alba quibus gelidae circundant corpora stellae</l>
+<l rend="indent" TEIform="l" part="N">Debuerat similis mentibus esse color.</l>
+<l TEIform="l" part="N">Sed quibus illa nitent iam plus quoque quam sit honestum,</l>
+<l rend="indent" TEIform="l" part="N">Ah animis candor quod prope nullus inest.</l>
+<l TEIform="l" part="N">At quondam dum vita fuit cultusque severi,</l>
+<l rend="indent" TEIform="l" part="N">Ut memini effetum dicere saepe patrem.</l>
+<l TEIform="l" part="N">Si quis in absertis faceret convicia nomen,</l>
+<l rend="indent" TEIform="l" part="N">Omnibus invisus coetibus exul erat.</l>
+<l TEIform="l" part="N">Cur tua non prius insipiens peccata revisis,</l>
+<l rend="indent" TEIform="l" part="N">Cernere praeque illis cur aliena iuvat?</l>
+<l TEIform="l" part="N">Nec trutinae potius pensas examine iustae,</l>
+<l rend="indent" TEIform="l" part="N">Quid tibi sit factum quid tibi praeteritum.</l>
+<l TEIform="l" part="N">Quidque domi restet propriae vitiique bonive,</l>
+<l rend="indent" TEIform="l" part="N">Ut docuit Samii regula Prisca senis.</l>
+<l TEIform="l" part="N">Quicquid ages nolis latuisse et quaerere noctem</l>
+<l rend="indent" TEIform="l" part="N">Obtendi factis turpibus illa solet.</l>
+<l TEIform="l" part="N">Quodque ferunt quendam iussisse olim sapientem,</l>
+<l rend="indent" TEIform="l" part="N">Vivere sic ut te vivere nemo putet.</l>
+<l TEIform="l" part="N">Hoc alio inveniatque loco atque in tempore laudem,</l>
+<l rend="indent" TEIform="l" part="N">Tu quod ages alios fallere velle cave.</l>
+<l TEIform="l" part="N">Nunquam animus sceleris nullius conscius odit</l>
+<l rend="indent" TEIform="l" part="N">Ulla sua in clara facta patere die.</l>
+<l TEIform="l" part="N">Nunquam flagitii sceleratique ullius ausus</l>
+<pb id="s043" n="43" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Corda queunt lucem conscia ferre sibi.</l>
+<l TEIform="l" part="N">Quod tua non refert ne sit cognoscere cura,</l>
+<l rend="indent" TEIform="l" part="N">Neu percontator scire aliena velis.</l>
+<l TEIform="l" part="N">Praecipue turpe est captanti sublegere aure</l>
+<l rend="indent" TEIform="l" part="N">Non rei dicta tuae, facta notare oculis.</l>
+<l TEIform="l" part="N">Sunt obscoena loqui quibus haud turpe esse videtur,</l>
+<l rend="indent" TEIform="l" part="N">Inque iocis aliquid laudis habere putant.</l>
+<l TEIform="l" part="N">Crede mihi solito mores sermone notantur,</l>
+<l rend="indent" TEIform="l" part="N">Et facere illa iuvat dicere si qua iuvat.</l>
+<l TEIform="l" part="N">Quam bene senserunt gens veracissima Persae,</l>
+<l rend="indent" TEIform="l" part="N">Turpia patratu cum vetuere loqui.</l>
+<l TEIform="l" part="N">Quam mala sunt castae mentis documenta Catulli,</l>
+<l rend="indent" TEIform="l" part="N">Turpia versiculis condere facta suis.</l>
+<l TEIform="l" part="N">Nil ausis igitur fari quod non sit honestum,</l>
+<l rend="indent" TEIform="l" part="N">Quodque animus facinus iudicet esse malum,</l>
+<l TEIform="l" part="N">Quin fieri quae rectum est sed sine teste, caveto</l>
+<l rend="indent" TEIform="l" part="N">Indicio linguae prodere facta tuae.</l>
+<l TEIform="l" part="N">Quid si cui fallax suggurgitet alea nummos,</l>
+<l rend="indent" TEIform="l" part="N">Aut stolidum reddant plurima vina caput?</l>
+<l TEIform="l" part="N">Talia non nostris ego castigabo libellis,</l>
+<l rend="indent" TEIform="l" part="N">Talia nec decoris crimina ludus habet.</l>
+<l TEIform="l" part="N">Sed nil tam turpe est quod non mendacia vincant,</l>
+<l rend="indent" TEIform="l" part="N">Mendaces aiunt furibus esse pares,</l>
+<l TEIform="l" part="N">Cuius falsiloquis lingua est excercita verbis,</l>
+<l rend="indent" TEIform="l" part="N">Innumeras messes improbitatis habet.</l>
+<l TEIform="l" part="N">Nil erit huic nimium dictu, factuve scelestum.</l>
+<l rend="indent" TEIform="l" part="N">Qui sapis hunc morum doctor abire iube.</l>
+<l TEIform="l" part="N">Atque ita mens primis rudis informetur ab annis,</l>
+<l rend="indent" TEIform="l" part="N">Qua spes neglecta quae superesse potest?</l>
+<pb id="s044" n="44" TEIform="pb"/>
+<l TEIform="l" part="N">Corporis accedet tamen huic quoque gratia cultu,</l>
+<l rend="indent" TEIform="l" part="N">Ergo sit in vultu luminibusque decor.</l>
+<l TEIform="l" part="N">Sive manum profers gestu proferto modesto,</l>
+<l rend="indent" TEIform="l" part="N">Sive astas noli saepe movere pedes.</l>
+<l TEIform="l" part="N">Intuitum rectum teneas, oculos nisi si qua</l>
+<l rend="indent" TEIform="l" part="N">Caussa verecundos figere coget humi.</l>
+<l TEIform="l" part="N">Incessus neque sit properatis gressibus asper,</l>
+<l rend="indent" TEIform="l" part="N">Sit neque femineo mollis inersque gradu.</l>
+<l TEIform="l" part="N">Sic sedeas curuum ne reddat sessio corpus,</l>
+<l rend="indent" TEIform="l" part="N">Et tua ne gibbos terga supina trahant.</l>
+<l TEIform="l" part="N">Parua quidem res est vestis sed veste notari</l>
+<l rend="indent" TEIform="l" part="N">Qui dicunt animos dicere vera solent.</l>
+<l TEIform="l" part="N">Quare et communi et consueto more paretur,</l>
+<l rend="indent" TEIform="l" part="N">Indusium, tunicae, pilea, laena, toga.</l>
+<l TEIform="l" part="N">Oderis et sordes, placeat servata venustas</l>
+<l rend="indent" TEIform="l" part="N">Sordidus est nunquam laudis amator homo.</l>
+<l TEIform="l" part="N">Non ego te mollem iubeo muliebriter esse,</l>
+<l rend="indent" TEIform="l" part="N">Quae iubeo forti sunt quoque digna viro.</l>
+<l TEIform="l" part="N">In verbis igitur pudor inque modestia gestu</l>
+<l rend="indent" TEIform="l" part="N">Si sit munditiem convenienter ama.</l>
+<l TEIform="l" part="N">Pexus ut extrema labatur ab aure capillus.</l>
+<l rend="indent" TEIform="l" part="N">Oraque suffusa mane rigentur aqua.</l>
+<l TEIform="l" part="N">Ut niteant palmae, careant squaloribus ungues.</l>
+<l rend="indent" TEIform="l" part="N">Unda datur gratis saepe lavato manus.</l>
+<l TEIform="l" part="N">Ne pituitoso destillent phlegmate nares,</l>
+<l rend="indent" TEIform="l" part="N">Ergo tuo semper lintea ferto sinu.</l>
+<l TEIform="l" part="N">Ne madido rigeat ceno oblita calcis aluta,</l>
+<l rend="indent" TEIform="l" part="N">Sint sine quisquiliis pilea, labe toga.</l>
+<l TEIform="l" part="N">Nunc ubi praecipue quod pulchrum est cernitur, edam,</l>
+<pb id="s045" n="45" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Inter quid <corr sic="doceat qund" resp="transcriber" TEIform="corr">deceat, quid</corr> male sacra dapum.</l>
+<l TEIform="l" part="N">Ac iam dehinc Rhenus fluvioque auraque secunda,</l>
+<l rend="indent" TEIform="l" part="N">Incita per liquidas cimba natabit aquas.</l>
+<l TEIform="l" part="N">Principio, praesens si fert occasio rerum,</l>
+<l rend="indent" TEIform="l" part="N">Dic aliquis claro taliter ore preces.</l>
+<l TEIform="l" part="N">Haec tua sancte pater divinae munera dextrae,</l>
+<l rend="indent" TEIform="l" part="N">Quae das paruo iterum des iterumque gregi.</l>
+<l TEIform="l" part="N">Per te sublimes spectamus sidera vultu,</l>
+<l rend="indent" TEIform="l" part="N">Per te agit aetherius corpora nostra vigor.</l>
+<l TEIform="l" part="N">Per te praeteritos feliciter egimus annos,</l>
+<l rend="indent" TEIform="l" part="N">Quod superest per te fac bene tempus eat,</l>
+<l TEIform="l" part="N">Sic ut praecipue te casta mente colamus,</l>
+<l rend="indent" TEIform="l" part="N">Aeternumque Deum propitiumque patrem.</l>
+<l TEIform="l" part="N">Utque tuum nullus peruertat casus amorem,</l>
+<l rend="indent" TEIform="l" part="N">Ducet amor mistus duret amore timor.</l>
+<l TEIform="l" part="N">O pater igne tuo pueriles ure medullas,</l>
+<l rend="indent" TEIform="l" part="N">Te praeter sapiat mens nihil, ora sonent.</l>
+<l TEIform="l" part="N">Excipiat nostrae cursus tua gloria vitae.</l>
+<l rend="indent" TEIform="l" part="N">In laudes studium desinat omne tuas.</l>
+<l TEIform="l" part="N">Haec est summa pater voti sanctissime nostri,</l>
+<l rend="indent" TEIform="l" part="N">Cetera solicitos nunquam habuere nimis.</l>
+<l TEIform="l" part="N">Tu tamen et vestes nobis victumque ministras,</l>
+<l rend="indent" TEIform="l" part="N">Et quibus haec aliis tempora rebus egent.</l>
+<l TEIform="l" part="N">Quae nondum gnaris quaerendi suggeris ultro,</l>
+<l rend="indent" TEIform="l" part="N">Nullus erat nobis ista parare labor.</l>
+<l TEIform="l" part="N">Neve quis addubitet promissa fideliter addis,</l>
+<l rend="indent" TEIform="l" part="N">Promissa exemplis nobilitata suis.</l>
+<l TEIform="l" part="N">Nostros ergo animos levis horum cura fatigat</l>
+<l rend="indent" TEIform="l" part="N">Stulte sollicitos de quibus esse vetas.</l>
+<pb id="s046" n="46" TEIform="pb"/>
+<l TEIform="l" part="N">Haec dabis, illa preces ut des pater accipe <corr sic="vestras" resp="transcriber" TEIform="corr">nostras</corr>,</l>
+<l rend="indent" TEIform="l" part="N">Utiliter tantum nos ale sancte tibi.</l>
+<l TEIform="l" part="N">At iam sedataque fame mensisque remotis,</l>
+<l rend="indent" TEIform="l" part="N">Fac laudes memori pectore gratus agas.</l>
+<l TEIform="l" part="N">Has cupiam Isaide sumi de carmine Regis,</l>
+<l rend="indent" TEIform="l" part="N">Nostrum etiam exemplum, cui placet, istud habes.</l>
+<l TEIform="l" part="N">Quisquis es in quocumque manes regione locoque,</l>
+<l rend="indent" TEIform="l" part="N">Et quaecumque tuae nomina gentis habes.</l>
+<l TEIform="l" part="N">Seu tibi primus adest redivivo lumine Phoebus,</l>
+<l rend="indent" TEIform="l" part="N">Lotus ab aequoreis conspiciendus aquis.</l>
+<l TEIform="l" part="N">Sive vides labi postremum in Thetyos undas,</l>
+<l rend="indent" TEIform="l" part="N">Seque agere ante diem post tenebrasque sequi.</l>
+<l TEIform="l" part="N">Aut latere in laevo mundi dextrove locatus,</l>
+<l rend="indent" TEIform="l" part="N">Inde calore frequens ureris inde gelu.</l>
+<l TEIform="l" part="N">Mente Deo laudes cessas quid dicere voce?</l>
+<l rend="indent" TEIform="l" part="N">Ore animo cunctos hunc celebrare decet.</l>
+<l TEIform="l" part="N">Nam pater est et nos auditque videtque benignus,</l>
+<l rend="indent" TEIform="l" part="N">Et fovet imposita vulnera nostra manu.</l>
+<l TEIform="l" part="N">Sublevat iste graves qua mansuetudine casus?</l>
+<l rend="indent" TEIform="l" part="N">Quicquid agit nihil hoc mitius esse potest.</l>
+<l TEIform="l" part="N">Ecce cibum quem nos nunquam quaesivimus offert,</l>
+<l rend="indent" TEIform="l" part="N">Et vitae ignaros veste domoque tegit.</l>
+<l TEIform="l" part="N">Atque haec non mutanda Dei sententia constat,</l>
+<l rend="indent" TEIform="l" part="N">Quae se huic credentem posse perire negat.</l>
+<l TEIform="l" part="N">Ergo simul lenis pater est veraxque bonusque,</l>
+<l rend="indent" TEIform="l" part="N">Protegit hic, quis nos quem metuamus erit?</l>
+<l TEIform="l" part="N">Nec sibi pro tantis meritis quicquam ille rependi</l>
+<l rend="indent" TEIform="l" part="N">Quam benefactorum commeminisse iubet.</l>
+<l TEIform="l" part="N">Nanque aliud nihil hic unus qui cuncta creavit,</l>
+<pb id="s047" n="47" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Quam grati laudes cordis et oris amat.</l>
+<l TEIform="l" part="N">Talia si qua negant manifesta dicere voce,</l>
+<l rend="indent" TEIform="l" part="N">At tacita secum voluere mente licet.</l>
+<l TEIform="l" part="N">Nam si quis nugas pueriles haec modo censet,</l>
+<l rend="indent" TEIform="l" part="N">Fallitur, et verae nil pietatis habet.</l>
+<l TEIform="l" part="N">Nunc spatio egressos retrahunt vaga lora iugales,</l>
+<l rend="indent" TEIform="l" part="N">Ut teneat currus orbita recta meos.</l>
+<l TEIform="l" part="N">Primum sunt quae summa putant fugienda locorum,</l>
+<l rend="indent" TEIform="l" part="N">Non omnes eadem summa putare solent.</l>
+<l TEIform="l" part="N">Sed quaecumque tene paucis praefatus honorem,</l>
+<l rend="indent" TEIform="l" part="N">Seria primorum quae tibi iussa dabunt.</l>
+<l TEIform="l" part="N">Iamque premes levibus mollita sedilia plumis,</l>
+<l rend="indent" TEIform="l" part="N">Ergo fac ut belle compositeque premas.</l>
+<l TEIform="l" part="N">Quae te sortita est, maneas in sede quietus,</l>
+<l rend="indent" TEIform="l" part="N">Neu stolide, dictu membra pudenda move.</l>
+<l TEIform="l" part="N">Neve caput iacta, non fauces differ edendo,</l>
+<l rend="indent" TEIform="l" part="N">Neve tibi lingua tunsa palata sonent.</l>
+<l TEIform="l" part="N">Ante manus te pone tuas. Ne calcibus infra</l>
+<l rend="indent" TEIform="l" part="N">Aut strepitum, aut foedum corporis ede statum.</l>
+<l TEIform="l" part="N">Inprimis quocumque manus protensa feretur,</l>
+<l rend="indent" TEIform="l" part="N">Illo conveniet lumina rite sequi.</l>
+<l TEIform="l" part="N">Non bene directa plane est insania dextra</l>
+<l rend="indent" TEIform="l" part="N">Versa per effusum pocula nare merum.</l>
+<l TEIform="l" part="N">Qui satis est panis frangatur, ne tibi detur</l>
+<l rend="indent" TEIform="l" part="N">Relliquiis vitio particulata Ceres.</l>
+<l TEIform="l" part="N">Mergetur nitido quoties tibi dextra catillo,</l>
+<l rend="indent" TEIform="l" part="N">Opposita vertat frustula parte cave.</l>
+<l TEIform="l" part="N">Dedecus est censere dapes mutareque sumptas,</l>
+<l rend="indent" TEIform="l" part="N">Palpantique diu detinuisse manu.</l>
+<pb id="s048" n="48" TEIform="pb"/>
+<l TEIform="l" part="N">Quare cultrigera ne subrue fercula dextra,</l>
+<l rend="indent" TEIform="l" part="N">Sicut aper laetos depopulatur agros.</l>
+<l TEIform="l" part="N">Nec pro te grandes epularum construe moles.</l>
+<l rend="indent" TEIform="l" part="N">Sed tibi sorte datas arte decenter ede,</l>
+<l TEIform="l" part="N">Deque his relliquias sectis imponito quadris,</l>
+<l rend="indent" TEIform="l" part="N">Seu sint ossa tibi seu tibi spina super.</l>
+<l TEIform="l" part="N">Vidi aliquem stratae cultellum infligere mensae,</l>
+<l rend="indent" TEIform="l" part="N">Et dixi mores non habet iste bonos.</l>
+<l TEIform="l" part="N">Vidi etiam madidum cultro qui raderet orbem,</l>
+<l rend="indent" TEIform="l" part="N">Et dixi quam non quod decet iste facit.</l>
+<l TEIform="l" part="N">Est vitium in patina longum si dextra moretur,</l>
+<l rend="indent" TEIform="l" part="N">Dentibus est vitium dilaniare cibos.</l>
+<l TEIform="l" part="N">Turpe quoque est ultro meliores carpere partes,</l>
+<l rend="indent" TEIform="l" part="N">Nec caret hoc foedae suspicione gulae.</l>
+<l TEIform="l" part="N">At crebro digitos quem lambere non pudet udos,</l>
+<l rend="indent" TEIform="l" part="N">Debuit in fellis tingere iure manus.</l>
+<l TEIform="l" part="N">In quadra multum si sit tibi relliquiarum,</l>
+<l rend="indent" TEIform="l" part="N">Civilis credas moris habere parum.</l>
+<l TEIform="l" part="N">Interdum mansus dentes cibus inter adhaeret,</l>
+<l rend="indent" TEIform="l" part="N">Si ferro extimules, dedecus esse puta.</l>
+<l TEIform="l" part="N">Iam primam in patinas vitiosum immittere dextram,</l>
+<l rend="indent" TEIform="l" part="N">Matre scit, et vitat quisque docente sua.</l>
+<l TEIform="l" part="N">At madidum sputare cibum foedareque vestes,</l>
+<l rend="indent" TEIform="l" part="N">Ecce Scythis probrum Massagetisque puto.</l>
+<l TEIform="l" part="N">Est cibus in mappam tremulo cui decidit albam,</l>
+<l rend="indent" TEIform="l" part="N">Est cui semihaustus defluit ore liquor.</l>
+<l TEIform="l" part="N">Est madidum cereris tergat qui segmine cultrum,</l>
+<l rend="indent" TEIform="l" part="N">Haec nimium explosae rusticitatis habent.</l>
+<l TEIform="l" part="N">Ius aliqui et pultem calidam, sed turpiter afflant,</l>
+<pb id="s049" n="49" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Phyllis ut hesternum rustica mane focum.</l>
+<l TEIform="l" part="N">Quis ferat appositas avidum tamquam velit omnes</l>
+<l rend="indent" TEIform="l" part="N">Deglutire dapes, accumulasse dapes?</l>
+<l TEIform="l" part="N">Quid? gula quod non est sic exaturanda quibusdam,</l>
+<l rend="indent" TEIform="l" part="N">Ut rapiant alios qui iacet ante cibum.</l>
+<l TEIform="l" part="N">His egone in nostris ponam praecepta libellis?</l>
+<l rend="indent" TEIform="l" part="N">Ponam, si catulos instituisse velim.</l>
+<l TEIform="l" part="N">Retro aliquis curuam ceruicem flectit edendo</l>
+<l rend="indent" TEIform="l" part="N">Fauceque sublatos captat hiante cibos.</l>
+<l TEIform="l" part="N">Multi epulas veluti fugitivas ore sequuntur,</l>
+<l rend="indent" TEIform="l" part="N">Haec aduersa scias moribus esse probis.</l>
+<l TEIform="l" part="N">Ergo decet tenuisse modum, tenuisse decorum,</l>
+<l rend="indent" TEIform="l" part="N">Nec lentum esse nimis nec properare nimis.</l>
+<l TEIform="l" part="N">Qui potet tanto videas molimine, fuso</l>
+<l rend="indent" TEIform="l" part="N">Ut praeclusam animam paene liquore necet.</l>
+<l TEIform="l" part="N">Sic igitur postquam latices exhausit anhelat,</l>
+<l rend="indent" TEIform="l" part="N">Ut solet aestivo puluere fessus equus.</l>
+<l TEIform="l" part="N">Quid? quod ego quosdam vidi lacrimare bibentes,</l>
+<l rend="indent" TEIform="l" part="N">Cum nihil hoc uno foedius esse queat?</l>
+<l TEIform="l" part="N">Non ut edas tacitus iubeo, nec multa loquentem,</l>
+<l rend="indent" TEIform="l" part="N">Nemine materiam suppeditante feram.</l>
+<l TEIform="l" part="N">Nam sermone forum rabulam complere licebit,</l>
+<l rend="indent" TEIform="l" part="N">Esse silens nocti creditur apta quies.</l>
+<l TEIform="l" part="N">Inter utrunque modum laudis studiose tenebis,</l>
+<l rend="indent" TEIform="l" part="N">Pulchro res non est pulchrior ulla modo.</l>
+<l TEIform="l" part="N">Ad tabulas hilares, sed non decet esse procaces.</l>
+<l rend="indent" TEIform="l" part="N">Laus etiam ad pulchrum pertinet ista modum.</l>
+<l TEIform="l" part="N">Atque utinam nostra doctos videamus ab arte,</l>
+<l rend="indent" TEIform="l" part="N">Non nimiumque leves non nimiumque graves.</l>
+<pb id="s050" n="50" TEIform="pb"/>
+<l TEIform="l" part="N">Heu mihi rugosa sedeas si fronte severus,</l>
+<l rend="indent" TEIform="l" part="N">Nec fugias ductis cogere labra plicis.</l>
+<l TEIform="l" part="N">Aut immaturo dente rictumque cachinno,</l>
+<l rend="indent" TEIform="l" part="N">Diducas rabidi more furente canis.</l>
+<l TEIform="l" part="N">Spartano legum narrant latore carere</l>
+<l rend="indent" TEIform="l" part="N">Supplicio, incestis qui iacuere toris.</l>
+<l TEIform="l" part="N">Quod qui tale scelus facerent non esse putarit,</l>
+<l rend="indent" TEIform="l" part="N">Nec sit in ignotum poena statuta malum.</l>
+<l TEIform="l" part="N">Nec crepitus ego nec ructus vesanaque gesta,</l>
+<l rend="indent" TEIform="l" part="N">Nemine quis faciat quae prohibente? veto.</l>
+<l TEIform="l" part="N">Ah nares intus male reddunt saepe retentum</l>
+<l rend="indent" TEIform="l" part="N">Spiritum, ut imbriferis nubila pulsa Notis.</l>
+<l TEIform="l" part="N">Dicas inflatis exciri follibus ignem,</l>
+<l rend="indent" TEIform="l" part="N">Sedulus ut cudat nigra metalla faber.</l>
+<l TEIform="l" part="N">Ut semel ergo scias, nutus, suspiria, risus,</l>
+<l rend="indent" TEIform="l" part="N">Editaque obstrepera murmura voce tene.</l>
+<l TEIform="l" part="N">Urbani est etiam ne cum bibit unus ut alter</l>
+<l rend="indent" TEIform="l" part="N">Admoveat labris pocula moris. Et hoc</l>
+<l TEIform="l" part="N">Non super obtusum digitos imponere cultrum,</l>
+<l rend="indent" TEIform="l" part="N">Ne fiat fac sit culter acutus. Et hoc</l>
+<l TEIform="l" part="N">Ne scindens cereris, secet ut si robora quercus,</l>
+<l rend="indent" TEIform="l" part="N">Sistat in obluctans fragmina pectus. Et hoc</l>
+<l TEIform="l" part="N">Ne dextram in liquido tenuem dum perluis offam,</l>
+<l rend="indent" TEIform="l" part="N">Quae bene res sane est rustica, iure laves.</l>
+<l TEIform="l" part="N">Ergo prius frustum panis mucrone refixum</l>
+<l rend="indent" TEIform="l" part="N">Humecta, ac ori postmodo subde manu.</l>
+<l TEIform="l" part="N">Nam non consuetum est nostrae telluris in orbe,</l>
+<l rend="indent" TEIform="l" part="N">Confossum ferro carpere dente cibum.</l>
+<l TEIform="l" part="N">At qui praemorsum patinae indit, debuit inter</l>
+<pb id="s051" n="51" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Coenivagas bolos furfuris esse sues.</l>
+<l TEIform="l" part="N">Qui bibis inque cano retines semesa palato</l>
+<l rend="indent" TEIform="l" part="N">Frustula, scis omni rusticus esse modo.</l>
+<l TEIform="l" part="N">Sunt alia, et sunt parua magis quam ut relligiose,</l>
+<l rend="indent" TEIform="l" part="N">Cetera si teneas praecipienda putem.</l>
+<l TEIform="l" part="N">Sic tamen observant, ne partas flumine praedas,</l>
+<l rend="indent" TEIform="l" part="N">Neu leporis pulpam dissecuisse velint.</l>
+<l TEIform="l" part="N">Qui male divisit captarum terga ferarum,</l>
+<l rend="indent" TEIform="l" part="N">A' tumida risum nobilitate ferat.</l>
+<l TEIform="l" part="N">Verum haec ut faciant operam dent singula fas est,</l>
+<l rend="indent" TEIform="l" part="N">Quaeritur hac una gloria parte quibus.</l>
+<l TEIform="l" part="N">Quive est virgineae laudis vulgariter auceps,</l>
+<l rend="indent" TEIform="l" part="N">Occupet indigna se levitate viro.</l>
+<l TEIform="l" part="N">Haec vero mensae, et vitae praecepta beatae,</l>
+<l rend="indent" TEIform="l" part="N">Qui bonus esse studes inviolata tene.</l>
+<l TEIform="l" part="N">Nec tamen in paruo sunt omnia dicta libello,</l>
+<l rend="indent" TEIform="l" part="N">Dicta ea sunt quae sit praeteriisse nefas.</l>
+<l TEIform="l" part="N">Estque aliquid reliquum tamquam de divite messe,</l>
+<l rend="indent" TEIform="l" part="N">Spicaque frugifero plurima rure manet.</l>
+<l TEIform="l" part="N">Plura alii tradent res ipsaque plura docebit,</l>
+<l rend="indent" TEIform="l" part="N">Discere fac si quis vult docuisse velis.</l>
+<l TEIform="l" part="N">Praecipueque tuis fac morigerere magistris,</l>
+<l rend="indent" TEIform="l" part="N">Quos tibi cumque patrum provida cura dedit.</l>
+<l TEIform="l" part="N">Per se nemo sapit feruens puerilibus annis,</l>
+<l rend="indent" TEIform="l" part="N">Sed se iudicio quisque regentis aget.</l>
+<l TEIform="l" part="N">At male mercedes hodie gratesque reportant</l>
+<l rend="indent" TEIform="l" part="N">Doctrinam mentis turba professa bonae.</l>
+<l TEIform="l" part="N">Quid quod sunt quidam sic corde et pectore cassi,</l>
+<l rend="indent" TEIform="l" part="N">Ingenii ut cultum sit didicisse pudor?</l>
+<pb id="s052" n="52" TEIform="pb"/>
+<l TEIform="l" part="N">Aiebant quondam frustra nunc discere quaerunt,</l>
+<l rend="indent" TEIform="l" part="N">Cum pretium nemo persoluisse velit,</l>
+<l TEIform="l" part="N">At bene nobiscum qui iam profitemur agatur,</l>
+<l rend="indent" TEIform="l" part="N">Artibus ingenuis si modo constet honos.</l>
+<l TEIform="l" part="N">Et sint qui cupiant virtutem discere gratis,</l>
+<l rend="indent" TEIform="l" part="N">Heu mihi virtutem dedecus esse putant.</l>
+<l TEIform="l" part="N">Ergo est in pretio dives mercator, et audax</l>
+<l rend="indent" TEIform="l" part="N">Miles, honestatis famaque lausque iacet.</l>
+<l TEIform="l" part="N">Utraque res integra quidem laudanda videtur,</l>
+<l rend="indent" TEIform="l" part="N">Sed qualis nunc est utraque laude caret.</l>
+<l TEIform="l" part="N">Disciplinam utinam veterum teneamus avorum</l>
+<l rend="indent" TEIform="l" part="N">Iis solita tantum sit feritate minus.</l>
+<l TEIform="l" part="N">Aut datus his fato doctrinae accederet usus</l>
+<l rend="indent" TEIform="l" part="N">Ut foret hac virtus horrida parte minus.</l>
+<l TEIform="l" part="N">Quanquam erat immenso satius, sit ut horrida virtus</l>
+<l rend="indent" TEIform="l" part="N">Pristina, quod virtus quod modo nulla manet.</l>
+<l TEIform="l" part="N">Vos igitur Deus, o pueri, quos lumine dextro</l>
+<l rend="indent" TEIform="l" part="N">Respicit, ac omni prosperitate beat,</l>
+<l TEIform="l" part="N">Concessa utimini felici tempore sorte.</l>
+<l rend="indent" TEIform="l" part="N">Quis scit an eripiat, quod dedit ille bonum.</l>
+<l TEIform="l" part="N">Cumque sit ingeniis iuvenilibus insitus error,</l>
+<l rend="indent" TEIform="l" part="N">Dum licet hunc omnis sit pepulisse labor,</l>
+<l TEIform="l" part="N">Post neque tempus erit, nec erunt fortasse magistri,</l>
+<l rend="indent" TEIform="l" part="N">Quisque sua properet commoditate frui.</l>
+<l TEIform="l" part="N">Quanto divitiis virtutis gloria praestat?</l>
+<l rend="indent" TEIform="l" part="N">Divitias alios, vos bona fama beat.</l>
+<l TEIform="l" part="N">Auditum non est unquam ad saccum esse redactum,</l>
+<l rend="indent" TEIform="l" part="N">Cordatae fuerit qui probitatis amans.</l>
+<l TEIform="l" part="N">Sed nec equus freno indomitus parere recusans,</l>
+<pb id="s053" n="53" TEIform="pb"/>
+<l rend="indent" TEIform="l" part="N">Tollet Olympiaca praemia victor humo,</l>
+<l TEIform="l" part="N">Nec praeceptoris puerum impatientia corda</l>
+<l rend="indent" TEIform="l" part="N">Virtutis praeceps ingredientur iter.</l>
+<l TEIform="l" part="N">Quapropter nostris Solomonis clausula scriptis</l>
+<l rend="indent" TEIform="l" part="N">Apposita exiguum terminet ista librum.</l>
+<l TEIform="l" part="N">Qui vitae praecepta puer non discere curat,</l>
+<l rend="indent" TEIform="l" part="N">Stultus is est poenas stultitiaeque dabit.</l>
+<l TEIform="l" part="N">Nanque suum poterit nunquam oblectare parentem,</l>
+<l rend="indent" TEIform="l" part="N">Et faciet matri saepe madere genas.</l>
+<l TEIform="l" part="N">Ipse sibi tamen imprimis damnumque malumque</l>
+<l rend="indent" TEIform="l" part="N">Concilians mortis, scilicet, auctor erit.</l>
+<l TEIform="l" part="N">His equidem et quandam doctrinae adiungere, quamquam</l>
+<l rend="indent" TEIform="l" part="N">Utile discendo sit tenuisse viam</l>
+<l TEIform="l" part="N">Coeperam, et in tenui quaedam perscripta papyro,</l>
+<l rend="indent" TEIform="l" part="N">Post monita haec morum, convenienter erant.</l>
+<l TEIform="l" part="N">Sed melius, siquidem faciendum hoc esse putabo,</l>
+<l rend="indent" TEIform="l" part="N">Versiculis alias exsequar illa meis.</l>
+<l TEIform="l" part="N">Interea his operae quicumque iuvabere lectis,</l>
+<l rend="indent" TEIform="l" part="N">Ingenuo grates ore fatere, meae.</l>
+</lg>
+<closer TEIform="closer">
+FINIS.
+</closer>
+</div1></body></text>
+
+
+
+</TEI.2>

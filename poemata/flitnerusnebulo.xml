@@ -1,0 +1,3261 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd">
+<TEI.2>
+<teiHeader type='text'>
+<fileDesc>
+<titleStmt>
+<title>Nebulo nebulonum: hoc est, iocoseria modernae nequitiae censura ... / carmine iambico dimetro adornata a Ioanne Flitnero.</title>
+<title type='sub'>Machine-readable text</title>
+<author n='Flittner'>Flittner, Johann</author>
+<editor>Flittner, Johann</editor>
+</titleStmt>
+<editionStmt>
+<edition>XML version, markup prototype, December 1999</edition>
+<respStmt><name>Ruediger Niehl</name><resp>markup</resp></respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Camena</publisher>
+<address>
+<addrLine><anchor n="http://www.uni-mannheim.de/mateo/camena/flit1" type="href" id="flit1"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt>
+<note type="href">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname">flit1</note>
+<note type="filename">flitnerusnebulo.html</note>
+<note type="titleimage">s001.html</note>
+<note type="srcfile">flitnerusnebulo.xml</note>
+<note type="imgpath">flit1/jpg</note>
+<note type="imgtype">html</note>
+</notesStmt>
+<sourceDesc>
+<bibl>Frankfurt a.M.: Zetter, 1620.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl>
+<p>not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc>
+<change>
+<date>October 2004</date>
+<respStmt>
+<name>Ruediger Niehl</name>
+<resp>markup</resp>
+</respStmt>
+<item>new TEI header; typed text - structural tagging complete - no semantic tagging - Morpheus spell check</item>
+</change>
+<change>
+<date>Januar 2005</date>
+<respStmt>
+<name>Katharina Meiszus</name>
+<resp>markup</resp>
+</respStmt>
+<item>worked in manual corrections supplied by G. Burkard.</item>
+</change>
+<change>
+<date>August 2005</date>
+<respStmt>
+<name>Chris Nighman</name>
+<resp>note</resp>
+</respStmt>
+<item>
+...I have found the source for a passage in the Nebulo nebulonum:
+
+Miror cuius ordinis sint nostri clerici...
+
+This is misattributed in J. Flittner's play to Bernardus, lib. 3 de consideratione ad Eugenium.
+
+Flittner's source is the Manipulus florum, a 14th-century florilegium that I am editing online at www.manipulusflorum.com
+
+The text is attached to a genuine passage from the 3rd book of Bernard's De consideratione in the Manipulus florum as the quotation "Clericus g":
+
+http://info.wlu.ca/%7ewwwhist/faculty/cnighman/Clericus.pdf
+
+This link is to my transcription of the 1493/5 Venice edition of the Manipulus.  We are currently editing Clericus and several other related topics from the 3 earliest manuscripts of the Manipulus.
+</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<gap id='GR'/>
+<gap id='GE'/>
+<pb id='s001'/>
+<titlePage><titlePart>
+NEBULO NEBULONUM;
+Hoc est,
+IOCOSERIA MODERNAE
+NEQUITIAE CENSURA;
+QUA HOMINUM SCELERAtorum fraudes, Doli ac versutiae aeri <reg orig='aërique'>aerique</reg> exponuntur publice:
+CARMINE IAMBICO DIMEtro adornata a
+IOANNE FLITNERO, Franco,
+<reg orig='Poëta'>Poeta</reg> Laureato.
+FRANCOFURTI
+Apud Iacobum de Zetter.
+Anno M.DC.XX.
+</titlePart></titlePage>
+<pb id='s002'/>
+<pb id='s003'/>
+<div type='dedication'>
+<head>CONSULTISSIMO, AMPLISSIMIS et Spectatissimis viris, D. 
+ DOMINICO D. IOANNI-IACOBO D. IOANNI PORSIIS U. I. D.
+ Reip. FRANC. civibus <sic corr='primar'>primariis</sic>. TRIBUS GERMANIS 
+ FRATRIBUS, Maecenatibus colendis D. D. D.</head>
+<p>SCIO, VIRI AMPLISSIMI, miraturos vos meam in dicando hoc A. V. Poemate audaciam. Scio, inquam. Diu hoc mihi praemeditatum est. Abuna etenim parte absurdam (ut prima fronte videbitur) tituli novitatem vobiscum pensitabitis: ab altera materiam ipsam, inibi tractatam, viliorem, quam quae A. V. conveniat, reputabitis. Atque, ut verum quidem fatear, poterat me inusitata libelli huius effigies a proposito dimovere, splendoris potissimum vestri et auctoritatis, quibus affatim in nobili nostro FRANCOFURTO apud omnes indubie polletis, respectu deterritum. Sed nescio qua erectus <foreign lang='GR'>eu)elpisti/a|</foreign> tenacem propositi mentem retinui. Qua de causa, ubi bina, iam dicta, obstacula <unclear reason='page blotted'>e</unclear>
+<pb id='s004'/>
+pedibus removero, facile dedicationem vobis hanc non adeo displicituram confido. Titulus, dixi, novus atque insolens videri potest. Fateor; sed videri. Re vera enim non est: cum a priscis saeculis ita receptum sit, Scapha uti vocitetur Scapha, Nebulo Nebulo. Materia vilis est; et istud fateor, sed ita tamen vilis, ut non vilissima. Si libere, quid sentiam, loqui velim, gravem potius et necessariam illam respectu sui dicere ausim. Etenim</p>
+<p>Haud facile est, NEQUAM noscere posse virum.</p>
+<p>Immo vero hic Rhodus, hic salta. Sunt enim nebulones iis plerumque moribus praediti, ut nequitiam et fraudem suam non modo non cuivis obviam, manibusque veluti palpandam, prostituant, sed et mille eam modis, milleque artibus palliare, velare atque obtegere norint. Vestri autem respectu quin vilis sit, negare nolo. Sed aliorum meo proposito exempla calcar addunt, quos idem, quod ego iam, factitasse lego. Sic SCHOPPERUS, Poeta elegans, Vitae aulicae speculum, sub VULPIS REINIKE aliorumque animalium Comoedia editum, MAXIMILIANO II. Romanorum Imperatori augusto dedicare non fuit veritus. Idem, qui GROBIANUM edidit, fecit. Sexcenta alia possem adducere, si opus esset, sed res in aprico est. Aequa igitur vos hanc meam dedicationem fronte suscepturos plane nullus dubito, cum praesertim ea vos humanitate ac comitate praeditos comperiar, ut omnis omnino ambigendi scrupulus e pectore meo iamdudum plenissime sit exemptus. Bene igitur
+<pb id='s005'/>
+valete, meumque hoc qualecumque in vos studium aequi bonique consulite. FRANCOFURTI AD MOENUM, Calendis Decembr. anno aera Christianae M. DC. XIX.</p>
+<p>Ioannes Flitnerus, Francus, P. L.</p>
+</div>
+<pb id='s006'/>
+<div type='poem'>
+<head>AD MOMUM Pro defensione tituli EPIGRAMMA.</head>
+<lg met='phal'>
+<l>IAmdudum, NEBULO sceleste, novi,</l>
+<l>Te nociva mihi parare tela,</l>
+<l>Et morsus satis invidos minari.</l>
+<l>Nam tuos (mihi credito) ex amussi</l>
+<l>Perspectos habeo scioque mores.</l>
+<l>Tam dici bene nil potest ab ullo,</l>
+<l>Tam geri bene nil potest ab ullo,</l>
+<l>Quin fallaciter illud explicando</l>
+<l>In partem rapias statim sinistram,</l>
+<l>Subdolique Chamaeleontis instar</l>
+<l>Ex albo facias nigrum colore</l>
+<l>Cum tamen pice nigrior nigella</l>
+<l>Sis ipse, et cute turpe sordidata,</l>
+<l>Gibbo turpiculus, <reg orig='recuruus'>recurvus</reg> ore,</l>
+<l>Pressis naribus, hispidis capillis,</l>
+<l><reg orig='Torua'>Torva</reg> fronte, humeris retro reflexis,</l>
+<l>Deorsum pede claudicans sinistro.</l>
+<l>Si versus steriles et invenustos</l>
+<l>Taxabis, minus id mihi dolebit;</l>
+<pb id='s007'/>
+<l>Cum venae reputem meae rigorem,</l>
+<l>Nullius mihi conscius vel artis,</l>
+<l>Vel acuminis eloquentiaeve;</l>
+<l>Cumque ego ipse satis sciam superque,</l>
+<l>Quam sit curta mihi domi supellex.</l>
+<l>Si vero titulum severiorem,</l>
+<l>Isti quem modo praefero libello,</l>
+<l>Taxabis, minus id tibi dolendum est,</l>
+<l>Cum vitae malefacta cogitabis,</l>
+<l>Nullius tibi conscius bonive,</l>
+<l><reg orig='Virtutisue'>Virtutisve</reg>, vel aestimationis.</l>
+<l>Istud scilicet unice elaboro,</l>
+<l>Suo ut nomine quemque condecorem.</l>
+<l>Nam quis pectore non putet vacivum,</l>
+<l>Atque omni ratione destitutum,</l>
+<l>Qui foedam titulo suem Dianae,</l>
+<l>Bubonem titulo beet columbae?</l>
+<l>Par hic est ratio, recursus idem.</l>
+<l>Quis non pectoris impotem vocaret,</l>
+<l>Meque omni ratione destitutum,</l>
+<l>Si malum titulo boni bearem,</l>
+<l>Si bonum titulo mali gravarem?</l>
+<l>Quin suem potius suem vocabo:</l>
+<l>Quin malum potius malum vocabo:</l>
+<l>Quin nequam potius vocabo nequam.</l>
+<l>Si malus bene discet actitare,</l>
+<l>Tunc boni quoque nomen impetrabit:</l>
+<pb id='s008'/>
+<l>Sin minus, malus est, malus manebit,</l>
+<l>Heus, Nequam, bene discito actitare,</l>
+<l>Si nequam renuis malus vocari.</l>
+<l>At dum nequitiae vacare perges,</l>
+<l>Nequam es, Nequam eris, et maneto Nequam.</l>
+</lg>
+</div>
+</front>
+<body>
+<pb id='s009' n='1'/>
+<div1 id='FlNF.01' n='1' type='book'>
+<head>NEBULONIS NEBULONUM, sive CENSURAE NEQUITIAE ODA I. Summam opusculi continens.</head>
+<argument><head>NUCLEUS.</head>
+<p>Perito in sua arte est standum.</p></argument>
+<lg met='iadi'>
+<l>FIdem meretur integram</l>
+<l>Peritus arte qualibet,</l>
+<l>Quicumque callet strenue</l>
+<l>Virum tuerier suum.</l>
+<l>Sic Bartolus de iuribus,</l>
+<l>Hippocrates de pharmacis,</l>
+<l>Sic Musicus de Musica,</l>
+<l>Et vinitor de vinea,</l>
+<l>Pistorque de siligine</l>
+<l>Diiudicabit optime.</l>
+<pb id='s010' n='2'/>
+<l>Ego nebulonis indolem,</l>
+<l>Fraudes, dolos, fallacias,</l>
+<l>Nebulone bis scelestior</l>
+<l>Olim, iuventa dum genas</l>
+<l>Adhuc notaret albidas,</l>
+<l>Cum prorsus ac ex intimis</l>
+<l>Cognoverim recessibus,</l>
+<l>Quis, quaeso, congruentius,</l>
+<l>Vivisque cum coloribus</l>
+<l>Eundem Apelles pingeret?</l>
+<l>Ubi hanc in auram proditus</l>
+<l>Vix siccus essem redditus,</l>
+<l>Iam tunc utramque pessimus</l>
+<l>Aurem obsidebat furcifer.</l>
+<l>Hinc ergo constat, optimo</l>
+<l>Quod iure primas occupem.</l>
+<l>Hinc, quem videtis, indicem,</l>
+<l>Nequam refertum plurimis,</l>
+<l>Falsariis turpissimis,</l>
+<l>Vanis tenebrionibus,</l>
+<l>Malisque stellionibus,</l>
+<l>Scaturientem scriptito,</l>
+<l>Huiusque farris complicum,</l>
+<l>Ternas favore symboli</l>
+<l>Si tesseras iniecerint,</l>
+<l>Infame nomen infero,</l>
+<l>Locumque signo congruum;</l>
+<l>DIGNUM PATELLA OPERCULUM.</l>
+<l>Fortassis admiraberis,</l>
+</lg>
+<pb id='s011' n='3'/>
+<lg met='iadi'>
+<l><figure><head>Hic nebulones in album consignat.</head><figDesc></figDesc></figure></l>
+<l>Lector, meam sollertiam,</l>
+<l>Prudentiaeque copiam,</l>
+<l>In collocandis ordine,</l>
+<l>Ceu singulorum postulat</l>
+<l>A me praeeminentia,</l>
+<l>Istis homuncionibus:</l>
+<pb id='s012' n='4'/>
+<l>Sed desines mirarier:</l>
+<l>RERUM MAGISTER USUS EST.</l>
+<l>Tu, si tibi scientiam</l>
+<l>Cupis parem conquirere,</l>
+<l>Heus, civitatem protinus,</l>
+<l>Quam prisca Francorum vada,</l>
+<l>Moeno alluente, nominant;</l>
+<l>Adito, quando iuverit,</l>
+<l>Celebresque vise nundinas:</l>
+<l>Perterritus periculo</l>
+<l>Catior redibis ilico.</l>
+<l>Ibi nebulo turpis, rapax</l>
+<l>Impostor, et trifurcifer,</l>
+<l>Velut in cloacam, confluunt.</l>
+<l>Sed quid locum determino?</l>
+<l>Cum cuique sit notissimum,</l>
+<l>Quod, sicut aequor piscibus,</l>
+<l>Sic quaelibet nebulonibus</l>
+<l>Tellus abundet grandibus;</l>
+<l>Quos tu, fidelis Delie,</l>
+<l>Scripturienti suggere,</l>
+<l>Acresque iambos subice,</l>
+<l>Ut nexiles nequissimae</l>
+<l>Dolos cohortis concinam,</l>
+<l>Et simplices de fraudibus</l>
+<l>Caute cavendis instruam.</l>
+<l>Procul hinc probi facessite:</l>
+<l>Nequam phalanx accedite.</l>
+</lg>
+<pb id='s013' n='5'/>
+<div2 id='FlNF.01.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Peritis in arte sua statur.</note> PERITIS in unaquaque arte standum esse, perspicue dicit Ulpianus in l. 1. in princip. <sic>ff.</sic> de ventre inspic. l. bonorum, de bonorum possess. l. intestato, de suis et legit. §. quod autem a nobis. in auth. de non alienan. l. semel. C. de re milit. lib. 12. 1. 7. §. de statu homin. cap. significavit. de homicid. cap. proposuisti. de probat. cap. fraternitatis. de frigid. et malef. gloss. in §. praeterea. Instit. de rer. divis. Et quidem non absque ratione. Unusquisque enim bene iudicat, quae cognoscit, et horum est bonus iudex; teste Aristot. l. I. Ethic. Stratonicus olim recte, Ptolemaeo rege de Musica cum ipso disserente: Aliud, inquit, est, ô Rex, sceptrum, aliud plectrum. Idem Minnaco fabro, secum de <note>Ne sutor ultra crepidam. Apelles.</note> Musica disputanti: Non animadvertis, inquit, te supra malleum loqui? Idem quoque in quendam, qui cum primo fuisset olitor, postea factus musicus, de arte secum contenderet, pronuntiavit senarium graecum vulgo celebrem:</p>
+<lg met='trim'>
+<l><foreign lang='GR'>)/Adoi tis h(\n e(/kastos ei)dei/h te/xnhn.</foreign></l>
+<l>Quam quisque novit artem, eam canat licet.</l>
+</lg>
+<p><note>II. Malitia mores.</note> De malitia, quae toto hoc opusculo perstringitur, nervose Bernardus scribit, quod multorum tibi sit loco: Habet, inquiens, malitia currum suum, rotis quatuor consistentem, saevitia, impatientia, audacia, impudentia. Valde enim velox est iste currus ad effundendum sanguinem, qui
+<pb id='s014' n='6'/>
+nec innocentia sistitur, nec patientia retardatur, nec timore frenatur, nec pudore inhibetur. Trahitur autem duobus pernicibus equis, et ad omnem perniciem paratissimis, terrenae potentiae et saeculi pompa. Porro praesident his duobus equis aurigae duo: Timor et livor. Timor quidem pompam, livor potentiam agit. Tantas profecto vitium hoc tamque profundas nostro saeculo egit radices, ut infinitus propemodum nequitiae tironum sit numerus <note>Mali corvi, malum ovum.</note> Ipsi etiam pueri aetate quamquam sint minores, malitia tamen pares. Non secus ac serpentum pulli etsi breviores quidem sunt, veneno tamen aequales: catuli luporum etsi venatione nocere non possunt, iam tamen sanguine gaudent et morsibus laedunt; quam similitudinem habet Chrysost. super Matth. cap. 22. Eunuchus olim quispiam, ceu refert Laertius lib. 6. et Bruson. lib. 4. cap. 11. contaminatae famae, inscripserat aedibus suis: <foreign lang='GR'>Mhde\n ei)si/tw kako\n.</foreign> Ne quid ingrediatur malum. Id videns Diogenes: Aedium, inquit, Dominus qua ingreditur? At hodie Diogenes si viveret, quid diceret?</p>
+<p>Olim peculiares quaedam nationes nequitia prae aliis insigniores dictitabantur, quod par Senariorum ostendit:</p>
+<lg met='trim'>
+<l><foreign lang='GR'>Lu/doi ponhroi\, deu/teroi d' Ai)gu/ptioi</foreign>,</l>
+<l><foreign lang='GR'>Tri/toi de\ pa/ntwn Ka/res e)cwle/statoi</foreign>.</l>
+<l>Lydi improbi, post hos secundi Aegyptii:</l>
+<l>Tertiique Cares perditissimi omnium.</l>
+</lg>
+<pb id='s015' n='7'/>
+<p>At nostro hoc tempore tam late zizania nequitiae excrevere, ut paradoxon quoddam videri debeat, uni atque alteri nationi peculiariter eandem, et quasi <foreign lang='GR'>kat' e)coxh\n,</foreign> attribuere.</p>
+<p>Quod si tamen iocari libeat aut liceat, fatendum est, et nostris hisce temporibus quasdam vulgo nationes <reg orig='nequitiæ'>nequitiae</reg> nomine et gradu celebriores existimari, qua de re facetam et salsam quandam historiolam iuvat attexere. Tempore belli Smalcaldici, sive Protestantium, ut vulgo vocant, commisso inter Imperatorem et Principes protestantes acti <corr sic='praelio' resp='transcriber'>proelio</corr> captus erat miles quidam, corpore procerus, facie truculentus, animo, ut dicebatur, ferox atque imperterritus. De cuius animositate cum ad Ferdinandum Romanorum regem (iam autem neci adiudicatus erat miser) relatum esset, iussu regis e carcere in conclave adductus est, ut de facie ipsum, quem ob pectoris magnitudinem saepe laudari audiverat, intueretur. Quem cum Rex interrogasset, cuias esset, atque ille Hassum se esse natione respondisset, Bonum, inquit Rex, nequitiae hoc est augurium. Cum iterum locum, ubi educatus esset, rex perquisivisset, illeque, Inter Westphalos, dixisset; Recte, inquit Rex, conveniunt signa: sed ubi hactenus locorum vixisti? Inter Bohemos, respondit ille. Cui Rex, Omnia, inquit, conveniunt. Nam hi, quibuscum te hactenus
+<pb id='s016' n='8'/>
+vixisse, et a quibus satum te esse dicis, tripedum omnium sunt nequissimi. Cui miles, Heus, inquit, Rex invictissime, concedo quidem, quae dicis, sed istud te scire velim, unam adhuc nationem deesse catalogo huic, quae si accenseretur, tunc demum nebulonum numerum perfectum atque absolutum fore.</p>
+<p>Quam cum cognoscere voluisset Rex, impunitatemque liberioris dicti ipsi promisisset, Hispanos miles ait istos esse, tacite salseque Regis, natione Hispani, patriam sugillans. Rex ingenii ipsius acumine animique fortitudine collaudata tantum abest, ut ob <foreign lang='GR'>parrhsi/an</foreign> istum poena affici curaverit, ut multo magis, stipendio donatum, salvum atque incolumem dimiserit.</p>
+<p>Verum ut ut sit, tantas certe nequitia ubique iam terrarum, ut et paulo ante dixi, radices egit, ut optimo iure Plauti istud suffragium huc possis repetere, quod tale est in <reg orig='Trinum.'>Trinuum.</reg></p>
+<lg>
+<l>Novi ego hoc saeculum, moribus quibus sit: malus bonum malum</l>
+<l>Esse vult, ut sit sui similis: turbant, miscent mores mali: rapax,</l>
+<l>Avarus, invidus, sacrum profanum, publicum privatum habent;</l>
+<l>Hiulca gens, haec ego doleo, haec sunt quae excruciant:</l>
+<pb id='s017' n='9'/>
+<l>Haec dies noctesque tibi canto, ut caveas, quod manus non queunt</l>
+<l>Tangere, tantum fas habent, quo manus abstineant.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.02' n='2' type='book'>
+<head>ODA II. In theologos contentiosos et nugigerulos. </head>
+<argument><head>NUCLEUS.</head>
+<p>Sacris non sunt miscenda frivola.</p></argument>
+<lg met='iadi'>
+<l>HUc, qui ministri ecclesiae</l>
+<l>Audire vultis candidi,</l>
+<l>Cum sitis atri, pergite:</l>
+<l>Quid vestra vosmet munia</l>
+<l>Efflagitent, attendite.</l>
+<l>Sacras docere <corr sic='literas,' resp='transcriber'>litteras,</corr></l>
+<l>Precesque crebro fundere.</l>
+<l>Quid vos? minus nil proh dolor!</l>
+<l>Nam fabulas Aesopicas</l>
+<l>Loco sacrati codicis</l>
+<l>Nugasque plane frivolas</l>
+<l>Narratis auditoribus:</l>
+<l>Nux cassa quanti veneat;</l>
+<l>Ut simius saltaverit;</l>
+<l>Quot caseos confecerit</l>
+<l>Stillans ocelle <sic corr='Philyris'>Phylliris</sic>,</l>
+<l>Vel ne rudes putemini,</l>
+</lg>
+<pb id='s018' n='10'/>
+<lg met='iadi'>
+<l><figure><head>Hic de caeruleis praedicat anatibus.</head><figDesc></figDesc></figure></l>
+<l>Et imperiti caudices,</l>
+<l>Mox disputatiunculis,</l>
+<l>Vafrisque quaestiunculis,</l>
+<l>Lites movetis maximas,</l>
+<l>Probrisque vosmet invicem</l>
+<l>Atrocibus proscinditis,</l>
+<l>Ut pingue carnis frustulum,</l>
+<l>Panisve portiunculam</l>
+<pb id='s019' n='11'/>
+<l>Vestro vorare munere</l>
+<l>Catellus erubesceret.</l>
+<l>Vel forte bacchanalia</l>
+<l>Tumultuationibus,</l>
+<l>Collusitationibus,</l>
+<l>Crapulaque clamitantibus</l>
+<l>Cum rusticis traducitis.</l>
+<l>Si fors habenda contio,</l>
+<l>Clausis adhuc ocellulis,</l>
+<l>Vix verba textus ebrii</l>
+<l>Vel literas agnoscitis.</l>
+<l>Proh quam scelus nefarium,</l>
+<l>Poenaque dignum maxima!</l>
+<l>Vos, vos praeire semitam</l>
+<l>Rectam decebat ad Polum:</l>
+<l>At maximo vos impetu</l>
+<l>Recta sub Orcum tenditis.</l>
+<l>Quid verba prosunt splendida,</l>
+<l>Si facta desunt congrua?</l>
+<l>Hoc ANSERES est scilicet</l>
+<l>DEPRAEDICARE CAERULOS.</l>
+</lg>
+<div2 id='FlNF.02.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p>ITA profecto est; Omnia nunc solent <note>1. Theologorum quorundam impietas.</note> 
+</p>
+<lg met='hexa'>
+<l>In peius ruere, et retro sublapsa referri,</l>
+</lg>
+<p>et cum his magna etiam Theologorum caterva, quorum munus tremendum tantam ab iis curam, ac providentiam flagitabat, ut dies noctesque id unice operam darent, qua ratione multas Christo animas lucrari possent. At eo res proh dolor rediit <unclear reason='page blotted'>,</unclear>,
+<pb id='s020' n='12'/>
+ut plurima nunc eorum pars non ovicularum suarum, sed propriam, eamque terrenam, quaerant salutem, ambitionem sectentur, avaritiam et monopolia exerceant, aleae, venationi voluptatibusque indulgeant,</p>
+<lg>
+<l>Et ludant in equis, canibusque et aprici gramine campi.</l>
+</lg>
+<p>Alii, qui paulo probiores videri volunt, rixas inutiles cient, culices excolant, deglutiunt camelos, templa, scholas, curias, res publicas replent tumultibus, concutiunt populos, vexant regna, sollicitant bella, diruunt ecclesias, rabidi canes, non sacri praecones, non homines, sed lupi, quibus volupe est, pecus sibi commissum deglubere, atque una secum in aeternum exitii barathrum praeceps dare. Neque id adeo mirum.</p>
+<p>Vetus haec est querela Bernardi, qua deplorat Sacerdotum quorundam malitiam: Heu! Heu! inquit, Domine Deus! quia ipsi sunt in percussione tua primi, qui videntur in ecclesia tua primatum diligere, gerere principatum, arcem Simonis occupaverunt, apprehenderunt munitiones et universam deinceps libere tradunt incendio civitatem. Non est iam dicere, ut populus, sic sacerdos: quia nec sic sacerdos, ut populus.</p>
+<p>Quid alibi miretur, nimirum lib. 3. de confi. ad Eugen. item audi: Miror, ait, cuius ordinis sint nostri clerici. Nam in congregatione temporalium se habent, ut <unclear reason='letter unclear'>laici</unclear>: in apparatu nobili, ut
+<pb id='s021' n='013'/>
+milites: in acquisitione redituum, ut clerici; sed non laborant, ut laici, neque pugnant, ut milites, neque evangelizant, ut clerici: et cum utriusque ordinis esse cupiant, utrumque deserunt, utrumque confundunt. Et alibi: Ministri Christi sunt, et serviunt Antichristo, honorati domini, cui honorem non deferunt. Inde, quem quottidie vides, meretricius nitor, histrionicus habitus, regius apparatus. Inde aurum in frenis, in sellis, in calcaribus: plus calcaria, quam altaria fulgent. Inde mensae splendidae scyphis et cibis. Inde comissationes et ebrietates. Inde cithara et lyra, inde torcularia redundantia, promptuaria plena, eructantia ex hoc in aliud. Hactenus Bernardus.</p>
+<p>Quae si ad aliquos nostrae aetatis Theologastros adaptentur, mirum, quanta utrorumque inter se harmonia exsistet? Ut lautissimam quorundam luxuriam, <foreign lang='GR'>a)kolasi/an,</foreign> scortationem, temulentiam, multaque alia et atrocissima et turpissima vitia taceam, quem non commoveant lites, rixae atque contentiones, quas nonnulli et publice et privatim maximo cum auditorum scandalo excitant? Si penitius illas inspexeris, mera invidiae et livoris venena deprehendes, non utilitatis, non aedificationis, sed ambitionis, sed vanae alicuius gloriolae gratia suscepta. O Theologiam <foreign lang='GR'>a)qeo/logon!</foreign> O sacrilega sacra!</p>
+<p><note> II. Eorundem officium.</note> Quod autem veri animarum pastoris officium sit, Ambrosius ep. 26. docet: Sobriam a turbis gravitatem, severam vitam, singulare pondus
+<pb id='s022' n='014'/>
+dignitas sibi vendicat sacerdotalis. Et Chrysostomus in Matth. 23. Videte, inquit, quomodo sedeat is super cathedram, quia cathedra non facit sacerdotem, sed sacerdos cathedram: non locus sanctificat hominem, sed homo locum. Qui bene sederit super cathedram, honorem accipit ab illa: qui male sederit, iniuriam facit cathedrae. In iudicio enim sedes. Si bene vixeris et bene docueris, omnium iudex eris. Si autem bene docueris, et male vixeris, tui solius. Nam Bene vivendo et bene docendo populum instruis, quomodo vivere debeat: bene autem docendo et male vivendo Deum instruis, quomodo debeat te condemnare.</p>
+<p><note>III. Facta laudem merentur, non verba. In Orat. consol. de patr. calam.</note> Multi verbis admodum sunt prodigi, factis autem parcissimi. Tales etiam inter Theologos dantur quamplurimi, quos tamen illud Nazianzeni advertere par erat; Non is, qui verbis sapit, mihi sapiens erit, neque is qui linguam habet volubilem, animum vero ineruditum, sepulcrorum instar, quae extrinsecus sunt ornata et speciosa, intus autem mortuorum cadavera, et multum recondunt <reg orig='foetore'>foetorem</reg>. Sed ille, qui pauca de virtute loquitur, multa vero ostendit operibus, fidemque sermonis per vitae roborat actionem: siquidem longe mihi praestabilior est formae pulchritudo, quae conspici potest, quam quae sermonis pingitur industria; nec non divitiae, quae manibus continentur, quam quae effinguntur somno ac sapientia, quae non sermonibus splendet, sed operibus collucet. Intellectus enim bonus omnibus facientibus eam, Scriptura inquit, et non qui praedicant illam.</p>
+<pb id='s023' n='015'/>
+<lg met='hexa'>
+<l>Denique quid verbis opus est? Spectemur agendo. <bibl>[Ovid. 13. Met.]</bibl></l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.03' n='3' type='book'>
+<head>ODA III. In procuratores flexiloquos, et rabulas forenses. </head>
+<argument><head>NUCLEUS.</head>
+<p>Ius cereum, quo volunt, rabulae flectunt.</p></argument>
+<lg met='iadi'>
+<l>CEnsura nunc tornatiles</l>
+<l>Iuris peritos provocat,</l>
+<l>Qui ceu lubet, ius cereum</l>
+<l>Torquent, retorquent, vellicant.</l>
+<l>Horum ministrant fraudibus</l>
+<l>Digesta, Decretalia,</l>
+<l>Codex, Novellae, Rubrica</l>
+<l>Dein glossa, lex, paragraphus,</l>
+<l>Libellus atque replica,</l>
+<l>Mox duplica et mox triplica:</l>
+<l>Sic lis plicatur litibus,</l>
+<l>Plicasque inexplicabiles</l>
+<l>Plicis plicando complicant,</l>
+<l>Ut explicari postea</l>
+<l>Nullo queant negotio.</l>
+<l>Tum Baldus atque Bartolus,</l>
+<l>Iason, Cynus, Cuiacius</l>
+<l>Durandus et Gomezius,</l>
+<l>Osascus atque Gailius,</l>
+<l>Mascardus et Menochius,</l>
+</lg>
+<pb id='s024' n='016'/>
+<lg met='iadi'>
+<l><figure><head>Hic garriendo literas perforat.</head><figDesc></figDesc></figure></l>
+<l><unclear reason='print blurred'>Capicius</unclear>, Calcaneus,</l>
+<l>Zuccardus et Giphanius</l>
+<l>Donellus atque Bossius,</l>
+<l>Caepolla, Farinacius,</l>
+<l>Connanus atque Accursius,</l>
+<l>Corasius; Costalius,</l>
+<pb id='s025' n='017'/>
+<l>Cravetta, Covarruvias, <note resp='transcriber'>Diego Covarrubias de Layva, 1512-1577</note></l>
+<l>Forcatulus, Marsilius,</l>
+<l>Maranta, Natta, Mantica,</l>
+<l>Mornaeus atque Mozzius,</l>
+<l>Mudaus et Muscornius,</l>
+<l>Pagninus, Oldendorpius,</l>
+<l>Pinellus atque Scipio,</l>
+<l>Sichardus et Sigonius,</l>
+<l>Negusantius, Sonsbecius,</l>
+<l>Et quis retexat singulos?</l>
+<l>Contentiosa millies</l>
+<l>Vocantur in certamina,</l>
+<l>Tot sensa, quot Capitolia:</l>
+<l>Tot iura, quot volumina.</l>
+<l>Affirmat hoc Corasius:</l>
+<l>Idem negat Costalius.</l>
+<l>Idem Maranta comprobat:</l>
+<l>Idem Maranta reprobat.</l>
+<l>Non continere me queo,</l>
+<l>Quin quid novi recenseam,</l>
+<l>Quod forte nuper accidit.</l>
+<l>Gnatum educabat rusticus,</l>
+<l>Quem liberalioribus</l>
+<l>Fors manciparat artibus.</l>
+<l>Hic cum progressu temporis</l>
+<l>In iure sic profecerat,</l>
+<l>Ut iuris utriuslibet</l>
+<l>Doctor creatus publice</l>
+<l>Laudem referret maximam.</l>
+<l>Novi parentes gaudii</l>
+<pb id='s026' n='018'/>
+<l>Hic redditurus compotes</l>
+<l>In patriam decreverat</l>
+<l>Migrare: sed, ne taedio</l>
+<l>Affligeretur temporis,</l>
+<l>Si forsitan diutius</l>
+<l>Moras ibidem necteret,</l>
+<l>Digesta secum detulit,</l>
+<l>Corpusque iuris integrum;</l>
+<l>Ut, si daretur otium</l>
+<l>Quandoque, ius evolveret.</l>
+<l>Crassum volumen intuens</l>
+<l>Pater obstupescit pectore,</l>
+<l>Tacitoque secum murmure</l>
+<l>Proceritatem suspicit</l>
+<l>Et vastitatem codicis;</l>
+<l>Gnatumque tandem interrogat,</l>
+<l>Quorsum liber conduceret</l>
+<l>Tam mole grandi praeditus:</l>
+<l>Respondet illi filius:</l>
+<l>Heus illa, quae maiusculis</l>
+<l>Excusa cernis literis,</l>
+<l>Ius illa verum continent;</l>
+<l>Sed illa, quae minutulis</l>
+<l>Excusa cernis literis,</l>
+<l>Haec continent glossemata,</l>
+<l>Iurisque strategemata,</l>
+<l>Et explicatiunculas</l>
+<l>Astutiores suggerunt,</l>
+<l>Quibus alicuius optimum</l>
+<l>Quandoque ius subvertimus.</l>
+<pb id='s027' n='019'/>
+<l>Responsa condit pectore</l>
+<l>Parens; sed, en, postridie,</l>
+<l>Absente casu filio,</l>
+<l>Et occupato forsitan</l>
+<l>Deambulationibus,</l>
+<l>Manu prehendit forcipem,</l>
+<l>Per singulasque paginas</l>
+<l>Glossas refellit ordine,</l>
+<l>Schedulasque late sordidis</l>
+<l>Hinc inde spargit aedibus.</l>
+<l>Reversus inde filius</l>
+<l>Glossasque sparsas intuens</l>
+<l>Magno furore accenditur,</l>
+<l>Librumque scissum conquerens</l>
+<l>Cum patre valde expostulat.</l>
+<l>Cui subiratus pater</l>
+<l>Responsa reddit talia:</l>
+<l>Heus nate paulum comprime</l>
+<l>Irae furores efferae:</l>
+<l>Nuper per haec glossemata</l>
+<l>Iurisque strategemata</l>
+<l>Hortum venustum perdidi.</l>
+<l>Hinc iure libris ex tuis</l>
+<l>Argutias has flexiles</l>
+<l>Fallaciasque rescidi,</l>
+<l>Ne forte tecta, praedia,</l>
+<l>Pecudes, agros, pecuniam,</l>
+<l>Hortosque perdam singulos.</l>
+<l>Tu, quisquis es, notabilem</l>
+<l>Attende semper regulam:</l>
+<pb id='s028' n='020'/>
+<l>VITA FORENSES HARPAGOS:</l>
+<l>Hi voce sunt qui literas,</l>
+<l>Sigilla lingua perforant.</l>
+</lg>
+<div2 id='FlNF.03.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Iuris et legum praestantia.</note> LEx, Cicerone teste, est vinculum civitatis, fundamentum libertatis, aequitatis fons, mens, animus, consilium, sententia: et ut corpora nostra sine mente, sic civitas sine lege esse non potest. Immo, teste eodem, in oratione pro Aulo <reg orig='Caecinna'>Caecina</reg>, Qui ius civile contemnendum putat, is vincula revellit non modo iudiciorum, sed etiam utilitatis vitaeque communis. Aristoteles lib. 5. de republ. cap. 9. eos, qui leges tollunt, res publicas tollere, et lib. 1. Rhet. c. 4. Salutem civitatis in legibus sitam esse asserit. Hinc Heraclitus dicebat, cives non minus oportere pugnare pro legibus, quam pro moenibus. Quod absque legibus nullo pacto possit esse civitas incolumis, absque moenibus possit. Laert. lib. 9. cap. 1. Legibus proposita sunt supplicia vitiis, praemia virtutibus: ait Cicero 2. de Orat. Nimirum</p>
+<lg met='asc2'>
+<l>Quid tristes querimoniae,</l>
+<l rend='indent'>Si non supplicio culpa reciditur?</l>
+<l>Quid leges sine moribus</l>
+<l rend='indent'>Vanae proficiunt? si neque fervidis</l>
+<l>Pars <unclear reason='letter hard to decode'>inclusa</unclear> caloribus</l>
+<l rend='indent'>Mundi, nec Boreae finitimum latus,</l>
+<l><unclear reason='letter hard to decode'>Durataeque</unclear> solo nives</l>
+<l rend='indent'>Mercatorem abigunt? horrida callidi</l>
+<pb id='s029' n='021'/>
+<l>Vincunt aequora navitae.</l>
+</lg>
+<p>Horatius lib. 3. Oda 24.</p>
+<p><note> II. Rabularum forensium nequitia atque imposturae.</note> Sunt, qui leges aranearum telis adsimiles faciunt, in quas si animal levius aut imbecillum incurrat, haeret, sin maius ali quid, perrumpit. Vall. lib. 7. cap. 2. Laert. lib. I. cap. 3.</p>
+<p><note>Sequentia omnia sunt Cassiodori.</note> Hi sunt qui causas protendunt adhibiti, impediunt  praetermissi, fastidiunt admoniti, obliviscuntur locupletati. Hi sunt, qui emunt lites, vendunt intercessiones, deputant arbitros, iudicanda dictant, dictata convellunt, attrahunt litigaturos, protrahunt audiendos, retrahunt transigentes. Cass. sup. illud Psal. 73. Irritat adversarius nomen tuum.</p>
+<p>Et ibidem: Hi sunt, qui negant civitatibus indutias, mercatoribus nundinas, emtoribus mensuras, reverentiam clericis, originem nobilibus, locum prioribus, cunctis iura, distinctis privilegia, quibus nullum genus hominum, ordinum, temporum cordi est.</p>
+<p>Et eodem in loco: Hi sunt in conviviis scurrae, in exactionibus harpyiae, in collocutionibus bestiae, in quaestionibus statuae, ad intelligendum saxei, ad iudicandum lignei, ad ignoscendum ferrei, ad amicitias pardi, ad facetias ursi, ad fallendum vulpes, ad superbiendum tauri, ad consumendum minotauri. Hi sunt, quorum si nares afflaverit cuiusquam rubiginosi aura marsupii, confestim videbis illic oculos Argi, et manus Briarei, et Sphingarum ungues, et periuria Laomedontis, Ulyssis argutias, Sinonis fallacias, fidem Polymnestoris, et pietatem pigri leonis adhiberi.</p>
+<pb id='s030' n='022'/>
+<p>Alanus etiam de conquestione naturae sidus causidicorum evolvit. Genethliacon tale est: Si quis armatus est <unclear reason='letter hard to decode'>pecunia</unclear>, tamquam loricis argenteis, torrentis impetum Tulliani, fulgur incursus Hectorei, robur virtutis Herculeae, versipellis Ulyssis vilipendit astutias. In tantum enim habendi fames incanduit, ut Dialecticae muta sit subtilitas, Rhetoricae languescat civilitas, ubi nummorum perorat pluralitas. Et idem ibidem. Si in aurem iudicis vel advocati susurret pecunia, Orphei lyra, carmen Amphionis, Musa Virgilii, voce pecuniae suffocantur. Quid plura? Ubi nummus loquitur, Tulliani eloquii tuba raucescit: ubi nummus militat, Hectoreae militiae fulgura compescuntur: ubi pugnat pecunia, virtus expugnatur Herculea: nummus vincit, nummus regnat, nummus imperat universis.</p>
+<p>Hinc non abs re Ovid. lib. I. Amor. eleg. 10.</p>
+<lg met='dist'>
+<l>Turpe reor, miseros empta defendere lingua,</l>
+<l rend='indent'>Quod faciat magnas turpe tribunal opes.</l>
+</lg>
+<p>De istiusmodi rabulis plura qui volet cognoscere, adeat Thomae Garzoni Piazza universale, Italo sermone olim, nunc vero Germanice nundinis hisce Francofurtensibus autumnalibus editum, ubi plurima inveniet. Non me contineo, quin et Cornelii Agrippae de hac hominum faece iudicium in medium proferam, quod in invectiva eius de incertitudine et vanitate scientiarum
+<pb id='s031' n='023'/>
+tale est: Advocatorum ac procuratorum fraudulentissima ars, suasorio cooperimento subdole adornata, haec est: scire iudicem persuasione demulcere, et ad omne arbitrium uti, scire iuribus vel inventis glossis ac commentis, leges quascumque pro libidine fingere et refingere, vel iniquis quibusque diverticulis illas subterfugere, aut fraudulentam litem prorogare: sic citare leges, ut pervertatur aequitas, sic glossatorum adstruere auctoritatem, ut subvertatur sensus legis, mensque legislatoris: in hac arte plurimum momenti habet, altum vociferari, audacemque, et in litigando clamosum et improbum esse. Isque habetur advocatorum optimus, qui plures allicit ad litigandum, et promissa spe vincendae litis in iudicium impellit, stimulatque impiis consiliis, qui venatur appellationes, quique est egregius rabula, ac iurgiorum auctor, qui garrulitate ac linguae viribus nihil non possit: sed et quamvis causam, iniustam licet, alteri iudiciorum praestigiis praeferre, ac vera et iusta isto modo dubia et iniqua facere, iustitiamque ipsam suismet armis profligare, pervertere, prosternere: apud quos iustitia nihil est, nisi publica merces, at
+</p>
+<lg>
+<l>Iudex in causa qua sedet acta probat.</l>
+</lg>
+<p>
+Sed et ea etiam, quae non sunt rerum scilicet privationes et silentia, pretio exponunt: nam ut nullus eorum loquitur, nisi ad mercedem, ita nec tacet, nisi ad praemium: exemplum puto Demosthenis, qui cum Aristodemum fabularum auctorem interrogasset, quantum mercedis, uti ageret, accepisset, et responderet ei, Talentum:
+<pb id='s032' n='024'/>
+At ego, inquit, plus accepi, ut tacerem. Causidicorum siquidem lingua tam damnifica est, ut, nisi vinciatur muneribus, fieri non possit, quo minus noceat.</p>
+</div2>
+</div1>
+<div1 id='FlNF.04' n='4' type='book'>
+<head>ODA IV. In Calumniatores ac delatores. </head>
+<argument><head>NUCLEUS.</head>
+<p>Melius est, in corvos incidere, quam in adulatores.</p></argument>
+<lg met='iadi'>
+<l>SI quicquid exoptabile</l>
+<l>E pectoris <unclear reason='letter hard to decode'>sententia</unclear></l>
+<l>Vellem mihi succedere,</l>
+<l>De cordis illud intimis</l>
+<l>Exposcerem recessibus,</l>
+<l>Ut, qui student calumniis,</l>
+<l>Ab arbore ambo pendeant,</l>
+<l>Qui gestat, ore pensilis,</l>
+<l>Qui captat, aure nexilis.</l>
+<l>Vix turpius calumnia,</l>
+<l>Detractione tetrius,</l>
+<l>In orbe crimen noscitur;</l>
+<l>Vix usitatius tamen</l>
+<l>Crimen, scelusque notius,</l>
+<l>Quod perpetretur saepius:</l>
+<l>Non Imperator effugit,</l>
+</lg>
+<pb id='s033' n='025'/>
+<lg met='iadi'>
+<l><figure><head>Vinum hic venale proclamat.</head><figDesc></figDesc></figure></l>
+<l>Non Principes, non Nobiles,</l>
+<l>Non divites, non pauperes,</l>
+<l>Non civici, non rustici,</l>
+<l>Non masculi, non feminae,</l>
+<l>Vitare possunt lividae</l>
+<l>Aculeos calumniae.</l>
+<pb id='s034' n='026'/>
+<l>Quin <unclear reason='letter hard to decode'>ipsa</unclear>ipsae saepe turpibus</l>
+<l>Virtus patet calumniis.</l>
+<l>Honore quamvis Caesarem,</l>
+<l>Labore quamvis Herculem,</l>
+<l>Sapientiaque Socratem,</l>
+<l>Oratione Tullium</l>
+<l>Vincas, tamen calumniae</l>
+<l>Telo peteris noxio.</l>
+<l>Sic olim Homerum Zoilus,</l>
+<l>Simonidem Timocreas,</l>
+<l>Amphimenesque Pindarum,</l>
+<l>Calumniis gravissimis</l>
+<l>Ausi fuere persequi.</l>
+<l>Quid multa? quamvis adforet</l>
+<l>Demosthenis facundia,</l>
+<l>Platonis eloquentia,</l>
+<l>Isocratis dicacitas,</l>
+<l>Tamen nequiret singula</l>
+<l>Calumniae retexere</l>
+<l>Venena, damna, vulnera,</l>
+<l>Quibus innocentes implicat,</l>
+<l>Miserrimeque conficit.</l>
+<l>Quamvis enim mendacia</l>
+<l>Curanda non sint anxie,</l>
+<l>Vetus est tamen dicterium,</l>
+<l>Quod ore semper gestitat</l>
+<l>Calumniatrix turbula,</l>
+<l>Locumque saepe repperit:</l>
+<l>CALUMNIARE STRENUE:</l>
+<pb id='s035' n='027'/>
+<l>Si non nocebunt omnia,</l>
+<l>Saltem nocebunt pleraque.</l>
+</lg>
+<div2 id='FlNF.04.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note> I. Calumniae vitium.</note> Multi censores sunt calumniae, pauci osores. Ex censoribus, hem tibi unum atque alterum.</p>
+<lg met='trim'>
+<head>Cleanthes.</head>
+<l><foreign lang='GR'>Kakourgw/teron ou)de\n Diabolh=s e)sti/ pw,</foreign></l>
+<l><foreign lang='GR'>La/tra ga\r a)path/sasa to\n pepeisme/non</foreign></l>
+<l><foreign lang='GR'>mi=sos a)napla/tei pro\s to\n ou)de\n ai)/tion.</foreign></l>
+<l>Nihil fere tam est malignum, quam calumnia.</l>
+<l>Haec enim ubi clam aliquem a se persuasum decepit,</l>
+<l>Odium excitat adversus eum, qui nihil est commeritus.</l>
+</lg>
+<lg met='trim'>
+<head>Euripides in Alexandra.</head>
+<l>--- <foreign lang='GR'>Diabolai\ deino\n a)nqrw/pois kako\n.</foreign></l>
+<l>Vehemens malum est inter homines calumnia.</l>
+</lg>
+<lg met='trim'>
+<head>Menander.</head>
+<l><foreign lang='GR'>Ou)de\n diabolh=s e)stin e)piponw/teron.</foreign></l>
+<l><foreign lang='GR'>Th\n e)n e(te/rw| ga\r keime/nhn a)marti/an</foreign></l>
+<l><foreign lang='GR'>A)ei\ me/myin i)di/an au)to\n e)pa/nagkes labei=n.</foreign></l>
+<l><foreign lang='GR'>To\ dokei=n diabolh\n e)/sxe mei/zw tou= poiei=n.</foreign></l>
+<l>Nihil est gravius, quam calumnia</l>
+<l>Nam quod alteri inest peccatum,</l>
+<l>Ceu proprium suscipere necesse est.</l>
+<l>Suspiciones maiorem pariunt calumniam, quam ipsa facta.</l>
+</lg>
+<p>Athanas. apolog. I. Qui lapide, inquit, ictus est, quaerit medicum: ictus autem calumniae gravius, quam lapides feriunt. Est enim calumnia clava, et
+<pb id='s036' n='028'/>
+gladius, et iaculum incurabile. Sed his veritas mederi potest, quae ubi negligitur, vulnera acerbiora fiunt.</p>
+<p><note>II. Calumniae duplex remedium.</note> Duplex contra calumniam datur remedium: hoc dissimulandam, illud vindicandam esse ait. Prius suppeditat Menander:</p>
+<lg met='trim'>
+<l><foreign lang='GR'>h(/dion ou)de\n, ou)de\ mousikw/teron</foreign></l>
+<l><foreign lang='GR'>e)/st' h)\ du/nasqai loidorou/menon fe/rein.</foreign></l>
+<l><foreign lang='GR'>O( loidorw=n ga\r, a)\n o( loidorou/menos</foreign></l>
+<l><foreign lang='GR'>mh\ prospoih=tai, loidorei=q' o( loidorw=n.</foreign></l>
+<l>Iucundior res nulla, nec concinnior</l>
+<l><corr sic='Convitiantem' resp='transcriber'>Convictiantem</corr> posse quam nobis pati.</l>
+<l><corr sic='Convitia' resp='transcriber'>Convictia</corr> etenim si tibi quis fecerit,</l>
+<l>Id dissimula: et ille ipse tum qui fecerit</l>
+<l>Tibi, facta sentiet sibi <corr sic='convitia' resp='transcriber'>convictia</corr>.</l>
+</lg>
+<p>Posterius Basilius, epist. 65. Ad calumnias tacendum non est, ne mendacio inoffensum progressum permittamus, aut eos, qui seducti sunt, damno inhaerere sinamus.</p>
+<p>Utrum nunc consultius, priusne an posterius? Mihi posterius videtur: cum praesertim idem ille Menander alibi in eandem sententiam pedibus eat, cuius en tibi Senarios:</p>
+<lg met='trim'>
+<l><foreign lang='GR'>Ou) dei= diabolh=s katafronei=n, ou)d' a)\n sfo/dr' h)=|</foreign></l>
+<l><foreign lang='GR'>Yeudh\s e)pi/stant' au)ca/nein au)th/n tines.</foreign></l>
+<l><foreign lang='GR'>di' ou(\s fula/ttesqai ta\ toiau=t' o)rqw=s e)/xei.</foreign></l>
+<l>Spernenda non est vel minima calumnia.</l>
+<l>Nam plurimi artem illius augendae tenent:</l>
+<l>Quos propter illam qui cavet, recte facit.</l>
+</lg>
+<p>Verumtamen anceps animi iterum haereo, iamque fere in alterum latus propendeo, Alciati Emblemate 163. motus, quod adscribere libet:</p>
+<pb id='s037' n='029'/>
+<lg met='dist'>
+<l>Audent flagriferi matulae, stupidique magistri</l>
+<l rend='indent'>Bilem in me impuri pectoris evomere.</l>
+<l>Quid faciam? reddamne vices? sed nonne cicadam</l>
+<l rend='indent'>Ala una obstreperam corripuisse ferar?</l>
+<l>Quid prodest, muscas operosis pellere flabris?</l>
+<l rend='indent'>Negligere est satius, perdere quod nequeas.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.05' n='5' type='book'>
+<head>ODA V. In milites Thrasones, gloriosos, blasphemos, rapaces. </head>
+<argument><head>NUCLEUS.</head>
+<p>Nulla fides pietasque viris, qui castra sequuntur.</p></argument>
+<lg met='iadi'>
+<l>QUi castra militaria</l>
+<l>Exercitusque bellicos</l>
+<l>Sequuntur, hos blasphemias</l>
+<l>Minasque crudelissimas</l>
+<l>Exercitare convenit,</l>
+<l>Per sacra, per mysteria,</l>
+<l>Per passiones, vulnera,</l>
+<l>Deique per potentias,</l>
+<l>Per grandines, per sidera,</l>
+<l>Elementa, fulmen, fulgura,</l>
+<l>Per turbines, tonitrua,</l>
+<l>Per mille <sic>tonnas</sic> Daemonum,</l>
+<l>Et si quid his horrendius,</l>
+</lg>
+<pb id='s038' n='030'/>
+<lg met='iadi'>
+<l><figure><head>Hic ferrum mandit.</head><figDesc></figDesc></figure></l>
+<l>Iurare oportet strenue.</l>
+<l>Hoc asseverant Symbolon</l>
+<l>Virilis esse pectoris,</l>
+<l>Signumque fortitudinis.</l>
+<l>His unum idemque creditur,</l>
+<l>Vel pro Deo arma sumere,</l>
+<pb id='s039' n='031'/>
+<l>Vel militare Daemoni.</l>
+<l>Haec una virtus militum,</l>
+<l>Velutque quoddam proprium.</l>
+<l>Sui deinde muneris</l>
+<l>Et illud esse existimant:</l>
+<l>Vastare sacra, persequi</l>
+<l>Cives, domos incendere</l>
+<l>Igni, stuprare feminas,</l>
+<l>Messes opimas perdere,</l>
+<l>Frumenta, plumas, lectulos.</l>
+<l>In aerem dispergere,</l>
+<l>Furtis equos, pecuniam,</l>
+<l>Piceisque quae fors unguibus</l>
+<l>Occursitant, subducere,</l>
+<l>Et obviantem quemlibet,</l>
+<l>Vel sit nocens, vel innocens,</l>
+<l>Modis scelestis angere.</l>
+<l>Hi scilicet sunt milites,</l>
+<l>Virique fortes bellici,</l>
+<l>Laboris infensissimi</l>
+<l>Hostes, amici ignaviae.</l>
+<l>Non militant hi principi</l>
+<l>Iuris tuendi gratia,</l>
+<l>Sed ut rapinam exerceant</l>
+<l>Maiore cum licentia,</l>
+<l>Rastrique vitent pondera.</l>
+<l>Si forte vino exaestuent,</l>
+<l>Latitentve propugnaculis,</l>
+<l>Proculve distent fulmine,</l>
+<l>Horrenda sumunt cornua</l>
+<pb id='s040' n='032'/>
+<l>Linguaque vincunt Stentorem;</l>
+<l>Nihilque ferme saepius,</l>
+<l>Quam ferra, pugnos, verbera,</l>
+<l>Turmas, phalanges, ordines,</l>
+<l>Tormenta, scuta, vulnera,</l>
+<l>Mortesque diras intonant.</l>
+<l>Ad arma cum concurritur,</l>
+<l>In crura corda decidunt,</l>
+<l>Horrent, pavescunt, contremunt,</l>
+<l>Adstantque semimortui.</l>
+<l>Mox quando odorant verbera,</l>
+<l>Velociores cervulis,</l>
+<l>Pedibus saluti consulunt,</l>
+<l>Fugaeque terga praebitant.</l>
+<l>Horum minis qui concidit,</l>
+<l>Hic iure, non iniuria,</l>
+<l>Demortuus sonantibus</l>
+<l>Bombis aselli conditur.</l>
+</lg>
+<div2 id='FlNF.05.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p>PHILIPPO olim cum Graecis pugnaturo, Diogenes in eius castra pervenit. Perductus igitur ad Philippum, ac rogatus, num speculator esset? Stultitiae, inquit Diogenes, vanitatisque tuae verus sum speculator, qui cogente nullo, de vitae et de regno, velut ad casum aleae, periclitaturus venis. Utinam hodie audirent Diogenem, ita loquentem, terrarum principes, qui saepenumero, nulla urgente necessitate,
+<pb id='s041' n='33'/>
+propriis stimulati affectibus bella cruentissima et plus quam civilia suscipiunt, in magnam suorum perniciem. Exclamem merito cum Horatio lib. Epod. Od. 7. per parodiam:</p>
+<lg met='iast'>
+<l>Quo quo furentes ruitis? aut cur dexteris</l>
+<l rend='indent'>Aptantur enses conditi?</l>
+<l>Parumne campis atque Neptuno datum</l>
+<l rend='indent'>Est Christiani sanguinis?</l>
+<l>Neque hic lupis mos, neque fuit leonibus</l>
+<l rend='indent'><corr sic='Unquam' resp='transcriber'>Umquam</corr><note resp='transcriber'>sic supra si memini</note>, nisi in dispar feris.</l>
+<l>Furorne caecus, an rapit vis acrior?</l>
+<l rend='indent'>An culpa? Responsum date.</l>
+<l>Tacent, et ora pallor albus inficit,</l>
+<l rend='indent'>Mentesque perculsae stupent.</l>
+</lg>
+<p>Et cum Virgilio, lib. 1. Georgicorum:</p>
+<lg met='hexa'>
+<l>Quippe ubi fas versum atque nefas: tot bella per orbem,</l>
+<l>Tam multae scelerum facies: non ullus aratro</l>
+<l>Dignus honos, squalent abductis arva colonis:</l>
+<l>Et curvae rigidum falces conflantur in ensem.</l>
+<l>Hinc monet Euphrates, illinc Germania bellum:</l>
+<l>Vicinae ruptis inter se legibus urbes</l>
+<l>Arma ferunt: saevit toto Mars impius orbe:</l>
+<l>Ut cum carceribus sese effudere quadrigae,</l>
+<l>Addunt se in spatia: et frustra retinacula tendens</l>
+<l>Fertur equis auriga, neque audit currus habenas.</l>
+</lg>
+<p>Belligeramur assidue, inquit Erasmus 4. Apoph. cent. I. gens cum gente colliditur, regnum cum regno, civitas cum civitate, princeps cum principe,
+<pb id='s042' n='34'/>
+populus cum populo, et quod Ethnici quoque fatentur impium, affinis cum affini, cognatus cum cognato, frater cum fratre, filius cum patre: denique, quod ego sane puto his omnibus atrocius, Christianus cum Christiano. Et ô caecitatem mentis humanae! haec nemo miratur, nemo detestatur. Sunt qui applaudant, qui vehant laudibus, qui rem plus quam Tartaream sanctam appellant, ac principes ultro furentes instigant, oleum, quod aiunt, camino addentes.</p>
+<p>Et ibidem. Iocus et ludus sunt in militia, domos diripere, fana spoliare, virgines rapere, solidas urbes atque oppida incendere: Magna propterea dementia corrumpere, quod retinere non valeas. Haec scilicet sunt belli decora, profuisse nemini, nocuisse quam plurimis, nullo respectu aut recordatione praesidentis mundo Dei. Ut tribus, quod aiunt, verbis totum dicam,</p>
+<p>NULLA SALUS BELLO.</p>
+<p>Ut maiorem etiam belli nauseam tibi creem, Cornelii Agrippae de hoc iudicium apponere libet, quod tale est in invectiva de incertitudine et vanitate scientiarum: Hic maximus militum labor est, obsidere civitates, iacere tela, fremere tormentis, admovere machinas, perfodere muros, concutere turres, occupare moenia, parare incendia, diruere arces, spoliare templa, diripere urbes, subvertere oppida, vastare agros, <sic corr='consulcare'>conculcare</sic> leges, adulterari matronas, stuprare viduas, rapere
+<pb id='s043' n='35'/>
+virgines, cives alios vulnerare, alios incarcerare, alios deportare, alios trucidare. Tota denique disciplina haec, non nisi in hominum pernicie occupata, hunc finem quaerit, ut famosos urbium eversores, strenuosque homicidas faciat, transformetque homines in ritus ferarum moresque belluarum. Hinc bellum nihil aliud est, quam commune multorum homicidium ac latrocinium, nec aliud milites, quam stipendiarii, et in rei publicae exitium armati latrones, perfossores, raptores, sicarii, fures, sacrilegi, gladiatores, stupratores, lenones, scortatores, adulteri, proditores, peculatores, abigei, aleatores, blasphemi, venefici, parricidae, incendiarii, praedones, piratae, tyranni et eiusmodi. Quos omnes qui uno nomine velit exprimere, dicat milites, hoc est, <reg orig='revera'>re vera</reg> barbaricas sceleratorum hominum faeces, quos mala mens, malus animus ad omne facinus exstimulat, quos penes dignitatis et libertatis nomen habet licentiam delinquendi et latrocinandi, undique quaerentes, ut noceant, ipsamque innocentiam, veluti mortis quandam imaginem, <sic>odientes</sic>, omnesque quasi unum corpus sunt ex patre et genitore Diabolo, cuius illi sunt membra, de quo ait Iob: Corpus illius quasi scuta fusilia, et compactum squamis se prementibus: una uni coniungitur, et ne spiraculum quidem incedit per eas, una alteri cohaeret, tenentes se nequaquam separabuntur: assistunt sibi, qui convenerunt in unum adversus Dominum et adversus Christum eius. Insignia autem militiae sunt non purpura, torques, anuli, tiarae: sed adverso pectore vulnera, et deformata cicatricibus corpora. Exercitium
+<pb id='s044' n='36'/>
+non nisi cum plurimorum exitio, doloreque coniunctum, morum, legum ac pietatis pernicies, cum Christo, cum beatitudine, cum pace, cum caritate, cum innocentia, cum patientia ex diametro pugnans. Praemia eius sunt gloria nobilitatis, humani sanguinis effusione parta, imperii propagatio libidine dominandi et possidendi, cum multarum animarum perpetua damnatione. Nam cum omnis belli finis sit victoria, nemo potest esse victor, nisi homicida: nemo contra victus, nisi male perierit. Mors igitur militum pessima, malum epitaphium sibi inducente peccato. Qui autem occidunt, iniqui sunt, etiam si iustum sit bellum. Non enim propter hoc, sed quia lucri et praedae gratia militarunt, impii homicidae in eos, quos male occidunt. Si qui autem iuste ab illis perimuntur, ipsi qui occiderunt, in carnificum ordinem se ipsos statuentes, nobilitatem hanc commeruerunt, cumque leges alioqui in praedones, raptores et sicarios poenis saeviant, tales nomine militiae habentur nobiles et honesti.</p>
+<p><note>II. Modernae militiae disciplina qualis.</note> Modernae militiae imaginem genuinam, ex probatis historicis Livio, Tacito, et Curtio collectam, et nostro saeculo accommodatam non ut <sic corr='convicium'>convitium</sic>, sed ut medicinam, en tibi habe: Emunt duces militem, non legunt. Pecuniola proponitur, tympanum strepit: et ecce coeunt aliquot ignoti inter se ignorantesque, purgamenta urbium suarum, quibus ob egestatem et maxima flagitia peccandi necessitudo est, assueti latrociniis, bellorum insolentes, quorum lingua vana, manus rapacissimae, gula immensa, pedes fugaces, quae honeste
+<pb id='s045' n='37'/>
+nominari non possunt, honestissima, nullam disciplinae formam, nec extrema quidem eius lineamenta servantes, lascivientes certatim, inter quos omnia indisposita, temulenta, pervigiliis Veneris, ac Bacchanalibus potius, quam disciplinae et castris propria. Hi nec in procinctu et castris habentur, sed per municipia desides, hospitibus tantum metuendi, effundunt se in luxum, epulas et nocturnos coetus: ibi circumferri merum largius iubent, debellaturi super mensa Alexandrum: suas vires extollere docti, hostium paucitatem contemnere: ceterum galeati lepores, et quibus ut ad populandos finitimorum agros, tectaque urenda, et capienda pecora, aliqua vis sit, ita in acie et signis collatis nulla vis est, nec in victoria eis decus, nec in fuga flagitium. Ut omnia paucis: Exercitus lingua, quam manu, promptior, praedator e sociis, et ipse hostium praeda.</p>
+<p>Aurelianus olim, cum a vicario suo <reg orig='literas'>litteras</reg> accepisset, quibus efflagitabat, quomodo res inter exercitus gerenda esset, statim rescripsit hunc in modum: Si vis tribunus esse, <reg orig='imo'>immo</reg> si vis vivere, manus militum contine. Nemo pullum alienum rapiat, ovem nemo contingat, uvam nullus auferat. Sic Vopiscus in Aurelio.</p>
+<p>At, bone Deus, quid nostro hoc saeculo prius aut potius queramur? Proh quanta flagitia, quanta scelera in bellis non perpetrantur? Ut (quod Ludovicus Vives in epist. ad Henric. VIII. Angliae regem scribit) hoc demum videatur esse, vere ac germane militare, nihil
+<pb id='s046' n='38'/>
+arbitrari aequi ac boni propter se esse sancitum, nullo se iuri esse subditum, se in vagina leges omnes cum ferro gestare: quicquid conscelerato animo collibuerit, id solum esse ius et aequum. Adeo milites nostri, sive quo eant, sive redeant, furantur, rapiunt, constuprant, pulsant, abigunt pecora, pertusis vasis sinunt effluere vinum. Quid multis? Crudelius tractant suos, quam hostes. Et hoc hodie, si superis placet, appellatur ius militare, et ad haec connivent principes. Lucanus lib. 10. bell. civil. multa paucis comprehendit:</p>
+<lg met='hexa'>
+<l>Nulla fides pietasque viris, qui castra sequuntur:</l>
+<l>Venalesque manus: ibi fas, ubi maxima merces.</l>
+</lg>
+<p>Sed eheu!</p>
+<lg met='hexa'>
+<l>---- ---- quis talia fando</l>
+<l>Temperet a lacrimis?</l>
+</lg>
+<p>I. Aeneid.</p>
+<p><note>III. Verae <unclear reason='letter hard to decode'>militiae</unclear> encomium, et veri militis requisita.</note> Verum haec haud ideo dicta sunto, quasi omnem omnino militiam iniquam esse contendere ausim. Militare enim, inquit Augustin. de verbis Domin. non est delictum, sed propter praedam militare, peccatum est. <reg orig='Imo'>Immo</reg>, quod Cicero testatur pro <reg orig='Muræna'>Murena</reg>. Rei militaris virtus praestat ceteris virtutibus: omnia nostra studia, et haec forensis laus et industria latent in tutela ac praesidio bellicae virtutis: et simul atque <corr sic='increbuit' resp='transcriber'>increbruit</corr> suspicio tumultus, artes ilico nostrae conticescunt. Omnia denique, quae sunt in imperio, in statu civitatis, ab iis defendi, et
+<pb id='s047' n='39'/>
+firmari putantur, qui militari virtute antecellunt.</p>
+<p>Et in eadem Oratione: Multo plus adfert dignitatis res militaris, quam iuris civilis gloria. Vigiles tu de nocte, ut tuis consultoribus respondeas: ille vero, quo intendit, mature cum exercitu perveniat. Te gallorum, illum buccinarum cantus exsuscitat. Tu actionem instituis, ille aciem. Tu caves, ne tui consultores, ille, ne urbes aut castra capiantur. Ille tenet et scit, ut hostium copiae, tu, ut aquae pluviae arceantur. Ille exercitatus est in propagandis finibus, tu in regendis.</p>
+<p><note>IV. Veri militis requisita.</note> Veri militis requisita paucis coarctat Veget. lib. 7. de re militari: Iuventus, inquit, cui defensio provinciarum, et bellorum fortuna committenda est, et genere, si copia suppetat, et moribus debet excellere. Honestas enim idoneum militem reddit: verecundia, dum prohibet fugere, victorem. Inutiles autem omnino sunt gloriosi illi Thrasones, qui lingua quidem et minis uno ictu sexcentos profligare sese posse iactant, quibus autem ubi ad pugnum et pugnas deventum est, secundum Homericum illud,</p>
+<lg met='hexa'>
+<l>----- <foreign lang='GR'>parai\ posi\ ka/ppese qumo/s,</foreign></l>
+<l>in pedes mens decidit imos.</l>
+</lg>
+<p>Erasmus hos pisciculis similes esse ait, qui vocantur gladioli: quippe qui gladium quidem haberent, cor autem non haberent. Paucis Virgil. lib. 4. Aeneid.</p>
+<pb id='s048' n='40'/>
+<lg met='hexa'>
+<l>Degeneres animos timor arguit.</l>
+</lg>
+<p>Ceterum de requisitis veri militis disserentem vide I. Lipsium, Politicor. lib. 5. cap. 7. 8. 9. et Althusium Polit. cap. 34.</p>
+</div2>
+</div1>
+<div1 id='FlNF.06' n='6' type='book'>
+<head>ODA VI. In adulatores Chamaeleontaeos. </head>
+<argument><head>NUCLEUS.</head>
+<p>Adulator cum laudat, pungit.</p></argument>
+<lg met='iadi'>
+<l>Qui mel ferunt in oribus,</l>
+<l>Sed fel gerunt in cordibus.</l>
+<l>Hi sunt in orbe plurimi,</l>
+<l>Quocumque ocellos missitas,</l>
+<l>Sedem sibi firmissimam</l>
+<l>Defixit haec astutia.</l>
+<l>In Curiis, Ecclesiis,</l>
+<l>Scholis, et aulis Principum,</l>
+<l>Inter viros celsissimos,</l>
+<l>Cives, et inter rusticos.</l>
+<l>Paucis; ubique gentium</l>
+<l>Viri morantur duplices.</l>
+<l>Aquas humentes porrigunt,</l>
+<l>In corde flammas apparant,</l>
+<l>Quod ore poscunt, pectore</l>
+<l>Quam maxime fastidiunt.</l>
+</lg>
+<pb id='s049' n='41'/>
+<lg met='iadi'>
+<l><figure><head>Hic barbam nectit stramineam.</head><figDesc></figDesc></figure></l>
+<l>Hoc orbis est nunc proprium,</l>
+<l>Verbis medelam suggerit,</l>
+<l>Factis venenum porrigit.</l>
+<l>Hoc dicit, illud cogitat,</l>
+<l>In ore: Te iuvet Deus:</l>
+<l>In corde: Tollat Cerberus.</l>
+<pb id='s050' n='42'/>
+<l>Si forsan obviaveris,</l>
+<l>Heus, Frater, inquit optime:</l>
+<l>Cum paulo post recesseris,</l>
+<l>Calumniatur pessime.</l>
+<l>Hic scilicet contortili</l>
+<l>Barbam plicare stramine</l>
+<l>Fumosque novit vendere,</l>
+<l>Et crocodili lacrimas</l>
+<l>Oculis dolosis fundere.</l>
+<l>Haec scilicet, nasutuli</l>
+<l>Quod dictitant homunculi,</l>
+<l>Civilis est prudentia,</l>
+<l>Et laude digna maxima,</l>
+<l>Tacere, quae quis cogitat,</l>
+<l>Et cogitare, quae tacet.</l>
+<l>Picem vocare candidam,</l>
+<l>Nivemque nigram dicere!</l>
+<l>Si digna quivis praemia</l>
+<l>Factis meretur propriis,</l>
+<l>Vos milleformes Protei,</l>
+<l>Cum sitis ore duplices,</l>
+<l>Os promeretis undique</l>
+<l>Grandi refertum stercore.</l>
+</lg>
+<div2 id='FlNF.06.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>Viri duplices quinam.</note> TUrpe est, inquit Seneca in epist. ad Lucil. aliud loqui, et aliud sentire. Homerus vehementius in huiusmodi nebulones, duplici praeditos pectore, invehitur in Iliad.</p>
+<lg met='hexa'>
+<l><foreign lang='GR'>)Exqro\s ga/r moi kei=nos o(mw=s a)i/dao pulh=|sin,</foreign></l>
+<l><foreign lang='GR'>(/Os x' e(/teron me\n keu/qei e)ni\ fre/sin, a)/llo de\ ba/sei.</foreign></l>
+</lg>
+<pb id='s051' n='43'/>
+<p>Hoc est:</p>
+<lg>
+<l>Exosus enim ille mihi, velut inferorum portae,</l>
+<l>Qui aliud quidem occultum habet in mentibus, aliud vero ore profert.</l>
+</lg>
+<p>Sic Plautus in Asinaria:</p>
+<lg met='sena'>
+<l>Pro monstro est, quando, qui sudat, tremit.</l>
+</lg>
+<p>Nostro certe nunc hoc saeculo tam late serpsit contagio haec, ut tota hominum ferme omnium universitas malo hoc, ceu lue quadam pestilentissima, infecta merito dici possit. Ita nunc omnis candor, fidesque omnis exulat. Vix millesimum ex hominum pectore provenit verbulum. Omnia ficta, omnia sub caritatis specie fucata, vereque <foreign lang='GR'>gluko/pikra</foreign> sunt, hoc est, dulcia-amara. Dulcia quidem externa simulatione: amara autem et venenosa interno recessu.</p>
+<p>Bellum in hunc sensum est epigramma, quod addo:</p>
+<lg met='dist'>
+<l>Non aliud genus est hominum tam vulnere dirum,</l>
+<l rend='indent'>Non telis Scythicum letiferis celebre:</l>
+<l>Os pingui, quam quod butyro mollius effert,</l>
+<l rend='indent'>Verbaque depromit lenius ipso oleo:</l>
+<l>Intus sed toto meditatur vulnera corde,</l>
+<l rend='indent'>Quae iaculis Scythicis asperiora facit.</l>
+</lg>
+<p>At locus dandus erat Phocylidis monito:</p>
+<lg met='hexa'>
+<l><foreign lang='GR'>mh/d' e(/teron keu/dh|s kradi/h| no/on, a)/ll' a)goreu/wn</foreign>.</l>
+<l>Noli aliam occultare in corde sententiam, et aliam proferre.</l>
+</lg>
+<pb id='s052' n='44'/>
+</div2>
+</div1>
+<div1 id='FlNF.07' n='7' type='book'>
+<head>ODA VII. In proditores ac delatores. </head>
+<argument><head>NUCLEUS.</head>
+<p>Nil proditore turpius.</p></argument>
+<lg met='iadi'>
+<l>SIC est: Iudas proditor</l>
+<l>Scelus patravit pessimum,</l>
+<l>Quod innocentem perdidit,</l>
+<l>Crucique Christum tradidit.</l>
+<l>At ille nummos interim,</l>
+<l>Sui furoris praemium</l>
+<l>A Pharisaeis rettulit.</l>
+<l>At proditores millies</l>
+<l>Nunc nequiores rescias,</l>
+<l>Qui non verentur, candidos</l>
+<l>Plane, virosque innoxios</l>
+<l>Gratis macello dedere,</l>
+<l>Suique nullum criminis</l>
+<l>Efflagitare praemium.</l>
+<l>Istud profecto dixerim,</l>
+<l>Iudas adhuc si viveret,</l>
+<l>Tantamque furum cerneret</l>
+<l>Redivivus impudentiam,</l>
+<l>Locum tueri proditor</l>
+<l>Vix, credo, posset infimum.</l>
+<l>At hi magistri fraudium,</l>
+</lg>
+<pb id='s053' n='45'/>
+<lg met='iadi'>
+<l><figure><head>Hic macello innocentem offert.</head><figDesc></figDesc></figure></l>
+<l>Hi proditores, lanii,</l>
+<l>Hostesque sanguinarii,</l>
+<l>Tam sunt in arte callidi</l>
+<l>Ut subdolas fallacias</l>
+<l>Omnes ad unguem noverint:</l>
+<l>Licetque sint nequissimi,</l>
+<pb id='s054' n='46'/>
+<l>Tamen antecellunt omnibus,</l>
+<l>Primasque semper occupant,</l>
+<l>Et lautiorem regibus</l>
+<l>Plerumque vitam ductitant.</l>
+<l>Iudas, abominabili</l>
+<l>Tandem piaclo cognito,</l>
+<l>Tanto metu prosternitur,</l>
+<l>Exosus ut sibi ipsemet,</l>
+<l>Ductusque poenitudine</l>
+<l>Animam scelestis faucibus</l>
+<l>Suspendio praecluserit.</l>
+<l>At hi cachinnos excitant,</l>
+<l>Cum quem macello destinant,</l>
+<l>Nihilque de suspendio</l>
+<l>Parumve sudant anxii.</l>
+<l>Sed cum suprema iudicis</l>
+<l>Olim die novissimo</l>
+<l>Feretur (oh) sententia,</l>
+<l>Tunc laniorum turbula</l>
+<l>Orci macella perpetim</l>
+<l>Subibit infernalia,</l>
+<l>Suaeque sumet congrua</l>
+<l>Crudelitatis praemia.</l>
+</lg>
+<div2 id='FlNF.07.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>Proditionis vitium detestabile.</note> DE Iuda Hieronymus in Epist. ad Rust. Iudas, ait, de Apostolatus fastigio in proditionis Tartarum labitur, nec familiaritate communi, nec intinctione buccellae, nec obsequii gratia frangitur,
+<pb id='s055' n='47'/>
+ne hominem tradat, quem filium Dei noverat. Et Ambrosius in Matth. cap. 26. Instrumento pacis mortem irrogat: servus dominum, discipulus magistrum sic prodit; quasi, inquit, per instrumentum pacis perimis ipsam pacem, de osculo machinaris ipsam proditionem.</p>
+<p>Praegrande hoc vitium Franciscus Petrarcha etiam perstringit Dialog. 80. quem integrum vide. Non procul a fine haec, quae sequuntur, exstant: Nil scelestius proditore. Nil turpius sol videt, cuius obscoenitas tanta est, ut et qui artificio eius egent, exsecrentur artificem, et qui ceterorum scelerum famam quaerunt huius infamiam reformident.</p>
+<p>Tanto scilicet odio semper proditionis vitium laboravit, ut nemo non omnibus illam diris exsecrationibusque devoverit. Exemplo nobis sunto ex priscorum Romanorum documentis Camillus et Fabricius, quorum alter Faliscorum, quos octennali obsidione iam successu irrito presserat; pueros a magistro per deambulationis speciem eductos, sibique, tamquam certam victoriae spem, traditos accipere noluit, turpem hunc proditorem aversatus, vinctum nudatumque terga, adolescentulis verberibus in urbem agendum tradidit; teste Livio lib. 5. Alter autem commoda itidem proditionis oblata occasione, proditorem omnino respuit atque detestatus
+<pb id='s056' n='48'/>
+fuit: Hic, inquiens, est ille Fabricius, qui difficilius ab honestate, quam sol a cursu suo, averti possit. Sexcenta proditionis exempla qui cognoscere avet, adeat Theatrum Philosophicum Ravisii Textoris pag. 575. et seqq. ubi voto ipsius abunde satisfiet.</p>
+</div2>
+</div1>
+<div1 id='FlNF.08' n='8' type='book'>
+<head>ODA IIX. In pollicitatores grandiloquos. </head>
+<argument><head>NUCLEUS.</head>
+<p>Pollicitis dives quilibet esse potest.</p></argument>
+<lg met='iadi'>
+<l>SIC orbis usus obtinet,</l>
+<l><reg orig='Stylusque'>Stilusque</reg> <unclear reason='letter hard to decode'>nostrae</unclear> curiae:</l>
+<l>Spondere montes aureos,</l>
+<l>Et pauculos arenulae</l>
+<l>Pulvisculos exsolvere:</l>
+<l>Grandes equos promittere:</l>
+<l>Pullumque aselli reddere:</l>
+<l>Magnum vovere cereum,</l>
+<l>Qui quantitate populum</l>
+<l>Malumve vincat nauticum,</l>
+<l>Deinde vix minutulam</l>
+<l>Offerre sebi <reg orig='tedulam'>taedulam</reg>.</l>
+<l>Sic omnis (heu!) evanuit</l>
+<l>Candor, fides, integrita,</l>
+</lg>
+<pb id='s057' n='49'/>
+<lg met='iadi'>
+<l><figure><head>Hic in taleam loquitur.</head><figDesc></figDesc></figure></l>
+<l>Honestitudo, veritas,</l>
+<l>Aequi bonique gratia.</l>
+<l>Sic fallit hospes hospitem,</l>
+<l>Et venditorem venditor:</l>
+<l>Sic servus herum decipit,</l>
+<l>Herusque ludit servulum.</l>
+<pb id='s058' n='50'/>
+<l>Nil veritati consonum</l>
+<l>Totum per orbem visitur.</l>
+<l>Fidesque tuta nullibi:</l>
+<l>Sed cuncta vel crassissimis</l>
+<l>Referta sunt mendaciis;</l>
+<l>Vel hercle callidissimis</l>
+<l>Connexa sunt fallaciis.</l>
+<l>Sic GARRIUNT IN TALEAM,</l>
+<l>Qui verbulis ditissimi,</l>
+<l>Factisque sunt pauperrimi:</l>
+<l>Quibus usitatum est dicere:</l>
+<l>Est polliceri nobilis,</l>
+<l>Servare pacta rustici.</l>
+</lg>
+<div2 id='FlNF.08.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Montes aureos promittere.</note> CUM Leosthenes civitatem Atheniensium, ad bellum impulisset, magnificis spebus ad nomen libertatis ac principatus erectam: Phocion illius verba dicebat esse cupressis similia, quae sublimes cum sint ac pulchrae, fructum non habent. Nihil profecto dici potuit accommodatius in sermonem splendide magnificeque pollicentem, sed infrugiferum: quemadmodum cupressus arbor sublimi compositoque in conum vertice, procul egregium quiddam polliceri videtur, cum vix tamen ulla sit sterilior. Hinc in proverbium <unclear reason='page damaged'>abiere</unclear> CHARETIS POLLICITATIONES, <foreign lang='GR'>ai( xa/rhtos u(posxe/seis,</foreign> de illis dici solitae, qui
+<pb id='s059' n='51'/>
+Charetem Atheniensem aemulati, multa facile ac benigne promittunt, iuxta illud Nasonis, I. Art.</p>
+<lg met='dist'>
+<l>Promittas facito: quid enim promittere laedit?</l>
+<l rend='indent'>Pollicitis dives quilibet esse potest.</l>
+</lg>
+<p>De istiusmodi pollicitatoribus Terentius
+etiam in Andria act. 4. scen. 1.</p>
+<lg>
+<l>In denegando modo <reg orig='queis'>quis</reg> pudor paululum adest:</l>
+<l>Post ubi tempus promissa iam perfici,</l>
+<l>Tum coacti necessario se aperiunt,</l>
+<l>Et timent, et tamen res premit denegare.</l>
+<l>Ibi tum eorum impudentissima oratio est:</l>
+<l>Quis es tu? quis mihi es? cur mea tibi?</l>
+<l>Heus, proximus sum egomet mihi: attamen ubi fides?</l>
+<l>Si roges, nihil pudet. hic, ubi opus est,</l>
+<l>Non verentur: illic, ubi nihil opus est, ibi verentur,</l>
+</lg>
+<p><note>II. Promissis standum.</note> Notare autem debebant isti homines illud Pythagorae, qui, Age, inquiebat, res praeclaras, nihil magnifici interim promittens, (Teste Stobaeo serm. de virtute) aemulati hac in parte morum arborem, quae dicitur proverbialiter sapientissima arborum. Nam ultima flores producit, prima vero vel imprimis fructus: Ita non est diu antea ostentandum, quid possimus, vel velimus: tarde potius est promittendum, et mature tunc praestandum. Et elegans de hac materia
+<pb id='s060' n='52'/>
+dictum est Stobaei lib. de moribus: Prius quam promittas, delibera: et cum promiseris, facies: prius si negaveris, fecisse postea fallere est. Id ergo agas, ut ne quis merito tuo te oderit.</p>
+<p>Coronidis loco epigramma Iacobi Billii, quod in Anthologia eius exstat, de Dei ac mundi pollicitationibus, annecto:</p>
+<lg met='dist'>
+<l>Ut mundus, sic sunt mundi promissa, quod ipse</l>
+<l rend='indent'>Promittit, fictum est, fictus ut ipse quoque est.</l>
+<l>Ut Deus est, sic sunt bona, quae promittit, et offert:</l>
+<l rend='indent'>Certus ut est, certas sic dare novit opes.</l>
+<l>Quam nos laevi igitur! Certo non fidimus: illi</l>
+<l rend='indent'>Fidimus at contra, quem dare verba iuvat.</l>
+<l>Sic sumus huic similes, quem spe deludit inani</l>
+<l rend='indent'>Perdix, dum pullis consulit ipsa suis.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.09' n='9' type='book'>
+<head>ODA IX. In Scholasticos plumigeros vanaque eruditionis opinione inflatos. </head>
+<argument><head>NUCLEUS.</head>
+<p>Non pluma, non vestis, sed ars studiosum facit.</p></argument>
+<lg met='iadi'>
+<l><unclear reason='page damaged'>FEX</unclear> <note resp='transcriber'>FEX=FAEX</note>
+nunc iners <unclear reason='letter hard to decode'>scholasticae</unclear></l>
+<l>Prodire tandem in publicum,</l>
+<l>Suisque dignum fraudibus</l>
+</lg>
+<pb id='s061' n='53'/>
+<lg met='iadi'>
+<l><figure><head>Hic artes simul omnes cum sacculo devorat.</head><figDesc></figDesc></figure></l>
+<l>Locum subire quaeritat.</l>
+<l>Sic ordo namque postulat.</l>
+<l>Non, ora centum si forent,</l>
+<l>Linguaeque multo plurimae,</l>
+<l>Sat hercle possem commode</l>
+<l>Scholasticorum subdolas</l>
+<pb id='s062' n='54'/>
+<l>Fallacias exponere;</l>
+<l>Non, Argus etsi viveret,</l>
+<l>Posset suis ocellulis</l>
+<l>Videre, vel perquirere</l>
+<l>Astutias scholarium.</l>
+<l>Verumtamen conabimur</l>
+<l>Praestare, quantum possumus.</l>
+<l>Vix regulam syntaxeos</l>
+<l>Primam cerebro condidit:</l>
+<l>Vix ora pugnis rubida,</l>
+<l>Nudumque virgae podicem</l>
+<l>Subduxit, ecce, grandibus</l>
+<l>Tumidisque fervens aestibus</l>
+<l>Incedit, atque virgei</l>
+<l>Caligas doloris conscias</l>
+<l>Abominatur pessime,</l>
+<l>Natibusque splendidissimas</l>
+<l>Adaptat atque amplissimas.</l>
+<l>Latus deinde debile</l>
+<l>Ensi coaptat maximo,</l>
+<l>Quo sicut aequilibrio</l>
+<l>Innititur, maiusculo</l>
+<l>Ne forte raptus ventulo</l>
+<l>In saxa dura concidat,</l>
+<l>Capitisque mulctam sentiat.</l>
+<l>Mox cristulas in pileo,</l>
+<l>Mox cristulas in pectore</l>
+<l>Fastu superbus erigit,</l>
+<l><unclear reason='page blotted'>Crurique</unclear> subligaria</l>
+<l>Hinc inde nectit pendula,</l>
+<l>Quibus supervacaneum</l>
+<pb id='s063' n='55'/>
+<l>Vento creet negotium,</l>
+<l>Muscaeque punctiunculas</l>
+<l>A crure diras arceat.</l>
+<l>Rosas deinde calceis</l>
+<l>Subinicit latissimas,</l>
+<l>Existimes ut vaccei</l>
+<l>Par esse grande stercoris.</l>
+<l>Demum his onustus neniis</l>
+<l>Lares relinquit patrios,</l>
+<l>Vitamque cordialibus</l>
+<l>Academicam suspiriis</l>
+<l>Optat, capessit, incipit.</l>
+<l>Quid multa? talem se gerit,</l>
+<l>Ut vel referre taedeat.</l>
+<l>Non <reg orig='literis'>litteris</reg>, non artibus</l>
+<l>Operam navat, sed helluo</l>
+<l>Noctes diesque perbibit,</l>
+<l>Stertit, librosque murium</l>
+<l>Corrosioni subicit.</l>
+<l>Tandem vacivus nummulis,</l>
+<l>Aegrotus in marsupio,</l>
+<l>Multo domum revertitur,</l>
+<l>Quam quondam abhinc recesserat,</l>
+<l>Effectus imperitior.</l>
+<l>Haec veritati congrua</l>
+<l>Vel illud esse comprobet,</l>
+<l>Quod forte nuper contigit.</l>
+<l>Academiam subiverat</l>
+<l>Fors rusticelli filius,</l>
+<l>Et plurimum pecuniae</l>
+<pb id='s064' n='56'/>
+<l>Pro more ibi consumpserat.</l>
+<l>Tandem reversus ad patrem,</l>
+<l>Vitaeque agrestis immemor</l>
+<l>Gestus agebat splendidos.</l>
+<l>Sumptus parens non immemor,</l>
+<l>Quem filio suggesserat,</l>
+<l>Examinare commodo</l>
+<l>Illum volebat tempore,</l>
+<l>Cum, stercorandis arvulis,</l>
+<l>Fimis onustum redderet</l>
+<l>Plaustrum, rogabat filium;</l>
+<l>Quali Latini nomine</l>
+<l>Illud solerent dicere,</l>
+<l>Quod tres haberet cuspides,</l>
+<l>Et quo fimum sustolleret?</l>
+<l>Mox ille: MISTGABELIUM.</l>
+<l>Sed quomodo istud alterum,</l>
+<l>Stercus revellens funditus,</l>
+<l>Geminoque dente praeditum?</l>
+<l>Respondet ille: KARSTIUM.</l>
+<l>O impudentem SCHELMIUM!</l>
+<l>Parens subinfert ilico,</l>
+<l>Vix me, sceleste, contines,</l>
+<l>Quin huncce MISTGABELIUM,</l>
+<l>Grandemque sumam KARSTIUM,</l>
+<l>Tuumque nequam SCHWARTIUM,</l>
+<l>Crassumque SCHELMIRUCKIUM</l>
+<l>Modis acerbis dedolem.</l>
+<l>Vix eloqui desiverat,</l>
+<l><unclear reason='page blotted'>Natum</unclear> fimeto destinat,</l>
+<pb id='s065' n='57'/>
+<l>Et, quem putarat Musicum,</l>
+<l>Nunc mandat esse rusticum.</l>
+</lg>
+<div2 id='FlNF.09.01' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Artium et scientiarum praestantiae.</note> PLerique in eo Philosophi, et, quicumque illis accensentur, viri eruditi consentiunt, scientias atque artes, homini nonnihil dignitatis adferre, ita ut saepenumero ultra humanitatis limites in Deorum beatorum choros eum referre possint. Hinc infinita illa et innumera scientiarum praeconia, quibus quisque eas artes atque disciplinas, in quibus iam diuturno usu animi sui vires exercuit atque exacuit, non minus exculto, quam prolixo sermone omnibus aliis conatur anteferre et vel supra ipsos caelos attollere. Num recte ita sentiant, nolo ego, viribus quippe impar, indicare. <note>Error Corn. <unclear reason='letter hard to decode'>Agrippae</unclear>.</note> Negat profecto Cornelius Agrippa, et strenue quidem negat. Nam (ait) prout artes et scientiae illae in alium atque alium incidunt, alios etiam atque alios effectus producunt. Si in malum quempiam inciderint, mirum nisi magis noxiae fuerint, illumque ex malo multo reddiderint deteriorem; ut perversum Grammaticum, vaniloquum Poetam, mendacem historicum, rhetorem palponem, dialecticum litigiosum, sophistam fallacem, lascivum Musicum, astronomum superstitiosum, physicum absurdum, portentosum
+<pb id='s066' n='58'/>
+Metaphysicum, ethicum morosum, iniquum Politicum, Iuridicum flexiloquum, Medicum ineptientem, Theologum <foreign lang='GR'>e(tero/docon</foreign> et contentiosum. Quid multis? A primis statim initiis, cum pueris infundi atque instillari coeperint, mores eorundem plerumque mutant in deterius, et cum nequam prius fuerint, multo deinde evadunt nequiores. Quodsi etiam in non tam malum, sed stultum aliquem incidant, nihil illo insolentius ac inopportunum magis: nam praeter id, quod illi de cognata stultitia superest, tuetur illum doctrinae auctoritas, habetque <reg orig='literarum'>litterarum</reg> instrumenta, quibus suam defendat amentiam, quibus ceteri stulti carentes mitius insaniunt, quemadmodum de Rhetore ait Plato: Nam quo erit (inquit) ineptior atque indoctior, hoc plura narrabit, imitabitur omnia, nihilque indignum se putabit. Nihil igitur exitialius, quam cum ratione insanire, merito videri potest; atque adeo artes omnes atque scientiae, cum deteriores plerumque sectatores suos faciant, exterminari atque eliminari debent.</p>
+<p><note>III. Eius confutatio.</note> Errat autem Agrippa grandem errorem, et ignorat crassa ignorantia. Quis enim vinum ob temulentiam meam culpet? Quis aurum propter furem? Quis ensem propter latronem? Non terra vinum eam
+<pb id='s067' n='59'/>
+ob causam producit, ut isto ad vomitum usque me ingurgitem. Non aurum ideo in usu est humano, ut fures faciat. Non ensis ideo efficitur, ut latronibus adiumento sit. Sic nec artes ideo perdiscuntur, ut nequitia eo maiori et acutiori sollertia possit exerceri, sed <reg orig='imo'>immo</reg>, ut iis mediantibus omnibus ista e locis possit expelli atque arceri.</p>
+<p><note>IV. Mores iuvenum studiosorum quales.</note> Quod iuvenes studiis dediti aliis plerumque sint petulantiores ac peiores, quis adeo amens, ut artibus illud adsignet? Nimirum</p>
+<lg met='hexa'>
+<l>Imberbis iuvenis tandem custode remoto</l>
+<l>Gaudet equis, canibusque et aprici gramine campi:</l>
+<l>Cereus in vitium flecti, monitoribus asper.</l>
+</lg>
+<p>Hi igitur defectus artium atque scientiarum adminiculo sunt corrigendi, quandoquidem, Poeta teste,</p>
+<lg met='dist'>
+<l>------- didicisse fideliter artes</l>
+<l rend='indent'>Emollit mores, nec sinit esse feros.</l>
+</lg>
+<p>Et, Seneca suffragante,</p>
+<lg>
+<l>Quo quisque doctior, eo est humanior.</l>
+</lg>
+<p>Versa autem vice,</p>
+<lg>
+<l>Quo quique indoctior, eo est impudentior.</l>
+</lg>
+<pb id='s068' n='60'/>
+<p>Ceterum de moribus modernorum quorundam Scholarium usitatis qui notitiam parare sibi volet, subeat Amphitheatrum Ioco-serium Casparis DornavI, in disputatione de Natura Pennalium, ubi materiam ridendi largissimam inveniet.</p>
+<p><note>V. Superbia cumprimis studioso vitandas.</note> Vitanda vero cumprimis est iuventuti, <reg orig='literis'>litteris</reg> et artibus deditae, superbia, de qua Franciscus Petrarcha dialog. 41. de discipulo indocili ac superbo, verissime asserit: Superbia hostis ingenii est, dumque subesse dedignatur, et discere negligit discipulus, insolens aegre manum ferulae subiciet, doctrinae animum, reprehensionibus aurem, collum iugo. Nimirum sicut tumor oculorum visui, ita tumor animi ingenio nocet: ut disciplinis aditus fiat, comprimenda est omnis elatio. Qua de re eleganter etiam Ovid. 1. Art.</p>
+<lg met='dist'>
+<l>Phillyrides puerum citharae praefecit Achillem,</l>
+<l rend='indent'>Atque animos molli contudit arte feros.</l>
+<l>Qui toties socios, toties exterruit hostes,</l>
+<l rend='indent'>Creditur annosum pertimuisse senem.</l>
+<l>Quas Hector sensurus erat, poscente magistro</l>
+<l rend='indent'>Verberibus iussas praebuit ille manus.</l>
+</lg>
+<p>Ausonii etiam consilium locum reperiat, quod Eidyll. 5. suppeditat:</p>
+<lg met='hexa'>
+<l>Disce lubens, tetrici nec praeceptoris habenas</l>
+<l>Detestare nepos, numquam horrida forma magistri,</l>
+<l>Ille licet tristis senio, nec voce serenus</l>
+<l>Asperae contractae minitetur iurgia frontis,</l>
+<pb id='s069' n='61'/>
+<l>Numquam immanis erit, placita assuetudine vultus</l>
+<l>Qui semel imbuerit, rugas nutricis amabit,</l>
+<l>Qui refugit matrem, pappos, aviasque trementes</l>
+<l>Anteferunt patribus seri nova cura nepotes,</l>
+<l>Sic neque Peliden terrebat Achillea Chiron</l>
+<l>Thessalico permixtus equo, nec pinifer Atlas</l>
+<l>Amphitryoniaden puerum, sed blandus uterque</l>
+<l>Mitibus alloquiis teneros mulcebat alumnos.</l>
+<l>Tu quoque ne metuas, quamvis schola verbere multo</l>
+<l>Increpet, et truculenta senex gerat ora magister.</l>
+<l>Degeneres animos timor arguit: at tibi consta</l>
+<l>Intrepidus, nec te clamor, plagaeque sonantes,</l>
+<l>Nec matutinis agitet formido sub horis,</l>
+<l>Quod sceptrum vibrat ferulae, quod multa supellex</l>
+<l>Virgea, quod mollis scuticam praetexit <unclear reason='?'></unclear><unclear reason='?'>alutae</unclear>,</l>
+<l>Quod fervent trepido subsellia vestra tumultu.</l>
+<l>Pompa loci, et vani fugiatur scena tumoris.</l>
+</lg>
+<p><note>VI. Scholarum utilitas maxima.</note> De scholarum utilitatibus atque commodis, quin et amplissimae et praestantissimae sint, neminem puto esse qui dubitet, cum ad veram religionem conservandam, et ad posteros propagandam, mores et vitam hominum probe informandam, et artium liberalium cognitionem comparandam maxime omnium inserviant. Certe qui scholas e mundo exterminandas statuit, idem facit ac si solem caelo deturbari iubeat. Vide de hac re Ioannem Althusium Politic. cap. 9. them. 38. 39. 40. Bartholomaeum Keckermannum
+<pb id='s070' n='62'/>
+in Systemate Politic. Casmannum in vita Politica, et Matth. Stephanum lib. ult. de iurisdictione.</p>
+</div2>
+</div1>
+<div1 id='FlNF.10' n='10' type='book'>
+<head>ODA X. In adulatores ac delatores. </head>
+<argument><head>NUCLEUS.</head>
+<p>Adulator niger est: hunc tu caveto.</p></argument>
+<lg met='iadi'>
+<l>QUi vela venti turgida</l>
+<l>Quocumque novit tempore</l>
+<l>Accommodare flatibus,</l>
+<l>Et ex eodem frigidum</l>
+<l>Calidumque flare gutture,</l>
+<l>Et ille ad hoc collegium</l>
+<l>Nequissimorum pertinet.</l>
+<l>Hunc si quis in consortium</l>
+<l>Suum receptet, ilico</l>
+<l>Illius appetitibus</l>
+<l>Inservit atque nutibus,</l>
+<l>Et sub figura pharmaci</l>
+<l>Letale mulsum suggerit.</l>
+<l>Rides; cachinnos excitat.</l>
+<l>Ploras; gemit suspiriis.</l>
+<l>Sudas; calore diffluit.</l>
+<l>Friges; rigescit frigore.</l>
+</lg>
+<pb id='s071' n='63'/>
+<lg met='iadi'>
+<l><figure><head>Hic victum amictumque assentando quaeritat.</head><figDesc></figDesc></figure></l>
+<l>Dormire vis; iam somniat.</l>
+<l>Furis; tumultus excitat.</l>
+<l>Irasceris; torvum videt.</l>
+<l>Sermocinaris; ceteris</l>
+<l>Altum imperat silentium.</l>
+<l>Laetaris; instat plausibus,</l>
+<pb id='s072' n='64'/>
+<l>Quod si tuis inhaeserit</l>
+<l>In palliis pulvisculus,</l>
+<l>Pilusve, vel quid sordidum,</l>
+<l>Manu revellit, subdola</l>
+<l>Barbamque dextra vellicat.</l>
+<l>Omnes colores suscipit,</l>
+<l>Solius albi nescius</l>
+<l>Coloris, atque rubidi:</l>
+<l>Semperque ceu mutabilis</l>
+<l>Reciprocat Chamaeleon.</l>
+<l>Si quid pusilli criminis</l>
+<l>Commilito patraverit,</l>
+<l>Mox heri ad aures portitat,</l>
+<l>Et, quam potest, <sic corr='convitiis'>conviciis</sic></l>
+<l>Exaggerat gravissimis,</l>
+<l>Cum millies scelestior,</l>
+<l>Furcaque multo dignior,</l>
+<l>Meritus sit ipse <reg orig='literam'>litteram</reg></l>
+<l>Referre longiusculam.</l>
+<l>Heus, qui sapis, Gnathonibus</l>
+<l>Et aurium mulctoribus</l>
+<l>Invisus istis abstine,</l>
+<l>Proculque abactos ultimis</l>
+<l>Iube exulare finibus.</l>
+</lg>
+<div2 id='FlNF.10.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p>
+<note>I. Assentatorum mores quales sint.</note> SIc mores ferunt assentatoris.
+</p>
+<lg met='hexa'>
+<l>----- Rides? maiore cachinno</l>
+<l>Concutitur: flet, si lacrimas conspexit amici,</l>
+<pb id='s073' n='65'/>
+<l>Nec dolet: igniculum brumae si tempore poscas,</l>
+<l>Accipit Endromidem: si dixeris, aestuo, sudat.</l>
+<closer>[Iuvenalis Sat. 3.]</closer>
+</lg>
+<lg met='hexa'>
+<l>Quid, quod adulandi gens prudentissima laudat</l>
+<l>Sermonem indocti, faciem deformis amici,</l>
+<l>Et longum invalidi collum cervicibus aequat</l>
+<l>Herculis, Antaeum procul a tellure tenentis.</l>
+<l>Miratur vocem angustam, qua deterius nec</l>
+<l>Ille sonat, quo mordetur gallina marito.</l>
+<closer>[Idem ibidem.]</closer>
+</lg>
+<p>Simile est Martialis Epigramma lib. 12. in Pontilianum:</p>
+<lg met='dist'>
+<l>Mentiris, credo: recitas mala carmina, laudo:</l>
+<l rend='indent'>Cantas, canto: bibis Pontiliane bibo.</l>
+<l>Pedis, dissimulo; gemma vis ludere, vincor:</l>
+<l rend='indent'>Res una est, sine me quam facis, et taceo,</l>
+<l>Nil tamen omnino praestat mihi mortuus, inquis:</l>
+<l rend='indent'>Accipiam bene te: nil volo, sed morere.</l>
+</lg>
+<p>Terentius in Eunucho suo sic suas ipsius laudes decantantem inducit Gnathonem:</p>
+<lg met='troc'>
+<l>Omnia habeo, nec quicquam habeo: nihil cum est, nihil defit tamen,</l>
+<l>Est genus hominum, qui esse primos se omnium rerum volunt,</l>
+<l>Nec sunt: hos sector: hisce ego non paro me, ut irrideant:</l>
+<l>Sed his ultro arrideo, et eorum ingenia admiror simul.</l>
+<l>Quicquid dicunt, laudo: id rursum si negant, laudo id quoque:</l>
+<pb id='s074' n='66'/>
+<l>Negat quis, nego: ait, aio: postremo imperavi egomet mihi</l>
+<l>Omnia assentari. Is quaestus nunc est multo uberrimus.</l>
+</lg>
+<p>Exemplum istiusmodi assentatioris exhibet fabula illa, quam Ioachimus Camerar. lib. fabul. p. 98. recenset.</p>
+<p>AEgrotus enim quidam a medico suo interrogatus, quo pacto praeteritam noctem peregisset? respondit, se admodum sudasse. Hoc, inquit Medicus, bonum est. Postridie reversus, et similiter percontatus aegrotantem audivit, horrore fuisse ipsum vehementi concussum; Et hoc ipsum, Medicus inquit, bonum est. Tertio sciscitatus, quomodo haberet, cognovit, intercutem effusam affligere hominem, Sed et hoc bonum esse dixit. Digresse Medico, accessit ex amicis unus aegrotum, et, quid fit, inquit, et quo in loco sunt res tuae? Optimo, inquit aegrotus. Nam multitudine bonorum fere exstinguor.</p>
+<p><sic corr='Epimydion'>Epimythion</sic> fabulae huius ab Hieronymo accipe, qui in epist. ad Rusticum; Ne credas, inquit, laudatoribus tuis, <reg orig='imo'>immo</reg>imo irrisoribus aurem ne libenter accommodes, qui, cum te adulationibus foverint, et cum te impotem mentis effecerint, si subito respexeris deprehendes post te colla incurari, aut manu auriculas agitari asini, aut aestuantem canis protendi linguam.</p>
+<pb id='s075' n='67'/>
+</div2>
+</div1>
+<div1 id='FlNF.11' n='11' type='book'>
+<head>ODA XI. In Sacrificulos, monachos, monialesque. </head>
+<argument><head>NUCLEUS.</head>
+<p>Preces sub lingua natae irritae.</p></argument>
+<lg met='iadi'>
+<l>SI non aberro, pectoris</l>
+<l>Nec deviat sententia,</l>
+<l>Monachos rudes, et caelibes</l>
+<l>Contenderem potissimum</l>
+<l>Huc pertinere virgines;</l>
+<l>Et quos ob imperitiam</l>
+<l>Misellulos fraterculos</l>
+<l>Vocamus ignorantiae,</l>
+<l>Qui propter assuetudinem,</l>
+<l>Longo frequentem tempore,</l>
+<l>Aedes sacratas visitant,</l>
+<l>Ut repleant sedilia,</l>
+<l>Vel mussitantes invicem</l>
+<l>Linguae Latinae voculas</l>
+<l>Inane murmur proferant,</l>
+<l>Quod nec rudis plebeculae</l>
+<l>Phalanx, nec ipsi intelligunt.</l>
+<l>Preces ab ore saepius</l>
+<l>Effutiunt: at interim</l>
+<l>Aut in popinis pectore</l>
+</lg>
+<pb id='s076' n='68'/>
+<lg met='iadi'>
+<l><figure><head>Hic sermonem e cava profert olla.</head><figDesc></figDesc></figure></l>
+<l>Versantur, aut in balneis,</l>
+<l>Vel, quid rogarint, nesciunt:</l>
+<l>Et scire, quaeso, quomodo</l>
+<l>Vel mente possent assequi,</l>
+<l>Cum nullus horum stipitum</l>
+<l>Linguam Latinam noverit.</l>
+<pb id='s077' n='69'/>
+<l>At qualis efficacia</l>
+<l>Potest precum esse talium,</l>
+<l>Quas ore natas extimo</l>
+<l>Fert corde lingua nescio?</l>
+<l>Sic qui receptant nummulos,</l>
+<l>Ubi nulla eorum copia:</l>
+<l>Et qui capillos vellicant,</l>
+<l>Ubi intuentur obsitum</l>
+<l>Lata caput calvedine:</l>
+<l>Quique aucupantur gaudium,</l>
+<l>Ubi corda maeror occupat:</l>
+<l>Qui se paratos offerunt</l>
+<l>Prius, ac rogantur: singuli</l>
+<l>Hunc pertinent ad ordinem,</l>
+<l>Qui concavis e vasibus</l>
+<l>Et testulis inanibus</l>
+<l>Novere verba promere.</l>
+</lg>
+<div2 id='FlNF.11.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Preces sub lingua natae.</note> PLus, inquit Augustinus, placet Deo latratus canum, mugitus boum, grunnitus porcorum, quam cantus clericorum luxuriantium. Etenim (quaestio est Isidori lib. 3. de summ. bon. cap. 8.) Quid prodest strepitus labiorum, ubi cor est mutum? Sicut enim vox sine modulatione est quasi vox porcorum, sic oratio sine devotione, est quasi mugitus boum. Talesque preces sub lingua <reg orig='nate'>natae</reg> dicuntur, pectore illarum prorsus ignaro. Non secus, ac si quis ex olla vacua sermones
+<pb id='s078' n='70'/>
+promere ausit; quod Germani in proverbio dicunt <foreign lang='GE'>Auß einem holen Hafen reden.</foreign> Quemadmodum autem frumentorum granula, telluris tantummodo superficiei iniecta, exarescunt, nullumque fructum proferunt, nisi occando sulcandoque subigantur soloque condantur: Ita preces sub lingua natae, oreque solo, inscio corde, effutitae, effectu carent, nisi aerumnarum miseriarumque mole depresso pectore proficiscantur.</p>
+<p>Non, inquit Chrysostom. super Matt. cap. 6. voce clamosa pulsandus est Deus, sed <corr sic='conscientiae' resp='transcriber'>conscientia</corr> recta placandus; quia non est vocis, sed cordis auditor. Sic Isidorus, quem paulo ante allegavi, eodem in loco: Oratio cordis est, non labiorum: neque enim verba deprecantis Deus intendit, sed orantis cor adspicit. Melius est, cum silentio orare corde sine sono vocis, quam solis verbis sine intuitu mentis.</p>
+<p><note>II. Precum devotarum requisita.</note> Precum autem devotarum quaenam requisita sint, brevissime docet Cassiodorus super Psalm. 16. ubi ait: Ipsius est oratio perfecta cuius et causa clamat et lingua, et actus, et sermo, et vita, et cogitatio. Multum scilicet (teste Beda, de templo Salomonis) iuvat orationis puritatem, si in omni loco vel tempore nos ab actibus temperemus illicitis: si semper ab otiosis sermocinationibus auditum pariter castigamus et linguam: quaecumque enim saepius agere, loqui vel audire solemus, eadem necesse est saepius ad animum, quaesi solitam propriamque recurrant sedem: et sicut sues
+<pb id='s079' n='71'/>
+volutabra sive palustria, columbae limpida solent frequentare fluenta, ita cogitationes puram mentem immundae perturbant, castam spirituales sanctificant. In eundem sensum est epigramma meum, quod addo:</p>
+<lg met='dist'>
+<l>Sit persona tibi triplex bene nota roganti,</l>
+<l rend='indent'>Devoto quoties fundis ab ore preces.</l>
+<l>Prima sit haec, ad quam pia vota feruntur, et ille est,</l>
+<l rend='indent'>Qui freta, qui terras, qui regit astra, Deus.</l>
+<l>Altera mox, a qua pia vota feruntur, et ille est,</l>
+<l rend='indent'>In Christum fidei robore nixus homo.</l>
+<l>Tertia sit, per quam pia vota feruntur, et ille</l>
+<l rend='indent'>Est intercessor Christus homo atque Deus.</l>
+</lg>
+<p>Audoenus, Martialis meus, uno disticho omnia comprehendit:</p>
+<lg met='dist'>
+<l>Sit purum pectus, domus oratoria, lector</l>
+<l rend='indent'>Spiritus, et mundum cor, manuale precum.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.12' n='12' type='book'>
+<head>ODA XII. In exaggeratores censoresque immodicos delictorum. </head>
+<argument><head>NUCLEUS.</head>
+<p>Camarina non movenda.</p></argument>
+<lg met='iadi'>
+<l>VIx absolutum colligi</l>
+<l>Nequam potest consortium,</l>
+</lg>
+<pb id='s080' n='72'/>
+<lg met='iadi'>
+<l><figure><head>Hic merdam cribrando movet.</head><figDesc></figDesc></figure></l>
+<l>Si non huic accesserit</l>
+<l>Conglutinatus ordini,</l>
+<l>Qui scit laboriosius</l>
+<l>Merdam movere sordidam,</l>
+<l>Colare, cribro subdere,</l>
+<l>Mox perforare, pungere,</l>
+<l>Modisque mille vellere,</l>
+<pb id='s081' n='73'/>
+<l>Atque his odorem motibus</l>
+<l>Creare foetidissimum.</l>
+<l>Hic, quae vetustus tabidae</l>
+<l>Vel ante centum saecula</l>
+<l>Oblivioni tradidit,</l>
+<l>Et iam diu longissima</l>
+<l>Deleverit praescriptio,</l>
+<l>Orco reducit infimo.</l>
+<l>At posteaquam stercoris</l>
+<l>Foetor per omnes iverit</l>
+<l>Hinc angulos, et pervio</l>
+<l>Nares odore impleverit,</l>
+<l>Tunc callidis argutiis</l>
+<l>Se litibus subducere</l>
+<l>Novit, velut qui turbidam</l>
+<l>Non reddidisset guttulam,</l>
+<l>Et crebrius nil quam suam</l>
+<l>Allegat innocentiam:</l>
+<l>Cum nequiorem vix tamen</l>
+<l>Reperire possis alterum,</l>
+<l>Ardente quamvis lampade</l>
+<l>Instructus esses praevia,</l>
+<l>Denasque per provincias</l>
+<l>Inquireres amplissimas.</l>
+<l>At, quaeso, quorsum convenit</l>
+<l>Haec stercoris commotio</l>
+<l>Merdaeque vellicatio?</l>
+<l>Cur prisca, nequam furcifer,</l>
+<l>Nobis revolvis crimina,</l>
+<l>Cum tanta sit recentium</l>
+<pb id='s082' n='74'/>
+<l>Transgressionum copia?</l>
+<l>Si sunt in orbe singula</l>
+<l>Hoc iudicanda crimina,</l>
+<l>Hoc punienda crimina,</l>
+<l>Quorsum tribunal ultimum</l>
+<l>Summique laudum iudicis,</l>
+<l>Quo proferentur omnia,</l>
+<l>Quae longa quondam oblivio</l>
+<l>Occulta sepeliverat?</l>
+</lg>
+<div2 id='FlNF.12.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Camarinam movere quid sit.</note> TAlem Camarinam movent, qui diu oblivione exstincta denuo in apricum proferunt, mirisque artibus exaggerant, nullam aliam ob causam, quam ut novas tragoedias, novosque tumultus excitent. Si quos forte inimicos in gratiam redire vident, mox paleas, pilos, sulphur igni, qui exstinctus iam videbatur, adhibent, calumniaeque flabro tantas de novo flammas causantur, quibus sedandis nec Oceanus sufficeret.</p>
+<lg met='sena'>
+<head>De his Plautus in Sticho;</head>
+<l>Sed Curiosi hic sunt quam plures mali,</l>
+<l>Alienas res qui curant studio maximo:</l>
+<l>Quibus ipsis nulla est res, quam procurent, sua.</l>
+</lg>
+<p>Terentius in Heautont. hanc perversitatem secum admirans, alta voce exclamat:</p>
+<pb id='s083' n='75'/>
+<lg>
+<l>Dii vestram fidem? itane comparatam esse hominum naturam omnium,</l>
+<l>Aliena melius ut videant, et iudicent, quam sua.</l>
+</lg>
+<p>Horat. 1. Serm. 3.</p>
+<lg met='hexa'>
+<l>-- Egomet mi ignosco, Maevius inquit,</l>
+<l>Stultus et improbus hic amor est, dignusque notari,</l>
+<l>Cum tua pervideas oculis mala lippus inunctis,</l>
+<l>Cur in amicorum vitiis tam cernis acutum,</l>
+<l>Quam aut aquila, aut serpens Epidaurius.</l>
+</lg>
+<p><note>II. Aliqua mala sunt tegenda.</note> At notatu dignum est vetus Adagium, quod habet Valerius Maximus: <foreign lang='GR'>Mh\ mnhsikakh/seis</foreign>. Ne memineris malorum. Sic qui olim oblitterari memoriam malorum iubebant, illud Homeri usurpabant.</p>
+<lg met='hexa'>
+<l><foreign lang='GR'>Ta\ de\ pa/nta qeoi\ metamw/lia qei=en</foreign>,</l>
+<l>Irrita Di superi ventis haec omnia tradant.</l>
+</lg>
+<p><note>Sunt verba Mureti.</note> Nam quae, malum, est insania, ea, quae iamdudum sopita atque oblitterata sunt, mala, denuo iterum in apricum producere? quam vero utilitatem affert? Si quis sordes in cloaca delitescentes, commovere baculoque aut alio instrumento hinc inde atque ex imo quasi fundo proturbare ausit, quid aliud aget, quam quod foetorem excitabit longe graviorem atque abominabiliorem? Apage igitur mihi sint nebulones isti stercorarii, quibus id volupe est, ut aliorum delicta iam diu oblivione sepulta, ex intimis quasi terrae abyssis eruant atque eradant; digni medius-fidius,
+<pb id='s084' n='76'/>
+qui in <corr sic='cloca' resp='transcriber'>cloaca</corr>, a se commota, foetore suffocati vitam finiant.</p>
+</div2>
+</div1>
+<div1 id='FlNF.13' n='13' type='book'>
+<head>ODA XIIV. In eos, qui aures demulcendas sibi porrigunt. </head>
+<argument><head>NUCLEUS.</head>
+<p>Uterque nequam, et qui adulatur, et qui adulatione delectatur.</p></argument>
+<lg met='iadi'>
+<l>QUi vellicandas porrigit</l>
+<l>Aures adulatoribus,</l>
+<l>Circumque circa naribus</l>
+<l>Tractus, retractus, ducitur,</l>
+<l>Nae mentis impos est suae,</l>
+<l>Stultoque quovis stultior.</l>
+<l>Qui vellicandas arripit</l>
+<l>Aures dolo consutili,</l>
+<l>Circumque circa naribus</l>
+<l>Tractum, retractum, ductitat,</l>
+<l>Nae mentis impos candidae,</l>
+<l>Et fure quovis nequior.</l>
+<l>Quis damna, quis pericula,</l>
+<l>Venena quis letalia</l>
+<l>Retexat ore singula,</l>
+<l>Quae palpo dat versatilis?</l>
+</lg>
+<pb id='s085' n='77'/>
+<lg met='iadi'>
+<l><figure><head>Hic aures demulcet.</head><figDesc></figDesc></figure></l>
+<l>At nunc ita usus obtinet:</l>
+<l>Odiosa sordet veritas:</l>
+<l>Fallax amicos plurimos</l>
+<l>Acquirit assentatio,</l>
+<l>Et aurium demulsio.</l>
+<l>Haec pestis aulas principum</l>
+<l>Praeoccupat potissimum,</l>
+<pb id='s086' n='78'/>
+<l>Quas hi palatini canes</l>
+<l>Tantis dolis coinquinant,</l>
+<l>Fucisque tam subtiliter</l>
+<l>Effabricatis obruunt,</l>
+<l>Ut exulare candida</l>
+<l>Cogatur inde veritas.</l>
+<l>Nec mira res est admodum,</l>
+<l>Cum principum pars maxima</l>
+<l>Plerumque prurientium</l>
+<l>Sit aurium tam prodiga,</l>
+<l>Ut vellicandas suaviter</l>
+<l>Aures utrasque porrigant,</l>
+<l>Laudesque plus Gnathonicas</l>
+<l>Quam veritatem diligant.</l>
+<l>Horum deinde subditi</l>
+<l>Fiunt furoris <reg orig='amuli'>aemuli</reg>,</l>
+<l>Et quisque de <corr sic='vilissimae' resp='transcriber'>vilissima</corr></l>
+<l>Natus licet plebecula</l>
+<l>Aures suas palponibus</l>
+<l>Vafrisque adulatoribus</l>
+<l>Late trahendas commodat,</l>
+<l>Ne, blanda vellicatio</l>
+<l>Si deforet diutius,</l>
+<l>Vel diffluant torpedine,</l>
+<l>Vel concidant marcedine.</l>
+<l>Tu cautior, qui <corr sic='pulrimae' resp='transcriber'>pulrima</corr></l>
+<l>Vitare vis pericula,</l>
+<l>Arce Gnathones auribus,</l>
+<l>Arce Gnathones aedibus.</l>
+</lg>
+<pb id='s087' n='79'/>
+<div2 id='FlNF.13.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>Adulationis descriptio.</note> QUi tantopere adulationibus et palpamentis delectantur, nae illi non sunt homines, sed simiae, quibus summum volupe est, laudari. Vere simii, <reg orig='imo'>immo</reg> insani! Quid enim (Alanus de complanctu naturae) aliud est adulationis unctio, nisi donorum emunctio? Quid commendationis allusio, nisi praelatorum delusio? Quid laudis arrisio, nisi eorundem derisio? [Alexander Magnus, cum in obsidione cuiusdam urbis circuisset muros, ictu sagittae percussus, cum represso sanguine sicci vulneris dolor cresceret, et crus obstupuisset, coactus absistere; Omnes, inquit, me filium esse iurant Iovis, sed vulnus hoc hominem me esse clamat. Idem nos faciamus dicamusque: Vos quidem dicitis me esse prudentem, ego autem video, quam multa inutilia concupiscam, nocitura optem. Haec Senecae sunt verba epist. 60. ad Lucil.]</p>
+<p>De Sigismundo Imperatore Aeneas Silvius lib. 1. comment. de rebus gestis Alphonsi, narrat, Vatiniano ipsum adulatores odio prosecutum fuisse. Cumque aliquando assentator quidam supra modum eum laudasset, Diisque similem esse dixisset, alapas aliquot grandes ei impegit. De quibus cum ille lamentabundus quereretur, rogaretque: Cur me caedis, Imperator? Cur me, inquit Sigismundus, mordes, adulator?</p>
+<pb id='s088' n='80'/>
+<p>Sic Bion, eos qui auscultarent adulatoribus, dicebat esse similes amphoris, quae auribus circumaguntur; referente Erasmo 8. Apophth. ex Plutarcho.</p>
+<p>Diogenis adagium erat: <foreign lang='GR'>Krei=tton e)mpesei=n ei)s ko/rakas, h)\ ei)s ko/lakas</foreign>. Tutius est, incidere in corvos, quam in adulatores. In quem sensum est epigramma Iacobi Billii, in Anthologia sacra:</p>
+<lg met='dist'>
+<l>Non inter cicures palpone nocentior ulla est</l>
+<l rend='indent'><reg orig='Bellua'>Belua</reg>, nec quae plus gignat in orbe mali.</l>
+<l>Vix etenim est ullus, cui non per verba propinet,</l>
+<l rend='indent'>Quae mage sint ipso dulcia melle, necem.</l>
+<l>Ac licet exstincto corvus se corpore pascat:</l>
+<l rend='indent'>Corporibus vivis abstinet ille tamen.</l>
+<l>Saevior at contra palpo nece parcit ademptis:</l>
+<l rend='indent'>At vivos blandis morsibus usque petit.</l>
+</lg>
+<p><note>Alan. de complanctu natur.</note> Huius pestis pestilentia percutiunt principum laterales, palatini canes, adulationis artifices, fabri laudis, figuli falsitatis. Hi sunt, qui magniloqua commendationis tuba in divitum auribus citharizant, qui medicae adulationis favos foras eructant, qui, ut emungant munera, caput divitis oleo adulationis inungunt, praelatorum auribus pulvinaria laudum subiciunt, qui ab eorum palliis, aut ficticium pulverem excutiunt, aut vestem ficticie deplumant implumem.</p>
+<p>Eadem prorsus Cassiodorus de eodem vitio tradit. Adulatio, inquit, blanda omnibus applaudit, omnibus salve dicit, prodigos vocat liberales: <unclear reason='page damaged'>Avaros</unclear>, parcos et sapientes: lascivos, curiales;
+<pb id='s089' n='81'/>
+garrulos, affabiles: obstinatos, constantes: pigros, maturos et graves. haec sagitta leviter volat, et cito infigitur.</p>
+<p>Qui plura hac de re cupis lege Theophrast. de notis assentatorum. Ubi multa, quae risum tibi movebunt.</p>
+<p>Magnates et Principes adversus istud adulationis venenum, Homericum illud, tamquam pharmacon quoddam, in promptu semper habeant:</p>
+<lg met='hexa'>
+<l><foreign lang='GR'>ou)/toi e)gw\ qeo/s ei)mi, ti/ m' a)qana/toisin e)i/skeis</foreign>!</l>
+<l>Nullum ego sum numen, quid me immortalibus aequas?</l>
+</lg>
+<p>Inferioris fortunae homines illud Ciceronis lib. 1. Offic. Cavendum, ne assentatoribus patefaciamus aures, et ne adulari nos sinamus, in quo falli facile est. Tales enim nos esse putamus, ut iure laudemur: ex quo nascuntur innumerabilia peccata. Intus, inquit Seneca epist. 77. te ipsum considera, non, qualis sis, aliis credas.</p>
+</div2>
+</div1>
+<div1 id='FlNF.14' n='14' type='book'>
+<head>ODA XIV. In calumniatores atque obtrectatores. </head>
+<argument><head>NUCLEUS.</head>
+<lg met='dist'>
+<l>Omnia si perdas, famam servare memento,</l> 
+<l>Qua semel amissa postea nullus eris.</l>
+</lg>
+</argument>
+<lg met='iadi'>
+<l>ACerba vulgo nummuli,</l>
+<l>Multoque adhuc acerbior,</l>
+<pb id='s090' n='82'/>
+<l>Iactura vitae creditur.</l>
+<l>At nominis si laesio</l>
+<l>Famaeque diminutio</l>
+<l>His comparetur, parvuli</l>
+<l>Referre vix pulvisculi</l>
+<l>Poterunt vel unum granulum.</l>
+<l>Quin ipsa famam nominis</l>
+<l>Et iura vitae praeferunt,</l>
+<l>Multoque pluris aestimant.</l>
+<l>Sed hisce non obstantibus</l>
+<l>Tam nunc scelesta plurium</l>
+<l>Nequam viget perversitas,</l>
+<l>Et nauseanda pravitas,</l>
+<l>Ut quosque candidissimos</l>
+<l>Viros, eosdemque optimos</l>
+<l><sic corr='Conviciis'>Convitiis</sic> turpissimis,</l>
+<l>Telisque linguae pessimis</l>
+<l>Non erubescant pungere;</l>
+<l>At quosque contra pessimos</l>
+<l>Nequam celebrioribus</l>
+<l>Ad astra tollant laudibus.</l>
+<l>O pravitatem saeculi!</l>
+<l>O irrigandam plurimis</l>
+<l>Perversitatem fletibus!</l>
+<l>Praesentis o deterrimam</l>
+<l>Aetatis insolentiam!</l>
+<l>Quae de caprina lanula</l>
+<l>Aliisve causis frivolis</l>
+<l>In proximum gravissimis</l>
+<l><unclear reason='page damaged'>Armata</unclear> probris, detonat.</l>
+</lg>
+<pb id='s091' n='83'/>
+<lg met='iadi'>
+<l><figure><head>Hic unus est e circumforaneorum grege.</head><figDesc></figDesc></figure></l>
+<l>O viperas dirissimas,</l>
+<l>Canesque lividissimos,</l>
+<l>Dignissimos, quos desuper</l>
+<l>Fetens matella proluat!</l>
+<l>Candoris at tute appetens</l>
+<l>Ne pende vili nominis</l>
+<l>Existimatiunculam,</l>
+<pb id='s092' n='84'/>
+<l>Quamuisque perdas omnia,</l>
+<l>Domos, agellos, praedia,</l>
+<l>Pecunias: famam tamen</l>
+<l>Servare semper integram</l>
+<l>Summis stude laboribus,</l>
+<l>Namque hac semel deperdita</l>
+<l>Perdes misellus omnia,</l>
+<l>Erisque nullus postea.</l>
+</lg>
+<div2 id='FlNF.14.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Calumnia et detractio quantum vitium.</note> EIusdem prorsus cum hac summulae erat oda IV. ad quam vide quae adnotavi.</p>
+<p>Nimirum uti quisque est nequissimus, ita alios etiam veluti sui similes traducit. Quemadmodum igitur non laus est, nisi a viro laudato lauderis, ita nec vituperium est, quod a nebulone in virum bonum evomitur. Belle admodum Seneca de remed. fortun. Male, inquit, de te opinantur homines, sed mali. Moverer, si me Marius, si Cato, si Laelius sapiens, si alter Cato si Scipiones duo ista loquerentur: moverer, si hoc iudicio facerent, quod nunc morbo faciunt. Etenim, ut Comicus Graecus ait,</p>
+<lg met='trim'>
+<l><foreign lang='GR'>h)/qous dikai/ou fau=los ou) yau/ei lo/gos.</foreign></l>
+<l>Attingere probos verba non queunt mala.</l>
+</lg>
+<p>Et dic quaeso; Si quis solem tenebrarum auctorem aestimet, soline an sibi detraxit? Sibi videlicet ipsi, cum furiosi et insanientis opinionem sequatur. Eodem profecto modo, qui pravos bonos esse putant, et e contrario se ipsos vituperant.</p>
+<pb id='s093' n='85'/>
+<p>Bonae profecto famae apprime esse studendum, auctores monent. Seneca de remed. fort.</p>
+<p><note>II. Bona <corr sic='famae' resp='transcriber'>fama</corr> praestantior divitiis.</note> Bona, inquit, opinio hominum tutior est pecunia. Bonum est, quod supprimitur, nequaquam exstinguitur: bona fama in tenebris proprium splendorem tenet. Idem in Prov. Honestus rumor alterum est patrimonium.</p>
+<lg met='dist'>
+<head>Ovid. 2. Fastor.</head>
+<l>Fama manet facti, posito velamine currunt,</l>
+<l rend='indent'>Et memorem famam, qui bene gessit, habet.</l>
+</lg>
+<p>Salomon etiam, rex sub sole sapientissimus, idem approbat Proverb. 22. Melius est nomen bonum, quam divitiae multae: super argentum enim et aurum gratia bona. Et Isidorus in synonymis soliloquiorum lib. 2. cap. 27. Disce bono flagrare praeconio. Custodi bonam famam tuam. Plaut. Mostellaria:</p>
+<lg>
+<l>Ego si bonam famam mihi servasso, sat ero dives.</l>
+</lg>
+<lg met='dist'>
+<head>Ovid. lib. 3. Pont. eleg. 2.</head>
+<l>Corpora debentur maestis exanguia <note resp='transcriber'>exs...</note> bustis,</l>
+<l rend='indent'>Effugiunt structos nomen honosque rogos.</l>
+<l>Occidit et Theseus, et qui tumulavit Orestem:</l>
+<l rend='indent'>Sed tamen in laudes vivit uterque suas.</l>
+</lg>
+<pb id='s094' n='86'/>
+</div2>
+</div1>
+<div1 id='FlNF.15' n='15' type='book'>
+<head>ODA XV. In eos, qui pecunia et muneribus corrumpuntur. </head>
+<argument><head>NUCLEUS.</head>
+<p>Bos in lingua.</p></argument>
+<lg met='iadi'>
+<l>ADeste nunc famelici,</l>
+<l>Quos appetitus aureus,</l>
+<l>Famesque quos argentea,</l>
+<l>Sitisve nummularia</l>
+<l>Sua inficit cupidine:</l>
+<l>Laudes quibus, <corr sic='convitia' resp='transcriber'>cinvicia</corr>,</l>
+<l>Ius, fas, nefasque, munia,</l>
+<l>Et cuncta sunt venalia:</l>
+<l>Qui, cum fere nequissimi</l>
+<l>Sint, quos solum fert, omnium</l>
+<l>Et ulla, quamvis pessima,</l>
+<l>Non erubescant crimina</l>
+<l>Ausu patrare perfido,</l>
+<l>Lucem verentes splendidam,</l>
+<l>Post terga retro clanculum</l>
+<l>Acceptilant pecuniam,</l>
+<l>Tam callidis versutiis,</l>
+<l>Et subdolis astutiis,</l>
+<l>Illos ut esse deieres</l>
+<l>Pulcherrimos et optimos</l>
+</lg>
+<pb id='s095' n='87'/>
+<lg met='iadi'>
+<l><figure><head>Hic retro capit pecuniam.</head><figDesc></figDesc></figure></l>
+<l>Civilitatis aemulos,</l>
+<l>Ut qui recusent praebitae</l>
+<l>Opis ferendae gratiae</l>
+<l>Clientulorum praemia.</l>
+<l>At si retracta paululum</l>
+<l>Conspexerint munuscula,</l>
+<l>Mox acriores flagitant,</l>
+<pb id='s096' n='88'/>
+<l>Et ceu rapaces milvii</l>
+<l>Suis prehendunt unguibus.</l>
+<l>At haec lues potissimum</l>
+<l>Contagiosa iudices</l>
+<l>Nostri subintrat saeculi,</l>
+<l><reg orig='Queis'>Quis</reg> bos recludit spiritum,</l>
+<l>Ne veritati congruam</l>
+<l>Pronuntient sententiam,</l>
+<l>Lucrique turpis gratia</l>
+<l>Album nigellum dictitant,</l>
+<l>Obliqua recta iudicant,</l>
+<l>Et iura turbant omnia.</l>
+<l>Ubique vincit scilicet</l>
+<l>Immensa nummi auctoritas,</l>
+<l>Pecuniaeque copia;</l>
+<l>Castrumque inexpugnabile</l>
+<l>Non est, modo id contingere</l>
+<l>Hastae queant argenteae,</l>
+<l>Asinusque multo scandere</l>
+<l>Onustus auri pondere.</l>
+</lg>
+<div2 id='FlNF.15.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Pecuniae quanta vis.</note> VEtus, sed verum est adagium: Pecuniae oboediunt omnia. Graecorum eodem tendit: <foreign lang='GR'>xrh/mata a)nh\r.</foreign> Pecuniae vir. Nimirum, quod Horatius asserit,</p>
+<lg met='hexa'>
+<l>-- Uxorem cum dote, fidemque et amicos,</l>
+<l>Et genus, et formam regina pecunia donat.</l>
+</lg>
+<p>His <foreign lang='GR'>o(mo/yhfoi</foreign> sunt versus illi iambici senarii ex Bellerophonte Euripidis:</p>
+<pb id='s097' n='89'/>
+<lg met='sena'>
+<l>Sine me vocari pessimum, ut dives vocer.</l>
+<l>Nemo, an bonus: an dives, omnes quaerimus.</l>
+<l>Non quare, et unde? quid habeas, tantum rogant.</l>
+<l>Ubique tanti quisque, quantum habuit, fuit:</l>
+<l>Quid habere nobis turpe sit quaeris? Nihil:</l>
+<l>An dives, quaerimus omnes, nemo an bonus.</l>
+<l>Aut dives opto vivere, aut pauper mori.</l>
+<l>Bene moritur, quisquis moritur, dum lucrum facit.</l>
+<l>Pecunia ingens generis humani bonum.</l>
+</lg>
+<p>Virgilius lib. 3. Aeneidos:</p>
+<lg met='hexa'>
+<l>----- Quid non mortalia pectora cogis</l>
+<l>Auri sacra fames?</l>
+</lg>
+<p>Horatius ex 2. serm. Satyr. 3.</p>
+<lg met='hexa'>
+<l>----- Omnis enim res</l>
+<l>Virtus, fama, decus, divina humanaque pulchris</l>
+<l>Divitiis parent: quas qui construxerit, ille</l>
+<l>Clarus erit, fortis, iustus, sapiens, etiam et rex,</l>
+<l>Et quicquid volet.</l>
+</lg>
+<p>Propertius:</p>
+<lg met='dist'>
+
+<l rend='indent'>Aurum omnes victa iam pietate colunt.</l>
+<l>Auro pulsa fides, auro venalia iura:</l>
+<l rend='indent'>Aurum lex sequitur: mox sine lege pudor.</l>
+</lg>
+<p>Iacobus Philomusus Poeta:</p>
+<lg met='dist'>
+<l>Aurum destructor vitae, princepsque malorum,</l>
+<l rend='indent'>O quam difficiles nectis ubique dolos?</l>
+<l>O utinam natum numquam mortalibus esses,</l>
+<l rend='indent'>Dulcia suppeditas quae nocumenta viris!</l>
+<pb id='s098' n='90'/>
+<l>Te propter pugnae fiunt, et bella moventur,</l>
+<l rend='indent'>Ad praedam et caedes corpora nostra trahis.</l>
+<l>Tu facis, ingratus patrem quod filius odit:</l>
+<l rend='indent'>Inter et agnatos iurgia saepe moves.</l>
+<l>Prosternis gentes, et totum destruis orbem,</l>
+<l rend='indent'>Nulla fides hominis te duce stare potest.</l>
+</lg>
+<p>Flaccus:</p>
+<lg met='asc1'>
+<l>Aurum per medios ire satellites,</l>
+<l>Et perrumpere amat castra potentius</l>
+<l>Ferro.</l>
+</lg>
+<p>De iudice pecunia et muneribus corrupto vulgo; <foreign lang='GR'>A)rgura/gxhn pa/sxei.</foreign> Argentanginam patitur. Item: Bos in lingua.</p>
+<p>De istiusmodi perversis iudicibus, qui corrupti muneribus suffragia iniqua ferunt, aut per tyrannidem innocuos opprimunt, et Homerus Iliad. <foreign lang='GR'>p</foreign>.</p>
+<lg met='hexa'>
+<l><foreign lang='GR'>)Ai( bi/h| e)n a)gorh=| skolia\s kri/nwsi qe/mistas,</foreign></l>
+<l><foreign lang='GR'>oi( de\ di/khn e)la/swsi, qew=n o)/pin ou)k a)le/gontes</foreign>.</l>
+<l>Qui per vim in populi coetu communia iura</l>
+<l>Depravant, ac iustitiam depellere tentant,</l>
+<l>Nil veriti vocem Divum.</l>
+</lg>
+<p>At hos imitari potius decebat Anacreontem, qui, cum a Polycrate tyranno quinque talentorum acceperat munus, insomnes duas ducebat noctes, indeque cogitatione sollicitus, reddidit ea, dicens: Non tanti ea sibi esse, ut tanta cura vexari vellet.</p>
+<pb id='s099' n='91'/>
+</div2>
+</div1>
+<div1 id='FlNF.16' n='16' type='book'>
+<head>ODA XVI. In viros duplices. </head>
+<argument><head>NUCLEUS.</head>
+<p>Vir duplex duplex malum.</p></argument>
+<lg met='iadi'>
+<l>NUnc in theatrum duplici</l>
+<l>Ducemus ore praeditum,</l>
+<l>Istique nequam commoda</l>
+<l>De sede providebimus;</l>
+<l>Quam pone falsos iudices,</l>
+<l>Et institores subdolos,</l>
+<l>Iure occupabit optimo,</l>
+<l>Cum dirigat mutabile</l>
+<l>Ad flabra venti pallium<corr sic=',' resp='transcriber'>.</corr></l>
+<l>Talis figura iudicis</l>
+<l>Depingitur nequissimi,</l>
+<l>Qui forte currum acceperat,</l>
+<l>Ex rusticelli munere,</l>
+<l>Ut largienti diceret</l>
+<l>Accommodam sententiam,</l>
+<l>A parte sed contraria</l>
+<l>Corruptus idem postea</l>
+<l>Praestantiori munere,</l>
+<l>Equis duobus scilicet,</l>
+<l>Opimitate splendidis,</l>
+<l>In rusticellum protulit</l>
+<l>Trifurcifer sententiam,</l>
+</lg>
+<pb id='s100' n='92'/>
+<lg met='iadi'>
+<l><figure><head>Hic egregiam se lanam ducere simulat.</head><figDesc></figDesc></figure></l>
+<l>At ille questus plurimum</l>
+<l>Tristis rogabat, eccubi</l>
+<l>Currus suus remanserit;</l>
+<l>Cui, Barde, iudex; quid rogas?</l>
+<l>Equis abactus pectore</l>
+<l>Dudum recessit e meo.</l>
+<pb id='s101' n='93'/>
+<l>Tales adhuc quamplurimi</l>
+<l>In orbe dantur iudices,</l>
+<l>Qui sese utrisque serio</l>
+<l>Fingunt favere partibus,</l>
+<l>Cum nil volutent pectore<corr sic='.' resp='transcriber'>,</corr></l>
+<l>Quam fraude furem pessimum,</l>
+<l>Et pelle nequam maximum</l>
+<l>Turpissima circumferant.</l>
+<l>Sic institores perfidi</l>
+<l>His moribus sunt praediti:</l>
+<l>Emturientes vilius</l>
+<l>Divendituri carius</l>
+<l>Plerumque merces aestimant,</l>
+<l>Tantisque miscent fraudibus,</l>
+<l>Ut ventilatae maximis</l>
+<l>Mendaciorum flatibus</l>
+<l>Trabes fragore contremant.</l>
+<l>Nil orbe toto scilicet</l>
+<l>Hoc invenitur tempore,</l>
+<l>Expers quod esset fraudium,</l>
+<l>Sed sceptra ubique regia</l>
+<l>Vulpina pellis obtinet.</l>
+</lg>
+<div2 id='FlNF.16.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Viri duplices qui.</note> DE viris duplicibus vide quae supra ad odam 6. attuli. Nam similis haec cum illa est farinae. De iudicibus etiam et iurisperitis, sub hoc nequitiae vexillo strenue militantibus, vide, quae itidem supra ad odam 3. adnotavi.</p>
+<pb id='s102' n='94'/>
+<p><note>II. Institorum et mercatorum indoles.</note> De institoribus mercatoribusque Augustinus lib. 13. de Civit. Dei, cap. 2. ait: Omnes volunt viliter emere, et care vendere. Quos eorundem mores et Horatius l. 2. epist. ad Iulium Florum perstringit:</p>
+<lg met='hexa'>
+<l>- Plenius aequo</l>
+<l>Laudat venales, qui vult extrudere, merces.</l>
+</lg>
+<p>Par similitudinum elegans de institorum moribus habet Chrysostomus, quas non possum non subdere. Prior est in Homil. 38. in 21. cap. Matth. Quemadmodum qui ambulat inter duos inimicos, ambobus placere volens, et se commendare, sine maliloquio non potest; necesse est enim, ut et isti male loquatur de illo, et illi male loquatur de isto: Sic qui emit et vendit, sine mendacio esse non potest et periurio: necesse est enim, ut negotiatoribus hic iuret, quia non tantum valet res, quanto comparet eam: et ille iuret, quia plus valet res, quam vendit. Posterior ibidem: Quemadmodum, si triticum, aut aliquam <sic>bladi</sic> speciem in cribro, dum huc illucque iactas id, grana omnia paulatim deorsum cadunt, et in fine in cribro nihil remanet, nisi stercus solum: Sic et substantia negotiatorum, dum vendunt et veneunt, inter emptionem et venditionem minuitur, et in novissimo nihil illis remanet, nisi peccatum. Vide etiam, quae infra ad Odam 26. adnotabimus, ubi plura de iniquitatibus et fallaciis mercatorum reperies.</p>
+<pb id='s103' n='95'/>
+</div2>
+</div1>
+<div1 id='FlNF.17' n='17' type='book'>
+<head>ODA XVII. In Parasitastros et amicos ollares. </head>
+<argument><head>NUCLEUS.</head>
+<p>Alieno corio ludere facile.</p></argument>
+<lg met='iadi'>
+<l>SUnt, quos iuvat pinguedine</l>
+<l>Orbes nitentes lingere,</l>
+<l><corr sic='Aliisque' resp='transcriber'>Altisque</corr> quadris, musculi</l>
+<l>Furacis instar, vivere,</l>
+<l>Propriisque nummis parcere,</l>
+<l>Quos ollularum aruspices</l>
+<l>Non absque causa dixeris;</l>
+<l>Quod mos sit illis ollulas</l>
+<l>Famelicis disquirere,</l>
+<l>Atrumque sorptum sordido</l>
+<l>Vorare panem iusculo,</l>
+<l>Aquamque dicere optimam,</l>
+<l>Manibus lavandis praebitam,</l>
+<l>Quod haec paratam scilicet</l>
+<l>Declaret esse cenulam.</l>
+<l>Hi carnis assae frustulum</l>
+<l>Per dena milliaria</l>
+<l>Suis odorant naribus</l>
+<l>Avidaque fauce glutiunt.</l>
+</lg>
+<pb id='s104' n='96'/>
+<lg met='iadi'>
+<l><figure><head>Hic ollam sequitur atque cibum.</head><figDesc></figDesc></figure></l>
+<l>At cum iubentur debitos</l>
+<l>Numerare nummos hospiti,</l>
+<l>Nequam caput sub mensula</l>
+<l>Ceu dormientes occulunt,</l>
+<l>Velutque profundissimo</l>
+<l>Sopore pressi, gutture</l>
+<l>Ronchos ab imo maximos</l>
+<pb id='s105' n='97'/>
+<l>Late sonori ductitant,</l>
+<l>Nullisque possunt erigi</l>
+<l>Tumultuationibus,</l>
+<l>Aut vellicationibus:</l>
+<l>Tam suave nequam dormiunt!</l>
+<l>At si vel uno verbulo</l>
+<l>Solutionem spondeas,</l>
+<l>Audaciores redditi</l>
+<l>Caput scelestum proferunt,</l>
+<l>Vagosque confidentius</l>
+<l>Hinc inde ocellos missitant.</l>
+<l>Quid obstat ergo, quo minus</l>
+<l>Lubens et hos in ordinem</l>
+<l>Nequam receptos collocem?</l>
+</lg>
+<div2 id='FlNF.17.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Parasiti qui.</note> GEnuino profecto hos nomine Graeci <foreign lang='GR'>parasi/tous</foreign> appellitant, quod semper aliorum culinam cibosque sectentur, et murium instar semper alienum rodant cibum. Sic enim Parasitus quidam apud Plautum in Captiv. de se suique similibus: Quasi mures semper edimus alienum cibum.</p>
+<p><foreign lang='GR'>)Allotriofa/goi</foreign> etiam vocantur, quibus dulce est aliena vivere quadra. Quin et ab iisdem Graecis proverbiali verbo <foreign lang='GR'>muspolei=s</foreign> dicuntur, quasi qui muris in morem cibi causa obambulent oberrentque, laboris omnino omnis et exercitationis impatientes.
+<pb id='s106' n='98'/>
+Quemadmodum enim vultures triduo futura cadavera praesentiunt, eoque advolant; ita hi per longa locorum intervalla cibos dapesque naribus sagacibus odorant, gressibusque concitatis ad illas advolant.</p>
+<p>Nundinis nuperis Francofurtensibus memini me vidisse circumforaneum seu praestigiatorem quendam, ursum secum deducentem, quem longo assuetum tempore ita informarat, ut velut conviva aut hospes sellulae cuipiam tamquam mensae assideret: a quo cum iste symboli solutionem exegisset, ursus, profundo quasi somno depressus, caput subter mensam occultabat, et, grandibus licet verberibus impetitus, eo adduci nequibat, ut expergisceretur. Prolatis autem a circumforaneo, tacitoque murmure expressis verbis, quibus immunitatem a Symboli solutione dormitanti pollicitabatur, ursus veluti redivivus e sopore assurgens caput laetus circumferebat, liberalitatique quasi gratias agebat.</p>
+<p>Tanta scilicet vitii huius est frequentia, ut circulatores etiam, tonsores et funambuli istud taxent, atque in urso, animali isto apprime monstroso, foeditatem istius ob oculos nobis ponant. Sed apage mihi sit ab honestis compotatiunculis ista quorundam sordida tenacitas, quibus volupe est, alienis ex <unclear reason='page damaged'>loculis</unclear> genio suo indulgere, et semper
+<pb id='s107' n='99'/>
+<foreign lang='GR'>a)sumbo/lous</foreign> esse. Apage, inquam, sint isti: cum</p>
+<lg met='iast'>
+<l>Commodius portetur onus, quod pondere nutat</l>
+<l rend='indent'>Aequo, et pari consistit aequilibrio.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.18' n='18' type='book'>
+<head>ODA XIIX. In eos, qui scandala iuventuti exhibent. </head>
+<argument><head>NUCLEUS.</head>
+<p>Scandala sunt vitanda.</p></argument>
+<lg met='iadi'>
+<l>TAm nunc iuventus omnibus</l>
+<l>Scelesta turget fraudibus,</l>
+<l>Vitaeque turpitudine,</l>
+<l>Ut non opus sit pluribus</l>
+<l>Vel institutionibus,</l>
+<l>Vel incitationibus,</l>
+<l>Quibus, velut calcaribus,</l>
+<l>Ad omne morum dedecus</l>
+<l>Prono ferantur impetu.</l>
+<l>Istud profecto dixerim,</l>
+<l>Certoque comprobaverim,</l>
+<l>Hunc qui iuventam turpia</l>
+<l>Velit docere crimina,</l>
+<l>Et exhibere scandala,</l>
+<l>Vesti pediclos sordidae,</l>
+<l>Moenoque lymphas addere,</l>
+</lg>
+<pb id='s108' n='100'/>
+<lg met='iadi'>
+<l><figure><head>Hic pediculos vesti pelliceae addit.</head><figDesc></figDesc></figure></l>
+<l>Puella, quae decennium</l>
+<l>Vix nata, multo nequior</l>
+<l>Nunc est, vetus quam femina,</l>
+<l>Annisque multis obsita.</l>
+<l>Puerque, qui decennium</l>
+<l>Vix natus, is scelestior</l>
+<l>Est, quam tremens senecio,</l>
+<pb id='s109' n='101'/>
+<l>Annisque multis obsitus.</l>
+<l>Tanta iuventus ad malum</l>
+<l>Velocitate cursitat!</l>
+<l>Tanta iuventus ad bonum</l>
+<l>Tardatione reptitat!</l>
+<l>Atqui parentes plurimi</l>
+<l>Tam sese honestitudinis</l>
+<l>Obliviosos exhibent,</l>
+<l>Ut scandalosa liberis</l>
+<l>Exempla dent quamplurima,</l>
+<l>Non verbulis solummodo,</l>
+<l>Factis sed obscoenissimis,</l>
+<l>Turpissimisque gestibus</l>
+<l>Ad impudicos incitent</l>
+<l>Actus, velutque ductitent,</l>
+<l>Cum tempus ipsum sit tamen</l>
+<l>Rerum magister omnium,</l>
+<l>Tandemque fontes indicent,</l>
+<l>Unde extrahant infantulos;</l>
+<l>Causamque monstret, succuba</l>
+<l>Cur insidentem tergori,</l>
+<l>Et vellicantem cristulas,</l>
+<l>Gallina gallum portitet.</l>
+</lg>
+<div2 id='FlNF.18.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Pueri a teneris statim unguiculis ad bonum</note> UT gypsum aut argilla, dum est uda, in quamvis imaginem facile sequitur fingentis manum: ita rudes iuventutis animi facile in quamcumque, facilius autem, in
+<pb id='s110' n='102'/>
+deteriorem <note>sunt informandi.</note> partem, flectuntur. Nam, ut Ambrosius lib. 1. de viduis ait; Vicina est lapsibus adolescentia. Quia variarum aestus cupiditatum fervore calentis inflammatur aetatis. Mature igitur pueri a vitiis sunt arcendi, et ad virtutum studia adigendi; nec vel verbulo vel gestu remora scandalumve ipsis exhibendum. Quemadmodum enim sulphur subito ignem concipit: ita iuventus facile ad omnis generis crimina perpetranda inflammatur.</p>
+<p>Virgilii potius consilio locus dandus, qui 3. Georg. lib. tale suggerit:</p>
+<lg met='hexa'>
+<l>Tu quos ad studium, atque usum formabis agrestem,</l>
+<l>Iam vitulos hortare, viamque insiste domandi,</l>
+<l>Dum faciles animi iuvenum, dum mobilis aetas.</l>
+</lg>
+<p>Sic Horat. 3. Carm. 24.</p>
+<lg met='asc2'>
+
+<l rend='indent'>- Et tenerae nimis</l>
+<l>Mentes asperioribus</l>
+<l rend='indent'>Formandae studiis.</l>
+</lg>
+<p>Idem 1. Epist. 2.</p>
+<lg met='hexa'>
+<l>Fingit equum tenera docilem cervice magister</l>
+<l>Ire viam, quae monstrat eques: venaticus ex quo</l>
+<l>Tempore cervinam pellem latravit in aula,</l>
+<l>Militat in silvis catulus, nunc imbibe puro</l>
+<l>Pectore verba, puer, nunc te melioribus offer.</l>
+<l>Quo semel est imbuta recens, servabit odorem</l> 
+<l>Testa diu.</l>
+</lg>
+<pb id='s111' n='103'/>
+<p>Seneca Oct.</p>
+<lg met='trim'>
+<l>Regenda magis est fervida adolescentia.</l>
+</lg>
+<p>Denique Comicus Graecus:</p> 
+<lg met='trim'>
+<l><foreign lang='GR'>Ne/os pefukw\s polla\ xrhsta\ manqa/nei</foreign>.</l>
+<l>Annis iuventae multa discito bona.</l>
+</lg>
+<p>Iuvenalis Sat. 14.</p>
+<lg met='hexa'>
+<l>Nil dictu foedum visuque haec limina tangat,</l>
+<l>Intra quae puer est: procul hinc procul ite puellae</l>
+<l>Lenonum, et cantus pernoctantis parasiti.</l>
+<l>Maxima debetur puero reverentia, si quid</l>
+<l>Turpe paras, nec tu pueri contempseris annos,</l>
+<l>Sed peccaturo obsistat tibi filius infans.</l>
+</lg>
+<p><note>II. Consuetudo quorundam locorum pessima.</note> Verum deploranda quorundam locorum, civitatum praesertim, restat impia consuetudo, in quibus publica lupanaria, non dicam, tolerantur, sed conservantur, et patronos habent acerrimos: <reg orig='Imo'>Immo</reg> quibus publica theatra, immunitates et stipendia concessa sunt. Idque calva atque impia penitus ratiuncula, contra divinas leges ipsumque Dei verbum e diametro pugnante; Ut nimirum, inquiunt, iuventus egesto illic libidinis impetu peiora conari desistat. Sed ô scelus consuetudinis inexpiabile! Hoccine est removere scandala? Vide hac de re disserentem Cornelium Agrippam de arte meretricia et lenonia.</p>
+<p>Tu, quicumque sapis,</p>
+<lg met='dist'>
+<l>Principiis obsta, sero medicina paratur,</l>
+<l rend='indent'>Cum mala per longas invaluere moras:</l>
+</lg>
+<p><sic corr='Cumprimis'>Cum primis</sic> vero fuge scandala. Illae namque
+<pb id='s112' n='104'/>
+calamitatum malorumque omnium seminaria sunt, ac vitiorum fomenta: nam, ut Philosophi aiunt, parvus error in principio, maximus in extremo esse consuevit; et exigua scandali alicuius exhibitio maximum saepe peccatum producit. Novi nobilem, qui sequens symbolon insignibus suis inscriptum usurpabat: Ex parva flamma magnus ignis. Vere profecto! Parva scilicet scandali scintilla saepenumero maximum calamitatum infelicitatumque excitare solet incendium, quod ut in favillis adhuc restinguas, bis terque moneo.</p>
+</div2>
+</div1>
+<div1 id='FlNF.19' n='19' type='book'>
+<head>ODA XIX. In futiles rimarumque plenas aniculas. </head>
+<argument><head>NUCLEUS.</head>
+<p>Quem diabolus veretur, anus adit locum.</p></argument>
+<lg met='iadi'>
+<l>SI non aberro, Cerberum</l>
+<l>Vix futilis, loquaculae,</l>
+<l>Plenaeque rimis feminae</l>
+<l>Malignitatem censeo</l>
+<l>Aequare posse pessimam.</l>
+<l>Haec aede si fors prodeat,</l>
+<l>Omnes pererrat angulos,</l>
+<l>Sibique quaerit <corr sic='garrula' resp='transcriber'>garrulae</corr></l>
+</lg>
+<pb id='s113' n='105'/>
+<lg met='iadi'>
+<l><figure><head>Par hoc est anicularum garrularum.</head><figDesc></figDesc></figure></l>
+<l>Dicacitate comparem.</l>
+<l>Quam nacta prolixissimam</l>
+<l>Orditur ore fabulam,</l>
+<l>Telamque texit maximam:</l>
+<l>Quid Imperator egerit;</l>
+<l>Quid Pontifex sanciverit;</l>
+<l>Quid Principes decreverint;</l>
+<pb id='s114' n='106'/>
+<l>Quid praeco verbi nupera</l>
+<l>Pro contione dixerit;</l>
+<l>Ut appetentes foenoris</l>
+<l>Taxarit usurarios,</l>
+<l>Aliosve reprehenderit;</l>
+<l>Quoties maritus proximae</l>
+<l>De nocte se subegerit;</l>
+<l>Vestes quot et subuculas</l>
+<l>Sartor sibi confecerit;</l>
+<l>Et quid novi rumusculi</l>
+<l>In balneis audiverit;</l>
+<l>Quid murmurando Iuppiter</l>
+<l>Iunoni in aurem dixerit;</l>
+<l>Haec illa novit omnia,</l>
+<l>Haec illa fatur omnia,</l>
+<l>Mendaciisque plurima</l>
+<l>Conglutinat mendacia,</l>
+<l>Fraudesque nectit fraudibus:</l>
+<l>Probris deinde candidos</l>
+<l><reg orig='Convitiatur'>Conviciatur</reg> pessimis,</l>
+<l>Nullisque quamvis optimis</l>
+<l>Parcit scelesta mentibus,</l>
+<l>Sed ore semper lividum</l>
+<l>Ensem nocivo gestitat.</l>
+<l>O digna, cuius <corr sic='maximis,' resp='transcriber'>maximis</corr></l>
+<l>Vagina pugnis vapulet!</l>
+</lg>
+<pb id='s115' n='107'/>
+<div2 id='FlNF.19.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Garrulitatis vitium turpe.</note> GArrulitas hic non solum anicularum, sed et aliorum omnium iure taxatur. Et id quidem merito. Nam, uti ait Euripides,</p>
+<lg met='trim'>
+<l><foreign lang='GR'>)Axali/nwn stoma/twn to\ te/los dustuxi/a.</foreign></l>
+<l>Finis loquacitatis infortunium.</l>
+</lg>
+<p><note>II. Discursationes an mulieres deceant.</note> Sed et circumvagationes et discursationes honestas mulieres omnino dedecent. Uxor, inquit Psaltes 127. Ps., tua sicut vitis abundans in lateribus domus tuae. Solent quidem aliquibus in locis vites in foribus domorum collocari: comparaturus autem viti uxorem honesti viri, non eam viti prae foribus exsistenti voluit comparare, haec enim exposita est praetereuntibus, sed viti in lateribus domus constitutae. Talis debet esse honesta mulier, non in foribus consistens, aut more ardelionis cuiusdam hinc inde per vicos et compita discursans, sed in lateribus et secretis domus suae. Et ob eandem causam Proverb. 31. de muliere bona dicitur: Consideravit semitas domus suae, et panem otiosa non comedit. Non scilicet consideravit plateas et vias civitatis, sed semitas domus suae: has perambulat honesta mulier, has considerat attente, has calcat provide, ac prospicit, quid intra parietes domus suae sibi agendum sit, et ideo panem
+<pb id='s116' n='108'/>
+otiosa non comedit, sicut mulier facit vagabunda, quae domi consistere nequit. Imitari scilicet honestam mulierculam decet exemplum Iudith, quae secretum sibi cubiculum in superioribus domus suae in sacris <reg orig='literis'>litteris</reg> construxisse legitur, in quo clausa veluti morabatur. Non satis illi fuit, intra ianuas domus secretum cubiculum facere, sed in superiore et remotiore parte domus suae illud construxit, et eo se recepit. Nimirum sancta erat, pia erat, casta erat: et mulier, quae sancta, pia, casta esse cupit, hanc ipsius sanctitatem, pietatem et castitatem sectetur.</p>
+</div2>
+</div1>
+<div1 id='FlNF.20' n='20' type='book'>
+<head>ODA XX. In eos, qui multa in se expedienda suscipiunt negotia. </head>
+<argument><head>NUCLEUS.</head>
+<p>Nemo potest Dominis simul inservire duobus.</p></argument>
+<lg met='iadi'>
+<l>AEstate binis indui</l>
+<l>Subuculis, et unico</l>
+<l>Heris duobus tempore</l>
+<l>Deferre velle munia,</l>
+<l>Unoque cervulos cane</l>
+</lg>
+<pb id='s117' n='109'/>
+<lg met='iadi'>
+<l><figure><head>Hic inter duas sellas corruit.</head><figDesc></figDesc></figure></l>
+<l>Audere binos insequi,</l>
+<l>Simulque eundem laudibus</l>
+<l>Ornare nunc, nunc carpere;</l>
+<l>Inter duas haec sellulas</l>
+<l>Fecere labi plurimos.</l>
+<l>Qui curiosus plurimis</l>
+<l>Sese ingerit negotiis,</l>
+<pb id='s118' n='110'/>
+<l>Artesque tractat plurimas,</l>
+<l>Est ille longe plurimis</l>
+<l>Subiectus infortuniis.</l>
+<l>Nam vel ferendae protinus</l>
+<l>Est impar ille sarcinae,</l>
+<l>Vel si ferendae idoneus</l>
+<l>Sit ille forsan sarcinae,</l>
+<l>Utrimque tandem muneris</l>
+<l>Vel accipit vilissimum,</l>
+<l>Nullumve prorsus praemium,</l>
+<l>Instar catelli Aesopici,</l>
+<l>Qui carnis ore frustulum</l>
+<l>Gestans, aquasque transmeans,</l>
+<l>Umbra sub undis carnea</l>
+<l>Visa, volebat promere.</l>
+<l>Frustratus atqui spe sua</l>
+<l>Utramque carnem perdidit,</l>
+<l>Veram ac imaginariam.</l>
+<l>Hoc ergo tu prudentior</l>
+<l>Memori revolve pectore,</l>
+<l>Si sede qua sedes bona,</l>
+<l>Eritque sedes commoda,</l>
+<l>Hac sede tu sede, nec hac</l>
+<l>Recede sede commoda.</l>
+</lg>
+<div2 id='FlNF.20.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Duplex servitus absurda.</note> COmprobat sensum Odae huius ipse noster Salvator Matth. 4. Nemo, inquiens, potest duobus dominis seruire. Aut enim unum odio
+<pb id='s119' n='111'/>
+habebit, et alterum diliget, aut unum sustinebit, et alterum contemnet.</p>
+<p>Cuius sententiae erat et Alexander Magnus, ad quem cum Darius Persarum rex legationem misisset, dimidiamque regni sui partem ei obtulisset, animo eam magno repudiavit: Mundus, inquiens, non agnoscit duos Soles. Insani igitur sunt, qui plurimis se immiscent muneribus atque negotiis, cum vix uni alicui recte et pro aequitate pares esse queant.</p>
+<p><note>II. Occasioni serviendum.</note> Ergo qui sapis, Phocylidem audi:</p>
+<lg met='hexa'>
+<l><foreign lang='GR'>Kairw=| douleu/ein, mh/ de\ a)ntipne/ein a)ne/moisi.</foreign></l>
+<l>Occasioni obtempera, et noli spirare contra ventos.</l>
+</lg>
+<p>Et Catonem lib. 2.</p>
+<lg met='hexa'>
+<l>Rem tibi quam noris aptam dimittere noli,</l>
+<l>Fronte capillata est, post haec occasio calva.</l>
+</lg>
+<p>Et alterum item Poetam:</p>
+<lg met='hexa'>
+<l>Si qua sede sedes, et erit tibi commoda sedes,</l>
+<l>Illa sede sede, nec ab illa sede recede.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.21' n='21' type='book'>
+<head>ODA XXI. In procos, qui divitias ambiunt. </head>
+<argument><head>NUCLEUS.</head>
+<p>Virtus spectanda, non nummus.</p></argument>
+<lg met='iadi'>
+<l>ANnis ab hinc prioribus,</l>
+<l>Cum candor ille simplicis</l>
+</lg>
+<pb id='s120' n='112'/>
+<lg met='iadi'>
+<l><figure><head>Profunda hic verba promit.</head><figDesc></figDesc></figure></l>
+<l>Adhuc vigeret saeculi,</l>
+<l>Si quis volebat nubere,</l>
+<l>Torique capere coniugem,</l>
+<l>Non copiam pecuniae,</l>
+<l>Dotisve magnitudinem,</l>
+<l>Ambibat aut pulchredinem,</l>
+<l>Sed castitatem feminae,</l>
+<pb id='s121' n='113'/>
+<l>Quam fors amare coeperat,</l>
+<l>Morumque amori congruam</l>
+<l>Spectabat elegantiam,</l>
+<l>Vitaeque honestitudinem</l>
+<l>Quod si bonis solummodo</l>
+<l>Famaque honesta praeditis</l>
+<l>Isthaec foret parentibus</l>
+<l>Prognata, nil de ceteris</l>
+<l>Bonis petebat amplius,</l>
+<l>Non aera, non pecunias,</l>
+<l>Non arva, dotes, praedia,</l>
+<l>Vel postulabant talia.</l>
+<l>Annis at his praesentibus,</l>
+<l>Cum candor ille simplicis</l>
+<l>Exstinctus alget saeculi,</l>
+<l>Si coniugalem quispiam</l>
+<l>Cupit subire lectulum,</l>
+<l>Vim maximam pecuniae,</l>
+<l>Grandemque dotis copiam</l>
+<l>Plerumque solvi postulat,</l>
+<l>Illudque primum quaeritat,</l>
+<l>Divesne sit, vel indiga,</l>
+<l>Quam concupiscit, femina.</l>
+<l>Si dives, ilico accipit,</l>
+<l>Suumque dicit corculum,</l>
+<l>Suamque dicit cervulam:</l>
+<l>Si pauper, illam respuit,</l>
+<l>Suamque dicit nauseam,</l>
+<l>Foedamque dicit simiam,</l>
+<l>Non is senectam debilem,</l>
+<pb id='s122' n='114'/>
+<l>Lipposque non ocellulos,</l>
+<l>Non ille rugas podicis,</l>
+<l>Scabiemque curat corporis,</l>
+<l>Non ille mucum narium,</l>
+<l>Sordesve spectat <sic>crurium</sic>,</l>
+<l>Sed totus a pecuniae</l>
+<l>Dependet amens copia.</l>
+<l>Aurum senectam dimovet,</l>
+<l>Aurumque lippas corrigit,</l>
+<l>Aurumque rugas explicat,</l>
+<l>Aurumque foeda <corr sic='perolit,' resp='transcriber'>perpolit</corr></l>
+</lg>
+<div2 id='FlNF.21.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Quomodo nubendum.</note> MArtia, Catonis filia, cum rogaretur, cur post amissum maritum denuo non nuberet; respondit, se non virum invenire, qui magis eam vellet, quam sua. Quo dicto ostendere voluit, divitias magis in uxoribus ducendis eligi solere, quam pudicitiam et morum honestatem: ac multos non oculis, sed digitis uxores ducere. At quanta exinde saepenumero eveniant incommoda, quid attinet commemorare, <note>II. Pecuniae studium quam sit frequens.</note> cum res hoc ipsa cottidie comprobet? Ita nunc omnes istos Euripidis ex Bellerophonte Senarios in ore ferunt, quos mutato genere ad feminas transferre liceat:</p>
+<lg met='sena'>
+<l>Sine me vocari pessimam, ut dives vocer.</l>
+<l>Nemo an bona? sed an dives? omnes quaeritant.</l>
+<pb id='s123' n='115'/>
+<l>Non quare et unde? quid habeam, tantum <corr sic='rogant' resp='transcriber'>rogant.</corr></l>
+<l>Ubique tanti quaeque quantum habuit fuit.</l>
+<l>Quid habere nobis turpe sit quaeris? Nihil.</l>
+<l>An dives, quaerimus omnes, nemo an bona.</l>
+<l>Aut dives opto vivere, aut pauper mori.</l>
+</lg>
+<p>In eundem plane etiam sensum Phocylides:</p>
+<lg met='hexa'>
+<l><foreign lang='GR'>i(/ppous d' eu)gene/as di/zesqai me\n kata\ oi)=kon,</foreign></l>
+<l><foreign lang='GR'>tau/rous d' u(yite/nontas, a)ta\r skula/kwn panagri/ous.</foreign></l>
+<l><foreign lang='GR'>gh=mai d' ou)k a)gaqh\n e)riqai/nomen a)froneo/ntes.</foreign></l>
+<l><foreign lang='GR'>ou) de\ gunh\ kako\n a)/ndr' a)panai/netai a)fneo\n o)/nta.</foreign></l>
+</lg>
+<p>Hoc est:</p>
+<lg>
+<l>Equos autem nobiles quaerimus habere in domo,</l>
+<l>Taurosque altae ceruicis, et catulos venatorios.</l>
+<l>Ducere autem in uxorem malam feminam contendimus insipientes</l>
+<l>Neque mulier malum virum renuit, si dives sit.</l>
+</lg>
+<p><note>III. Themistoclis scitum dictum.</note> Themistocles Atheniensis multo hac in parte erat sapientior. Cum enim filiam suam maxima cum dote pauperi cuidam, sed honesto tamen, iuveni elocasset, reprehensus ob id ab amicis, Malo, inquit, generum, qui egeat pecunia, quam pecuniam, quae viro.</p>
+<p>Dignum denique notatu est istud Plauti in Aulularia:</p>
+<lg met='sena'>
+<l>Dummodo morata recte veniat, dotata est satis.</l>
+<l>Hae sunt atque aliae multae in dotibus magnis</l>
+<l>Incommoditates, sumptusque intolerabiles:</l>
+<l>Nam quae indota est, ea in potestate est viri.</l>
+<l>Dotatae mactant et malo et damno viros.</l>
+<pb id='s124' n='116'/>
+<l>Laudant sapienter factum et consilio bono,</l>
+<l>Opulentiores pauperiorum filias</l>
+<l>Ut indotatas ducant.</l>
+</lg>
+<p>Lepidum Martialis ad Priscam epigramma addo:</p>
+<lg met='dist'>
+<l>Uxorem quare locupletem ducere nolim,</l>
+<l rend='indent'>Quaeritis? uxori nubere nolo meae.</l>
+<l>Inferior matrona suo sit, Prisca, marito:</l>
+<l rend='indent'>Non aliter fiunt femina virque pares.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.22' n='22' type='book'>
+<head>ODA XXII. In Grobianos inciviles et agrestes. </head>
+<argument><head>NUCLEUS.</head>
+<p>Qui proficit in <reg orig='literis'>litteris</reg>, et deficit in moribus, plus deficit, quam proficit.</p></argument>
+<lg met='iadi'>
+<l>EN ut micans diademate</l>
+<l>Mollique pulvinario</l>
+<l>Sus insidens superbiat!</l>
+<l>Ut fastuosos ad latus</l>
+<l>Ocellulos intorqueat.</l>
+<l>Rostrumque turgens stercore</l>
+<l>Diducat et distorqueat,</l>
+<l>Tum caudulam contortiles</l>
+<l>In circulos recolligat!</l>
+<l>Haec scilicet civilitas</l>
+</lg>
+<pb id='s125' n='117'/>
+<lg met='iadi'>
+<l><figure><head>Hic suem corolla cingit.</head><figDesc></figDesc></figure></l>
+<l>Illa est, et illa urbanitas,</l>
+<l>Qua Grobiani plurimi,</l>
+<l>Et inficeti stipites,</l>
+<l>Ceu sus, nitescunt sordibus,</l>
+<l>Laudemque censent maximam,</l> 
+<l>Vitam suillam degere,</l>
+<l>Merdisque se pervolvere,</l>
+<pb id='s126' n='118'/>
+<l>Ructusque fauce maximos</l>
+<l>Tanto sono protrudere,</l>
+<l>Ut, ore clauso, pervio</l>
+<l>Dentes labascant impetu;</l>
+<l>Mox ventris illis insuper</l>
+<l>Tantos fragores addere,</l>
+<l>Ut tecta bombis contremant.</l>
+<l>Quod si paratum forsitan</l>
+<l>Vocantur ad convivium,</l>
+<l>Cultro in patellam praepete</l>
+<l>Prae ceteris mox involant,</l>
+<l>Lautasque portiunculas</l>
+<l>Dextra rapace subtrahunt.</l>
+<l>Si quid cohaeret dentibus,</l>
+<l>Late recluso gutture,</l>
+<l>Cultro revellunt sordido,</l>
+<l>Spurcisque figunt orbibus.</l>
+<l>Quid multa? nullae negligunt</l>
+<l><sic corr='Obscoenitatis'>Obcenitatis</sic> crimina,</l>
+<l>Et foede olentem debitis</l>
+<l>Cingunt suem corollulis.</l>
+</lg>
+<div2 id='FlNF.22.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>Civilitati morum studendum.</note> CIvilitati morum diligenter studendum esse, omnes monent Ethici, virique alii eruditi. Certe, veteri adagio teste, qui proficit in <orig reg='literis'>litteris</orig> et deficit in moribus, plus deficit quam proficit. Vide Poema lepidum Poetae non illepidioris, cui titulus est GROBIANUS, iocis salibusque undique
+<pb id='s127' n='119'/>
+refertum. Nunc relictis sexcentis aliis, aliquot solummodo Nasonis ex lib. 1. de arte amandi disticha, huc facientia, annectere libet.</p>
+<lg met='dist'>
+<l>Munditiae placeant, fuscentur corpora campo:</l>
+<l rend='indent'>Sit bene conveniens et sine labe toga.</l>
+<l>Linguaque nec rigeat, careant rubigine dentes:</l>
+<l rend='indent'>Ne vagus in laxa pes tibi pelle natet.</l>
+<l>Quid si praecipiam, ne fuscet inertia dentes,</l>
+<l rend='indent'>Oraque suscepta mane laventur aqua.</l>
+<l>Nec male deformet rigidos tonsura capillos:</l>
+<l rend='indent'>Sit coma, sit docta barba resecta manu.</l>
+<l>Et nihil emineant, et sint sine sordibus ungues:</l>
+<l rend='indent'>Inque cava nullus stet tibi nare pilus.</l>
+<l>Nec male odorati sit tristis anhelitus oris,</l>
+<l rend='indent'>Nec laedat nares, virque paterque gregis.</l>
+<l>Sint modici risus, parvaeque utrinque lacunae,</l>
+<l rend='indent'>Et summos dentes ima labella tegant.</l>
+<l>Nec sita perpetuo contendant ilia risu,</l>
+<l rend='indent'>Sed leve nescio quid femineumque sonet.</l>
+<l>Est et in incessu pars non temnenda decoris:</l>
+<l rend='indent'>Allicit ignotos illa fugatque viros.</l>
+<l>Carpe cibos digitis: est certus gestus edendi,</l>
+<l rend='indent'>Ora nec immunda tota perunge manu.</l>
+<l>Ne coram mistas cervae sumpsisse medullas,</l>
+<l rend='indent'>Nec coram dentes perfricuisse probem.</l>
+<l>Certa tibi a nobis dabitur mensura bibendi:</l>
+<l rend='indent'>Officium praestent mensque pedesque suum.</l>
+<l>Iurgia praecipue vino stimulata caveto,</l>
+<l rend='indent'>Et nimium faciles ad fera bella manus.</l>
+<pb id='s128' n='120'/>
+<l>Occidit Euricion stulte data vina bibendo,</l>
+<l rend='indent'>Aptior est dulci mensa merumque ioco.</l>
+<l>Vide quae ibi multo plura sequuntur.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.23' n='23' type='book'>
+<head>ODA XXIII. In eos, qui magnificis titulis excogitandis sunt ingeniosi. </head>
+<argument><head>NUCLEUS.</head>
+<p>Virtus, non titulus, clarum reddit.</p></argument>
+<lg met='iadi'>
+<l>UBique iam nunc gentium</l>
+<l>Vagantur exul veritas,</l>
+<l>Odiumque sentit maximum,</l>
+<l>Qui veritatem diligit:</l>
+<l>Mellita sed qui verbula,</l>
+<l>Fallace promit pectore,</l>
+<l>Fellita cum sint spicula,</l>
+<l>Et tela transfixoria,</l>
+<l>Hic nunc vir est amabilis,</l>
+<l>Totique mundo perplacet.</l>
+<l>Ars ista nunc est optima,</l>
+<l>Torquere verba subdole,</l>
+<l>Polire belle, flectere</l>
+<l>Et levigare suaviter,</l>
+<l>Ut dulciora dulcibus</l>
+<l>Possint videri mellibus,</l>
+<l>Quibus velut letalibus</l>
+<l>Effascinamur pestibus,</l>
+</lg>
+<pb id='s129' n='121'/>
+<lg met='iadi'>
+<l><figure><head>Levia hic verbula expolit.</head><figDesc></figDesc></figure></l>
+<l>Quid maximos recenseam</l>
+<l>Titulos, quibus magnatibus</l>
+<l>Fastum creantes obstrepunt.</l>
+<l>Hic audit illustrissimus,</l>
+<l>Cum non tamen plus luceat,</l>
+<l>Fornace quam carbunculus.</l>
+<l>At ille praecelsissimus,</l>
+<pb id='s130' n='122'/>
+<l>Cum vix misellus infimo</l>
+<l>Emerserit de stercore.</l>
+<l>Hunc mentiuntur providum,</l>
+<l>Qui nescit, hordeacea</l>
+<l>Quanti placenta veneat.</l>
+<l>Hic audit humanissimus,</l>
+<l>Cum sit Nerone saevior:</l>
+<l>At ille spectatissimus,</l>
+<l>Cum talpula sit caecior.</l>
+<l>Hunc dictitant amplissimum,</l>
+<l>Cum pectore angustissimus,</l>
+<l>Reique sit pressissimus</l>
+<l>Angustia domesticae.</l>
+<l>Si vota fas est promere</l>
+<l>Tantum mihi superstitis</l>
+<l>Vitae relinqui postulem,</l>
+<l>Mihi ut liceret cernere,</l>
+<l>Fucata quorsum haec denique</l>
+<l>Ventura sit fallacia!</l>
+</lg>
+<div2 id='FlNF.23.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Assentatorum mores qui.</note> EX horum numero sunt, quos Alanus de complanctu naturae palatinos canes, adulationis artifices, fabros laudis, figulos falsitatis nominat.</p>
+<p>Hi, inquit, sunt, qui magniloqua commendationis tuba in divitum auribus citharizant, qui medicae adulationis favos foras eructant, qui, ut emungant munera, caput divitis oleo adulationis inungunt,
+<pb id='s131' n='123'/>
+praelatorum auribus pulvinaria laudum subiciunt, qui ab eorum palliis aut ficticium pulverem excutiunt, aut vestem ficticie deplumant implumem.</p>
+<p>Sic Iuvenalis Satyr. 3.</p>
+<lg met='hexa'>
+<l>Quid, quod adulandi gens prudentissima laudat</l>
+<l>Sermonem indocti, faciem deformis amici,</l>
+<l>Et longum invalidi collum cervicibus aequat</l>
+<l>Herculis, Antaeum procul a tellure tenentis.</l>
+<l>Miratur vocem angustam, qua deterius nec</l>
+<l>Ille sonat, quo mordetur gallina marito.</l>
+</lg>
+<p>At Petrarchae illud dialog. 49. notandum: Virtus uno seu potius nullo titulo contenta, ipsa sibi est titulus. Et paulo post: Sapientia titulis non eget: per se ipsa clara est.</p>
+</div2>
+</div1>
+<div1 id='FlNF.24' n='24' type='book'>
+<head>ODA XXIV. In Bibones, helluones et pergraecatores. </head>
+<argument><head>NUCLEUS.</head>
+<p>Temulentia fons scelerum.</p></argument>
+<lg met='iadi'>
+<l>NUnc ad bibones devenit</l>
+<l>Orationis series,</l>
+<l>Qui per tabernas urbium</l>
+<l>Currunt, et oenopolia,</l>
+<l>Exhauriuntque pocula,</l>
+<l>Perduntque patrimonia,</l>
+<l>Cum forte nummus obvenit,</l>
+</lg>
+<pb id='s132' n='124'/>
+<lg met='iadi'>
+<l><figure><head>Hic humorem amat et internum et externum.</head><figDesc></figDesc></figure></l>
+<l>Velociores cervulis</l>
+<l>Mox ad popinas advolant,</l>
+<l>Et hunc bibendo digerunt.</l>
+<l>Quod si rei penuria</l>
+<l>Forsan gravari coeperint,</l>
+<l>Ad foeda valde crimina</l>
+<pb id='s133' n='125'/>
+<l>Scelerumque lernam turpium</l>
+<l>Prono feruntur impetu:</l>
+<l>Latrocinantur, turgida</l>
+<l>Cultris secant marsupia,</l>
+<l>Manusque furtis mancipant,</l>
+<l>Vel ostiatim postea</l>
+<l>Stipem vagantes quaeritant,</l>
+<l>Morbisque se miserrime</l>
+<l>Fingunt gravatos maximis.</l>
+<l>Pars crura nequam plurimis</l>
+<l>Ligata volvit fasciis,</l>
+<l>Claudosque mentitur pedes,</l>
+<l>Quos, si ferat necessitas,</l>
+<l>Vix cervulus celerrimis</l>
+<l>Aequare possit cursibus.</l>
+<l>Pars his adhuc scelestior</l>
+<l>Falsas subornat <reg orig='literas'>litteras</reg>,</l>
+<l>Mendicitatis quas vocant,</l>
+<l>His mentiuntur editas</l>
+<l>Ab igne clades maximas,</l>
+<l>Aedesque flammis subrutas,</l>
+<l>Humore cum diffluxerint</l>
+<l>Liquore sive Bacchico.</l>
+<l>Quid non malorum subdolae</l>
+<l>Excogitant fallaciae?</l>
+</lg>
+<div2 id='FlNF.24.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Ebrietas quale quantumque sit vitium.</note> DE bibacitate et ebrietate Augustinus vere: Ebrietas est flagitiorum omnium mater,
+<pb id='s134' n='126'/>
+culparumque materia, radix criminum, origo vitiorum, turbatio capitis, subversio sensus, tempestas linguae, procella corporis, naufragium castitatis, amissio temporis, insania voluntaria, ignominiosus languor, turpitudo morum, dedecus vitae, honestatis infamia, animae corruptela. Idem alibi: Ebrietas est blandus daemon, dulce venenum, suave peccatum, quam qui habet, seipsum non habet, quam qui facit, peccatum non facit, sed totus est peccatum. Petrus Ravennas: Ebrietas mater litium, furoris generatrix, petulantiae magistra, hanc qui habet, homo non est, hanc qui habet, non peccatum facit, sed est ipse peccatum. Haec enim est rabies voluntaria, invitatus hostis, illecebra honestatis, et pudoris iniuria.</p>
+<p>Et quis omnia bibacitatis incommoda enarret? quae non tantum terrenis, sed et caelicis spoliat bonis. Diogenes, videns hominis, vino deditissimi, aedes venales esse, ex ianuae inscriptione: Minime dubitabam, inquit, quod vini crapula excussa facile domum evomeres. Plato, ut ab ebrietate discipulos suos deterreret, eos admonebat, ut se ebrios in speculo contemplarentur. Sic enim fore, ut, dum faciem suam furibundam et phrenetico similem intuerentur, in posterum ab isto vitio eo diligentius abstinerent. At nunc adeo invaluit temulentia et bibendi consuetudo, ut pugna quaedam vehemens inter aemulos compotores inita videatur. Meminisse autem illos decebat Aristippi, qui iactanti
+<pb id='s135' n='127'/>
+cuidam, quod multum bibere posset, nec inebriaretur: Quid, inquit, magni narras, cum idem mulus quoque praestare possit? Vel Demosthenis, qui, cum Philocrates et Aeschines, Atheniensium legati ad Philippum Macedoniae regem, domum reversi, regem eo nomine laudarent, quod strenue bibisset; Hanc, inquit, virtutem cum spongia habet communem.</p>
+</div2>
+</div1>
+<div1 id='FlNF.25' n='25' type='book'>
+<head>ODA XXV. In <foreign lang='GR'>polupragmosu/nhn</foreign> et supervacaneas quorundam curas. </head>
+<argument><head>NUCLEUS.</head>
+<p>Spartam orna propriam.</p></argument>
+<lg met='iadi'>
+<l>NEgotiis qui plurimis</l>
+<l>Se miscet, atque suscipit</l>
+<l>Maiora, quam quae propriis</l>
+<l>Sufferre possit viribus,</l>
+<l>Et qui supervacaneis</l>
+<l>Distringitur laboribus</l>
+<l>Aliena curans munia,</l>
+<l>Nae stultus ille maximus,</l>
+<l>Sensusque prorsus impotens</l>
+</lg>
+<pb id='s136' n='128'/>
+<lg met='iadi'>
+<l><figure><head>Hic grandia sentit et loquitur.</head><figDesc></figDesc></figure></l>
+<l>Dignusque qui nequissimo</l>
+<l>Accenseatur ordini.</l>
+<l>Hi, quantum opum Venetiis</l>
+<l>Fretum per Adriaticum</l>
+<l>Ex Insulis accesserit,</l>
+<l>Norunt ad unguem; Pontifex</l>
+<l>Quas nuper indulgentias,</l>
+<pb id='s137' n='129'/>
+<l>Portam recludens auream</l>
+<l>Diviserit plebeculae:</l>
+<l>Quot Imperator copias</l>
+<l>Conduxerit stipendio;</l>
+<l>Vel quorsum easdem miserit,</l>
+<l>Quot interemptos <unclear reason='letter hard to decode'>proelio</unclear></l>
+<l>Hostes cruento fuderit:</l>
+<l>Quid actitet rex Galliae,</l>
+<l>Quid moliatur Sueciae,</l>
+<l>Hispaniae, Poloniae,</l>
+<l>Quid Danus, aut quid Moscicus,</l>
+<l>Quid Imperator Turcicus</l>
+<l>Byzantii decreverit,</l>
+<l>Quid sanxerint septemviri</l>
+<l>In nuperis conventibus,</l>
+<l>Quot civitates liberae</l>
+<l>Pecunias collegerint,</l>
+<l>Vel quorsum eas impenderint,</l>
+<l>Scrutantur intensissime,</l>
+<l>Laboriose quaeritant;</l>
+<l>Quibus foret consultius</l>
+<l>Multo, magisque commodum,</l>
+<l>Si providerent propriis</l>
+<l>Domi suae negotiis.</l>
+</lg>
+<div2 id='FlNF.25.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. <foreign lang='GR'>)Allotrioepiskopi/a</foreign> quae sit.</note> COngruo admodum vocabulo eos, qui, neglectis propriis, alienis iisque captum et conditionem suam excedentibus curis se
+<pb id='s138' n='130'/>
+distorquent ac distringunt, <foreign lang='GR'>a)llotrioepiskopei=n</foreign> Graeci dicunt, quod inspectionem super aliena negotia sibi sumant. De quibus in Sticho Plautus:</p>
+<lg met='sena'>
+<l>Sed curiosi sunt hic quam plures mali,</l>
+<l>Alienas res qui curant studio maximo.</l>
+<l>Quibus ipsis nulla est res, quam procurent, sua.</l>
+</lg>
+<p><note>II. Sparta propria est exornanda.</note> Verum abeant isti <foreign lang='GR'>polupra/gmones</foreign>, et nasutuli, Spartamque suam propriam, quam nacti sunt, exornare discant. Scilicet in suis ipsorum domibus videbunt omnia</p>
+<lg met='hexa'>
+<l>In peius ruere et retro sublapsa referri.</l>
+</lg>
+<p>Habebunt igitur abunde, quod in se ipsis emendent, corrigant, sanent. Novi virum apprime eruditum, cuius Symbolon est: TECUM HABITA. Fortassis ad imitationem Poetae:</p>
+<lg met='hexa'>
+<l>Tecum habita et noris quam sit tibi curta supellex.</l>
+</lg>
+<p>Quid, quaeso, accommodatius in hunc sensum poterat dici? Suo scilicet quemque se metiri modulo ac pede par est. Sed propero et vela portum versus tendo.</p>
+</div2>
+</div1>
+<div1 id='FlNF.26' n='26' type='book'>
+<head>ODA XXVI. In subdolos et fallaces mercatores. </head>
+<argument><head>NUCLEUS.</head>
+<p>Laudat venales, qui vult extrudere, merces.</p></argument>
+<lg met='iadi'>
+<l>QUi fraude non vaferrima</l>
+<l>Mirisque strategematis</l>
+</lg>
+<pb id='s139' n='131'/>
+<lg met='iadi'>
+<l><figure><head>Decipulam hic lardo perungit.</head><figDesc></figDesc></figure></l>
+<l>Nostro antecellunt saeculo,</l>
+<l>Velut pice haerent musculi,</l>
+<l>Et vix queunt emergere.</l>
+<l>Qui mella miscent fellibus,</l>
+<l>Gratum veneno pharmacum,</l>
+<l>Murina piperi stercora,</l>
+<l>Formamque possunt omnibus</l>
+<pb id='s140' n='132'/>
+<l>Speciosiorem affingere,</l>
+<l>Ceu venditores plurimi</l>
+<l>Novere nundinarii,</l>
+<l>Qui, cum superne splendida</l>
+<l>Et pulchra mercimonia</l>
+<l>Sub fraude collocaverint,</l>
+<l>Subtus recondunt pessima,</l>
+<l>Ocellulis non obvia</l>
+<l>Ementium, atque vacceo</l>
+<l>Vix aestimanda stercore,</l>
+<l>In orbe sunt potissimi,</l>
+<l>Primasque sedes occupant.</l>
+<l>Si quid vetustate obsitum,</l>
+<l>Antiquitate marcidum</l>
+<l>Conspexerint nequissimi,</l>
+<l>Coloribus mox oblitum</l>
+<l>Recentibus consarciunt,</l>
+<l>Novisque miscent mercibus,</l>
+<l>Modosque fingunt plurimos,</l>
+<l>Quibus scelesti ementium</l>
+<l>Exhauriant crumenulas.</l>
+<l>At quantulum iste venditor</l>
+<l>A fure censes differat?</l>
+<l>Certe videtur admodum</l>
+<l>Discrimen esse parvulum.</l>
+<l>Ab hoc cavere quis sibi</l>
+<l>Potest, ab illo vix potest.</l>
+</lg>
+<pb id='s141' n='133'/>
+<div2 id='FlNF.26.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p>VIde quae de mercatorum ac institorum moribus supra ad odam 16. adnotavimus, quae et huc quam commodissime quadrant. <note>I. Mercatura an sit licita.</note>Est quidem mercatura, secundum Aristotelem lib. 1. Polit. per se non vitiosa, licet habeat turpitudinem. Ideoque licita est, si sit ad finem honestum vel necessarium, id est, si negotiator lucretur moderate, scilicet vel ad suae familiae sustentationem, vel pauperum, vel communitatis. At ubi saltem turpis lucri gratia exercetur, ad decipiendos homines, exsecranda est omnibusque diris devovenda.</p>
+<p><note>II. Mercatores ad gubernationem non sunt admovendi.</note>Apud Thebanos lex fuit, quae vetuit <foreign lang='GR'>to\n de/ka e)tw=n mh\ a)pesxhme/non th=s a)gora=s mh\ mete/xein a)rxh=s</foreign>; id est, eum qui decem annis a commerciis non abstinuisset, removeri a gubernatione. Causa non est una. Primum, quia consuetudine et inclinatione sunt avari, ideoque facile publicam rem in suam vertunt utilitatem. Secundo, quia parum magnanimi aut splendidi, atque ut <note>7. Polit. c. 9.</note>Aristotelis verba usurpem, <foreign lang='GR'>a)genh\s o( toiou=tos bi/os kai\ pro\s a)reth\n u(penanti/os</foreign>, id est, Parum generosa est haec ratio vitae, et virtuti adversa. Tertio, quia fallaces sunt et dolosi ut plurimum. Quarto denique <note>lib. 21.</note>quia in publica persona auctoritatem id minuit, et, ut Livius ait, quaestus omnis indecorus Patribus est visus.</p>
+<p><note>III. Mercatorum mores quales.</note>Si mercatorum naturam atque mores
+<pb id='s142' n='134'/>
+penitius excutiamus, passim peculiare illis esse animadvertemus, mentiri, peierare, fallere: nulla illis lucrandi ratio turpis: ita omnis eorum vita, omne studium ad quaestus, ad lucra, ad usuras adornata est, ut dies noctesque id unice operam dent, quomodo multos pecuniarum cumulos coacervare, perque fas nefasque corradere possint. Etenim, si Augustino credimus, nulli sine fraude ditescunt: lucrum habere nemo poterit, nisi fraudem fecerit. Ideo mercator</p>
+<lg met='hexa'>
+<l>-- -- plenius aequo</l>
+<l>Laudat venales, quas vult extrudere, merces.</l>
+</lg>
+<p>Et, consentiente alio,</p>
+<lg met='hexa'>
+<l>Periurata suo postponit numina lucro</l>
+<l>Mercator, Stygiis non nisi dignus aquis.</l>
+</lg>
+<p>Emit hic, vendit ille, portat hic, ille aspirat, hic creditor, ille debitor, hic solvit, ille recipit, alter rationes scribit: omnes autem peierant, fraudant, fallunt, nec animae, nec corporis, nec fortunae periculum verentur, modo lucrum sperent: non cognationes, non affinitates, non consanguinitates respiciunt, sed, secundum Poetam</p>
+<lg met='hexa'>
+<l>-- amicitias utilitate colunt.</l>
+</lg>
+<p>Nullis laboribus parcunt, nullis molestiis absterrentur, sed veluti extra mentis usum constituti omnes orbis angulos cum summo vitae et fortunae periculo perreptant ac pervagantur. <reg orig='Imo'>Immo</reg>, quod Horatius ait,</p>
+<pb id='s143' n='135'/>
+<lg met='hexa'>
+<l>Impiger extremos currit mercator ad Indos,</l>
+<l>Per mare pauperiem fugiens, per saxa, per ignes.</l>
+</lg>
+<p>Quis vero fraudes omnes percenseat, quibus mercatores utuntur in lana, lino, serico, panno, gemmis, aromatibus, cera, oleo, vino, frumento, equis, allisque animalibus, denique in omnium mercium genere? Quis monopolia enumeret, quibus non tantum totas civitates, sed et regna exhauriunt? Quis satis vituperet fugas istorum, qui non raro ingenti aere alieno consarcinato, constituto alibi domicilio, inde vero prostituta fide, verso solo, profugi, et sero aut numquam redeuntes, creditores fraudant, et ad desperationem ac laqueum adigunt? Ipsi sunt qui chirographis et obligationibus implicant et explicant cives, debitorumque adeo profundas figunt radices, ut evelli deinde nequeant, sed veluti in gyrum pullulantes, et ex debitis debita germinantes urbes earumque incolas suffocant et evertunt, omnemque substantiam inexplebilibus quasi faucibus glutiunt atque devorant. Ut paucis dicam; omne eorum institutum non nisi mendacia, fuci, sermonum nebulae, fraudes, furta, expilationes, insidiae, et imposturae manifestae.</p>
+<p>Hinc Graeci mercatores nequaquam intra urbes recipiebant, sed ut cives a periculi suspicione essent immunes, a pomoeriis non longe forum venalium statuebant. Pleraeque aliae gentes mercatores ad se accedere
+<pb id='s144' n='136'/>
+prohibuerunt, quod mores depravarent. Ideoque Plato eos vituperat, quod optimos inquinent mores, et in bene constituta Republ. lege cavendum censet, ne externarum gentium deliciae in urbem comportentur, ac ne quis e civibus, minor quadraginta annis, peregre proficiscatur, mercaturae exercendae gratia, exteri autem ad suos remittantur, eo quod istiusmodi hominum contagiis civium mores facile in peius possint mutari, vel etiam omnino depravari. Notatu dignum est monitum Augustini, quod Mercatori suggerit: ubi istud addidero, ad ulteriora transibo. Ecce, inquit, Diabolus proposuit lucrum, et mutuavit ad fraudem: lucrum habere non poteris, nisi fraudem feceris: sed lucrum esca est, fraus laqueus: sic attende escam, ut videas et laqueum, quia lucrum habere non poteris, nisi fraudem feceris: fraudem autem si feceris, capieris.</p>
+</div2>
+</div1>
+<div1 id='FlNF.27' n='27' type='book'>
+<head>ODA XXVII. In desperatae malitiae adolescentes. </head>
+<argument><head>NUCLEUS.</head>
+<p>Aethiopem lavat, qui desperatae nequitiae puerum emendandum suscipit.</p></argument>
+<lg met='iadi'>
+<l>UMbra caballus virgulae</l>
+<l>Potest domari nobilis,</l>
+</lg>
+<pb id='s145' n='137'/>
+<lg met='iadi'>
+<l><figure><head>Aquam hic in puteum infundit.</head><figDesc></figDesc></figure></l>
+<l>Ignobilis calcaribus</l>
+<l>Petitus atque grandibus</l>
+<l>Vix concitatur fustibus,</l>
+<l>Sic et puellus nobili</l>
+<l>Bonaque praestans indole</l>
+<l>Verbis locum monentibus</l>
+<l>Relinquit: at qui degener</l>
+<pb id='s146' n='138'/>
+<l>Nec verbulo, nec verbere</l>
+<l>Potest acerbo corrigi,</l>
+<l>Omnisque diligentia</l>
+<l>Et omnis emendatio</l>
+<l>Consumitur frustranee,</l>
+<l>Oleum ac opella perditur,</l>
+<l>Fontique lympha infunditur.</l>
+<l>Nullis potest hortatibus,</l>
+<l>Nullisque suasionibus</l>
+<l>A pravitatis insitae</l>
+<l>Oestro scelestus reprimi.</l>
+<l>Qualis puer, talis senex,</l>
+<l>Ut ova sunt, sic sunt aves,</l>
+<l>Quam scilicet semel viam</l>
+<l>Calcaverit nequissimus,</l>
+<l>Vix hanc deinceps deseret,</l>
+<l>Nec vel minis, vel ictibus,</l>
+<l>Blandisve sponsionibus,</l>
+<l>Posthac ab huius semitae</l>
+<l>Poterit revelli gressibus:</l>
+<l>Donec cruento carnifex</l>
+<l>Affligat istium praemio,</l>
+<l>Longamque faxit <reg orig='literam'>litteram</reg>,</l>
+<l>Vel curtiorem palmulae</l>
+<l>Reddat, rota vel enecet.</l>
+<l>Nam qui parentum despicit,</l>
+<l>Et Paedagogi munia,</l>
+<l>Non is (mihi crede) alterum</l>
+<l>Vitae meretur exitum.</l>
+</lg>
+<pb id='s147' n='139'/>
+<div2 id='FlNF.27.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>Liberos in parentes quales esse deceat.</note>AD hanc odam vide quae paulo prius ad 18. adnotavi. Hic unum atque alterum saltem Poetae monitum addam, de cultu et observantia parentum, quam illis liberi debent.</p>
+<p>Euripides in Herc.</p>
+<lg>
+<l>Nihil est tam honorificum liberis,</l>
+<l>Quam bono et honesto genitore esse natos,</l>
+<l>Et debitum honorem parentibus offerre.</l>
+<l>Nihil est genitrici sua prole suavius.</l>
+<l>Amate matrem, ô liberi! Non enim est amor</l>
+<l>Ullus huiusmodi, et qui suavius ametur.</l>
+</lg>
+<p>Plautus in Trinummis:</p>
+<lg>
+<l>Feceris par tuis ceteris factis, patrem</l>
+<l>Tuum si percoles per pietatem.</l>
+</lg>
+<p>Comicus Graecus:</p>
+<lg met='trim'>
+<l><foreign lang='GR'>bou/lou gonei=s pro\ panto\s e)n timai=s e)/xein</foreign>.</l>
+<l>Tibi sunt parentes primo honorandi loco.</l>
+<l><foreign lang='GR'>e)/lpize, timw=n tou\s gonei=s, pra/cein kalw=s</foreign>.</l>
+<l>Colens parentes laeta speres omnia.</l>
+</lg>
+<p>Euripides:</p>
+<lg>
+<l>Quisquis in vita sua parentes colit,</l>
+<l>Hic et vivus et defunctus diis carus est.</l>
+</lg>
+<p>Timocles:</p>
+<lg>
+<l>Quicumque patrem timet ac reveretur,</l>
+<l>Hic in bonum civem evadet procul dubio,</l>
+<l>Et hostibus incommodare poterit.</l>
+</lg>
+<pb id='s148' n='140'/>
+<p>Orpheus:</p>
+<lg>
+<l>Iuppiter inspicit illos, qui colunt iura parentum,</l>
+<l>Et qui negligunt prae animi impudentia.</l>
+<l>Ac illis quidem benignus et mitis bona largitur;</l>
+<l>His vero infensus indignatur per furias.</l> 
+<l>Sunt enim vehementes in terra parentum furiae.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.28' n='28' type='book'>
+<head>ODA XXIIX. In eos, qui maiora viribus suis suscipiunt, et qui neglectis pretiosis vilia quaerunt. </head>
+<argument><head>NUCLEUS.</head>
+<p>Plumbum auro praefert, qui terrena caelicis.</p></argument>
+<lg met='iadi'>
+<l>QUi talibus se praegravat</l>
+<l>Negotiorum molibus,</l>
+<l>Quibus sit impar viribus:</l>
+<l>Vel qui relictis caelicis</l>
+<l>Terrena quaerit commoda,</l>
+<l>Opesque temporaneas,</l>
+<l>Vanas, caducas, fluxiles,</l>
+<l>Bis ille stultus invium</l>
+<l>Frangit nuces per sacculum,</l>
+<l>Nec delitentem intrinsecus</l>
+<l>Attingit ore nucleum.</l>
+<l>Aeterna vita nucleus,</l>
+</lg>
+<pb id='s149' n='141'/>
+<lg met='iadi'>
+<l><figure><head>Hic per saccum nuces frangit.</head><figDesc></figDesc></figure></l>
+<l>Terrena vita est sacculus.</l>
+<l>Hunc sacculum convellimus,</l>
+<l>Mordemus ore, volvimus,</l>
+<l>Noctes diesque mandimus,</l>
+<l>Sed nucleum non tangimus.</l>
+<l>Sectamur umbram luminis:</l>
+<l>Sed lumen ipsum spernimus.</l>
+<pb id='s150' n='142'/>
+<l>Os dentibus corrodimus:</l>
+<l>Carnis medullam <corr sic='temninus' resp='transcriber'>temnimus</corr>.</l>
+<l>Quis non furorem pessimum</l>
+<l>Miretur atque insaniam?</l>
+<l>Sed et sacratae virgines</l>
+<l>Vel omnium potissimum</l>
+<l>Hunc pertinent ad ordinem,</l>
+<l>Quae castitatem voverant</l>
+<l>Deo perennem maximo,</l>
+<l>Sed omnibus sunt interim</l>
+<l>Scortationis obvii</l>
+<l>Libidinisque motibus,</l>
+<l>Fortassis iras hostico</l>
+<l>In me fovebunt pectore,</l>
+<l>Quod tam pudenda virgines</l>
+<l>In sede collocaverim:</l>
+<l>At rideo. Nam saepius</l>
+<l>Dignum est patella operculum.</l>
+</lg>
+<div2 id='FlNF.28.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p>SI alicui optionem dares inter aurum et plumbum, iuberesque, utrum ex illis vellet, sumere; ille autem spreto neglectoque auro acciperet plumbum, nonne illum stultissimum <note>Terrena caelestibus non sunt praeferenda.</note> esse diceres? Utique. O insana ergo et delira mundi studia, qui neglectis bonis caelestibus, prae quibus aurum sordere videri possit, terrenis, quae nil nisi stercora, et si quae illis viliora, sunt, inhiat. Recte Audoenus:</p>
+<pb id='s151' n='143'/>
+<lg met='dist'>
+<l>Defleret mores, si viveret, Heraclitus,</l>
+<l rend='indent'>Nostraque rideret tempora Democritus.</l>
+<l>Quamquam ad ridendum curas et inania mundi</l>
+<l rend='indent'>Splenis Democritus non satis unus habet.</l>
+<l>Ad casus hominum lacrimarum more rigandos,</l>
+<l rend='indent'>Heraclite, oculi non satis ambo tui.</l>
+</lg>
+<p>Alludit huc flosculus 98. Hortuli mei Anthologicomelici, quem lubet addere:</p>
+<lg met='dist'>
+<l>Vix bona perdurant oculi terrestria nictum,</l>
+<l rend='indent'>Collata aeternis, quae sine fine, bonis.</l>
+<l>Illa indefessis conatibus atque labore</l>
+<l rend='indent'>Quaerimus Herculeo: Caelica respuimus.</l>
+<l>O mores reprobos! O inertia pectora! gemmis</l>
+<l rend='indent'>Quae sibi neglectis stercora foeda legunt.</l>
+</lg>
+<p>Si animam, inquit Chrysostomus de recuper. laps. negligamus, nec corpus salvare poterimus. Animam igitur omnium curet primam, qui corpus salvari cupit.</p>
+</div2>
+</div1>
+<div1 id='FlNF.29' n='29' type='book'>
+<head>ODA XXIX. In eos, qui prudentiores sibi ipso Deo videntur. </head>
+<argument><head>NUCLEUS.</head>
+<p>Ovum prae gallina vult sapere.</p></argument>
+<lg met='iadi'>
+<l>SEd nec Deum ter optimum</l>
+<l>Ter maximumque pessimus</l>
+</lg>
+<pb id='s152' n='144'/>
+<lg met='iadi'>
+<l><figure><head>Hic in caelo os suum ponit.</head><figDesc></figDesc></figure></l>
+<l>Homuncionum praeterit</l>
+<l>Furor, nec absque scommatis</l>
+<l>Sinit hunc abire liberum,</l>
+<l>Sed vel cavillis obruit,</l>
+<l>Vel impetitum morsibus</l>
+<l><sic corr='Convitiatur'>Conviciatur</sic>, corrigit,</l>
+<l>Taxat, refutat, increpat:</l>
+<pb id='s153' n='145'/>
+<l>Hic imbrium vult copiam,</l>
+<l>Hic siccitatem postulat:</l>
+<l>Huic solis aestus carpitur,</l>
+<l>At frigus illi displicet:</l>
+<l>Austri ille flatus expetit,</l>
+<l>Notum sed ille suspicit,</l>
+<l>Et nemo non prudentior</l>
+<l>Ipso videri vult Deo,</l>
+<l>Quodsi veniret caelitus</l>
+<l><corr sic='At' resp='transcriber'>Ad</corr> nos Deus iustissimus,</l>
+<l>Haec cogeretur singula</l>
+<l>Nobis magistris discere,</l>
+<l>Scholasque nostras visere.</l>
+<l>Sed proh nefandam insaniam,</l>
+<l>Nefanda proh piacula!</l>
+<l>Audere nequam pessimum,</l>
+<l>Qui nescit haram verrere,</l>
+<l>Vel cochleare effingere,</l>
+<l>Deum docere maximum,</l>
+<l>Qui nil nisi est prudentia,</l>
+<l>Cuius potestas emicat</l>
+<l>Per vasta mundi climata;</l>
+<l>Quique omnium scit optime,</l>
+<l>Quae tempori cuilibet</l>
+<l>Par aeris sit qualitas,</l>
+<l>Et pro sua sapientia</l>
+<l>Recte gubernat omnia.</l>
+</lg>
+<pb id='s154' n='146'/>
+<div2 id='FlNF.29.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p>AXioma a Christo ipso prolatum est Mat. 10. Non est discipulus supra magistrum, nec servus super dominum suum. De iure docet Salvator. De facto autem quid fiat, praesens docet oda. Quis non quottidianas, <reg orig='imo'>immo</reg> momentaneas plurimorum hominum audit querelas? cuius aures non feriunt? Huic Sol nimio suo calore est molestus, ille frigus dolet: Hic imbrem, qui arva praediaque sua frumentis obsita irriget, exposcit: ille iter aliquod aggrediens imbrem modis omnibus aversatur, siccitatemque postulat. Haec vitibus tempestas, illa hordeo, ista tritico, haec gramini non satis conveniens reprehenditur. Quid multa? Quot homines, tot sententiae. Sed quid de illis dicam, qui imperscrutabiles divinae sapientiae abyssos insulsis suis mentibus rimantes non verentur iniustitiae atque iniquitatis Deum arguere? modo hanc modo illam eius actionem cavillantes, cur protoplastos homines labi permiserit, cur pauci admodum aeternae vitae fiant participes, cur econtra maxima impiorum multitudo in cruciatus infernales, perpetuo verme discrucianda, praecipitetur, cur non statim omnium precibus satisfaciat, cur caeco huic visum, surdo isti auditum, dementi mentem, pauperi
+<pb id='s155' n='147'/>
+divitias, deformi pulchritudinem, aegro sanitatem non restituat. Haec et similia curiosi nasutulique isti homunciones mirantur, non solum autem mirantur, verum etiam reprehendunt. Sed ô vecordes! ô insanos! Qui freta, qui terras, qui regit astra, Deus cur non pro lubitu suo creaturas suas moderetur? quis tempestatem ab ipso effectam, quis pluvias ab illo immissas, quis solis splendorem, quis tonitrua culpet, cum ipse solus omnium optime noverit, quando his omnibus sit opus?</p>
+<p>Qui suo bono sapit, cum Boet. Deum sapientissimum sic potius affetur:</p>
+<lg met='ana4'>
+<l>O stelliferi conditor orbis,</l>
+<l>Qui perpetuo nixus solio</l>
+<l>Rapido caelum turbine versas,</l>
+<l>Legemque pati sidera cogis, etc.</l>
+<l>Tu frondifluae frigore <corr sic='blumae' resp='transcriber'>brumae</corr></l>
+<l>Stringis lucem breviore mora.</l>
+<l>Tu cum fervida venerit aestas,</l>
+<l>Agiles noctis dividis horas.</l>
+<l>Tua vis varium temperat annum,</l>
+<l>Ut quas Boreae spiritus aufert,</l>
+<l>Revehat mitis Zephyrus, frondes etc.</l>
+<l>Nihil antiqua lege solutum</l>
+<l>Linquis propriae stationis opus</l>
+<l>Omnia certo fine gubernas.</l>
+</lg>
+<p>Haec verba posteriora, pii hominis animum, priora illa nebulonis indicant.</p>
+<pb id='s156' n='148'/>
+</div2>
+</div1>
+<div1 id='FlNF.30' n='30' type='book'>
+<head>ODA XXX. In eos, qui occasionem peccatis suppeditant. </head>
+<argument><head>NUCLEUS.</head>
+<p>Vitanda non solum mala, sed et malorum occasio.</p></argument>
+<lg met='iadi'>
+<l>NOn est malum solummodo,</l>
+<l>Paulo monente Apostolo,</l>
+<l>Nisu cavendum sedulo,</l>
+<l>Sed et malorum occasio.</l>
+<l>Qui non videri publicus</l>
+<l>Vis oenopola, postibus</l>
+<l>Hederam revelle pendulam,</l>
+<l>Notumque fiet omnibus,</l>
+<l>Nullum tuis in aedibus</l>
+<l>Venale vinum porrigi.</l>
+<l>Qui fur videri non cupis</l>
+<l>Facto, nec esto gestibus,</l>
+<l>Vagosque non ocellulos</l>
+<l>Ad furta circumfer tuos.</l>
+<l>Vin haud vocere adultera?</l>
+<l>Adulterae subterfuge</l>
+<l>Gestus, et haud libidini</l>
+<l>Occasionem suggere.</l>
+<l>Tales enim quamplurimae</l>
+</lg>
+<pb id='s157' n='149'/>
+<lg met='iadi'>
+<l><figure><head>Hederam hic suspendit.</head><figDesc></figDesc></figure></l>
+<l>In orbe dantur feminae,</l>
+<l>Quarum licet foedas nates</l>
+<l>Senilis aret rugula,</l>
+<l>Tamen priorum futiles</l>
+<l>Meminere quando criminum,</l>
+<l>Novo resultant gaudio,</l>
+<l>Et blanda delectatio</l>
+<pb id='s158' n='150'/>
+<l>Titillat in praecordiis,</l>
+<l>Et ad patranda talia</l>
+<l>Iuvenculas femellulas</l>
+<l>Sermone blando concitant.</l>
+<l>Peccata nobis scilicet</l>
+<l>Possent caveri plurima,</l>
+<l>Si praestituta criminum</l>
+<l>Praecideretur ansula.</l>
+</lg>
+<div2 id='FlNF.30.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p>QUi cum hoste pugnam init, omni ex parte armatum incedere oportet. Nam si vel unica ex parte fuerit inermis, ob id mortis periculo expositus erit. Finxerunt olim Poetae Achillem in lacu Stygio lotum fuisse, et solas pedum illius plantas aquas illas non attigisse, unde totum eius corpus ita forte ac validum fuisse dicebant, ut nullo modo vinci, nec feriri ad mortem posset. Per plantam vero pedis vulneratus obiit: quo significare voluerunt, nullam prorsus inermem partem hosti exponendam esse. Id ipsum et de bello spirituali dicendum est, quando cum diabolo, carne, ac mundo bellum gerimus. Curandum igitur valde nobis est, ne minimum quidem locum hostibus demus, quo vulnus infligere nobis possit. Quod quidem fiet, si passiones omnes moderati fuerimus: Si vero unicus affectus immoderatus, sive avaritiae, sive ambitionis, sive gulae, sive invidiae, remanserit, quamvis reliquos omnes iam rationi
+<pb id='s159' n='151'/>
+subdiderimus, inde nobis mortem adsciscemus. Idem enim profecto de occasionibus, quod de passionibus dicendum est: nam licet cunctis occasionibus clauseris cordis ostium, si uni tantum occasioni rimulam aperueris, ea peribis: cunctas igitur occasiones vitare omni studio debes, ut salveris. Ideo Christus Matt. 5 Paralyticum, pristinae sanitati restitutum, iubet tollere secum lectulum suum. Lectulus ille symbolum est earum rerum, circa quas peccatum, quod libet, versatur, in quibus perditi homines tam diu iacent, quamdiu illi peccato adhaerent. Avarus videlicet in pecuniis, superbus in honoribus et dignitatibus, libidinosus in deliciis, conviviis, impudicisque sermonibus: ac denique quaelibet occasio peccandi est, velut lectulus quidam, in quo semel ac iterum peccatores recumbunt. Hanc ergo vult Christus illum a se amovere, qui ad animi sanitatem restitutus est. Sic Plutarch. refert, Lycurgum Spartiatarum legislatorem sanxisse, omnes vineas, quae in regno Lacedaemoniae plantatae fuerant, eradicari, eo quod Spartiatae potationibus et ebrietatibus nimis vacarent. An prudenter ita sanxerit, nolo hic diiudicare: certe intentio principis huius laude dignissima est, qui rei publ. abusum et malum videns, non solum malum ipsum emendare curavit, sed etiam occasiones malorum. Si profanus hoc princeps fecit,
+<pb id='s160' n='152'/>
+quid Christianis nostris hac in parte agendum, ipsi videre poterunt. Ut paucis dicam, qui sapis, iuxta Poetae illud,</p>
+<lg met='dist'>
+<l>Principiis obsta: sero medicina paratur,</l>
+<l rend='indent'>Cum mala per longas invaluere moras.</l>
+</lg>
+</div2>
+</div1>
+<div1 id='FlNF.31' n='31' type='book'>
+<head>ODA XXXI. In eos, qui in se ipsos sunt iniuriosi, sibique ipsis malum creant. </head>
+<argument><head>NUCLEUS.</head>
+<p>Inimicus sibi, amicus nemini.</p></argument>
+<lg met='iadi'>
+<l>VOlucris obscoenissima</l>
+<l>Est, omniumque pessima,</l>
+<l>Merda solet quae proprium</l>
+<l>Contaminare nidulum.</l>
+<l>Sic ille nequam est pessimus,</l>
+<l>Qui laudis immemor suae,</l>
+<l>Suique prorsus nominis</l>
+<l>Oblitus, in famam irruit</l>
+<l>Iniuriosus propriam.</l>
+<l>Nam qui sibi haud pepercerit,</l>
+<l>Ut iste parcet alteri?</l>
+<l>Sic qui parentes livido</l>
+<l>Sugillat ore proprios,</l>
+<l>Et qui maligne proprium</l>
+</lg>
+<pb id='s161' n='153'/>
+<lg met='iadi'>
+<l><figure><head>Volucris haec proprium stercore conspurcat nidum.</head><figDesc></figDesc></figure></l>
+<l><sic corr='Conviciatur'>Convitiatur</sic> principem,</l>
+<l>Suamque prodit patriam:</l>
+<l>Et qui maritae propriae,</l>
+<l>Et quae mariti proprii</l>
+<l>Secreta pandit crimina</l>
+<l>Sic qui laboris compares,</l>
+<pb id='s162' n='154'/>
+<l>Parilique iunctos munere</l>
+<l>Probris lacessit turpibus,</l>
+<l>Horumque naevos publica</l>
+<l>Pro contione praedicat:</l>
+<l>Nae millies nequissimus</l>
+<l>Ille est, homoque pessimus,</l>
+<l>Et non minore perditus</l>
+<l>Obscoenitate furcifer,</l>
+<l>Quam quae volucris proprium</l>
+<l>Solet cacare in nidulum.</l>
+</lg>
+<div2 id='FlNF.31.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>I. Quisque sibi est proximus.</note> VEtus est verbum: Proximus sum egomet mihi. Contra qui in se ipsos sunt iniuriosi, quomodo in alios poterunt esse aequi? Hinc Periandri monitum: <foreign lang='GR'>seauto\n mh\ a)me/lei.</foreign> Id est: Te ipsum ne negligas. Et Menandri iste Senarius:</p>
+<lg met='trim'>
+<l><foreign lang='GR'>e(auto\n d' ou)dei\s o(mologei= kakou=rgon.</foreign></l>
+<l>Se ipsum nullus fatetur esse malum.</l>
+</lg>
+<p>Proinde si nemo in se ipsum est acerbus, nec in amicum erit. Nam haec amoris est natura in Philosophicis: Amicus meus alter ego: Unde cum Alexander Magnus socium secum amicum quendam deferens ad visitandam reginam Asiae pergeret, et illa amicum Alexandri ipsum Alexandrum esse censens, Alexandri honores illi tribuisset, erroremque suum deprehendens erubuisset; Bene, inquit
+<pb id='s163' n='155'/>
+Alexander, <note>II. Amoris incentiva quae</note> factum est: nam et hic Alexander est. O rege dignam vocem! Ideo enim, ait Chrysostom. hom. 24 in I. ad Cor. auctor ipse rerum Deus iam olim a principio sexcenta commentus est, quibus caritatem in proximos nobis inculcaret. Primum caput unum omnibus dedit ipsum Adam; cur enim e terra non sumus, ut ad concordiam flecteret nos: nam si nunc, quia locis dissidemus, alienos nos invicem putamus, si generis nostri duo principia exstitissent, quid esset? Et ob hanc causam nec mulierem ex terra fecit, sed ex costa viri, ut, quia eiusdem substantiae sumus, in unum perducamur, et ex horum procreatione multi nascuntur affectionis modi: hunc, quia frater, amamus, hanc quod sit mater, illam, quia nutrix, hunc quia filius, illum, quia nepos, et illum, quia pronepos, hanc quia filia, illam, quia neptis, hunc, quia frater, illum, quia ex fratre nepos, hanc, quia soror, illam, quia ex sorore neptis, etc. Quorum ergo ex numero istum esse censebis, qui non solum in amicos, socios, coniuges, liberos, verum et in se ipsos iniuriosi esse non verentur?</p>
+<p><note>III. Quorundam in parentes impietas quanta.</note> Isti autem profecto in extremo nequitiae gradu constituti sunt, qui, si quos in parentibus suis defectus viderint, tanta sunt impudentia praediti, ut non vereantur, publice illos apud alios traducere, modisque omnibus adlaborent, quo publicae illos famae atque infamiae exponant. Quod ubi effecerint, mirum quam tripudiant,
+<pb id='s164' n='156'/>
+quam laetantur, quam, re quasi bene gesta, gestiunt! Sed quid aliud quaeso agunt, quam quod se ipsos omnium ludibrio atque fabulae exponunt? <reg orig='Imo'>Immo</reg> duplex inde ad istos recidit incommodum. Dum enim parentes taxant, se ipsos etiam taxant, cum pater et filius una eademque censeantur persona. Iniurius igitur in patrem in se ipsum simul iniurius est. Accedit huc, quod ratio dictitat, illos scelestissimos esse, qui parentum sese proditores exhibent. Hinc altera et turpior multo infamia in ipsos redundat. Ut paucis dicam, parricidae sunt isti nebulones. Etenim, crede mihi, si tantum possent factis, quantum audent verbis, vita profecto parentum praesentissimo periculo esset exposita. Sed pergo ad Odam sequentem.</p>
+</div2>
+</div1>
+<div1 id='FlNF.32' n='32' type='book'>
+<head>ODA XXXII. In Confessiones quorundam sceleratorum hominum. </head>
+<argument><head>NUCLEUS.</head>
+<p>Qualis confessio, talis absolutio.</p></argument>
+<lg met='iadi'>
+<l>NEquam reductos hactenus</l>
+<l>In ordinem recensui,</l>
+</lg>
+<pb id='s165' n='157'/>
+<lg met='iadi'>
+<l><figure><head>Nequam hic confessionem facit.</head><figDesc></figDesc></figure></l>
+<l>Suamque sedem singulis</l>
+<l>Pro dignitate debitam</l>
+<l>Ascriptitasse me puto:</l>
+<l>At nunc eorum in publicum</l>
+<l>Confessiones proferam,</l>
+<l>Quibus patrata nuntiant</l>
+<l>Delicta confessario.</l>
+<pb id='s166' n='158'/>
+<l>Si crimen, aiunt, forsitan</l>
+<l>Quoddam patravi, vel scelus,</l>
+<l>Quod vix tamen putaverim,</l>
+<l>Culpam remittas, obsecro,</l>
+<l>Et absolutum crimine</l>
+<l>Reddas piorum coetui.</l>
+<l>O confitentem pessimum,</l>
+<l>Hominemque perversissimum!</l>
+<l>An vero adhuc tecum ambigis,</l>
+<l>Num foeda perpetraveris,</l>
+<l>Sceleste nequam, crimina?</l>
+<l>Quem tanta lerna criminum</l>
+<l>Contaminavit turpium,</l>
+<l>Et sordidatum pessima</l>
+<l>Contagione perdidit.</l>
+<l>Iustus dietim septies</l>
+<l>Delinquit, at tu furcifer</l>
+<l>Quot per diem piacula</l>
+<l>Committis atrocissima?</l>
+<l>Quae qui notare gestiat,</l>
+<l>Notare stellas audeat.</l>
+<l>Si confiteri crimina</l>
+<l>Vereris, heus cur talia</l>
+<l>Ausu patrare saepius</l>
+<l>Non erubescis perfido?</l>
+<l>Cavere fumum qui cupis,</l>
+<l>Flammam cave vel supprime:</l>
+<l>Est flamma fumo proxima.</l>
+</lg>
+<pb id='s167' n='159'/>
+<div2 id='FlNF.32.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p>DE usu et necessitate confessionum elegans est Epigramma Iacobi Billii in Anthol. sacra, quod adscribere libet:</p>
+<lg met='dist'>
+<l>Cum <orig reg='quaedam'>quadam</orig> immodicum fundit pars aegra cruorem</l>
+<l rend='indent'>Ut medeare malo, vena secanda tibi est.</l>
+<l>Sic tibi cum celerem minitantur crimina mortem,</l>
+<l rend='indent'>Numinis inque tuum iam cadit ira caput:</l>
+<l>Te ferias, tuaque in te ipsum desaeviat ira:</l>
+<l rend='indent'>Sic etenim magni concidet ira Dei.</l>
+<l>Nam sese excusat, quicumque accusat: inultum</l>
+<l rend='indent'>Et sinit hunc, qui se non sinit, esse Deus.</l>
+</lg>
+<p>Ovid. Metamorph. lib. 10. fab. 9.</p>
+<lg met='hexa'>
+<l>Numen confessis aliquod patet.</l>
+</lg>
+<p>Isidorus lib. 1. cap. 12. Confessio, inquit, sanat, confessio iustificat, confessio peccatis veniam donat. Omnis spes in confessione consistit. In confessione locus misericordiae est. Nulla tam gravis est culpa, quae per confessionem non habeat veniam.</p>
+<p>Seneca lib. de moribus: Ubi est confessio, ibi remissio. Idem ad Luc. epist. 28. Initium est salutis, notitia peccati. Nam qui peccare se nescit, corrigi non vult. Ideo quantum potes, te ipsum coargue, inquire in te, accusatoris primum partibus fungere, deinde iudicis, novissime deprecatoris.</p>
+<pb id='s168' n='160'/>
+<p>Origenes: Sicut ii, qui habent intus inclusam escam indigestam, aut humoris vel phlegmatis stomacho graviter et moleste imminentia, si vomuerint, relevantur: ita etiam hi, qui peccaverunt, siquidem occultant et retinent intra se peccatum, intrinsecus urgentur, et propemodum suffocantur a phlegmate, vel humore peccati: si autem ipse sui accusator fiat, dum accusat semet ipsum et confitetur, simul evomit et delictum, atque omnem morbi digerit causam. In Psalm. 37. hom. 2.</p>
+</div2>
+</div1>
+<div1 id='FlNF.33' n='33' type='book'>
+<head>ODA XXXIII. In perditos et desperabundos homines. </head>
+<argument><head>NUCLEUS.</head>
+<p>Desperatio certa mors est. [Ambros. <corr sic='super.' resp='transcriber'>super</corr> Luc. lib. 2.]</p></argument>
+<lg met='iadi'>
+<l>QUi daemoni se devovet,</l>
+<l>In propriumque mancipat </l>
+<l>Velut istius peculium,</l>
+<l>Si sors sinistra forsitan</l>
+<l>Affligat aut aerumnula,</l>
+<l>Nebulone quovis nequior</l>
+<l>Ille est, et arctis nexibus</l>
+<l>Cauda ligatus inferi</l>
+<l>Videtur esse Cerberi.</l>
+</lg>
+<pb id='s169' n='161'/>
+<lg met='iadi'>
+<l><figure><head>Caudae hic Diaboli insidet.</head><figDesc></figDesc></figure></l>
+<l>Si paululum infortuniis</l>
+<l>Incessitur, mox perditus</l>
+<l>Desperat, et turpissimas</l>
+<l>Ore evomit blasphemias,</l>
+<l>Deumque multis questibus</l>
+<l>Iniuriarum postulat,</l>
+<l>Quod immerentem talibus</l>
+<pb id='s170' n='162'/>
+<l>Se prosequatur ictibus,</l>
+<l>Cum tam pius sit hactenus,</l>
+<l>Vitamque degat optimam.</l>
+<l>Quod si preces non ilico</l>
+<l>Illius exaudit Deus,</l>
+<l>Moramque parvam intericit,</l>
+<l>Spe privus omni, pessimo</l>
+<l>Longeque crudelissimo</l>
+<l>Sese enecat suspendio,</l>
+<l>Cultrove fauces dissecat.</l>
+<l>Vel in fluentem desilit.</l>
+<l>Eiusmodi sicarius</l>
+<l>Propriique latro corporis</l>
+<l>Indignus est, nebulonibus</l>
+<l>Quem conferas prioribus,</l>
+<l>Sed illigatus foetidae</l>
+<l>Plutonis atri caudulae</l>
+<l>Pronoque praeceps impetu</l>
+<l>Ad nigra fertur tartara.</l>
+</lg>
+<div2 id='FlNF.33.1' n='1' type='notes'>
+<head>NOTAE.</head>
+<p><note>Desperatio quantum sit peccatum.</note> DEsperatio ultimum est vitiorum, tamque atrox ac grande, ut hominem, ea expugnatum, ipsis Diabolis similem faciat. Illa est, cui nullum remedium, nulla medela, nulla salus potest adhiberi. Est quidem nobis quam diu lucis huius usura fruimur, poenitentiae ac salutis ianua numquam occlusa, cum gratiae et bonitatis divinae porta omnibus
+<pb id='s171' n='163'/>
+serio resipiscentibus peccatoribus pateat. At ubi desperatio istam occluserit, tunc omnino de nobis nostraque salute est actum. Quemadmodum enim iactantia et praesumptio propriorum meritorum hominem facillime evertit, ita e contra desperatio eundem non modo prorsus pessumdat, verum etiam recta ad Orcum dat praecipitem. Unde Augustinus lib. de Symbolo: Latro, inquit, agnovit, et Petrus negavit. Caveat ergo bonus, ne praesumat per superbiam, malus vero ne desperet per malitiam. Ut paucis dicam, desperatio est omnimoda animae eversio, et ad mortem aeternam sine ulla gratiae spe deductio, quia qui semel desperatus fuerit, ad salutem amplius non redibit, iuxta illud Prophetae: Desperavi nequaquam faciam. <note>Ier. 2.</note> Atque eiusmodi desperabundi oppido mihi videntur similes esse rhinoceroti, qui vivus numquam aut vix certe capi potest. Statim enim ubi captum sese videt, prae indignatione mortem sibi ipsi spontaneam infert: Sic isti etiam, postquam retibus Diaboli, i. e. peccatis sese implicatos atque involutos vident, malo hoc non contenti ultro etiam in desperationis barathrum, nulla poenitentiae ratione habita, sese iaciunt praecipites, illudque <note>Hier. 38.</note> eiusdem Prophetae crepant: Desperavimus, post cogitationes nostras ibimus. Et istud quidem summum est periculum, quando ille, qui bonum se fieri posse desperat, non eo adlaborat, ut
+<pb id='s172' n='164'/>
+bonus fiat, quia, ut ait Seneca lib. de morib. Numquam se mutat, qui se posse mutari desperat. De Taxo naturalium historiarum scriptores referunt, quod cauda sua villosa cavernae suae foramina undiquaque, modo contra Australem, modo contra Aquilonarem flatum, ne qua perrumpere possit, obstruat. Idem profecto faciunt desperati. Nam hi cordis sui cavernas per desperationem, non solum contra Australem flatum, hoc est, contra praedicationem verbi divini, sed etiam contra Aquilonarem, hoc est, contra aerumnas et persecutiones adeo obstruere solent, ut neutrum istorum umquam admittant, sed velut furiosi ac insani in propriam proni ruant perniciem. Supplicibus igitur Deus est sollicitandus precibus, ut periculosissimum istud desperationis peccatum procul a nobis amoveat, et, sicubi peccaverimus (peccamus autem innumerabiliter) gratia nobis sua benignus adsit, ut seria admissorum scelerum poenitentia ducti vitam deinde emendemus, nec umquam desperationis violentia victi succumbamus, quae re vera secundum illud vulgatum, gehennae est initium et divinae gratiae</p>
+<p>FINIS.</p>
+<pb id='s173'/>
+</div2>
+</div1>
+<div1 id='FlNF.34' n='34' type='book'>
+<head>EPILOGUS. Parodia ad Oden 3. lib. 4. Carm. Horatii. Quem tu Melpomene semel, etc.</head>
+<lg met='asc2'>
+<l>QUem fax nequitiae semel</l>
+<l rend='indent'>Viventem reprobo lumine viderit,</l>
+<l>Illum non labor Isthmius</l>
+<l rend='indent'>Frugi restituet: non equus impiger</l>
+<l>Curru magnifico feret</l>
+<l rend='indent'>Victorem; neque res publica honoribus</l>
+<l>Ornatum variis virum,</l>
+<l rend='indent'>Quod nequam tumidas contuderit minas,</l>
+<l>Ostendet procerum choro:</l>
+<l rend='indent'>Sed, quas MOENUS aquas gurgite proluit,</l>
+<l>Vel certe arboreae trabes</l>
+<l rend='indent'>Reddent aridulo stipite pensilem.</l>
+<l>Nostri CAESARIS <reg orig='inclyta'>inclut</reg></l>
+<l rend='indent'>Dignata est bonitas inter amabiles</l>
+<l>Vatum ponere me choros:</l>
+<l rend='indent'>Et iam dente magis mordeor invido.</l>
+<l>Verum ô furcifer improbe,</l>
+<l rend='indent'>Vastos qui strepitus turpiter excitas,</l>
+<l>Te praedam fore piscium,</l>
+<l rend='indent'>Corvorumve, volo, si lubeat magis.</l>
+<l>Totum muneris hoc tui est,</l>
+<l rend='indent'>Quod monstror digito praetereuntium</l>
+<l>Conatus fidicen tui:</l>
+<l rend='indent'>Quod scribo, et placeo, si placeo, tuum est.</l>
+</lg>
+</div1>
+</body>
+</text>
+</TEI.2>

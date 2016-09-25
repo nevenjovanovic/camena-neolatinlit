@@ -1,0 +1,2431 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd">
+<TEI.2>
+ <teiHeader type='text'>
+<fileDesc>
+      <titleStmt>
+        <title>Aureolorum Emblematum Liber Singularis.</title>
+	<title type='sub'>Machine-readable text</title>
+        <author n='reus'>Reusner, Nicolaus</author>
+        <editor>Reusner, Nicolaus</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>XML version, markup prototype, TEI header, November 2003</edition>
+        <respStmt><name>Ruediger Niehl</name>
+		<resp>markup</resp>
+		</respStmt>
+      </editionStmt>
+		<publicationStmt>
+				<publisher>Camena</publisher>
+				<address>
+				  <addrLine><anchor n="http://www.uni-mannheim.de/mateo/camena/reus4" type="href" id="reus4"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt>
+ 			 <note type="href">http://www.uni-mannheim.de/mateo/camena/</note> 
+			 <note type="pathname">reus4</note>
+ 			 <note type="filename">reusneremblemata.html</note>
+ 			 <note type="titleimage">s001.html</note>
+		 	 <note type="srcfile">reusneremblemata.xml</note>
+  			 <note type="imgpath">reus4/jpg</note>
+			 <note type="imgtype">html</note>
+			</notesStmt>
+	      <sourceDesc>
+        <bibl>Straßburg, 1587.</bibl>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+      <editorialDecl>
+          <p>Regeln fuer die Texterfassung 03/2001 (bis auf Metrik)</p>
+       </editorialDecl>
+      <refsDecl>
+          <p>not necessary</p>
+      </refsDecl>
+    </encodingDesc>
+<revisionDesc>
+<change>
+<date>20 April 2004</date>
+<respStmt>
+<name>Ruediger Niehl</name>
+<resp>markup</resp>
+</respStmt>
+<item>TEI header and tagging added; typed text - structural tagging complete - no semantic tagging - no spell-check</item>
+</change>
+<change>
+<date>15 December 2004</date>
+<respStmt>
+<name>Angela Reinthal</name>
+<resp>markup</resp>
+</respStmt>
+<item>Morpheus spell-check performed</item>
+</change>
+</revisionDesc>
+ </teiHeader>
+<text>
+<front>
+<gap id='GE'/>
+<pb id='s001'/>
+<titlePage><titlePart>
+NICOLAI REUSNERI
+LEORINI
+AUREOLORUM
+EMBLEMATUM LIBER
+SINGULARIS THOBIAE STIMMERI
+Iconibus affabre effictis exornatus.
+AD SERENISSIMUM PRINCIPEM
+D. HULDRICHUM NORVEgiae
+Heredem, Friderici II. Reg.
+Dan. Filium.
+<gap desc='illustration'/>
+ARGENTORATI
+Cum Privilegio Caesareo,
+Apud Bernardum Iobinum.
+M. D. LXXXVII.
+</titlePart></titlePage>
+<pb id='s002'/>
+<pb id='s003'/>
+<div type='preface'>
+<head>AD SERENISSIMUM CELSISSIMUMQUE PRINCIPEM, D. HULDRICHUM, NORVEgiae Heredem, Ducem Slesvigiae, Stormariae, Wagriae, et Dietmarsiae, Comitem Oldemburgi, et Delmenhorstae, Primariae Ecclesiae Magdeburgensis, et Argentoratensis Canonicum, Friderici II. Regis Danorum potentiss. Filium inclitum, NICOLAI REUSNERI Praefatio.</head>
+<p>AUREOLORUM libros aliquot in publicum emissuro, HULDRICHE Princeps Serenissime, visum fuit mihi faciendum: ut singularem hunc librum Emblematum seorsim excusum praemitterem: Iconibus ornatum eleganter affabreque depictis: et rudi Minerua (quod aiunt) breviter a me descriptis, aut s altem leviter adumbratis. Studui enim in his maxime, quoad potui, brevitati ac perspicuitati: quod simul utrumque praestare quam sit operosum et difficile: satis profecto ostendit veteris Poetae illud:
+<pb id='s004'/>
+Brevis esse laboro, Obscurus fio. Sunt etiam alia in medio Emblemata mea explicatiora, Genio, ut arbitror, non malo iam antea in lucem edita: erunt quoque, si Deus volet, non ita multo post eorundem PARALIPOMENA, una cum ceteris AUREOLORUM libris Symbolicis, et Miscellaneis. Ceterum quum opusculum istud praesens non ita pridem in manibus haberem, et de editione eiusdem cogitationem susciperem: singulari quo dam fato accidit: ut sub idem tempus de illustri adventu tuo in celebrem hanc urbem, et Academiam nostram, fama percrebresceret. De quâ ego postea certior factus, cum ex aliorum fide dignorum sermonibus, tum ex relatu Illustris et Generosi Domini ERNESTI Comitis Mansfeldii, Metropolitanae Ecclesiae Coloniensis et Argentoratensis Canonici dignissimi: quem inter sapientissimos suos consiliarios anno superiore delegit pater tuus clementissimus, FRIDERICUS II. omnium saeculorum ac gentium Princeps, et universae
+<pb id='s005'/>
+Cimbricae regionis Rex Optimus et Maximus: equidem valde, ut debui, laetatus: et urbi Academiaeque nostrae de tantâ, et tam praeclara accessione futurâ, vehementer gratulatus: minime alienum me facturum existimavi: si libellum hunc, quem in manibus tunc commode versarem, sub incliti nominis tui auspicio publicarem, et cum omnibus literarum studiosis communicarem. Quod eo quidem libentius a me factum est: non solum ut de lumine Serenitatis tuae illustri lumen aliquod mutuaretur suum: sed inprimis ut commune hoc gaudium nostrum, de felici adventu tuo passim conceptum, publice contestarer: et hoc veluti Xeniolo tantum hospitem adventantem, quantum in me esset, exciperem, atque cohonestarem. Quan quam vero egregiam illam virtutis tuae in dolem multo maiore et praestantiore munere dignissimam iudico: spero tamen non plane nihil futurum in isto libello, quod aliquo modo eam oblectare valeat: ut si
+<pb id='s006'/>
+minus fortassis carminum lectio, aut imaginum contemplatio; at tot Principum, Comitum, Baronum, aliorumque virtute et genere illustrium, qui proximis annis quatuor, quibus ego hîc fui, in luce Academiae huius (paucis quibusdam exceptis, quos honoris causâ nominare libuit) magnâ cum laude vixerunt, et adhuc nobiscum vivunt, iucunda et grata sit futura recordatio: quorum memoriam eodem pacto propagare, et posteritati consecrare volvio. De bonitate equidem, et clementiâ tuâ eximiâ eo magis confido: quo certior atque exploratior est, tum illustris naturae tuae indoles, et plena humanitatis ac pietatis voluntas; quam adhuc tenerâ aetate intelligo flagrare incredibili studio et ardore virtutis sapientiaeque percipiendae: exemplo incliti fratris CHRISTIANI Principis Daniae inaugurati: quem ad omnia summa et praeclara summum atque excellens armavit ingenium: tum vero etiam parentum et maiorum vestrorum
+<pb id='s007'/>
+clarissimorum spectata animi moderatio, et aequitas, et sapientia pene divina: quâ tantam in orbe Christiano potentiam et gloriam adepti sunt: maximis <corr sic='praeteà' resp='editor'>praeterea</corr> in Rem pub. meritis, praestantissimisque rebus gestis accumulata: cuius virtutis et gloriae, perpetuâ multorum saeculorum seriê quasi per manus tradita, et ad te ipsum usque conservata hereditas, magis quotidie ac magis in gente et familiâ tuâ inclitâ propagatur: omnium profecto opum ac divitiarum possessione, omnique regno et patrimonio longe illa praestantior. Nam ut prisca illa et antiqua Cimbrorum regum nomina et decora omittam: de quibus nulla umquam saeculorum aetas conticescet: quis aut parente atavo tuo CHRISTIANO PRIMO trium regnorum Rege potentissimo, clarior unquam fuit Princeps: in quo tanta virtus in bellis, et in pace sapientia ac moderatio enituit? Quis FRIDERICO proavo pacis et tranquillitatis publicae amantior, et legum iustitiaeque
+<pb id='s008'/>
+fuit studiosior? Quis CHRISTIANO avo tuo aut vitâ sanctior, aut consilio prudentior, aut animi fortitudine prae stantior unquam heros exstitit? nam is quidem regnum motibus intestinis perturbatum non modo ipse virtute suâ pacavit, et restituit: verum etiam finibus eius longe lateque propagatis vehementer auxit, atque amplificavit: idem quoque tranquillis postea rebus patriam ornavit plurimum: verum Dei cultum, ve ramque doctrinam religionis in regno suo instauravit: scholas pietatis et honestatis officinas, tam publicas, quam privatas passim instituit: munivit Rem publicam legibus optimis, atque institutis: summe omnium doctrinarum, et inprimis verae pietatis studiosus: iustitiae praeter ceteros, ac temperantiae cultor maximus: liberalitate, si quis unquam, erga literas, et literarum studiosos maxime delectatus: denique de genere hominum universo quam optime meritus. Eam vero laudem patritam et
+<pb id='s009'/>
+avitam magno studio et ardore animi aemulatus hactenus parens ille tuus inclitus, FRIDERICUS II. Rex omni laude clarissimus: non solum in bello atque in re militari, excelsâ quadam virtute et prudentiâ, sed in universum heroicâ animi magnitudine, consiliique praestantiâ: maxime vero pietate erga Deum, et caritate erga omnes homines, fideque et benevolentiâ erga Rem publicam singulari: omnium sibi gentium, etiam exterarum et barbararum, amorem favoremque meritissimo conciliavit: cum aliarum maximarum rerum gestarum gloriâ: tum eo quoque nomine praecipue celebrandus: quod non ipse solum per se magni facit literarum studia, et favet ingeniis: nec quicquam deesse literatis hominibus vel commodi, vel ornamenti patitur: verum etiam in eodem studio, et proposito confirmat, vel plane potius iam conformat regiam sobolem inclitam: ut nimirum suo et suorum maiorum exemplo, optimum regni praesidium sibi
+<pb id='s010'/>
+comparet doctrinam liberalem, principe bono inprimis dignam: adeoque virtutem in se ipso expetat, in aliis vero diligat, et veneretur: neque tam potestate, quam beneficentiâ inter homines eminere studeat. Cuius sane laudatissimo exemplo, et monitis salutaribus ultro te obsequi, Princeps Serenissime: neque solum imitari, sed etiam assequi adhuc primâ aetate praeclara studia, tuis maioribus, et patre tuo, teque ipso et familiâ tuâ digna: in quâ florere vides heroes permultos gentiles tuos, ac insuper fratres germanos, virtutis in studio tantopere defixos: sane, ut debeo, laetor vehementer, et gaudeo mirifice: idque non tam tuâ, quâm Rei pub. et literarum causâ: eoque confidentius minorum vigiliarum opellas istas ad te mitto: et fidei bonitatique tuae, de quâ optime sentio, maiorem in modum commendo: argumentum observantiae in te meae, ut equidem spero et opto, perpetuum deinceps futurum. Deus Opt. Max. inclitam adolescentiam tuam
+<pb id='s011'/>
+numine suo placide regat: et felicem ab omni laude virtutis et gloriae faciat perpetuo Argentorati. Idibus Novembris. Anno Christiano M. D. XXXIIIC.</p>
+</div>
+<div type='errata'>
+<head>LECTORI. Pro Emblemate CX. per errorem bis posito, alterum hoc reponendum habeto, mi Lector. Nocet empta dolore voluptas.</head>
+<lg met='dist'>
+<l>Cantûs plena Cicada, sed est formica laboris:</l>
+<l rend='indent'>Illa eget, haec frugum semper abundat ope.</l>
+<l><foreign lang='GE'>Singn lust Hewschreck/ Amaiß Arbeit/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Jehn mangelt / Vorzath diß hat allzeit.</foreign></l>
+</lg>
+<p>Ceterum in Lemmate Embl. XIV. sic lege: Morem facit usus.</p>
+</div>
+</front>
+<body>
+<div1 id='ReES.01' n='1' type='book'>
+<pb id='s012'/>
+<div2 id='ReES.01.01' n='1' type='poem'>
+<head>AD INSIGNIA INCLITAE DOMUS NORVEGIAE ET HOLSATIAE.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Bellica sunt, quae cernis: acinace tutus, ovansque</l>
+<l rend='indent'>Tot Leo vexillis, et cataphractus Eques.</l>
+<l>Cur hoc? Norvegiae regum gens inclita bello</l>
+<l rend='indent'>Clâret, et Holsatiae stirps animosa Ducum.</l>
+<l>At bello potior Pax? credo. Sed hac quoque praestat</l>
+<l rend='indent'>Arte, eadem verae relligionis amans.</l>
+<l>Crux notat hoc, Cygnusque. Sed hinc quae gloria surgit,</l>
+<l rend='indent'>Pavonis vario pulchrior orbe micat.</l>
+</lg>
+<pb id='s013'/>
+</div2>
+<div2 id='ReES.01.02' n='2' type='poem'>
+<head>SYMBOLUM D. HULDRICHI NORVEGIAE HEREDIS, DUCIS SLESVIGI ET HOLSATIAE, FRID. II. REG. DAN. F. DEXTERA DEI SORS MEA.</head>
+<lg met='dist'>
+<l>SORS MEA DEXTRA DEI: Sors ergo nulla nocebit,</l>
+<l rend='indent'>Seu bona, seu mala sit: SORS MEA DEXTRA DEI.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.03' n='3' type='poem'>
+<head>Aliter.</head>
+<lg met='dist'>
+<l>Sortis vis est nulla bonae super orbe, malaeve:</l>
+<l rend='indent'>DEXTERA nempe DEI SORS MEA sola manet.</l>
+</lg>
+<pb id='s014'/>
+</div2>
+<div2 id='ReES.01.04' n='4' type='poem'>
+<head>DE EIUSDEM NOMINE. Anagrammatismus. ULRICUS NORVEGIAE HAERES: LUCI HAERES VIGOR AETERNUS.</head>
+<lg met='dist'>
+<l>SI VIGOR AETERNUS LUCI, flos inclytus, HAERES</l>
+<l rend='indent'>Regni: te merito ditat ubique favor.</l>
+<l>Sic HULDRICHUS eris: sic nomen, ut omen, habebis.</l>
+<l rend='indent'>O quantum est hominum GRATIA ubique frui!</l>
+</lg>
+</div2>
+<div2 id='ReES.01.05' n='5' type='poem'>
+<head>Aliter. HAE RES LUCI VIGOR. AETERNUS.</head>
+<lg met='dist'>
+<l>RElligio, Virtus, Ars, Ius, fundamina regni,</l>
+<l rend='indent'>Sint curae tibi, dum vivis, celsissime Princeps:</l>
+<l>Exemplo populis ut praesis rite paterno.</l>
+<l rend='indent'>HAERES sunt VIGOR AETERNUS, duce numine, LUCI:</l>
+<l>Gratia cui populi comes est, et gratia Diuûm:</l>
+<l rend='indent'>Quam circum Pax, et Pacis comes, optima rerum</l>
+<l>Libertas, et Honos, et Gloria, Lausque triumphat.</l>
+</lg>
+<pb id='s015'/>
+</div2>
+<div2 id='ReES.01.06' n='6' type='poem'>
+<head>D. FRIDERICO II. REGI DANIAE, NORVEGIAE, VANDALIAE, ET GOTHIAE, PIO FELICI INCLUTO. FRIEDERICUS SECUNDUS <gap desc='greek text'/> SINCERUS FIDE DURES.</head>
+<lg met='dist'>
+<l>SAncta fides, fidei constantia sancta professae.</l>
+<l rend='indent'>Sola vel ad superos laus bona pandit iter.</l>
+<l>Illa fides, fideique decet constantia Regem:</l>
+<l rend='indent'>Inte qualis ad huc eminet una magis.</l>
+<l>Sancta fides, fideique tibi constantia cordi est:</l>
+<l rend='indent'>Felicem quae te iam super astra vehit.</l>
+<l>Macte animi, Rex Magne: pius sic euge beatâ</l>
+<l rend='indent'>SINCERUS DURES saecula longa FIDE.</l>
+</lg>
+<pb id='s016'/>
+</div2>
+<div2 id='ReES.01.07' n='7' type='poem'>
+<head>FRIDERICUS II. REX DANIAE.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>RARA FIDES AVIS est: fraus regnat ubique, dolusque:</l>
+<l rend='indent'>FIDO DEO, sic fraus nulla dolusque nocet.</l>
+</lg>
+<pb id='s017'/>
+</div2>
+<div2 id='ReES.01.08' n='8' type='poem'>
+<head>EMBLEMA I. Maiestas Principis divina. FRIDERICO II. REG. Daniae et Norvegiae.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Principe magnanimo nil maius, ut Hercule magno:</l>
+<l rend='indent'>Mille operum victrix cui fuit una manus.</l>
+<l><foreign lang='GE'>Großmutiger Furst/als Hercules/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hochg Ehrtvff Erdn an statt Gottes.</foreign></l>
+</lg>
+<pb id='s018'/>
+</div2>
+<div2 id='ReES.01.09' n='9' type='poem'>
+<head>EMBLEMA II. Astra petit Virtus. CHRISTIANO III. PRINCIPI Daniae inaugurato.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Cum galeâ clypeoque volat super aethera virtus:</l>
+<l rend='indent'>Morte carens, caelo strenua facta locat.</l>
+<l><foreign lang='GE'>Inn Ewigm Rhum schwebt Tugends Ehr/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Mit Helm Schilt in d Hohe fleugt nu mehr.</foreign></l>
+</lg>
+<pb id='s019'/>
+</div2>
+<div2 id='ReES.01.10' n='10' type='poem'>
+<head>EMBLEMA III. Invia virtuti via nulla. HULDRICHO FRID. II. Reg. Dan. F. II.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Invia virtuti nulla est via: sola beata</l>
+<l rend='indent'>Monstrat iter caelo: laus comes huic et honos.</l>
+<l><foreign lang='GE'>Tugend offnet Himmel vnd Erd/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Kein weg ohnwegsam sein Gferten ehrt.</foreign></l>
+</lg>
+<pb id='s020'/>
+</div2>
+<div2 id='ReES.01.11' n='11' type='poem'>
+<head>EMBLEMA IV. Laesa magis lucet virtus. IOANNI, FRID. II. REG. Dan. F. III.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Ignem caesa silex, et aquam dat spongia pressa:</l>
+<l rend='indent'>Laesa magis virtus lucet, et alta petit.</l>
+<l><foreign lang='GE'>Schwams art Tugend/auch Kißlingsstein/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Außlescht gtruckt/gubt leucht herfur rein.</foreign></l>
+</lg>
+<pb id='s021'/>
+</div2>
+<div2 id='ReES.01.12' n='12' type='poem'>
+<head>EMBLEMA V. Virtutis comes gloria. IULIO ERNESTO DUCI Bruns, et Lunaeburg.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Herculis in bivio Virtus sedet, atque Voluptas:</l>
+<l rend='indent'>Dedecus huic, illi gloria iuncta comes.</l>
+<l><foreign lang='GE'>Tugend vnd Wollust/vffn Wegscheid</foreign></l>
+<l rend='indent'><foreign lang='GE'>Herculs/jehn ehr/diß bringt hertzleid.</foreign></l>
+</lg>
+<pb id='s022'/>
+</div2>
+<div2 id='ReES.01.13' n='13' type='poem'>
+<head>EMBLEMA VI. Capitis corona Sapientia. FRANCISCO DUCI Bruns. et Lunaeburg.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Celsa agitat, capitis Sapientia pulchra corona:</l>
+<l rend='indent'>Infima nil curans, monstrat ad astra viam.</l>
+<l><foreign lang='GE'>Hauptskron/hoch sachn verrricht/Weißheit/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Guldnkron/auch Himmlsphaer solchs lert breit.</foreign></l>
+</lg>
+<pb id='s023'/>
+</div2>
+<div2 id='ReES.01.14' n='14' type='poem'>
+<head>EMBLEMA VII. Lux mundi Iustitia. GEORGIO SAENEO COMITI Witgenstenio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quid sibi fax, quid vult libra? Lex vitae viget aequa</l>
+<l rend='indent'>Iustitia: in caelum suspicit, alba togâ.</l>
+<l><foreign lang='GE'>Fackl vnd Wag hebt/in Himml sicht ebn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Lebnsliecht Grechtigkeit/gleich maß thut gebn.</foreign></l>
+</lg>
+<pb id='s024'/>
+</div2>
+<div2 id='ReES.01.15' n='15' type='poem'>
+<head>EMBLEMA IIX. Fortitudo praesidium vitae. ERNESTO COMITI Mansfeldio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Cingit zona deam, scutum armat cassis et hasta:</l>
+<l rend='indent'>Fortis mens, animus, cor, manus omne domat.</l>
+<l><foreign lang='GE'>Haupt/gmut/hertz/Hand Starck wol verwart/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Helm/schild/gurt/Spieß drum tregt sie hart.</foreign></l>
+</lg>
+<pb id='s025'/>
+</div2>
+<div2 id='ReES.01.16' n='16' type='poem'>
+<head>EMBLEMA IX. Virtutum penu Temperantia. HERMANNO ADOLPHO Comiti Solmensi.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Virtutum decus omne Modestia: florea serta</l>
+<l rend='indent'>Fronte gerit: Veneris flos tamen unus abest.</l>
+<l><foreign lang='GE'>Allr Tugend Zier Messigung Glantz/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Aussr Venus Ros/tregt allr Blum Kranß.</foreign></l>
+</lg>
+<pb id='s026'/>
+</div2>
+<div2 id='ReES.01.17' n='17' type='poem'>
+<head>EMBLEMA X. Vir bonus. NICOLAO CASAE MAGNO Regni Daniae Cancellario.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Vir bonus en iusto trutinae se examine pensat:</l>
+<l rend='indent'>Mens, animus, manus, os constet ut omne sibi.</l>
+<l><foreign lang='GE'>Sich wigt wol selbst ein weiser Man/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hertz/Gmut/mund/hand/soll recht alls ston.</foreign></l>
+</lg>
+<pb id='s027'/>
+</div2>
+<div2 id='ReES.01.18' n='18' type='poem'>
+<head>EMBLEMA XI. Ex bello pax, ex pace ubertas. HENRICO RANZOVIO Proregi Holsatiae.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Flore oleisque virens mucro serpentinus in arâ,</l>
+<l rend='indent'>Bellum, Pax, Mens, Ius, Copia nonne manent.</l>
+<l><foreign lang='GE'>Kriegbringt Fried/ alles Gut Fried bringt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Nach Ehr/Tugend/Gut jeder ringt.</foreign></l>
+</lg>
+<pb id='s028'/>
+</div2>
+<div2 id='ReES.01.19' n='19' type='poem'>
+<head>EMBLEMA XII. Naturâ et arte. ERASMO NEUSTETTERO cog. Sturmero, EQ. FR.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Cur hedera et laurus sacris est sacra Poetis?</l>
+<l rend='indent'>Artem haec, ingenii vim notat illa boni.</l>
+<l><foreign lang='GE'>Durch Kunst vnd Art/was schon ist/gront/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ebhew vnd Lorbr drumb Poeten kront.</foreign></l>
+</lg>
+<pb id='s029'/>
+</div2>
+<div2 id='ReES.01.20' n='20' type='poem'>
+<head>EMBLEMA XIII. Ateneris assuescere multum.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Corrige, dum tener est, pueri cor. cernis, ut arbos</l>
+<l rend='indent'>Spernit vim: virgam flectit at ungue puer.</l>
+<l><foreign lang='GE'>Ehe brichst/ als biegst gewachßnen Baum/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Jugend zeuchstu/als Zweig/ offt kaum.</foreign></l>
+</lg>
+<pb id='s030'/>
+</div2>
+<div2 id='ReES.01.21' n='21' type='poem'>
+<head>EMBLEMA XIV. Mortem facit usus.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Fert collo baculum Canis, et sic lora capessit:</l>
+<l rend='indent'>Sit puero vitae virga magistra bonae.</l>
+<l><foreign lang='GE'>Den Hund der Bengel bandig macht/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Zuchtrutt der Jugend legt den pracht.</foreign></l>
+</lg>
+<pb id='s031'/>
+</div2>
+<div2 id='ReES.01.22' n='22' type='poem'>
+<head>EMBLEMA XV. Aut verba, aut verbera.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quos non verba, movent vel denique verbera. nutu</l>
+<l rend='indent'>Aut sale, sic gaudet bos, stimulove regi.</l>
+<l><foreign lang='GE'>Wort gut vnd boß / auch Streich nach art/</foreign></l>
+<l rend='indent'><foreign lang='GE'>So wol Menschn/als Vieh wol verwart.</foreign></l>
+</lg>
+<pb id='s032'/>
+</div2>
+<div2 id='ReES.01.23' n='23' type='poem'>
+<head>EMBLEMA XVI. Non omnia possumus omnes. BERNARDO RULOVIO.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Macra caro pingui <reg orig='suffarcta'>sufferta</reg> sit humida lardo:</l>
+<l rend='indent'>Ingenium cultu simplice gaudet hebes.</l>
+<l><foreign lang='GE'>Durchspickt gschlacht wurd das Magersleisch/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Langsam Kopff eben Lehr macht Reisch.</foreign></l>
+</lg>
+<pb id='s033'/>
+</div2>
+<div2 id='ReES.01.24' n='24' type='poem'>
+<head>EMBLEMA XVII. Labore et industriâ. HELMHARDO IORGERO Lib. Austriae Baroni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Doctus amas dici? natura sit, Arsque, Laborque</l>
+<l rend='indent'>Praesto comes: docet hoc Lampas, Apollo, Sophus.</l>
+<l><foreign lang='GE'>Gut Kopff/gut Lehrer/ Arbeit gut/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Zum studirn ghort/das hab in hut.</foreign></l>
+</lg>
+<pb id='s034'/>
+</div2>
+<div2 id='ReES.01.25' n='25' type='poem'>
+<head>EMBLEMA XIIX. Ratio et Oratio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Si Ratio, si non Oratio suppetit aeque:</l>
+<l rend='indent'>Cetera par brutis iam fit asellus homo.</l>
+<l><foreign lang='GE'>Red vnd Vernunfft dem Menschen nimm/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Zum Esel spann/zeucht gleich mit ihm.</foreign></l>
+</lg>
+<pb id='s035'/>
+</div2>
+<div2 id='ReES.01.26' n='26' type='poem'>
+<head>EMBLEMA XIX. Ars baculus vitae. IOANNI REINHARDO Comiti Hanovio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Aspera sive tonat sors, sive serena refulget:</l>
+<l rend='indent'>Praesidium et decus est Ars utriusque bonum.</l>
+<l><foreign lang='GE'>Hauptschilt ist Kunst / Guldnboden frey/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Gwitter wie es woll/ Regn oder schney.</foreign></l>
+</lg>
+<pb id='s036'/>
+</div2>
+<div2 id='ReES.01.27' n='27' type='poem'>
+<head>EMBLEMA XX. <gap desc='greek text'/> SPECULUM SOCRATICUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Iudicium formae speculum bene consule: formae</l>
+<l rend='indent'>Par impar mens sit, si bona vel mala sit.</l>
+<l><foreign lang='GE'>Spigl dich offt / seyst Jung oder Alt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hupsch bhalt im Gmut/ Hupsch wurd auch Gstallt.</foreign></l>
+</lg>
+<pb id='s037'/>
+</div2>
+<div2 id='ReES.01.28' n='28' type='poem'>
+<head>EMBLEMA XXI. Ingenio et studio. IOACHIMO ANDREAE COM. Schliggio et Paussaunio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Dextra facem, fert laeva librum: rotat ala per altum:</l>
+<l rend='indent'>Ars, Labor, Ingenium te super astra vehunt.</l>
+<l><foreign lang='GE'>Gut Gmut/groß Vleiß/hart Arbt im Lebn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hoch mit Ehrn all inn Himml erheben.</foreign></l>
+</lg>
+<pb id='s038'/>
+</div2>
+<div2 id='ReES.01.29' n='29' type='poem'>
+<head>EMBLEMA XXII. Fide et clementiâ. IULIO COMITI SALMAE et Neoburgi.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Carus erit Princeps auro gemmisque decorus:</l>
+<l rend='indent'>Carior, ingenuâ cômis ubique fidê.</l>
+<l><foreign lang='GE'>Groß Gut groß Herrn ziert mit Ehr/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hertz milt/freygebg hand noch vil mehr.</foreign></l>
+</lg>
+<pb id='s039'/>
+</div2>
+<div2 id='ReES.01.30' n='30' type='poem'>
+<head>EMBLEMA XXIII. Musae corona Principis. PHILIPPO OTHONI Comiti Rheni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Princeps indoctus sine doctis totus inermis:</l>
+<l rend='indent'>Organa ceu subito follibus orba tacent.</l>
+<l><foreign lang='GE'>Stumm Orgel ist ohn Plaßbelg Wind/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vnglehrt Herrstumm/ ohns glehrte Gsind.</foreign></l>
+</lg>
+<pb id='s040'/>
+</div2>
+<div2 id='ReES.01.31' n='31' type='poem'>
+<head>EMBLEMA XXIV. Nec prope, nec procul. GUILIELMO STREIFIO a Lauenstein EQV.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Ceu flammâ, magni sic utere Principis aulâ:</l>
+<l rend='indent'>Si procul est, friges: sin prope flamma, cales.</l>
+<l><foreign lang='GE'>Alls Fewrs / sich gbrauchen lest Hoflebn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Nicht znahe/nicht zweit/soll sein gar Ebn.</foreign></l>
+</lg>
+<pb id='s041'/>
+</div2>
+<div2 id='ReES.01.32' n='32' type='poem'>
+<head>EMBLEMA XXV. Virtutis laus optima. GEORGIO FRIDERICO Comiti Hardeggio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Fronte placet mannus, pede displicet iste sed aegro:</l>
+<l rend='indent'>Sic laus virtutis, non placet umbra tibi.</l>
+<l><foreign lang='GE'>Gauls wackr Kopff mißfellt/am Fuß krumm/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Tugend mehr gfellt / alls schlechter Rhum.</foreign></l>
+</lg>
+<pb id='s042'/>
+</div2>
+<div2 id='ReES.01.33' n='33' type='poem'>
+<head>EMBLEMA XXVI. Animo, ratione, consilio. IOANNI ALBERTO COMITI Solmensi.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Consilium, Ratio, Mens adsit fortis agenti</l>
+<l rend='indent'>Res magnas: frenum hoc, mucro, liberque notant.</l>
+<l><foreign lang='GE'>Gut Vernunfft/dapffr Hertz/auch weisr Raht/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hohe sachn außricht/ vnd grosse That.</foreign></l>
+</lg>
+<pb id='s043'/>
+</div2>
+<div2 id='ReES.01.34' n='34' type='poem'>
+<head>EMBLEMA XXVII. Nobilitas sola est atque unica virtus.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Si te non generis laus, at virtutis honestet:</l>
+<l rend='indent'>Caelitus emerito laurea digna datur.</l>
+<l><foreign lang='GE'>Vom Gblut schlecht / doch von Tugendrecht/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Wirt gkront/ bleibt dhindem groß von gschlecht.</foreign></l>
+</lg>
+<pb id='s044'/>
+</div2>
+<div2 id='ReES.01.35' n='35' type='poem'>
+<head>EMBLEMA XXIIX. Sermo index animi. HILTEBRANDO IORGERO Lib. Austriae Baroni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Corde latens vitium vox prodit, gestus et ipse:</l>
+<l rend='indent'>Ceu color in vitro proditur omnis aquae.</l>
+<l><foreign lang='GE'>Wie Gsang/so Vogl/wie Farb/so Glaß/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Wie Mund/so Hertz/wie Red/so Vaß.</foreign></l>
+</lg>
+<pb id='s045'/>
+</div2>
+<div2 id='ReES.01.36' n='36' type='poem'>
+<head>EMBLEMA XXIX. Te sine teste time. ERNRICO A GERA EQV. Austr.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Sunt aures etiam silvis, oculique: loquentur,</l>
+<l rend='indent'>Si taceat: latet haud cognita culpa diu.</l>
+<l><foreign lang='GE'>Gsicht hat das Veld/Ohren die Welt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Kein Sund lang hellt farb in der Welt.</foreign></l>
+</lg>
+<pb id='s046'/>
+</div2>
+<div2 id='ReES.01.37' n='37' type='poem'>
+<head>EMBLEMA XXX. Qualis rex, talis grex. LEOPOLDO LIB. BARONI a Landau.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Psittacus a domino proba discit, et improba verba:</l>
+<l rend='indent'>Sic rex qualis erit, grex quoque talis erit.</l>
+<l><foreign lang='GE'>Nachm Gehor boß gut redt Papagey/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hert Hirtens/ Volck Herrn art volgt frey.</foreign></l>
+</lg>
+<pb id='s047'/>
+</div2>
+<div2 id='ReES.01.38' n='38' type='poem'>
+<head>EmBLEMA XXXI. Certus in re incertâ amicus. MAXIMILIANO COMITI Salmaeo ac Neoburgio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Fulminis et venti vim spernit aquaeve colossus</l>
+<l rend='indent'>aereus: ingenuus talis amicus erit.</l>
+<l><foreign lang='GE'>Himmlsstral/Wind/Flut/Ehrinseul nit beugt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Kein Vngluck warer Freund nit scheucht.</foreign></l>
+</lg>
+<pb id='s048'/>
+</div2>
+<div2 id='ReES.01.39' n='39' type='poem'>
+<head>EMBLEMA XXXII. Melin ore, felin corde. SENDEVOGIO COMITI Ostrorogano.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Citrea poma foris sapida, intus acerba probabis:</l>
+<l rend='indent'>Fronte placet, tergo falsus amicus obest.</l>
+<l><foreign lang='GE'>Gruchlieblich/Gschmack herb Citrinat/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Mundzucker/ Hertzgall falsch Freund hat.</foreign></l>
+</lg>
+<pb id='s049'/>
+</div2>
+<div2 id='ReES.01.40' n='40' type='poem'>
+<head>EMBLEMA XXXIII. Mens bona regnum possidet. GOTEFRIDO STADLER O RECcersburgi, Freibergae, et Crotendorfii Domino.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Mens hilaris, recte, sine fine triumphat, agendo:</l>
+<l rend='indent'>Possidet et regnum mens bona, semper ovans.</l>
+<l><foreign lang='GE'>Lebhertz frolich/und guter muth/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Triumphirt stets/Reich besitz vnd Gut.</foreign></l>
+</lg>
+<pb id='s050'/>
+</div2>
+<div2 id='ReES.01.41' n='41' type='poem'>
+<head>EMBLEMA XXXIV. Omnis caro foenum. IN MORTALITATEM Humanam.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Flens moreris, flens natus homo. cur ergo superbis?</l>
+<l rend='indent'>Mors venit, en? fastus nil iuvat: omne rapit.</l>
+<l><foreign lang='GE'>Schmuck wol dein schnoden Madensack/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Todt kompt/nimnts alls/ bricht dir den Nack.</foreign></l>
+</lg>
+<pb id='s051'/>
+</div2>
+<div2 id='ReES.01.42' n='42' type='poem'>
+<head>EMBLEMA XXXV. Res immoderata libido. IN CUPIDINEM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Spurce Cupido vale, vale Iynx quoque spurca: iuvet me</l>
+<l rend='indent'>Castus amor: furor es tu magis, atque pudor.</l>
+<l><foreign lang='GE'>Blind Lieb weich dann/vnsinnig bald</foreign></l>
+<l rend='indent'><foreign lang='GE'>Auch Ehrnvergessn machst Jung vnd Alt.</foreign></l>
+</lg>
+<pb id='s052'/>
+</div2>
+<div2 id='ReES.01.43' n='43' type='poem'>
+<head>EMBLEMA XXXVI. Melius nubere, quam uri. IN LAUDEM CONIUGII.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Ureris? ergo nube. placet communio vitae,</l>
+<l rend='indent'>Cur a comûs, sociae gratia, prolis amor.</l>
+<l><foreign lang='GE'>Frey eher/alls brenn/fleug Hurerey/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Zeug Kindr/mehrs Gut/deim Weib wohn bey</foreign></l>
+</lg>
+<pb id='s053'/>
+</div2>
+<div2 id='ReES.01.44' n='44' type='poem'>
+<head>EMBLEMA XXXVII. Non ex aspectu, sed ex effectu. IN PANDORAM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Pandorae mala cuncta volant e pyxide pulchrae:</l>
+<l rend='indent'>Saepe sub aspectu noxia damna latent.</l>
+<l><foreign lang='GE'>Nachm Gsicht nicht vrtl/Pandora schon/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vnglucks Stifftern/gibt bosen Lohn.</foreign></l>
+</lg>
+<pb id='s054'/>
+</div2>
+<div2 id='ReES.01.45' n='45' type='poem'>
+<head>EMBLEMA XXXIIX. Bellua dira libido. IN CIRCEN ET ULYSSEM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Pulchra facit Circe meretrix excordia corda:</l>
+<l rend='indent'>Fortis Ulysseâ, qui sapit, arte domat.</l>
+<l><foreign lang='GE'>Inns Vieh verzaubert Circe vil/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Schlagt Hurn von sich/wer Weiß sein will.</foreign></l>
+</lg>
+<pb id='s055'/>
+</div2>
+<div2 id='ReES.01.46' n='46' type='poem'>
+<head>EMBLEMA XXXIX. Coniugii fit castus amor. GUSTAVO COMITI Frisiae Orientalis.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quo Venus alma venit, iunctis venit acta columbis:</l>
+<l rend='indent'>Blanda decet thalamos, et sine labe fides.</l>
+<l><foreign lang='GE'>Venus die Taubn ziehen im Wagn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Holdselig Lieb Eheleut nicht klagn.</foreign></l>
+</lg>
+<pb id='s056'/>
+</div2>
+<div2 id='ReES.01.47' n='47' type='poem'>
+<head>EMBLEMA XL. Blanditiâ, non imperio fit dulcis Venus. GEORGIO COMITI Kirchburgio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Mercurius, Suadela, Venus, Charis insidet uno</l>
+<l rend='indent'>En thalamo: blandâ voce fovetur amor.</l>
+<l><foreign lang='GE'> Mercurius bhut Venus Bett/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Holdselig Red Ehelieb halt stett.</foreign></l>
+</lg>
+<pb id='s057'/>
+</div2>
+<div2 id='ReES.01.48' n='48' type='poem'>
+<head>EMBLEMA XLI. Obsequio alitur amor. WOLFGANGO LUDOVICO a Crailsheim EQV. Fr.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Pomum dulce manu coniux, frenumque maritus</l>
+<l rend='indent'>Cur tenet? obsequio gaudet honestus amor.</l>
+<l><foreign lang='GE'>Kutnapffl Fraw hat/der Mann Zaums gbieß/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Holdselig Lieb folg bringt mit gnieß.</foreign></l>
+</lg>
+<pb id='s058'/>
+</div2>
+<div2 id='ReES.01.49' n='49' type='poem'>
+<head>EMBLEMA XLII. Coniugii <gap desc='greek text'/> concordia. CHRISTHOPHORO LEISERO EQV. Austr.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Iuno sacrum sine felle, sacris praefecta maritis,</l>
+<l rend='indent'>Dulce fovet: placitus sit sine felle torus.</l>
+<l><foreign lang='GE'>Ehertrutin Juno kein Gall liebt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Holdselig Ehe kein Gifftzorn giebt.</foreign></l>
+</lg>
+<pb id='s059'/>
+</div2>
+<div2 id='ReES.01.50' n='50' type='poem'>
+<head>EMBLEMA XLIII. Custos domûs uxor. NICOLAO NIC. F. COMITI Salmio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Orta Venus spumâ concham pede sustinet: uxor</l>
+<l rend='indent'>Cochlea grata viro sic domiporta placet.</l>
+<l><foreign lang='GE'>Fraw Venus steht auff Schiltkrotnhauß/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Haußschneck Ehefrau/ gdenckt nimmer drauß.</foreign></l>
+</lg>
+<pb id='s060'/>
+</div2>
+<div2 id='ReES.01.51' n='51' type='poem'>
+<head>EMBLEMA XLIV. Coniugii arcana non reuelanda. IN CANDAULEM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Coniugii secret a tace: nudare maritam</l>
+<l rend='indent'>Ausus, Candaules a Gyge pulsus obit.</l>
+<l><foreign lang='GE'>Heimlich Ehesachn nicht offenbahr/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Candauls Ehebeth sicht Gigs mitt gfahr.</foreign></l>
+</lg>
+<pb id='s061'/>
+</div2>
+<div2 id='ReES.01.52' n='52' type='poem'>
+<head>EMBLEMA XLV. Res age, tutus eris. HELMHARDO A FRIDESHAIM EQV. Austr.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Pensa trahit fuso Lucretia casta pudoris</l>
+<l rend='indent'>Exemplum: coniux casta labore manet.</l>
+<l><foreign lang='GE'>Haußarbeit Ehefraw wol geburt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Spinnwerck Lucretiam auch ziert.</foreign></l>
+</lg>
+<pb id='s062'/>
+</div2>
+<div2 id='ReES.01.53' n='53' type='poem'>
+<head>EMBLEMA XLVI. Amor non Zelotypus. IN CEPHALUM ET PROCRIM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Aemulus absit amor: Cephali transfixa sagittâ,</l>
+<l rend='indent'>Dum Latet in silvis, aemula Procris obit.</l>
+<l><foreign lang='GE'>Eheyfer thut nicht allzeit gut/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Procris solchs bzeugt/ ligt hie im Blut.</foreign></l>
+</lg>
+<pb id='s063'/>
+</div2>
+<div2 id='ReES.01.54' n='54' type='poem'>
+<head>EMBLEMA XLVII. Blanditiâ dulcescit Amor. GEORGIO ERNRICHO Pergero EQV. Austr.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Foeta parit melius cantus dulcedine Capra:</l>
+<l rend='indent'>Blanditiâ, non vi, fit quoque dulcis amor.</l>
+<l><foreign lang='GE'>Hirtpfeiff/ Geißtragend hulfft zum werffn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Freuntlich Ehgsprach mehr nutzt/als scherfn.</foreign></l>
+</lg>
+<pb id='s064'/>
+</div2>
+<div2 id='ReES.01.55' n='55' type='poem'>
+<head>EMBLEMA XLIIX. Donum Dei, uxor bona. HADRIANO BORCKIO EQV. Pomerano.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Pygmalionis ebur fit coniux, arte Diones:</l>
+<l rend='indent'>Felix, cui placitae coniugis usus adest.</l>
+<l><foreign lang='GE'>Ein frumm Eheweib von Gott kompt her/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Pygmalions Bild gibt die Lehr.</foreign></l>
+</lg>
+<pb id='s065'/>
+</div2>
+<div2 id='ReES.01.56' n='56' type='poem'>
+<head>EMBLEMA XLIX. In vino veritas. IN BACCHUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quid non, Bacche, vales? recludis operta, ministrans</l>
+<l rend='indent'>Sertafacesque, iris pectora, speque foves.</l>
+<l><foreign lang='GE'>Der Wein nicht leugt/jedoch offt btreugt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Sobald Hertz vnd Mund Er fast bfeucht.</foreign></l>
+</lg>
+<pb id='s066'/>
+</div2>
+<div2 id='ReES.01.57' n='57' type='poem'>
+<head>EMBLEMA L. Amor Coniugalis. ANTONIO CAUCIO.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Una caro, mens una duobus: separet ambos</l>
+<l rend='indent'>Concretos nec mors, nec torus aut tumulus.</l>
+<l><foreign lang='GE'>Ein Leib/ein Hertz/zwey gwachßn zusamm/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Nichts scheidt/auch nicht Todts bitter kramm.</foreign></l>
+</lg>
+<pb id='s067'/>
+</div2>
+<div2 id='ReES.01.58' n='58' type='poem'>
+<head>EMBLEMA LI. Tranquillitas Coniugii. OTHONI QUALIO EQV. Holsato.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Coniugium felix ut sit, blandumque: maritus</l>
+<l rend='indent'>Surdus sit, coniux caeca sit OTTO, domi.</l>
+<l><foreign lang='GE'>Blind sey das Weib/Taub sey der Mann/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Soll Lieb in Ehe lang wol bestahn.</foreign></l>
+</lg>
+<pb id='s068'/>
+</div2>
+<div2 id='ReES.01.59' n='59' type='poem'>
+<head>EMBLEMA LII. <gap desc='greek text'/> NICOLAO HAGIO EQV. Holsato.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Felix est uxor, felixque maritus: amantûm</l>
+<l rend='indent'>Par, quum par coniux ducit uterque iugum.</l>
+<l><foreign lang='GE'>Zwey gleich Joch Mann vnd Weib zihn wol/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Dann ist das Ehebeth freuden vol.</foreign></l>
+</lg>
+<pb id='s069'/>
+</div2>
+<div2 id='ReES.01.60' n='60' type='poem'>
+<head>EMBLEMA LIII. Fundamentum familiae uxor. IN OCNUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Spartum Ocnus torquet: turpis mox rodit asella:</l>
+<l rend='indent'>Sic partas uxor prodiga carpit opes.</l>
+<l><foreign lang='GE'>Mannsschweiß verzehrt vnheußlich Weib/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Saylfrassig Eßl zehrt von der Scheib.</foreign></l>
+</lg>
+<pb id='s070'/>
+</div2>
+<div2 id='ReES.01.61' n='61' type='poem'>
+<head>EMBLEMA LIV. Suo Sorex indicio perit. IN SORICEM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Prodit Epops nidos, et Picus in arbore: lites</l>
+<l rend='indent'>Sic propriae vulgat stultus ubique domûs.</l>
+<l><foreign lang='GE'>Widhovff/ auch Specht beschmeist sein Nest/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Haußzanck versont bald/macht Ehe vest.</foreign></l>
+</lg>
+<pb id='s071'/>
+</div2>
+<div2 id='ReES.01.62' n='62' type='poem'>
+<head>EMBLEMA LV. Tutum silentii praemium. HARTMANNO LIB. BAR. a Landau.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Tutus honos siluisse. Leaena elinguis Athenis</l>
+<l rend='indent'>Servatae patriae praemia digna tulit.</l>
+<l><foreign lang='GE'>Lowin Stilletrew/Zung frißt im Mund/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ehe schwetzt/ Hochgehrtz Athen/ alls kund.</foreign></l>
+</lg>
+<pb id='s072'/>
+</div2>
+<div2 id='ReES.01.63' n='63' type='poem'>
+<head>EMBLEMA LVI. Nec auro, nec ferro. IN M. CURIUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Qui frugi fortisque vir est, nec vincitur auro,</l>
+<l rend='indent'>Nec ferro: testis sis mihi, Marce Curi.</l>
+<l><foreign lang='GE'>Heldn muth weder Golt/ noch Eysen last/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Sich vberwindn/wie Curius/vest.</foreign></l>
+</lg>
+<pb id='s073'/>
+</div2>
+<div2 id='ReES.01.64' n='64' type='poem'>
+<head>EMBLEMA LVII. <gap desc='greek text'/> IOANNI COMITI RHENI OTH. F.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Vive domi, tibi vive: sua est domus optima: tergo</l>
+<l rend='indent'>Cochlea ceu propriam fertque refertque domum.</l>
+<l><foreign lang='GE'>Eygn Herd/Golds werd/sein Hauß auff Erd</foreign></l>
+<l rend='indent'><foreign lang='GE'>Als d Schneck jeder hab lieb vnd wert.</foreign></l>
+</lg>
+<pb id='s074'/>
+</div2>
+<div2 id='ReES.01.65' n='65' type='poem'>
+<head>EMBLEMA LIIX. Aurea libertas. IN PSITTACUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Aurea libertas: avis en caveae abdita Graecum</l>
+<l rend='indent'><gap desc='greek text'/> canit, cantûs immemor ipsa sui.</l>
+<l><foreign lang='GE'>Menschn Stimm Vogllernt/vergist der Sein</foreign></l>
+<l rend='indent'><foreign lang='GE'>Im Kafft / Leb frey/so lebstu fein.</foreign></l>
+</lg>
+<pb id='s075'/>
+</div2>
+<div2 id='ReES.01.66' n='66' type='poem'>
+<head>EMBLEMA LIX. Fortuna infida. ERASMO LIB. BARONI Starembergio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Fors triplex: infana, et caeca, et surda: nec audit</l>
+<l rend='indent'>Quod decet, aut cernit, nec sapit ipsa bonum.</l>
+<l><foreign lang='GE'>Gluck dreyerley / nach alter sag/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Blind/ Taub/Vnstnnig/thut was mag.</foreign></l>
+</lg>
+<pb id='s076'/>
+</div2>
+<div2 id='ReES.01.67' n='67' type='poem'>
+<head>EMBLEMA LX. Fortuna Aulica. EBERARDO RUPIS SPOLEtanae et Vasgoiae Domino.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Sors aulae varia est: Irus fit Croesus ut arte:</l>
+<l rend='indent'>Calculus hîc positus plusue minusue valet.</l>
+<l><foreign lang='GE'>Hoffglueck eim Zahlpfenniggar gleich/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ligt vndn oder obn/ist Arm und Reich.</foreign></l>
+</lg>
+<pb id='s077'/>
+</div2>
+<div2 id='ReES.01.68' n='68' type='poem'>
+<head>EMBLEMA LXI. Plus aloes, quam mellis. IOACHIMO LIB. BARONI Zinzendorfio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Unum damna bonum pensant duo: dolia pravis</l>
+<l rend='indent'>Laeva patent Iovis hîc, dextera clausa bonis.</l>
+<l><foreign lang='GE'>Mehr Boß/ alls Guts auff Erden ist/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vngleich außtheilt zu diser frist.</foreign></l>
+</lg>
+<pb id='s078'/>
+</div2>
+<div2 id='ReES.01.69' n='69' type='poem'>
+<head>EMBLEMA LXII. Tria hominis praecipitia. SEBASTIANO AB HATZfeld EQV.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Tres hominis pestes: Auri fames, Ira, Libido:</l>
+<l rend='indent'>Praecipitant Erebo sola vel ista viam.</l>
+<l><foreign lang='GE'>Geiß/Zorn/boeß Lieb drey Laster sind/</foreign></l>
+<l rend='indent'><foreign lang='GE'>In Schand vnd Spott die stuertzen gschwind.</foreign></l>
+</lg>
+<pb id='s079'/>
+</div2>
+<div2 id='ReES.01.70' n='70' type='poem'>
+<head>EMBLEMA LXIII. Quatuor fenfûs corruptelae. IOAN. IACOBO COMITI Ostrorogio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Saepe solent hominum sensus pervertere rectos</l>
+<l rend='indent'>Quatuor haec: Odium, Munera, Terror, Amor.</l>
+<l><foreign lang='GE'>Vier ding verkehrn recht Menschen sinn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Haß/Lieb/Forcht/Gschenck/da witz zerrinn.</foreign></l>
+</lg>
+<pb id='s080'/>
+</div2>
+<div2 id='ReES.01.71' n='71' type='poem'>
+<head>EMBLEMA LXIV. Adversum stimulum calces. IN THEOMACHVM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Stulte, quid in caelum iacularis? laedere divos</l>
+<l rend='indent'>Haud potes: at laedis te iaculando magis.</l>
+<l><foreign lang='GE'>Inn Himml absteh zschissen/vil Ehe/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Alls Gott/verletzet dich mit weh.</foreign></l>
+</lg>
+<pb id='s081'/>
+</div2>
+<div2 id='ReES.01.72' n='72' type='poem'>
+<head>EMBLEMA LXV. Seipsum nosse sapientia summa. CAROLO LIB. BARONI Liechtesteinio Hartm. F.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Qui bene se noscit, bene noscit is omnia: vivam</l>
+<l rend='indent'>Sic faciem speculi fulgor in aere refert.</l>
+<l><foreign lang='GE'>Wer sich wol kennt/kennt all ding schon/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Im Spieglals schaut seins Angsichts kron.</foreign></l>
+</lg>
+<pb id='s082'/>
+</div2>
+<div2 id='ReES.01.73' n='73' type='poem'>
+<head>EMBLEMA LXVI. Tecum habita, IN SUFFENUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Tecum habita: latet en ignoto mantica tergo:</l>
+<l rend='indent'>Propria dissimulans cur aliena notas?</l>
+<l><foreign lang='GE'>Spott niemand/kenn zvor dich recht wol/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vffm Ruckn dein Sack steckt Laster vol.</foreign></l>
+</lg>
+<pb id='s083'/>
+</div2>
+<div2 id='ReES.01.74' n='74' type='poem'>
+<head>EMBLEMA LXVII. Corpus excors sepulcrum. MARCO HOHENFELDERO Astershaimi et Almeggi Domino.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Si cui contingit robur sine mente: sepulcrum</l>
+<l rend='indent'>Ipse sibi, aut vivum, Marce, cadaver homo est.</l>
+<l><foreign lang='GE'>Sterck ohn verstand/Corper ohn Seel/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Jalebendig Grab ist/ohn all fehl.</foreign></l>
+</lg>
+<pb id='s084'/>
+</div2>
+<div2 id='ReES.01.75' n='75' type='poem'>
+<head>EMBLEMA LXIIX. Virtus, non numerus vincit. PHILIPPO LIB. BARONI Vinaburgio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Virtus, non numerus vincit: perit Herculis ecce</l>
+<l rend='indent'>Pressa manu, mortem turba pusilla parans.</l>
+<l><foreign lang='GE'>Tugend der Vile weit vberlegn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hercles zerknitscht Zwerg vil ohn degn.</foreign></l>
+</lg>
+<pb id='s085'/>
+</div2>
+<div2 id='ReES.01.76' n='76' type='poem'>
+<head>EMBLEMA LXIX. Vincit vim virtus. ERASMO HENRICO EINSIdelio EQV. Misn.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Vincit vim virtus: Crocodilum mellis Ichneumon</l>
+<l rend='indent'>Praedonem magnum bestia parua necat.</l>
+<l><foreign lang='GE'>Tugend fuer Gwalt/Groß Crocodill</foreign></l>
+<l rend='indent'><foreign lang='GE'>Klein Wuermbl listig toedtet gar vil.</foreign></l>
+</lg>
+<pb id='s086'/>
+</div2>
+<div2 id='ReES.01.77' n='77' type='poem'>
+<head>EMBLEMA LXX. Vim superat ratio. GUILIELMO A KREVTH EQV. Boio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Plus ratio, quam vis, praestat: Polyphemus Ulyßis,</l>
+<l rend='indent'>Cernis, ut arte, ferus lumine caßus abit.</l>
+<l><foreign lang='GE'>Vlyssis Witz die Augn außsticht</foreign></l>
+<l rend='indent'><foreign lang='GE'>Cyclopis Macht/mit jhm nicht ficht.</foreign></l>
+</lg>
+<pb id='s087'/>
+</div2>
+<div2 id='ReES.01.78' n='78' type='poem'>
+<head>EMBLEMA LXXI. Neque mel, neque apes. CAROLO ZEROTINIO, LIB. Boem. Baroni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Spina rosas armat, mel apum ceu spicula: nulla</l>
+<l rend='indent'>Sic incommoditas commoditate caret.</l>
+<l><foreign lang='GE'>Kein Vnglueck ohn Glueck/Kosen Dorn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Honig Binstachl verwart erkorn.</foreign></l>
+</lg>
+<pb id='s088'/>
+</div2>
+<div2 id='ReES.01.79' n='79' type='poem'>
+<head>EMBLEMA LXXII. Nihil fecisse benigne. BENEDICTO QUALIO EQV. Holsat.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Cernis, ut altorem canis improba mordet alumna:</l>
+<l rend='indent'>Sic mala pro meritis gratia saepe redit.</l>
+<l><foreign lang='GE'>Mit vndanck lohntd Welt all Gutthat/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Sein Herin der Hund beißt furs Tischbrot.</foreign></l>
+</lg>
+<pb id='s089'/>
+</div2>
+<div2 id='ReES.01.80' n='80' type='poem'>
+<head>EMBLEMA LXXIII. Spes aulica. IOANNI GUILIELMO a LANDAU Lib, Austr. Baroni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Aureus est follis flatus, Spes aulica: multa</l>
+<l rend='indent'>Somnia, qui nimium sperat, inane cupit.</l>
+<l><foreign lang='GE'>Bey Hof Hoffnung nichts anders ist/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vergulter Plaßbelg Wind mit list.</foreign></l>
+</lg>
+<pb id='s090'/>
+</div2>
+<div2 id='ReES.01.81' n='81' type='poem'>
+<head>EMBLEMA LXXIV. Aut Deo, aut Mundo. FRIDERICO CHRISTOPHORO Comiti Mansfeldio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quis poterit caelum pariter, terramque tueri?</l>
+<l rend='indent'>Sic mundi simul haud est amor, atque Dei.</l>
+<l><foreign lang='GE'>Gen Himml zugleich vnd Erd fehn recht/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Gott liebn vnd d Welt niemand kan schlecht.</foreign></l>
+</lg>
+<pb id='s091'/>
+</div2>
+<div2 id='ReES.01.82' n='82' type='poem'>
+<head>EMBLEMA LXXV. Lux corporis anima. PETRO WOLOVICIO Palatino Polono.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Lux anima est, corpus laterna: ut luceat illa,</l>
+<l rend='indent'>Plumbeane sit, et haec ferrea, Petre, cave.</l>
+<l><foreign lang='GE'>Liecht ist die Seel/ Latern der Leib/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Pleyen seys nicht/noch Eyfrn/ das Liecht bleib.</foreign></l>
+</lg>
+<pb id='s092'/>
+</div2>
+<div2 id='ReES.01.83' n='83' type='poem'>
+<head>EMBLEMA LXXVI. Sola serenat virtus. IOANNI COMITI Frisiae Orientalis.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Pulchra dies hiemis, fit inops sine crimine virtus:</l>
+<l rend='indent'>Ops virtutis egens fit sine Sole dies.</l>
+<l><foreign lang='GE'>Schon Winterstag/ Tugend ohn Gut/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ohn Sonn Tag/ Gut ohn Tugend thut.</foreign></l>
+</lg>
+<pb id='s093'/>
+</div2>
+<div2 id='ReES.01.84' n='84' type='poem'>
+<head>EMBLEMA LXXVII. Medicina animae verbum Dei. IO. PHILIPPO LIB. BAR. Hohensaxio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Sanat dira canis ceu linguâvulnera: Pastor</l>
+<l rend='indent'>Pectora sic verbi languida sanat ope.</l>
+<l><foreign lang='GE'>Hundszug heilt Wunden/Priefters Zung/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Mit Troft Hertzwundn heilt alt vnd jung.</foreign></l>
+</lg>
+<pb id='s094'/>
+</div2>
+<div2 id='ReES.01.85' n='85' type='poem'>
+<head>EMBLEMA LXXIIX. Explorant adversa viros. VICTORI AB ALTHAN Lib. Austr. Baroni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quod grano <corr sic='plostrum' resp='transcriber'>plaustrum</corr>, quod ferro lima, quod auro</l>
+<l rend='indent'>Fornax: hoc homini crux solet eße pio.</l>
+<l><foreign lang='GE'>Creutzoffn bwert Tugend/ als Fewr das Gold/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Als Eysn die Feyl/als Flegl Korns solt.</foreign></l>
+</lg>
+<pb id='s095'/>
+</div2>
+<div2 id='ReES.01.86' n='86' type='poem'>
+<head>EMBLEMA LXXIX. <gap desc='greek text'/> IN AULUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>AIove sis, moneo, procul, atque a fulmine: saevum</l>
+<l rend='indent'>Fulmen, quam fulgur promicat, ante ferit.</l>
+<l><foreign lang='GE'>Fleuch weit vom Straal vnd groffen Herrn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ehe schlaegts/als plitzt/das Wetter gern.</foreign></l>
+</lg>
+<pb id='s096'/>
+</div2>
+<div2 id='ReES.01.87' n='87' type='poem'>
+<head>EMBLEMA XXC. In securim Principis. E GRAECO.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Si recte facies, argentea tota: bipennis,</l>
+<l rend='indent'>Si prave facies, ferrea, semper ero.</l>
+<l><foreign lang='GE'>Handelstrecht/Silbern bin ich zwar/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Handelst vbl/Eysern werd bald gar.</foreign></l>
+</lg>
+<pb id='s097'/>
+</div2>
+<div2 id='ReES.01.88' n='88' type='poem'>
+<head>EMBLEMA XXCI. Quatuor pacis hostes. CAROLO LIB. BARONI Burgundiae.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quatuor hae pestes sunt hostes pacis amicae:</l>
+<l rend='indent'>Livor, Auarities, Fastus, et Ira ferox.</l>
+<l><foreign lang='GE'>Vier Friedsfeind gifftig sein vff Erd/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Neid/Hoffart/Geitz/ Zom/ sein nichts werd.</foreign></l>
+</lg>
+<pb id='s098'/>
+</div2>
+<div2 id='ReES.01.89' n='89' type='poem'>
+<head>EMBLEMA XXCII. Cede maiori. IN THRASYDILOS.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Sopitum, Lepores, petitis quid dente Leonem?</l>
+<l rend='indent'>Uno, nîfugitis, vos premet ungue Leo.</l>
+<l><foreign lang='GE'>Am schlumenend Lown was zupfft jhr Hasn.</foreign></l>
+<l rend='indent'><foreign lang='GE'>Flihet jr nicht/ Ein Klaw zreift euch d Nasn.</foreign></l>
+</lg>
+<pb id='s099'/>
+</div2>
+<div2 id='ReES.01.90' n='90' type='poem'>
+<head>EMBLEMA XXCIII. Ne nimis alta pete. IN BELLEROPHONTEM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Lapsus equo perit alato, dum sidera tranat</l>
+<l rend='indent'>Bellerophon: cautus, si sapis, alta fuge.</l>
+<l><foreign lang='GE'>Steig nicht zu hoch/ Bellerophon</foreign></l>
+<l rend='indent'><foreign lang='GE'>Gen Himml reitt/zur Erd felt mit Hohn.</foreign></l>
+</lg>
+<pb id='s100'/>
+</div2>
+<div2 id='ReES.01.91' n='91' type='poem'>
+<head>EMBLEMA XXCIV. Vivitur ingenio. LUDOVICO HOHENFELDERO Aftershaimi et Almeggi Domino.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Saluus honor doctis: ceu penna supernatat undis,</l>
+<l rend='indent'>Preßalicet: galeis hinc quoque crista datur.</l>
+<l><foreign lang='GE'>Glehrt vntertruckn lust vil vff Erd/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Noch schwimnt die Feder Ehrenwert.</foreign></l>
+</lg>
+<pb id='s101'/>
+</div2>
+<div2 id='ReES.01.92' n='92' type='poem'>
+<head>EMBLEMA XXCV. Mundi gratia. GEORGIO ACHACIO Enencelio EQV. Austr.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Ingrato cuculus nutricem devorat ore:</l>
+<l rend='indent'>Sic multis pietas officiosa nocet.</l>
+<l><foreign lang='GE'>Vndanckbar Gauch sein Brutern frist/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Allr Welt Lohn/fur Guts/Vndanck ist.</foreign></l>
+</lg>
+<pb id='s102'/>
+</div2>
+<div2 id='ReES.01.93' n='93' type='poem'>
+<head>EMBLEMA XXCVI. Livor iners vitium. IN LIUIDUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quo non Livor adit? passim sine lege vagatur:</l>
+<l rend='indent'>Serpentis caudam condere nemo potest.</l>
+<l><foreign lang='GE'>Reich vnd Arm hie/daß Gott erbarm/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vol haß vnd neids/ Schlangschwantz streckt d Arm.</foreign></l>
+</lg>
+<pb id='s103'/>
+</div2>
+<div2 id='ReES.01.94' n='94' type='poem'>
+<head>EMBLEMA XXCVII. Clavus clavo tunditur. IN MALIGNUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Si non ungue premas, nocet haud tibi Scorpius: ultor</l>
+<l rend='indent'>Laesus obest: Aquilae Taurus ut ova necat.</l>
+<l><foreign lang='GE'>Verletz nicht/bleibst auch vnuerletzt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Truck Scorpion/Gifft hast zu letzt.</foreign></l>
+</lg>
+<pb id='s104'/>
+</div2>
+<div2 id='ReES.01.95' n='95' type='poem'>
+<head>EMBLEMA XXCIIX. Probitas laudatur, et alget. IOANNI LIB. BARONI Burgundiae.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Spreta iacet probitas: laudatur saepe, sed alget:</l>
+<l rend='indent'>Alget inaccenso ceu focus igne domi.</l>
+<l><foreign lang='GE'>Frombkeit das hochst Hauptgut man halt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Doch fast/ohn Fewr wie Herd/erkalt.</foreign></l>
+</lg>
+<pb id='s105'/>
+</div2>
+<div2 id='ReES.01.96' n='96' type='poem'>
+<head>EMBLEMA XXCIX. Multi vocati, pauci electi. IOAN. CHRISTOPHORO Wilichio, Grondestenii Domino.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Caelo mens defixa, sapit divina: nec audit</l>
+<l rend='indent'>Ceruus humum spectans, nî levet ipse caput.</l>
+<l><foreign lang='GE'>Der Hirsch nichts hort im sehen zur Erd/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vffsehen gen Himml/bey Gott macht werd.</foreign></l>
+</lg>
+<pb id='s106'/>
+</div2>
+<div2 id='ReES.01.97' n='97' type='poem'>
+<head>EMBLEMA XC. Fortunam reverere. SVEICCARDO IUL. F. Com. Salmio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Aestu laeta canit, brumâ fit muta Cicada:</l>
+<l rend='indent'>Stat cum fortunâ fastus, et inde cadit.</l>
+<l><foreign lang='GE'>Sommrvogl Hewschreck im Winter still/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Schnell Gluck/schnell Vnfall gibt fast vil.</foreign></l>
+</lg>
+<pb id='s107'/>
+</div2>
+<div2 id='ReES.01.98' n='98' type='poem'>
+<head>EMBLEMA XCI. Solus sapiens dives. GEORGIO ERASMO TSCHERnemblio Lib. Austr. Bar.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quis dives? Solus sapiens. cur? nil cupit ille,</l>
+<l rend='indent'>Aut metuit: vitam cum ratione regit.</l>
+<l><foreign lang='GE'>Weißheit großt Reichthumb man recht acht/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Bsitzt selbst sich/bsitzt alles ohn macht.</foreign></l>
+</lg>
+<pb id='s108'/>
+</div2>
+<div2 id='ReES.01.99' n='99' type='poem'>
+<head>EMBLEMA XCII. Non in sermone, sed virtute. IN CENSOREM iniquum.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Lusciniae cuculum cantu praeponit Asellus:</l>
+<l rend='indent'>Auriculas asini censor ineptus habet.</l>
+<l><foreign lang='GE'>Gauchsgsang fur Nachtgalls Esel helt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Nicht alls ist recht/was Langohr gfelt.</foreign></l>
+</lg>
+<pb id='s109'/>
+</div2>
+<div2 id='ReES.01.100' n='100' type='poem'>
+<head>EMBLEMA XCIII. Latet sub melle venenum. MICHAELI FORGAZIO, Baroni a Gymes.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quid, nisi melle litum est, oratio blanda, venenum?</l>
+<l rend='indent'>Mella liquans, sua per spicula laedit apis.</l>
+<l><foreign lang='GE'>Binnstachl offt Gifft mit Honig laßt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Gut Wort/btrogn werck hie sihet man faßt.</foreign></l>
+</lg>
+<pb id='s110'/>
+</div2>
+<div2 id='ReES.01.101' n='101' type='poem'>
+<head>EMBLEMA XCIV. Medicum honora. MAURICIO WELZERO, Eberstenii Domino.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Par meritis sit honos medico: Phoebeius anguis</l>
+<l rend='indent'>Praemia fert, pecudum quae sacrat omne genus.</l>
+<l><foreign lang='GE'>Allr ehrn der Artzt vff Erdist werth</foreign></l>
+<l rend='indent'><foreign lang='GE'>Gleich Asclepi/vmb Leibs beschwert.</foreign></l>
+</lg>
+<pb id='s111'/>
+</div2>
+<div2 id='ReES.01.102' n='102' type='poem'>
+<head>EMBLEMA XCV. Luxuriae multa desunt. IN ASOTUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Prodigus haud multum heredem iuvat: alea pernox.</l>
+<l rend='indent'>Cui placet, et Bacchus, cum citharisque Venus.</l>
+<l><foreign lang='GE'>Tantzn/spiln/Sauffn/prassn/schlemmn wem wolgfelt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Hilfft erbn wenig/zum betl ein Held.</foreign></l>
+</lg>
+<pb id='s112'/>
+</div2>
+<div2 id='ReES.01.103' n='103' type='poem'>
+<head>EMBLEMA XCVI. Auaritiae desunt omnia. IN AVARUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Dum sese fraudat, sua rodit et ossa malignus,</l>
+<l rend='indent'>quamuis dives opum, vivit avarus inops.</l>
+<l><foreign lang='GE'>Hundsart der Geitzig hat/nagt Bein/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ist ihm nichts gnug/das ist sein pein.</foreign></l>
+</lg>
+<pb id='s113'/>
+</div2>
+<div2 id='ReES.01.104' n='104' type='poem'>
+<head>EMBLEMA XCVII. Magnas inter opes inops. WOLFGANGO HOHENFELDERO, Astersheimi et Almeggi Domino.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Dum parcit numis, genium defraudat avarus:</l>
+<l rend='indent'>Inter opes sicco concoquit ore famem.</l>
+<l><foreign lang='GE'>Geitzig gnug hat/wurd nimmer satt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>ER darbet deß / was Er gnug hat.</foreign></l>
+</lg>
+<pb id='s114'/>
+</div2>
+<div2 id='ReES.01.105' n='105' type='poem'>
+<head>EMBLEMA XCIIX. Luxuria pestis blanda. HERWARDO AURSPERGIO, Lib. Carniolae Baroni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Non gladius, Martisque furor tot pectora perdit:</l>
+<l rend='indent'>Quot Gula iam passim, Bacchus, Amorque necat.</l>
+<l><foreign lang='GE'>Fressn/Sauffn/Buln/ ertodt Menschen mehr/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Als scherff deß schwerts/auch Krieg ohn gfehr.</foreign></l>
+</lg>
+<pb id='s115'/>
+</div2>
+<div2 id='ReES.01.106' n='106' type='poem'>
+<head>EMBLEMA XCIX. Malus pro rumine rumor. IN GASTRIMARGUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quo Gulo plus vorat iste, loquax plus esse laborat:</l>
+<l rend='indent'>Lingua cui et podex omnia, et ipse nihil.</l>
+<l><foreign lang='GE'>Je grosser Fraß / je gspracher Vaß/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Sovndn/als obn vbrgeht ohn maß.</foreign></l>
+</lg>
+<pb id='s116'/>
+</div2>
+<div2 id='ReES.01.107' n='107' type='poem'>
+<head>EMBLEMA C. Veneris illex Bacchus. IN CORYBANTES.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Bacchus habet comites Bacchas, Satyrosque procaces:</l>
+<l rend='indent'>Praesto nî sit, Amor languet, et ipse chorus.</l>
+<l><foreign lang='GE'>Beim Wein Lieb brinnt/auch Fuß bald gwinnt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ohn Wein kein Tantz/noch Lieb brimst blind.</foreign></l>
+</lg>
+<pb id='s117'/>
+</div2>
+<div2 id='ReES.01.108' n='108' type='poem'>
+<head>EMBLEMA CI. Gulae servitus. IOAN. DAVIDI BOTZHEImio, Bern. F.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Sex menses vitam ducit Gulo: septimus Orco</l>
+<l rend='indent'>Cedit: sic tumulum conficit ore sibi.</l>
+<l><foreign lang='GE'>Halb lebt/halb stirbt Fraß vnuerricht/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Sein Grab mit Zahnen ihm zuricht.</foreign></l>
+</lg>
+<pb id='s118'/>
+</div2>
+<div2 id='ReES.01.109' n='109' type='poem'>
+<head>EMBLEMA CII. Nusquam tuta fides. ANDREAE BARONI Eilenburgio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Fallit aves laqueo, vicinos limite fallit</l>
+<l rend='indent'>Rusticus: heu toto iam exsulat orbe fides.</l>
+<l><foreign lang='GE'>So menschn/als vogl btreugt Baur vnd Herr/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Kein Glaub/noch Trew auff Erd ist mehr.</foreign></l>
+</lg>
+<pb id='s119'/>
+</div2>
+<div2 id='ReES.01.110' n='110' type='poem'>
+<head>EMBLEMA CIII. Male parta, male pereunt. IN PHILO PLUTUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Dispereunt male parta: Deum divinaque quaere:</l>
+<l rend='indent'>Eumenis iniustas pulvere vertit opes.</l>
+<l><foreign lang='GE'>Boß gwunnen Gut/zerrunnen boß/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Such Gott/das hochst Gut dir erkoß.</foreign></l>
+</lg>
+<pb id='s120'/>
+</div2>
+<div2 id='ReES.01.111' n='111' type='poem'>
+<head>EMBLEMA CIV. In Picturam Veneris. WEICCARDO AURSPERGIO Lib. Carniolae Baroni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Cur Dea nuda Venus? opibus quod nudat amantes?</l>
+<l rend='indent'>An potius spoliat quod ratione bonâ?</l>
+<l><foreign lang='GE'>Wer bult/an Muth bloß/nackt an Gut/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Fraw Venus thut/bloß drumm gmahlt ruht.</foreign></l>
+</lg>
+<pb id='s121'/>
+</div2>
+<div2 id='ReES.01.112' n='112' type='poem'>
+<head>EMBLEMA CV. Venus cur nupta Vulcano. HERWARDO LAMBERGIO Lib. Carniolae Baroni.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Perpes Amor calor est, et corpor a torret amantûm:</l>
+<l rend='indent'>Vulcano docet an hoc quoque nupta Venus?</l>
+<l><foreign lang='GE'>Venus Vulcano heyrt Voll Fewr/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Voll Hitz Lieb ist gantz vngehewr.</foreign></l>
+</lg>
+<pb id='s122'/>
+</div2>
+<div2 id='ReES.01.113' n='113' type='poem'>
+<head>EMBLEMA CVI. In Picturam Amoris. HULDRICHO FREUWIRTHIO EQV. STIR.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Caecus Amor, volucer, nudus, face dirus et arcu,</l>
+<l rend='indent'>Fulmen ut, incautos, quam micat, ante ferit.</l>
+<l><foreign lang='GE'>Lieb blind/nackt/ Gfluglt/ Fackl hat vnd Bogn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ehe mans gwar wurd/ thuts hertz bewegn.</foreign></l>
+</lg>
+<pb id='s123'/>
+</div2>
+<div2 id='ReES.01.114' n='114' type='poem'>
+<head>EMBLEMA CVII. FRIDERICO a BRAND EQV. Turingo.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Nec mundus sine Sole, nec est sine prole, (quod aiunt)</l>
+<l rend='indent'>Felix coniugium, laetificusque torus,</l>
+<l><foreign lang='GE'>Ohn Sonn die Welt/ Ehebett ohn Kind/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Kein Freud bringt/ trawrig ist vnd blind.</foreign></l>
+</lg>
+<pb id='s124'/>
+</div2>
+<div2 id='ReES.01.115' n='115' type='poem'>
+<head>EMBLEMA CIIX. Culpae poena comes. IOANNI THEODOSIO Neruio, 10. F.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Scorpius Oriona necat, clam stupra Dianae</l>
+<l rend='indent'>Dum parat: haud poenâ culpa nefanda caret.</l>
+<l><foreign lang='GE'>Kein Sund ohnstraffbar/Orion</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vmb Vnzuchts willn sticht Scorpion.</foreign></l>
+</lg>
+<pb id='s125'/>
+</div2>
+<div2 id='ReES.01.116' n='116' type='poem'>
+<head>EMBLEMA CIX. Pietati studendum.  CONRADO COMITI Tubingensi.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Ignem res haud magna fovere, calore foventem</l>
+<l rend='indent'>Cuncta: Dei sed tu mite cor igne fove.</l>
+<l><foreign lang='GE'>Fewr auffmachn/ nicht so groß als Kochn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Frommkeit gring scheint/drauff sol man bochn.</foreign></l>
+</lg>
+<pb id='s126'/>
+</div2>
+<div2 id='ReES.01.117' n='117' type='poem'>
+<head>EMBLEMA CX. Felicitas subita metuenda. HERMANNO LIB. BARONI Burgundiae.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Aestu laeta canit, Brumâ fuit muta cicada:</l>
+<l rend='indent'>Stat cum fortunâ fastus et inde cadit.</l>
+<l><foreign lang='GE'>Schnell gluck/schnell vnfall/ Hewschreck singt.</foreign></l>
+<l rend='indent'><foreign lang='GE'>Im Sommr/im Winter klein laut ringt.</foreign></l>
+</lg>
+<pb id='s127'/>
+</div2>
+<div2 id='ReES.01.118' n='118' type='poem'>
+<head>EMBLEMA CXI. Parvus hostis nullus. THEOPHILO DAMASIO Baronia Digonia Gallo.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>En Iovis armigerum Scarabaeus provocat ultro:</l>
+<l rend='indent'>Consilio superans, viribus ipse minor.</l>
+<l><foreign lang='GE'>Dem Adler prach Schrotter sein Eyer/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Rath gut thur mehr/als Starck vnghewer.</foreign></l>
+</lg>
+<pb id='s128'/>
+</div2>
+<div2 id='ReES.01.119' n='119' type='poem'>
+<head>EMBLEMA CXII. Quod potes, id tenta, E GRAECO.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Aethiopem quid stulte lavas? quid tempora fallis?</l>
+<l rend='indent'>An tenebris noctem posse carere putas?</l>
+<l><foreign lang='GE'>Am Mohrn waschstu/bringst Zeit so zu/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Auß Nacht Tag machn vergebns meinstu.</foreign></l>
+</lg>
+<pb id='s129'/>
+</div2>
+<div2 id='ReES.01.120' n='120' type='poem'>
+<head>EMBLEMA CXIII. Pretio, non prece. IN MERETRICUM pervicaciam.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Flectitur haud prece, si pretium non suppetat auri:</l>
+<l rend='indent'>Improba ne meretrix te necet, ergo cave.</l>
+<l><foreign lang='GE'>Fleuchvppig Weib/nimpt all dein Hab/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Nichts gibt/spott dein/mußt sein Schabab.</foreign></l>
+</lg>
+<pb id='s130'/>
+</div2>
+<div2 id='ReES.01.121' n='121' type='poem'>
+<head>EMBLEMA CXIV. Nescit vox missa reverti. IN CLERICORUM insignia.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Lubrica verba cave, digito compesce labellum:</l>
+<l rend='indent'>Pressa anguilla manu lubrica rite manet.</l>
+<l><foreign lang='GE'>Dein Mund bewahr/schlupffrig sein Wort/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Als glatter Aal/heb fest/bleibt fort.</foreign></l>
+</lg>
+<pb id='s131'/>
+</div2>
+<div2 id='ReES.01.122' n='122' type='poem'>
+<head>EMBLEMA CXV. <gap desc='greek text'/>. HENRICO TSCHERNEMBLIO Lib. Austr. Bar.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Sit Polypi tibi mens vafri, qui protinus illa,</l>
+<l rend='indent'>Se quibus admôrit, Saxa colore refert.</l>
+<l><foreign lang='GE'>So manch Land/so manch Sitten sind/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Nachm Ort verkert Farb Pulpe gschwind.</foreign></l>
+</lg>
+<pb id='s132'/>
+</div2>
+<div2 id='ReES.01.123' n='123' type='poem'>
+<head>EMBLEMA CXVI. Conscientia mille testes. ALBICO COMITI Tubingensi.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Pisa canis fugit at crepitantia territus vitre:</l>
+<l rend='indent'>Conscia mens folii territa voce pavet.</l>
+<l><foreign lang='GE'>Erbsplasn am schwantz den Hund schreckt sehr/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Boß gewissn den menschn schreckr doch vil mehr.</foreign></l>
+</lg>
+<pb id='s133'/>
+</div2>
+<div2 id='ReES.01.124' n='124' type='poem'>
+<head>EMBLEMA CXVII. Laetitiae comes dolor. IN DEMOCRITUM.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Perpetuo pulmonem agitas Democrite risu:</l>
+<l rend='indent'>Ludus, vita? nego: fit comes immo dolor.</l>
+<l><foreign lang='GE'>Lach nicht zu sehr/kein Freud ohn Leid/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vil lachn/ vil trawrn gibt mit der zeit.</foreign></l>
+</lg>
+<pb id='s134'/>
+</div2>
+<div2 id='ReES.01.125' n='125' type='poem'>
+<head>EMBLEMA CXIIX. Nil nimium. IN HERACLITVM ET Democritum.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Quid fles, Heraclite? quid ô Democrite rides?</l>
+<l rend='indent'>Nil nimium: placeat semper utrinque Modus.</l>
+<l><foreign lang='GE'>Frolock nit zuiel/noch trawr/Maß halt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Nach Sonn Regn/nach Regn Sonn kompt bald.</foreign></l>
+</lg>
+<pb id='s135'/>
+</div2>
+<div2 id='ReES.01.126' n='126' type='poem'>
+<head>EMBLEMA CXIX. Quatuor hominis affectus. CHRISTOPHORO COMITI Frisiae Orientalis.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Spes, Metus, Ira, Dolor turbant mortalia corda:</l>
+<l rend='indent'>Imperet his Ratio: norma sit ipse Modus.</l>
+<l><foreign lang='GE'>Frewd/Schmertz/Forcht/ Hoffn /Anfechtung vier/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Halts Mitl/Vernunfft die wol regier.</foreign></l>
+</lg>
+<pb id='s136'/>
+</div2>
+<div2 id='ReES.01.127' n='127' type='poem'>
+<head>EMBLEMA CXX. Pro aris et focis. GEORGIO FRIDERICO Marchioni Badensi.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Sanguine Pygmaeo Grus rapta ulciscitur ova:</l>
+<l rend='indent'>Pro patriis fas est belligerare focis.</l>
+<l><foreign lang='GE'>Kranch bkriegen zwerg von Eyrraubs wegn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Feindsgwalt sich gburt wol zwiderlegn.</foreign></l>
+</lg>
+<pb id='s137'/>
+</div2>
+<div2 id='ReES.01.128' n='128' type='poem'>
+<head>EMBLEMA CXXI. Fama virtute lucranda. CAROLO IVI. F. COMITI Salmaeo.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Si quaeris famam, virtute age Carole famam</l>
+<l rend='indent'>Sic eme, quo te humeris tollat ad astra suis.</l>
+<l><foreign lang='GE'>Ewig Ruhm gibt Tugend allein/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Gen Himml erhebt/die solch Ehrn fein.</foreign></l>
+</lg>
+<pb id='s138'/>
+</div2>
+<div2 id='ReES.01.129' n='129' type='poem'>
+<head>EMBLEMA CXXII. In utrumque paratus. IN L. AEMIL. PAULUM triumphantem.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Laeteris nimium ne victor, Paule, triumpho:</l>
+<l rend='indent'>Nola sonat: sortis fis utriusque memor.</l>
+<l><foreign lang='GE'>Frolock nicht zuil/von Triumphs wegn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Beyds Glucks sey mehr ingdenck darnebn.</foreign></l>
+</lg>
+<pb id='s139'/>
+</div2>
+<div2 id='ReES.01.130' n='130' type='poem'>
+<head>EMBLEMA CXXIII. Vitae via mortalis. FRIDERICO PRINCIPI Norvegiae, Duci Holsatiae.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Vita via est: farrago viae sunt cura dolorque,</l>
+<l rend='indent'>Et labor: at mors est ultima meta viae.</l>
+<l><foreign lang='GE'>Walfart ist Lebn/voll angst vnd noth/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Zillstad ist Todt/Genad vns Gott.</foreign></l>
+</lg>
+<pb id='s140'/>
+</div2>
+<div2 id='ReES.01.131' n='131' type='poem'>
+<head>EMBLEMA CXXIV. Vive moriture. IN PHILIPPUM MACEdonem Regem.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Mortis es, ô mortalis homo: sic voce moneri</l>
+<l rend='indent'>Rex, HOMO SVM, pueri mane Philippe cupis</l>
+<l><foreign lang='GE'>Sterblicher Mensch/sterbens gedeck/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vnsterblich such/Sonsthertz nicht kranck.</foreign></l>
+</lg>
+<pb id='s141'/>
+</div2>
+<div2 id='ReES.01.132' n='132' type='poem'>
+<head>EMBLEMA CXXV. Mundana Gloria vana. HERMANNUS COMES TUBINgensis loquitur moriturus.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Carne meâ, Sol iustitiae, te CHRISTE videbo:</l>
+<l rend='indent'>Mors, Satan, Orce, Caro, Gloria vana vale.</l>
+<l><foreign lang='GE'>Weltlich Ehr ist verganglich Ehr/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ewig Ehr bgehr bey Christ vil mehr.</foreign></l>
+</lg>
+<pb id='s142'/>
+</div2>
+<div2 id='ReES.01.133' n='133' type='poem'>
+<head>EMBLEMA CXXVI. Tres mundi aetates. PHILIPPO PRINCIPI NORvegiae, Holsatiae Duci.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Triplex hoc aevum: Vacuum, Lex, Gratia: Adamus</l>
+<l rend='indent'>Moses, Christus, Dux: saeclum erit inde novum.</l>
+<l><foreign lang='GE'>Sechs tausnt jar/drey Welt/Ded/Gsatz/Gnad/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Verkurtzts Gott/macht vnsr Missethat.</foreign></l>
+</lg>
+<pb id='s143'/>
+</div2>
+<div2 id='ReES.01.134' n='134' type='poem'>
+<head>EMBLEMA CXXVII. Spes altera vitae. VITO CHRISTOPHORO Welzero Eberstenii Domino.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Vere novo remeat, sub Brumam Rana sepulta:</l>
+<l rend='indent'>Mortuus in vitam sic redit alter homo</l>
+<l><foreign lang='GE'>Frosch lebt im Lentz/ Winterszeit todt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Von Todt erweckt Mensch lebt durch Gott.</foreign></l>
+</lg>
+<pb id='s144'/>
+</div2>
+<div2 id='ReES.01.135' n='135' type='poem'>
+<head>EMBLEMA CXXIIX. Summa rerum. IESU CHRISTO OPT. MAX.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Felix ô quem parte locas, post funera, caeli</l>
+<l rend='indent'>Christe: perennis ubi vita salusque manet.</l>
+<l><foreign lang='GE'>Selig/den Gott im Himml zu letzt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Auß dism Lebn ins Ewig versetzt.</foreign></l>
+</lg>
+<pb id='s145'/>
+</div2>
+<div2 id='ReES.01.136' n='136' type='group'>
+<head>N. REUSNERI Agalmata XII. Anni Temporum. ITEM Disticha in Icones VII. Artium liberalium. IV. Artium Maiorum. IX. Musarum. III. Gratiarum. VII. Virtutum. VII. Planetarum.</head>
+<pb id='s146'/>
+<div3 id='ReES.01.136.01' n='1' type='poem'>
+<head>NOBILISS. D. HENRICO RAMMELIO FRID. II. REG. DAN. CONsiliario Primario. Anagrammatismus. HENERICVS RAMMELIUS. MIRA VI CLEMENS HERVS.</head>
+<lg met='dist'>
+<l>MIRA VI CLEMENS HERVS omnia recreat unus,</l>
+<l rend='indent'>Ceu Phoebus reficit lumine cuncta suo.</l>
+<l>Talis es, et tantus, vir maxime. maxima virtus</l>
+<l rend='indent'>Te decet eloquii, consiliique fides.</l>
+<l>CARUS ob id SUMME Regi, cui Dania pâret:</l>
+<l rend='indent'>Tam RE, quam docti cognitus ore LINI.</l>
+<l>Tu tamen et bonus es Musis, clemensque patronus:</l>
+<l rend='indent'>Maecenas ut avis Regibus ortus Eques.</l>
+<l>O vim doctrinae miram: quo clarior exstat,</l>
+<l rend='indent'>Carior hoc virtus, commodiorque venit.</l>
+</lg>
+<closer>N. Reusnerus D.</closer>
+<pb id='s147'/>
+</div3>
+<div3 id='ReES.01.136.02' n='2' type='poem'>
+<head>SYMBOLA. XII. ANNI TEMPORUM. Ex Eustachio. HENRICO RAMMELIO REG. Dan. Consiliario. I. Procinctus.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Cessit hiems: Miles iam linque hiberna: sit hasta</l>
+<l rend='indent'>Sit clypeus praesto, sit mucro, vere novo.</l>
+<l><foreign lang='GE'>Lentz kompt herbey/Frey wackr nach gbur</foreign></l>
+<l rend='indent'><foreign lang='GE'>Zum Streit grust tritt ins Feld herfur.</foreign></l>
+</lg>
+<pb id='s148'/>
+</div3>
+<div3 id='ReES.01.136.03' n='3' type='poem'>
+<head>II. Foetura.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Nunc foecundus ager, pecoris nunc hora creandi:</l>
+<l rend='indent'>Molliat ô partû fistula, Batte, novos.</l>
+<l><foreign lang='GE'>Pfeiff Bawrle/Viehzucht Fruling mehrt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Von Stall wanns Vich ins Feld außfert.</foreign></l>
+</lg>
+<pb id='s149'/>
+</div3>
+<div3 id='ReES.01.136.04' n='4' type='poem'>
+<head>III. Florilegium.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Maius, amor Veneris: Maio Venus aurea sertis</l>
+<l rend='indent'>Gaudet, et innumero flore serenat humum.</l>
+<l><foreign lang='GE'>Liebsbrunst im Meyen sich rurt ohn maß/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Blumlein/als Stern/Ziert Laub vnd Graß.</foreign></l>
+</lg>
+<pb id='s150'/>
+</div3>
+<div3 id='ReES.01.136.05' n='5' type='poem'>
+<head>IV. Fenisecium.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Falce metit nudus, vultu horridus, arua colonus:</l>
+<l rend='indent'>Linque toros, ad opus te vocat omnis ager.</l>
+<l><foreign lang='GE'>Zur Arbeit fordert Hewmonat/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Schaw wie die Sanse in handn er hat.</foreign></l>
+</lg>
+<pb id='s151'/>
+</div3>
+<div3 id='ReES.01.136.06' n='6' type='poem'>
+<head>V. Messis.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Messis adest: voti plenus, sata messor agrorum</l>
+<l rend='indent'>Oblitus somni, congerit, atque cibi.</l>
+<l><foreign lang='GE'>Erntzeit ist da/Lieb Sat mit Eyl/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Bawrsman Einernt/last jm kein weil.</foreign></l>
+</lg>
+<pb id='s152'/>
+</div3>
+<div3 id='ReES.01.136.07' n='7' type='poem'>
+<head>VI. Aestus.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Sirius urit agros: nunc torridus aestuat aer:</l>
+<l rend='indent'>Ipsa sitis potu crescit anhela magis.</l>
+<l><foreign lang='GE'>Hundsstern all Hitz weit vbertrifft/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vil trinckens gibt/bringt schadn/als Gifft.</foreign></l>
+</lg>
+<pb id='s153'/>
+</div3>
+<div3 id='ReES.01.136.08' n='8' type='poem'>
+<head>VII. Vindemia.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Pampineas novus en Autumnus porrigit vuas:</l>
+<l rend='indent'>Purpureique redit vena liquore meri.</l>
+<l><foreign lang='GE'>Herbst Trauben gibt/Erfrischt das Glut/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Gut Wein/gut Muth/Leichsinnig Gmuth/</foreign></l>
+</lg>
+<pb id='s154'/>
+</div3>
+<div3 id='ReES.01.136.09' n='9' type='poem'>
+<head>IIX. Aucupium.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Temperie medius, victûs hiemisque futurae</l>
+<l rend='indent'>Sat memores, visco simplice captat aves.</l>
+<l><foreign lang='GE'>Den Vogln Bawr mit Leinruthen stellt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Zu Mittlherbstzeit in Schlopff die fallt.</foreign></l>
+</lg>
+<pb id='s155'/>
+</div3>
+<div3 id='ReES.01.136.10' n='10' type='poem'>
+<head>IX. Aratio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Bobus humum renovat cultam spe plenus arator:</l>
+<l rend='indent'>Quaestus agri bonus hic nobile foenus habet.</l>
+<l><foreign lang='GE'>Das Feld von newem pflugt und bawt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Ackrwerck vil muh hat/doch Gott trawt.</foreign></l>
+</lg>
+<pb id='s156'/>
+</div3>
+<div3 id='ReES.01.136.11' n='11' type='poem'>
+<head>X. Satio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Seminat, atque recondit humo Cerealia dona</l>
+<l rend='indent'>Rusticus, humanis apta futura cibis.</l>
+<l><foreign lang='GE'>Von Newm geseht verscherrt ins Land/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Segnts Gott/ gibts widr mit reicher Hand.</foreign></l>
+</lg>
+<pb id='s157'/>
+</div3>
+<div3 id='ReES.01.136.12' n='12' type='poem'>
+<head>XI. Venatio.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Lustra subit nemorum, praedis intentus opimis,</l>
+<l rend='indent'>Cum canibus: fruges horrea quando replent.</l>
+<l><foreign lang='GE'>Nach gschehener Arbeit zeugt ins Feld/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Erlustigt sich mit jagn ein Held.</foreign></l>
+</lg>
+<pb id='s158'/>
+</div3>
+<div3 id='ReES.01.136.13' n='13' type='poem'>
+<head>XII. Focus.</head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Frigore tristis hiems pariter, tristisque senectus:</l>
+<l rend='indent'>Splendeat assiduo iam tuus igne focus.</l>
+<l><foreign lang='GE'>Dem Winter herb gleichts Alter kalt/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Beim Fewr erwarm dein Leib schon alt.</foreign></l>
+</lg>
+<pb id='s159'/>
+</div3>
+</div2>
+<div2 id='ReES.01.137' n='137' type='poem'>
+<head>IN SEPTEM ARTIUM Icones Disticha. NICOLAI REUSNERI. Grammatica.</head>
+<lg met='dist'>
+<l>Prima fores Sophiae, recluso limite, pando:</l>
+<l rend='indent'>Scribere quae puerum rite, loquique volo.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.138' n='138' type='poem'>
+<head>Dialectica.</head>
+<lg met='dist'>
+<l>A falso verum, a curuo distermino rectum:</l>
+<l rend='indent'>Discenti dubiae duxque, comesque viae.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.139' n='139' type='poem'>
+<head>Rhetorica.</head>
+<lg met='dist'>
+<l>Si quid dicendum est, dico bene, verba colorans:</l>
+<l rend='indent'>Quaelibet eloquio fit bona causa meo.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.140' n='140' type='poem'>
+<head>Musica.</head>
+<lg met='dist'>
+<l>Carminibus neruos aptans, et carmina neruis:</l>
+<l rend='indent'>Dulcibus exhilaro pectora maesta modis.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.141' n='141' type='poem'>
+<head>Arithmetica.</head>
+<lg met='dist'>
+<l>Par impar numeris vestigo vite subactis:</l>
+<l rend='indent'>Me pete, concinne si numerare cupis.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.142' n='142' type='poem'>
+<head>Geometria.</head>
+<lg met='dist'>
+<l>Mensuras rerum spatiis dimetior aequis:</l>
+<l rend='indent'>Quid caelo distet terra, locusque loco.</l>
+</lg>
+<pb id='s160'/>
+</div2>
+<div2 id='ReES.01.143' n='143' type='poem'>
+<head>Astronomia.</head>
+<lg met='dist'>
+<l>Aurea sublimis contemplans aetheris astra,</l>
+<l rend='indent'>Sidereos motus mente vicesque noto.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.144' n='144' type='poem'>
+<head>En Easdem. HENRICI RANZOVII Grammatica.</head>
+<lg met='dist'>
+<l>Grammatica os tenerum pueri, balbumque figurat:</l>
+<l rend='indent'>Scientiarum ceterarum ianitrix.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.145' n='145' type='poem'>
+<head>Dialectica.</head>
+<lg met='dist'>
+<l>Uti hominem ratione docet Dialectica, quare</l>
+<l rend='indent'>Merito artium apicem magnus hanc Plato vocat.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.146' n='146' type='poem'>
+<head>Rhetorica.</head>
+<lg met='dist'>
+<l>Rhetorice gratos sermoni astuta colores,</l>
+<l rend='indent'>Quo dulcius fluat is ad aures, adicit.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.147' n='147' type='poem'>
+<head>Musica.</head>
+<lg met='dist'>
+<l>Concentum inter se discrimine grata canorum,</l>
+<l rend='indent'>Aure erudita deprehendit Musica.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.148' n='148' type='poem'>
+<head>Arithmetica.</head>
+<lg met='dist'>
+<l>Haec contemplandis numeris ars gaudet, eorum</l>
+<l rend='indent'>Occulta sollers eruens mysteria.</l>
+</lg>
+<pb id='s161'/>
+</div2>
+<div2 id='ReES.01.149' n='149' type='poem'>
+<head>Astronomia.</head>
+<lg met='dist'>
+<l>Astrorum Uranie cursûs, variosque recursûs</l>
+<l rend='indent'>Oculis notans, futura mente praevidet.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.150' n='150' type='poem'>
+<head>Geometria.</head>
+<lg met='dist'>
+<l>Vestigare Geometriae intervalla locorum est,</l>
+<l rend='indent'>Quamque alta, longa, lata rerum corpora.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.151' n='151' type='poem'>
+<head>In Easdem. INCERTI AUCTORIS. Grammatica.</head>
+<lg met='dist'>
+<l>Grammaticam pueris ego prima Polymnia trado</l>
+<l rend='indent'>Et iubeo memores dicta tenere rudes.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.152' n='152' type='poem'>
+<head>Dialectica.</head>
+<lg met='dist'>
+<l>Euterpe delecto bonos: Dialectica nostro</l>
+<l rend='indent'>Auxilio, nebulis cassa, docenda venit.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.153' n='153' type='poem'>
+<head>Rhetorica.</head>
+<lg met='dist'>
+<l>Melpomene dulci mea verba recenseo linguâ:</l>
+<l rend='indent'>Rhetorices dicor praevia Musa fori.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.154' n='154' type='poem'>
+<head>Musica.</head>
+<lg met='dist'>
+<l>His Erato subeo: nostrum pia Musica donum</l>
+<l rend='indent'>Flectere me castâ pectora voce iuvat.</l>
+</lg>
+<pb id='s162'/>
+</div2>
+<div2 id='ReES.01.155' n='155' type='poem'>
+<head>Arithmetica.</head>
+<lg met='dist'>
+<l>Terpsichore delecto chorum: concordia nostra est:</l>
+<l rend='indent'>Imperioque subest res numeranda meo.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.156' n='156' type='poem'>
+<head>Geometria.</head>
+<lg met='dist'>
+<l>Mensuras doceo, cunctarum et pondera rerum:</l>
+<l rend='indent'>Hac iter ad verum monstro Thaleia decus.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.157' n='157' type='poem'>
+<head>Astronomia.</head>
+<lg met='dist'>
+<l>Uranie monstro stellas, et sidera caeli:</l>
+<l rend='indent'>Sum decus, et reliqui gloria viva chori.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.158' n='158' type='poem'>
+<head>In Easdem. INCERTI AUCTORIS. Grammatica.</head>
+<lg met='dist'>
+<l>Grammatice reliquis elementa, viamque ministrat</l>
+<l rend='indent'>Artibus, et solido cunctans fundamine fulcit.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.159' n='159' type='poem'>
+<head>Dialectica.</head>
+<lg met='dist'>
+<l>De themate omnigeno Dialectica disputat, et quâ</l>
+<l rend='indent'>Quaerendum in dubiis sit verum indagine, monstrat.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.160' n='160' type='poem'>
+<head>Rhetorica.</head>
+<lg met='dist'>
+<l>Rhetorice vario delectat splendida cultu:</l>
+<l rend='indent'>Ornatumque adhibet dictis, vivosque colores.</l>
+</lg>
+<pb id='s163'/>
+</div2>
+<div2 id='ReES.01.161' n='161' type='poem'>
+<head>Musica.</head>
+<lg met='dist'>
+<l>Musica multiplici mentes modulamine mulcet:</l>
+<l rend='indent'>Cui praebent operam vox, fistula, tibia, chorda.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.162' n='162' type='poem'>
+<head>Arithmetica.</head>
+<lg met='dist'>
+<l>Tradit Arithmetice numeros, sparsimque vagantes</l>
+<l rend='indent'>Colligit, et certâ in summas ratione coercet.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.163' n='163' type='poem'>
+<head>Geometria.</head>
+<lg met='dist'>
+<l>Terrarum spatia et metas Geometria ponit,</l>
+<l rend='indent'>Distinguitque plagas, montesque ac flumina lustrat.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.164' n='164' type='poem'>
+<head>Astronomia.</head>
+<lg met='dist'>
+<l>Caelorum varios motûs scrutatur, et orbes</l>
+<l rend='indent'>Astrologus, penetratque polos, atque astra pererrat.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.165' n='165' type='poem'>
+<head>IN ICONES QUATUOR Artium maiorum. NICOLAI REUSNERI. Philosophia.</head>
+<lg met='dist'>
+<l>Sermonis, morum, naturae iura professa,</l>
+<l rend='indent'>Prudentes reddo, doctiloquosque viros.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.166' n='166' type='poem'>
+<head>Theologia.</head>
+<lg met='dist'>
+<l>Quid Deus, et quâ sit pietate fideque colendus,</l>
+<l rend='indent'>Numinis edoceo lumine plena sacri.</l>
+</lg>
+<pb id='s164'/>
+</div2>
+<div2 id='ReES.01.167' n='167' type='poem'>
+<head>Iurisprudentia.</head>
+<lg met='dist'>
+<l>Ius aequumque bonum colo: iustitiaeqûe ministra,</l>
+<l rend='indent'>Iudicii causas pondero lance pari.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.168' n='168' type='poem'>
+<head>Medicina.</head>
+<lg met='dist'>
+<l>Arte levo morbos, et do Medicina salutem:</l>
+<l rend='indent'>Quaeque iuvet, monstro, quaeque sit herba nocens.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.169' n='169' type='poem'>
+<head>IN NOVEM MUSAS. Disticha NICOLAI REUSNERI. Cleio.</head>
+<lg met='dist'>
+<l>Cleio gesta canis regum: castaeque sorores</l>
+<l rend='indent'>Applaudunt numeris voce lyraque tuis.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.170' n='170' type='poem'>
+<head>Euterpe.</head>
+<lg met='dist'>
+<l>Dulciloquis calamos Euterpe flatibus urges:</l>
+<l rend='indent'>Si dulci misces utile Musa, sat est.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.171' n='171' type='poem'>
+<head>Thaleia.</head>
+<lg met='dist'>
+<l>Tu viridem veluti spatiando Diva per hortum,</l>
+<l rend='indent'>Aeterno famae flore virêre facis.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.172' n='172' type='poem'>
+<head>Melpomene.</head>
+<lg met='dist'>
+<l>Lugubres pariter tu praecipis, atque serenos</l>
+<l rend='indent'>Cantus: Melpomenes nomina digna geris.</l>
+</lg>
+<pb id='s165'/>
+</div2>
+<div2 id='ReES.01.173' n='173' type='poem'>
+<head>Terpsichore.</head>
+<lg met='dist'>
+<l>Tu citharam pulsas, et ducis laeta choreas</l>
+<l rend='indent'>Terpsichore: tecum turba novena salit.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.174' n='174' type='poem'>
+<head>Erato.</head>
+<lg met='dist'>
+<l>Si Venus est Dea, Vi Veneris puer auctor amoris,</l>
+<l rend='indent'>Dic, Erato, cur tu nomen amoris habes?</l>
+</lg>
+</div2>
+<div2 id='ReES.01.175' n='175' type='poem'>
+<head>Polymnia.</head>
+<lg met='dist'>
+<l>Sive Polymneia es, Dea, seu Polyhymnia dicta:</l>
+<l rend='indent'>Mens memor, aut nomen laus tibi multa dedit.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.176' n='176' type='poem'>
+<head>Urania.</head>
+<lg met='dist'>
+<l>Tu caelo genita es, simul et caelestia cantas:</l>
+<l rend='indent'>Musa fave, et caelo nos quoque Diva loca.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.177' n='177' type='poem'>
+<head>Calliope.</head>
+<lg met='dist'>
+<l>Maxima Calliope Musarum, carmina donas</l>
+<l rend='indent'>Omnia: quam belle nomina bella geris!</l>
+</lg>
+</div2>
+<div2 id='ReES.01.178' n='178' type='poem'>
+<head>In Easdem. HELII EOBANI HESSI. Clio.</head>
+<lg met='dist'>
+<l>Sacri prima chori, Musarum praevia, Clio:</l>
+<l rend='indent'>Addo suam rebus temporibusque fidem.</l>
+</lg>
+<pb id='s166'/>
+</div2>
+<div2 id='ReES.01.179' n='179' type='poem'>
+<head>Euterpe.</head>
+<lg met='dist'>
+<l>Me chorus Euterpen, quia sum iucunda, vocavit:</l>
+<l rend='indent'>Et mea plus aliis fistula dulce canit.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.180' n='180' type='poem'>
+<head>Thalia.</head>
+<lg met='dist'>
+<l>Quod me ceu viridi spatiantem cernis in horto:</l>
+<l rend='indent'>Floribus aeternis apta Thaleia fui.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.181' n='181' type='poem'>
+<head>Melpomene.</head>
+<lg met='dist'>
+<l>Melpomene reliquas supero dulcedine cantûs,</l>
+<l rend='indent'>Sunt qui me Tragicis moribus esse putent.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.182' n='182' type='poem'>
+<head>Terpsichore.</head>
+<lg met='dist'>
+<l>Terpsichore citharam pulso, ducoque choreas:</l>
+<l rend='indent'>Hinc me Sirenas progenuisse ferunt.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.183' n='183' type='poem'>
+<head>Erato.</head>
+<lg met='dist'>
+<l>Quamuis casta Erato castis aspiro poetis:</l>
+<l rend='indent'>In sua vota tamen me vocat omnis amans.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.184' n='184' type='poem'>
+<head>Polyhymnia.</head>
+<lg met='dist'>
+<l>Aucupor innumeris Polyhymnia cantibus aures:</l>
+<l rend='indent'>Aeternumque canunt organa nostra melos.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.185' n='185' type='poem'>
+<head>Urania.</head>
+<lg met='dist'>
+<l>Uranie caeleste genus, caelestia canto:</l>
+<l rend='indent'>Esse deos facio, qui mea regna colunt.</l>
+</lg>
+<pb id='s167'/>
+</div2>
+<div2 id='ReES.01.186' n='186' type='poem'>
+<head>Calliope.</head>
+<lg met='dist'>
+<l>Vox bona, Calliope, Musarum maxima dicor:</l>
+<l rend='indent'>Singula sunt aliis, omnia nota mihi.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.187' n='187' type='poem'>
+<head>In Easdem. PAULI MELISSI FRANCI. Cleio.</head>
+<lg met='dist'>
+<l>Cleio virtutem laudo, praeclaraque gesta:</l>
+<l rend='indent'>Laurea militiae, pacis oliva comes.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.188' n='188' type='poem'>
+<head>Euterpe.</head>
+<lg met='dist'>
+<l>Euterpe delecto animum, mentemque sereno:</l>
+<l rend='indent'>Exsulet a laetis turba severa iocis.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.189' n='189' type='poem'>
+<head>Thaleia.</head>
+<lg met='dist'>
+<l>Si quaero silvas hortosque Thaleia virentes,</l>
+<l rend='indent'>Nomina res haec est non aliena meo.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.190' n='190' type='poem'>
+<head>Melpomene.</head>
+<lg met='dist'>
+<l>Melpomene liquidi modulamine gaudeo cantûs:</l>
+<l rend='indent'>Incito corda sonis, mollio corda sonis.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.191' n='191' type='poem'>
+<head>Terpsichore.</head>
+<lg met='dist'>
+<l>Terpsichore fatuas aversor amoena choreas:</l>
+<l rend='indent'>Reddite Germanae mî decus harmoniae.</l>
+</lg>
+<pb id='s168'/>
+</div2>
+<div2 id='ReES.01.192' n='192' type='poem'>
+<head>Erato.</head>
+<lg met='dist'>
+<l>Ingenuos Erato fibris inspiro calores:</l>
+<l rend='indent'>I procul, illicito quisquis amore flagras.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.193' n='193' type='poem'>
+<head>Polyhymnia.</head>
+<lg met='dist'>
+<l>Polleo mente memor, multâque Polymnia famâ:</l>
+<l rend='indent'>Nuncupor hinc doctis propria Musa viris.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.194' n='194' type='poem'>
+<head>Urania.</head>
+<lg met='dist'>
+<l>Uranie callens patrii mysteria caeli,</l>
+<l rend='indent'>Ex homine efficio per rata verba Deum.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.195' n='195' type='poem'>
+<head>Calliope.</head>
+<lg met='dist'>
+<l>Calliope varias artes expromere docta,</l>
+<l rend='indent'>Pierium bellâ compleo voce chorum.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.196' n='196' type='poem'>
+<head>IN NOVEM MUSAS NOVEM caelestium orbium animas. NICOLAI REUSNERI.</head>
+<lg met='dist'>
+<l>Caelorum Musas animas vocesque fatetur</l>
+<l rend='indent'>Docta senis Samii vox, magno teste Platone.</l>
+<l>Quot Musae, caeli tot sunto novemplicis orbes.</l>
+<l rend='indent'>Stelliferi Uranie caeli: Polyhymnia vox est</l>
+<l>Saturni: Martis Cleio: Iovis ardua Siren</l>
+<l rend='indent'>Terpsichore: Venerisque Erato: Solisque canora</l>
+<pb id='s169'/>
+<l>Melpomene: Euterpeque Hermae: Lunaeque Thaleia:</l>
+<l rend='indent'>Concentum bona Calliopes vox dirigit omnem.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.197' n='197' type='poem'>
+<head>De Musarum inventis. INCERTI AUCTORIS.</head>
+<lg met='dist'>
+<l>Clio gesta canens, transactis tempora reddit.</l>
+<l rend='indent'>Melpomene Tragico proclamat maesta boatu.</l>
+<l>Comica lascivo gaudet sermone Thaleia.</l>
+<l rend='indent'>Dulciloquis calamos Euterpe flatibus urget.</l>
+<l>Terpsichore affectus citharis movet, imperat, auget:</l>
+<l rend='indent'>Plectra gerens Erato saltat pede, carmine, vultu:</l>
+<l>Carmina Calliope libris Heroica mandat.</l>
+<l rend='indent'>Uranie caeli motûs scrutatur, et astra.</l>
+<l>Signat cuncta manu, loquitur Polyhymnia gestu.</l>
+<l rend='indent'>Mentis Apollineae vis has movet undique Musas:</l>
+<l>In medio residens complectitur omnia Phoebus.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.198' n='198' type='poem'>
+<head>TRES GRATIAE. GEORGII FABRICII. Aglaia.</head>
+<lg met='dist'>
+<l>Concilio meritis caras mihi laeta sorores:</l>
+<l rend='indent'>Nostraque purpureus pectora candor habet.</l>
+</lg>
+<pb id='s170'/>
+</div2>
+<div2 id='ReES.01.199' n='199' type='poem'>
+<head>Thaleia.</head>
+<lg met='dist'>
+<l>Dando augentur opes, et gratia grata sororum:</l>
+<l rend='indent'>Inque meis floret pulchra iuventa genis.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.200' n='200' type='poem'>
+<head>Euphrosyne.</head>
+<lg met='dist'>
+<l>Amplector socias multâ pietate sorores:</l>
+<l rend='indent'>Et duplicem officiis reddo benigna vicem.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.201' n='201' type='poem'>
+<head>TRES VIRTUTES Christianae. Eiusdem. Fides.</head>
+<lg met='dist'>
+<l>Sola Fides, lateri supremi adfixa Tonantis,</l>
+<l rend='indent'>Per varia ad caelum monstro pericla viam.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.202' n='202' type='poem'>
+<head>Spes.</head>
+<lg met='dist'>
+<l>Spes ego possideo, quae sunt venturae, fruorque</l>
+<l rend='indent'>Promissis animo non dubitante bonis.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.203' n='203' type='poem'>
+<head>Caritas.</head>
+<lg met='dist'>
+<l>Iungo homines, hominique Deum. namque omnia per me</l>
+<l rend='indent'>Dulcia perpetuae foedera pacis habent.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.204' n='204' type='poem'>
+<head>QUATUOR VIRTUTES Morales. Eiusdem.
+<pb id='s171'/>
+Prudentia.</head>
+<lg met='dist'>
+<l>Ingeniis addo lucem Prudentia, cernens</l>
+<l rend='indent'>Quod fuit, atque quod est, quaeque futura trahunt.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.205' n='205' type='poem'>
+<head>Iustitia.</head>
+<lg met='dist'>
+<l>Iustitiâ servo leges: nil amplius opto,</l>
+<l rend='indent'>Quam decet, attribuens ius bene cuique suum.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.206' n='206' type='poem'>
+<head>Fortitudo.</head>
+<lg met='dist'>
+<l>Non premor adversis, non laetis efferor: et me</l>
+<l rend='indent'>Invictam in diris mens generosa facit.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.207' n='207' type='poem'>
+<head>Temperantia.</head>
+<lg met='dist'>
+<l>Luxuriam fugere, et petulantes frangere sensus,</l>
+<l rend='indent'>Atque modum in rebus rite tenere meum est.</l>
+</lg>
+</div2>
+<div2 id='ReES.01.208' n='208' type='poem'>
+<head>In Easdem. IOANNIS STIGELII. Fides.</head>
+<lg met='dist'>
+<l>Praecipuum decus est saluanti fidere Christo:</l>
+<l rend='indent'>Quem penes hoc unum est, omnia solus habet.</l>
+<l><foreign lang='GE'>Der ware Glaub an Ihesum Chrsit/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Die Hochste Zier vnd Tugend ist.</foreign></l>
+</lg>
+<pb id='s172'/>
+</div2>
+<div2 id='ReES.01.209' n='209' type='poem'>
+<head>Spes.</head>
+<lg met='dist'>
+<l>Omne feret tempus magnae solacia menti:</l>
+<l rend='indent'>Quae causam merito, cur bene speret, habet.</l>
+<l><foreign lang='GE'>Wer hoffen kan auß gutem Grund/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Der sindt sein Trost zu aller Stund.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.210' n='210' type='poem'>
+<head>Caritas.</head>
+<lg met='dist'>
+<l>Omnibus inseruit, temere nil detrahit ulli,</l>
+<l rend='indent'>Qui confisa Deo pectora iungit, Amor.</l>
+<l><foreign lang='GE'>Die Liebe gunt dem Nechsten gut/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Gibt Gott sein Ehr/nichts arges thut.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.211' n='211' type='poem'>
+<head>Iustitia.</head>
+<lg met='dist'>
+<l>Dedit a iustitiae mens, et sibi conscia recti,</l>
+<l rend='indent'>Nulla, Deo fati tela tegente, timet.</l>
+<l><foreign lang='GE'>Wer handelt recht nach billichheit/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Bey dem ist Gott in Lieb vnd Leid.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.212' n='212' type='poem'>
+<head>Prudentia.</head>
+<lg met='dist'>
+<l>Mente vigil, rerumque sciens, et gnara futuri,</l>
+<l rend='indent'>Et disco, et doceo: sors mea grata Deo est.</l>
+<l><foreign lang='GE'>Versuch/erfahr/vnd wurd bewert/</foreign></l>
+<l rend='indent'><foreign lang='GE'>ich lehr vnd lern /wie Gott begert.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.213' n='213' type='poem'>
+<head>Temperantia.</head>
+<lg met='dist'>
+<l>Adde modum rebus, prius et metire, quod audes:</l>
+<l rend='indent'>Fructibus est virtus plena, tenere modum.</l>
+<l><foreign lang='GE'>Sey massig/ fromb ohn vbermuth/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Maß ist zu allen dingen gut.</foreign></l>
+</lg>
+<pb id='s173'/>
+</div2>
+<div2 id='ReES.01.214' n='214' type='poem'>
+<head>Fortitudo.</head>
+<lg met='dist'>
+<l>Vir bonus et fortis, si cui Fortuna noverca est,</l>
+<l rend='indent'>Acta Deo credat: fortibus ille favet.</l>
+<l><foreign lang='GE'>Starck/Mutig/Fest bey guter Sach/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Traw Gott/Er hilfft auß Vngemach.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.215' n='215' type='poem'>
+<head>IN ICONES SEPTEM PLANETARUM. Disticha NICOLAI REUSNERI. SATURNUS.</head>
+<lg met='dist'>
+<l>Tempus edax rerum: me iuncta Leaena Draconi</l>
+<l rend='indent'>Ductat: cuncta voro falcifer ore senex.</l>
+<l><foreign lang='GE'>Zeit alls verzehrt/drumb Sanß thu tragen/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Drach vnd Lowin mich zeugt im Wagn.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.216' n='216' type='poem'>
+<head>IUPITER.</head>
+<lg met='dist'>
+<l>Currum agitant Aquilae: sunt me penes omnia regna.</l>
+<l rend='indent'>Dextra manus sceptrum, frons diadema gerit.</l>
+<l><foreign lang='GE'>Scepter ziert d Hand/Haupt ziert die Kron/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Mit Adlern prang/Reichsgeber fron.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.217' n='217' type='poem'>
+<head>MARS.</head>
+<lg met='dist'>
+<l>MARS vehor ecce Lupis, ferro metuendus, et igne,</l>
+<l rend='indent'>Arbiter armorum, quo duce bella vigent.</l>
+<l><foreign lang='GE'>Krigsherr Mars/brenn/raub/mord schrocklich/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Im Wagn mich ziehn drumm Wolff haßlich.</foreign></l>
+</lg>
+<pb id='s174'/>
+</div2>
+<div2 id='ReES.01.218' n='218' type='poem'>
+<head>SOL.</head>
+<lg met='dist'>
+<l>Sol, oculus mundi: radiis insigne coruscis</l>
+<l rend='indent'>Promo iubar: niveis invehor altus equis.</l>
+<l><foreign lang='GE'>Lebns Liecht/ auch Welt Aug bin ich Sonn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Mit weißn Roßn hoch einher renn schon.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.219' n='219' type='poem'>
+<head>VENUS.</head>
+<lg met='dist'>
+<l>Alma Venus sum mater Amoris: vecta columbis,</l>
+<l rend='indent'>Coniugii parili foedus amore rego.</l>
+<l><foreign lang='GE'>Liebs Mutr Venus/ hab Taubn am Wagn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Lieb inn der Ehe mach wol behagn.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.220' n='220' type='poem'>
+<head>MERCURIUS.</head>
+<lg met='dist'>
+<l>Ibis me vehit alba: vocor Caducifer Hermes:</l>
+<l rend='indent'>Ars, merx, eloquium munus in orbe meum.</l>
+<l><foreign lang='GE'>Ibsvogl mich fuhrn/Red vnd Kunst gib/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Auch Wahr/die macht offt manchen Dieb.</foreign></l>
+</lg>
+</div2>
+<div2 id='ReES.01.221' n='221' type='poem'>
+<head>LUNA.</head>
+<lg met='dist'>
+<l>Luna, soror Phoebi, ceruis invecta iugatis,</l>
+<l rend='indent'>Menstrua vix umquam, quo prius, ore mico.</l>
+<l><foreign lang='GE'>Hirschn fuhr hab Mon/laß vmbher gohn/</foreign></l>
+<l rend='indent'><foreign lang='GE'>Vngleich mein Schein/bleibt nicht bestohn.</foreign></l>
+</lg>
+<closer>FINIS.</closer>
+</div2>
+<div2 id='ReES.01.222' n='222' type='poem'>
+<pb id='s175'/>
+<head>SYMBOLUM NICOLAI REUSNERI. <gap desc='greek text'/></head>
+<gap desc='illustration'/>
+<lg met='dist'>
+<l>Stella quid haec? Fatum. Leo quid? Mens celsa, quid istuc?</l>
+<l rend='indent'>FER, SIC FERRE, iubet ferre quod ipse Deus.</l>
+</lg>
+<pb id='s176'/>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>
+
+
+
+
+
+

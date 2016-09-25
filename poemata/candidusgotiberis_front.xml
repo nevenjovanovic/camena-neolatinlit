@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Gotiberis : Hoc est De Goticis Per Hispaniam Regibus, E Teutonica Gente Originem Trahentibus : Libri Sex ... carmine scripti. Addita est Genealogia Regum Hispanicorum. </title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Candidus" TEIform="author">Candidus, Pantaleon</author>
+<editor TEIform="editor" role="editor">Candidus, Pantaleon</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Ruediger Niehl</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/candidus2" type="href" id="candidus2" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">candidus2</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">candidusgotiberis.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">avan001.jpg</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">candidusgotiberis.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">candidus2/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Argentorati : Typis Antonij Bertrami, 1587. </bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">13 April 2005</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">new TEI header; typed text - structural markup complete - no semantic markup - Morpheus spell check</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">30 August 2005</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Jutta Jaeger</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">worked in manual corrections supplied by G. Burkard</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text><gap id="GR"/><front>
+
+<pb id="s001" TEIform="pb"/>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart"><hi TEIform="hi">GOTIBERIS
+Hoc est</hi>
+DE GOTICIS
+PER HISPANIAM REGIBUS,
+E TEUTONICA GENTE ORIGINEM
+TRAHENTIBUS:
+Libri Sex.
+AD D. RUDOLPHUM II. ROM.
+IMP. ETC. ET IPSIUS CAESAREAE MAIESTATIS
+<hi TEIform="hi">fratres germanos etc. materna stirpe, ab Hispanorum regibus
+ortum habentes: Archiducum Austriae serenissimos
+Principes, summae in eam familiam pietatis
+atque honoris <reg orig="ergò" TEIform="reg">ergo</reg>, carmine
+scripti à</hi>
+PANTALEONE CANDIDO
+AUSTRIACO.
+Addita est Genealogia Regum Hispanicorum.
+<gap desc="illustration" TEIform="gap"/>
+ARGENTORATI
+Typis Antonii Bertrami. Anno
+M. DC. XXCVII.
+</titlePart></titlePage>
+<pb id="s003" TEIform="pb"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<head>POTENTISSIMO ATQUE INVICTISSIMO PRINCIPI ET DOMINO D. RUDOLPHO II. <hi TEIform="hi">Electo: Rom: Imp: S. A. Germaniae, Hungariae, Bohemiae, Dalmatiae, <reg orig="Cröatiae" TEIform="reg">Croatiae</reg>, Sclavoniae, etc. Regi, <reg orig="tùm" TEIform="reg">tum</reg> Reverendissimis et Serenissimis Principibus ac Dominis, Domino Alberto, S. Romanae Ecclesiae Cardinali, et Episcopo Toletano, D. Maximiliano, Ordinis Teutonici Magistro, D. Ernesto, et D. Mathiae, Archiducibus Austriae, Ducibus Burgundiae, Stiriae, Carinthiae, Carniolae, et Wirtembergae, Comitibus Tyrolis etc. Fratribus Germanis etc. Dominis suis Clementissimis. S. D.</hi></head>
+<p TEIform="p">POTentissime atque Invictissime Caesar, nec non Reverendissimi et Serenissimi Principes: Multa sunt argumenta praeclara et admiranda, quibus sapientia et bonitas conditoris in tota hac rerum natura monstratur. Sed testimonium valde illustre est, quod Deus ex immensa misericordia sua post lapsum primorum parentum etiam in horribili <foreign lang="GR" TEIform="foreign">a)taci/a|</foreign> hac et perturbatione omnium rerum, ac in istis furoribus Diabolorum, aliquem adhuc in genere humano ordinem et societatem conservat et tuetur.</p>
+<p TEIform="p">Nisi enim ad rectionem multitudinis humanae singulare Dei studium et providentia adhiberetur, cuius auxilio, quae bona et salutaria in communi societate fiunt, administrantur: <reg orig="profectò" TEIform="reg">profecto</reg> non hominum convictus, sed immanium Cyclopum et Centaurorum tetra confusio, in qua <foreign lang="GR" TEIform="foreign">a)kou/ei o)ndei\s2 o)ude/nos2</foreign>, <reg orig="imò" TEIform="reg">imo</reg> foedus beluarum concursus, vita hominum futura esset. Quamobrem hanc generis humani collectionem et gubernationem in summi beneficii loco habere, et Deo pro hoc munere, toto pecto
+<pb id="s004" TEIform="pb"/>
+re gratias agere debemus. Non enim humana industria aut constitui regna in hominibus queunt, aut constituta externis viribus conservari, sed utrumque Dei opus est, sicut scriptum est Proverbiorum 8. capite: Per me reges regnant, et legum conditores iusta decernunt, per me principes imperant.</p>
+<p TEIform="p">Quem ad modum enim, ut Plato ait, boves non à bobus, nec caprae à capris reguntur, sed à praestantiore natura, videlicet ab hominibus: Sic natura humana infirmior est, <reg orig="quàm" TEIform="reg">quam</reg> ut se ipsam regere possit. Deus igitur praeficit urbibus non homines sed praestantius et divinius quoddam genus, <reg orig="Heröas" TEIform="reg">Heroas</reg> videlicet, qui cum habeant ipsi prosperos successus, nobis quoque imperia eorum grata et facilia sunt. Hi itaque curant nos, ut pacem, pudorem, libertatem conservent, et addit: Verum est dictum: Ubi non Deus sed mortalis aliquis dominatur, ibi malorum et aerumnarum nullum est effugium. <note resp="editor" anchored="yes" TEIform="note" place="unspecified">Greek quote corrected according to errata list</note> <foreign lang="GR" TEIform="foreign">*le/gei dei\ ki\nu=m o(utws2 o(lo/gos a)lkqei/a xrw/menos2, w(s2 o(s1wn a)/n po/lewn mei\ qeo/s2, a)lla/ tis2 a)/rxei qneito\s2, o)uk e)sti\ kakw=m au)toi=s2, o)ude\ po/nwn a)na/fucis2</foreign>.</p>
+<p TEIform="p"><reg orig="Quanquàm" TEIform="reg">Quanquam</reg> autem magnae interdum in omnibus imperiis accidunt confusiones et turbae: tamen illa vicia ab ordinatione divina discernantur, <reg orig="quòd" TEIform="reg">quod</reg> huius auctor et conservator est Deus, distractiones autem et scelera ab hoste omnis boni ordinis, ab ipso diabolo proficiscuntur, quibus tamen Deus clementer medetur. Si gregem ovium in florido prato pastor custodiat, et lupi irrumpentes rapiant et dilanient oves aliquas: tamen vigilans pastor, incitatis canibus depellit lupos, et maiorem partem gregis servat: Sic verissime Deus adest generi humano, et est beneficus et vigilans pastor, non sinit deleri genus humanum, reprimit grassantes diabolos, et turbulentos homines. Estque illa ipsa administratio inviolabilis et sacrosancta, ac divinae cuiusdam auctoritatis
+<pb id="s005" TEIform="pb"/>
+plenissima, qua de causa Magistratum etiam Dei vocabulo dignatur psalmus, <reg orig="quòd" TEIform="reg">quod</reg> hoc officii divinum munus in sese comprehendat. Ac difficile esset tot ac tam varii ingenii homines, eosdemque natura contumaciores, sic frenare posse, ut dictis se morigeros praestent, quemadmodum Xenophon se cogitasse scribit, facilius esse armentis, <reg orig="quàm" TEIform="reg">quam</reg> hominibus imperare: nisi dignitate aliqua et reverentia occulta imbutae mentes ordinem et statum hunc colerent atque observarent.</p>
+<p TEIform="p">Etsi autem praesunt interdum, in quibus non solum desideratur multum, sed qui et naevis aliquibus deformati, videntur, et quos <foreign lang="GR" TEIform="foreign">s1koliou/s2</foreign> D. Petrus appellat: tamen et ipsi ubi magistratum <reg orig="legitimè" TEIform="reg">legitime</reg> gerunt, illo honore digni censendi sunt, quibus <reg orig="aequé" TEIform="reg">aeque</reg> ac inculpatis et placidis debitam reverentiam exhibere singuli tenentur, <reg orig="quantùm" TEIform="reg">quantum</reg> sane eius, religione fieri permittitur. Nam et in metu contineri effrenes debent, et civilis tranquillitas custodiri. Hinc pleraeque ad vitae humanae salutem commoditates proveniunt, crescunt domus, augentur opes, firmantur cives, florent urbes, custoditur iustitia, virtus, aequum. Sed quod summum est, ea <reg orig="demùm" TEIform="reg">demum</reg> laus efferri sermone non potest, quae huic statui debetur, si tanti honores, auctoritas, gratia, virtus, ad solius divini nominis laudem et celebritatem referantur, si Ecclesiae constituantur, puritas doctrinae conservetur, homines ad veram pietatem in sapientia divina, et ad veros cultus instituantur, quemadmodum Deus ipse iubet regem assidue in manibus habere librum legis divinae, et in Esaia, reges nutricios Ecclesiarum debere esse ostendit. Et hoc in praecipuis numerari beneficium debet, si ex Politiarum felici administratione id consequatur: ut non solum hominum vitae ac publicae tranquillitati consulatur, sed in primis ut conditoris gloria celebretur. Verbum
+<pb id="s006" TEIform="pb"/>
+divinum propagetur, ac animarum aeterna felicitas et beatitudo comparetur.</p>
+<p TEIform="p">Ad hos fines, qui suas referunt operas Magistratus, ii demum perpetuis evehi laudibus merentur. Quales fuerunt Ioseph, Moses, David, Iosaphat, Ezechias, Iosias, Cyrus, Constantinus, Theodosii et Germanici Imperatores plerique. Quibus annumerari possunt Hispanici et Bohemici reges, quorum singulare studium fuit, cum laude suis ad Dei gloriam et hominum salutem praeesse.</p>
+<p TEIform="p">Ac ostendunt historiae eorum, summum Dei beneficium fuisse, qui regna illa constituerit, et Principum animos cognitione verae Religionis imbuerit, quam deinceps propagavit, et contra Mahometicas vastationes, ac alios errores mirabili rerum colluctatione atque eventu salvam integramque conservavit.</p>
+<p TEIform="p">Hoc ego quoties in animo mecum perpendo, toties ita afficior, ut immensam Dei misericordiam agnoscam, ac Deo pro administratione hac, ac tot praestantium regum felici successione gratias agam. Celebro et fortunam eorum Principum, quibus in his statibus, vel singulis vel pluribus, suprema sapientiae, dignitatis atque admirationis fastigia destinantur. Et quemadmodum nulli excellentes viri sunt absque afflatu divino: ita magna vis est, generis, voluntatis, institutionis, industriae, virtutum, in iis qui actiones et studia ad honestatis et sapientiae, leges et praecepta conformant. Hinc singulae nationes sua operum et donorum encomia merentur. Hispaniae reges, ex quibus maternam originem trahitis, Caesar Augustissime, Vosque Reverendissimi et Serenissimi ipsius Caesareae Mai: Fratres, à Gotis initium habuerunt, qui et ipsi Germani fuerunt. Goti autem qui et Getae et Gutones vocantur, ut et ceteri Germani, ex Asia progressi, diu
+<pb id="s007" TEIform="pb"/>
+ad Istrum habitarunt, quos ita laudat Herodotus vetustissimus, ut eos <foreign lang="GR" TEIform="foreign">dikaiota/tous2 ka\i a)ndreiota/tous2</foreign>, iustissimos et fortissimos praedicet, et addit eos <foreign lang="GR" TEIform="foreign">a)qanatizontas2</foreign> à Graecis appellari, quod animos hominum ex hac vita discedentium immortales et aeternos esse sentiant. <reg orig="Eò" TEIform="reg">Eo</reg> igitur maiori cura iustitiam, veritatem, beneficentiam, gratitudinem, ordinem in gubernatione et ceteras virtutes ex iustitia, velut ex fonte emanantes coluerunt, quia post hanc vitam iustis praemia, sceleribus poenas divinitus propositas esse intellexerunt. Fortitudinis autem suae vestigia non <reg orig="modò" TEIform="reg">modo</reg> Germaniae, Pannoniae, Thraciae: <reg orig="verùm" TEIform="reg">verum</reg> etiam Italiae toti et Galliis ac Hispaniis impresserunt, quorum rex Sirmus cum Alexandro M. dimicavit, postea Lysimachus à rege Getico Dromichete captus est, cum Romanis etiam de finibus bello contenderunt, donec tandem Valentis tempore victores Pannoniam sibi vendicarunt. Quin et ad Septentrionem et Balthicum mare progressi, regionibus illis incolas et nomen reliquerunt.</p>
+<p TEIform="p">Ac Alaricus quidem Gotus Romam cunctis gentibus <reg orig="anteà" TEIform="reg">antea</reg> formidabilem et invictam primus cepit. Adolphus <reg orig="veró" TEIform="reg">vero</reg> primus regnum Gotorum in Hispania constituit. Theodoricus Veronensis totam Italiam et Germaniae partem tenuit. Totila etiam urbem Romam funditus evertit. Ac in Hispania Goticorum Regum posteri, usque ad patrum nostrorum aetatem, et Ferdinandum V. Caesareae Maiestatis et Celsitudinum Vestrarum maternum abavum regnarunt.</p>
+<p TEIform="p">Hos ego Gotorum per Hispaniam potentissimos atque laudatissimos Reges, qualibuscumque versibus complexus sum, ut reverentiam meam declararem, qua incomparabilem gloriam familiae Vestrae, et Caesareae Maiestatis V. et Celsitudinum Vestrarum augustissimos honores veneror
+<pb id="s008" TEIform="pb"/>
+atque colo. Direxeram quidem carmen hoc ad V. Caesareae Maiestatis, et <corr sic="Celsitudinem" resp="printer" TEIform="corr">Celsitudinum</corr> Vestrarum, augustissimae memoriae Parentem. Sed nunc post illius sanctissimum ex hac vita discessum, id V. Caesareae Maiestati, et Celsitudinibus Vestris, suppliciter offero, humillimeque peto, ut clementissime suscipiatis, tamquam id, quod ab eo proficiscitur, qui et Dei gubernationem <corr sic="magnificat" resp="printer" TEIform="corr">magni facit</corr>, et decus illud, virtutem, et cetera bona quae ex immensa gratia in Caesaream Maiestatem et Serenissimas Celsitudines Vestras collata sunt, suspicit atque admiratur.</p>
+<p TEIform="p">Delectat enim bonas mentes, cum illustria maiorum facta considerantes, in eorundem familiis virtutum, ingenii, felicitatis, honorum atque dignitatum, longo intervallo permansisse possessionem animadvertunt. Quid non admirationis in eo, quod, cum in successionibus etiam hereditariis, <reg orig="ferè" TEIform="reg">fere</reg> oraculo illi pareatur, <foreign lang="GR" TEIform="foreign">a)uto\s2 kai\ pa=idies2, kai/ pa/idwn o)\uke)/ti pa=i\dies2</foreign>: tamen summa illa in Imperio Romano successio, quae à nulla hereditatis praerogativa iureque dependet, tam longa duratione, tamque continua cognatione, in hac Vestra Austriacae gentis, familia resederit, quod aliis itidem evenisse familiis non utique commonstratur. Ut ea dignitas Vestram sibi stirpem, iam hereditariam <reg orig="penè" TEIform="reg">pene</reg>, ad hoc muneris vendicasse videatur. Et industria, felicitas atque sapientia horum regum colligi potest ex temporum, quibus praefuerunt, confusionibus, quae in fine mundi accidunt turbulentiores, quibus tamen incommodis, Deo iuvante à Sapientibus eius aevi regibus utiliter hactenus occursum fuit. Quis, si ab Augusto discesserimus diutius imperio, aut magis pacifice praefuit, Friderico atavo, quis regno moderatius felicius et admirabilius usus est Maximiliano abavo? quis Carolo, et huius fratre? tum etiam Maximiliano II. Caesareae Maiestatis V. et Celsitudinum V. laudatissimo patre.</p>
+<pb id="s009" TEIform="pb"/>
+<p TEIform="p">Quibus igitur Invictissime atque Potentissime Caesar, Vosque <corr sic="Reverentissimi" resp="printer" TEIform="corr">Reverendissimi</corr> et Serenissimi Principes, Amplissimis atque Praeclarissimis singuli à Deo donati estis Maiestatis, pietatis, sapientiae, virtutum, honorum atque opum, laudibus atque ornamentis, ea Caesareae V. M. Illustrissimisque Celsitudinibus V. ex animo gratulor, Deumque precor, ut Vos singulos spiritu sancto suo regat atque instruat, ut gubernationes et munia vestra, cedant ad Dei gloriam, Ecclesiae salutem, Vestrae familiae celebrationem, ac totius orbis Christiani felicitatem, Vestrarumque animarum beatitudinem aeternam.</p>
+<p TEIform="p"><reg orig="Benè" TEIform="reg">Bene</reg> et feliciter, auspice et protectore Domino nostro Iesu Christo valeant, Caesarea Mai: V. et Illustrissimae Celsitud: Vest: et munusculum hoc boni consulere, clementissimeque suscipere dignentur, quibus me, studia mea, consanguineosque meos, <reg orig="quàm" TEIform="reg">quam</reg> humillime subicio atque commendo. Die XV. Iulii, quo die obiit Rudolphus I. Rom: Imp: Anno 1291. à quo originem ducunt Archiduces Austriae, penes quos Imperii Rom: dignitas iam <reg orig="fermè" TEIform="reg">ferme</reg> 300. annos fuit, quo tempore Decem haec Una domus Imperatores produxit, quam Deus, ut plures suo tempore, suppeditet, <reg orig="porrò" TEIform="reg">porro</reg> etiam clementer fovere dignetur Amen.</p>
+<p TEIform="p">Caesareae Maiestati V. et Celsitudinibus V.</p>
+<p TEIform="p">Addictiss: atque humillimus cliens.</p>
+<p TEIform="p"><hi TEIform="hi">Pantaleon Candidus Austriacus.</hi></p>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s010" TEIform="pb"/>
+<head>Henricus Fabricius D. in Gotiberiden.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CEdite distinctis confecta tapetia filis</l>
+<l TEIform="l" part="N">Quae perimit longo certa senecta die,</l>
+<l TEIform="l" part="N">Vivaci praestant contexta tapetia versu</l>
+<l TEIform="l" part="N">Nulla vetustatis quae nocumenta ferunt,</l>
+<l TEIform="l" part="N">Illa tacent piscis de more: haec altera nobis</l>
+<l TEIform="l" part="N">Edita cuiusdam verba loquentis habent.</l>
+<l TEIform="l" part="N">Vellera carminibus cerdo praeponat avarus,</l>
+<l TEIform="l" part="N">Praeponant Reges Carmina velleribus.</l>
+</lg>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<head>David <corr sic="Cythraeus" resp="editor" TEIform="corr">Chytraeus</corr>.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><foreign lang="GR" TEIform="foreign">*p*antale/wm *mou/s1as2 pollw=| ple/om e)i/per *omeiros</foreign></l>
+<l TEIform="l" part="N"><foreign lang="GR" TEIform="foreign">*aqana/toio qeou= dei=cem u(peireti/dias2.</foreign></l>
+<l TEIform="l" part="N"><foreign lang="GR" TEIform="foreign">*hma=llom, to/ye pau= *mou=s1w=m a)po le/cen *omeiros,</foreign></l>
+<l TEIform="l" part="N"><foreign lang="GR" TEIform="foreign">**gantale/on t) e)/pnei pneu=m) a)ra qeio/terom.</foreign></l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>Hoc est:</head>
+<l TEIform="l" part="N">PAntaleon Musas multo magis ac vel Homerus</l>
+<l TEIform="l" part="N">Supremi famulas indicat esse Dei.</l>
+<l TEIform="l" part="N">Quicquid enim scripsit, Musarum ope scripsit Homerus,</l>
+<l TEIform="l" part="N">Sanctius at Numen Pantaleonta regit.</l>
+</lg>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Ioan. Sturz I. V. Doctor. etc.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">QUale tibi est nomen, tale est tibi CANDIDE carmen,</l>
+<l TEIform="l" part="N">Nomine Candidus es, candida vena tua est,</l>
+<l TEIform="l" part="N">Candida vena tua est, sicut tibi candida mens est</l>
+<l TEIform="l" part="N">Candidus est numerus, candidus est animus,</l>
+<l TEIform="l" part="N">Quantum atris igitur praecellunt candida, quantum</l>
+<l TEIform="l" part="N">Obscenis distant casta, profana sacris.</l>
+<l TEIform="l" part="N">Tantum inter reliquos veteresque novosque <reg orig="Poëtas" TEIform="reg">Poetas</reg>,</l>
+<l TEIform="l" part="N">Tu quoque praecellis CANDIDE PANTALEON.</l>
+</lg>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Henric: Fabricius. Medic: Doctor etc.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ES cygnus pennis, cantu Luscinia corvo</l>
+<l TEIform="l" part="N">Vulpes adulatrix ait.</l>
+<l TEIform="l" part="N">Diversum loquitur color et contraria, testis</l>
+<l TEIform="l" part="N">Vox turpis <reg orig="infrà" TEIform="reg">infra</reg> et anserem.</l>
+<l TEIform="l" part="N">At te, seu vita, seu versu CANDIDE cygnum</l>
+<l TEIform="l" part="N">Cum dico, neutrum mentior,</l>
+<l TEIform="l" part="N">Namque tuos mores, nivei tua corda coloris</l>
+<l TEIform="l" part="N">Nec ipse livor arguat.</l>
+<l TEIform="l" part="N">In manibus versus, quos postera iudicet aetas,</l>
+<l TEIform="l" part="N">Corvum <reg orig="profectò" TEIform="reg">profecto</reg> non sonant.</l>
+</lg>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+	<teiHeader type="text">
+		<fileDesc TEIform="fileDesc">
+			<titleStmt TEIform="titleStmt">
+				<title TEIform="title">Praecepta vitae puerilis, cum parte paraenetici Isocratis ad Daemonicum in latinum conversa. Vitae, morumque honestatis atque decori praecepta exposita versibus. De gymnasiis dialogus.</title>
+				<title type="sub" TEIform="title">Machine-readable text</title>
+				<author n="Camerarius" TEIform="author">Camerarius, Joachim</author>
+				<editor TEIform="editor" role="editor">Camerarius, Joachim</editor>
+			</titleStmt>
+			<editionStmt TEIform="editionStmt">
+				<edition TEIform="edition">XML version, markup prototype, Dec. 1999</edition>
+				<respStmt TEIform="respStmt">
+					<name TEIform="name">Niehl, Ruediger</name>
+					<resp TEIform="resp">markup</resp>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/camer3" type="href" id="camer3" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">camer3</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">camerariuspraeceptahtml</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">camerariuspraeceptaxml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">camer3/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+			<sourceDesc default="NO" TEIform="sourceDesc">
+				<bibl default="NO" TEIform="bibl"> Basel: Hervagius, 1536.</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc TEIform="encodingDesc">
+			<editorialDecl default="NO" TEIform="editorialDecl">
+				<p TEIform="p">Regeln f_ Texterfassung 04'/2000</p>
+			</editorialDecl>
+			<refsDecl TEIform="refsDecl" doctype="TEI.2">
+				<p TEIform="p">not necessary</p>
+			</refsDecl>
+		</encodingDesc>
+		<revisionDesc TEIform="revisionDesc">
+			<change TEIform="change">
+				<date TEIform="date">05 May 2004</date>
+				<respStmt TEIform="respStmt">
+					<name TEIform="name">Ruediger Niehl</name>
+					<resp TEIform="resp">markup</resp>
+				</respStmt>
+				<item TEIform="item">worked in corrections supplied by Georg Burkard; TEI header, markup, lines added; typed text - structural tagging complete (except sp-tags at end) - no semantic tagging - manual spell check; note: abbreviations have been mostly resolved without indication!</item>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	
+<text><front>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">
+<pb id="s001" n="1" TEIform="pb"/>
+Praecepta vitae puerilis, cum parte paraenetici Isocratis ad Daemonicum in latinum conversa.
+Vitae, morumque honestatis atque decori praecepta exposita versibus.
+De gymnasiis dialogus.
+Auctore Ioachimo Camerario Pabebergensi.
+</titlePart></titlePage>
+<pb id="s002" n="2" TEIform="pb"/>
+<pb id="s003" n="3" TEIform="pb"/>
+<div type="dedication letter" org="uniform" sample="complete" TEIform="div" part="N">
+<head>CHRISTOPHORVS COLErus Ioanni Colero <abbr expan="fratri Suo carissimo" TEIform="abbr">fr. S. cariss.</abbr> S. P. D.</head>
+<p TEIform="p">
+MI frater quam graviter afflicti simus calamitosissimo casu mortis paternae, vides. Orbati enim sumus non
+solum parente, quod ipsum ad summum dolorem satis esse possit, sed eo parente qui excellens virtute
+atque sapientia nihil omitteret ad aetatem vitamque nostram educendam ad decus atque laudem. Haec
+tamen minus hac infirmitate animorum nostrorum perspicimus: sed illam suavitatem qua etiam alieni
+alliciuntur, qua nobis ille in eximio amore erga nos suo iucundissimus fuit, necesse est nos cum largissimo fletu
+et ingenti maerore requirere. In quo eo est maior tua miseria quam mea, quod ipse vidisti morientem, ego
+audivi mortuum, et tu in illius complexibus haesisti semper, a quibus ipsius cura et benignitas me dudum
+removerat. Nam mihi ad omnem nunc quoque non modo mentionem, sed cogitationem patris amissi
+lacrimae oboriuntur, qui tamen iam me assuefeceram ut abesse ab illo posse mihi viderer, cum quidem
+absente patre non carerem, sed quodam hoc ablegationis beneficio illius me frui intelligerem. Mihine enim
+hic metus in animo esset infirmo et puerili, qui neminis omnium attigit, mortis, in hac aetate, vita,
+valetudine illius? Sed mi frater beatissimi patris nostri mortem deflere omittamus et ad illius potius
+imitationem
+<pb id="s004" n="4" TEIform="pb"/>
+nos comparemus, cuius singulare habemus exemplum virtutis atque etiam doctrinae, quibus quantum
+praestiterit reliquis ut nos iudicare non possumus, ita libenter audimus uterque praedicari ab aliis, sed huc
+si voluntas etiam accesserit nostra, non solum propagandi generis nostri, in quod ab illo sumus procreati,
+sed etiam exprimendae laudis qua ipse excelluit, tum demum responderimus spei et expectationi illius, et
+mortuum quoque voluptate praecipua affecerimus. Quare mi frater hoc agamus, huc contendamus atque
+enitamur. Si non consequi possimus ut aliquando levemus desiderium civitatis nostrae, quod illi moriens
+pater sui reliquit, at hoc vincamus ne illo tali patre indigni fuisse videamur. Mihi quidem eo minus veniae
+locus, quo melius a nostro patre mihi prospectum cum ille me in optimi viri sanctissimam disciplinam tradidit
+atque commisit. Quem haud scio an non afflixerit nuntium hoc vehementius quam me ipsum, quo magis et
+bona patris nostri ipsi nota fuere atque intellecta. Ut autem perspicere posses qualia nobis ab illo
+proponerentur, et huiusmodi istic quoque imbui praeceptis, visum est ad te cum hac ipsa non tam tui quam
+mei cohortaciuncula mittere quaedam nostri magistri dictata, quae mihi, sive quod aetati huic maxime
+conveniunt, seu quia sunt paulo diligentius elaborata quam ulla quae in hoc genere cognovi, permagni
+facio: meoque iudicio tibi misi non vile neque contemnendum munus, quod tu mi frater ita amplecteris, ut
+et explicare
+<pb id="s005" n="5" TEIform="pb"/>
+moribus et me diligere, et operam dare velis ut nostram matrem nunc quidem, ut par est, tristissimam feminam
+morigeratione et officiis omnibus oblectes. Hoc nos facere maxime vult pater noster. Istud etiam scriptum
+cum fratre nostro Paulo communicabis, quem non modo talia nunc legere, sed etiam intelligere par est,
+nihil esse virtute pulcrius, nihil honestate amabilius, nihil decore speciosius neque praeclarius.</p>
+<p TEIform="p">Vale.
+Tubingae e Suevis XV. Calend. Iunii.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+</TEI.2>

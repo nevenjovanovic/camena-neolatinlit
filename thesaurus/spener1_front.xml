@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Historia Insignium Illustrium Seu Operis Heraldici Pars Generalis.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Spener" TEIform="author">Spener, Philipp Jakob</author>
+<editor TEIform="editor" role="editor">Spener, Philipp Jakob</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camenaref/spener/</note>
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">spener1</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">spener1.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">as001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">spener1.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">spener1/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Frankfurt [Main]: Johann Adam Jung, 1717.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">2 May 2006</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Reinhard Gruhl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">text typed - structural tagging completed - no semantic tagging - no spell check</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+
+
+
+
+<text><gap id="sampling"/><gap id="GE"/><gap id="GR"/><front>
+<titlePage TEIform="titlePage">
+<titlePart type="main" TEIform="titlePart">
+<pb id="as001" TEIform="pb"/>
+INSIGNIUM,
+THEORIA.
+<hi rend="italic" TEIform="hi">SEU</hi>
+OPERIS
+HERALDICI
+PARS
+GENERALIS.
+<pb id="as003" TEIform="pb"/>
+INSIGNIUM THEORIA <hi rend="italic" TEIform="hi">SEU</hi> OPERIS HERALDICI PARS GENERALIS, QUAE CIRCA INSIGNIA, HORUM ORIGINEM, SCUTA EORUMQUE PARTITIONES, METALLA, COLORES, FIGURAS, GALEAS, APICES, ALIASQUE SCUTORUM APPENDICES ET CONSECTARIA STUDIOSO HISTORIARUM ET VITAE CIVILIS NOSSE PROFICUUM VISUM EST, ex disciplina fecialium et moribus receptis exhibens <hi rend="italic" TEIform="hi">AUCTORE</hi> PHILIPPO IACOBO SPENERO D. <hi rend="italic" TEIform="hi">EDITIO SECUNDA</hi>.
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+<figure TEIform="figure"><head>SENECAT UT VIVAT [:] EX CINERE IUVENESCENS</head>
+<figDesc TEIform="figDesc">Phoenix, in the backround a town behind a river (Frankfurt?)</figDesc>
+</figure>
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+<hi rend="italic" TEIform="hi">FRANCOFURTI AD MOENUM</hi>, Ex OFFICINA ZUNNERIANA, APUD IOHANNEM ADAMUM IUNGIUM.
+<hi rend="italic" TEIform="hi">GIESSAE</hi>, Typis IOHANNIS MULLERI, <hi rend="italic" TEIform="hi">Anno MDCC XVII</hi>.
+</titlePart>
+</titlePage>
+<pb id="as005" TEIform="pb"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<p TEIform="p">
+<hi rend="italic" TEIform="hi">ILLUSTRISSIMO</hi> COMITI et DOMINO, DOMINO PHILIPPO REINHARDO, COMITI HANOVIAE, REINECCIAE et BIPONTI, DOMINO MUNZENBERGAE, LIECHTENBERGAE et OCHSENSTEINII, MARESCALLO HEREDITARIO et PRAEFECTO SUPREMO ARGENTINENSI, etc. <hi rend="italic" TEIform="hi">DOMINO MEO PERCLEMENTI</hi>, <reg orig="à" TEIform="reg">a</reg> PATRE COELESTI IN IESU CHRISTO FILIO ipsius unico veram perpetuamque felicitatem ex animo precor.</p>
+</div>
+<pb id="as006" TEIform="pb"/>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<head>ILLUSTRISSIME COMES, DOMINE PERCLEMENS.</head>
+<p TEIform="p">Fetum hic offero superioribus annis, cum alia studia tractare iussus essem, conceptum, nunc <reg orig="verò" TEIform="reg">vero</reg> demum (nescio absens qua obstetricis dexteritate atque <reg orig="adeò" TEIform="reg">adeo</reg> quam feliciter) editum. Argumentum est de insignium theoria, in quibus nobilitatis et illustrium stirpium ab aliquam multis saeculis decora non ultima quaesita et agnita sunt: unde ut aulam liber peteret, convenire visum est, et quidem in Rhenano tractu, cui quicquid est debet, antequam illum relinquerem, dudum exitum molitus. Nec <reg orig="verò" TEIform="reg">vero</reg> quam aulam peterem diu ambigendum fuit, cum vestra Francofurto meae proxima, Illustrissima autem Hanoica gens ea sit, cui, nec non illis, quibus cum arcta affinitate copulata est, me meosque ad singularem cultum <reg orig="à" TEIform="reg">a</reg> pluribus annis divina Pronaea obstrinxit. Puellus adhuc, prout aetas illa fert, beneficam in me et gratiosam expertus sum Illustrissimam quondam Dn. <hi rend="italic" TEIform="hi">Dorotheam Dianam</hi> Rhingraviam eo tempore Illustrissimi Dn. <hi rend="italic" TEIform="hi">Philippi Ludovici</hi> C. Rappolsteinii (qui me ex Baptismo susceperat, et Parentem meum, quo ductore iunior usus fuerat, singulari complectebatur affectu) coniugem, mox viduam, quae deinceps Illustrissimo
+<pb id="as007" TEIform="pb"/>
+Comiti Hanoico Dn. <hi rend="italic" TEIform="hi">Philippo Wolfgango</hi>, avo Vestro, altera vice nupta est. Annis proficiens ex Illustrium ordine Evergetis nullis mei studiosioribus fruitus sum, quam Illustrissimis coniugibus, Comitibus <hi rend="italic" TEIform="hi">Rappolsteiniis</hi>, Dn. <hi rend="italic" TEIform="hi">Iohanne Iacobo</hi> et Dn. <hi rend="italic" TEIform="hi">Anna Claudia</hi> Rhingravia, Vestris prosocero et <sic TEIform="sic">prosocru</sic>; eorum enim de studiorum meorum promotione, et quae alia meae felicitati inservirent, curae atque beneficia non desierunt, dum in his terris agerent. Quod <hi rend="italic" TEIform="hi">Palatinam</hi> Serenissimam Domum attinet, ex qua caelestis Providentia et matrem dedit, et ex qua Hanovica gens propagetur coniugem dignissimam, Serenissimi Fratres Dn. <hi rend="italic" TEIform="hi">Christianus</hi> (socer iuxta et avunculus gratissimus) et Dn. <hi rend="italic" TEIform="hi">Iohannes Carolus</hi>, postquam ab anno 1654. studiis ipsorum admotus fuissem, non cessarunt gratiae suae in me plura documenta edere: quae occasio etiam fuit, Parenti gratiosae Dn. <hi rend="italic" TEIform="hi">Annae Magdalenae</hi>, ipsorum sorori, primum innotescendi, quae sui quoque clementissimi affectus me meosque certos non una vice vel ratione fecit. Quod <reg orig="verò" TEIform="reg">vero</reg>, qui me propius attingunt, attinet, materterae meae maritus L. <hi rend="italic" TEIform="hi">Iohannes Ernestus Varnbulerus</hi> Consiliarii et demum Cancellarii dignitate ab Illustrissima Domo Vestra ornatus, et qui studiorum moderator atque itinerum comes fuerat, nunc <reg orig="verò" TEIform="reg">vero</reg> Regiminis consiliis admotus, L. <hi rend="italic" TEIform="hi">Georgius Wilhelmus Spenerus</hi> germanus meus, <reg orig="à" TEIform="reg">a</reg> tempore bene multo Hanovicae stirpi sua post Deum praecipua debent, et gratia perpetua gavisi sunt: ut iam de aliis fratribus duobus, quorum alter Ecclesiam in superiori Comitatu tamdiu pavit, donec tyrannide Papaea grege
+<pb id="as008" TEIform="pb"/>
+prostrato pastor pelleretur, et alibi Deo Duce ad ministerium vocaretur, alter nunc quoque Vestris servitiis vitam tolerat, nec non sororis generis, qui in ecclesiastico et politico muneribus inserviunt, plura non addam.</p>
+<p TEIform="p">Tot ergo vinculis Illustrissimae Hanoviae devinctum decebat, ut occasionem quaererem, qua profiterer, quantum illi proprio meorumque nomine deberem, gratiasque pro omnibus agens publicas, nostros ulteriori gratiae <reg orig="obsequiosè" TEIform="reg">obsequiose</reg> commendarem: huic autem fini vix alia occasio commodior visa fuit, quam ut Illustrissimum nomen Vestrum praefigens libro hanc alloqui occasionem captarem: confisus qualecumque hoc munus non contemptum iri.</p>
+<p TEIform="p">In Voto subsisto, dum quod quottidie factitare soleo, DEUM OPTIMUM MAXIMUM, omnis dignitatis et celsitudinis auctorem et Principem, <reg orig="piè" TEIform="reg">pie</reg> veneror, qui vetustam arborem Hanoicam, tot frondibus, floribus et fructibus <reg orig="à" TEIform="reg">a</reg> pluribus saeculis ornatissimam ad saeculi usque finem virentem vigentemque conservare, novisque subinde ramis augere <reg orig="gratiosè" TEIform="reg">gratiose</reg> velit. Idem Te, Illustrissime Comes, cum Serenissima Coniuge Dn. <hi rend="italic" TEIform="hi">Magdalena Claudia</hi> Palatina, nec non Serenissima Parente et Illustrissimis sororibus omni benedictionis suae genere <reg orig="abundantissimè" TEIform="reg">abundantissime</reg> beet, ut quottidie mentes nova gratia, novo lumine, nova virtute caelitus perfundantur, novi hominis beato incremento; corporis <reg orig="verò" TEIform="reg">vero</reg> vires, ne annis paulatim frangantur, pariter subinde novo robore confirmentur. Inprimis <reg orig="verò" TEIform="reg">vero</reg> benedicat tum toro Vestro, ut ad paucos redacta stirps novos laetissimos surculos progerminare videat, tum regimini, ut universa provincia, et
+<pb id="as009" TEIform="pb"/>
+amplissimae ditiones, eius prudentia atque nova felicitate ex iis, quae hactenus perpeti necesse habuere, et temporum calamitatem nimium sensere, spiritum recipiant, novoque flore spes et desideria plurium annorum impleant, Ecclesia Divino Numini in veritate et pietate serviente, politia iuxta leges et publici boni regulam <reg orig="iustè" TEIform="reg">iuste</reg> et sapienter administrata, incolis <reg orig="verò" TEIform="reg">vero</reg> omnibus vitam tranquillam et prosperam ducentibus, ac beneficia caelestia quottidie praedicantibus. Hoc <reg orig="verò" TEIform="reg">vero</reg> ut fiat, Moenanam et Rhenanam oras, hactenus hostilibus invasionibus nimium devastatas aut afflictas, pulso victoriis longius et in antiquos terminos pace felici redacto hoste, securitati, huiusque beneficio pristino decori restituat, ut <hi rend="italic" TEIform="hi">Philippo Reinhardo</hi> Comite universam ditionem Hanoicam et vicinas refloruisse ac constantis felicitatis initium cepisse, sera et grata glorietur posteritas. Ita velit, ita iubeat, ita faxit Benignissimus in caelis Pater, cuius voluntas benigna, iussus potentissimus, facta omnia divina adeoque optima sunt! Dresdae 31. Martii 1690.</p>
+<p TEIform="p">ILLUSTRISS. V. EXCELL.</p>
+<p TEIform="p"><hi rend="italic" TEIform="hi">ad preces et obsequia humillima</hi></p>
+<p TEIform="p"><hi rend="italic" TEIform="hi">obstrictissimus</hi></p>
+<p TEIform="p">PHILIPPUS IACOBUS SPENERUS, D.</p>
+</div>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as010" TEIform="pb"/>
+<head>BENEVOLO LECTORI <hi rend="italic" TEIform="hi">S. D</hi>.</head>
+<p TEIform="p">IUstum effluxit decennium, ex quo Pars specialis Operis Heraldici seu priores illius tres libri sub nomine <hi rend="italic" TEIform="hi">Historiae insignium illustrium</hi> publicae luci expositi sunt. Eodem vero tempore vel multo prius hoc quoque Opus integrum elaboratum, consiliumque fuerat, simul utrumque typis mandare. Unde hinc inde legas in Historia insignium hanc partem generalem iam allegari, nec non in his istam historiam, tamquam secuturam, sicuti etiam plagulae vicenis plures iam tunc excusae, tabulae autem tres si excipias omnes isto tempore sculptae sunt. Verum quod nundinae appropinquarent, nec spes esset utrumque Opus eo spatio temporis excudere, inprimis etiam quia occasionem exspectabam, quae otium subministraret, quaedam in cap. 5. adhuc supplendi, mutatum propositum, et historia insignium prior in publico comparere iussa est, Theoria adhuc nonnihil dilata. Uti vero solet mora alia aliam post se trahere, ita cum singulis <reg orig="penè" TEIform="reg">pene</reg> annis editio iterum procuranda destinaretur, numquam tamen defuere quae consilium remorarentur obstacula. Demum cum 1686. Divinitus huc Francofurto evocarer, facile praevidebam, non modo haud amplius otium mihi hic concessum iri, talibus alienis tractandis, quod prior vita permisisset, sed plane de nullo amplius cogitandum esse, unde Domino Zunnero Editori chartas meas abiturus reliqui, quasquam posset commodissime, mea nulla amplius cura interveniente, publicaret. Lapsi tamen sunt anni unus alterve, dum mea manu scripta describerentur et Typothetarum usibus aptarentur, donec demum illa facie prodiret, quae nunc Lectoris oculis obicitur. Si vero ipsam originem huius instituti et Operis quis scire desideret, illa est. Genealogicis studiis <reg orig="à" TEIform="reg">a</reg> pueritia <reg orig="penè" TEIform="reg">pene</reg> innutritus, dum Academiam Argentoratensem incolerem, illa diligentius etiam cum historia eo spectante excolui, aliisque tradere coepi, de insignibus tamen, nisi ut
+<pb id="as011" TEIform="pb"/>
+illorum nossem typos, parum sollicitus. Ubi vero Genevam veneram, occasio fuit Celeberrimo in his studiis <hi rend="italic" TEIform="hi">Claudio Francisco Menestrierio</hi> innotescendi, qui literis initio Lugduno missis, quod me aliquam Genealogiarum Germanicarum cognitionem habere intellexisset, commercium mecum instituere coepit: cum vero Lugduni essem, non solum in aliis benevolentiam testatus est suam, sed etiam cognito, quae Heraldica spectarent, Germanis nostris tantum non plane ignota esse, ultro me est cohortatus, ut facem civibus meis praeferrem, ad hanc etiam historiae partem lustrandam, libertatem mihi concedens, si ita videretur, sua etiam pro meis Germaniae exponendi. Tum primum coepi argumentum hoc excolere, et ab ipso mihi donatos libellos auctoris, nec non alios eiusdem generis evolvere: mox vero vidi, qui historiae nostrae notitia praeditus esset, et ex illis quae aliae gentes circa hanc materiam prodidissent aliqua proficua discere posse, et lucem vicissim affundere iis, quae traderent exteri, saepe in tenebris palpantes. Itaque uti docendo facilius discimus, Argentoratum reversus initium feci aliis insignium artem tradendi, adeoque ea quae <reg orig="à" TEIform="reg">a</reg> Gallis mutuo sumferam nostris moribus accommodandi, et in aliquam methodum redigendi. Tunc primum fetus hic conceptus, sed paulatim magis magisque formatus, antequam sacris functionibus totus immergerer, hanc speciem, qua nunc prodit, induit. Ubi vero ad alia Deus me vocavit, subinde tamen spes supererat, nonnumquam quadrantem horae supplendis iis, quae congesta erant, <reg orig="à" TEIform="reg">a</reg> seriis occupationibus abstrahi posse, quae <reg orig="verò" TEIform="reg">vero</reg> tantum non semper me destituit, ita ut <reg orig="à" TEIform="reg">a</reg> vicennio pene augmenti parum istis accesserit, et quod supra dixi Francofurto discedens chartas editori relinquere consultum crediderim. Factum etiam hinc est, ut inprimis in Cap. 5. figuras scutis inscribi solitas complectente hinc inde lacunae occurrant, figurarum nominibus adscriptis, ad quae exempla insignium conquirenda erant, quae tamen conquirere non vacavit, ut adeo lectoris industriae relicta illa sint. Sed et multa alia cultum longe exquisitiorem requisivissent, si curiositati Lectorum satisfieri debuisset, in quod tamen ut bonas horas impenderem, aliis iam districtus <reg orig="à" TEIform="reg">a</reg> me impetrare amplius non potui. Ceterum inveniet hic Lector, quod ex modo dictis etiam mox colligit, non tam mei ingenii aliquod opus, quam ab aliis fere, inprimis exteris ante me prodita, <reg orig="à" TEIform="reg">a</reg> me autem non nisi congesta, et exemplis partim (et quidem potissimum) ex armorali libro communi desumptis, partim ex varia communicatione suppletis, partim ex aliis etiam auctoribus excerptis probata, quorum ob hoc fidem non semper in me recipio.</p>
+<p TEIform="p">Usus omnis totius tractationis ille est, ut non solum insignia nosse discat Lector, quae quisque sibi cognitu utilia credit, verum etiam ut quae feciales circa rem hanc literas prodidere, et quas rationes allegent,
+<pb id="as012" TEIform="pb"/>
+tum quid usus communis introduxerit, hic inveniat, quod aliquod historiae subsidium et vitae civilis ornamentum esse posse, non diffido.</p>
+<p TEIform="p">Vale Lector benevole, et si in omni isto insignium negotio multum vanitatis et <foreign lang="GR" TEIform="foreign">pollh\n fantas1i/an</foreign> inveneris, quam cognoscere aliquando prodest, sed eam magnifacere non decet, qui meus etiam de ea sensus est, in gemisce saeculo, et in id inprimis operam da, ut insigne CHRISTI crux, non tam scuto vestive Tuae quam animae impressa fulgeat, et tum vel regiis insignibus ornatiorem Te incedere ne dubita. Dresdae 20. Martii 1690.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">SYLLABUS</hi> PRAECIPUORUM AUCTORUM, Quorum operibus de hoc argumento expresse editis usus sum, et qui hic saepius allegantur.</head>
+<p TEIform="p">Theod. <hi rend="italic" TEIform="hi">Hapingii</hi> de iure insignium.</p>
+<p TEIform="p">Ioh. <hi rend="italic" TEIform="hi">Sibmacheri</hi>, <foreign lang="GE" TEIform="foreign">Wapenbuch,</foreign> s. liber Armorialis, <reg orig="à" TEIform="reg">a</reg> P. <hi rend="italic" TEIform="hi">Furstio</hi> continuatus, ut nunc eius sint V. partes.</p>
+<p TEIform="p">Silvestri <hi rend="italic" TEIform="hi">Petrasancta</hi> Iesuit. Tesserae gentilitiae.</p>
+<p TEIform="p">Nicolai <hi rend="italic" TEIform="hi">Uptoni</hi> de studio militari.</p>
+<p TEIform="p">Ioh. de <hi rend="italic" TEIform="hi">Bado Aureo</hi> tr. de armis.</p>
+<p TEIform="p">Henrici <hi rend="italic" TEIform="hi">Spelmanni</hi> aspilogia.</p>
+<p TEIform="p">Hos tres edidit et notis illustravit Ed. <hi rend="italic" TEIform="hi">Bissaeus</hi>.</p>
+<p TEIform="p">Claud. Franc. <hi rend="italic" TEIform="hi">Menestrierii</hi> Ies. le veritable art du blason.</p>
+<p TEIform="p">Eiusd. <reg orig="abregé" TEIform="reg">abrege</reg> methodique des principes Heraldiques.</p>
+<p TEIform="p">Eiusd. l' art du blason <reg orig="iustifié" TEIform="reg">iustifie</reg>.</p>
+<p TEIform="p">Auctoris maius Opus <hi rend="italic" TEIform="hi">Science du Blason</hi> non vidi, sed tantum eius Sciagraphiam, quae 4. foliis 1659. prodiit.</p>
+<p TEIform="p">Ioh. <hi rend="italic" TEIform="hi">Le Laboureur</hi> origines des armes.</p>
+<p TEIform="p">Marc. Vulson de <hi rend="italic" TEIform="hi">la Colombiere</hi> science Heroique.</p>
+<p TEIform="p">Petr. <hi rend="italic" TEIform="hi">du Val</hi>. observ. sur le blason.</p>
+<p TEIform="p">Marc. Gilbert <hi rend="italic" TEIform="hi">de Varennes</hi> Roy d' Armes.</p>
+<p TEIform="p">Philib. <hi rend="italic" TEIform="hi">Campanille</hi> dell' armi.</p>
+<p TEIform="p">Phil. <hi rend="italic" TEIform="hi">Monet</hi> pratique des armes.</p>
+<p TEIform="p">Lud. <hi rend="italic" TEIform="hi">Segoing</hi> de l' antiq. des armes: et thresor heraldique.</p>
+<p TEIform="p">Lud. <hi rend="italic" TEIform="hi">Geliot</hi> indice armorial. inde edit. à</p>
+<p TEIform="p">Pailloto, sub titulo P. <hi rend="italic" TEIform="hi">Paillot</hi> la uraye et parfaite science des armoiries.</p>
+<p TEIform="p">Ioh. Iac. <hi rend="italic" TEIform="hi">Chifflet</hi> insignia eq. A. V.</p>
+<p TEIform="p">Oronce <reg orig="Finé" TEIform="reg">Fine</reg> de <hi rend="italic" TEIform="hi">Brianville</hi> ieu d' armoiries.</p>
+<p TEIform="p">Seb. <hi rend="italic" TEIform="hi">Feschii</hi> de insignibus.</p>
+<p TEIform="p">
+<hi rend="italic" TEIform="hi">Bartoli</hi> de armis et insigniis.</p>
+<p TEIform="p">Sunt vero longe plures, quorum Operibus usus sum, sed partim non succurrunt memoriae ista scribentis, partim non ex professo id solum argumentum tractarunt.</p>
+</div>
+<pb id="as013" TEIform="pb"/>
+<div type="content" org="uniform" sample="complete" TEIform="div" part="N">
+<head>INDEX et ARGUMENTUM TABULARUM.</head>
+<p TEIform="p">1. EXhibet imagines et habitus fecialium, tum tesseras Veteribus usitatas, nec non insignia, quae XII. tribubus <reg orig="Israëliticis" TEIform="reg">Israeliticis</reg> tribui solent. Ad C. I. et II.</p>
+<p TEIform="p">2. Repraesentat scutorum varias figuras, veteribus et nostris usitatas, nec non varias scutorum partitiones, in plures regiones. Ad C. III.</p>
+<p TEIform="p">3. Oculis exponuntur modi scutorum iungendorum per iuxtapositionem, colligationem, conglutinationem, insitionem. Tum modi, quibus coniuges illustres sua et maritorum symbola iungere solent. Ubi exempla comparent Potentissimae Svecicae Reginae Ulricae Eleonorae, Sereniss. Eiectricis Saxonicae Annae Sophiae, Illustrissimarum Comitum Erpachiarum Amaliae Catharinae, et Annae Dorotheae Christinae, quarum prima regia Svecica et Danica in scuto bipertito defert, secunda Danica paterna Saxonicis imponit, tertia Waldecciis avitis mariti clypeum circumdat, quarta coniugis Parmae suam Hohenloicam iungit. Haec ad C. III. Adduntur etiam colorum et pellium notae, Ad C. IV.</p>
+<p TEIform="p">4. Exhibentur ex figuris honorabilibus primi ordinis caput scutarium, fascia, baltheus, palus. Ad C. V. sect. 1. membr. 1.</p>
+<p TEIform="p">5. Comparent pali, balthei sinistri, cantherii, cruces. Adhuc ad C. V. sect. 1. membr. 1.</p>
+<p TEIform="p">6. Visuntur aliquae adhuc cruces, decussis, limbus, peribolus, capiti agglutinatae figurae, litera Pythagorica, quadrans honorarius, conus, scutulum, et aliquae figurae honorabiles secundi ordinis: inprimis diminutiones figurarum primi ordinis. C. V. sect. 1. membr. 1. et 2.</p>
+<p TEIform="p">7. Spectantur secundi ordinis figurae honorabiles, tessellae, rhombi, cunei, clathri, cuspides. Ad C. V. sect. 1. membr. 2.</p>
+<p TEIform="p">8. Sequuntur reliquae figurae honorabiles secundi ordinis: cuspides, circuli, orbes, numi Byzantini, plinthides. Ad C. V. sect. 1. membr. 2.</p>
+<p TEIform="p">9. Oculis obiciuntur figurae humanae (quo et angelicae, nec non sirenes) homines integri, hermae, membra, capita, oculi, brachia, manus, crura, pedes, corda, cadaver, calvaria, ossa. Ad C. V. sect. 2.</p>
+<p TEIform="p">10. Continet figuras avium et volatilium, inprimis aquilarum, phoenicis, pelicani, struthionis, psittaci, galli, gallinae, anseris, anatis. Ad C. V. sect. 3. membr. 1.</p>
+<p TEIform="p">11. Ex avibus in hanc relatae, cycnus, ardea, ciconia, grus, accipiter, falco, vultur, corvus, cornix, pica, noctua, columba, palumbes, pavo, perdix, alauda, hirundo, upupa, fringilla, picus, sturnus, carduelis, pelicanus, halcyon, merula, apodes, apes, musca, vespa, papilio, cicada, grillus, scarabaeus, aranea, alae, capita, crura et pedes, ova. Ad C. V. sect. 3. membr. 1.</p>
+<p TEIform="p">12. Repraesentantur figurae quadrupedum, leonis, leopardi, pantherae, tygridis, gryphi, Monocerotis. Ad C. V. sect. 3. membr. 2.</p>
+<p TEIform="p">13. Enumerantur aliae quadrupedes, elephas, ursus, lupus, lynx, vulpes, aper, hystrix, erinaceus, cervus, capreolus, aloe, lepus, sciurus, mustela, martes, taxus, mus. Ad C. V. sect. 3. membr. 2.</p>
+<p TEIform="p">14. Reliquae quadrupedes recensentur, castor, simia, cercopithecus, equus, asinus, mulus, camelus, bos, aries, hircus, capricornus, capra, dama, canis, felis. Ad C. V. sect. 3. membr. 2.</p>
+<p TEIform="p">15. Producuntur figurae natatilium et reptilium: Ad illa referuntur varii pisces, delphini, balaenae, sturiones, salmones, lucii, barbati mulli, truttae, carpiones,
+<pb id="as014" TEIform="pb"/>
+tincae, percae, capitones, haleces, aselli, anguillae, pisces volantes, cancri; ad haec dracones, sphynges, hydrae, amphisbaenae, boae, serpentes, ranae, testudines, cochleae, lacertae, salamandra, formicae. Ad C. V. sect. 3. membr. 3. et 4.</p>
+<p TEIform="p">16. Ostendantur arbores, frutices, herbae: palma, abies, pinus, quercus, rubus, fagus, olea, nux, chamae cerasus, morus, pyrus, malus, tilia, betula, salix, populus, vitis, ficus, silva, trunci, folia, rosa, lilium, piper, urtica, carduus, spina, trifolium, nymphaea, papaver, brassica, rapum, allium, pisum, mergos, typha. Ad C. V. sect. 4. membr. 1. et 2.</p>
+<p TEIform="p">17. Hanc occupant figurae fructuum et florum: unde visuntur malum punicum, pomum, pyrum, pomum cydonium, cerasa, mora, uvae, nux, nux pinea, glandes, pepones, fraga, lilia, sceptra liliata, pentaphylli, rosa, tetraphylli, caryophylli, tulipa, sertum. Ad C. V. sect. 4. membr. 3. et 4.</p>
+<p TEIform="p">18. Figurae corporum caelestium, meteororum, elementorum. Ubi Sol, Luna, stellae, cometa, iris, nubes, fulgur, fulmen, ventus, ignis, titiones, flumen, puteus, concha, montes. Ad C. V. sect. 5. membr. 1. et 2.</p>
+<p TEIform="p">19. Adferuntur utensilia et alia instrumenta, calices, vitra, canthari, lagenae, patinae, cochlearia, cultri, mensae, sedilia, ollae, ahena, lecythi, chalybs igniarius, sacci, claves, candelabra, lampades, clepsydrae, specula, sceptra, scipiones, pali, forfices, acus, forcipes, fusi, circini, normae, serae, pennae scriptoriae, pecten, clavi, terebrae, hami, unci. Ad C. V. sect. 6. membr. 1.</p>
+<p TEIform="p">20. Adduntur reliqua utensilia et instrumenta; vexilla Ecclesiastica, campanae, calix sacer, tintinnabula, tudites, mallei, secures et dolabrae, serra, falx, aratrum, vomer, ligo, pertica, furca, tridens, rastrum, currus, traha, rotae variae, lapis molaris, ferrum molendinare, scalae. Ad C. V. sect. 6. membr. 1.</p>
+<p TEIform="p">21. Post instrumenta residua, quae sunt catenae, lora, frenum, ephippium, soleae equinae, cornua venatoria, chelys, latrunculorum rocca, taxilli, coni, numi, panes, pulvinar, referuntur figurae vestiariae, in quibus pilei, caputium, coronae, manicae, chirothecae, annuli, zonae, fibulae, calcei, soleae, ocreae, calcaria, molulae, funiculi, interula, et figurae armorum militarium, in quibus gladii, acinaces, lanceae, hastae, bipennes, secures, clavae. Ad C. V. sect. 6. membr. 1. 2. et 3.</p>
+<p TEIform="p">22. Militaris apparatus reliquus clavae, sagittae, murices, arcus, sclopeta, mortaria, arietes, chirothecae, scuta, galeae, vexilla: Tum aedificia, muri, domus, tuguria, templa, turres, castella, columnae, pyramides, portae, fenestrae, catarractae, pontes, sepes, tentoria, naves, anchorae, remi, harpagines, vela: Demum literae, voces, characteres. Ad C. V. sect. 6. membr. 3. 4. et 5.</p>
+<p TEIform="p">23. Repraesentantur galeae omnis generis, coronae, laciniae, pallia, torques equestres. Cap. VI. et VII.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

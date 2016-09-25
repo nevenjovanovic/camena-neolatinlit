@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Satyrarum libri quinque priores.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Naogeorg" TEIform="author">Naogeorg, Thomas</author>
+<editor TEIform="editor" role="editor">Naogeorg, Thomas</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/naogeorg7" type="href" id="naogeorg7" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">naogeorg7</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">naogeorgussatyrae.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">naogeorgussatyrae.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">naogeorg7/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Basel: Oporinus, 1555.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">10 March 2006</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Reinhard Gruhl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">typed text (the margin notes p. 230 seqq. only partially) - structural tagging completed - no semantic tagging - no spell check except the dedication</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">6 April 2006</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Reinhard Gruhl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">some corrections inserted</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+<text><gap id="sampling"/><front>
+<titlePage TEIform="titlePage">
+<pb id="s001" TEIform="pb"/>
+<titlePart type="main" TEIform="titlePart">
+Satyrarum
+LIBRI QUINQUE PRIORES:
+THOMA NAOGEORgo
+Straubingensi auctore.
+His sunt adiuncti, de Animi tranquillitate
+duo libelli: unus Plutarchi, latinus ab eodem
+factus: alter Senecae: cum Annotationib.
+in utrumque.
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+<hi TEIform="hi">PINDARUS NEM. OD. 8.</hi>
+<gap desc="Greek section" TEIform="gap"/>
+<hi TEIform="hi">HORATIUS:</hi>
+Aut prodesse volunt, aut delectare poetae:
+Aut simul et iucunda, et idonea dicere vitae.
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+BASILEAE, PER IOANnem
+Oporinum.
+</titlePart>
+</titlePage>
+<pb id="s002" TEIform="pb"/>
+<gap desc="blank space" resp="sampling" TEIform="gap"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s003" TEIform="pb"/>
+<head>ILLUSTRISS. PRINcipi et Domino, D. Georgio Fridricho, Marchioni Brandenburgensi, etc. et Burggravio Norinbergesi, Domino suo clementiss. THOMAS NAOGEORGUS salutem optat per Christum.</head>
+<p TEIform="p">ANTIQUUS mos est scriptorum fere omnium, illustris. Princeps, scripta sua vel principibus, vel summis in re pub. magistratibus nuncupare: quod intelligant, ad illorum praecipue curam pertinere, ut vera, iusta, honesta, utiliaque scribantur, doceanturque: quodque utilissima quaeque illorum, tamquam numinis alicuius nomine ac praesidio, deceat in populorum pervenire manus: quod denique illis bonas literas, honestaque studia non minus alere atque promovere conveniat, quam rem pub. quam pacem,
+<pb id="s004" n="4" TEIform="pb"/>
+quam honestatem, quamque artes bellicas, et cetera humana. Hunc et ego morem sequi volens, hosce <reg orig="Satyrarum" TEIform="reg">Saturarum</reg> libros T. dedicavi C. tam ob illas quas commemoravi causas, quam ob alias quasdam. At vereor ne quis me inepte ac absurde fecisse dicat, quod Satyras T. C. nuncuparim: cum hoc scripti genus apud Germanos hactenus (quod sciam) <reg orig="intentatum" TEIform="reg">intemptatum</reg> inusitatumque sit, atque vulgo male audiat, tamquam maledicum, petulansque partier et obscenum: Porro consilii mei rationem brevibus reddam. Fuerunt sane qui ante me scripserunt, quorumque Satyrae leguntur, Horatius, Persius, luvenalis, Franciscus Philelphus, nonnumquam in suis illis Satyris ab obscenitate petulantiaque non alieni: atque nominatim in quosdam invecti sunt nimis acerbe, non veritatis honestatisque (ut videtur) sed traducendorum illorum hominum studio. Et si meae Satyrae illiusmodi essent, iure reveritus essem eos T. C. nomini dedicare. Quia vero a D. Paulo admonemur,
+<pb id="s005" n="5" TEIform="pb"/>
+non solum a turpibus factis, verum etiam a spurcis obscenisque cavere sermonibus: ab illorum ego mihi libertate temperandum duxi, dedique operam, ut ne Satyri mei, unde Satyrae nomen deductum volunt, tam petulantes, tam lascivi, tamque cornuti essent, quam illorum fuere. Deinde si quid taxavi, id aut feci in genere, aut nomina propria ponere omisi, ut iure de me queri possit nemo. Generalis enim de vitiis disputatio, malorumque reprehensio, ad nullius, Hieronymo auctore, pertinet inuriam. Praeterea quid de eo dicam, quod hoc carmen fere maledicum censetur? Cur autem potius quam alia quovis nomine, ubi boni malique describuntur, ubi recta, vera, honesta, piaque laudantur, atque his taxantur contraria? Veram equidem pietatem, sinceramque Evangelii doctrinam laudo, veneror, atque colo, cupioque conservatam propagatamque: tum qui studium huc suum operamque conferunt, pro virili collaudo atque hortor. E regione <corr sic="," resp="transcriber" TEIform="corr"/> verae
+<pb id="s006" n="6" TEIform="pb"/>
+pietatis, atque adeo Christi Iesu hostes ac desertores, pravaeque doctrinae sectatores, defensoresque derideo, insector, improbo, atque reprehendo. Similiter mihi in utramque partem cum virtutibus vitiisque res est. Si haec facere maledici hominis est, aut maledicentia potest dici, fieri numquam poterit, quin Hieronymus, Cyprianus, Chrysostomus atque alii ecclesiastici scriptores, immo etiam omnes prophetae et apostoli, Christusque ipse maledicus existimetur. Quoties enim prophetae invehuntur in idolorum cultores, in impios sacerdotes et prophetas, in tyrannicos avarosque principum mores, in corrupta perversaque vulgi studia, vitiaque multitudinis vel privatorum? Quoties apostoli, et D. praesertim Paulus, acerbe reprehendunt pseudoapostolos, antichristos, seductores, impostores, atque etiam fidei desertores? Nonne tales appellant stultos, canes, ventres, mendaces, inimicos crucis Christi, diaboli
+<pb id="s007" n="7" TEIform="pb"/>
+denique filios et mancipia, atque aliis nominib. multis? Christus servator noster, nonne vehementer fulminat in scribas et Pharisaeos, subinde hypocritas appellans, sepulcra dealbata, caecos, ducesque caecorum: illorumque impietatem perversitatemque palam traducit, depingit, illisque exprobrat? Non est hoc maledicentia, nec conviciandi vel libido vel morbus: sed admonitio, sed correctio, zelusque pro domo regnoque Dei: quo fit, ut non vitia solum, ac impietates, sceleraque, verum ipsos etiam quodammodo homines impios sceleratosque, si sint praefracti, atque huiusmodi esse perseverent, odio prosequamur. Hinc divinus Psaltes: Odi, inquit, ecclesiam malignantium, et cum impiis non sedeo. Et: Domine qui oderunt te, odi, et super inimicos tuos tabesco. Perfecto odio odi illos, inimici facti sunt mihi. Super haec, huiusmodi sceleratis impiisque hominibus multa identidem mala (sicut et ceteri prophetae) imprecatur.
+<pb id="s008" n="8" TEIform="pb"/>
+Permultum interest inter scurram, maledicumque, qui vel derisus gratia, vel scabie maledicendi fanda atque infanda in quosvis deblaterant, quo vel stomachum laesi effundant, vel malevolentem animum aliorum recreent vituperiis: atque inter verbi Dei ministrum ac prophetam, et quemlibet honestum virum, qui vel officio, vel charitate, vel zelo motus, vitia castigat ac detestatur. Nec scurra aut maledicus melior iis esse solet, quos vituperat, quibusque vitia exprobrat, sed deterior fere et nequior: at prophetis, omnibusque honestis viris magna incumbit necessitas, ut iis quos reprehendunt, sint meliores, iustioresque. Atque hanc ipsi sibi imponunt necessitatem accusando, reprehendendo, insectandoque malos. Numquam enim audebunt committere, ut merito ipsi ob eadem scelera reprehendi possint. Turpe est enim (ut ait Cato) doctori, si culpa redarguit ipsum. Et Iuvenalis Sat. 2.</p>
+<pb id="s009" n="9" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ultra Sauromatas fugere hinc libet, et glacialem</l>
+<l TEIform="l" part="N">Oceanum, quoties aliquid de moribus audent,</l>
+<l TEIform="l" part="N">Qui Curios simulant, et Bacchanalia vivunt.</l>
+</lg>
+<p TEIform="p">Et paulo post:</p>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Loripedem rectus derideat, Aethiopem albus.</l>
+<l TEIform="l" part="N">Quis tulerit Gracchos de seditione querentes?</l>
+<l TEIform="l" part="N">Quis caelum terris non misceat, et mare caelo,</l>
+<l TEIform="l" part="N">Si fur displiceat Verri, homicida Miloni?</l>
+<l TEIform="l" part="N">Clodius accuset moechos, Catilina Cethegum?</l>
+<l TEIform="l" part="N">In tabulam <orig reg="Sullae" TEIform="orig">Syllae</orig> si dicant discipuli tres?</l>
+</lg>
+<p TEIform="p">Pignus igitur quodammodo dat vir bonus reip. Deoque in primis, se neque eiusmodi esse, neque fore, cuiusmodi illi sunt, quos verbis aut stylo insectatur. Hoc et Cicero pro M. Caelio contestatur: Neque enim, inquiens, potest, qui hominem consularem, quia ab eo rem pub. violatam diceret, in iudicium vocarit, ipse esse in re pub. civis turbulentus. Non potest, qui ambitu ne absolutum quidem patitur esse absolutum, ipse impune unquam esse largitor. Haec Tullius. Quo magis ergo quisque veritatem, iustitiam, constantiam, pudicitiam, pietatem, atque alias virtutes
+<pb id="s010" n="10" TEIform="pb"/>
+commendat, hoc verior, iustior, constantior, pudicitior, magisque pius esse cogitur. Rursus, quo magis vitia atque impietatem insectaris, hoc magis ab iis cogeris esse alienus, nisi turpitudinem absurditatemque summam velis admittere, tuique esse ipsius condemnator. Quamobrem vitia reprehendere, et quicquid pietati, veraeque religioni adversatur detestari, non est maledicentia, sed honestatis provectio, atque religionis, correctio extirpatioque vitiorum, exhortatio ad paenitentiam, praemonitio, ne perversi supplicium dignasque tandem poenas sua sibi pravitate a iusto Dei iudicio asciscant. Nec refert, utrum reprehensio verbis an stilo, oratione pedestri an equestri fiat: modo honeste ac utiliter, et non scurrili more. Quid quod vitiorum impietatumque taxatio non solum honesta est, et utilis, verum summopere etiam necessaria? Absque ea siquidem nec magistratus regere, nec
+<pb id="s011" n="11" TEIform="pb"/>
+philosophi docere, nec concionatores paenitentiam inculcare possunt. Unde Deus prophetae dicit: Clama, ne cesses: quasi tuba exalta vocem tuam, et annuntia populo meo scelera eorum, et domui Iacob peccata eorum. Adulatores, assentatores, palpones ac dissimulatores, qui suspenso gradu, summisque insistentes digitis incedunt, ne quem offendant, omnia corrumpunt, scelera probant atque confirmant, seducunt principes, magistratusque et plebem: dumque sui ventris compendia procurant, aut hominum aucupantur favorem, et semetipsos, et eos quibuscum conversantur, in impietatum sentinam vitiorumque colluviem, inque divinam denique iram praecipitant. Sic enim Dominus per Prophetam: Popule meus, inquit, qui te beatum dicunt, ipsi te decipiunt, et viam gressuum tuorum dissipant. Est hoc quidem impiorum omnium, ut corrigi et reprehendi nolint, sed omnia potius laudari cupiant sua: ut dicant videntibus (ut est apud Prophetam)
+<pb id="s012" n="12" TEIform="pb"/>
+nolite videre, et aspicientibus, nolite aspicere nobis ea quae recta sunt. Loquimini nobis placentia, videte nobis errores, auferte a me viam, declinate a me semitam, cesset a facie nostra sanctus Israel, etc. quicumque tamen ex animo Christum veritatemque amat, virtutumque est studiosus, nullo periculo poterit dimoveri, quin falsa impiaque carpat ac damnet: nulloque cuiusque favore adduci, ut impietates sceleraque silendo ac dissimulando comprobet, confirmetque. Abhinc annos fere novem, cum Spirae imperialis esset conventus, audivi illic contionatorem quendam a magnis laudari viris, hoc nomine, quod ea quae diceret, ex vero sinceroque fonte hausta essent. Interroganti mihi, unde id colligerent? responderunt: Quia neminem carpit, nihil vituperat: sed omnibus intactis et illaesis, quae vera sunt docet. Homines suaves. quasi vero doceri vera plene et cum fructu possint, nisi ex adverso falsa et
+<pb id="s013" n="13" TEIform="pb"/>
+impia condemnentur, vituperentur, pariterque ii qui falsa adamant, sectanturque. Contionator aut scriptor, qui nihil damnat, neminem reprehendit, nihilque insectatur, aliud nihil est, quam sal infatuatum, quod, iuxta Christi sententiam, foras proiectum, conculcandum est, cum nulli sit usui: tantum abest, ut ex sincero fonte hauriat. Cum enim hoc turbulentissimo saeculo, torsint impietates, tot perversae dogmata, tot in consuetudinem ducta scelera, tantus vitiorum ubique proventus, tanta denique impiorum malorumque hominum copia exsistat: qui fieri posset, ut Christum veritatemque amans, omnia dissimulet, nihil taxet ac reprehendat? Quomodo potest Evangelii doctor aut scriptor sincerus non odisse Christi adversarios: idque profiteri vel verbis, vel factis, vel scriptis? si ille sua neminem vituperans, nihilque damnans, ex sincero fonte hausit: unde hausit Christus, apostoli et prophetae? unde tot ecclesiastici scriptores,
+<pb id="s014" n="14" TEIform="pb"/>
+qui nonnumquam acerbissime quosdam taxarunt? Quin potius, ut supra dictum, qui vera oppugnari cernit, et impia doceri, tenerique, qui scelera vitiaque exundare, vitamque Evangelio adversam conspicatur, et silet, connivet, dissimulat, praeterit, nihilque attingit nisi molli articulo, et quasi aliud agens, non doctor aut scriptor est sincerus, quique e sincero fonte hauriat: sed improbus adulator, aut collusor, canis mutus, ut ait Propheta, non valens latrare, deceptor populi, ventris curator, gratiae ac favoris humani auceps et venator, cuius e manib. perditorum hominum animas Deus requisiturus est. Ut nullus magistratus laudari potest, si ad omnium scelera conniveat, neminem reprehendat, neminem puniat, sed sursum atque deorsum misceri sinat omnia patienter, donec latronum, furum, homicidarum, adulterorum, scortatorum, impostorum, aliorumque facinorosorum plenae fiant urbes, vici, rura, silvaeque: sic concionatores
+<pb id="s015" n="15" TEIform="pb"/>
+omnia dissimulantes, neque Deo neque hominibus probari possunt ac debent. Utque magistratuum gladius acutus esse debet, eoque malis formidabilis: ita etiam philosophi vel divini verbi praeconis oratio, <reg orig="hulcerosa" TEIform="reg">ulcerosa</reg> morum atque animi pugere ac mordere debet. Quia igitur clariss. Princeps, mala fidei dogmata atque superstitiones, ceteraque vitia emendandi cavendique studio reprehendere, maledicum iure dici nequit, sed est et utile ac necessarium, Christique et prophetarum apostolorumque, atque etiam aliorum sanctorum patrum exemplo comprobatum: rem non inconvenientem me facturum sum arbitratus, si hosce quinque Satyratum libellos T. C. dedicarem: idque exemplo Francisci illius Philelphi, qui Satyras suas, qualescumque sunt, Alphonso Aragonum Neapolis et Siciliae regi, viro non rerum tantum bellicarum, verum etiam literarum philosophiaeque peritissimo, dedicavit. Si tu quidem non
+<pb id="s016" n="16" TEIform="pb"/>
+esses Domini Iesu, sinceraeque religionis ac virtutum amator singularis, nec diligeres iustitiam, haberesque odio iniquitatem, tota aberrassem via, huiuscemodi tibi scriptum dedicando. Porro, cum a multis fideque dignissimis viris acceperim, quantum tibi adhuc adolescenti verae sit studium pietatis, quantus probitatis integritatisque amor, quantus amplificandae conservandaeque sanae doctrinae, atque adeo gloriae Christi fervor, quanta denique bonarum cura literarum: magna in spe sum, te nostrum hoc tenue munusculum non aspernaturum.</p>
+<p TEIform="p">Adiunxi autem his, haud scio quam commode, studio certe tibi gratificandi, duos de Animi tranquillitate libellos; unum Plutarchi, a me recens Latinum factum: alterum Senecae: existimans, cum omnibus hominibus, tum principibus maxime, animi tramquillitatem esse necessariam: neque etiam melius quicquam in hac vita potest obtineri. Non ignoro quantis,
+<pb id="s017" n="17" TEIform="pb"/>
+prae reliquis mortalibus, principes omnesque magistratus soleant molestiis obrui, ac perturbationib. utpote in summis versantes negotiis. Quare T. C. non ingratos neque inutiles fore spero hos libellos, quib. animum ab adolescentia tuum ita instituere potes, ut nullis fortunae procellis, nullis hominum iniuriis et iniquitatibus perturbetur, sed recto statu ac tranquille consistat in omnibus: quod tam T. C. quam subiecto populo, saluberrimum futurum est. Dominus Iesus T. C. incolumem perpetuo ac tranquillam conservet: cui me humiliter commendo. Dat. Stutgardiae, non Martii. 1555.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+FINIS.
+
+BASILEAE, EX OFFICINA Ioannis Oporini, Anno salutis humano: M.D.LV. Mense Iulio.
+
+
+</TEI.2>

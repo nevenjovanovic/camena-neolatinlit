@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+ <teiHeader type="text">
+ <fileDesc TEIform="fileDesc">
+ <titleStmt TEIform="titleStmt">
+<title TEIform="title">Operis Politici Editio Nova. </title> 
+<title type="sub" TEIform="title">Machine-readable text</title> 
+<author n="Besold" TEIform="author">Besold, Christoph</author> 
+<editor role="editor" TEIform="editor">Besold, Christoph</editor> 
+</titleStmt>
+ <editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition> 
+ <respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name> 
+<resp TEIform="resp">markup</resp> 
+</respStmt>
+</editionStmt>
+ <publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher> 
+ <address TEIform="address">
+ <addrLine TEIform="addrLine">
+<anchor n="http://www.uni-mannheim.de/mateo/camenahist/besold7" type="href" id="besold7" TEIform="anchor"/> 
+</addrLine>
+</address>
+</publicationStmt>
+ <notesStmt TEIform="notesStmt">
+<note type="href" place="unspecified" anchored="yes" TEIform="note">http://www.uni-mannheim.de/mateo/camenahist/</note> 
+<note type="pathname" place="unspecified" anchored="yes" TEIform="note">besold7</note> 
+<note type="filename" place="unspecified" anchored="yes" TEIform="note">besoldusopus7.html</note> 
+<note type="titleimage" place="unspecified" anchored="yes" TEIform="note">s001.html</note> 
+<note type="srcfile" place="unspecified" anchored="yes" TEIform="note">besoldusopus7.xml</note> 
+<note type="imgpath" place="unspecified" anchored="yes" TEIform="note">besold7/jpg</note> 
+<note type="imgtype" place="unspecified" anchored="yes" TEIform="note">html</note> 
+</notesStmt>
+ <sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Argentorati : Zetzner, 1626.</bibl> 
+</sourceDesc>
+</fileDesc>
+ <encodingDesc TEIform="encodingDesc">
+ <editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p> 
+</editorialDecl>
+ <refsDecl doctype="TEI.2" TEIform="refsDecl">
+<p TEIform="p">not necessary</p> 
+</refsDecl>
+</encodingDesc>
+ <revisionDesc TEIform="revisionDesc">
+ <change TEIform="change">
+<date TEIform="date">10 January 2004</date> 
+ <respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name> 
+<resp TEIform="resp">markup</resp> 
+</respStmt>
+<item TEIform="item">typed text - structural tagging complete - no semantic tagging - no spell-check</item> 
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text><gap id="GR"/><gap id="GE"/><front>
+
+
+<pb id="s001" TEIform="pb"/>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">
+CHRISTOPHORI BESOLDI, IC. DE AERARIO PUBLICO DISCURSUS: Nunc iterato editus, varieque auctus. Subnexus eidem est, IULII CAESARIS BULENgeri, Iuliodunensis; DE TRIBUTIS AC VECTIgalibus populi Romani, Liber.
+<gap desc="illustration" TEIform="gap"/>
+Prostat Francofurti, In Bibliopolio Heredum LAZARI ZETZNERI.
+ANNO M. DC. XXVI.
+</titlePart></titlePage>
+<pb id="s002" TEIform="pb"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Vere Nobili et Amplissimo Viro; DN. MARTINO CHEMNITIO, IC. EMINENTISSIMO, SERENISSIMORUM Pomeraniae Principum Consiliario Primario, Fautori, et amico suo magno: EXILIA HAECCE MEDITAMENTA, POLITICO-PHILOLOGICA;</head>
+<p TEIform="p">OBSERVANTIAE SUMMAE, IUGISQUE memoriae <reg orig="caussâ" TEIform="reg">caussa</reg>, merito inscribit, censuraeque eiusdem limatissimae lubens submittit. C. B.</p>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s003" TEIform="pb"/>
+<head>Ad Lectorem. IOHANNES MARTINUS RAUSCHER, ACAD. TUBING. PROFESSOR.</head>
+<lg met="dist" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU, cui Regales Caeli Clementia fasces,</l>
+<l rend="indent" TEIform="l" part="N">aut <reg orig="aliâ" TEIform="reg">alia</reg> Populos sub statione dedit;</l>
+<l TEIform="l" part="N">Quaeris, quo solide incedat Res publica talo,</l>
+<l rend="indent" TEIform="l" part="N">Et serves Civem, <reg orig="quâ" TEIform="reg">qua</reg> ratione tuum.</l>
+<l TEIform="l" part="N">Cum pariter Mavors, pariterque in stabit Egestas;</l>
+<l rend="indent" TEIform="l" part="N">Nec fugiet partes ille vel illa suas?</l>
+<l TEIform="l" part="N">Num Clarios ibis scit at um Oracula Delphos,</l>
+<l rend="indent" TEIform="l" part="N">Frivola qua fervent Augure verba Deo?</l>
+<l TEIform="l" part="N">An Dodonaei sonitus quaeretur aheni,</l>
+<l rend="indent" TEIform="l" part="N">Queque alias voces Pythica laurus habet?</l>
+<l TEIform="l" part="N">Nil opus: Ecce tibi medio responsa Lyceo:</l>
+<l rend="indent" TEIform="l" part="N">PUBLICA RES FISCO SOSPITE, SOSPES ERIT.</l>
+<l TEIform="l" part="N">Sospite sospes erit Fisco Res publica. Ut ille</l>
+<l rend="indent" TEIform="l" part="N">Floreat, ô vires subdite subde tuas!</l>
+<l TEIform="l" part="N">Sed faciles vires modicasque, et mole carentes,</l>
+<l rend="indent" TEIform="l" part="N">Ne subeas onericivica turbatuo.</l>
+<l TEIform="l" part="N">Ne vires Fisco et nervos dum forte ministras,</l>
+<l rend="indent" TEIform="l" part="N">Viribus omnino destit <reg orig="uâre" TEIform="reg">uare</reg> tuis.</l>
+<l TEIform="l" part="N">Namiuga detrectat nimium cogentia Tuurus,</l>
+<l rend="indent" TEIform="l" part="N">Et gravis exilem deprimit auraratem.</l>
+<l TEIform="l" part="N">Scilicet <reg orig="hîc" TEIform="reg">hic</reg> prudens finemque modumque potestas</l>
+<l rend="indent" TEIform="l" part="N">Noverit, aequali debita lege iubens.</l>
+<pb id="s004" TEIform="pb"/>
+<l TEIform="l" part="N">Unde etiam facilem iactans Res publica nummum,</l>
+<l rend="indent" TEIform="l" part="N">Non tristi rigidum voce queretur onus.</l>
+<l TEIform="l" part="N">Ambigis? Auctorum consensu teste probabit</l>
+<l rend="indent" TEIform="l" part="N">Hic liber, et dictis arguet hisce fidem.</l>
+<l TEIform="l" part="N">Inde modum certum, et iustimodor amina Recti,</l>
+<l rend="indent" TEIform="l" part="N">BESOLDI chartis discere, lector, habes.</l>
+<l TEIform="l" part="N">Quas non famosis gypsata calumnia verbis</l>
+<l rend="indent" TEIform="l" part="N">Atteret, atque strabi lima supercilii.</l>
+<l TEIform="l" part="N">Ipse Auctor libri, verae praeconia laudis</l>
+<l rend="indent" TEIform="l" part="N">Possidet, et Caelit angit utrumque latus.</l>
+<l TEIform="l" part="N">Quin vectigalem pridem sibi vendicat Orbem,</l>
+<l rend="indent" TEIform="l" part="N">Et vinctum aeternis detinet officiis.</l>
+<l TEIform="l" part="N">Palladis hoc scutumest! nigrum suspende lapillum,</l>
+<l rend="indent" TEIform="l" part="N">A Eole: Stat flabris haut Liber iste tuis.</l>
+</lg>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<head>II. CHRISTOPHORUS BESOLDUS, IURECONSULTUS, TUBINGAE IN ACADEMIA PATRIA ANTECESSOR.</head>
+<head><foreign lang="GR" TEIform="foreign">*a)nagrammatistmo\s2</foreign>, per transmutationem Literae R in U.</head>
+<lg met="dist" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">NIL CURO SORTES, BONA CAUSA HAEC SOLA TRIUMPHAT:</l>
+<l rend="indent" TEIform="l" part="N">INNOCUUM A RABIDIS, TU DEUS IPSE TEGES.</l>
+</lg>
+<p TEIform="p">Iohannes Iavornicius, Straconicensis Bohemus.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s005" TEIform="pb"/>
+<head>RERUM PRAECIPUARUM INDEX.</head>
+<head>A.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">ABzug</foreign>. cap. 4. num. 14. vers. 3.</p>
+<p TEIform="p">Advenae in Civitatem recipiendi num sint. cap. 4. n. 8. v. 1.</p>
+<p TEIform="p">Advenarum admissio, commoditatem Fisco adferre potest. cap. 3. n. 6. vers. 3.</p>
+<p TEIform="p">A Edificia, quae et quo modo exstruere debeat Princeps. cap. 2. n. 1. v. 5.</p>
+<p TEIform="p">A Erarii augendiratio, <reg orig="quâ" TEIform="reg">qua</reg> semper uti potest Princeps. cap. 3. per tot.</p>
+<p TEIform="p">A Erarii conservandi praecipuus modus, in parce collocandi ratione consistit. cap. 2. n. 1. et v. 1. ac seqq.</p>
+<p TEIform="p">A Erarii in locupletatione, adquia respicere debeat Politicus prudens. cap. 3. num. 14. et cap. 4. n. 1.</p>
+<p TEIform="p">A Erarii optime constituti descriptio. cap. 7. n. 1. v. 5.</p>
+<p TEIform="p">A Erarii puritas, omnia compendia respuit. cap. 3. num. 2.</p>
+<p TEIform="p">A Erarium, ambitione et largitionibus exhausium, per scelerae plerumque suppletur. cap. 2. n. 2. et v. 1.</p>
+<p TEIform="p">A Erarium antiquitus, ex quibus reditibus colligebatur. cap. 1. n. 5. et v. 1. ac 2.</p>
+<p TEIform="p">A Erarium Civile. cap. 1. num. 4.</p>
+<p TEIform="p">A Erarium et Fiscus, quomodo differant. cap. 1. n. 3. et etiam n. 1. ac 2.</p>
+<p TEIform="p">A Erarium publicum atque perpetuum, num sit instituendum? in utramque Partem disput atur. c. 1. n. 1. v. 1. et 2. caque quaestio deciditur. v. 3.</p>
+<p TEIform="p">A Erarium, quomodo a dilapidatione sartum tectumconservandum. c. 1. n. 1. v. 3. fol. 8. et seq.</p>
+<p TEIform="p">A Erarium quotuplex sit. c. 1. n. 4.</p>
+<p TEIform="p">A Erarium Romanum, ex quo constiterit olim. cap. 1. n. 7. v. 2.</p>
+<p TEIform="p">A Erarium sacrum. c. 1. n. 4.</p>
+<p TEIform="p">A Erarium sanctius. c. 1. n. 4.</p>
+<p TEIform="p">A Erarium Turcorum, ex quo constet. cap. 1. n. 7. v. 1.</p>
+<p TEIform="p">A Es alienum domini, an et quando subditi ex solvere teneantur. c. 4. n. 2. v. 2. fol. 72.</p>
+<p TEIform="p">Alchymia, an et quatenus excolenda. cap. 3. n. 11. et v. 1.</p>
+<p TEIform="p">Alienare aliquid de Domanio, lex prohibet fundamentalis. cap. 2. n. 4. et vers. 4.</p>
+<p TEIform="p">Alienare Territorii partem, an et quando Princeps possit? cap. 6. n. 3. et v. 1. ac. seq.</p>
+<p TEIform="p">Alienata praeter ratione, a Successore repocari queunt. c. 2. n. 4. v. 4.</p>
+<p TEIform="p">Annona, an et quomodo custodienda. cap. 1. n. 2. et v. 1.</p>
+<p TEIform="p">Avaritia, vitium in Principe maxime detestandum. c. 2. n. 3. v. 1.</p>
+<pb id="s006" TEIform="pb"/>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>B.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Begnadigung</foreign> spectat ad Impetium merum. fol. 145. n. 43.</p>
+<p TEIform="p">Belli ius sequitur Superioritatem. fol. 140. n. 26.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Bethe</foreign>. fol. 177. n. 125.</p>
+<p TEIform="p">Bona morient ium sine herede, cedunt Imperio mero. fol. 146. n. 45.</p>
+<p TEIform="p">Bona publica, quomodo distinguantur. c. 1. n. 3. v. 2.</p>
+<p TEIform="p">Breviarium Imperii, eiusque utilitas; et quomodo item debeat confici. cap. 8. n. 2. et v. 1. ac seq.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>C.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Cammer: und gemeiner Landschaff. Güter</foreign> / quomodo differant. cap. 1. n. 3.</p>
+<p TEIform="p">Capitatio. cap. 4. n. 18. et v. 1. ac 3.</p>
+<p TEIform="p">Captivium Dominum redimere, num Subdititen eantur. cap. 4. n. 2. v. 2. fol. 73.</p>
+<p TEIform="p">Carcer, an et quatenus sit Imperii meri. fol. 144. n. 39.</p>
+<p TEIform="p">Carcer quatenus ad iuris dictionem bassam pertineat. f. 180. n. 132.</p>
+<p TEIform="p">Censum, sive descriptionem civium, eorumque honorum facere, ad quid conducat. c. 8. n. 1. v. 1.</p>
+<p TEIform="p">Census formae. cap. 8. n. 1. v. 2.</p>
+<p TEIform="p">Census quid sit, et quo modo constituendus. cap. 8. num. 1.</p>
+<p TEIform="p">Clausula generalis, aliquibus specieb. apposita, porrigitur etiam ad eas, quae specific atis similes exsistunt. fol. 132. num. 5.</p>
+<p TEIform="p">Clausula generalis praecedens, restringitur ad specificata. f. 130. n. 2.</p>
+<p TEIform="p">Clerici, an debeant a Collectis esse immunes. cap. 4. n. 20. v. 2. fol. 123.</p>
+<p TEIform="p">Coemptio, an et quatenus Principi permissa. cap. 3. n. 6. v. 1.</p>
+<p TEIform="p">Collatio levis censetur, quae non certum numi genus praescribit, ut et quae exigitur per partes. cap. 4. n. 20.</p>
+<p TEIform="p">Collatio levis reputatur, quae a btnignu et humanis exactoribus colligitur. cap. 4. n. 20. et v. 1.</p>
+<p TEIform="p">Collectae a tenuior ibus non exigendae. cap. 4. n. 19. et v. 1.</p>
+<p TEIform="p">Collect is diu non solutis, ob praetensam immunitatem, postea si detrectans, malam causam fovere comperiatur, an tunc is restantes solvere collectas debeat. f. 173. n. 119. et seqq.</p>
+<p TEIform="p">Collectae etiam graves, necessit atis ratione excusantur. cap. 4. n. 1. v. 2.</p>
+<p TEIform="p">Collectae Imperii, an forensibus imponi possint. cap. 5. n. 4.</p>
+<p TEIform="p">Collectae Imperii, munera extraordinaria sunt. fol. 164. n. 94.</p>
+<p TEIform="p">Collectaemo dus, ex Ragionis <reg orig="naturâ" TEIform="reg">natura</reg> eiusque proventibus aestimari debet. cap. 4. n. 12. v. 2.</p>
+<p TEIform="p">Collectae non sunt violenter imponendae, sed potius subditis persuadendae. cap. 4. n. 5. v. 1. et 3.</p>
+<p TEIform="p">Collectae ob quas imponuntur causae, haud simulatae vel falsae esse debent. cap. 4. n. 4. v. 1.</p>
+<p TEIform="p">Collectae Provinciales, mixta onera sunt. fol. 168. n. 103.</p>
+<p TEIform="p">Collectaeprovinciales, quid sint. fol. 156. n. 73. et seqq.</p>
+<p TEIform="p">Collectaerurales, quae ab.
+<pb id="s007" TEIform="pb"/>
+universitatibus imponuntur. fol. 177. n. 127. et fol. seq. num. 129.</p>
+<p TEIform="p">Collectae. vide etiam Tributum.</p>
+<p TEIform="p">Collecta extraordinaria lubenter a Subditis praestatur, si non <reg orig="culpâ" TEIform="reg">culpa</reg> Principis, AErarium ante fuit exhaustum. cap. 4. n. 3. ac si statu praesenti subditi sint contenti. ibidem.</p>
+<p TEIform="p">Collecta extraordinaria, tum demum est imponenda; si nulla ratio aelia pecuniae conficiendae, haberi potest. cap. 4. n. 2. v. 4.</p>
+<p TEIform="p">Collecta facilius fertur, a <reg orig="quâ" TEIform="reg">qua</reg> nemo est immunis. cap. 4. n. 20. et v. 2.</p>
+<p TEIform="p">Collecta Imperialis, ordinarium munus est, ex sententiaquorundam. fol. 165. num. 97.</p>
+<p TEIform="p">Collecta Imperialis quid sit. fol. 147. num. 49.</p>
+<p TEIform="p">Collecta imponitur tant um subditis ratione bonorum, quae in Territorio possident. fol. 167. n. 102.</p>
+<p TEIform="p">Collecta magis probatur illa, ubi non capita seu personae, sed bona subditorum aestimantur. cap. 4. n. 18.</p>
+<p TEIform="p">Collectam deneg are ordines possunt, si Princeps bellum non necessarium moveat. cap. 4. n. 5. v. 3. fol. 88.</p>
+<p TEIform="p">Collectam extraordinartam, ut subditi solvere possint, quibus rationibus efficere queamus. cap. 4. num. 8. et seqq.</p>
+<p TEIform="p">Collectam immodicam, quae subsequuntur populi murmurationes, non compescendae, sed magis dissimulandae. cap. 4. num. 12. v. 4.</p>
+<p TEIform="p">Collectam Imperialem exigit, qui habet Superioritatem. fol. 151. numer. 60.</p>
+<p TEIform="p">Collectam non solvens, tum demum punitur, si id fecerit dolose. fol. 189. num. 16.</p>
+<p TEIform="p">Collectam non solvunt forenses. fol. 164. num. 93. et seqq.</p>
+<p TEIform="p">Collectandiius. Regalibus accensetur. fol. 158. n. 97. et seqq.</p>
+<p TEIform="p">Collectandi tantum sunt subditi, domicilii ratione. f. 165 n. 95. et seq.</p>
+<p TEIform="p">Collecta non solvitur de suppellectile <reg orig="pretiosâ" TEIform="reg">pretiosa</reg>, <reg orig="pecuniâ" TEIform="reg">pecunia</reg> <reg orig="otiosâ" TEIform="reg">otiosa</reg>. etc. fol. 190. num. 17.</p>
+<p TEIform="p">Collecta, num immobilibus imponi queat, mercibus puta, suppellectlique pretiosae. cap. 4. num. 18. v. 2.</p>
+<p TEIform="p">Collecta ob necessitatem imposita, <reg orig="eâ" TEIform="reg">ea</reg> cessante, remitti debet. cap. 4. n. 4.</p>
+<p TEIform="p">Collecta pro facultate subditorum. exigi debet. cap. 4. n. 12. et v. 1.</p>
+<p TEIform="p">Collectare an Dominus subditos possit, pro <reg orig="filiâ" TEIform="reg">filia</reg> <reg orig="maritandâ" TEIform="reg">maritanda</reg>, velob novum castrum emendum. cap. 4. n. 2. v. 2. fol. 73.</p>
+<p TEIform="p">Collectarum in <reg orig="materiâ" TEIform="reg">materia</reg>, consuetudo maxumiest momenti. fol. 149. num. 52.</p>
+<p TEIform="p">Collectarum occasione <reg orig="subortâ" TEIform="reg">suborta</reg> <reg orig="controversiâ" TEIform="reg">controversia</reg>, omnium maxime consuetudo loci est attendenda. fol. 169. n. 106.</p>
+<p TEIform="p">Collecta semel tantum exigi potest. fol. 150. n. 55.</p>
+<p TEIform="p">Collect as Imperiales, status non exsuis Cameris solvunt. fol. 166 n. 98.</p>
+<p TEIform="p">Collecta si sit immodica, rebellionem parit. cap. 4. num. 12. v. 1.</p>
+<pb id="s008" TEIform="pb"/>
+<p TEIform="p">Collectas novas, iusta tamen ex <reg orig="causâ" TEIform="reg">causa</reg> impositas, si subditi solvere nolint, quo iuris remedio Dominus uti possit. cap. 4. n. 5. v. 1. fol. 86.</p>
+<p TEIform="p">Collect as provinciales, an solvere cogatur forensis. cap. 5. n. 3. et v. 1.</p>
+<p TEIform="p">Collectas solv ere detrectantes, exsecutive ad id cogi possunt. f. 155. n. 67.</p>
+<p TEIform="p">Collectas Turcicas non solventes, <reg orig="quâ" TEIform="reg">qua</reg> <reg orig="poenâ" TEIform="reg">poena</reg> affic antur. fol. 188. nu. 11. et 12.</p>
+<p TEIform="p">Commercia libera esse, nec ad Principis emolumentum impediri debent. cap. 3. num. 6. v. 2.</p>
+<p TEIform="p">Consiscationes, pertinent adImperium merum. fol. 145. num. 44.</p>
+<p TEIform="p">Confiscationis poenae locus non est, nisi statuto aut consuetudine suffragante. fol. 187. num. 9. et 10.</p>
+<p TEIform="p">Consiliarius, quam exactam Rei publicae suae cognitionem debeat habere. cap. 8. n. 2. v. 2.</p>
+<p TEIform="p">Culturaterrae, nullibi negligenda. cap. 3. n. 5. v. 1. et 2.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>D.</head>
+<p TEIform="p">Delatoribus improbis, locus apud Principem patere non debet. c. 3. n. 4.</p>
+<p TEIform="p">Digni, ut ad officia promoveantur, <reg orig="quâ" TEIform="reg">qua</reg> ratione effici possit. cap. 8. n. 2. v. 4. fol. 231.</p>
+<p TEIform="p">Divitiae Principum verae, consistunt in divitiis subditorum. cap. 1. n. 1. v. 1.</p>
+<p TEIform="p">Domanium Regum Gallicanorum. cap. 1. n. 5. v. 1. et n. 7. v. 3.</p>
+<p TEIform="p">Dominus Feudi, av bona Vasallorum collectare queat. fol. 162. n. 87. ac seqq. multis.</p>
+<p TEIform="p">Dominus Feudi, an hominibus Vasallorum suorum, imponere possit collectam. fol. 161. n. 85.</p>
+<p TEIform="p">Dominus Feudi, a Vasallo suo exigit Imperialem Collectam. fol. 163. num. 89.</p>
+<p TEIform="p">Donationes immensae, a Successore revocari queunt. cap. 2. n. 4. v. 4.</p>
+<p TEIform="p">Dotare, an subditi teneantur filiam Domini sui. cap. 4. n. 2. v. 2. fol. 73.</p>
+<p TEIform="p">Dux belli, nomina, et conditionem singulorum suorum militum scire debet. cap. 8. num. 2. v. 4.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>E.</head>
+<p TEIform="p">Ecclesiastica iurisdictio, sequit ur Superioritatem. fol. 139. n. 24.</p>
+<p TEIform="p">Eleemosyna, neminem pauperiorem reddit. c. 2. n. 3. v. 2.</p>
+<p TEIform="p">Episcopalia iura, penes Imperii sunt status. fol. 39. num. 24.</p>
+<p TEIform="p">Exactiones nimiae, ipsi Deo sunt exosae. cap. 4. n. 2. v. 3 fol. 77. et seq.</p>
+<p TEIform="p">Exactiones nimiae, seditiones frequentissime concitare solent. c. 4. n. 2. v. 3. fol. 75. et seq.</p>
+<p TEIform="p">Exactiones nimias, quae incommoda subsequantur. c. 4. n. 2. v. 3.</p>
+<p TEIform="p">Exactiones novas suaders, quam magnum sit peccatum. cap. 7. nu. 1. vers. 3.</p>
+<p TEIform="p">Exactiones Officialium, inhiberi dibent. cap. 4. num. 9.</p>
+<p TEIform="p">Exactiones violentae, pernit io sae plerumque sunt. cap. 4. n. 2. v. 1.</p>
+<p TEIform="p">Exactionum Architectones, praecipuam in Aulis obtinent plerumque auctoritatem. cap. 3. n. 2. v. 1.</p>
+<pb id="s009" TEIform="pb"/>
+<p TEIform="p">Exactionum illegitimarum architecti culpantur. cap. 7. n. 1. v. 2.</p>
+<p TEIform="p">Exactionum novaerum consultores, Principi persvadent, Tributum novum Populo grave non esse. cap. 7. n. 1. v. 2. fol. 220.</p>
+<p TEIform="p">Exactionum illegitimarum consultores, suam magis, quam Principis utilitatem spectant. cap. 7. n. 1. v. 2. fol. 219.</p>
+<p TEIform="p">Exactor saepe magis odiosus est, quam exactio ipsa. c. 4. n. 20. et v. 1. et idem habetur, cap. 7. num. 1. v. 2. fol. 219.</p>
+<p TEIform="p">Extensio in poenalibus locum non habet. fol. 191. num. 20.</p>
+<p TEIform="p">Extraordinariam imponere collationem, ad iura Maiestatis spectat. cap. 4. num. 1. v. 1.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>F.</head>
+<p TEIform="p">Feuda cur olim in <reg orig="Germaniâ" TEIform="reg">Germania</reg>, tam multa. cap. 1. n. 1. v. 3.</p>
+<p TEIform="p">Fisci Privilegium ex l. bene a Zenone, etc. an et quando habeat locum. fol. 195. n. 33. et seqq.</p>
+<p TEIform="p">Fisco in dubio non est favendum. fol. 187. num. 8.</p>
+<p TEIform="p">Fisco num cedant bona incenfita. fol. 184. n. 1. et mult. seqq.</p>
+<p TEIform="p">Fiscum quis habere putetur. cap. 1. num. 3. v. 1.</p>
+<p TEIform="p">Fiscus et Aerarium, quomodo differant. cap. 1. nu. 3. et etiam, n. 1. ac 2.</p>
+<p TEIform="p">Fiscus in corpere Politico, lienem refert. c. 1. n. 1. v. 1.</p>
+<p TEIform="p">Foenoratores non tolerandi. c. 3. n. 4.</p>
+<p TEIform="p">Forenses quatenus collectari possint. fol. 165. num. 96. et fol. 168. num. 103. et seqq.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Forstliche Obrigkeit</foreign>. fol. 142. n. 32. et 33.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Frondienste</foreign>. fol. 181. n. 138.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>G.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Gemeiner Wechsel</foreign>. cap. 3. n. 9.</p>
+<p TEIform="p">Generalitas verborum, quid importet. fol. 131. num. 4.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Gerichte</foreign>. fol. 179. num. 130. et seq.</p>
+<p TEIform="p">Germanorum Principum potentia, olim in Vasallorum multitudine consistebat. cap. 1. num. 1. v. 3.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Gluckhafen</foreign>. cap. 3. num. 10.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>H.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Hauptfall</foreign>. cap. 4. num. 14. v. 2.</p>
+<p TEIform="p">Helvetiorum, cur quisque suu stipendius militet. cap. 1. num. 1. v. 3.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Hohe Gericht</foreign> / et quid ea sequatur. fol. 143. n. 35. et seqq.</p>
+<p TEIform="p">Homagium. fol. 136. n. 12.</p>
+<p TEIform="p">Homicidia, <reg orig="mulctâ" TEIform="reg">mulcta</reg> <reg orig="pecuniariâ" TEIform="reg">pecuniaria</reg> non sunt punienda. cap. 3. n. 4. v. 2.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>I.</head>
+<p TEIform="p">Immunia sunt a Collectis Principum bona. fol. 166. num. 99.</p>
+<p TEIform="p">Immunis a Collectis, si semel se inscribi patiatur in librum aestimi, Privilegio suo renuntiare censetur. f. 155. num. 68.</p>
+<p TEIform="p">Immunis nemo est ab Imperiali collecta. fol. 151. num. 59.</p>
+<p TEIform="p">Immunis nemo est, a Turcicis collectis. fol. 163. num. 88.</p>
+<pb id="s010" TEIform="pb"/>
+<p TEIform="p">Immunitas a Collectis, an et quatenus praescribatur. fol. 169. num 196. et seqq.</p>
+<p TEIform="p">Immunitas, an et quando a Principe debeat concedi. cap. 4. num. 20. vers. 2.</p>
+<p TEIform="p">Immunitas omnis cessat, in casu necessitatis. cap. 4. num. 20. v. 3.</p>
+<p TEIform="p">Immunitas quorundam, non debet tendere in praeiudicium tenuiorum. cap. 4. num. 20. v. 2. fol. 121.</p>
+<p TEIform="p">Immunitatis concessio, haut extenditur ad casus non praecogitatos. fol. 164. num. 91.</p>
+<p TEIform="p">Immunitatis ratio, in totum sita est in <reg orig="prudentiâ" TEIform="reg">prudentia</reg>, et potestate Principis. cap. 4. num. 20. v. 2.</p>
+<p TEIform="p">Imperii Romani reditus, qui olim; et <reg orig="quâ" TEIform="reg">qua</reg> occafione fuerint diminuti. cap. 2. num. 4.</p>
+<p TEIform="p">Imperium merum, quid hodie contineat. fol. 144. n. 42.</p>
+<p TEIform="p">Inclufio unius, quando alterius exclusionem importet. fol. 135. n. 9.</p>
+<p TEIform="p">Itali plerumque exactionum illegitimarum architectones. cap. 7. nu. 1. v. 2. fol. 218.</p>
+<p TEIform="p">Iugatio. cap. 4. n. 18. v. 3.</p>
+<p TEIform="p">Iurisdictio alta. fol. 142. num. 34.</p>
+<p TEIform="p">Iurisdictio bassa. fol. 142. num. 34.</p>
+<p TEIform="p">Iurisdictionis fructus, qui fint. cap. 1. num. 7.</p>
+<p TEIform="p">Iurisdictionis usus varius hodie, et iuri scripto non conformis est. fol. 181. num. 137.</p>
+<p TEIform="p">Iurisdictio Bassa, quid sub se comineat. fol. 179. num. 130. et seq.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>L.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Landsäß</foreign> / quid fit. fol. 136 n. 15.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Landsässerey</foreign> / in Sueviiont frequentatur. fol. 137. num. 17.</p>
+<p TEIform="p">Largiri nihil debet Princeps, nisi <reg orig="suâmanu" TEIform="reg">suamanu</reg>. cap. 2. num. 1. v. 2.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Leute</foreign> / sive Leodes. fol. 176. n. 124.</p>
+<p TEIform="p">Liberalitas, maxime Principemdecet. cap. 2. n. 3. et v. 1.</p>
+<p TEIform="p">Liberalitas vicinarum Rerum publicarum, Aerarium quandoque auget. cap. 6. num. 5.</p>
+<p TEIform="p">Liberalitatem, in quos, et quomodo Princeps debeat exercere. cap. 2. n. 3. et v. 1.</p>
+<p TEIform="p">Lignorum desectui, quomodo succurrendum? cap. 3. num. 5. v. 2.</p>
+<p TEIform="p">Litium multitudo, quantum Rei publicae noceat. cap. 4. num. 9. v. 1.</p>
+<p TEIform="p">Litium vectigal. cap. 3. num. 4.</p>
+<p TEIform="p">Litterati, num sint a Collectis immunes. cap. 4. num. 20. vers. 2. fol. 122.</p>
+<p TEIform="p">Litterati, ut plurimum pauperes. cap. 4. num. 20. v. 2 fol. 122.</p>
+<p TEIform="p">Luxus Principis, odiosas reddit collectas. cap. 4. num. 3. v. 1.</p>
+<p TEIform="p">Luxus Principi vitandus, cap. 2. n. 1. vers. 4.</p>
+<p TEIform="p">Luxus, quibus remediis coerceri debeat. cap. 4. num. 10. v. 2.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>M.</head>
+<p TEIform="p">Magistratus, et officia vendere. cap. 6. num. 4. et vers. 1.</p>
+<p TEIform="p">Magnificentia Principis, non est per luxuriam definienda. cap. 2. num. 1. vers. 4.</p>
+<pb id="s011" TEIform="pb"/>
+<p TEIform="p">Mercaturam, an et quando Princeps debeat exercere. cap. 3. num. 6. et v. 1. ac 2.</p>
+<p TEIform="p">Metalli fodinae inveftigandae, et excolendae. cap. 3. num. 8.</p>
+<p TEIform="p">Monetae cudendae ius, non est privatis concedendum. cap. 6 nu. 1. v. 2.</p>
+<p TEIform="p">Monetae mutatio et depravatio, quam sit Rei publicae pernitiosa. c. 6. n. 1. et v. 1.</p>
+<p TEIform="p">Monetae valor, cur crescat. cap. 6. num. 1. v. 2.</p>
+<p TEIform="p">Moneta, quando et quatenus a Principe mutari possit. cap. 6. num. 1. v. 1. fol. 201. ac seq.</p>
+<p TEIform="p">Monopolia, an Princeps instituere debeat. cap. 3. num. o. et v. 1. ac 2.</p>
+<p TEIform="p">Mons pietatis quid sit. cap. 3. n. 9. et v. 1.</p>
+<p TEIform="p">Montes pietatis. cap. 6. n. 2. v. 1.</p>
+<p TEIform="p">Mulctae iuste impositae, Fiscum augere queunt. cap. 3. num. 4. et v. 1.</p>
+<p TEIform="p">Multarum exigendarum cupiditas, quandoque degenerat in rapacitatem. cap. 3. num. 4. v. 1.</p>
+<p TEIform="p">Mutuo pecuniam dare, an Subditi a Principe cogi possint. cap. 6. n. 2. vers. 2.</p>
+<p TEIform="p">Mutuo pecuniam sumere, an et quando Princeps debeat. c. 6. num. 2. et vers. 1.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>N.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Nachsteur</foreign>. cap. 4. num. 14. v. 3.</p>
+<p TEIform="p">Necessitas sacit iustum, quicquid ad bonum publicum vergit. cap. 4. num. 1. v. 2.</p>
+<p TEIform="p">Necessitas ob quam collecta imponitur, ab ordinibus Regni est adprobanda. cap. 4. num. 5. et v. 1.</p>
+<p TEIform="p">Necessitas publica fi adsit, impossibilia plerumque persvadet. cap. 4. num. 2.</p>
+<p TEIform="p">Necessitas summa nisi adsit, ad extraordinariam exactionem, minime est perveniendum. cap. 4. num. 2. vers. 2.</p>
+<p TEIform="p">Nemora publica. cap. 1. n. 2.</p>
+<p TEIform="p">Nobiles, an fint a Collectu immunes. cap. 4. num. 20. vers. 2.</p>
+<p TEIform="p">Nobiles rusticorum bona ementes, non sunt immunes. fol. 162. num. 86.</p>
+<p TEIform="p">Nobilitatem, pecunia interveniente concedere, quando possit Prinseps. cap. 6. v. 3. num. 2. fol. 212.</p>
+<p TEIform="p">Nobilitatis Suevicae Privilegia queusque, et ad quae bona sese extendant. fol. 152. num. 61. et seq.</p>
+<p TEIform="p">Numerum inire Populi sui, an prehibitum sit a Deo? cap. 8. nu. 2. v. 5.</p>
+<p TEIform="p">Numorum mutatio et depravatio, quam sit Rei publica pernitiosa. cap. 6. num. 1. et v. 1.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>O.</head>
+<p TEIform="p">Oblatio spontanea. cap. 4. n. 2. v. 1.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Oeffnung</foreign>. fol. 141. num. 27.</p>
+<p TEIform="p">Officialis, an furtum committat: sires suae administrationi concreditas, in proprios usus convertat. cap. 7. n. 1. vers. 4.</p>
+<p TEIform="p">Officialium multitudo praecidenda. cap. 2. num. 1. v. 3.</p>
+<p TEIform="p">Olla Fortunae. cap. 3. num. 10.</p>
+<p TEIform="p">Opisicia in Republ. fovenda. cap. 4. num. 14. vers. 4.</p>
+<pb id="s012" TEIform="pb"/>
+<p TEIform="p">Ordinum consensus in novi Tributi impositione, quodammodo neressaerius est. cap. 4. num. 5. v. 5.</p>
+<p TEIform="p">Otium a Civitate exulare debet. cap. 4. num. 8.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>P.</head>
+<p TEIform="p">Parcorum aliquot Principum exempla. cap. 2. num. 1. v. 6. fol. 33.</p>
+<p TEIform="p">Parcum, quam nimis liberalem Principem esse, praestat. cap. 2. num. 1. v. 4. fol. 28. et seq.</p>
+<p TEIform="p">Parsimoniae cumprimis Princeps studere debet, si dives fierivelit. c. 2. num. 1. et v. 1. et seqq.</p>
+<p TEIform="p">Parsimonia in fundo sera. cap. 2. num. 1. v. 2. in fine.</p>
+<p TEIform="p">Parsimonia Principis, sordibus carere debet. cap. 2. num. 1. v. 3.</p>
+<p TEIform="p">Patrimonium Rei publicae. cap. 1. num. 5. v. 1. et 2.</p>
+<p TEIform="p">Pauperes maxime Princeps curare, in eosque liberalitatem suam exerceredebet. cap. 2. num. 3. v. 2.</p>
+<p TEIform="p">Paupertas Subditorum, num securitatem praestet imperanti. cap. 4. num. 2. v. 3. fol. 76. et seq.</p>
+<p TEIform="p">Pecuniae adpellatione, quid comprehendatur. cap. 1. num. 2.</p>
+<p TEIform="p">Pecunia ne extra Regionem exportetur, praecavendum. cap. 4. n. 10. v. 1. n. 14. v. 4.</p>
+<p TEIform="p">Pecunia rerum agendarum est nervae. cap. 1. num. 1.</p>
+<p TEIform="p">Peraequatio, quando habeat locum. cap. 4. num. 20. v. 2. ad sin.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Pfrundkauff</foreign>. c. 3. num. 9. v. 1.</p>
+<p TEIform="p">Panaeius, qui bona in censu agendo, non recte profitetur. cap. 8. nu. 1. vers. 2.</p>
+<p TEIform="p">Poenales actiones, non transeunt ad heredes. fol. 194. num. 28. et seqq.</p>
+<p TEIform="p">Pontifices Romani, Ecclesiasticas vendunt dignitates. cap. 6. num. 4. vers. 1. fol. 214.</p>
+<p TEIform="p">Principem cum tripudio et pompa perire, maxime est funestum. c. 2. num. 1. v. 6. fol. 34.</p>
+<p TEIform="p">Principes quales olim reditus habebant, et ex quibus bonis ea percipiebant. cap. 1. num. 5. et v. 1. et 2.</p>
+<p TEIform="p">Principis generalis intentio, ratione Territorii et Superioritatis, quomode enervetur. fol. 134. num. 8.</p>
+<p TEIform="p">Principum et Magnatum vitam vivere, quid sit. cap. 2. num. 1. v. 6. fol. 34.</p>
+<p TEIform="p">Procuratorum Fisci Peculatus, Repetundarumque crimina, severe sunt coercenda. cap. 2. num. 4. v. 3.</p>
+<p TEIform="p">Prodigus Princeps, exactor vel est, velerit. cap. 2. num. 2. et v. 1.</p>
+<p TEIform="p">Publicanorum origo, et odium. cap. 4. num. 16. v. 1. fol. 108. et seq.</p>
+<p TEIform="p">Publicatio bonorum eorum, qui extremo supplicio afficiuntur, num debeat in usum revocari. c. 3. n. 4. v. 1.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Q.</head>
+<p TEIform="p">Quaestores et Quaestura. c. 7. n. 1.</p>
+<p TEIform="p">Quaestores male inofficio suo versantes, quomodo puniedi. c. 7. n. 1. v. 4.</p>
+<p TEIform="p">Quaestoru boni munus, quod sit. cap. 7. num. 1. v. 1.</p>
+<p TEIform="p">Quaestorum bonorum exempla. cap. 7. num. 1. v. 1.</p>
+<pb id="s013" TEIform="pb"/>
+<p TEIform="p">Quaestorum Fiscique Procuratorum peculatus, Repetundarumque scelera severe sunt coercenda. c. 2. n. 4. v. 3.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>R.</head>
+<p TEIform="p">Rationarium Imperii eiusque utilitas, et quomodo item debeat confici. c. 8. num. 2. et v. 1. ac seq.</p>
+<p TEIform="p">Reditus ordinarii, <reg orig="studiosâ" TEIform="reg">studiosa</reg> <reg orig="curâ" TEIform="reg">cura</reg> sunt conservandi. cap. 2. num. 4. v. 1.</p>
+<p TEIform="p">Regalia nova instituere, maxume est odiosum. cap. 1. n. 7. v. 1.</p>
+<p TEIform="p">Regionis nulla pars deserta, vel non rebus utilibus destinata elle debet. cap. 3. num. 5. et vers. 1. ac 2.</p>
+<p TEIform="p">Relativa, Redditiva, referenda sunt ad omnia superiora. fol. 133. n. 6.</p>
+<p TEIform="p">Religionis Reformatio, sequela est Superioritatis. fol. 138. num. 22.</p>
+<p TEIform="p">Remissio debitorum Tributorum, non facile concedenda. cap. 2. nu. 4. v. 1. quando vero, quasque ob causas ea rite fiat. vid. dict. n. v. 2.</p>
+<p TEIform="p">Reputatio Rem public. destruens, vitanda. cap. 2. num. 1. v. 3.</p>
+<p TEIform="p">Reservationis vis. fol. 134. num. 7.</p>
+<p TEIform="p">Res publica, similitudinem habet corporis humani. cap. 1. num. 1.</p>
+<p TEIform="p">Res publica, sine Tributis et Vectigalibus consistere nequit. cap. 2. n. 4. vers. 1.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>S.</head>
+<p TEIform="p">Salaria inutilibus hominibus adimenda. cap. 2. num. 1. v. 3.</p>
+<p TEIform="p">Salvi conductus praestatio, ad Principem pertinet. fol. 141. n. 28.</p>
+<p TEIform="p">Servituti operibusque publicis, mancipandi delinquentes. cap. 3. n. 13.</p>
+<p TEIform="p">Simonia committitur, per nundinationem Ecclesiasticarum dignitatum. cap. 6. num. 4. v. 1. fol. 214.</p>
+<p TEIform="p">Statuta seu Leges condendi potestas, ius est Supetioritatis. fol. 141. num. 30.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Steur</foreign>. fol. 177. num. 126.</p>
+<p TEIform="p">Subditus quis dicitur, non bonorum, sed domicilii magis ratione. fol. 137. num. 16.</p>
+<p TEIform="p">Subditus, toto genere differt a Vasallo. fel. 138. num. 18.</p>
+<p TEIform="p">Subiectus quatenus aliquis sit, ratione bonorum alibi sitorum. sol. 138. num. 20.</p>
+<p TEIform="p">Sumptuariae Leges. cap. 4. nu. 10. et vers. 1.</p>
+<p TEIform="p">Sumptus Aulae praecidendi. cap. 2. num. 1. v. 3.</p>
+<p TEIform="p">Sumptus facultatibus sunt metiendi. cap. 2. num. 1. v. 1.</p>
+<p TEIform="p">Sumptus supervacanei, a Principe sunt maxime vitandi. cap. 2. n. 1. v. 1.</p>
+<p TEIform="p">Sumptuum et redituum non inire rationem, familias illustres perdit. c. 2. num. 1. v. 2.</p>
+<p TEIform="p">Superiorit as intentionem fundat, quoad omnes species iurisdictionis. fol. 146. num. 48.</p>
+<p TEIform="p">Superioritas, <reg orig="nuliâ" TEIform="reg">nulia</reg> concessione transtata censetun fol. 153. num. 63.</p>
+<p TEIform="p">Superioritatis iura, tam Ecclesiasticarum, quam Politicarum rerum intuitu, suse explicantur. fol. 136. num. 12. et mult. seqq.</p>
+<p TEIform="p">Superioritatis ius, quid proprie sit? fol. 135. num. 11.</p>
+<pb id="s014" TEIform="pb"/>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>T.</head>
+<p TEIform="p">Territorii probatio, absorbet actus iurisdictionales adductos, titulo non edocto. fol. 154. num. 65. et seq.</p>
+<p TEIform="p">Territorio adprobato, Superioritas etiam edocta censetur. fol. 133. n. 7.</p>
+<p TEIform="p">Testamentis privatorum, Fiscus interdum locupletatur. cap. 3. nu. 12.</p>
+<p TEIform="p">Timariae Turcarum. cap. 1. nu. 1. vers. 3.</p>
+<p TEIform="p">Torturae applicatio, est Imperii meri. fol. 144. num. 40.</p>
+<p TEIform="p">Tributa, cur indies augeantur. cap. 4. num. 2. v. 3. fol. 74.</p>
+<p TEIform="p">Tributa et Vectigalia, fere cum Regibus sunt nata. c. 1. n. 6. v. 1.</p>
+<p TEIform="p">Tributa imponenda sunt Regnis bello partis. cap. 4. num 12. v. 3.</p>
+<p TEIform="p">Tributa indies augentur, variisque nominibus infigniuntur. cap. 4. n. 1. vers. 2.</p>
+<p TEIform="p">Tributa nova, ut iuste imponantur, qualesnam adesse debeant causae. cap. 4. num 2. v. 2. fol. 72.</p>
+<p TEIform="p">Tributa sunt remittenda, necessitate cessante. cap. 4. numer. 7. et vers. 1.</p>
+<p TEIform="p">Tributi etymon. cap. 1. num. 6. vers. 1.</p>
+<p TEIform="p">Tributi ordinaria collatio, quo veniat iure. cap. 1. numer. 6. et vers. 1.</p>
+<p TEIform="p">Tributorum augendorum, vel novorum imponendorum potestas, ad iura Maiestatis refertur. cap. 4. num. 1. vers. 1.</p>
+<p TEIform="p">Tributorum, in Galliis, <reg orig="Hispaniâ" TEIform="reg">Hispania</reg> et <reg orig="Germaniâ" TEIform="reg">Germania</reg>, varia nomina. cap. 4. num. 1. vers. 2.</p>
+<p TEIform="p">Tributorum novoru exactio, quid Principi nocere soleat. cap. 4. numer. 2. v. 2.</p>
+<p TEIform="p">Tributum non necessarium, sacit ut necessarium praestari non possit. cap. 4. num. 11.</p>
+<p TEIform="p">Tributum non solvens, nec in <reg orig="conscientiâ" TEIform="reg">conscientia</reg> est tutus, ac etiam quandoque committit crimen Maiestaetis. cap. 1. num. 6.</p>
+<p TEIform="p">Tributum novum, seu extraordinarium cum imponitur, ad quae sit respiciendum. cap. 4. num. 2. et seqq.</p>
+<p TEIform="p">Tributum novum Subditis impositum, non alio, quam quo destinatum, converti debet. cap. 4. num. 6. et v. 1.</p>
+<p TEIform="p">Tributum ob non solutum, an bona applicentur Fisco? cap. 5. n. 5.</p>
+<p TEIform="p">Tributum, quomodo differat a Vectigali. cap. 4. num. 13. vers. 1.</p>
+<p TEIform="p">Tributum. Vide etiam, Collectae.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>U.</head>
+<p TEIform="p">Vasalli non simul Subditi, Collectis haud sunt onerandi. fol. 172. numer. 116.</p>
+<p TEIform="p">Vasalli, quando collectare possint subditos suos. fol. 160. num. 82.</p>
+<p TEIform="p">Vasallis, an imponi possint Imperiales vel Provinciales collectae. cap. 5. num. 2.</p>
+<p TEIform="p">Vasalli subditi, an a Principe
+<pb id="s015" TEIform="pb"/>
+Collectis Provincialibus onerari possint. cap. 5. num. 1.</p>
+<p TEIform="p">Vassalli subditi, quatenus <reg orig="adhûc" TEIform="reg">adhuc</reg> Domino Feudi subiecti esse dici possint. fol. 160. num. 84.</p>
+<p TEIform="p">Vasalli subditus, quo respectu seudalu Domini subiectus dici mereatur. fol. 161. num. 85.</p>
+<p TEIform="p">Vasalli, ut Vasalli, non sunt collectandi. fol. 167. num. 100.</p>
+<p TEIform="p">Vasallorum subditi, an Collectis a Domino Feudi onerari possint. fol. 157. num. 76. et mult. seqq.</p>
+<p TEIform="p">Vasallus a Domino collectari potest, ex <reg orig="sententiâ" TEIform="reg">sententia</reg> quorundam. fol. 163. n. 90.</p>
+<p TEIform="p">Vectigal heredit atum. cap. 4. n. 14. vers. 2.</p>
+<p TEIform="p">Vectigal honestissimum est, quod iis imponitur rebus, quae adluxum et delitias spectant, moresque corrumpunt. cap. 4. num. 15. et v. 1.</p>
+<p TEIform="p">Vectigalia, cur Imperii status instituere nequeant;cum tamen exigere possint collectam provincialem. c. 4. num. 16. v. 2. ad finem.</p>
+<p TEIform="p">Vectigalia indicere consultius est, quam procedere ad Tributa. cap. 4. num. 14.</p>
+<p TEIform="p">Vectigalia instituere non possunt, Imperii Romano Germanici status. cap. 4. n. 16. vers. 2. fol. 110. est seq.</p>
+<p TEIform="p">Vectigalia nova reputantur etiam tum, cum vetera fuerint aucta. c. 4. num. 16. vers. 2. fol. 111.</p>
+<p TEIform="p">Vectigalia num sint locanda. c. 4. num. 16. v. 1. fol. 108. ac seq.</p>
+<p TEIform="p">Vectigalia turpia quae sint, exemplis aliquot declaratur. cap. 4. n. 17. et vers. 10</p>
+<p TEIform="p">Vectigalis exactio, usitatissimum, et simul antiquissimum Aerarii augendi genus. cap. 4. num. 13.</p>
+<p TEIform="p">Vectigalium novorum concessio, ad solum spectat Imperatorem, eumpe, qui iura Maiestatis habet. cap. 4. numer. 16. vers. 2.</p>
+<p TEIform="p">Vectigal num exigendum iis ex rebus, quae non negotiationis <reg orig="causâ" TEIform="reg">causa</reg>, importantur velevehuntur. cap 4. n. 15. vers. 1. fol. 105. et cap. eod. n. 16. ac v. 1.</p>
+<p TEIform="p">Vectigal peregrinos magis, quam civei, onerare debet. cap. 4. num. 1 4. vers. 1.</p>
+<p TEIform="p">Vectigal, quibus rebus imponi debeat. cap. 4. n. 14. et v. 1. ac seqq.</p>
+<p TEIform="p">Vectigal, quid significet propriatim, et quomodo differat a Tributo. cap. 4. num. 13. v. 1.</p>
+<p TEIform="p">Vectigal quod imponitur rebus pertinentibus ad quottidianum victum, dicitur grave. c. 4. n. 15. v. 1.</p>
+<p TEIform="p">Vectigal, quod solvitur ob merces distractas. cap. 4. n. 16. et v. 1.</p>
+<p TEIform="p">Vectigal, Salariis impositum quandoque. cap. 4. num. 17.</p>
+<p TEIform="p">Vectigal Salinarium. cap. 4. n. 14. v. 1. et nu. 15. v. 1. fol. 105.</p>
+<p TEIform="p">Venationes, quomodo Fiscum locupletare queant. cap. 3. num. 7.</p>
+<p TEIform="p">Vendere Privilegia, quande Principes possint. cap. 6. num. 3. vers. 2. fol. 211.</p>
+<pb id="s016" TEIform="pb"/>
+<p TEIform="p">Vestitut Principem, qualis deceat. cap. 2. n. 1. v. 4. fol. 27. et seq.</p>
+<p TEIform="p">Vota maiora, an in comitiis Imperii Rom-Germanici habeant lecum. cap. 4. num. 5. v. 2.</p>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Vhrphädts-verschreibungem erfordern/ert</foreign> Imperii meri. fol. 144. num. 41.</p>
+<p TEIform="p">Usura magnum Regnis incommedum adfert. cap. 6. numer. 2. et vers. 1.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>W.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Wildbann</foreign> quid contineat. f. 142. num. 32. et 33.</p>
+</div>
+<div type="index" org="uniform" sample="complete" TEIform="div" part="N">
+<head>Z.</head>
+<p TEIform="p"><foreign lang="GE" TEIform="foreign">Zuchthauß.</foreign> cap. 3. num. 13.</p>
+</div>
+<div type="poem" org="uniform" sample="complete" TEIform="div" part="N">
+<head>AD LECTOREM.</head>
+<lg met="dist" org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sunt bona; sunt quoedam mediocria, sunt mala multa.</l>
+<l rend="indent" TEIform="l" part="N">Qui legis haec, aliter non fit, amice, Liber.</l>
+</lg>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+</TEI.2>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+
+<teiHeader type="text">
+    <fileDesc xmlns:html="http://www.w3.org/TR/REC-html40/" TEIform="fileDesc">
+      <titleStmt TEIform="titleStmt">
+        <title TEIform="title">Epigrammatum libri sex.</title>
+	<title type="sub" TEIform="title">Machine-readable text</title>
+        <author n="Melan" TEIform="author">Melanchthon, Philipp</author>
+        <editor TEIform="editor" role="editor">Petrus Vincentius</editor>
+      </titleStmt>
+
+      <editionStmt TEIform="editionStmt">
+        <edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+        <respStmt TEIform="respStmt"><name TEIform="name">Andreas Botsch</name><resp TEIform="resp">markup</resp></respStmt>
+      </editionStmt>
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/melan1" type="href" id="melan1" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note>
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">melan1</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">melanchthonepigrammata.html</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">melan001.jpg</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">melanchthonepigrammata.xml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">melan1/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+      <sourceDesc default="NO" TEIform="sourceDesc">
+        <bibl default="NO" TEIform="bibl">Wittenberg: haeredes Iohannis Cratonis, 1579.</bibl>
+      </sourceDesc>
+
+    </fileDesc>
+   <encodingDesc xmlns:html="http://www.w3.org/TR/REC-html40/" TEIform="encodingDesc">
+      <editorialDecl default="NO" TEIform="editorialDecl">
+          <p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+       </editorialDecl>
+      <refsDecl TEIform="refsDecl" doctype="TEI.2">
+          <p TEIform="p">not necessary</p>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc xmlns:html="http://www.w3.org/TR/REC-html40/" TEIform="revisionDesc">
+     <change TEIform="change">
+          <date TEIform="date">22 June 2001</date>
+          <respStmt TEIform="respStmt">
+            <name TEIform="name">Susanne Mussmann</name>
+            <resp TEIform="resp">markup</resp>
+          </respStmt>
+          <item TEIform="item">corrected divisions, page breaks, e.a.</item>
+     </change>
+	 <change TEIform="change">
+	          <date TEIform="date">24 July 2001</date>
+	           <respStmt TEIform="respStmt">
+	             <name TEIform="name">Susanne Mussmann</name>
+	             <resp TEIform="resp">markup</resp>
+	           </respStmt>
+	           <item TEIform="item">TEI header added</item>
+     </change>
+     	 <change TEIform="change">
+     	          <date TEIform="date">09 June 2002</date>
+     	           <respStmt TEIform="respStmt">
+     	             <name TEIform="name">Susanne Mussmann</name>
+     	             <resp TEIform="resp">markup</resp>
+     	           </respStmt>
+     	           <item TEIform="item">added p. Q3b ff., incl. markup; suggestion: incl. metric. </item>
+     </change>
+	 <change TEIform="change">
+     	          <date TEIform="date">17 June 2002</date>
+     	           <respStmt TEIform="respStmt">
+     	             <name TEIform="name">Ruediger Niehl</name>
+     	             <resp TEIform="resp">spellcheck</resp>
+     	           </respStmt>
+     	           <item TEIform="item">Morpheus spell-check performed. Description of this edition: Text typed - structural tagging complete - semantic tagging complete - Morpheus spell check.</item>
+     </change>
+	 </revisionDesc>
+ </teiHeader>
+
+
+ 
+ 
+
+
+
+<text><gap id="GR"/><gap id="sampling"/><front>
+
+<pb xmlns:html="http://www.w3.org/TR/REC-html40/" id="s001" n="A1a" TEIform="pb"/>
+
+<titlePage xmlns:html="http://www.w3.org/TR/REC-html40/" TEIform="titlePage"><titlePart type="main" TEIform="titlePart">
+Epigrammatum REVERENDI VIRI PHILIPPI MELANTHONIS LIBRI SEX.
+<figure TEIform="figure">
+<figDesc TEIform="figDesc">portrait of Melanchthon</figDesc>
+</figure>
+Witebergae Haeredes Iohannis Cratonis excudebant, ANNO M.D.LXXIX.
+</titlePart></titlePage>
+
+<div xmlns:html="http://www.w3.org/TR/REC-html40/" type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+
+<pb id="s002" n="A1b" TEIform="pb"/>
+
+<pb n="A2a" TEIform="pb"/>
+
+<p TEIform="p">
+INCLUTO ET SUMMAE SPEI ILLUSTRIS: PRINCIPI AC Domino <abbr expan="Domino" TEIform="abbr">D.</abbr> <name type="person" TEIform="name">ALBERTO FRIDERICO</name>, illustrissimi principis et <abbr expan="Domini" TEIform="abbr">D.</abbr> <name type="person" TEIform="name">ALBERTI</name> senioris etc. Filio, Marchioni <name type="place" TEIform="name">Brandenburgensi</name>, Duci <name type="place" TEIform="name">Prussia</name>, <name type="place" TEIform="name">Stetini</name>, <name type="place" TEIform="name">Pomeraniae</name>, etc. Principi <name type="place" TEIform="name">Rugiae</name> etc. et Burggravio <name type="place" TEIform="name">Noribergensi</name> etc. Domino suo clementissimo, S. P. D.
+</p>
+
+<p TEIform="p">NARRAT <name type="person" TEIform="name">STRABO</name>, apud <name type="place" TEIform="name">Iassum</name> <name type="place" TEIform="name">Cariae</name> insulam, quae tum ex piscatu potissimum rem fecerit, eximium quendam citharoedum, cum in praecipui oppidi Theatro publico erudite et suaviter caneret, audirentque eum <name type="place" TEIform="name">Iassi</name> omnes, paulo post, cum tintinnabulum increpuisset, quo piscium venum expositorum daretur signum, statim ab <name type="nation" TEIform="name">Iassiis</name> una omnibus ad forum piscatorium dilapsis, desertum esse, remanente unico surdastro, ad quem cum propius accessisset Musicus, eique et propter Musicae studium et honorem sibi habitum,
+
+<pb id="s003" n="A2b" TEIform="pb"/>
+
+quod non ut ceteri <foreign lang="GR" TEIform="foreign">a)/mousoi</foreign> statim ad tintinnabuli crepitum profugisset piscium causa, gratias egisset, Tum illum, quid ais? num iam tintinnabulum sonuit? dixisse, cumque hic affirmaret, Continuo illum, At tibi o homo bene sit, respondisse, ac protinus ipsum quoque ad emendos pisces procurrisse, atque ita praestantem Musicum ac Poetam turpiter relictum solum, nec quemquam inventum esse in ea tota insula, qui vel ingenii vel artis pulcherrimae opus pluris faceret, quam putridos pisces. Idem in hac difficili et morosa delirantis Mundi senecta tum <reg orig="doctrine" TEIform="reg">doctrinae</reg> de Deo, quam sonant Dei beneficio Ecclesiae nostrae iam <corr sic="annus" resp="transcriber" TEIform="corr">annos</corr> amplius quadraginta, tum artibus liberalis doctrinae omnibus fere, et in primis honestissimis Poeticae studiis accidere utinam falso queri possemus. Facit hoc saeculum, quod deliri senes solent, quos ait <name type="person" TEIform="name">Cicero</name>, quo minus vitae superest, eo plus viatici quaerere. Ita nunc quidem vere sordidis parandarum opum curis et occupationibus, et <name type="person" TEIform="name">Euripidei</name> <name type="myth" TEIform="name">Cyclopis</name> exemplo, uni Deorum Ventri dediti
+
+<pb n="A3a" TEIform="pb"/>
+
+omnes fere ubique terrarum homines, culturam doctrinarum et artium optimarum praecipuum hominis ornamentum et decus turpiter aut contemnunt, aut neglegunt, nec ulla est tam sordida ars, modo quaestuosa sit, quae non, ut a stolidis <name type="nation" TEIform="name">Iassiis</name> putridorum piscium mercatura, studiis ingenii atque doctrinae anteferatur. Inter ipsos scholasticos coetus, qui vere sunt veteris sapientiae ac pietatis et doctrinarum ac virtutum omnium quasi <foreign lang="GR" TEIform="foreign">e)rei/pia</foreign>, neque ardor is est discendi, qui fuit annis superioribus, neque eruditionis et artium optimarum aestimatio. Vivit et versatur in Scholis sonantibus studia doctrinae otiosa fere inventus, remissis animis, sine studio, sine disciplina, sine industria, et donec per aetatem quaestum facere nondum potest, in Theatris tamen studiorum adest, ut <name type="nation" TEIform="name">Iassius</name> ille surdaster, sine auribus, donec florentis aetatis consumpto tempore ad pisces patrios revocetur, interea existimans otium litterarium tantum potioris negotii inopiam esse, nec aliud agi his studiis nostris, quam ut animi ingeniosorum
+
+<pb id="s004" n="A3b" TEIform="pb"/>
+
+hominum sese oblectent <reg orig="ociosa" TEIform="reg">otiosa</reg> litterarum iucunditate, a qua liceat alienis esse, et suo cuique interea genie indulgere, suas oblectationes quaerere. Hic error vel vesania potius in plerorumque animis, etiam qui sapientuli haberi volunt, altius radices egit, quam Ecclesiis, Rebus <abbr expan="publicis" TEIform="abbr">pub.</abbr> et communi generis humani expedit aut dignitati aut incolumitati, evellenda rursus et sananda, si fieri potest, omnium qui doctrinae et litterarum dignitatem, necessitatem et usum intellegunt, auctoritate, studiis, defensione, opera atque omni ingenii orationisque conatu et contentione. Sed ea res universa cum et maioris argumenti sit, quam ut de eo in praesentia dici debere videatur, et multorum litteris iam pridem et querelis cottidie quasi deploretur, non ero nunc prolixior, sed de Poeticae studiis et carminum faciendorum exercitatione admonendae adolescentiae causa initio huius libelli pauca dicam. Constat premi saepe numero Poetices studia non solum perversa vulgi opinione,
+
+<pb n="A4a" TEIform="pb"/>
+
+sed iniquis etiam leviter eruditorum et inconditis iudiciis, existimantium, Poemata non aliud quam <reg orig="ociosi" TEIform="reg">otiosi</reg> temporis quosdam pueriles ludos, et ingeniosorum ridicula <foreign lang="GR" TEIform="foreign">qelkth/ria</foreign> esse, nec amplius quicquam in iis requiri aut spectari oportere. Hoc perversitatis contagio imbuti iuniorum animi, praesertim in hac fatali, de qua dixi, optimarum artium neglegentia et fastidio, quod superioris saeculi ardorem erga studia aviditateque discendi subsecutu nescio quomodo subinde incrementa sumit, nec cognitas quidem litteras Poetarum, ut minus vitae necessarias aut passim neglegunt, aut securi etiam contemnunt, non secus acrem nihili, aut si numeros demas, non multo praestantiorem anilibus fabellis, quibus vel recitandis vel occinendis ad colum aut foculum longi temporis levetur taedium, labor, atque molestia, denique non admodum dignam statuunt, in qua temporis aliquid operaeque ponatur, de quo est longe sentiendum aliter. Nam quod ad <corr sic="isam" resp="transcriber" TEIform="corr">ipsam</corr> facultatem attinet, qua praestantissimi viri apud <name type="nation" TEIform="name">Hebraeos</name>,
+
+<pb id="s005" n="A4b" TEIform="pb"/>
+
+<name type="person" TEIform="name">Moses</name>, <name type="person" TEIform="name">Samuel</name>, <name type="person" TEIform="name">David</name>, <name type="person" TEIform="name">Asaph</name>: apud <name type="nation" TEIform="name">Graecos</name> <name type="myth" TEIform="name">Orpheus</name>, <name type="person" TEIform="name">Homerus</name>, <name type="person" TEIform="name">Pindarus</name>: apud <name type="nation" TEIform="name">Latinos</name> <name type="person" TEIform="name">Virgilius</name>, <name type="person" TEIform="name">Ovidius</name>, <name type="person" TEIform="name">Horatius</name>, et alii innumerabiles excelluerunt, sic statuendum est, Poeticen non minus quam alios Heroicos motus singulare Dei et eximium donum esse, concessum illustribus ingeniis ad Dei et virtutum et rerum, quae divinitus fiunt in genere humano, celebrationem. Non enim casu conditum est genus humanum, nec fortunae caeco aut temerario impetu, ut navis sine Nauclero regitur, sed in omnibus parvis et magnis imperiis lucet gubernatio divina, plena documentis sapientiae, bonitatis, iustitiae et severitatis Dei, ac manifestum est, a Deo, ut <name type="person" TEIform="name">Daniel</name> inquit, constitui et stabiliri regna, ac rursum mutari et transferri conspicuis praemiorum et poenarum exemplis, Denique et singulorum hominum res, actiones, eventus respici a mente divina. Haec providentiae Dei et praesentiae in genere humano testimonia cum et agnosci conditor omnipotens et celebrari velit etiam extra Ecclesiam, ad eam rem semper
+
+<pb n="A5a" TEIform="pb"/>
+
+excitat praestantia ingenia, quorum ipsorum motus esse immediate Dei opus et donum, aliis non solum rudibus litterarum, sed etiam eruditis hominibus <foreign lang="GR" TEIform="foreign">a)mi/mhton kai\ a)dunato\n</foreign>, est ante omnium manus (ut ita dicam) atque oculos. Quis enim umquam fuit tam ineptae ac temerariae seu spei seu arrogantiae, qui aut <name type="person" TEIform="name">Davidis</name> ineffabiles, eius, quae secundum Deum est pietatis, affectus, aut <name type="person" TEIform="name">Homeri</name> et <name type="person" TEIform="name">Virgilii</name> numerosas politicae vitae <name type="place" TEIform="name">Idaeas</name> et quasi <foreign lang="GR" TEIform="foreign">ei)/soptra</foreign> rerum humanarum, aut suavissimam <name type="person" TEIform="name">Ovidianarum</name> <foreign lang="GR" TEIform="foreign">metamorfosew=n</foreign> varietatem sese imitando, non dico superare, sed exprimere posse confideret? Etsi autem in languescente in dies hominum natura, eam excellentiam ingeniorum quae antiquis illis saeculis fuit, decrementa sumere fatendum est: tamen hoc quoque et opus Dei et beneficium singulare censeatur, quod illorum summorum hominum monumenta inter fatales mutationes et ruinas regnorum et politiarum tam multis saeculis conservata sunt ad hanc usque extremam mundi fatiscentis posteritatem,
+
+<pb id="s006" n="A5b" TEIform="pb"/>
+
+nimirum ut nunc etiam exstarent aliquae tamquam normae, ad quarum typum atque exemplum a praeclaris et divinitus ad hoc excitatis ingeniis formarentur Poemata, celebrantia veri Dei laudes et virtutum
+ exempla, aliasque res in vita bonas, elegantibus, doctis et sonoris versibus. Hanc esse veram Poeticorum studiorum originem, propagationem atque usum, et docti et alii omnium aetatum sapientes gubernatores animadverterunt, unde qui honor Poetis omnibus fuerit, quantum decus in facultate fundendi bonum carmen inesse semper existimatum sit, quae auctoritas versibus praestantium Poetarum tamquam oraculis attributa sit ab universa sapiente et docta vetustate, ignorare non possunt ulli, qui leviter ea litterarum monumenta aspexerunt, quae ad nostram aetatem pervenerunt, <name type="person" TEIform="name">Platonis</name> dico, <name type="person" TEIform="name">Aristotelis</name>, <name type="person" TEIform="name">Demosthenis</name>, <name type="person" TEIform="name">Ciceronis</name>, <name type="person" TEIform="name">Quintiliani</name>, et post hos <name type="person" TEIform="name">Strabonis</name>, <name type="person" TEIform="name">Pausaniae</name>, <name type="person" TEIform="name">Plutarchi</name>, denique omnium, qui de studiis antiquitatis aliquid scripserunt.
+
+<pb n="A6a" TEIform="pb"/>
+
+Ac ne penes Ethnicos tantum constitisse Poeticorum ingeniorum fecunditas existimari possit, consideretur, et Ecclesiam Dei omnium temporum eximios Poetas habuisse, qui intelligentes <name type="myth" TEIform="name">Musarum</name> summum et praecipuum officium esse celebrationem veri Dei, cuius <name type="myth" TEIform="name">Musae</name> et opus et donum sunt, omnem ingenii vim, eruditionem, elegantiam ad <name type="person" TEIform="name">Christum</name> <foreign lang="GR" TEIform="foreign">u(/ion ai)/dion ai)di/ou patro\s</foreign> unicum Ecclesiae <foreign lang="GR" TEIform="foreign">Zwth=ra</foreign> et gubernatorem mirificum, aeternarum laudum praeconiis concinendum sapienter pieque contulerunt, indeque et ingenii et verae erga Deum pietatis laudem vivi, et post obitum aeternam nominis famam immortalitatemque consecuti, soli nunc verorum Poetarum fructu, gloria et praemiis cum Deo, Angelis, et sanctus omnibus in aeternitate fruuntur.
+De qua re eruditae antiquitatis exempla ac monumenta et <name type="nation" TEIform="name">graeca</name> et <name type="nation" TEIform="name">latina</name> cum auctorum nominibus, complura recitare possemus, praesertim si et veteres et recentioris memoriae Poetas quarumlibet nationum commemorare vellemus, sed 
+
+<pb id="s007" n="A6b" TEIform="pb"/>
+
+et haec nimis longa futura esset, et Epistolae modum excessura oratio, quam nunc ad id quod agimus revocemus. Annis igitur superioribus in <name type="place" TEIform="name">Germania</name> excitatis rursum cum luce Evangelii melioribus linguarum et artium studiis, meminimus, virum ingenio, sapientia, eruditione, iudicio, pietate erga Deum, sedulitate laborum in docendo, beneficentia et virtutum omnium ornamentis, denique et meritorum erga Ecclesiam, Rem <abbr expan="publicam" TEIform="abbr">pub.</abbr> et posteritatem vera existimatione et fama clarissimum <name type="person" TEIform="name">PHILIPPUM MELANTHONEM</name>, communem eruditorum omnium saeculi nostri praeceptorem merito habitum, cum et instaurator esset studiorum omnis doctrinae piae et liberalis singulari munere Dei datus, et assertor ac vindex acerrimus, propagator felicissimus, magno conatu Poeticae quoque studia excitasse, cum frequenter summos Poetas <name type="nation" TEIform="name">Graecos</name> et <name type="nation" TEIform="name">Latinos</name> aut enarraret ipse, aut si quando occupationum mole, qua semper pene obrutus Ecclesiae et Scholis serviebat, impediretur, eosdem enarrandos aliis committeret, quos tamen
+
+<pb n="A7a" TEIform="pb"/>
+
+adiuvabat illo praesertim tempore, subiectionibus eruditis earum rerum, quae in optimo quoque Poeta, aut consideratione dignissimae essent, aut velut in eximii operis pictura maxime eminerent.
+Tum vero si quos ingenii bonitate et naturae impetu eximio ferri ad haec studia animadvertisset, hos plenis, quod aiunt, velis et remis impellebat, ut Dei singulari dono uterentur et conatu, quanto possent, cursuque maximo ad palmae honorificentissimae dignitatem fastigiumque contenderent, denique ut Ecclesiam, ut patriam, ut sese ornare studerent perpetuo duraturis ingeniorum monumentis.
+Hinc prodierunt nobis <name type="person" TEIform="name">H. Eobanus Hessus</name>, <name type="person" TEIform="name">Sabinus</name>, <name type="person" TEIform="name">Stigelius</name>, <name type="person" TEIform="name">Micyllus</name>, <name type="person" TEIform="name">Lotichius</name> et alii complures, quorum vita functorum leguntur cum admiratione et voluptate Poemata, et legentur donec aliqua in <name type="place" TEIform="name">Germania</name> erunt doctrinae studia, ut taceam eos, qui adhuc superstites iam clari sunt, quos quasi in os laudare, eos praesertim, qui aliquo usu familiaritatis nobis coniuncti sunt, nec qua sunt humanitate
+
+<pb id="s008" n="A7b" TEIform="pb"/>
+
+patiuntur ipsi, neque est verecundiae meae, cum in plerisque horum existimem, quod est ante oculos, MAIOREM ET INGENII <corr sic="SOLERTIAM" resp="transcriber" TEIform="corr">SOLLERTIAM</corr>
+ ET DOCTRINAE COPIAM ATQUE GRAVITATEM, ET POEMATUM QUASI MAIESTATEM ESSE, quam ut commendationem iudicii nostri, quod aut nullum est, aut exiguum, videantur admittere. Sed ad <name type="person" TEIform="name">Philippum</name> redeo, et institutam quasi sub aliena persona de Poetice studiis commonefactionem.
+Ut autem apud <name type="person" TEIform="name">Virgilium</name> de excellenti virtute dicitur,
+</p>
+<lg met="hexa" org="uniform" sample="complete" TEIform="lg" part="N">
+<l rend="indent" TEIform="l" part="N">Pauci quos aequus amavit</l>
+<l TEIform="l" part="N"><reg orig="Iupiter" TEIform="reg"><name type="myth" TEIform="name">Iuppiter</name></reg>, aut ardens evexit ad aethera virtus:</l>
+<l TEIform="l" part="N">Diis geniti potuere: </l>
+</lg>
+<p TEIform="p">
+Ita dicent fortasse nonnulli, excellentium ingeniorum, hoc est, eorum, qui ad illa divino naturae impetu, et ut ait <name type="person" TEIform="name">Plato</name> tamquam <foreign lang="GR" TEIform="foreign">o)qeasikoi\</foreign>, ferantur, Poeticae studia esse, reliquis satis esse, si ex <name type="person" TEIform="name">Cicerone</name> puram discant latinitatem, indeque mediocrem sibi dicendi scribendique facultatem comparent, quod non ita est.
+
+<pb n="A8a" TEIform="pb"/>
+
+Nam et ipse <name type="person" TEIform="name">Cicero</name> ex Poeticae fontibus se Eloquentiam hausisse confitetur, et adfert Poetarum lectio ac versuum contexendorum exercitatio iis etiam, qui Poetae futuri non sunt, nequaquam neglegendas utilitates.
+Discent melius Grammaticen iuniores, cum in Poetis syllabarum quantitates et figurarum, quibus hoc genus scriptorum abundat, varietatem considerabunt. Ac propter iucunditatem primae aetati Poetarum lectionem magis congruere sensit et vetustas, quae in scholis adolescentiae <name type="person" TEIform="name">Homeri</name> <name type="person" TEIform="name">Virgiliique</name> lectionem semper primam esse voluit, et docet experientia.
+Iam vero progressis uberiore ingenii et doctrinae cultu, quantum in his studiis sit praesidii, adiumenti, decoris, ex eo constat quod nulla Philosophiae, nulla eloquentiae, nulla denique non solum liberalis, sed etiam piae religiosaeque doctrinae pars est, quae non sit Poeticis litteris atque monumentis comprehensa, tradita, explicata, illustrata, ut recte de <name type="person" TEIform="name">Theophrasti</name> multorumque aliorum sententia scripserit <name type="person" TEIform="name">Fabius</name> studiorum 
+
+<pb id="s009" n="A8b" TEIform="pb"/>
+
+et formator et censor gravissimus, plurimum Oratori, cui omnium artium et disciplinarum tribuit cognitionem, conferre lectionem Poetarum, quod ab his et in rebus (sic enim ipse loquitur) spiritus, et in verbis sublimitas, et in affectibus motus omnis, et in personis decor petatur.
+Postremo condimentum quoddam studiorum omnium Poeticae cognitio est, sine qua reliquae litterae nescio quomodo asperae, morosae, tetricae apparerent, cuius quidem dignitas, usus, iucunditas, si eiusmodi, ut experiuntur eruditi, imperitorum oculis cerneretur, dubitare non possumus, quin, ut est in <name type="person" TEIform="name">Phaedro</name> <name type="person" TEIform="name">Platonis</name>, mirabiles sui amores excitatura esset.
+Sed removeatur ab hoc condimento, levitas, dicacitas, scurrilitas, quibus vitiis qui sunt delectati, ut semper est optimarum in vita rerum abusus aliquis, non tam in Poetarum numero, quam scurrarum habendi sunt, cum eos magis horum pravitatem, quam illorum vim decusque exprimere studuisse manifestum sit.
+
+<pb n="B1a" TEIform="pb"/>  
+
+Haec et in eandem sententiam alia multa, quam inter docendum sermonibus crebris monuisset <name type="person" TEIform="name">PHILIPPUS</name>, scribebat ipse quoque non longa Poemata (qui enim poterat alioqui vir occupatissimus Ecclesiae, Reique publicae negotiis infinitis: cum, ut verissime <name type="person" TEIform="name">Ovidius</name> cecinit, Carmina secessum scribentis et <reg orig="ocia" TEIform="reg">otia</reg> poscant?) sed scribebat tamen saepe quasi aliud agens non prolixi argumenti <foreign lang="GR" TEIform="foreign">poih/mata</foreign>, Epistolas, Precationes, Allegoriarum sacrarum interpretationes, Eclipsium descriptiones, Psalmos, Epitaphia, Hymnos, et id genus alia multa, vel ut aliis argumentum praeformaret, vel etiam exemplo suo poeticae usum et oblectationem cum dignitate coniunctam ostenderet, in materiis gravibus, eruditis, piis, utilibus, et sine levitate iucundis, nec modo ab anilium fabellarum futilitate alienis, sed et ingeniosis, et, ut verbo dicam, cum pietate, tum humanitate plenis, denique eiusmodi, ut his vere tribui posset <name type="person" TEIform="name">Platonicum</name> illud Elogion, quod est in tertio de legibus: <foreign lang="GR" TEIform="foreign">qei=on to\ poitihko\n kai\ o)qea/sikon o)n os u(mnw=dou=n polliw=n tu=
+
+<pb id="s010" n="B1b" TEIform="pb"/>
+
+kaq' a)lh/qeian gignomev/wn cu/n tisi charisi xa/risikai\ mou=sais e)fa/pet e(ka/sote. </foreign> Quod qui considerabunt, facile iam me tacente intelligent id, propter quod haec nobis commemoratio suscepta fuit de viri summi et iudicio et exemplo, amplius quiddam in hoc studiorum genere quaerendum esse, quam inanem <reg orig="ociosi" TEIform="reg">otiosi</reg> temporis oblectationem.
+Quod autem ad Epigrammata (sic enim sane nominemus Poemata, hoc a nobis volumine collecta et edita) attinet, ea vero magna ex parte, etsi ingenium, eruditionem, quotidianarum cogitationum pietatem et humanitatem auctoris perspicue ostendant, ab ipso tamen, ut qui nihil umquam aut scriberet aut faceret ad ostentationem, neque collecta, neque asservata sunt, sed a scholasticis sparsim pleraque descripta, nonnulla etiam <reg orig="cartis" TEIform="reg">chartis</reg> incompositis excusa circumferebantur, donec ante quinquennium tres eorum libelli simul prodirent, non solum mendosissime editi, sed etiam foetibus <reg orig="supposititiis" TEIform="reg">suppositiciis</reg> pleni, qui tamen et propter auctoris, tamquam Poetarum parentis, celebre nomen, et materiarum
+
+<pb n="B2a" TEIform="pb"/>
+
+praestantiam ita avide empti sunt a studiosis lectoribus, ut brevi temporis spatio exempla haberi desierint, quae cum requiri crebro multumque bibliopolae nostrates animadvertissent, denuo subicere praelo tres illos Epigrammatum libellos statuerunt, meque rogarunt, ut quantum possem, quae in editione priori <reg orig="viciosa" TEIform="reg">vitiosa</reg>, aut non genuina fuissent, emendarem ac removerem, et si qua ipse reposita haberem, editioni novae adderem, qua in re non tam ipsis, quam Rei publicae scholasticae cum summa voluntate gratificari conatus sum.
+Vitia igitur graphica prioris editionis, qua et multa et foeda erant, et saepenumero sententiarum quasi sepeliebant intellectum, correximus, et versus quos vel ab ipso auctore emendatos memineramus, aut alioqui perperam descriptos, restituimus, Epigrammata suppositicia removimus alicubi genuina etiam sed bis posita, et temere ac loco non suo iterata resecuimus, et de quibus scire potuimus, numerum anni, quo scripta sunt, notavimus.
+
+<pb id="s011" n="B2b" TEIform="pb"/>
+
+Addidimus autem prioribus libris TRES ALIOS NOVOS libellos, singulari studio ex mea et amicorum Bibliothecis collectos, ut nunc sex libri conficiant iustum Epigrammatum Opus. Nec me eius, quantulacumque est, operae paenitet. Nam quod ad me privatim attinet, ostendam alibi, iuvante Deo, quibus rebus huic sancto viro sim obstrictus ad aeternam gratitudinem. Nunc autem de omnibus, quos reliquit ille post se non adulterinae naturae discipulos, quorum in numero nomen meum profiteor, affirmo deberi hoc officium praestantissimo, optimaeque de re litteraria merito Praeceptori, ut omnia ab eo profecta ingenii et doctrinae monumenta, tamquam sacras reliquias non solum colligamus, sed etiam a mendis neglegentiae librariorum saeculi huius (quantum per horum turpem in hoc vitio pertinaciam licet) vindicemus: CARMINUM autem <name type="person" TEIform="name">PHILIPPI</name> illa ingeniosa atque erudita facilitas, et his comprehensa rerum bonitas tanta est, ut non solum posteritatis facile sustinere possit aequissimam censuram,
+
+<pb n="B3a" TEIform="pb"/>
+
+sed etiam praesentis saeculi iam pridem apud exteras gentes honorifica iudicia experta sit.
+
+Ac de his <name type="nation" TEIform="name">Itali</name>, quos iniquiores <name type="nation" TEIform="name">Germanicorum</name> ingeniorum censores plerique existimant, non sentire solum honorifice, sed scribere etiam in iis, quos de Poeticae studiis reliquerunt, monumentis, non dubitaverunt.
+Nam ut omittam <name type="person" TEIform="name">Bembi</name>, <name type="person" TEIform="name">Sadoleti</name>, <name type="person" TEIform="name">Giraldi</name> testificationes plenas eruditionis, multorum instar sit nobis <name type="person" TEIform="name">Iulius Caesar Scaliger</name>, et fidei non suspecta testis, et censor iudicii acrimonia gravis, cuius de <name type="place" TEIform="name">Germaniae</name> Poetis, inter quos <name type="person" TEIform="name">PHILIPPUM</name> vel primum vel paene solum ponit, in <abbr expan="?" TEIform="abbr">V I. lib.</abbr> Poetices, qui et Hypercriticus inscribitur, haec sunt verba: Ne <name type="person" TEIform="name">Melanthon</name> quidem abhorruit ab ea laude, quae ex Poeticis artibus comparatur, tametsi nonnulli eius populares, insanis quibusdam praeceptionibus, e Christiana Re publica Poetas exigendos exclamaverunt, quorum barbarissimam amentiam, non verbis, neque enim
+
+<pb id="s012" n="B3b" TEIform="pb"/>
+
+verbis aut nugis vinci queunt, sed contrariis effectionibus doctissimus quisque damnavit.
+Illius igitur ingenium magnum atque ad omnia comparatum intellegemus ex iis poematiis, quibus Solis Lunaeque defectiones cecinit. Nam et tempora varie describit eadem versibus luculentis et eodem nitore praesagia statuit, cuius vestigia secuti sunt non ignobili ingenio <name type="nation" TEIform="name">Germani</name> aliquot, <name type="person" TEIform="name">Stigelius</name>, <name type="person" TEIform="name">Aemilius</name>, <name type="person" TEIform="name">Acontius</name>, <name type="person" TEIform="name">Volfius</name>, <name type="person" TEIform="name">Camerarius</name>, idem <name type="person" TEIform="name">PHILIPPUS</name> in Epigrammate iucundus atque festivus <abbr expan="et cetera" TEIform="abbr">etc.</abbr>
+Haec de <name type="nation" TEIform="name">Germano</name> <name type="nation" TEIform="name">Italus</name>, nulli eorum qui in iisdem regionibus vixerunt, aut nunc vivunt, vel eruditionis varietate, vel in hoc studiorum genere iudicii et censurae gravitate secundus. Cumque propemodum haec ipsa Poemata, quorum pleraque in hoc volumine continentur, quasi digito designaverit, cur eius ipsius verba atque integrum paene locum adscribere vellemus, causam nobis esse putavimus, etsi profecto ipsa sese ita commendent haec <name type="person" TEIform="name">PHILIPPI</name> Epigrammata, ut nomine auctoris sui cuius
+
+<pb n="B4a" TEIform="pb"/>
+
+celebritati et famae ingenii, doctrinae et vir tutum dotibus comparatae, idem est, qui orbi terrarum terminus, contenta, non desiderent alienae laudis commendationem.
+
+Ad te autem inclute et illustrissime Princeps <name type="person" TEIform="name">Alberte Friderice</name>, cur hoc munus mittere vellemus, multae causae fuerunt. Nam cum patrem tuum sanctissimum atque optimum Principem de Ecclesiis et universa patria etiam in hac senecta pie, liberaliter, animose, patienter, et  sine fine, praeclarissime merentem singulari semper clementia et benignitate complexum fuisse <name type="person" TEIform="name">PHILIPPUM</name>, et hanc totam Academiam meminerimus Celsitudini ipsius hanc qualemcumque significationem nostrae gratitudinis et observantiae erga totam illustrissimam Marchionum <abbr expan="?" TEIform="abbr">B.</abbr> familiam, et inclutam domum <name type="nation" TEIform="name">Borussiacam</name>, cuius celsitudo ipsius prima et Dei beneficio auspicatissima stirps est, teque in primis Heroicae indolis <corr sic="amplicissimaeque" resp="transcriber" TEIform="corr">amplissimaeque</corr> spei, et numquam satis laudati patris plane <foreign lang="GR" TEIform="foreign">gnh/sion u(i\on</foreign>, ut debitam, ita non ingrata fore
+
+<pb id="s013" n="B4b" TEIform="pb"/>
+
+existimavimus. In quo et illud nos confirmabat, quod hoc opus magna ex parte sacrorum <name type="person" TEIform="name">PHILIPPI</name> carminum, in quibus nihil  reperitur, nisi aut ingeniosum, aut pium, aut doctum, maxime utile fore videbatur illustrissimae adolescentiae tuae, in qua, cum non solum Philosophicis et politicis artibus sed etiam vero intellectu doctrinae Ecclesiae, sapienti pioque consilio patris iam inde a prima aetate fideliter instituaris, illustris natura tua excitata crebra iam lectione piorum Poematum, quibus peculiaris quaedam <foreign lang="GR" TEIform="foreign">e)ne/rgeia</foreign> solet inesse, quo per se est generosior, eo maiores ad studia doctrinae, pietatis et sapientiae cum accrescente aetate subinde concipiet impetus.
+
+Legent etiam alii et senes eruditi cum voluptate, et iuniores litteris dediti studio maiore, cum hoc opus, quod ad maximam carminum partem attinet, quasi post humum <name type="person" TEIform="name">Philippi</name>, tibi, tuisque studiis dicatum, tamquam in clientelam sapientissimi et fortissimi Principis patris tui, tuamque traditum esse cogitabunt.
+
+<pb n="B5a" TEIform="pb"/>
+
+Ante annos 28. Paene adhuc puer vidi et audivi illustrissimum Principem <name type="person" TEIform="name">Georgium</name> Marchionem <abbr expan="?" TEIform="abbr">B.</abbr> patruum tuum commemorabili pietate, clementia et comitate colloquentem de Ecclesiae doctrina et litteris cum <name type="person" TEIform="name">Iohanne Hesso</name> Theologiae <abbr expan="?" TEIform="abbr">D.</abbr> <name type="place" TEIform="name">Vratislaviae</name> in patria mea, de quo et ego multa commemorare possem, et scit plurima Reverendus et clarissimus vir <name type="person" TEIform="name">Iohannes Aurifaber Hessi</name> gener, <abbr expan="?" TEIform="abbr">T. C.</abbr> in gubernatione rerum Ecclesiasticarum fidelissimus Praesidens.
+Patris eruditio et pietas orbe toto conspicua et celebris est, <reg orig="Exstant" TEIform="reg">Exstant</reg> et in historiis Illustrissimae familiae tuae innumera, et ea quidem perpetuae celebritatis maiorum tuorum sapientiae, fortitudinis et eloquentiae monumenta, sed certe Patris et Patrui <name type="person" TEIform="name">Georgii</name> recentia et ante oculos posita illustria exempla, quorum te imaginem referre, et vestigia cum magna laude ingredi fama est, me et alios ad singularem tui observantiam, et spem de <abbr expan="?" TEIform="abbr">T. C.</abbr> maximam inflammaverunt, iam pridem bene precantem successibus tuis, et saepe animo repetentem
+
+<pb id="s014" n="B5b" TEIform="pb"/>
+
+cum de te cogito, <name type="myth" TEIform="name">Andromaches</name> ad <name type="myth" TEIform="name">Astyanactem</name> exhortationem, quae est apud optimum poetam paulum mutato versu eiusmodi fere:
+<q TEIform="q" direct="unspecified">Ecquid in antiquam virtutem, animosque viriles
+Et pater <name type="person" TEIform="name">Albertus</name>, patruusque <name type="person" TEIform="name">Georgius</name> armant.</q>
+Accessit denique his omnibus hortator et impulsor vir Reverendus <name type="person" TEIform="name">Iohannes Draconites</name>, Ecclesiarum illustrissimae Celsitudinis tuae in <name type="place" TEIform="name">Pomesanensi</name> tractu <foreign lang="GR" TEIform="foreign">e)pi/skwos</foreign>, qui toto hoc tempore, quo ei, pia et clementissima concessione illustrissimi patris tui, nobiscum in <name type="place" TEIform="name">Vitebergensi</name> Academia, religiosi Operis conficiendi causa commorari licuit, domus meae hospitio usus, de tua Heroica Indole magna omnia de se iam in ipsis adolescentiae initiis promittente, crebro multumque commutatis sermonibus, admirationem, amorem et observantiam erga te meam mirifice auxit, et pergratam tuae celsitudini hanc piarum <name type="myth" TEIform="name">Musarum</name> dedicationem fore mihi persuasit.
+Accipe igitur Illustrissime adolescens et Inclute Princeps, patriae et afflictarum
+
+<pb n="B6a" TEIform="pb"/>       
+
+Ecclesiarum spes summa, et secundum Deum unica, accipe hilari vultu, quae se tibi offerunt atque dedunt, <name type="place" TEIform="name">Albiacas</name> natas ex patre <name type="person" TEIform="name">Melanthone</name> <name type="myth" TEIform="name">Musas</name>, quae se tibi ita commendant, ut et hoc tempore de amplissimi ingenii, doctrinae, et Heroicarum virtutum tuarum, non minus quam incolumitatis et fortunarum cottidianis, et numquam desituris, iuvante Deo, incrementis tibi gratulentur, et simul rogent, quod pro Heroica indole tua sponte facturus es, ut digna Principis tantae spei benevolentia sese complectare, de quibus hoc <abbr expan="?" TEIform="abbr">C. T.</abbr> rursum polliceor, te, quo maior in eas animi tui propensio futura est, eo plus ex iis tandem et utilitas et verorum ornamentorum indolis atque ingenii reportaturum.
+Postremo Deum aeternum Patrem per filium coaeternum et <foreign lang="GR" TEIform="foreign">swth=ra</foreign> generis humani <name type="person" TEIform="name">Iesum Christum</name> omni animi contentione oro, ut illustrissimum patrem in ista laudabili senecta, et te florentem aetate tantoque patre dignissimum filium, ac patris sola me unicum in terris communi patriae
+
+<pb id="s015" n="B6b" TEIform="pb"/>
+
+Ecclesiae, litteris, paci subditorum, posteritati et rebus bonis omnibus, atque ita utrumque utrique inter orbi terrarum salutares Principes diu servet incolumes et beatos. Bene et feliciter valete. <name type="place" TEIform="name">Witebergae</name> <date value="03-25" TEIform="date">VIII. Cal. April</date>, qui est dies et assumptae humanae naturae et sacrificii Filii Dei, ut Ecclesiae historia docet <abbr expan="et cetera" TEIform="abbr">etc.</abbr> Anno 1563.
+Inclutae et <abbr expan="illustrissimae" TEIform="abbr">illustriss.</abbr> celsitudinis <abbr expan="?" TEIform="abbr">V.</abbr> Servus Petrus Vincentius Vratislaviensis Professor in Academia Witebergensi <abbr expan="et cetera" TEIform="abbr">etc.</abbr>
+</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

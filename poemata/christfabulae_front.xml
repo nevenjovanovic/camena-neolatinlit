@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Fabularum veterum Aesopiarum libri duo.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Christ" TEIform="author">Christ, Johann Friedrich</author>
+<editor TEIform="editor" role="editor">Christ, Johann Friedrich</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, April 2004</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Knebusch</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/christ1" type="href" id="christ1" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">christ1</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">christfabulae.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">christfabulae.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">christ1/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Leipzig: Breitkopf, 1749.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">15 August 2005</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Jutta Jaeger, Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">Note: The enclitic 'que' which appears separately in the original has been joined to the preceding word throughout. Note: The commentary to the fables is not included in this transcription. Typed text - structural tagging complete - no semantic tagging - Morpheus spell check
+</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+
+<text><gap id="GR"/><gap id="Greek"/><gap id="sampling"/><front>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">
+IOH. FRID. CHRISTII
+FABULARUM VETERUM AESOPIARUM LIBRI DUO.
+<gap desc="illustration" TEIform="gap"/>
+Fabularum veterum Aesopiarum libri duo.
+LIPSIAE
+EX OFFICINA BREITKOPFIA
+A C. N. MDCCXXXXVIIII.</titlePart></titlePage>
+<pb id="s003" TEIform="pb"/>
+<div org="uniform" sample="complete" TEIform="div" part="N">
+<head>PRAEFATIO</head>
+<p TEIform="p">Quum reliquae litterae proavorum memoria e monumentis veterum excitatae surgerent, etiam fabulae 
+Aesopiae honestissimo ingeniorum certamine nituerunt: ut adeo ante Fontanum, quem aliqui unum ferunt, 
+essent homines docti non pauci, qui ostenderent, quo pacto optime narranda fabula esset. Attamen, si 
+formam huius argumenti propius intueare, velisque scribendo impletam fuisse illius mensuram, desideresque legere fabulas facetas et commodas, valdeque, ad imaginem vetustatis, Latinas, in arctum copiae 
+coguntur. Nam qua paucos aestimamus scriptores, qui optime in eo genere versati sunt, ut Camerarius, ut 
+Faernus: ad rectam puerorum institutionem, cui rei unice eos studuisse constat, ferme satis: ad reliquas 
+fabulae Aesopiae virtutes, si quaedam non multa exceperis, parum
+<pb id="s004" TEIform="pb"/>
+praestiterunt. Amplius nimirum illi vitam humanam praeceptis instruerent: viros etiam quadam faceta 
+elegantique urbanitate, dum pueros informabant, tenerent: adderent interdum copiam, rebusque parvis 
+dignitatem. Ista intuitus argumenti naturam, neque iniquus iudex, iuxta mecum putabis. Nisi quaevis 
+undique congesta, eaque narrata pure, verbisque, quam fieri potest, paucissimis, fabulam esse protinus 
+Aesopiam, quae probari debeat, existimes. Hoc propositum fuit illis ingenio ac virtute primariis viris, 
+adstricta insigni brevitate argumenta fabularum quamplurima tradere. Sed narratio mollis et iucunda, quae 
+illis rebus, tamquam animae corpus suum, circumdatur, copiam nonnullam festivam poscit: non istam 
+tenuitatem paene siccam. In ubertate satietas vitanda est hactenus, ne deficiat animus legentium, pascendus 
+ille proventu quodam elegantiae urbanitatisque iuxta fabulam sitae. Illi plerumque scriptores velut ossa 
+ingenii Aesopei, carnes ac nervos repraesentare non sunt ausi. Qua in re ille quoque, suspectus mihi merito 
+suo Phaedri sub nomine poeta, falsus fuit, dum, quas <sic TEIform="sic">periochas</sic> fabularum invenerat, novo verborum 
+compendio arctiores plerasque, quam erant praebitae, videtur fecisse, sola brevitate munda mensus fabulae 
+virtutem. Hanc autem dari mihi veniam hac in re postulo, ut liceat tantisper, dum omnia liquidius 
+apparuerint, quinque Phaedri libros,
+<pb id="s005" TEIform="pb"/>
+quales sunt editi, saltem ex parte, graves ob causas suspectos habere, idque cum integra eorum, qui nostra 
+legent, gratia. Amant enim eum aut assuetudine a pueritia ediscendi, aut iudicio, multi, et sensi eos aegre 
+ferre libertatem sententiae meae. Est vero facetus subinde ac nitidus, candorisque veteris Latii aemulus: 
+labat in aliis, quae fugiunt plerosque, aut reliquis eius virtutibus donantur. Accedit cognita ac spectata illius, 
+qui primus edidit, fides: praecipua eorum, quorum quisque ingenii ac litterarum sua aetate, suo in populo, 
+facile princeps esset, auctoritas testata: publicus expetendis repetitae toties editionis exemplis favor: alia 
+eiuscemodi. Sed obstant his, praeterquam quod res et verba sunt prodita in libris illis quinque multa, quae 
+cum temporibus, personis, institutis, sententiisque Romae veteris aperte pugnant, testimonia certa fide 
+dignissimorum hominum, ac monumenta librorum aliorum. De quibus equidem commentando traxi notas 
+atque animadversiones plurimas, quarum vi coniuncta sic ille arguitur urgueturque, ut monstri sit simile 
+futurum, si tamen esse verus, tot rebus abludens et mancus, vincatur. Inter tanta tamen operis contaminati, 
+mentientisque saeculum et nomen alienum, signa, nullum mihi videtur maius esse, quam forma quaedam 
+narrationis disertae, quam prope ubique veteres, ille, si paucissimas exceperis fabulas, prope nusquam recte 
+tenuit.
+<pb id="s006" TEIform="pb"/>
+Idcirco mihi visus sum, hanc amplexus partem, operae pretium facturus, si meis his fabellis, quarum 
+argumenta et verba quoque alique e libris eis petita sunt, e quibus puto qualemcumque Phaedrum profecisse, 
+quid posset in his narratione meliore fieri, experimento tentarem. Curavi autem, ut ad hos propemodum 
+redactae numeros, ad haec verba, ad has facetias, fabulae viderentur prodire, quibus rebus olim scriptas 
+fuisse trimetris, ante Phaedrum personatum, ab aliquo poeta vetere, veri simillimum est. Non omnis earum 
+forma, mea quidem sententia, quamquam in epitomen concisae sint, sic interiit, ut ne pleniora saepe melioraque Phaedrinis exire sic quoque in publicum, vetustorum librorum e vestigiis, posse crederem. Istud si sim 
+assecutus ingenio, iudiciis aliorum aestimandum lubens permitto. Putavi vero, sumendam esse mihi hanc 
+operam, etsi gratuita sit futura: dummodo vera exemplo ostenderem, ac rectissima quaeque vel hoc lusu 
+docerem: simul Phaedri nomen, suspectum mihi, falsisque quibusdam rebus circumdatum, nudarem.
+Aesopias inscripsi fabulas, non modo eius exemplo, qui pro Phaedro fertur, verum etiam quia bonum ac 
+traditum a veteribus vocabulum esse reor, ut fabulae, quae ad similitudinem earum, quas Aesopus 
+tradidisset, velut imitando eum, fierent, Aesopiae: reliquae,
+<pb id="s007" TEIform="pb"/>
+ab ipso inventae, Aesopi, aut Aesopicae, non Aesopiae, vocarentur. Ipse certe, quem pro Phaedro legunt 
+vulgo,
+<cit TEIform="cit"><q TEIform="q" direct="unspecified">Quas Aesopias, non Aesopi, nomino,</q></cit> 
+et mox deinde,
+<cit TEIform="cit"><q TEIform="q" direct="unspecified">Usus vetusto genere, sed rebus novis.</q></cit>
+ ac rursus,
+<cit TEIform="cit"><q TEIform="q" direct="unspecified">Aesopi nomen sicubi interposuero,
+Auctoritatis esse scito gratia.</q></cit>
+Hanc autem verbi formam, tamquam mundiorem, soni causa potius retinui, producta quidem altera a fine 
+syllaba, quam ut Aesopeas dicerem: utut hoc quoque rectum sit, atque etiam casu, aliterque inflexo 
+vocabulo, nitidius altero. Ut vicissim sonantius cadat ac melius, de Aesopeis memorare, quam de Aesopiis. 
+Scio tamen, me non ubique, quas praescripsi in titulo, Aesopias praestare, sed in quibusdam paucis Aesopi 
+fabulas. Mihi enim per eos, quos secutus sum, retinere aut relinquere quas vellem, integrum non fuit. Sed 
+ille, qui pro Phaedro habetur, posuit primum non paucissimas fabulas, quae, ipsius arbitrio ac finitione, 
+Aesopiae non sunt, sed Aesopi: quas ipse, nolle attingere, professus fuerat. Res ipsas vetustas narrat saepe, 
+non modo vetusti generis, quod ait, argumenta. Aesopi
+<pb id="s008" TEIform="pb"/>
+non nomen solum, ut scribit, auctoritatis gratia: sed ingenium eius subinde, et res ab eo petitas, interponit. 
+Deinde narrationes quoque ac facetias aliquas pro fabulis, quae ne fabulae quidem. Postremo fabulas, quae 
+nullo pacto Aesopiae, sed, si quid sunt, Sybariticae <reg orig="fortassis" TEIform="reg">fortasse</reg>, aut aliquid eiusmodi, erant dicendae. Quibus 
+rebus omnibus suspectus videri eruditis hominibus debet.
+De eo fabularum opere Aesopiarum, quas ille, qui conscripsit, profitetur potius, quam praestat, quid 
+sentirem, nuper libro publicato ostendi. Accedunt alia multa praeterea suspecti operis argumenta, quae nos 
+tunc, ne molesti videremur, omisimus. Nunc unum eorum ut accurate mecum considerent, qui ad ista 
+legenda accedunt, rogo: et est operae pretium, quid sit, cognosse.
+Habentur in bibliothecis codices vetusti, quorum operum scriptores qualescumque oportet ante quadringentos 
+aut quingentos ad minimum annos vixisse. In eis libris leguntur fabulae Aesopiae, atque aliae utcumque 
+facetiae, oratione de carminibus soluta, eaque semilatina, non compositae ingenio, nam nihil hic neque 
+rerum, neque verborum, ex eorum copiis est, qui effectores epitomarum vetera describebant: sed fabulae 
+igitur temere contractae, atque in unum congestae. Non est, qui coegit,
+<pb id="s009" TEIform="pb"/>
+homo unus, neque opus unum, e quo petitae: nihil coloris unius. Epitomae sunt inscienter artatae 
+scriptorum veterum aliquanto meliorum, quam id cognosci facile ex hac misere depravata eorum specie 
+potest. Sed illa nimirum interciderunt. Haec verborum elegantiaeque omnis compendia, erroribus potius et 
+inscientia relinquendi optima, substituendi prava, quam ullo bono suo, censenda sunt. Eorum, ut iudicare 
+iam omnes possint, qualia sint ista, publicando copiam fecit adolescens eo tempore egregius <abbr expan="Iohannes" TEIform="abbr">Ioh.</abbr> Federicus 
+Nilant Gronovii maioris e filia nepos. Anni sunt prope quadraginta ex quo liber eius Lugduni Batavorum 
+prodiit. Bona pars est epitomarum, quales etiam in aliis codicum membranis, ad eum modum de fabulis 
+Aesopeis factae, leguntur. Tanti vix erit, ut aliquis otio suo male consulturus porro conquirat. attamen, si 
+quis curet, si quis inde quoque, quidquid inerit boni succi, studio ad fabulas redigat, possit aliquod non 
+spernendum nostris corollarium adiungere. Ego interea istis ab Nilantio publicatis ideo quoque contentus 
+fui, ne non cuivis erudito, quid, quibus exemplis scripserim, facile appareret. Ille, quarum copiam editione 
+fecit, Fabulas Antiquas <foreign lang="GR" TEIform="foreign">a(plw=s2</foreign>, et mox errore, ex Phaedro esse, quando ex his potius Phaedri fabulae: deinde 
+inscripsit alias, nihilo illis deteriores, Romuli fabulas Aesopias. Ante illum in libris indiscretae reperiuntur 
+laudari indicarique modo
+<pb id="s010" TEIform="pb"/>
+Aesopi, modo Romuli, modo Rimicii, modo Phaedri, a Gudio quidem, aliorumque, falsis partim 
+nominibus, modo nullo nomine. Nam Rimicium certe, corrupto per errorem nomine, non alium virum 
+intellegi debere, quam qui se Rynucium Thessalum operi fabularum praescripsit, veri simillimum est: idque 
+fuit alio tempore a nobis disputatum. In ea Nilantina fabularum congerie proposita inveniuntur ac descripta 
+argumenta non pauca earum fabularum, quae etiam in Phaedri libris, ac praeterea alia item simillima 
+illorum, sed non tradita in his, quae esse Phaedri putantur. Quicumque igitur fabulas tales congerere olim 
+aggressi ista commentaria fecerunt, nihil aliud pensi habuisse operibus arguuntur, nisi ut carmina, quae 
+reppererant, orationis alioqui pedestris, fabulisque convenientissimae, simplicitate candida concepta, 
+demitterent etiam ad ineptam humilitatem, ac solverent, truncarentque, et contraherent omnia. Omnia 
+videlicet instituti sui et incepti bona metiti unica illa tenui ac sicca sermonis barbari brevitate. Procrustae 
+more dicas ad modulum ac pedem ingenii sui omnia exegisse, resecuisseque quidquid extare ex facultate 
+sua, et superare infantiam videbatur. Eneruem verbis paucis, ac saepe nec verbis, vocem narrationis pro 
+sermone, hoc tantum consilio, ut tempori, et curae, et membranis parcerent, edebant. Hi tales tamen, qui 
+brevitatem solam unice sectabantur,
+<pb id="s011" TEIform="pb"/>
+qui de suo addere aliquid, duntaxat sanum, si maxime cuperent, non possent, ubi in easdem fabulas, in quas 
+item qui pro Phaedro scripsit, incurrerunt, verba, quae ipse, et numeros subinde eosdem, referunt, atque 
+insuper non vocabula modo commoda, ac facetias interdum mundas, verum etiam trimetros totos 
+frequentant haud malos, quorum omnium in eisdem saepe apud Phaedrum fabulis nullum vestigium est. 
+Quid, quod illis commentariis, brevitate frigida vitiosis, brevior adstrictiorque in longe plurimis fabellis 
+Phaeder est. Verba saepe bona, earumque fabularum propria, sententiasque veras ac splendidas, quae in 
+semibarbaris earum reliquiis insertae leguntur, omisisse ille, comparandis inter se dictorum similitudine 
+libris, arguitur. Hoc unde natum dicas: has res unde illi peterent, defecti omnibus, non modo ingenio: nisi 
+fuissent in eorum manibus fabulae veteres trimetris Latinis scriptae, diversae ab his, quae dicuntur Phaedri, 
+atque eis aliquanto ampliores facetioresque? Ex his nimirum, quae interciderunt, intelleguntur ingeniorum 
+isti Procrustae suas epitomas fecisse: atque post deinde qui pro Phaedro habetur, aut de illis trimetris alio 
+compendio pauciores peioresque, tamquam in hosticum delatus, et inde cum istis in commune praedas 
+agens, aut, quod est potius, multoque dictu proclivius, ex his solutarum oratione prosa ac tenui fabularum
+<pb id="s012" TEIform="pb"/>
+epitomis, numeros qualescumque delegisse, qui ad trimetros libris quinque fabularum explicandos redirent. 
+Illos autem versus, quia e reliquiis agnoscebat olim scriptos fuisse, tamquam si restitueret Iambis saepe non 
+bonis, ut visum fuit, refecit, digessitque ex parte aliter pro arbitrio fabulas. Nam istos certe epitomarum 
+scriptores plurima sat bona atque splendida non ex illo sumpsisse, verum ex alio, manifestum est. Non igitur 
+potest fieri, ut reliqua, quae in eadem cum illis alienis argumenta saepe concurrunt, ex eo sumpserint. 
+Aliunde habent suam, Phaedri dictione subinde pleniorem, rebusque praeter eius verba commodis 
+interpolatam, infantiam. Ille potius brevitatem suam fabulis horum exemplo circumdedit. Neque est 
+credibile eum, si e vetustiore poeta profecisset, pauciores peioresque trimetros de trimetris facturum fuisse. 
+Praeterquam autem verba, et res, et numeros epitomarum, quae omnia frequenter meliora Phaedrinis, eum 
+arguunt, ordo quoque fabularum nondum totus convulsus in epitomis quamvis temere descriptis, plus 
+rationis, quam in Phaedro, habet, et quaedam sua vetustatis vestigia, eoque ostendit, ex his eum, non hos 
+ex illo, sua repetisse. Adde prooemia, quae item similiora hic veris convenientibusque operum principiis, 
+quam qualia apud Phaedrum exstant. Horum enim illa si ex eo essent, breviora omnia exissent, non, ut sunt 
+pleraque, ampliora:
+<pb id="s013" TEIform="pb"/>
+neque aliae apparerent, quam apud illum, initio operis fabulae, illaeque praecinctae melioribus principiis, 
+quibuscum rectius concinunt, quam cum suis Phaedri dicta. Testantur etiam ipsi, qui fabularum epitomen 
+scribere conati sunt, poetam eum, e quo profecerunt, cuius disiecta inter verba eorum membra apparent, in 
+principio operis sui posuisse fabulam de Gallo gallinaceo et margarita. Nilantii certe Romulus ibi, Aesopus, 
+inquit, hanc primam fabulam dicit. Aesopus nimirum appellatur ab eo, more temporum illorum, quivis 
+fabularum scriptor, tamquam communi multis, non proprio nomine, ille ibi, e quo sua sumpserat. Namque 
+mixtim, neque ullo discrimine, quaecumque erant in manibus fabularum talium opera, Aesopos vocabant. Si 
+e Phaedro Romulus petiisset, quae concideret, is scilicet ei Aesopus esset. Non autem e Phaedro sua 
+derivasse, hoc argumento sine exceptione evincitur, quod non primam eam fabulam, ut ait Romulus, sed 
+tertii libri duodecimam, qui pro Phaedro habetur, posuit. Graeculi quoque olim in fabularum, quae Aesopi 
+inscribuntur, congerie duplici, aut si Pseudobabriam illis adiectum censeas, triplici, nusquam hanc primam 
+ediderunt: ne forte suspiceris Graecis litteris, aut omnino commentariis Graecorum, adiutum Romulum 
+fuisse. In Anonymo Neveleti, qui subinde a me, ne aliquo nomine careret, Accius vocitatus est,
+<pb id="s014" TEIform="pb"/>
+prima haec quidem fabula legitur. Sed nisi vetustatis argumento ante hunc Anonymum vixisse Romulus, 
+quisquis est, probaretur, in huius epitome iambicorum versuum numeri et fragmenta apparent, non item 
+saepe dactylici generis, quo est scriptus Anonymi liber. Non igitur ex eo quidquam, neque e Phaedri opere, 
+petiit Romulus. At enimvero vel hoc indicio est, exstitisse poetam vetustum, qui fabulas Aesopias, partim 
+alias, alio ordine, quam Phaeder, copiosius item ampliusque iambis Latinis conceptas, litteris prodidisset, 
+non Phaedri, sed alio quocumque, quod ignoratur, nomine. Ex eo arguuntur vel ordine fabularum hausisse 
+suarum pleraque incertus primo Antiquarum, ut Nilantius eas vocat, descriptor: mox Romulus uterque 
+prosa et vorsa fabulas edidisse intellectus fortasse potius errore multorum, quam traditus: dein Anonymus 
+Neveleti. Ex his postremo diversis epitomis profecisse argumentis multis vincitur, quicumque, animadversis 
+inter verba eorum semilatina ac deprehensis multis veteris poetae trimetris, invento item Phaedri alicuius 
+olim fabularum scriptoris in Aviani epistola nomine, putavit restituere se hunc poetam ex epitomis posse, 
+eumque Phaedrum, quem Avianus laudaret, videri. Idcirco aggressus est plerasque earum fabularum, quae 
+in quinque libris leguntur, ex illis commentariis refingere, ante trecentos propemodum annos, mea quidem 
+sententia,
+<pb id="s015" TEIform="pb"/>
+Perottus. Traditum ille fabularum ordinem pro arbitrio turbavit: omisit multa: addidit quaedam e vetustis 
+ingeniorum monumentis aliis, quorum ad nos neque reliquiae pervenerunt, neque aliud ullum vestigium, 
+praeterquam quod ille, qui pro Phaedro fertur, stilo suo fecit. Quod si contra illi omnes, quod quidem 
+factum fuisse censent ac propugnant viri multi doctissimi, e Phaedro profecissent: qui potuit evenire, ut 
+tanto intervallo reiectam ab illo de gallo gallinaceo fabulam ex compacto primam operum suorum omnes 
+facerent? Quae esset causa, cur Romulus etiam testaretur, se in libris principio scriptam invenisse? Exstant 
+etiam alia, ut dixi, ordinis turbati signa. Nam in alio vetusti operis volumine ante hanc fabulam videtur 
+posita fuisse una de ranis regem petentibus cum prooemio suo: aut hanc fabulam de ranis, tamquam partem 
+prooemii, miscuit Romulus cum principiis libri, neque ullo in numero singulatim ut fabulam, ne computaret, 
+habuit: quo factum est, ut alteram de gallo, quum haec de ranis prooemium ipsum eius opinione esset, 
+primam appellare posset. Huius quoque rei mihi visus est idem indicium facere initio libri, ex quo initio 
+prooemium veteris illius, quem dixi, poetae amissi, rectius simpliciusque expressisse me, et quodam pacto 
+restituisse puto, quam id, qui pro Phaedro est, fecit. Is enim hoc ipsum operis totius, non
+<pb id="s016" TEIform="pb"/>
+unius fabulae, principium, sine ratione, atque, ut mihi quidem videtur, perperam, post primam fabulam lupi 
+et agni collocavit.
+Illis propterea, de quibus hactenus dixi, fabularum epitomis semibarbaris, ad hunc modum ego in praesens 
+usus sum, ut eadem ferme, quae in Phaedri libris tractata sunt argumenta, ex Antiquarum et Romuli 
+commentariis, ad verba antiqua, ut mihi videbantur, et proba, ad sententiam veram, quae fere ubique luxata 
+fuit, ad facetias nonnullas semper ab illis aut relictas, aut inquinatas, ad numeros et metrum iambis 
+fabularum debitum, ab scopis, ut aiunt, dissolutis revocarem. Feci istud sepositis interea Phaedri 
+qualiscumque libris, neque puto accidisse, ut frequenter admodum in eius verba, et numeros, et sententiam 
+scribendo incurrerem, eademque, quae ille quoque, saepe ponerem. Nam ne quidem inde memoriter me 
+tenere multa, ut vel imprudenti se ingererent, puto: posteaquam olim me non modo cepit, sed ne morata 
+quidem est aliqua specie illius facundia scriptoris: solent autem iucundissima lectu, quae mireris impense, 
+obhaerere in animo: quae levi studio tetigeris, non item. Attamen, quia eadem uterque e communi velut 
+fundo messuimus, debuit sane contingere, ut interdum eadem mihi, quae ei, verba, eidem numeri, eaedem 
+sententiae, in eodem argumento subnascerentur. Quae neque
+<pb id="s017" TEIform="pb"/>
+requisivi, neque sponte oblata, tamquam si occupata ab alio essent, repudianda ob id putavi. Quaerimus 
+enim, non quid ego possim, non quam varie verbis aliis expediri fabula possit: sed quid ille vetus videatur 
+scripsisse, quem, quicumque pro Phaedro sua edidit, voluit item, ut ego, reddere. Verum tamen ea cura, dum 
+antiqua, aut antiquorum gemina similitudine, restituere conor, maius aliquanto negotium mihi exhibuit, ne 
+non redirent commissuris suis haec hiulca ad aliquem carminis Latini nitorem, quam si de non inventis 
+nova omnia fecissem. Quare eodem in loco habendae sunt hae duobus libris nunc in publicum emissae 
+fabulae, utut sint, argumentis, et verbis etiam nonnullis, quas equidem esse inscripsi, veteres, atque si totae 
+meae essent. Quia, praeterquam quod ferme argumenta sola, atque ea quoque corrupta misereque saepe 
+habita, nobis praebebantur, e tenuissimis plerumque vestigiis divinandum fuit, non modo quid 
+restituendum, quid addendum inventis videretur, verum etiam deprehendendum, quid ex quo corruptum 
+depravatumque esset. Nam illi ad reliqua tardi, dum resecant ac relinquunt optima quaeque, prava 
+vocabula pro bonis, tamquam breviora expeditioraque, et eorum certe animis planiora apertioraque, nobis 
+obtrudunt: ac praeterea in aliquos quoque saepe numeros casu deveniunt, idque faciunt adeo latenter, ut 
+diligentia opus sit multa in illis
+<pb id="s018" TEIform="pb"/>
+velut scrupis amovendis. Eo sit, ut diversi hoc idem aggressi opus diversissima scribendo extuderint. atque 
+idcirco erat nobis nonnulla cum libertate honesta, neque anxie, in illa re, quoad licuit, versandum. Sed est 
+causa, cur hoc pacto scriptionis nostrae istius quantulaecumque rationem edamus minime iactabundi, ne 
+quis vel illam necessariam ingeniis libertatem elevare velit, vel operam nostram, tamquam in alieno, 
+praebitis, unde ista fierent, utcumque occupatam. Inventis enim facile est, inquiunt, addere quae velis. 
+Verum est istud. Sed his tamen inventis tam laceris difficilius fuit addere integra ac sana dicta, ut aliqua 
+facies decora operis utilissimi exsisteret, quam si nova omnia commentando, neque ullo praescripto operis 
+fine aut modo, fecissemus. Sed mittemus iam nunc ista. Quoniam exhausi eam lubenti animo, utcumque 
+erat, molestiam, quo certius planiusque appareret, quales sint in manibus fabulae Phaedri, et quales erant 
+propemodum futurae, velut archetypo poeta restituto, si antiqua et veriora earum exempla apparerent. 
+Coniunxi autem in restituendis fabulis utrumque commentarium, Antiquarum qui inscribitur, et Romuli. 
+Iste enim bona quaedam saepe habet, quae ille brevitatis studio omisit. Religio tamen mihi non erat, quo 
+minus adderem subinde, quae neuter posuerat: mutarem, quae uterque. Nam formam potius spirantesque 
+animas fabularum,
+<pb id="s019" TEIform="pb"/>
+quales olim viderentur fuisse, quam verborum quasdam reliquias me repraesentaturum, intellegebam. Satis 
+mihi visus praestare, si ampliora hactenus, qua nitescere de relictis vellent, redderem: haud absurda in loco 
+verba adiungere. Hoc enim, ut dixi, vitiosi illi ingeniorum Procrustae, hoc vitiosus quicumque pro Phaedro 
+scripsit, quod inscite contrahunt omnia, omittunt facetias, ac velut parerga fabulis debita, simul aliquid 
+reconditius spirare illa visa sunt. Potest fieri, et est veri simile, ut ille, qui restituere Phaedrum fabulis 
+instituisset ad numeros redigendis, quia multiplicis figurae hae dissolutae in prosam orationem Aesopiae 
+variis voluminum contextibus feruntur, amplioribus ac saepe melioribus libris sit usus, quam quidem ego 
+Nilantii beneficio. Ad eius enim copias propemodum redactus fui. Ex illis libris plenioribus ac diversis 
+partim, sive Perottus, seu quisquis ante Perottum hoc idem conatus credi potest, mox Phaeder inserto ac 
+praescripto nomine futurus, aliqua sane bona dextre sumpsit, atque aliqua <reg orig="fortassis" TEIform="reg">fortasse</reg> ipse quoque, ut erat 
+ingeniosus, nova fecit, quorum in libris nullum vestigium esset. Paucas idem fabulas utrique nostrum 
+communes potuit quibusdam rebus, ac verbis fortasse, mundiores edere, aut alio, quam nos exemplo, cum 
+diversum sonantibus libris uteremur, ornatiores extundere. Nobis novare omnia integrum non erat, neque 
+propositum, cum isto
+<pb id="s020" TEIform="pb"/>
+velut alternis certare. Non tamen facere ille potuit, quin corrupta fassus et manca fabularum in libris, e 
+quibus scriberet, argumenta, deficeret in multis, quae parum recte apud eum explicantur, aut frigida 
+brevitate adstricta iacent. In quibus spero equidem, dum antiquis ingeniorum vestigiis pressius insisto, ac 
+veritati litterarum, quantum licet, servio, meliora, quam ille, me repraesentare multa.
+Versuum quoque iambicorum ratio et figura, quam tenuit poeta vetus, ante hunc persona Phaedri facetum, a 
+me, nisi me omnia fallunt, liquido deprehensa est, atque carminibus his expressa. Non erat illa perspecta 
+neque servata sive Perotto, seu quicumque Phaedri figulus est. Potuerat igitur poeta vetus senariis legitimis 
+expedire Aesopias totas: sed abstinuit, fecitque sapienter. Nam pes ille sui similis toto libro decurrens, 
+nimisque incitatus, rapere lectorum studia, non ducere velut amoenis viarum spatiis, videretur: nimiumque 
+haberet operae, ferretque, tamquam si delicias in re parva facturus scribas, taedium profecto sui. Trimetris 
+ille usus est summa cum ratione talibus, quales, recessuros ab epigrammatum propera ac festiva levitate, 
+mediosque inter gravitatem tragoediae comoediaeque humilitatem discinctam, argumentum fabulae plane 
+poscebat. Cavit enim prudenter, ne senariis comicorum fabulas scriberet, aut ne
+<pb id="s021" TEIform="pb"/>
+eorum licentiam ullo pacto admitteret: in quo mihi videtur reliquam illius saeculi diligentiam, quae rara in 
+Phaedro, retinuisse atque expressisse. Nam causa, quae Comicis Latinis suasit, ut iambicos suos aut 
+trochaicos infra omnem saepe numerorum suspicionem abicerent, quo rectius pedestrem familiaremque 
+sermonem referrent, ea nulla est in fabula Aesopia. quae, utut familiariter, aliqua tamen cum cura, aliqua 
+cum arte, a maioribus aetate fere solet narrari his, quos admonere illi volunt minores. Potest igitur pati 
+mixtam facilitati quandam sententiarum gravitatem: quod etiam in comoedia secus est. In eo autem mihi 
+videtur peccasse Fontanus, qui multas suarum fabulas sic narrat leviter, tamquam si aliquis festivus 
+aretalogus, qui risum captaret, in circulo aequalium ista memoraret: gravis aliquis vir in magistratu 
+constitutus, aut inter suos paterfamilias, has his verbis fabulas frequentare non auderet. Quamquam sic 
+iudicio videatur instituisse nitidissimas alioqui fabulas: quia illis litteris, quibus usus est, incertum habetur, 
+si ullo tolerabili modo expediri rerum narratio minutarum, sine tali veluti delicias inepto ioco facientium 
+levitate nonnulla, possit. Inserta enim sunt interdum illa non linguis modo populorum, sed saeculo quoque 
+et moribus ita, ut, quae aliis trita ac levia, his decora videantur, sintque inventi, qui etiam historiam sic 
+scribere conarentur,
+<pb id="s022" TEIform="pb"/>
+quique Etrusci sermonis formae hoc vitio darent vicissim, tamquam si proclivior ad ioci figuram 
+alludendo sit constitutus. Sed profecto Latina fabula Aesopia ut admittit facetias, ita caritura iocis ineptiisque rectius expeditur. In Comoedia sermones porro quia agebantur ad tibiae modos, quae innumeros horum 
+versuum numeros mirifice adiuvabat, quia Aesopiae fabulae recitabantur in scholis otiose, facile apparet, 
+quod alteri generi decorum sit, alteri ut item sit, fieri non posse. Epigrammatum numeris propiores Aesopiae 
+fiunt: non Comoediae. Quod autem inter senarios ac trimetros fines aliquos regundos esse arbitror, et ab 
+utroque distinguo tertium genus, senarios Comicorum, qui tam diversi sint a senariis privo vocabulo 
+dicendis, quam a trimetris separandi trimetri iambei, facio, nisi fallor, cum ratione, fidemque secutus et 
+auctoritatem veterum. Terentianus, cuius magni apud me aliosque, propter doctrinae constantiam, verba 
+fiunt, diligenter ac perspicue, quid interesset, exposuit:
+<cit TEIform="cit"><q TEIform="q" direct="unspecified">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vides, ut icta verba raptet impetus,</l>
+<l TEIform="l" part="N">Brevemque crebra consequendo longula,</l>
+<l TEIform="l" part="N">Citum subinde voluat <orig reg="ARTIUS" TEIform="orig">ARCTIUS</orig> sonum</l>
+<l TEIform="l" part="N">Iambus. ipse SEX enim locis manet,</l>
+<l TEIform="l" part="N">Et INDE nomen inditum est SENARIO.</l>
+<pb id="s023" TEIform="pb"/>
+<l TEIform="l" part="N">Sed TER feritur: HINC trimetrus dicitur,</l>
+<l TEIform="l" part="N">Scandendo binos quod pedes coniungimus.</l>
+</lg></q></cit>
+dein post pauca:
+<cit TEIform="cit"><q TEIform="q" direct="unspecified"><l TEIform="l" part="N">Sic fit trimetrus, qui fuit senarius.</l></q></cit>
+Priores ille horum versus usque ad quintum exempla senariorum praebuerat, iambis sui similibus senos 
+ictus reddentibus: sextum et septimum versum, qui spondeos admiserunt, exempla trimetrorum, quo de 
+genere praecepta edunt, non iam pedibus sui similibus sex, sed metris videlicet tribus censendos. In senario 
+non metra copulantur: nam non est opus duos hic coniungi pedes, ut genus appareat, quod initio statim 
+proditur. non exspectandus est pes secundus, ut metrum, quod sit, dicas. Quo pacto vero Terentianus hos 
+versus numeris suis praeceptorum sententiae respondentes fecit: ita quoque quem singularem posuimus, 
+quia partim trimetrum memorat, partim senarium, divisit: ut prior de trimetro pars trimetrorum legibus esset 
+composita: altera, qui fuit senarius, senarii legem servaret. Possit aliquis malle apud eum rescribere,
+<cit TEIform="cit"><q TEIform="q" direct="unspecified">Si ter feritur, hinc trimetrus dicitur.</q></cit>
+Sed sic quoque, ut edidimus, satis certa sunt omnia. Longo ante tempore Cicero, dum
+<pb id="s024" TEIform="pb"/>
+senarios dicit, atque cum eis Hipponacteos, id est, <sic corr="scazontes?" TEIform="sic">scazontas</sic>, componit, facile intellegitur, non alios, nisi 
+totos iambis senis incitatos, dicere, tamquam similiores scazontibus: non quosuis maiore licentia fusos 
+trimetros, quos diligentia oratoris vix umquam cavere posset: nedum ut oratio comicis versibus prope 
+innumeris similior, si qua forte exsisteret, vitio verteretur. Senarios vero et Hipponacteos, inquit, effugere 
+vix possumus. Magnam enim partem ex IAMBIS nostra constat oratio. Puros ac perpetuos ad versum 
+concludendum putat. Nam, si Comicorum senarios diceret, potius scripsisset, non possumus: nullo pacto 
+possumus: neque tum ex iambis constare orationem fateretur: sed etiam ex eorum pedum vicariis, spondeis, 
+<sic corr="tribrachys?" TEIform="sic">tribrachis</sic>, dactylis, anapaestis, qui frequentius in Comico genere sparsi apparent, quam iambi. Quod autem 
+dixi, comicorum similes versus in oratione Latina prosa caveri nullo pacto posse, cum notum est his, qui 
+utrique rei studium operamque aliquo tempore dederunt, compositioni oratoriae puta ac versibus 
+pangendis: tum id maxime hic suo, ut saepe, exemplo Cicero probat. Nam proxime ante illa verba 
+tetrametrum catalecticum, qualem Comoedia admitteret, effudit,
+<cit TEIform="cit"><q TEIform="q" direct="unspecified">Sed non attendimus, neque exaudimus nosmet ipsos.</q></cit>
+ne illud, quod ista sequitur, urgeam:
+<pb id="s025" TEIform="pb"/>
+<cit TEIform="cit"><q TEIform="q" direct="unspecified">Partem ex iambis nostra constat oratio.
+</q></cit>
+Hoc, quam parum absit, quo minus in trimetrum <sic corr="scazonte?" TEIform="sic">scazonta</sic> recte modulatum exeat, qui sentiunt numeros, 
+vident. Non igitur qualescumque licentia comica versus, qui non possunt, sed vix caveri senarios veros, 
+iambis sui similibus senis, ait. Verum quod idem paullo ante, <cit TEIform="cit"><q TEIform="q" direct="unspecified">Comicorum senarii</q></cit>
+, inquit, <cit TEIform="cit"><q TEIform="q" direct="unspecified">propter 
+similitudinem sermonis sic saepe sunt abiecti, ut nonnumquam vix in his numerus et versus intellegi possit</q></cit>
+: 
+eam sine dubio vim habet, ut iuncta verba, Comicorum senarius, longe aliud significarent, quam si privo 
+vocabulo Senarius indicaretur. Prorsus ut Horatius iunctis item verbis Trimetros iambeos appellari scripsit, 
+qui aliquid amplius essent quam trimetri: hoc est, senarii. <cit TEIform="cit"><q TEIform="q" direct="unspecified">Iussit iambus,</q></cit>
+ inquit, <cit TEIform="cit"><q TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"> trimetris adcrescere nomen </l>
+<l TEIform="l" part="N">iambeis,</l>
+<l TEIform="l" part="N">- - - cum senos redderet ictus:</l>
+</lg></q></cit>
+quod est senarii proprium, non trimetri, qui tres ictus reddit.
+<cit TEIform="cit"><q TEIform="q" direct="unspecified">Primus ad extremum similis sibi.</q></cit>
+quod est manifestum, atque senario soli conveniens, non trimetro. Itaque apparet trimetrum ab eo vocari, 
+sed iambeum, quem Terentianus finit senarium esse, non trimetrum. Quid, quod mox Horatius Accii atque 
+Ennii trimetros dicit, qui certe nullo pacto erant trimetri
+<pb id="s026" TEIform="pb"/>
+iambei, aut senarii, e sententia grammaticorum appellandi. Illi enim Accii Enniique trimetri, non modo 
+dextris locis, qua trimetris licebat, verum etiam sinistris, vel Horatio teste, nisi fragmenta apparerent, rarum 
+iambum habebant. Quare prorsus necesse est, interesse aliquid, veterum sensu, inter senarium ac trimetrum. 
+Senarii, si me audis, exemplum optimum est, Latini quidem, in Phaselo Catulli, in quibusdam Horatii odis, 
+in paucis praeterea veterum epigrammatis. Trimeter alius communis erat, qui interdum in oda locum 
+habebat, dein epigrammati, fabulae Aesopiae, aliisque talibus poematiis debebatur: alius Tragicorum, qui 
+ampliores, quam ille prior, in dextris locis pedes iambi vicarios amaret. Sequitur Comicorum arte potius, 
+quam licentia, abiectus ad imaginem sermonis meri senarius: qui nil nisi nomen senarii habet, intellegi ac 
+censeri sex pedibus, nedum iambis, saepe vix potest. Quamobrem doctum laboriosumque volumen de 
+comicorum versuum licentia non recte Senarium privo verbo inscripsit in Britannis <abbr expan="?" TEIform="abbr">Chr.</abbr> Wase: debebat, 
+Senarium Comicorum.
+In eo quoque olim falsus fuit Perottus, aut quicumque Phaedri sub nomine fabulas edidit, quod putabat, illos 
+abiectos Comicorum numeros non modo in scena, verum etiam in schola, recte frequentari, valereque 
+aeque in
+<pb id="s027" TEIform="pb"/>
+aliis quibuscumque carminibus eius licentiae figuram. Proinde in trimetris, quos esse putabat, suis, non 
+modo imparibus locis spondeos, et quicumque spondei vicem funguntur pedes, sine ullo discrimine posuit, 
+verum etiam paribus, ultimo tantum excepto loco. Ob id recte ut incuriosus ac neglegens metri, quod 
+Aesopeis deberetur, a doctis viris non paucis reprehenditur: nam inscientia non fuisse ab eo peccatum, 
+ostendi. Neque purgat eum, quod ait Hogstratenus in praefatione ad eius fabulas, et est verum; saepe 
+poetam hunc aliquos sex aut decem valde pulchros numerososque trimetros reliquis parum modulatis 
+interposuisse. Tanto ille enim peior poeta. Debebat autem, si semel comicam quandam licentiam discincto 
+metro professus erat, similem sui numerorum figuram per totum opus custodire, non varium illud, velut 
+maculis exstantibus, et pantherinum, ut in Plauti comoedia servulus alludit, facere. Quod si ad exempla 
+vocari malis, nusquam in Comoedia, quod sciam, Terentius, aut in mimi prologo Laberius, frequentaverunt 
+trimetros ordine plures teretiores inter reliquos comicae figurae versus. nihilo illi quidem magis, quam 
+epigrammatum scriptores contra comicorum senariis similiores versus. Unus interdum trimeter numerosior 
+in Comoedia singillatim, aut ad summum uno cum comite, positus lucet: multi simul uno in loco non item. 
+Veram nisi fallor, atque unicam trimetrorum eiusmodi,
+<pb id="s028" TEIform="pb"/>
+quibus Aesopiae scribi debent, rationem tenuit vetus poeta, quem Antiquarum scriptor et Romulus 
+consciderunt. Illius hi versus, quales ex oratione istorum erutos inveni, plus ponderis, incitationis operaeque paullo minus, quam senarii legitimi, habentes, tam absunt a gravitate tragici metri, quam ab effusa 
+comicorum licentia. Quod quale sit, quando ego quoque hoc exemplum secutus sum, edam. Simul in 
+Antiquis Nilantii, aut in Romuli oratione hiulca, trimeter aliquis totus deprehenditur, quod sit subinde, non 
+est talis, quales sunt, qui in libris quinque Phaedri leguntur plerique. Verum ille sic deprehensus locis 
+paribus, qui et sinistri, iambos suos, ut iubet lex carminis, habet: imparibus ac dextris, cum iambo aut 
+spondeo aliquos certos, non quoscumque spondei vicarios, pedes. Dextris locis, tertio, numquam anapaestus: 
+quinto, numquam dactylus exstat: iambus ac tribrachus omnibus peraeque, etiam quinto loco, in quo tamen 
+ego ob causas rarissime posui, permittitur. Qua in re tota multum a tragicis abest. Sed Phaeder 
+qualiscumque tam licenter his abusus est, ut non modo tertio loco saepe anapaestum, quinto saepe dactylum 
+poneret: verum etiam sinistris, id est, paribus locis, excepto ultimo, merum frequentissime spondeon, ac 
+spondei vicarios: quod soli Comoediae Latinae permissum, rationem trimetrorum, ac paene naturam 
+carminis evertit. Contra deprehendi nuper, cum exempla conquirerem,
+<pb id="s029" TEIform="pb"/>
+Faernum quoque in Aesopeis olim ferme servavisse meam, de qua memoravi, non Phaedri, quem dicunt, 
+formulam. At illa mea sine dubio antiqua et vera est. Veniamus ad vestigia metri, quae impressa sunt in 
+Antiquis a Nilantio publicatis. In nona continuo eius editionis fabula legitur trimeter totus teres, et ad illam 
+legem probandus.
+<cit TEIform="cit"><q TEIform="q" direct="unspecified"><l rend="indent" TEIform="l" part="N">Numquam fidelis cum potente societas.</l></q></cit>
+Idem versus exemplum est tribrachi in quinto. Alium ponemus ex oratione prosa fabulae XV exceptum, 
+item recte tornatum, qui praestat spondeon in quinto,
+<cit TEIform="cit"><q TEIform="q" direct="unspecified"><l rend="indent" TEIform="l" part="N">O quis tuarum, corue, pennarum vigor.</l>
+</q></cit>
+Duo sequuntur sumpti de fabula XXI, quorum prior exemplum est iambi in quinto:
+<cit TEIform="cit"><q TEIform="q" direct="unspecified"><lg met="sena" org="uniform" sample="complete" TEIform="lg" part="N">
+<l rend="indent" TEIform="l" part="N">Ranae vagantes liberis paludibus</l>
+<l rend="indent" TEIform="l" part="N">Clamore regem flagitabant ab Iove.</l>
+</lg>
+</q></cit>
+Rursus ibidem anapaesti in quinto exemplum:
+<cit TEIform="cit"><q TEIform="q" direct="unspecified"><lg met="sena" org="uniform" sample="complete" TEIform="lg" part="N">
+<l rend="indent" TEIform="l" part="N">Motu sonoque terruit pavidum genus.</l>
+<l rend="indent" TEIform="l" part="N">Illae timore posito certatim adnatant.</l>
+</lg>
+</q></cit>
+Ponemus item alios similes versus ex oratione soluta voluminis Antiquarum passim delectos.
+<cit TEIform="cit"><q TEIform="q" direct="unspecified"><lg met="sena" org="uniform" sample="complete" TEIform="lg" part="N">
+<l rend="indent" TEIform="l" part="N">Auxilia cum requirit, exitium invenit</l>
+<l rend="indent" TEIform="l" part="N">Tumens inani graculus superbia.</l>
+<l rend="indent" TEIform="l" part="N">Illi impudenti pennas eripiunt avi.</l>
+</lg>
+</q></cit>
+<pb id="s030" TEIform="pb"/>
+Qui tamen versus contaminatus, ut multi, videtur. Labascit enim quarto loco metrum. Meliores isti,
+<cit TEIform="cit"><q TEIform="q" direct="unspecified"><lg met="sena" org="uniform" sample="complete" TEIform="lg" part="N">
+<l rend="indent" TEIform="l" part="N">Contentus istis si fuisses sedibus.</l>
+<l rend="indent" TEIform="l" part="N">Ne gloriari libeat alienis bonis.</l>
+<l rend="indent" TEIform="l" part="N">Potes meis te comparare laudibus.</l>
+<l rend="indent" TEIform="l" part="N">Tu non videris perdidisse quod petis,</l>
+<l rend="indent" TEIform="l" part="N">Te credo surpuisse quod pulchre negas.</l>
+<l rend="indent" TEIform="l" part="N">Hic se per auras sustulit penna levi.</l>
+<l rend="indent" TEIform="l" part="N">Ut vidit asinus, tali eum irrisit modo.</l>
+<l rend="indent" TEIform="l" part="N">Questuque vano clamitantem interficit.</l>
+</lg></q></cit>
+Hi versus omnes ex oratione prosa Antiquarum nullo negotio delecti, atque alii eorum similes, quos inde 
+suapte opera, quisquis abuti otio voluerit, conquirere, si sit opus, potest: aut partim in nostris fabulis, 
+conferendo Nilantii libro, repetitos invenire: hi igitur versus omnes, quoniam plane ad eam trimetri legem, 
+quam supra scripsi, numeris suis respondent, numquam temere factum dicas, ut hic maxime, neque alii 
+multo plures abiecti solutioresque metro licentiore, quales in Phaedri libris plurimi sunt, in hac quoque 
+epitoma frequententur. Sed sunt hi velut aliqui canones numerorum, quibus fabulas vetus ante Phaedrum 
+poeta adstrinxisse deprehenditur, simul argumenta non sinceri operis Phaedri, quod hinc ortum, cum 
+ostentet sumptos de epitoma trimetros frequentes, et praeterea multos eorum dissimiles scabros atque 
+abnormes, qui in epitoma in litteras non
+<pb id="s031" TEIform="pb"/>
+sunt relati, numeris ac verbis distinguit vetusta ac vera ab adulterinis. Qui enim fieret, si ille poeta vetus hos 
+etiam scabros usurpasset, ut non hi quoque in oratione soluta frequentes apparerent? quod non <sic corr="usu venire?" TEIform="sic">usuvenire</sic>, si 
+quis adspiciat, manifestum est. Possis fortasse aliquos paucos eiusmodi, quodam errore intellegendi, inde 
+item eruere. quod equidem dissimulandum non puto: atque adeo id prae me fero, ut infra in Commentario 
+aliquos tales ipse producam. Verum, si propius eos intueare, temere ad eum modum natos potius in epitoma 
+describenda, quam compositos a poeta vetere, agnoscas. Facile enim fraus in metro eorum intellegendo 
+latuerit, cum verbum pro verbo alio ponentes, qui epitomen faciebant, aut loco moventes aliqua, possunt 
+speciem qualiscumque senarii comici reliquisse falsam; veros, quos invenerant, trimetros saepissime 
+evertisse. Non ideo temere versus, qui apparent in eorum oratione, sinceri ac traditi a poeta omnes sunt 
+habendi. Casu revoluti ad aliquos numeros, non arte facti subinde insunt: quos equidem diligenter 
+adspiciendo mihi secernere a veris visus sum. Eorum quibusdam deceptum etiam Perottum puto: deinde 
+horum exemplo alios item scabros neglegentius adiunxisse illis, cum sibi recte aemulari Comoediae 
+licentiam Latinae videretur.
+Ego, ut modulatiora edere omnia sum conatus, ita, si Latina etiam pleraque, et faceta prae illis fecerim, si 
+Musis Gratiisque, quod concupivi quidem, hac opera suscepta litaverim,
+<pb id="s032" TEIform="pb"/>
+aliorum iudicum esto. Hoc etiam videndum est, quando honestissimorum virorum prolixe de ingenio nostro 
+existimantium cura, dum operis suis ac machinis librariam scripti negotiationem optime exercent, tam belle 
+nitideque, formis atramentisque tam bonis, certante cum praelis clarissimorum artificum elegantia, opus 
+nostrum qualecumque exscriptum publicatur: ut ei diligentiae laudandae nonnullus quoque in rebus, in 
+sententiis, in verbis situs nitor respondeat, victurumque et gratum eruditis hominibus volumen reddat. 
+Cuius rei nonnihil si videbor assecutus fuisse, ut non soleo certe oscitanter ac somniculose omnia scribere, 
+recte positum, quidquid est operae, putabo. Eas vero animatas ferme alio spiritu reddo fabulas, quas 
+Nilantius Antiquas appellavit, neglectis paucis, de quibus, nitescere ingenio verbisque commodis posse, 
+desperabam. Accedunt Romuli nonnullae. Sed in qualicumque Phaedro leguntur aliquae praeterea minime 
+Aesopiae, nec illae, meo quidem animo, probandae. In his nostris quoque frequentamus earum aliquas 
+paucissimas, quas recte inventas non putamus. Quod si mea sponte invenienda mihi argumenta essent, non 
+reddenda vetera, alia eas figura refectas lubentius dedissem. Habet istud fabula Aesopia, ut cuique animanti 
+sit oratio tribuenda secundum eius naturam convenientissima, ut, quidquid agere solet ac moliri in silvis 
+fera, aut sub tectis pecus, sermo eius ostendat. Qua in re saepe miris modis peccant nostri hodie canticorum 
+vulgarium
+<pb id="s033" TEIform="pb"/>
+scriptores. Omnia debent illic velut arte nulla sub vestigio exsistere naturae ac vero simillima, ac sueta in 
+rebus, praeterquam verba mutis data. Idcirco, qui delphinum silvis numquam appinget poeta bonus, nihilo 
+magis leporem in fabula faciet, animans minime <sic TEIform="sic">streperum</sic> ac minime vocale, fletus, ut in Phaedri ac 
+nostris fabulis, edentem graves: aut ovem cum leone venatum profectam, Orpheo silvas ducente non 
+inferior. Eiusmodi fabularum quasdam sum praeteruectus: posui, ut memorabam, paucissimas. Tamen ista, 
+quae putavi relinquenda, tolerabilia sunt prae quibusdam Phaedri. Quas ille videlicet, qui Phaedrum 
+composuit, atque praeterea nonnullas item bonas, quas nos, quia epitomarum exempla defecerant, non 
+tetigimus, sumpsit ab epitomis aut carminum libris aliis, quorum codices hodie non comparent. Nam aliae 
+contra fabulae, quas libri epitomarum veteres habent, neque tractavit qui Phaedrum restituit, multis 
+antiquae litteraturae vestigiis ingeniosissime fictae sunt. ut illa libro altero de Leone et Simia, ubi 
+utrumque, quod narrat fabula, animae leonis grave virus, et simiae comestae morbo remedium, Aristotelis 
+Pliniique e monumentis translaticium videtur. Ornat autem ingenium fabulae, si narrationis quidam fundus in 
+veritate naturae et in litteris veterum est. Videntur illi codices quadam copia fabularum, et verborum 
+quoque saepe, ampliores fuisse eo, quem Nilantius versavit. Expressit enim ex illis suis libris is, qui pro 
+Phaedro est, quaedam
+<pb id="s034" TEIform="pb"/>
+sane munda ac faceta. In aliis argumentis, qua adstrictiorem copiam epitome praebebat, ipse quoque vitio 
+brevis est aut mancus. Est quoque, ubi vitia librorum ac describentium peccata recepisse in trimetros suos 
+ferme arguitur, qui ne verba quidem plurima scriptor invenisset, sed referret. Quas vero illi in suis 
+membranis defuisse, allectas a me de Nilantii copia, fabulas prodidi minime malas, earum aliquas 
+corollarium Phaedri, cum publicarent, grammatici fecerunt. Eas periisse de Phaedri corpore putant. Ego vix 
+inducor, ut credam periisse. Sed non infuisse has in epitomis fabularum, quibus Perottus uteretur, autumo. 
+Earum una in Perotti libro ipsius, qua Epitomen fabularum versibus scriptam profitetur, non olim est 
+inventa, simillima reliquarum: at hane quoque se fecisse eo libro, ac tantum non chirographo, ait Perottus. 
+Una in trimetros qualescumque non satis luculenter redacta a Gudio <abbr expan="?" TEIform="abbr">V.</abbr> <abbr expan="?" TEIform="abbr">C.</abbr>, quem etiam alias multas ad 
+metra, quae putabat, revocasse fides est: sed intercidisse illum commentarium aiunt. Multas harum 
+fabularum Nilantius quoque deterius, nitide Burmanus expressit, de quibus infra in Commentario nostro 
+quaedam. Meas ego non ex illorum ingeniis, verum ex oratione Antiquarum et Romuli, ea feci ratione, de 
+qua supra edisserui. Apparebit inde, quid diversis visum sit, quid licuerit in commune venientibus. Si 
+modulatiora aliqua ex his, si vincta magis, aut sententiis ampliora: bonum scilicet poetam oportet fuisse 
+illum veterem, e quo ista
+<pb id="s035" TEIform="pb"/>
+tam varie petita sunt. Nam hoc subeundum est discrimen, ut mea cum Phaedri libris comparentur, non 
+modo cum illis recentibus Burmani atque aliorum. Potest sane accidere, ut ille vincat in quibusdam, ubi 
+alios meliores libros secutus, aut ingenio forte usus est rectius. Sed in reliquis obtenturum me apud aequos 
+iudices spero: aut hoc saltem fore, ut ostendisse videar invictis argumentis, neque prorsus bonum atque 
+utile illud fabularum libris quinque opus, neque omnino sincerum, neque totum antiquae notae, putandum 
+esse.
+Quod autem verbis adeo multis longaque praefatione tempora eorum, qui legent ista, moratus, etiam 
+Commentarium fabellis in fine voluminis adiunxi, non eo consilio factum est, quod haec nostra egere 
+interprete, aut omnino tanti esse, dignaque enarratore aliquo poemata, censeam: nedum ut ipse meorum 
+grammaticus et interpres fiam, eorumue institutum probem, qui sua <sic TEIform="sic">scholiis</sic> ipsi venditant. Sed ille primo 
+nomine commentarius, re adversaria, in diem paratus, nihil magnopere enarrat, omittique salva fabularum 
+sententia porest, aut lectus in transcursu, quo pacto facta ad usum negotii adversaria rebus transactis solent, 
+conscindi. Nihil inde fabulae, si quid sunt tamen, detrimenti passurae. Nam et ille commentarius, et haec 
+longa praefatio scripta fuit, non ut commendarent illustrioresque redderent ulla lege versiculos meos, 
+verum necessitate imposita, ut innocentissimas nostras pro republica vigilias lucubrationesque
+<pb id="s036" TEIform="pb"/>
+ab obtrectatione defenderent, honestatemque ac simplicitatem candidam propositi operosius, ac per 
+partes eundo, aperirent. Liceat vero extollendo litterarum honore, augendo per fas et aequum doctrinae fine, 
+officium fecisse: quoniam ea conditione vivimus, ut, si quid utiliter conamur in artibus praeclaris, non de 
+fructu laudis, nedum de ullo compendio, in praesens cogitandum sit, sed contentis posteritatis iudicio, et 
+conscientia facti, paranda advocatio beneficiis verbosa, ne pro crimine apud multos ingenium sit. Quid erat 
+enim, per sanctimoniam artium bonarum, certe numinis divini praemium, quid habebat periculi, aut fraudis 
+in quemquam, de poetae cuiusdam temporibus, de verbis illius, de Phaedro denique, quaesivisse? Sed quam 
+multos, quam iniquos, quam remoto ab humanitate animo homines, ea re offendimus? Quam honestum 
+porro, cum ingeniis vel veterum, vel qui putantur veteres, certare? Attamen, quam hoc quoque nulla nostra 
+culpa male animatis invidiosum, si adprobo fabellas meas: sin non adprobo, vincitque bene meritum 
+obtrectatio, quam illis ineptum videbitur vel voluisse certare? Factum tamen spe futuri periculum est. 
+Voluntas certe optima. prodesse literis cupimus, diligentia ac fide summa in qualicumque opere versati. 
+Vide de his fabellis, quicumque legis, ne quid temere. hoc tibi praestandum est. quae mei erant muneris 
+peregi, ut eo nomine possim adquiescere securus.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+</TEI.2>

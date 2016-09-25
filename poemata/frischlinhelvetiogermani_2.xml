@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+ <teiHeader type="text">
+    <fileDesc TEIform="fileDesc">
+      <titleStmt TEIform="titleStmt">
+        <title TEIform="title">´Helvetiogermani</title>
+        <title type="sub" TEIform="title">Machine-readable text</title>
+        <author n="Frischlin" TEIform="author">Frischlin, Nikodemus</author>
+        <editor TEIform="editor" role="editor">Frischlin, Nikodemus</editor>
+      </titleStmt>
+      <editionStmt TEIform="editionStmt">
+        <edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+        <respStmt TEIform="respStmt"><name TEIform="name">?</name><resp TEIform="resp">markup</resp></respStmt>
+      </editionStmt>
+
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/frisc5" type="href" id="frisc5" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">frisc5</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">frischlinhelvetiogermani.html</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">frischlinhelvetiogermani.xml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">frisc5/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+
+      <sourceDesc default="NO" TEIform="sourceDesc">
+        <bibl default="NO" TEIform="bibl"><name type="place" TEIform="name">Helmstadii</name>: <name type="person" TEIform="name">Iacobus Lucius</name>, 1539.</bibl>
+      </sourceDesc>
+    </fileDesc>
+   <encodingDesc TEIform="encodingDesc">
+      <editorialDecl default="NO" TEIform="editorialDecl">
+          <p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+        </editorialDecl>
+      <refsDecl TEIform="refsDecl" doctype="TEI.2">
+          <p TEIform="p">not necessary</p>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc TEIform="revisionDesc">
+        <change TEIform="change">
+          <date TEIform="date">20 August 2003</date>
+          <respStmt TEIform="respStmt">
+            <name TEIform="name">Ruediger Niehl</name>
+            <resp TEIform="resp">markup</resp>
+          </respStmt>
+          <item TEIform="item">text fragments joined; TEI header added and rough markup added.
+		   Typed text - structural tagging complete - semantic tagging incomplete - no spell check</item>
+        </change>
+       <change TEIform="change">
+          <date TEIform="date">2 June 2004</date>
+          <respStmt TEIform="respStmt">
+            <name TEIform="name">Angela Reinthal</name>
+            <resp TEIform="resp">markup</resp>
+          </respStmt>
+          <item TEIform="item">Morpheus spell check performed</item>
+        </change>
+    </revisionDesc>
+ </teiHeader>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<text><gap id="sampling"/><gap id="caes"/><gap id="labi"/><gap id="proc"/><gap id="lydu"/><gap id="thra"/><gap id="titi"/><gap id="tusn"/><gap id="ario"/><gap id="divi"/><gap id="cons"/><gap id="lisc"/><gap id="nasu"/><body><div1 type="book">
+<head>ACTUS II.</head>
+<div2 id="FrHH.02.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>Scena I.</head>
+<stage type="mix" TEIform="stage"><name type="person" TEIform="name">CAESAR</name>.</stage>
+<note anchored="yes" TEIform="note" place="unspecified">Senarii Iambici.</note>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">MUltum interesse arbitror, utrum ex animo omnia,</l>
+<l TEIform="l" part="N">Ut fert natura, facias, an de industria.</l>
+<pb id="s033" n="26" TEIform="pb"/>
+<l TEIform="l" part="N">Vix certior factus ab exploratoribus</l>
+<l TEIform="l" part="N">Tres copiarum partes per flumen Ararim</l>
+<l TEIform="l" part="N">Transduxisse hostes; quartam vero citra aquas</l>
+<l TEIform="l" part="N">Esse reliquam: De tertia mox vigilia</l>
+<l TEIform="l" part="N">Profectus e castris, cum tribus legionibus,</l>
+<l TEIform="l" part="N">Ad eam partem perveni, quae nondum Ararim</l>
+<l TEIform="l" part="N">Transiverat. Eos impeditos undique.</l>
+<l TEIform="l" part="N">Et inopinantes aggressus, magnam ex iis</l>
+<l TEIform="l" part="N">Partem concidi: reliqui se turpi fugae</l>
+<l TEIform="l" part="N">Mandarunt omnes; atque in silvas proximas</l>
+<l TEIform="l" part="N">Sese abdiderunt. Is pagus <name type="nation" TEIform="name">Tigurinus</name> est:</l>
+<l TEIform="l" part="N">Unus, qui cum domo exisset patrum</l>
+<l TEIform="l" part="N">Nostrorum memoria; <name type="nation" TEIform="name">Romanum</name> Consulem,</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Longinum Cassium</name>, nefarie interfecerat:</l>
+<l TEIform="l" part="N">Eiusque exercitum sub iugum miserat.</l>
+<l TEIform="l" part="N">Ita sive casu, sive consilio Deum;</l>
+<l TEIform="l" part="N">Quae civitatis pars <name type="nation" TEIform="name">Helvetiae</name>, meo</l>
+<l TEIform="l" part="N">Populo olim insignem calamitatem intulerat, haec</l>
+<l TEIform="l" part="N">Princeps mihi poenas soluit. Qua in re quidem</l>
+<l TEIform="l" part="N">Non publicas solum sed etiam iniurias</l>
+<l TEIform="l" part="N">Privatas ultus sum; quod hi soceri mei</l>
+<l TEIform="l" part="N">Pisonis avum, legatum, eodem praelio,</l>
+<l TEIform="l" part="N">Quo Cassium interfecerint. Nunc copias</l>
+<l TEIform="l" part="N">Reliquas <name type="nation" TEIform="name">Helvetiorum</name>, ut possim consequi,</l>
+<l TEIform="l" part="N">Pontem curavi in Arari faciendum ocius:</l>
+<l TEIform="l" part="N">Atque ita traduxi exercitum. Sed quid rei</l>
+<l TEIform="l" part="N">Hoc esse dicam? aut quid sibi Legati hi volunt?</l>
+<pb id="s034" n="27" TEIform="pb"/>
+<l TEIform="l" part="N">Mirum ni iterum verba datum adeant; huc <corr sic="sedere" resp="transcriber" TEIform="corr">sedero</corr>.</l>
+</lg>
+</sp>
+</div2>
+<div2 id="FrHH.02.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS II.
+Scena II.</head>
+<stage type="mix" TEIform="stage"><name type="person" TEIform="name">Divico</name>. <name type="person" TEIform="name">Caesar</name>.</stage>
+<note anchored="yes" TEIform="note" place="unspecified">Senarii Trochaici.</note>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">AD te imus <name type="person" TEIform="name">Caesar</name>. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. quae res est? quid vultis <name type="nation" TEIform="name">Helvetii</name>?</l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Si pacem iam populus <name type="nation" TEIform="name">Romanus</name> faciat cum <name type="nation" TEIform="name">Helvetiis</name>,</l>
+<l TEIform="l" part="N">In eam partem ituri sunt, atque ibi futuri, ubi tu eos</l>
+<l TEIform="l" part="N">Constitueris <name type="person" TEIform="name">Caesar</name>, et esse volueris: Sin persequi</l>
+<l TEIform="l" part="N">Bello perseverabis <name type="person" TEIform="name">Caesar</name>, reminiscere pristinae</l>
+<l TEIform="l" part="N">Virtutis <name type="nation" TEIform="name">Helvetiorum</name>, et veteris simul incommodi</l>
+<l TEIform="l" part="N">Populi <name type="nation" TEIform="name">Romani</name>. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. video, quo tendat haec oratio.</l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Quid subito ac improviso unum pagum adortus es: cum ii</l>
+<l TEIform="l" part="N">Qui flumen transiverant, suis auxilium ferre non</l>
+<l TEIform="l" part="N">Possent, ne ob eam rem, aut virtuti tuae magnopere tribue,</l>
+<l TEIform="l" part="N">Aut nos despice: Ita enim omnes nos <name type="nation" TEIform="name">Helvetii</name>; qui nunc sumus,</l>
+<l TEIform="l" part="N">A patribus maioribusque nostris didicimus, magis</l>
+<pb id="s035" n="28" TEIform="pb"/>
+<l TEIform="l" part="N">Ut virtute, quam dolo contendamus. Proin, mi homo,</l>
+<l TEIform="l" part="N">Noli fors committere, ut <orig reg="istic" TEIform="orig">isthic</orig> locus, ubi consistimus,</l>
+<l TEIform="l" part="N">Ex tua calamitate, et internecione exercitus,</l>
+<l TEIform="l" part="N">Nomen capiat, aut memoriam prodat. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. Eo minus mihi</l>
+<l TEIform="l" part="N">Additur dubitationis, o <name type="nation" TEIform="name">Helvetii</name>; quod haec,</l>
+<l TEIform="l" part="N">Quae commemorastis, memoria teneo: atque hoc gravius fero,</l>
+<l TEIform="l" part="N">Quo minus merito populi <name type="nation" TEIform="name">Romani</name> evenisse haec scio.</l>
+<l TEIform="l" part="N">Nam si iniurie alicuius sibi fuisset conscius,</l>
+<l TEIform="l" part="N">Non difficile ei cavere fuisset: sed eo tum fuit</l>
+<l TEIform="l" part="N">Deceptus populus, quod neque commissum a se animadverteret,</l>
+<l TEIform="l" part="N">Cur timeret: nec sine causa aliquid sibi ab <name type="nation" TEIform="name">Helvetiis</name></l>
+<l TEIform="l" part="N">Metuendum putaret. Quod si veteris contumeliae</l>
+<l TEIform="l" part="N">Oblivisci vellem, num etiam memoriam recentium</l>
+<l TEIform="l" part="N">Possim iniuriarum deponere: quod me invito huc iter</l>
+<l TEIform="l" part="N">Per provinciam, per vim temptastis: Item quod <name type="nation" TEIform="name">Aeduos</name>,</l>
+<l TEIform="l" part="N">Quod socios, quod <name type="nation" TEIform="name">Allobroges</name> vexastis? Nam quod perfidi</l>
+<pb id="s036" n="29" TEIform="pb"/>
+<l TEIform="l" part="N">Vestra tam insolenter gloriamini victoria:</l>
+<l TEIform="l" part="N">Quodque tam diu istas vos tulisse impune iniurias</l>
+<l TEIform="l" part="N">Admiramini, eodem pertinet. Consueverunt enim</l>
+<l TEIform="l" part="N">Dii immortales, quo gravius homines e praecoce</l>
+<l TEIform="l" part="N">Commutatione rerum doleant, quos pro flagitio</l>
+<l TEIform="l" part="N">Ulcisci volunt, secundiores his plerunque res,</l>
+<l TEIform="l" part="N">Et diuturniorem impunitatem aeque concedere.</l>
+<l TEIform="l" part="N">Quae cum ita sint, tamen, si dentur a vobis mihi obsides,</l>
+<l TEIform="l" part="N">Ut, quae pollicemini, facturos vos intelligam:</l>
+<l TEIform="l" part="N">Et si etiam <name type="nation" TEIform="name">Aeduis</name>, de iniuriis, quas ipsis et sociis</l>
+<l TEIform="l" part="N">Intulistis; item si <name type="nation" TEIform="name">Allobrogibus</name> satisfaciatis: age</l>
+<l TEIform="l" part="N">Pacem, quam petitis, vobiscum facturus sum, <name type="nation" TEIform="name">Helvetii</name>:</l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Nos <name type="nation" TEIform="name">Helvetii</name> a maioribus nostris, ita hic sumus</l>
+<l TEIform="l" part="N">Instituti, ut obsides accipere ab aliis, non dare</l>
+<l TEIform="l" part="N">Consueverimus. Eius rei populus <name type="nation" TEIform="name">Romanus</name> restis est.</l>
+<l TEIform="l" part="N">Abeo. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. I, quo lubet. Tu <name type="person" TEIform="name">Procili</name>, <name type="person" TEIform="name">Divitiacum</name> mihi,</l>
+<l TEIform="l" part="N">Et <name type="person" TEIform="name">Liscum</name>, <name type="nation" TEIform="name">Aeduorum</name> principes, cum reliquis convoca:</l>
+<pb id="s037" n="30" TEIform="pb"/>
+<l TEIform="l" part="N">Tu Labiene, quas in partes hostis iter faciat, vide.</l>
+</lg>
+</sp>
+</div2>
+<div2 id="FrHH.02.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS II.
+Scena III.</head>
+<stage type="mix" TEIform="stage"><name type="person" TEIform="name">Caesar</name>. <name type="person" TEIform="name">Diviciacus</name>. <name type="person" TEIform="name">Liscus</name>.</stage>
+<note anchored="yes" TEIform="note" place="unspecified">Septenarii Trochaici.</note>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><note resp="transcriber" anchored="yes" TEIform="note" place="unspecified">AEduos</note> quotidie frumentum flagito: publice</l>
+<l TEIform="l" part="N">Quod nobis sunt polliciti. Nam</l>
+<l TEIform="l" part="N">propter frigora, non modo</l>
+<l TEIform="l" part="N">Frumenta in agris nondum sunt matura, sed ne quidem</l>
+<l TEIform="l" part="N">Populi sat magna copia suppetit. Diem ex die</l>
+<l TEIform="l" part="N">Ducunt <name type="nation" TEIform="name">Aedui</name>: Conferri, comportari, adesse iam</l>
+<l TEIform="l" part="N">Dicunt. </l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Proh Deum, quid narras <name type="person" TEIform="name">Lisce</name>? LI.</l>
+<l TEIform="l" part="N">Ita est <name type="person" TEIform="name">Diviciace</name>, ut modo</l>
+<l TEIform="l" part="N">Dixi: qui cupidius agmen novissimum insecuti hostium</l>
+<l TEIform="l" part="N">Alieno hi loco cum <name type="nation" TEIform="name">Helvetiorum</name> congressi equitatu, proelium</l>
+<l TEIform="l" part="N">Commisere. Ideo quingenti equites <name type="nation" TEIform="name">Helvetii</name>, quatuor</l>
+<l TEIform="l" part="N">Milia <name type="nation" TEIform="name">Romanorum</name> propulere. Nunc <name type="person" TEIform="name">Caesar</name> suos</l>
+<pb id="s038" n="31" TEIform="pb"/>
+<l TEIform="l" part="N">Continet hic a praelio, satisque habet in praesentiae</l>
+<l TEIform="l" part="N">Posse hostem a rapinis prohibere, et populationib.</l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. Convocate huc iusseram qui sunt in castris principes:</l>
+<l TEIform="l" part="N">Atque Eccos. </l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Tribunali insidet, adeamus <name type="person" TEIform="name">Lisce</name>. </l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. I, sequor.</l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Non decet; tu enim huius anni summus Vergobretus es.</l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. <name type="person" TEIform="name">Caesar</name> adsumus uti iusseras. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. Dies instat Duces</l>
+<l TEIform="l" part="N"><name type="nation" TEIform="name">Aedui</name>: quo frumentum oportet militi metirier.</l>
+<l TEIform="l" part="N">Quid igitur rei est, quod, cum neque emi, neque ex agris</l>
+<l TEIform="l" part="N">Sumi possit uspiam: tam necessario ego tempore,</l>
+<l TEIform="l" part="N">Tam propinquis hostibus, a vobis nihil quicquam impetro:</l>
+<l TEIform="l" part="N">Praesertim cum magna ex parte, vestris precibus, <name type="nation" TEIform="name">Aedui</name>,</l>
+<l TEIform="l" part="N">Adductus bellum susceperim? </l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. Quid respondebimus?</l>
+<l TEIform="l" part="N">Aut quam causam <name type="person" TEIform="name">Diviciace</name> huic afferemus? </l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. nescio.</l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. Quid tacetis? aut quid inter vos mussatis, <name type="nation" TEIform="name">Aedui</name>?</l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. Culpa nos penes, non est, <name type="person" TEIform="name">Caesar</name>. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. penes quem igitur? cedo.</l>
+<pb id="s039" n="32" TEIform="pb"/>
+<l TEIform="l" part="N">An non tu magistratus loci huius: qui vitae et necis</l>
+<l TEIform="l" part="N">In tuos habes potestatem? </l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. Non inficias eo.</l>
+<l TEIform="l" part="N">Sed sunt hic nonnulli <name type="person" TEIform="name">Caesar</name>, quorum auctoritas apud</l>
+<l TEIform="l" part="N">Plebem plurimum valet: qui privatim, quod novimus</l>
+<l TEIform="l" part="N">Plus possunt, quam nos magistratus: </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. Et quinam illi? cedo.</l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. Homines improbi, qui seditiosis vocibus improbe,</l>
+<l TEIform="l" part="N">Multitudinem deterrent, ne frumentum conferant:</l>
+<l TEIform="l" part="N">Quod praestare dicant, si iam principatum <name type="nation" TEIform="name">Galliae</name></l>
+<l TEIform="l" part="N">Obtinere non possint, Gallorum, quam <name type="nation" TEIform="name">Italorum</name> pati</l>
+<l TEIform="l" part="N">Imperia; neque debeant dubitare, quin si <name type="nation" TEIform="name">Helvetios</name></l>
+<l TEIform="l" part="N"><name type="nation" TEIform="name">Romani</name> superaverint, una cum reliqua <name type="nation" TEIform="name">Gallia</name></l>
+<l TEIform="l" part="N"><name type="nation" TEIform="name">Aeduis</name> libertatem sint erepturi, CAE quinam homines:</l>
+<l TEIform="l" part="N">Qui hoc dicunt? Li. idem, a quibus nostra consilia omnia</l>
+<l TEIform="l" part="N">Quaecumque geruntur in castris, enuntiantur hostibus:</l>
+<l TEIform="l" part="N">Hi coerceri a me non possunt. Quare etiam, qui tibi</l>
+<pb id="s040" n="33" TEIform="pb"/>
+<l TEIform="l" part="N">Rem necessariam cogor denuntiare, intelligo,</l>
+<l TEIform="l" part="N">Quanto id faciam cum periculo: Et ob eam causam: quamdiu</l>
+<l TEIform="l" part="N">Potui, tacui. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. Quinam hi persidi nebulones sunt, cedo?</l>
+<l TEIform="l" part="N">Quid taces? quin dicis aperte, quicquid est. </l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. Si commode</l>
+<l TEIform="l" part="N">Possum, et sat tuto, remotis arbitris. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. Discedite,</l>
+<l TEIform="l" part="N">Vos reliqui e conventu; tu solus remane. Nam scibo ego,</l>
+<l TEIform="l" part="N">Qui tandem isti sint totius proditores <name type="nation" TEIform="name">Galliae</name>.</l>
+<l TEIform="l" part="N">Age tu, numquid designasti oratione publica</l>
+<l TEIform="l" part="N">Fratrem huius <name type="person" TEIform="name">Divitiaci</name>, <name type="person" TEIform="name">Dumnorigem</name>? </l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. videlicet.</l>
+<l TEIform="l" part="N">Nam is homo summa audacia et, magnaque apud plebem valet,</l>
+<l TEIform="l" part="N">Propter liberalitatem, gratia: novarum item</l>
+<l TEIform="l" part="N">Rerum est percupidus. Nam complures annos portoria,</l>
+<l TEIform="l" part="N">Et reliqua <name type="nation" TEIform="name">Aeduorum</name> vectigalia, omnia possidet,</l>
+<l TEIform="l" part="N">Exili redempta pretio; propterea quod illo aliquam</l>
+<l TEIform="l" part="N">Rem licente, contra nemo audeat liceri. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. intelligo.</l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. His rebus suam rem familiarem auxit: <corr sic="manasque" resp="printer" TEIform="corr">magnasque</corr> rerum</l>
+
+
+<pb id="s041" n="34" TEIform="pb"/>
+<l TEIform="l" part="N">Sibi facultates ad largiendum comparavit; ac</l>
+<l TEIform="l" part="N">Magnum item numerum equitatus suo sumptu plerunque alit,</l>
+<l TEIform="l" part="N">Ac circum se habet: neque solum iam domi, sed apud locos</l>
+<l TEIform="l" part="N">Finitimos, reliquasque civitates, largiter potest.</l>
+<l TEIform="l" part="N">Atque huius potentiae causa matrem in <name type="nation" TEIform="name">Biturigibus</name>,</l>
+<l TEIform="l" part="N">Homini nobilissimo, et potentissimo ibi, coniugem</l>
+<l TEIform="l" part="N">Dedit: ipse uxorem venustam habet, ex <name type="nation" TEIform="name">Helvetiis</name>. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. probe.</l>
+</lg>
+</sp>
+<sp who="lisc" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LI. Ex matre sororem, et suas propinquas nuptum in <name type="place" TEIform="name">Galliae</name></l>
+<l TEIform="l" part="N">Alias civitates collocavit: favet <name type="nation" TEIform="name">Helvetiis</name>,</l>
+<l TEIform="l" part="N">Et cupit, propter eam affinitatem. Odit etiam suo</l>
+<l TEIform="l" part="N">Nomine <name type="person" TEIform="name">Caesarem</name>, et <name type="nation" TEIform="name">Romanos</name>: quod vestro adventu, ipsius</l>
+<l TEIform="l" part="N">Imminuta sit potentia: et <name type="person" TEIform="name">Divitiacus</name>, minor</l>
+<l TEIform="l" part="N">Frater in antiquum locum nunc restitutus gratiae,</l>
+<l TEIform="l" part="N">Atque honoris. Si quid <name type="nation" TEIform="name">Romanis</name> accidat eiusmodi,</l>
+<l TEIform="l" part="N">Summam in spem regni obtinendi per <name type="nation" TEIform="name">Helvetios</name> venit:</l>
+<l TEIform="l" part="N">Imperio populi <name type="nation" TEIform="name">Romani</name>, non modo de regno, sed et</l>
+<l TEIform="l" part="N">De illa, quam iam habet, desperat gratia. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. proh Deum</l>
+<l TEIform="l" part="N">Quae haec est coniuratio? Nam quid iam aut cuinam creduim?</l>
+<pb id="s042" n="35" TEIform="pb"/>
+<l TEIform="l" part="N">LI. Quin imo, quod praelium equestre, paucis ante diebus est</l>
+<l TEIform="l" part="N">Factum adversum, initium a <name type="person" TEIform="name">Dumnorige</name> factum eius fugae,</l>
+<l TEIform="l" part="N">Atque eius equitibus; quorum fuga reliqui perterriti</l>
+<l TEIform="l" part="N">Fuerant. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. Sat habeo. Nam ad has suspiciones, certissimae</l>
+<l TEIform="l" part="N">Res accedunt: quod per fines <name type="nation" TEIform="name">Sequanorum</name> <name type="nation" TEIform="name">Helvetios</name></l>
+<l TEIform="l" part="N">Traduxit; quod obsides inter eos dandos invicem</l>
+<l TEIform="l" part="N">Curavit: quod isthaec omnia, non modo iniussu meo,</l>
+<l TEIform="l" part="N">Atque civitatis, sed nobis etiam inscientibus</l>
+<l TEIform="l" part="N">Fecit, causae satis esse arbitror, quare aut ipse in virum</l>
+<l TEIform="l" part="N">Perfidum animadvertam, aut civitatem ipsam animadvertere</l>
+<l TEIform="l" part="N">Iubeam. <name type="person" TEIform="name">Divitiacum</name> huc aliquis, ac dudum mihi adnocet.</l>
+<l TEIform="l" part="N">Nam huius summum in populum <name type="nation" TEIform="name">Romanum</name> studium habeo cognitum.</l>
+<l TEIform="l" part="N">Egregiam fidem, summam iustitiam, temperantiam;</l>
+<l TEIform="l" part="N">Cuius animum, ne supplicio fratris offendam, mihi</l>
+<l TEIform="l" part="N">Cautio est. LI. Eccum <name type="person" TEIform="name">Caesar</name>: adest <name type="person" TEIform="name">Diviciacus</name>. CAE; Quae mihi</l>
+<l TEIform="l" part="N">Te praesente, <name type="person" TEIform="name">Diviciace</name>, dicta sint de fratre tuo</l>
+<l TEIform="l" part="N">Dumnorige, nosti? </l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Novi. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. At iam quoque separatim</l>
+<pb id="s043" n="36" TEIform="pb"/>
+<l TEIform="l" part="N">Quisque de illo apud me dixit: ut causae arbitrer fatis</l>
+<l TEIform="l" part="N">Esse, quare in eum animadverti debeat. Ac proin peto,</l>
+<l TEIform="l" part="N">Atque oro, <name type="person" TEIform="name">Diviciace</name>, ut sine animi offensione tui,</l>
+<l TEIform="l" part="N">Vel tu ipse de eo, causa cognita, statuas; vel <note resp="transcriber" anchored="yes" TEIform="note" place="unspecified">Aeduos</note>,</l>
+<l TEIform="l" part="N">Et <name type="person" TEIform="name">Liscum</name> Vergobretum, statuere iubeas. </l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Obsecro</l>
+<l TEIform="l" part="N">Te, mi <name type="person" TEIform="name">Caesar</name>, ne gravius quid statuas, in fratrem meum</l>
+<l TEIform="l" part="N">Scio vera esse, quae sunt dicta: neque quisquam plus ex eo</l>
+<l TEIform="l" part="N">Quam ego, doloris capit. LI. Ita est <name type="person" TEIform="name">Caesar</name>. </l>
+</lg>
+</sp>
+<sp who="divi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DI. Nam cum ipse plurimum</l>
+<l TEIform="l" part="N">Domi, et in reliqua <name type="nation" TEIform="name">Gallia</name> possit, ego minimum possiem,</l>
+<l TEIform="l" part="N">Propter adolescentiam, ipse per se sic succrevit. Quibus</l>
+<l TEIform="l" part="N">Opibus ac neruis non solum ad imminuendam gratiam,</l>
+<l TEIform="l" part="N">Sed paene ad meam perniciem abutitur. Verumtamen</l>
+<l TEIform="l" part="N">Ego fraterno amore, et vulgi existimatione</l>
+<l TEIform="l" part="N">Commoveor. Nam si quid ei, <name type="person" TEIform="name">Caesar</name>, a te gravius accidat,</l>
+<pb id="s044" n="37" TEIform="pb"/>
+<l TEIform="l" part="N">Cum ego apud te locum hunc amicitiae teneam, iam nemo non</l>
+<l TEIform="l" part="N">Mea voluntate factum putabit. Qua ex re fiet, ut</l>
+<l TEIform="l" part="N"><name type="nation" TEIform="name">Galliae</name> totius animi a me avertantur. </l>
+</lg>
+</sp>
+<sp who="caes" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAE. dexteram tuam</l>
+<l TEIform="l" part="N">Mihi cedo: et finem orandi fac, <name type="person" TEIform="name">Diviciace</name>. Tanti apud</l>
+<l TEIform="l" part="N">Me tua gratia est, ut et Rei publicae hanc iniuriam,</l>
+<l TEIform="l" part="N">Et meum dolorem tuae voluntati, et precibus lubens,</l>
+<l TEIform="l" part="N">Condonem. Quod in te est, fratrem commone: ut reliquum dehinc</l>
+<l TEIform="l" part="N">In tempus suspiciones omnes vitet. Tu <name type="person" TEIform="name">Lisce</name> sedulos</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Dumnorigi</name> custodes pone, ut quae agat, quibus cum homo</l>
+<l TEIform="l" part="N">Colloquatur, scire possim. LI. sedulo curabitur.</l>
+</lg>
+</sp>
+</div2>
+<div2 id="FrHH.02.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS II.
+Scena IV.</head>
+<stage type="mix" TEIform="stage"><name type="person" TEIform="name">Thrasymachus</name>. <name type="person" TEIform="name">Tusnelda</name>.</stage>
+<note anchored="yes" TEIform="note" place="unspecified">Octonarii Iambici.</note>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">PRocede huc lepidum mercimonium. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tu: Quid me vis? impera</l>
+<l TEIform="l" part="N">Stratege. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. qua te conditione mihi conduxerim, id tenes?</l>
+<pb id="s045" n="38" TEIform="pb"/>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Teneo. ut annum perpetuum hunc seruiam tibi. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. videlicet.</l>
+<l TEIform="l" part="N">Neque quemquam interea admittas alium prorsus, quam me, ad te, virum.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quin, si velis, domi, serui si qui sunt, castrabo viros.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Servos neque habeo, neque habiturus sum, unum te praeter, alios.</l>
+<l TEIform="l" part="N">Tu mihi calo, tu lixa, tu scutigerulus, tu pedisequus.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Imo scutigerula et pedisequa. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Tu theca atque armarium.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Sic certe. Nam merito esse me dicis armarium tibi:</l>
+<l TEIform="l" part="N">Quae tot in unam vaginam saepius machaeras condidi.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Nihil te terreat praepinguis hic meus aqualiculus.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Ne mus quidem, quamvis pusillus, sub foeni meta perit.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Meo de studio studia erunt tibi omnia. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. per porcam meam.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Mihi adhaerebis <name type="person" TEIform="name">Tusnelda</name>: quod ego iussero, quod volnero:</l>
+<l TEIform="l" part="N">Facies: quod contra noluero, quod vetuero, de industria</l>
+<l TEIform="l" part="N">Fugies: neque conari id facere audebis. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quod voluero faciam,</l>
+<pb id="s046" n="39" TEIform="pb"/>
+<l TEIform="l" part="N">Quod noluero, fugiam. Semper ductabis me solus tibi:</l>
+<l TEIform="l" part="N">Si semper solus, quae poscam, dabis: dum des, quod postulo.</l>
+<l TEIform="l" part="N">Atque adeo iam nunc miles, si mihi dantur, quae pollicitus es,</l>
+<l TEIform="l" part="N">Et de quibus mecum egisti, numerata sestertia in manu.</l>
+<l TEIform="l" part="N">Hanc tibi ego noctem honoris causa, gratis dono dabo.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Ne sis sollicita: sed responde mihi prius, quod te rogo.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quid rogitas? </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Etiamne aedes compilare nosti, et scrinia?</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Vae nomini si quis neglegenter obseravit ianuam.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Etiamne gallinaria? </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quasi quidam volucrum Ornithias.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Sed prensa quid facis? </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. pernego et obduro, peiero denique</l>
+<l TEIform="l" part="N">Tum si cui quid debeo, rem tergo soluo, qui placeo <name type="person" TEIform="name">Thrasymache</name>?</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Ita me machaera, chlamys, scutum, loricae, crista, cassida,</l>
+<l TEIform="l" part="N">Bene adiuvent, ut ego te non amem plus, quam matrem meam.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Ita me servassit speculum, calamistrum, matellae, pectines,</l>
+<pb id="s047" n="40" TEIform="pb"/>
+<l TEIform="l" part="N">Umbella, ralla; ut ego te non amen plus, quam patrem meum.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Cuias es? </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. <name type="nation" TEIform="name">Sueva</name> sum domo. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Dii vestram fidem</l>
+<l TEIform="l" part="N">Credo ego <name type="nation" TEIform="name">Sueviam</name> unam toti sufficere <name type="nation" TEIform="name">Germaniae</name></l>
+<l TEIform="l" part="N">Meretricum copiam. Quaeso edepol, qua occasione ad hoc</l>
+<l TEIform="l" part="N">Bellum venisti? </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Audire si lubet, dicam. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. lubet edepol.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Erat mihi paupercula mater, lana ac tela victum parans.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Quorsum istas ambages? </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Tace: audies. viduata cum viro</l>
+<l TEIform="l" part="N">Esset, decennem me puellam, Cauponi ancillam dedit,</l>
+<l TEIform="l" part="N">Huic ego liberaliter seruivi in coquina. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Scilicet,</l>
+<l TEIform="l" part="N">Etiam in cella plumaria. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Non sed eam curabat alius</l>
+<l TEIform="l" part="N">Quidam Cellarius: quem Dii perdant. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Cur isti male</l>
+<l TEIform="l" part="N">Dicis? </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. quia bene ut illi dicam, non promeritus est.</l>
+<l TEIform="l" part="N">Nam hic nobis malorum causa et caput est omnium. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. qui dum? cedo.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quotidie veniebant in Cauponam turmatim hospites:</l>
+<pb id="s048" n="41" TEIform="pb"/>
+<l TEIform="l" part="N">Sed mea hera tum credebat omnem rem mihi culinariam,</l>
+<l TEIform="l" part="N">Et herus omnem cellam cellario. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Lupis oves puto.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Ego famem sedebam cellario proma: Sitim mihi</l>
+<l TEIform="l" part="N">Cellarius. Multa hic memorare possem, pro merito meo:</l>
+<l TEIform="l" part="N">Ubi herum mihi fidentem fraudarim? ubi infidelis fuerim herae:</l>
+<l TEIform="l" part="N">Ubi parietes perfoderim; ubi manus admolita loculis:</l>
+<l TEIform="l" part="N">Ubi heris damno, dividiae, dedecori, probro saepe fuerim.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Et ubi quid creditum fuerat tibi, datum pernegaveris.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quin immo: ubi conceptis verbis peieraverim sciens, volens.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Et ubi cellario fueris, quam cauponi fidelior.</l>
+<l TEIform="l" part="N">TU. Ecastor; nam quicquid consumpseramus in cubiculo</l>
+<l TEIform="l" part="N">Clam somnolento caupone, veternosa hera, nos servulae:</l>
+<l TEIform="l" part="N">Id omne referre servus poterat in rationes hospitum.</l>
+<l TEIform="l" part="N">Neque enim caupo cuique hospiti subducebat ratiunculam.</l>
+<pb id="s049" n="42" TEIform="pb"/>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Ego morem hunc didici cauponarium, non sine magno malo.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quadam nocte ebriae persuasit mihi; quod amanti solet amans.</l>
+<l TEIform="l" part="N">Nam si quid inde conceptum foret, quod consuetudinem</l>
+<l TEIform="l" part="N">Hanc proderet, culpam aiebat remoturum esse in hospites.</l>
+<l TEIform="l" part="N">Astute. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Imo sat callide, puto. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quid verbis opus est?</l>
+<l TEIform="l" part="N">E virgine meretricem fecit, auri montes pollicens.</l>
+<l TEIform="l" part="N">Mox ubi praegnantem vidit, aufugit: vertit solum,</l>
+<l TEIform="l" part="N">Ego abortum pasta, militem qui forte in cauponam meam</l>
+<l TEIform="l" part="N">Diverterat, huc comitata sum, officii causa. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. quem militem?</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. <name type="nation" TEIform="name">Tigurinum</name> centurionem, qui periit in hesterno praelio.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Sat habeo: eamus intro. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. At ego cum multibiba siem</l>
+<l TEIform="l" part="N">Et vinibiba, prius haud intro, quam certa sim, si vini utrem</l>
+<l TEIform="l" part="N">Hic habeam veteris largiter: ut dies noctesque potitem.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Cauponum obliviscendi mores, discendi stratiotici.</l>
+<pb id="s050" n="43" TEIform="pb"/>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Quinam? </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Post hac dormitandum tibi in straminea culcitra</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Nihil refert, dum tu sis modo mihi deinceps pro stragulo.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Et tu pro beluato mihi tapetio. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. dum plena sim</l>
+<l TEIform="l" part="N">Vino veteri. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. nos milites apludam edimus, bibimus floces,</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Urtica victitare non didici; iam non intravero.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Bono sis animo: si mihi fidelis fueris, nihil tibi</l>
+<l TEIform="l" part="N">Deerit. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Dic, impera mihi, quid vis, et quovis modo: novos</l>
+<l TEIform="l" part="N">Et ego habeo omnes mores, veteres perdidi: Tu modo cave,</l>
+<l TEIform="l" part="N">Fidem fallas. </l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Otium ubi erit, de hac re loquemur amplius.</l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Novi ego qui mores sint vestri: ubi vos nostri cepit satietas:</l>
+<l TEIform="l" part="N">Et scio equidem tibi domi uxorem esse: alibi nunc animum tuum.</l>
+</lg>
+</sp>
+<sp who="thra" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TH. Dii immortales, ut planiloqua est? paucis ut rem ipsam attigit!</l>
+<l TEIform="l" part="N">Sequere <name type="person" TEIform="name">Tusnelda</name>: Ubi libripens mihi solverit stipendium</l>
+<l TEIform="l" part="N">Dimidium haec auferet. </l>
+</lg>
+</sp>
+<sp who="tusn" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU. Credam, postquam argentum tinniverit.</l>
+<pb id="s051" n="44" TEIform="pb"/>
+</lg>
+</sp>
+</div2>
+<div2 id="FrHH.02.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS II.
+Scena V.</head>
+<stage type="mix" TEIform="stage"><name type="person" TEIform="name">Considius</name>. <name type="person" TEIform="name">Labienus</name>.</stage>
+<note anchored="yes" TEIform="note" place="unspecified">Octonarii Iambici.</note>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">PRoh <name type="myth" TEIform="name">Iuppiter</name>, Labiene, quid narras? </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. ita est, ut dixeram</l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. Tantamne rem, tam subito confici? </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Est factum, mi Considi:</l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. Numquam isthuc credidissem, ut tam brevi spatio, tot hostium</l>
+<l TEIform="l" part="N">Tam firmae copiae bello superari possent. </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Multum in hac</l>
+<l TEIform="l" part="N">Re militum nostrorum virtus, non minus ducis ipsius</l>
+<l TEIform="l" part="N">Potuit prudentia. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. Quomodo? </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Nam <name type="person" TEIform="name">Caesar</name> factus certior,</l>
+<l TEIform="l" part="N">Hostem sub monte consedisse milia passuum ab ipsius</l>
+<l TEIform="l" part="N">Castris octo, misit, qui naturam montis cognoscerent,</l>
+<l TEIform="l" part="N">Et qualis in circuitu ascensus esset. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. Scio. </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. ut comperit,</l>
+<l TEIform="l" part="N">Facilem esse, me de tertia vigilia cum duabus eo</l>
+<l TEIform="l" part="N">Legionibus, et iisdem ducibus, qui cognoverant iter,</l>
+<pb id="s052" n="45" TEIform="pb"/>
+<l TEIform="l" part="N">Praemittit, et summum montis iugum ascendere iubet. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. probe.</l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Quid consilii sui sit, ostendit. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. quid nam? </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. ne proelium</l>
+<l TEIform="l" part="N">Committerem, priusquam copiae ipsius prope hostium</l>
+<l TEIform="l" part="N">Castra essent visae: ut undique uno tempore in hostes impetus</l>
+<l TEIform="l" part="N">Feret. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. probe. </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Monte occupato praestolabar <rs type="person" n="?" TEIform="rs">Caesarem</rs>,</l>
+<l TEIform="l" part="N">Et praelio abstinebam. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. At ego montem teneri ab hostibus</l>
+<l TEIform="l" part="N">Ratus, equo admisso ad <name type="person" TEIform="name">Caesarem</name> tum accurri, et quod non videram,</l>
+<l TEIform="l" part="N">Pro viso ei renuntiavi, Multo post die denique</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Caesar</name> cognovit montem a te teneri: Eo castra <name type="nation" TEIform="name">Helvetios</name></l>
+<l TEIform="l" part="N">Movisse. Qua re cognita eodem, quo consuerat antea</l>
+<l TEIform="l" part="N">Interuallo, hostem sequitur; et tria milia passuum</l>
+<l TEIform="l" part="N">Ab eorum castris castra ponit. </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Cur? </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. ausculta, audies.</l>
+<l TEIform="l" part="N">Postridie eius diei, quod biduum omnino <corr sic="superat" resp="printer" TEIform="corr">supererat</corr></l>
+<l TEIform="l" part="N">Cum frumentum exercitui oporteret metirier, et quod a</l>
+<l TEIform="l" part="N"><name type="place" TEIform="name">Bibracte</name>, maximo et copiosissimo <name type="nation" TEIform="name">AEduorum</name> oppido</l>
+<pb id="s053" n="46" TEIform="pb"/>
+<l TEIform="l" part="N">Non amplius, quod memini, octodecim milibus passuum aberat,</l>
+<l TEIform="l" part="N">Rei frumentariae prospiciendum putavit. Quare iter</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Caesar</name> ab <name type="nation" TEIform="name">Helvetiis</name> avertit, ac <name type="place" TEIform="name">Bibracte</name> ire propere</l>
+<l TEIform="l" part="N">Contendit. Haec res per fugitinos <name type="person" TEIform="name">Lucii AEmilii</name>, equitum</l>
+<l TEIform="l" part="N">Gallorum Decurionis, nuntiatur hostibus. </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. hostibus?</l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. <name type="nation" TEIform="name">Helvetii</name> seu quod timore <name type="nation" TEIform="name">Romanos</name> perterritos</l>
+<l TEIform="l" part="N">Discedere a se existimarent, eo magis, quod pridie</l>
+<l TEIform="l" part="N">Locis per te occupatis, superioribus, cum copiis</l>
+<l TEIform="l" part="N">Non commisissent praelium: seu, quod re frumentaria</l>
+<l TEIform="l" part="N">Poste intercludi eos considerent; commutato suo</l>
+<l TEIform="l" part="N">Consilio, atque itinere converso, nostros pedites ab agmine</l>
+<l TEIform="l" part="N">Novissimo insequi, et lacessere coeperunt. Postquam id animum</l>
+<l TEIform="l" part="N">Advertit, copias suas <name type="person" TEIform="name">Caesar</name>, in collem proximum</l>
+<l TEIform="l" part="N">Subduxit: equitatum, qui sustineret hostium impetum</l>
+<pb id="s054" n="47" TEIform="pb"/>
+<l TEIform="l" part="N">Misit. </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Recte istuc. CON: Interim ipse in medio colle triplicem</l>
+<l TEIform="l" part="N">Aciem instruxit legionum quatuor veteranorum. </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. scio.</l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. Ita ut super se legiones duas, summo in montis iugo,</l>
+<l TEIform="l" part="N">Modo quas in citeriori <name type="nation" TEIform="name">Gallia</name> novas conscripserat,</l>
+<l TEIform="l" part="N">Et auxilia omnia collocarit: ac totum montem hominibus</l>
+<l TEIform="l" part="N">Complerit. Interea in unum locum conferri sarcinas,</l>
+<l TEIform="l" part="N">Et eum abiis, qui in superiore constiterant acie, iubet</l>
+<l TEIform="l" part="N">Muniri: suoque praesidio impedimentis relinquit. </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. At</l>
+<l TEIform="l" part="N"><name type="nation" TEIform="name">Helvetii</name> cum carris omnibus secuti, celeriter</l>
+<l TEIform="l" part="N">In unum contulerunt impedimenta omnia:</l>
+<l TEIform="l" part="N">Ipsi confertissima acie, reiectis nostris equitib.</l>
+<l TEIform="l" part="N">Phalange facta, sub primam nostram aciem successere. Ibi</l>
+<l TEIform="l" part="N"><name type="person" TEIform="name">Caesar</name>, primum suo, deinde omnium e conspectu equos</l>
+<l TEIform="l" part="N">Removit. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. cur istuc? </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Ut aequato omnium periculo</l>
+<l TEIform="l" part="N">Fugae spem tolleret. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. o facinus magnum et vere memorabile.</l>
+<pb id="s055" n="48" TEIform="pb"/>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Cohortatus suos commisit praelium. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. Minus igitur</l>
+<l TEIform="l" part="N">Mirum mihi, si tam insperata potitus est victoria.</l>
+<l TEIform="l" part="N">Nam ducis ad exemplum facile sese componunt milites.</l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Nostri pilis, e superiore loco missis: facile hostium</l>
+<l TEIform="l" part="N">Phalangem perfregere. Ea disiecta, gladiis impetum</l>
+<l TEIform="l" part="N">In eos fecerunt. Gallis magno ibi impedimento fuit,</l>
+<l TEIform="l" part="N">Quod eorum scutis, pilorum uno ictu transfixis pluribus,</l>
+<l TEIform="l" part="N">Et colligatis, cum ferrum se inflexisset, neque</l>
+<l TEIform="l" part="N">Euellere, neque sinistra forte scuto intricata fat commode</l>
+<l TEIform="l" part="N">Pugnare poterant. Multi, ut diu iactato brachio,</l>
+<l TEIform="l" part="N">Praeoptarent scutum emittere manu, atque nudo corpore</l>
+<l TEIform="l" part="N">Pugnare. Tandem vulneribus defessi: et celerem pedem</l>
+<l TEIform="l" part="N">Referre, et, quod mons suberat circiter mille passuum,</l>
+<l TEIform="l" part="N">Eo se recipere coeperunt. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CO. sed an non ibi consecutus est</l>
+<l TEIform="l" part="N">Hostem? </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. audi Considi, quam varia sit et anceps belli alea.</l>
+<pb id="s056" n="49" TEIform="pb"/>
+<l TEIform="l" part="N">Capto iam monte, et succedentibus nostris, <name type="nation" TEIform="name">Boii</name>, et cum iis</l>
+<l TEIform="l" part="N"><name type="nation" TEIform="name">Tulingi</name>, qui hominum milibus circiter quindecim,</l>
+<l TEIform="l" part="N">Claudebant hostium agmen, et novissimis praesidio erant,</l>
+<l TEIform="l" part="N">Et itinere nostros, latere aperto aggressi, circumdare</l>
+<l TEIform="l" part="N">Coepere. Id conspicati <name type="nation" TEIform="name">Helvetii</name>, qui in montem se fuga</l>
+<l TEIform="l" part="N">Receperant, rursum instare, et redintegrare praelium.</l>
+<l TEIform="l" part="N">Ibi tum <name type="nation" TEIform="name">Romani</name> signa conversa bipartito inferunt;</l>
+<l TEIform="l" part="N">Prima ac secunda acies, ut victis submotisque resisteret,</l>
+<l TEIform="l" part="N">Tertia venientes sustineret. Sic ancipiti praelio</l>
+<l TEIform="l" part="N">Diu acriterque pugnatum est. Sed cum non possent impetum</l>
+<l TEIform="l" part="N">Nostrorum sustinere diutius: alteri se, (ut coeperant)</l>
+<l TEIform="l" part="N">In montem iterum recepere: alteri ad impedimenta et suos</l>
+<l TEIform="l" part="N">Carros se contulerunt. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. homines bellicosos praedicas.</l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Quid bellicosos? Toto hoc praelio, cum ab hora septima</l>
+<pb id="s057" n="50" TEIform="pb"/>
+<l TEIform="l" part="N">Ad vesperum pugnatum sit, videre aversum hostem tamen</l>
+<l TEIform="l" part="N">Nemo potuit. Ad multam noctem etiam, ad impedimenta undique</l>
+<l TEIform="l" part="N">Pugnatum est: propterea quod pro vallo carros obiecerant,</l>
+<l TEIform="l" part="N">Et tela in nos nostrosque e superiore mittebant loco;</l>
+<l TEIform="l" part="N">Et nonnulli inter carros et rotas, <corr sic="mazaras" resp="printer" TEIform="corr">mataras</corr> ac tragulas</l>
+<l TEIform="l" part="N">Subiciebant, nostrosque vulnerabant. Cumque esset diu</l>
+<l TEIform="l" part="N">Pugnatum, nostri telis castrisque potiti sunt hostium.</l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. o gratum nuntium Labiene: quid nunc restat? </l>
+</lg>
+</sp>
+<sp who="labi" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LA. Nihil, nisi</l>
+<l TEIform="l" part="N">Ut <name type="person" TEIform="name">Caesarem</name> conveniamus; ne, si qua in re, nobis opus</l>
+<l TEIform="l" part="N">Illi sit, nostrum possit desiderare officium. </l>
+</lg>
+</sp>
+<sp who="cons" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CON. bene mones.</l>
+</lg>
+</sp>
+</div2>
+</div1></body></text>
+
+
+
+
+
+
+</TEI.2>

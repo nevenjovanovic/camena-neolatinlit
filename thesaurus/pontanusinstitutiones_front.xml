@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Poeticarum institutionum libri tres. Tyrocinium poeticum.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Pontanus" TEIform="author">Pontanus, Jacobus SJ</author>
+<editor TEIform="editor" role="editor">Pontanus, Jacobus SJ</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, April 2004</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Knebusch</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/pont2" type="href" id="pont2" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">pont2</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">pontanusinstitutiones.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">pontanusinstitutiones.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">pont2/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Ingolstadt 1594</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">6 Oktober 2003</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">TEI header and markup added; typed text - structural markup complete (but sp-tags in dramata incomplete) - no semantic tagging - no spell check</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">12 February 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Angela Reinthal</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">Morpheus spell check completed, semantic tagging added</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text><gap id="sampling"/><gap id="GR"/><gap id="GE"/><gap id="abra"/><gap id="alci"/><gap id="batt"/><gap id="call"/><gap id="char"/><gap id="chor"/><gap id="fide"/><gap id="loll"/><gap id="magi"/><gap id="poet"/><gap id="sara"/><gap id="spes"/><front>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<pb id="s001" TEIform="pb"/>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart"> <name type="person" TEIform="name">JACOBI PONTANI</name>
+DE <name type="org" TEIform="name">SOCIETATE IESU</name>
+POETICARUM
+INSTITUTIONUM
+LIBRI TRES.
+Eiusdem
+TIROCINIUM
+POETICUM.
+<gap desc="illustration" resp="sampling" TEIform="gap"/>
+Cum Gratia et Privilegio Caesareae Maiestatis.
+<name type="place" TEIform="name">INGOLSTADII</name>.
+Ex Typographia <name type="person" TEIform="name">DAVIDIS SARTORII</name>.
+Anno M D. XCIV.
+</titlePart></titlePage>
+<pb id="s002" TEIform="pb"/>
+<pb id="s003" TEIform="pb"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<head>REVERENDISS.
+ET ILLUSTRISS. D. <name type="person" TEIform="name">IOANNI CONRADO</name> COADIUTORI
+<name type="place" TEIform="name">EISTADIENSI</name>,
+<name type="person" TEIform="name">IACOBUS PONTANUS</name> DE <name type="org" TEIform="name">SOcietate IESU</name> S. P. D.</head>
+<p TEIform="p">GEMINUM tibi munus, seu munusculum potius apporto, <name type="person" TEIform="name">IOANNES
+CONRADE</name> Ampliss.
+Poeticam brevem, tanquam <gap reason="Greek text" TEIform="gap"/> atque <gap reason="Greek text" TEIform="gap"/> quandam, et iuvenilem <name type="myth" TEIform="name">Musam</name> meam, corpus
+paruum versiculorum videlicet, quos aetate viridiore cum essem, et caelestibus illis
+sacris, ut Naso vocavit, libenter ac saepe, natura trahente operarer, partim meopte nutu, partim aliena auctoritate composui. Qua
+de causa <name type="place" TEIform="name">Tyrocinii</name> nomen iis praescripsi:
+<pb id="s004" TEIform="pb"/>
+non quidem ut me iam nunc velut rude
+donatum emeritumque, et plurimarum
+palmarum poetam esse iudicarem: sed ut
+ne quis iudicio fortasse minus in hisce rebus exercitato, minusque limato ac polito,
+perfectius et maius aliquid, quam pro iure
+ac merito meo auderet opinari: quin magis ut praelusiones et velitationes, non ut
+vera et seria certamina mea (quorum non
+adeo multa certavi) acciperet, et si quid ei
+incomptum, durum, aut alia demum ratione vitiosum, ac deterendum videretur,
+ideo facilius, nempe ut <name type="place" TEIform="name">tyroni</name> ignoscendum existimaret. Fateor tamen, me mihimet passim factum <name type="person" TEIform="name">Aristarchum</name>, laboremque
+limae non plane nullum adhibuisse, quo
+iucundiorem tibi eorum futuram lectionem non despero. Hinc manifesto cognoscitur, me non idcirco cum poetica doctrina coniungere voluisse poemata  et lusus
+meos, ut studiosis exempla proponerem, quae intuerentur. Non sum tanti, et metior
+umbram meam. Quamquam me illis ad pias et Christianas scriptiones ducem videri non puderet: scripsi certe de sacris argumentis propemodum omnia. Coniunxi
+<pb id="s005" TEIform="pb"/>
+autem, quia locus hic aptissimus, et familiarissima coniunctio apparebat, poematum ac poetices. Quam artem ignotiorem
+adhuc esse in vulgus literatorum, nec proinde eius ingenio ac legibus convenienter
+eam et decenter exerceri, iniquius ferendum est. Salutantur poetae, qui tamen sunt
+<name type="person" TEIform="name">Suffeni</name>, neque idem unquam beatiores,
+quam cum poemata faciunt: quoniam nimirum, ut <name type="person" TEIform="name">Tullius</name> ait, hoc in genere nescio
+quo pacto magis, quam in aliis suum cuique pulchrum est. Sed quemadmodum in
+ceteris rebus praeclaris ac disciplinis, sic in
+ista verissimum reperitur proverbium.
+ <gap reason="Greek text" TEIform="gap"/></p>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Plures thyrsigeros, paucos est cernere <name type="myth" TEIform="name">Bacchos</name>.</l>
+</lg>
+<p TEIform="p">Certe inter poetas perraro exoriri aliquem
+excellentem, scite affirmat idem <name type="person" TEIform="name">Cicero</name>.
+Ad te redeo <name type="person" TEIform="name">IOANNES</name> Illustriss. quamque
+singulari suffragatorum consensu dignitatem capessivisti, eam tibi DEUM fortunare vehementer cupio. Datum est Ecclesiae
+<name type="place" TEIform="name">Augustanae</name> divinitus, ut eius Decani ad
+Episcopatus ascendant. Et datum est <name type="person" TEIform="name">GEMMINGERIS</name>, ut quae virtuti pares honores gerant, pares provincias administrent.
+<pb id="s006" TEIform="pb"/>
+Vidisti tu quoque, ut sapiens ille <name type="person" TEIform="name">Homericus</name>, mores populorum et urbes. Habes
+cum prudentia copulatas religionem atque
+litteras: nec eas leviores tantum, in quibus ipsis nihilominus haud leve praesidium est: habes, inquam, tria rerum salutarium instrumenta peridonea. Abundas
+ornamentis, quorum alia natura in te contulit, alia <name type="religion" TEIform="name">DEUS </name>superadiecit, alia tua tibi
+industria suppeditavit. Quare si te ad exsequendam officii tui gravem sanctamque
+functionem dare volueris (dabis autem,
+ita speramus omnes, ea tibi mens, is animus) qui eam laudabilius exsequatur, vix
+inveniemus. Restat ut hoc donum meum
+licet exiguum, et crasso contextam filo
+laetus accipias, meque de effusa erga te voluntate, tibique gratum faciendi desiderio etiam atque etiam diligas. Vale.
+Augustae, VIII. Kalend.
+Apriles.
+M. D. XCIV.
+<gap desc="illustration" resp="sampling" TEIform="gap"/>
+</p>
+</div>
+<pb id="s007" TEIform="pb"/>
+<div type="head" org="uniform" sample="complete" TEIform="div" part="N">
+<head>PRAEFATIO.</head>
+<p TEIform="p">DISCIPLINAM POEtarum unam omnium disciplinarum
+longe amoenissimam atque pulcherrimam, nondum vel per se ipsam satis,
+vel ad consuetudinem nostrorum hominum ac temporum idonee, appositeque seu <name type="nation" TEIform="name">graecis</name>, seu <name type="nation" TEIform="name">latinis</name> litteris
+pertractatam, et illustratam esse, tantum eos fallit,
+qui haud nimis magnum studium, nec adeo multam
+operam ad eius perceptionem accommodaverunt.
+<name type="person" TEIform="name">Aristotelis</name> quidem in hoc genere monumenta, praeterquam quod obscuritate sua lectorem reiciunt, etiam mutila, et imperfecta sunt, deque tragoedia duntaxat loquuntur. <name type="person" TEIform="name">Horatius</name> noluit certe via quadam
+et ratione persequi artem poeticam: nec isto nomine
+epistolam illam suam ad Pisones ipsemet inscripsit.
+Quid ergo est? Arrogantium indoctorumque poetarum aevi sui erores, et peccata castigare, quibusque illa
+virtutibus emendanda forent, demonstrare contendit. De <name type="person" TEIform="name">Scaligeri</name>, Vidae, et aliorum commentariis
+mittam dicere: hoc solum, et affirmate asseveranterque
+pronuntiaverim, qualcscunque sint, et quantumcunque copiose, subtiliter, acute poeticen explicaverint,
+<pb id="s008" TEIform="pb"/>
+nihilominus eorum neminem ita scripsisse, quemadmodum uti scriberent, maximopere optandum fuit:
+nempe, ut velut in ceteris studiorum liberalium doctrinis ceteri, quamquam recentiores: sic ipsi quoque in
+hac per gymnasia discentibus, verum et commodum
+ad <name type="myth" TEIform="name">Heliconem</name> iter ostenderent: ac proinde a magistris
+commode ac dilucide explanari, et ab auditoribus
+ad solidam gloriam e poematum confectione pariundam penitus combibi possent. Quo in negotio persaepe
+non parua me habuit admiratio, Rempub. nostram
+scholasticam aut non sensisse adhuc ignominiam ac
+detrimenta sua: aut si sensit, non enixissime laborasse,
+quo iis levata ac libera, officiis suis fungeretur omnibus: nec se amplius aliqua in parte claudam atque
+mancam intueretur. Dic mihi sodes, quo sub caelo
+tandem, quibus terrarum oris erudiuntur homines in
+arte poetica? Reliquae disciplinae liber ales, et disciplinae sunt omnino, et praeceptorum subordinata serie
+comprehensae, magistros atque interpretes desiderant.
+Haec disciplina nulla est, praeceptionibus nullis continetur, doctores nullos requirit: quia, si modo credimus, poetae nullo satu, sua sponte, <gap reason="Greek text" TEIform="gap"/> ut fungi
+per syluas enascuntur, nec legibus indigent. Orationes
+componere nemo quisquam aggreditur, qui artificium dicendi ignorat: quem fugit quie sit Rhetorica,
+quis eius finis, quae materia, quae partes. Praeterea quid
+sit exordium, narratio, confirmatio, epilogus, et alia
+similiter. At poema iubentur et putantur posse fingere, qui eius artem nullam gustaverunt. qui neque sciunt
+<pb id="s009" TEIform="pb"/>
+vim et naturam poetices: neque de eius fine, partibus,
+et partis cuiusque proprietatibus per nebulam aliquando audiverunt: neque quibus rebus vere bonum, omnique
+numero festivum, et probabile carmen efficiatur acceperunt. Tu ut facultatem tam eximiam, et praeclaram in triviis quaeras? Tu ut in Grammaticorum libellis poeticam esse sitam somnies? in dimensione syllabarum, in constitutione pedum, in versuum formis, in
+ecthlipsibus, synaloephis, paragogis? Sunt haec necesseria, dici aliter non potest: verumtamen exilia, minuta,
+levia, puerilia prae ceteris censeantur oportet, quae ab
+eruditissimis viris de poetarum arte commissa literis
+circumseruntur. Quae cum a studiosis ferme nesciantur, fit, ut absque poetica poetae cogantur fieri: et cum
+aut heroicum, aut elegiacum, aut lyricum, aut epigrammaticum quippiam cantant, ter beatos sese putent, si
+unam aut alteram locutiunculam de poetarum antiquorum chartis haustam intexuerint: omnia enim
+huiusmodi flosculis, pigmentisque metiuntur: reliqua
+tam multa in unaquaque poesi obseruanda, qualia, et
+quanta sint, ne coniectura quidem informant. Hine
+insuper alia calamitas: quod poetas ipsos parum utiliter ac fructuose lectitant. Quid enim poetam deceat,
+quid ille spectet, unde sua cuique praestantia, sua ornamenta, sua cuique vitia, ut illa aemulentur, haec devitent,
+numquam didicerunt. Proinde mira poemata pangunt, <name type="myth" TEIform="name">Musis</name> scilicet, et <name type="myth" TEIform="name">Apolline</name> nullo, ut <name type="person" TEIform="name">Martialis</name>
+dixit: et versificatores evadunt illi quidem perpaucis
+mensibus, poetae autem ad calendas <name type="nation" TEIform="name">Graecas</name> scilicet: aut
+<pb id="s010" TEIform="pb"/>
+saltem multo tardius, quam elephanti pariunt. Est
+vero inter illos et hos tantum discrimen, quantum
+profani credere vix possunt.</p>
+<p TEIform="p">Haec saepenumero mecum non sine dolore et stomacho voluens ego, tantoque incommodo mederi vehementer cupiens, minime quidem perfectam, et cui nihil admodum deesset. poeticam, sed pro exiguitate mea
+Institutiones composui: in quibus, ut earum ratio modusque desiderat, et brevior fui, et difficilliora, magisque
+implicata praetermisi, meque quantum fas, ad imbecilliorem ingeniorum captum attemperavi: nec ea plane
+transilui, aut contempsi, quae etiam a Grammaticis
+traduntur, cum tamen Grammaticorum non sint.
+Sed cum illi tanquam in caducam possessionem venerint, teneant eam sane, nobis si non libentibus, at saltem dissimulantibus, ac tacentibus: dummodo ne ipsos
+simul adolescentes teneant. Verum cum eos cognitione illa elementaria, seu rudimentorum infecerint, deinceps ad maiora et graviora huius artis dimittant:
+quam ex omnibus artibus minime notam, et non paucis impeditam esse difficultatibus, qui se ad eam hauriendam dediderunt, iuxta mecum confitebuntur:
+maxime cum agit de tragoedia. De qua, ut item de
+comoedia, ideo nonnulla disserui, quia id institutum
+exigere videbatur. Ea porro ipsa quae attuli, praeterquam quod ad scriptores melius percipiendos, et ad
+iudicandum non inutilia fore duco, etiam ad dramata aliquanto rectius facienda profutura spero. Quamquam mihi grandiorum, et quasi triariorum haec scriptio 
+<pb id="s011" TEIform="pb"/>
+videri solet, qui facile sibi apud alios praecepta  <gap reason="Greek text" TEIform="gap"/>  invenient. Quae de hymno et funebri poesi a me scripta sunt, in iis quem sequerer ducem nullum reperi, Quo magis mihi lectorum
+aequitas ignoscet, si quid peccasse me iudicaverint. Epigrammatum praecepta, eorundemque exempla a <name type="person" TEIform="name">Virgilio</name>, <name type="person" TEIform="name">Ovidio</name>, <name type="person" TEIform="name">Horatio</name> sumere non potui: ad alios ire
+oportuit, quorum videlicet ista scriptio est propria. His,
+si sua quae habent mala, reliqui, quae autem inter malae
+habent bona, ea ad usum nostrum, quantum sat visum est, in opus meum derivavi, et cum <name type="person" TEIform="name">Virgilio</name> de
+stercoribus margaritas legi, quis erit tam praepostere
+sapiens, qui factum culpet? An istuc heri primum, ave
+a me primo fieri coeptum est? Interea igitur laboribus
+hisce meis utantur, fruantur licet poeticae candidati,
+donec alius quispiam plura, meliora, et omni ratione
+aptiora, gratioraque ediderit. Quod ego non solum non
+timeo: quin etiam ut id fiat, et <gap reason="Greek text" TEIform="gap"/> fiat, magnopere deum rogo, et quaeso: cuius munus agnosco quidquid prosum literarum
+amatoribus. Prodesse autem tam concupisco, quam me hominem esse
+natum gaudeo.</p>
+<gap desc="illustration" resp="sampling" TEIform="gap"/>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+</TEI.2>

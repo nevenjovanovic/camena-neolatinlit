@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Lexicon Iuridicum Iuris Caesarei : Simul Et Canonici: Feudalis Item, Civilis, Criminalis: Theoretici Ac Practici; ... Simul et Locorum Communium et Dictionarii vicem sustinens. Feudale Lexicon; Leges Ac Magistratus Romanos; et caetera huic Operi adiecta, vide in Complemento, ... Collectum Vero Est Hoc Opus Ex Collatis Inter sese iuridicis ... lucubrationibus Dn. Cuiacii, Brissonii, Donelli, Duareni, Gothofredi, Pacii, Vulteii, Goeddaei, item Corrasii, Fabri, Wesenbec. ... / Studio et opera Ioannis Calvini, aliâs Kahl .... - Editio ... Auctior Et Longe Limatior</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Kahl" TEIform="author">Kahl, Johann</author>
+<editor TEIform="editor" role="editor">Kahl, Johann</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camenaref/kahl/</note>
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">kahl1</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">kahl1.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">kahl1.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">kahl1/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Genf: Caldoriana Societas / Matthaeus Berjon, 1612.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">25 April 2006 </date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Reinhard Gruhl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">text typed - structural tagging completed - no semantic tagging - no spell check</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+
+
+
+
+<text><gap id="sampling"/><gap id="GE"/><gap id="GR"/><front>
+<titlePage TEIform="titlePage">
+<pb id="as0001" TEIform="pb"/>
+<titlePart type="main" TEIform="titlePart">
+LEXICON IURIDICUM:
+IURIS CAESAREI,
+SIMUL ET CANONICI: 
+FEUDALIS ITEM, CIVILIS, CRIMINALIS: 
+THEORETICI AC PRACTICI;
+<hi rend="italic" TEIform="hi">ET IN SCHOLA ET IN FORO USITATARUM: AC
+tum ex ipso Iuris utriusque</hi> CORPORE, <hi rend="italic" TEIform="hi">tum ex Doctoribus et Glossis, tam veteribus, 
+<reg orig="quàm" TEIform="reg">quam</reg> recentioribus, collectarum; vocum</hi> PENUS: <hi rend="italic" TEIform="hi">Simul et</hi> LOCORUM
+COMMUNIUM et DICTIONARII <hi rend="italic" TEIform="hi">vicem sustinens.</hi>
+FEUDALE LEXICON; LEGES AC MAGISTRATUS ROMANOS; 
+et cetera huic Operi adiecta, vide in Complemento, post finem OPERIS ipsius.
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+<hi rend="italic" TEIform="hi">COLLECTUM VERO EST HOC OPUS EX COLLATIS INTER 
+sese iuridicis, quotquot hactenus <reg orig="ferè" TEIform="reg">fere</reg> prodierunt, et antiquioribus et recentioribus Lexicis: Auctum deinde, 
+expolitum et emendatum, ex hactenus editis accuratissimis lucubrationibus</hi> DN. CUIACII, 
+BRISSONII, DONILLI, DUARENI, GOTHOFREDI, PACII, VULTEII, GOEDDAEI, <hi rend="italic" TEIform="hi">item</hi> CORRASII, FABRI, WESENBEC. <hi rend="italic" TEIform="hi">Aliorumque praestantissimorum virorum: quorum Catalogum 
+mox post praefationes invenies:</hi>
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+Studio et opera IOANNIS CALVINI, <reg orig="aliâs" TEIform="reg">alias</reg>
+<foreign lang="GE" TEIform="foreign">Kahl</foreign> Wetterani, Iuris Doctoris, et in Academia 
+Heidelbergensi Professoris.
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+<hi rend="italic" TEIform="hi">EDITIO POSTREMA, PRIORIBUS AUCTIOR ET LONGE LIMATIOR, 
+Cum praefationibus Clarissimorum et Eminentissimorum huius aevi Iurisconsultorum</hi> 
+Dn. DIONYSII GOTHOFREDI, et Dn. HERMANNI VULTEII.
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+<figure TEIform="figure">
+<figDesc TEIform="figDesc">allegorical figure of the FAMA</figDesc>
+</figure>
+</titlePart>
+<titlePart type="main" TEIform="titlePart">
+COLONIAE ALLOBROGUM, Excudebat Matthaeus Berion, Sumptibus Caldorianae Societatis, M. DCXII.
+</titlePart>
+</titlePage>
+<pb id="as0002" TEIform="pb"/>
+<gap desc="blank space" resp="sampling" TEIform="gap"/>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as0003" TEIform="pb"/>
+<head>ILLUSTRISSIMO, AC REVERENDISSIMO PRINCIPI ET DOMINO, DOMINO OTTONI, HASSIAE LANDGRAVIO, COMITI IN Katzenelenbogen, Dietz, Ziegenhain, et Nidda: Supremo Principalis Abbatiae Hirsfeldensis Praesuli, etc. Heroi literatissimo, Domino ac Patrono meo Clementissimo.</head>
+<p TEIform="p">VERBORUM in artibus ac disciplinis, praesertim arduis, prior esse cura debet; RERUM posterior; Quantumvis potior; Princeps illustrissime ac literatissime, Domine ac Moecenas clementissime. VERBA quippe seu voces, sunt RERUM note ac indices. Unde et in hisce notis ac signis quicumque velleviter aberraverit; in ipsis quoque rebus vel negotiis designatis errorem haud aegre conceperit: idque inprimis in artibus et facultatibus nobilioribus ac sublimioribus; ubi subiecta, quam tractant, materies ac praeceptiones; seu theoriam spectes, seu praxin; propriis potius et peculiaribus, quam communibus ac vulgaribus explicantur, et inter homines exercentur VOCABULIS: sine quorum idcirco vera et distincta cognitione ad perfectam et distinctam RERUM scientiam penetrare haudlicet. Hoc equidem in Iurisprudentia Romana in propatulo apparet: ut quae magnam sui partem in conveniente verborum, formularum, et clausularum variarum, in plerisque iuris articulis, interpretatione, verique sensus enodatione et applicatione, consumitur. Unde si ullius disciplinae ac facultatis professores sollicitam de verbis eorumque proprietate et genuina significatione curam habuere, profecto hi; Fabro quoque teste; lurisconsulti <reg orig="fuêre" TEIform="reg">fuere</reg>; Stoicos,
+<pb id="as0004" TEIform="pb"/>
+proprietatis ac elegantiae vocabulorum studiosissimos, in eo <reg orig="maximè" TEIform="reg">maxime</reg> imitati et aemulati. Cuius etiam rei necessitatem ac utilitatem Iustinianus Imperator adeo perpendit, ut peculiarem ac bene longum de significationibus verborum titulum Digestis suis inseruerit. Quin et ante Iustinianum multos veterum ac praestantium Iurisconsultorum videmus ea ipsa de causa susceptos in verborum explicatione labores. Aelium certe Gallum, aliosque Clarissimos priscis illis temporibus Iurisperitos, ut et Servium, quantumvis Nobilem Patritiumque virum, de verborum ad ius pertinentium significatione minime puduit olim accurate Romanis suis scribere. Ac superiori quoque saeculo, sed imprimis hoc nostro aevo, non defuerunt prestantissimi aliquot Iurisconsulti, qui idem argumentum tractarent, ac non tantum doctissimos, de verborum ad ius pertinentium significatione Commentarios, sed utilissima quoque Iuris Lexica in lucem ederent: nimirum experientia ipsa probe edocti, quam turpiter isti, qui huiusmodi Commentarios et Lexica spernunt, ex significationis verborum, formularum, et clausularum Iuridicarum, ignorantia saepius impingant, seque ridendos aliis propinent, non minus quam rudes illi causidici, qui, Marcellino teste, si Doctorum in circulo, veteris forte nomen auctoris inciderat, piscis alicuius aut edulii peregrinum vocabulum arbitrabantur. His utique ac similibus facile evenire potest lepidum istud Auli Gellii libro XX. noct. Attic. capite IX. quod de quodam celeberrimi nominis Grammatico scribit: qui interrogatus, quid esset ex Iure manu consertum? respondit, se Grammaticam, non Ius, docere: Atque illuc ire iussit, ut disceret, unde Ennius id didicisset prius: nempe ad Iurisperitos. Atque hoc nostro sane aevo, cum Theologi, Medici, Philosophi, separata singuli ac peculiatia Etymologica habeant: non immerito et Iurisprudentiae studiosi proprium quoddam ac perfectum sibi deposcunt Lexicon. Etsi vero <reg orig="antehâc" TEIform="reg">antehac</reg> plura in iure talia prodierint: quae, si omnia coniungantur, absolutum quoddam hac in parte opus conficiunt: in singulis tamen (<reg orig="cùm" TEIform="reg">cum</reg> nemo omnia simul tantis, qui requiruntur, sumptibus sibi comparare, tantisque laboribus evolvere cupiat) non deest, quod merito desiderant Iurisperitissimi quique. Qua de re (ut et de meo hac in parre proposito ac studio) <reg orig="cùm" TEIform="reg">cum</reg> in adiectis hoc loco et recusis primae huius Lexici editionis praefationibus abunde dictum fuerit, plura nunc in specie referre nil attinet: praesertim <reg orig="cùm" TEIform="reg">cum</reg> ea, quae isthic attigi, deesse, ultro fateantur praestantissimi quique: <reg orig="à" TEIform="reg">a</reg> quorum nonnullis monitus, ac, ne ab incepto desisterem, iterum iterum que exsuscitatus, quae in variis variorum de hac materia scriptorum tractatibus, passim dispersa erant, unicum in volumen, quanta licuit dexteritate, coniunxi ac digessi. Et <reg orig="cùm" TEIform="reg">cum</reg> primae editionis exemplaria cuncta penitus essent distracta, eaque prospero, per DEI
+<pb id="as0005" TEIform="pb"/>
+benignitatem, successu plurimis lurisprudentiae asseclis in omnibus fere Germaniae nostrae Academiis perquam et grata et utilia evenisse, saepius intellexissem: secundis curis prius edita hactenus quanta fieri potuit sedulitate, ac divinae gratiae benedictione, in Iurisprudentiae studiosorum commodum sub incudem revocare, expolire, augere, ac perficere conatus sum.</p>
+<p TEIform="p">Quemadmodum vero editionem primam, Illustrissime ac literatissime Princeps, Domine ac Patrone Clementissime, Generosissimae Celsitudinis tuae, quin et patriae nostrae Patri, Mauritio, Principi Serenissimo, Heroi fortissimo, religiosissimo, ac prudentissimo, Domino ac Moecenati meo aeternum venerando; quem tot diversae diversissimarum nationum linguae, tot artes, tot scientiae, tot virtutes ad sidera usque extollunt, totique pene orbi admirabilem et amabilem reddunt; humillima mente obtuli ac dedicavi: Ita postremam nunc editionem Illustrissimae Celsitudini tuae, tanti nimirum Herois filio, tantarumque tanti Patris virtutum ac donorum heredi atque aemulo sollertissimo, veniam prius demisse deprecans, supplex offero ac dedico. Serena ergo mente ac fronte suscipe quaeso, Domine ac Patrone Clementissime, Heros Generosissime, hoc quicquid est operis et operae: Imprimis vero animum meum Principis ac Patroni sui amantissimum, accipias, meque, meosque, ac studia mea tibi commendatissima habeas, demisse et enixe obsecro. Tandem vero IEHOVAM per Christum oro, ut Illustrissimae ac Generosissimae Celsit. T. simulque omnino Serenissimo Principi, Mauritio, Patriae nostrae Patri Augustissimo, Domino ac Maecenati meo benignissimo, semper ex alto quam cumulatissime benedieat, et sacrosancto Spiritu suo quam potentissime tueatur ac regat, diutissimeque et mente et corpore utrumque in columem ac florentem praestet ac protegat, et ab omni malo custodiat. Amen. Heidelbergae ex Museo meo.</p>
+<p TEIform="p">
+<hi rend="italic" TEIform="hi">Illustrissimae Celsit. V.</hi>
+</p>
+<p TEIform="p">
+<hi rend="italic" TEIform="hi">Subiectissimus et addictiss.</hi>
+</p>
+<p TEIform="p">IOHAN. CALVIN. <reg orig="aliâs" TEIform="reg">alias</reg>
+<foreign lang="GE" TEIform="foreign">Kahl</foreign>, Wetteranus, Iuris in Academia Heidelb. Profess. ordinarius.</p>
+</div>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as0006" TEIform="pb"/>
+<head>DIONYSIUS GOTHOFREDUS IC. IOHANNI CALVINO, ALIAS <foreign lang="GE" TEIform="foreign">KAHL</foreign> I. V. D. PROFESSORI ACADEMICO COLLEGAE SUO S. P.</head>
+<p TEIform="p">
+<hi rend="italic" TEIform="hi">QUOD de Iuris nostri studio tantopere mereri velis, plenissimum nostris Lexicon Iuris ut offeras, tuum in eo (mi Calui) votum desideriumque maxime commendo. Et scis ipse tu quoque, tuus innotescere mihi coepit ut animus, quantopere factum illud tuum laudaverim: tametsi mihi nec incompertum erat, egregiam in istiusmodire operam magni nominis viros aliquot nobis non ita pridem praestitisse. Sed apum te more (quod et interdum priores illi fecerunt) flores optimos ex optimis auctoribus seligere: plenamque velut opus ex aliis non plenis facere velle deprehendi. Nec te quorundam video deterruit ea parte fastus aut animus, qui nihil dignum visu lectuque, nisi quod vel novum sit omnino, vel quod ipsimet fecerint, iudicant: quique verborum iuris Commentarios, Grammaticam profitentis potius hominis, quam Iurisprudentis opus esse cavillantur.</hi>
+</p>
+<p TEIform="p">
+<hi rend="italic" TEIform="hi">At enim sciant isti velim, nostris vel id morbi vitiique plus quam par sit saepius contingere, iuris Lexicis minus diligenter ut evolutis, ridendos se praebeant audientibus: non minus quam rudes illi causidici, qui, Marcellino teste, si Doctorum in circulo, veteris forte nomen auctoris inciderat, piscis alicuius aut edulii peregrinum vocabulum arbitrabantur.</hi>
+</p>
+<p TEIform="p">
+<hi rend="italic" TEIform="hi">At tu Servium nostrum sequi vel in eo maluisti, quem, licet nobilem patritiumque virum, de verborum quae ad ius pertinent significatione minime puduit olim Romanis suis scribere: nisi Varronem orbis sui Romani</hi>
+<pb id="as0007" TEIform="pb"/>
+<hi rend="italic" TEIform="hi">doctissimum, vel Caesarem Iulium minus ob id isti censuerint, quod hic de Analogia, ille de lingua Latina eiusque declinationibus, libros aliquot conscripserit. Piget equidem praetermittere, quod de Carolo Magno legimus, non tantum menses et ventos XII. propriis nominibus appellasse, cum antea quatuor tantum Cardines venti nominarentur, sed et patrio quoque sermone, nempe Theutonico, Grammaticam eum inchoasse. Non est itaque quod in tam laudabili posteritatis iuvandae proposito, calumniosa tibi verba posthac <reg orig="à" TEIform="reg">a</reg> quoquam metuas: praesertim cum perutilia de tuo plurima huic quoque Lexico contuleris: nec auctorum nomina, quibus usus fuisti, malo more, suppresseris. Scribant meliora potiores. Tantum utique opus quod in te receperis, tot et adeo locis Iurisprudentiae nostrae profueris, bonos opinor nec invidos ea parte tibi plurimum devinxeris: nec diffido, quin literatus ille Princeps, quem tot linguae, tot artes temporibus nostris, tot et scientiae exornant, quemque tui Maecenatem laboris vel operis facere nunc instituisti, tuis studiis votisque naturae suae clementer obsecutus annuat, tuosque conatus in posterum bono publico promoveat in melius. Vale. Heidelbergae, Augusti 22. Anno 1600.</hi>
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as0008" TEIform="pb"/>
+<head>HERMANNUS VULTEIUS, IURIS CONSULTUS, ACADEMIAE MARPURGENSIS ANTECESSOR PRIMArius, Hassiae Consiliarius, Lectori S.</head>
+<p TEIform="p">VETUS est illa, et <reg orig="à" TEIform="reg">a</reg> multis saeculis, dixerim ferme iam inde ab ipsius incunabulis, de perplexitate et difficultate eius iuris, quo utimur usurpata conquestio. Quae ut vera sit, minime equidem iustam esse arbitror. Quicquid enim eius est, id non tam iuris ipsius vicio, quam hominum, qui id tractarunt hactenus, culpa accidit. Nam ius ipsum semper idem est, apud omnes sibi ubique simile, tum etiam cum maxime videtur esse aliud: certe idem non futurum, nisi esset aliud: quam rem mirabiliter conciliant personae, loca, tempora, atque si quae eiusmodi incidunt circumstantiae aliae, quas cum aestimare non sit nisi viri prudentissimi, et artis Rei publ. recte gubernandae peritissimi, quin etiam exercitatissimi, mirum non est, in iure constituendo <reg orig="à" TEIform="reg">a</reg> plerisque quibus ea cura demandatur, impingi incautius. Hic namque labor, hoc opus est, ut ait ille. Et vero quotus quisque est in tanta hominum multitudine, qui artem istam probe calleat, et ut eam calleat optime, ad commodum eius, in qua versatur. Rei publ. probe accommodare noverit? Ita enim fere comparatum est, ut qui artis suae est scientissimus, idem exercendae eius sit imperitissimus. Quod si vero provincia etiam ista obtingat scelerato, incredibile est, quam sit res ista Reip. periculosa. Unde effrenis illa legum figendarum atque refigendarum libido, qua nihil accidere potest ad vitam bene beateque in communi societate degendam perniciosius. Et quis non videat, mox perplexum fieri, quod erat expeditum: difficile, quod per se erat facile? Verum enimuero non tam hic incusandi sunt, qui dant iura, quam qui reddunt, in illis enim rarius est, ut quid dent cupiditatibus: in his autem eo nihil est frequentius. Qua in re non uno modo peccatur, quorum unus iudicum malitiae, alter eorum, qui causis patrocinia praestant, calumniae tribuitur, cui utrique ut plurimum accedit iuris imperitia. Huic autem, quod mireris, etiam Iurisconsultorum scholae nonnumquam occasionem praebent. Sunt enim in illis diffensiones infinitae: traduntur non necessaria plerumque, necessaria omittuntur, aut certe necessaria tam confunduntur, ut pleraque nihil minus habeant, quam quod ad quaestionem propositam pertineat. Ex quo fit, ut, quid doceant, ipsi plerumque, qui docent, nesciant, discipuli non assequantur: et fiat mirabilis rerum omnium confusio, ut multum intersit ad docendum assumi artis, quam docere debent, peritos, eiusdemque docendae facultatem habentes, qua in re vix credi potest: quantum peccetur
+<pb id="as0009" TEIform="pb"/>
+ambitione vel gratia, adscitis, in quibus eorum, quae dixi, neutrum est: praeteritis, quibus utrumque suppetit. Hisce accedit commentandi et scribendi cacoethes, ut vel sola librorum mole ars iuris praegravata sit, imo facta infinita. Non igitur mirum, ius, quod per se est expeditum, esse perplexum: quod per se est facile, esse difficile: sed hoc omne, ut dixi, non iuris vitio, sed hominum culpa accidit, ut non tam de iure, quam de nobis ipsis conqueri debeamus. Animadverterunt hoc iam pridem viri prudentes, atque in hisce etiam ipsum Reip. clavum tenentes, idemque etiamnum hodie animadvertunt multi. Quaesitum est huic malo remedium: an inventum, affirmare non ausim. Cogitavit de eo C. Iulius Caesar: sed patriae calamitas huius etiam fundi nostri calamitas fuit: Idem M. Tullium tentasse verosimile est, eiusque rei in monumentis ipsius exstant vestigia, sed tam tenuia, ut vix appareant. Id certum est, utrumque de iure in artem redigendo cogitasse, quae via, meo etiam iudicio fuisset expeditissima. Est enim ars sui ipsius docendae et discendae methodus certissima. Iustinianus noster alia via ingressus centones nobis reliquit ex veterum iurisconsultorum Commentariis, et Imperatorum rescriptis consutos, in quibus nihil est artificiosum. Quod ad cetera, plerique sunt in ea opinione, iuris perplexitati et difficultati per eos non consultum. Quam verum id sit, nunc non disputo. Equidem ingenue fateor, optare me superesse nobis Iurisconsultorum illorum Commentarios integros. Quam enim fuerint eruditi, vel ipsi Centones satis arguunt. Quae postea insecuta est aetas, commentariis ius Iustinianeum illustrare conata est: quod an assecuta sit, indicent alii: mihi certe sententia est alia, tametsi operam tum praestitam haud improbem. Hod e sunt, qui disputationibus hanc rem committant, quos multum aberrare arbitror. Est sane disputationum usus non contemnendus, ipseque sum iuris studiosis auctor, ut in illis se diligenter exerceant, sed non nisi illis, qui in cognitione iuris, si non omnino bene, at saltem medio criter profecerunt. Nam eorum, qui <reg orig="à" TEIform="reg">a</reg> disputationibus studium iuris ordiuntur, opera nihil est infelicius, qui dum se celeriter expedire cupiunt, magis impediunt: qua de re disserendi forte nobis erit locus alius. Soli mihi placent, qui ad artem nos revocant, in qua hoc nostro saeculo tentatum et laboratum est amplius, quam ullo antehac alio. Neque adeo infeliciter cecidir alea. Etsi enim quisque prout <reg orig="à" TEIform="reg">a</reg> naturae felicitate, melius etiam <reg orig="à" TEIform="reg">a</reg> disciplina elegantiori informatus fuit, studium istud hoc vel illo modo instituendum censuit, multa tamen sunt, in quibus omnibus belle convenit, ut non dubitem, quin si non haec, at certe posterior aetas perfectura sit propemodum affectum. Ceterum quantum in omni disciplinarum genere intersit ad solidam rerum cognitionem consequendam, verborum, quibus res ille significantur, habere cognitionem, nemo est, qui non intelligat: et si ullius artis professores alii sollicitam de verbis, eorumque proprietate curam habuerunt, certe fuerunt illi Iurisconsulti nostri, ut vere dixerit ille, Latinam linguam amissam vel ex solis Iurisconsultorum libris restaurari posse. Necessitatem rei istius animadvertit Iustinianus ipse, ut verborum significationibus peculiarem titulum in Digestis suis tribui voluerit. Et vero <unclear reason="print faded" TEIform="unclear">commentarii</unclear> interpretum plerorumque superioris etatis docent, quam viri illi, tametsi quoad cetera, doctissimi, ex verborum, eorundemque significationis ignorantia etiam in rebus alioqui non obscuris impegerint turpiter. Quod fecit, ut qui illis successerunt, sedulo cogitarint de verborum significationibus, ne idem ipsis, quod illis accideret, recte animadvertentes primum omnium verborum notitiam esse comparandam, atque ita demum ad res ipsas, quae verbis denotarentur, discendas, progrediendum esse. Et sane ita est, ut qui verba callet, dimidium facti habeat. Quam ob causam apud veteres de studiis iuris optime meritus est Albericus
+<pb id="as0010" TEIform="pb"/>
+de Rosate, qui Dictionarium iuris composuit. Sed quam imperfectum illud? quam in plerisque locis erroneum? Multo igitur magis in maximo pretio habendi sunt nostri saeculi Iurisconsulti, qui idem argumentum tractarunt, et non tantum de verborum significatione commentarios doctissimos ediderunt, inter quos merito nomino magnum illum Alciatum, Rebuffum, Brechaeum, Fornerium, et nuper admodum diligentissimum virum, Compatrem et collegam meum honorandum D. Iohannem Goeddaeum, sed etiam Lexica iuris prodiderunt, in quibus sunt Spiegelius, Oldendorpius, Hotomannus, Prateius, Brederodius, Schardius, et quem omnium maximi in eo genere facio, Barnabas Brissonius, qui omnes tam accurate ea, quae ad verborum ac proinde etiam rerum significationem pertinent, tractarunt, ut nihil amplius in eo genere desiderari posse videatur. Atque ita quidem est, si illos omnes coniungas: at habent interdum singuli, que ceteri non habeant: et vero sunt apud nonnullos quaedam etronea, vitiosa, heterogenea, interdum ridicula, alia etiam ex iure Civili, Canonico, et Feudali, quin etiam ex interpretum Commentariis non satis recte distincta. Hoc cum <reg orig="à" TEIform="reg">a</reg> multis iam annis, quibus in hoc studiorum genere versor, in istis Lexicis desiderassem, nec ipse ob negotiorum multitudinem, quin et valetudinem non admodum firmam, medicinam ei rei afferre possem, optavi saepe aliquem esse, qui publici commodi causa hoc, quicquid est, laboris in sese susciperet, et Lexica superiora coniungendo, inutilia resecaret, utilia relinqueret, et quae deessent aliis, suppleret, ut ita perfectum aliquod verborum opus et <foreign lang="GR" TEIform="foreign">u)pote/le s1ma</foreign> tandem aliquando extaret. Dum vero de eo sum sollicitus, nuntiatur mihi Clariss. et praestantiss. virum D. Iohannem Calvinum, I. V. Doctorem, et Academiae Heidelbergensis professorem eximium, in eo esse totum, ut eiusmodi Lexicon iuris, cuiusmodi animo meo conceperam, concinnaret. Laetabar virum, quem mihi popularem inde <reg orig="à" TEIform="reg">a</reg> pueris notum ea facultate probe instructum scirem, id opus moliri, et ne ab incepto desisteret, sed pergeret et in publicum emitteret, sedulo hortatus sum. Id nunc omnibus numeris absolutum, in commodum tuum, Candide Lector prodit: quod ut commendem tibi, opus non est. Nam et res ipsa est eiusmodi, quae cum se ipsam commendet satis, commendatione opus non habet, et modus tractandi talis, ut alium desiderare non possis. Quod si amplius aliquid requiras, actum ages. Tu vero insigni hoc thesauro utere, fruere, et Calvinum de studiis publicis optime esse meritum, fatere. Dabit, ut potest, plura, si operam suam tibi gratam esse animadverterit. Vale. Marpurgi <reg orig="è" TEIform="reg">e</reg> Museo meo Calend. Septemb. Anno, post natum Christum, M.D.C.</p>
+</div>
+<div type="commendation" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as0011" TEIform="pb"/>
+<head>PAULI MELISSI FRANCI, COMITIS PALAT. ET EQ. AUR. CIVIS ROMANI
+<hi rend="italic" TEIform="hi">ODA AD CLARISS. VIRUM IOANNEMCALVINUM VETERANUM</hi>, IURISCONS.
+Cum vulgaretur LEXICON Iuris perfectissimum, ab ipso constructum.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CEU magna paruis flumina fontibus</l>
+<l TEIform="l" part="N">Nascuntur, auctis lapsibus amnium,</l>
+<l TEIform="l" part="N">Si prona iungant hinc et illinc</l>
+<l TEIform="l" part="N">Bracchia, et ora repleta lymphis:</l>
+<l TEIform="l" part="N">Tandem ipsa vastum navigero mare</l>
+<l TEIform="l" part="N">Tergo subintrant, dulciaque invicem</l>
+<l TEIform="l" part="N">Absorpta salsis aestuantis</l>
+<l TEIform="l" part="N">Fluctibus Oceani remiscent:</l>
+<l TEIform="l" part="N">Sic <reg orig="è" TEIform="reg">e</reg> minutis crassa volumina</l>
+<l TEIform="l" part="N">Collecta legum principiis, magis</l>
+<l TEIform="l" part="N">Magisque et incrementa sumunt,</l>
+<l TEIform="l" part="N">Et cumulum numerose adaugent:</l>
+<l TEIform="l" part="N">Immensa donec regna potentium</l>
+<l TEIform="l" part="N">In orbe regum fortiter occupent,</l>
+<l TEIform="l" part="N">Latura tam pravis malisve,</l>
+<l TEIform="l" part="N">Quam de bonis licitae probisque</l>
+<l TEIform="l" part="N">Ius aequitatis. Congeriem prius</l>
+<l TEIform="l" part="N">IUSTINIANUS praenimis uberem</l>
+<l TEIform="l" part="N"><reg orig="Recîdit" TEIform="reg">Recidit</reg> omnino: sed <reg orig="ô" TEIform="reg">o</reg> quam</l>
+<l TEIform="l" part="N">Multiplicata hodie est supellex!</l>
+<l TEIform="l" part="N">Ut ampliatum st at pelagus fori</l>
+<l TEIform="l" part="N">Et grande et ingens! Vix Themis ipsamet</l>
+<l TEIform="l" part="N">Dehinc profundi posse longas</l>
+<l TEIform="l" part="N">Scire vias, liquido fatetur.</l>
+<l TEIform="l" part="N">Vere beatum dicere se queat,</l>
+<l TEIform="l" part="N">Si vector anceps naviget in vado,</l>
+<l TEIform="l" part="N">Portumque tuto lintre tangat,</l>
+<l TEIform="l" part="N">Post nihil ambiguus pericli.</l>
+<l TEIform="l" part="N">Huic credituris dentque se freto</l>
+<l TEIform="l" part="N">CALVINE nautis suppeditas lubens</l>
+<l TEIform="l" part="N">Rates, et instrumenta, et arma,</l>
+<l TEIform="l" part="N">Suppetias genus omne, et omne</l>
+<pb id="as0012" TEIform="pb"/>
+<l TEIform="l" part="N">Genus dolones. LEXICA plurimis</l>
+<l TEIform="l" part="N">Referta rebus, sunt vice remigum,</l>
+<l TEIform="l" part="N">Locoque velorum ferentum</l>
+<l TEIform="l" part="N">Dorsa per et scopulos minaces,</l>
+<l TEIform="l" part="N"><reg orig="Salvâ" TEIform="reg">Salva</reg> <reg orig="carinâ" TEIform="reg">carina</reg>, et sospitibus salum</l>
+<l TEIform="l" part="N">Tranare promptis. Dii, faciles date</l>
+<l TEIform="l" part="N">Euros et Austros: Dii marini,</l>
+<l TEIform="l" part="N">Quos penes arbitrium et potestas</l>
+<l TEIform="l" part="N">Est transuolantum: Diique soli istius,</l>
+<l TEIform="l" part="N">In quo moramur, rem studiosius</l>
+<l TEIform="l" part="N">Hanc princip alem promovete.</l>
+<l TEIform="l" part="N">Tuque adeo generose Princeps,</l>
+<l TEIform="l" part="N">Et docte linguas iuraque, MAURICI</l>
+<l TEIform="l" part="N">Solune terrae Cattidos, approba</l>
+<l TEIform="l" part="N">Huiusce navarchi labores,</l>
+<l TEIform="l" part="N">Quos tulit adsidue tot usque</l>
+<l TEIform="l" part="N">Vigil per annos, neodum animi et spei</l>
+<l TEIform="l" part="N">Fractus: diurnis porro etiam debinc</l>
+<l TEIform="l" part="N">Curisque nocturnis paratus</l>
+<l TEIform="l" part="N">Ingenii applicuisse vires</l>
+<l TEIform="l" part="N">Inservientes cum patriae bono,</l>
+<l TEIform="l" part="N">Tum verae alumnis et Sophiae et Deae,</l>
+<l TEIform="l" part="N">Cui iusta lanx et iustus ensis</l>
+<l TEIform="l" part="N">Vindicat imperii tiaram.</l>
+<l TEIform="l" part="N">Nam quorsus artes discimus optimas,</l>
+<l TEIform="l" part="N">Linguasque plures, non sine Pallade:</l>
+<l TEIform="l" part="N">Si non easdem commodamus</l>
+<l TEIform="l" part="N">In patriae decus atque laudem?</l>
+</lg>
+<p TEIform="p">MYRTILLETI, Mense Augusto, Anno Christi M.D.C.</p>
+</div>
+<div type="commendation" org="uniform" sample="complete" TEIform="div" part="N">
+<head>IN LEXICON D. IOHANNIS CALVINI, Philosophiae ICti praestantissimi.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">NON est muta Themis nobis, quamquam addita caelo</l>
+<l TEIform="l" part="N">Astraea iniustam iusta reliquit humum.</l>
+<l TEIform="l" part="N">Non Amphyctiones desunt, nec adorea iuri,</l>
+<l TEIform="l" part="N">Non rostra aut nobis Areopagus abest.</l>
+<l TEIform="l" part="N">Sunt etenim Caii, sunt Pauli Sulpitiique,</l>
+<l TEIform="l" part="N">Quique tuas subeant Papiniane vices.</l>
+<l TEIform="l" part="N">Sed quia saepe adytis prolata oracla reductis</l>
+<l TEIform="l" part="N">Intricant captos iuris amore lytas.</l>
+<l TEIform="l" part="N">CALVINE haud pateris, laxasque ea vincla, velintque</l>
+<l TEIform="l" part="N">Quid sibi vestrae arae mystica verba, doces.</l>
+<l TEIform="l" part="N">Macte animo, modo perge novos excludere fetus:</l>
+<l TEIform="l" part="N">Sic laus, sic serus te vehat ore nepos.</l>
+</lg>
+<p TEIform="p">M. IOHANNES LAMPADIUS, BRUNSVIgensis Gymnasii quondam Rector.</p>
+</div>
+<div type="commendation" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as0013" TEIform="pb"/>
+<head>IN LEXICON IURIDICUM CLARISS. Consultissimique viri, Dn. Ioh. Calvini, I.U.D.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">FERTUR Tarquinii, <reg orig="Romanâ" TEIform="reg">Romana</reg> in gente Tyranni,</l>
+<l TEIform="l" part="N">Mandatu graviore <reg orig="Duûmvir" TEIform="reg">Duumvir</reg> Tullius olim,</l>
+<l TEIform="l" part="N">Quod librum, Romanorum secreta sacrorum</l>
+<l TEIform="l" part="N">Complexum, atque sibi commissum, munere caecus</l>
+<l TEIform="l" part="N">Inspiciendum alii, describendumque dedisset,</l>
+<l TEIform="l" part="N">Culleo et insutus, pelago mersusque profundo.</l>
+<l TEIform="l" part="N">Numquid idem metuam iamte CALVINE futurum,</l>
+<l TEIform="l" part="N">Qui nitidum librum, iuris secreta Latini</l>
+<l TEIform="l" part="N">Complexum, nullo, velut alter, munere caecus,</l>
+<l TEIform="l" part="N">Enucleatum altis explanatumque dedisti?</l>
+<l TEIform="l" part="N">Absit Tarquinii mens improba, culleus absit.</l>
+<l TEIform="l" part="N">Nota GOTHOFREDO, VULTEIO industria nota</l>
+<l TEIform="l" part="N">Est tua, Civilisque abstrusa peritia iuris,</l>
+<l TEIform="l" part="N">Plenius <reg orig="à" TEIform="reg">a</reg> nullo ut fateantur Lexicon edi</l>
+<l TEIform="l" part="N">Concisumque magis potuisse, magisque disertum.</l>
+<l TEIform="l" part="N">Undique perfectum est, nil desit, nilque redundat:</l>
+<l TEIform="l" part="N">Teque patent adeo verborum interprete sensa,</l>
+<l TEIform="l" part="N">Ut si quis tentet Themidos sup er are profundum,</l>
+<l TEIform="l" part="N">Tantum iter haud melius compendifecerit, atque</l>
+<l TEIform="l" part="N">Hoc ceu remigio, ventisque faventibus usus.</l>
+<l TEIform="l" part="N">Nam quantum viginti aliis, debetur id unis</l>
+<l TEIform="l" part="N">CALVINI <hi rend="italic" TEIform="hi">studiis, exantlatoque labori.</hi>
+</l>
+</lg>
+<p TEIform="p">CUNRADUS SCHOPPIUS Fil. Phil. M. et Poeta</p>
+<p TEIform="p">Coron. Gymnasii Neuhusini Rector.</p>
+</div>
+<div type="commendation" org="uniform" sample="complete" TEIform="div" part="N">
+<head>ALIUD.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">INGENS BRISSONIO pro merito decus,</l>
+<l TEIform="l" part="N">PRATTEIOque suum iure suo decus,</l>
+<l TEIform="l" part="N">HOTOMANNOque manet tempore postumo:</l>
+<l TEIform="l" part="N">Quod, quae prima via est ad Themidos sacra,</l>
+<l TEIform="l" part="N">Normam usumque docent iura loquentium.</l>
+<l TEIform="l" part="N">At, quae pro merito est gratia singulis,</l>
+<l TEIform="l" part="N">Uni cuncta recens, iudice quolibet,</l>
+<l TEIform="l" part="N">CALVINO dabitur: quatenus omnium</l>
+<l TEIform="l" part="N">Sollerti studiis consuluit manu.</l>
+<l TEIform="l" part="N">Quodque illis nec erat propositum antea,</l>
+<l TEIform="l" part="N">Distentis vario forte negotio,</l>
+<l TEIform="l" part="N">Nec vulgi licuit sub moderamine:</l>
+<l TEIform="l" part="N">Hic noster facibus clarius alteris,</l>
+<l TEIform="l" part="N">(Et quae nunc praeeant lumina ius, vides)</l>
+<l TEIform="l" part="N">Plusquam forte putes, tradidit omnia.</l>
+<l TEIform="l" part="N">Id vero Canonum te sat et usuum</l>
+<l TEIform="l" part="N">Feudorum erudient verba: ubi ceterae</l>
+<pb id="as0014" TEIform="pb"/>
+<l TEIform="l" part="N">Lexes sub dubiam fors facient fidem.</l>
+<l TEIform="l" part="N">Haec et quae poteram pluria dicere,</l>
+<l TEIform="l" part="N">AUCTORIS prohibet me pudor, aut meae</l>
+<l TEIform="l" part="N">Musae praetenuis spiritus abstinet.</l>
+<l TEIform="l" part="N">Tu quicumque leges, cautius aestima:</l>
+<l TEIform="l" part="N">Aut, si quando placet, corrige: fas erit.</l>
+<l TEIform="l" part="N">Sed primum legere est, corrigere alterum.</l>
+</lg>
+<p TEIform="p">IOANNES ULRICUS, BIPONTInus, Iuris D. Poeta Laur.</p>
+</div>
+<div type="commendation" org="uniform" sample="complete" TEIform="div" part="N">
+<head>AD D. IOANNEM CALVINUM IC. Clariss.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">FErrea Martis eunt aeternis saecula bellis,</l>
+<l TEIform="l" part="N">Docta feros mores, praeter et arma nihil:</l>
+<l TEIform="l" part="N">Lis pro lege viget, postquam fas omne piumque</l>
+<l TEIform="l" part="N">Fugit, et est ipsum vivere lege scelus.</l>
+<l TEIform="l" part="N">Scilicet et quod adhuc tantos tolerare labores</l>
+<l TEIform="l" part="N">Utile sit, sacram Turba professa Themin!</l>
+<l TEIform="l" part="N">Totq. pererratis immenso syrmate libris,</l>
+<l TEIform="l" part="N">Autsimile, aut istud perficiatis opus!</l>
+<l TEIform="l" part="N">Sic ego: sic Astraea redux (libram illa tenebat.)</l>
+<l TEIform="l" part="N">Vel mihi Visa redux, nec tamen ipsa fuit:</l>
+<l TEIform="l" part="N">Parce metu questuque; mei non omne recessit,</l>
+<l TEIform="l" part="N">Quaeque abii terris restituenda fui.</l>
+<l TEIform="l" part="N">Ira quidem gravis est, sed non aeterna Deorum:</l>
+<l TEIform="l" part="N">Interiit quondam, qui manet Orbis adhuc.</l>
+<l TEIform="l" part="N">Me quoque flagitiis exactam reppulit Orbis,</l>
+<l TEIform="l" part="N">Orbe tamen potui parte manere mei.</l>
+<l TEIform="l" part="N">Est etiam praesens non alga vilior aetas,</l>
+<l TEIform="l" part="N">Temporis et vitium quo tueatur, habet.</l>
+<l TEIform="l" part="N">Namque (fatebor enim) prisci nunc gloria iuris</l>
+<l TEIform="l" part="N">Incipit et Studii plana redire via.</l>
+<l TEIform="l" part="N">Quod scriptis, Calvine, doces, doctissime, vestros</l>
+<l TEIform="l" part="N">Pluribus, <reg orig="ô" TEIform="reg">o</reg> summo digne patrocinio!</l>
+<l TEIform="l" part="N">Macte animo, Calvine, Themis, viden', aurea caelo</l>
+<l TEIform="l" part="N">Labitur, et Genium suscipit ipse liber.</l>
+</lg>
+<p TEIform="p">GEORGIUS THURIUS, UNGARUS.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="as0015" TEIform="pb"/>
+<head>CATALOGUS AUCTORUM, QUORUM IN HOC ETYMOLOGICO FIT MENTIO, ET EX QUIBUS POTISSIMUM EST constructum: isque geminus.</head>
+<p TEIform="p">
+<hi TEIform="hi">A</hi>
+</p>
+<p TEIform="p">A. Gellius.</p>
+<p TEIform="p">Adrianus Turnebus.</p>
+<p TEIform="p">Aemilius Ferretus.</p>
+<p TEIform="p">Albericus de Rosate.</p>
+<p TEIform="p">Andreas Alciatus.</p>
+<p TEIform="p">Andreas Tiraquellus.</p>
+<p TEIform="p">Antonius Augustinus.</p>
+<p TEIform="p">Antonius Contius.</p>
+<p TEIform="p">Antonius Gomezius.</p>
+<p TEIform="p">Antonius Goveanus.</p>
+<p TEIform="p">Antonius Nebrissensis.</p>
+<p TEIform="p">
+<hi TEIform="hi">B</hi>
+</p>
+<p TEIform="p">Barnabas Brissonius.</p>
+<p TEIform="p">Bartolus de Saxo Ferrato.</p>
+<p TEIform="p">Benedictus Curtius.</p>
+<p TEIform="p">Benedictus Lampridius.</p>
+<p TEIform="p">Bernhardinus Maffaeus.</p>
+<p TEIform="p">Blondus Flavius.</p>
+<p TEIform="p">Brechaeus.</p>
+<p TEIform="p">Brederodius.</p>
+<p TEIform="p">
+<hi TEIform="hi">C</hi>
+</p>
+<p TEIform="p">Caius Cotta.</p>
+<p TEIform="p">Catellianus Cotta.</p>
+<p TEIform="p">Corpus Canonicum et Civile.</p>
+<p TEIform="p">Cuiacius.</p>
+<p TEIform="p">
+<hi TEIform="hi">D</hi>
+</p>
+<p TEIform="p">Dionysius Gothofredus.</p>
+<p TEIform="p">Donellus.</p>
+<p TEIform="p">Duarenus.</p>
+<p TEIform="p">Dumbertus.</p>
+<p TEIform="p">
+<hi TEIform="hi">E</hi>
+</p>
+<p TEIform="p">Erasmus Roterodamus.</p>
+<p TEIform="p">
+<hi TEIform="hi">F</hi>
+</p>
+<p TEIform="p">Fabius Cotta.</p>
+<p TEIform="p">Forcatulus.</p>
+<p TEIform="p">Fornerius.</p>
+<p TEIform="p">Franciscus Balduinus.</p>
+<p TEIform="p">Franciscus Connanus.</p>
+<p TEIform="p">Franciscus Curtius.</p>
+<p TEIform="p">Franciscus Duarenus.</p>
+<p TEIform="p">Franciscus Hotomannus.</p>
+<p TEIform="p">
+<hi TEIform="hi">G</hi>
+</p>
+<p TEIform="p">Goeddaeus.</p>
+<p TEIform="p">Gothofredus.</p>
+<p TEIform="p">Guilielmus Postellus.</p>
+<p TEIform="p">Gulielmus Budaeus.</p>
+<p TEIform="p">
+<hi TEIform="hi">H</hi>
+</p>
+<p TEIform="p">Hermannus Vulteius.</p>
+<p TEIform="p">Hermippus Callimachus.</p>
+<p TEIform="p">Hieronymus Treutlerus.</p>
+<p TEIform="p">Hugo Donellus.</p>
+<p TEIform="p">
+<hi TEIform="hi">I</hi>
+</p>
+<p TEIform="p">Iacobus Cuiacius.</p>
+<p TEIform="p">Iacobus Currius.</p>
+<p TEIform="p">Iacobus Raevardus.</p>
+<p TEIform="p">Iacobus Spiegelius.</p>
+<p TEIform="p">Ioach. Mynsingerus.</p>
+<p TEIform="p">Ioh. Baptista Caccialupus.</p>
+<p TEIform="p">Ioh. Baptista Ferretus.</p>
+<p TEIform="p">Ioh. Bellonus.</p>
+<p TEIform="p">Ioh. Brechaeus.</p>
+<p TEIform="p">Ioh. Brodaeus.</p>
+<p TEIform="p">Ioh. Corrasius.</p>
+<p TEIform="p">Ioh. Cotta.</p>
+<p TEIform="p">Ioh. Drosaeus.</p>
+<p TEIform="p">Ioh. Ferrandus.</p>
+<p TEIform="p">Ioh. Goeddaeus.</p>
+<p TEIform="p">Ioh. Oldendorpius.</p>
+<p TEIform="p">Ioh. Robertus.</p>
+<p TEIform="p">Iulius Pacius.</p>
+<p TEIform="p">Iustus Lipsius.</p>
+<p TEIform="p">
+<hi TEIform="hi">L</hi>
+</p>
+<p TEIform="p">Lancinus Curtius.</p>
+<p TEIform="p">Lazarus Bayfius.</p>
+<p TEIform="p">Lilius Gregorius Gyraldus.</p>
+<p TEIform="p">Ludovicus Caelius Rhodiginus.</p>
+<p TEIform="p">
+<hi TEIform="hi">M</hi>
+</p>
+<p TEIform="p">Marius Antonius Maioragius.</p>
+<p TEIform="p">Martianus Capella.</p>
+<p TEIform="p">Matth. Wesenbeccius.</p>
+<p TEIform="p">Muretus.</p>
+<p TEIform="p">
+<hi TEIform="hi">N</hi>
+</p>
+<p TEIform="p">Nicolaus Bellonus.</p>
+<p TEIform="p">Nonius Marcellus.</p>
+<p TEIform="p">
+<hi TEIform="hi">P</hi>
+</p>
+<p TEIform="p">Pacius.</p>
+<p TEIform="p">Pardulphus Pratteius.</p>
+<p TEIform="p">Petrus Aldobrandinus.</p>
+<p TEIform="p">Petrus Anchoranus.</p>
+<p TEIform="p">Petrus Cornelius Brederodius.</p>
+<p TEIform="p">Petrus Crinitus.</p>
+<p TEIform="p">Petrus Faber.</p>
+<p TEIform="p">Petrus Peckhius.</p>
+<p TEIform="p">Petrus Pitheus.</p>
+<p TEIform="p">Petrus Rubuffus.</p>
+<p TEIform="p">
+<hi TEIform="hi">Q</hi>
+</p>
+<p TEIform="p">Quintus Curtius.</p>
+<p TEIform="p">
+<hi TEIform="hi">R</hi>
+</p>
+<p TEIform="p">Raphael Fulgosius.</p>
+<p TEIform="p">Raphael Sailerus ex comm. Duareni.</p>
+<p TEIform="p">Rebuffus.</p>
+<p TEIform="p">
+<hi TEIform="hi">S</hi>
+</p>
+<p TEIform="p">Scaliger.</p>
+<p TEIform="p">Sebastianus Medici.</p>
+<p TEIform="p">Silvester Aldobrandinus.</p>
+<p TEIform="p">Sigonius.</p>
+<p TEIform="p">Stephanus Forcatulus.</p>
+<p TEIform="p">
+<hi TEIform="hi">T</hi>
+</p>
+<p TEIform="p">Treutlerus.</p>
+<p TEIform="p">Turnebus.</p>
+<p TEIform="p">
+<hi TEIform="hi">V</hi>
+</p>
+<p TEIform="p">Victorius.</p>
+<p TEIform="p">Viglius Zwichemus.</p>
+<p TEIform="p">
+<orig reg="Ulricus" TEIform="orig">Vlricus</orig> Zasius.</p>
+<p TEIform="p">Vulteius.</p>
+<p TEIform="p"><hi TEIform="hi">W</hi></p>
+<p TEIform="p"><corr sic="Wesembeccius" resp="transcriber" TEIform="corr">Wesenbeccius</corr>.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">CATALOGUS ALTER LEXICOGRAPHI GRAECI.</hi>
+</head>
+<p TEIform="p">Iulius Pollux.</p>
+<p TEIform="p">Suidas.</p>
+<p TEIform="p">Lexic. Bud. R. Constantini.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">LATINI.</hi>
+</head>
+<p TEIform="p">T. Varro.</p>
+<p TEIform="p">Festus Pompeius.</p>
+<p TEIform="p">N. Marcellus.</p>
+<p TEIform="p">Albericus Rosatius.</p>
+<p TEIform="p">B. Brissonius.</p>
+<p TEIform="p">F. Hotomannus.</p>
+<p TEIform="p">I. Spiegelius.</p>
+<p TEIform="p">I. Oldendorpius.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">IURIS AUCTORES Graeci.</hi>
+</head>
+<p TEIform="p">Solon.</p>
+<pb id="as0016" TEIform="pb"/>
+<p TEIform="p">Modestinus de excusat.</p>
+<p TEIform="p">Iustiniani Novell. et Edicta.</p>
+<p TEIform="p">Leonis et Iustini Constit.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<foreign lang="GR" TEIform="foreign">*t*a/ *b*a*s*i*a*i*k*a.</foreign>
+<hi rend="italic" TEIform="hi">LATINI.</hi>
+</head>
+<p TEIform="p">XII. Tabul.</p>
+<p TEIform="p">Ulpiani Tituli.</p>
+<p TEIform="p">I. Pauli sententiae.</p>
+<p TEIform="p">Gaii Institutiones.</p>
+<p TEIform="p">Volusius Maetianus</p>
+<p TEIform="p">Q. Septimius Tertullianus.</p>
+<p TEIform="p">Pandectae IC.</p>
+<p TEIform="p">Codices Gregor. Hermo. Theodo. et Iustiniani, Institut. Iustiniani.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">INTERPRETES GRAECI.</hi>
+</head>
+<p TEIform="p">Basilici.</p>
+<p TEIform="p">Theophilus.</p>
+<p TEIform="p">C. Harmenopulus.</p>
+<p TEIform="p">Eustathius C. P. Antecessor.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">LATINI.</hi>
+</head>
+<p TEIform="p">Iulianus Patritius.</p>
+<p TEIform="p">I. Frontinus.</p>
+<p TEIform="p">Agg. Urbicus.</p>
+<p TEIform="p">Hygenus.</p>
+<p TEIform="p">Anianus.</p>
+<p TEIform="p">F. Martinus.</p>
+<p TEIform="p">Azo.</p>
+<p TEIform="p">Accursius.</p>
+<p TEIform="p">I. Belvisius.</p>
+<p TEIform="p">Speculator.</p>
+<p TEIform="p">Cinus.</p>
+<p TEIform="p">Dinus.</p>
+<p TEIform="p">Bartolus. Baldus.</p>
+<p TEIform="p">P. Castrensis.</p>
+<p TEIform="p">Ang. Aretinus.</p>
+<p TEIform="p">P. Decius.</p>
+<p TEIform="p">Iason.</p>
+<p TEIform="p">F. Ripa.</p>
+<p TEIform="p">A. Alciatus.</p>
+<p TEIform="p">F. Duarenus.</p>
+<p TEIform="p">Io. Corrasius.</p>
+<p TEIform="p">I. Cuiacius.</p>
+<p TEIform="p">G. Budaeus.</p>
+<p TEIform="p">L. Bayfius.</p>
+<p TEIform="p">A. Augustinus.</p>
+<p TEIform="p">Simon Schardius ad leges Rhod. navales et militares.</p>
+<p TEIform="p">Petrus Faber.</p>
+<p TEIform="p">Berengarius Fernandus.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">EX IURE PONTIFICIO.</hi>
+</head>
+<p TEIform="p">Decretales.</p>
+<p TEIform="p">Sext. Decret.</p>
+<p TEIform="p">Gratiani Decreta.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">INTERPRETES.</hi>
+</head>
+<p TEIform="p">Bernardus.</p>
+<p TEIform="p">Abb. Panormit.</p>
+<p TEIform="p">I. Andreas.</p>
+<p TEIform="p">Felinus Sandeus.</p>
+<p TEIform="p">Ang. Clavasius.</p>
+<p TEIform="p">G. Benedictus.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">EX MEDICIS.</hi>
+</head>
+<p TEIform="p">Hippocrates.</p>
+<p TEIform="p">Galenus.</p>
+</div>
+<div type="list of cited authors" org="uniform" sample="complete" TEIform="div" part="N">
+<head>
+<hi rend="italic" TEIform="hi">EX ALIIS CLASSICIS scriptoribus.</hi>
+</head>
+<p TEIform="p">Homerus.</p>
+<p TEIform="p">Plato.</p>
+<p TEIform="p">Xenophon.</p>
+<p TEIform="p">Demosthenes.</p>
+<p TEIform="p">Aristoteles.</p>
+<p TEIform="p">D. Halicarnasseus.</p>
+<p TEIform="p">Diodorus Siculus.</p>
+<p TEIform="p">Dio</p>
+<p TEIform="p">Iulius Firmicus.</p>
+<p TEIform="p">Symmachus.</p>
+<p TEIform="p">Hesychius.</p>
+<p TEIform="p">Moschopulus.</p>
+<p TEIform="p">M. Cicero.</p>
+<p TEIform="p">C. Tacitus.</p>
+<p TEIform="p">T. Livius.</p>
+<p TEIform="p">Suet. Tranquil.</p>
+<p TEIform="p">Asc. Pedianus.</p>
+<p TEIform="p">M. Fab. Quintil.</p>
+<p TEIform="p">Sid. Apollin.</p>
+<p TEIform="p">Cassiodorus.</p>
+<p TEIform="p">Vegetius.</p>
+<p TEIform="p">Isidori Etymol.</p>
+<p TEIform="p">A. Gellius.</p>
+<p TEIform="p">Lib. qui Caesarum vitae inscribitur. Et alios praeterea citavimus, quos recensere infiniti esset operis.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

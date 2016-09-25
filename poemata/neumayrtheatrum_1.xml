@@ -1,0 +1,2648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Theatrum Politicum Sive Tragoediae Ad Commendationem Virtutis Et Vitiorum Detestationem Olim Ludis Autumnalibus Nunc Typo Datae.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Neumayr" TEIform="author">Neumayr, Franciscus SJ</author>
+<editor TEIform="editor" role="editor">Neumayr, Franciscus SJ</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Ruediger Niehl</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/neum1" type="href" id="neum1" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">neum1</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">neumayrtheatrum.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">neumayrtheatrum.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">neum1/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Augsburg, Ingolstadt: Franz Xaver Craez und <name type="person" TEIform="name">Thomas Summer</name>, 1760.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">May 15, 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">editorial description: typed text - structural tagging complete (somewhat inconsistent, but functional) - no semantic tagging - no spell check; Note: Some erratic speaker abbreviations have been streamlined, others graphically slightly altered for technical reasons. Warning to subsequent editors: Quotes in subheadings, stage informations and footnotes are sometimes used in bewildering confusion; not all stage information could be placed with certainty.</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">September 17, 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Angela Reinthal</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">Morpheus spell-check performed</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+<text><gap id="Achior"/><gap id="Admetus"/><gap id="Adocetus"/><gap id="Aemilius"/><gap id="Aer"/><gap id="Aerius"/><gap id="Aesculapius"/><gap id="Aesophagus"/><gap id="Aeternitas"/><gap id="Ahias"/><gap id="Alithius"/><gap id="Amantius"/><gap id="Amasius"/><gap id="Ambae"/><gap id="Ambo"/><gap id="Amicus"/><gap id="Amor_coniug"/><gap id="Amphibius"/><gap id="Anael"/><gap id="Anastasius"/><gap id="percutiens"/><gap id="Angelus"/><gap id="Anna"/><gap id="Apollo"/><gap id="Aqua"/><gap id="Aram"/><gap id="Arcadius"/><gap id="Architectus"/><gap id="Asmodaeus"/><gap id="Atropos"/><gap id="Audifax"/><gap id="Aurelianus"/><gap id="Auritus"/><gap id="Axa"/><gap id="Baasa"/><gap id="Babylon"/><gap id="Bavar"/><gap id="Bavaria"/><gap id="Bellona"/><gap id="Berecynthia"/><gap id="Boreas"/><gap id="Britannia"/><gap id="Brontes_Cyclops"/><gap id="Brontes"/><gap id="Brutus"/><gap id="Camillus"/><gap id="Caracalla"/><gap id="Ceres"/><gap id="Chorus_Faunorum"/><gap id="Chorus_fugientium"/><gap id="Chorus_oppugnantium"/><gap id="Chorus_Pastorum"/><gap id="Chorus_Venatorum"/><gap id="CHORUS"/><gap id="Chorus"/><gap id="Chronus"/><gap id="Chrysaorius"/><gap id="Chrysostomus"/><gap id="Cives"/><gap id="Civis"/><gap id="Claudianus"/><gap id="Clotho"/><gap id="Comoedus"/><gap id="Conscientius"/><gap id="Constantinopolis"/><gap id="Constantinus"/><gap id="Constantius"/><gap id="Corpus"/><gap id="Cosmus"/><gap id="Creon"/><gap id="Cretismus"/><gap id="Crisius"/><gap id="Cupido"/><gap id="Deus"/><gap id="Diana"/><gap id="Discretius"/><gap id="Domitianus"/><gap id="Doxus"/><gap id="Eliphaz"/><gap id="Ephebus"/><gap id="Ephrem"/><gap id="Esron"/><gap id="Eutrop"/><gap id="Eutropius"/><gap id="Fabius"/><gap id="Fauni"/><gap id="Faunus"/><gap id="Filius"/><gap id="Filii"/><gap id="Gabelus"/><gap id="Gainas"/><gap id="Ganymedes_Plutonis"/><gap id="Ganymedes"/><gap id="Garrilius"/><gap id="Gastrimargus"/><gap id="Genius_Bavariae"/><gap id="Genius_Jeroboami"/><gap id="Genius_Prudentiae"/><gap id="Genius_Roman_Imperii"/><gap id="Genius"/><gap id="Geta"/><gap id="Gracchus"/><gap id="Gulaphus"/><gap id="Helvius"/><gap id="Herodianismus"/><gap id="Hora"/><gap id="Horae"/><gap id="Hymen"/><gap id="Hypatius"/><gap id="I"/><gap id="Ibrahim"/><gap id="Idonius"/><gap id="Ignis"/><gap id="II"/><gap id="III"/><gap id="Incurius"/><gap id="IV"/><gap id="IX"/><gap id="Ieroboam"/><gap id="Ioannes"/><gap id="Ioram"/><gap id="Ioramus"/><gap id="Iuppiter"/><gap id="Iustinianus"/><gap id="Iustinus"/><gap id="Iuvenis"/><gap id="Lachesis"/><gap id="Laetus"/><gap id="Legatus"/><gap id="Lentulus"/><gap id="Leo"/><gap id="Logus"/><gap id="Lorinus"/><gap id="Ludio"/><gap id="Luna"/><gap id="Macrinus"/><gap id="Abusus"/><gap id="Usus"/><gap id="Magister"/><gap id="Mammon"/><gap id="Manasses"/><gap id="Mansuetus"/><gap id="Marinus"/><gap id="Marius"/><gap id="Mars"/><gap id="Maternianus"/><gap id="Mercurius"/><gap id="Michaeas"/><gap id="Miles"/><gap id="Misenus"/><gap id="Morotrophii_Praefect"/><gap id="Musa"/><gap id="Musae"/><gap id="Nadab"/><gap id="Nadabus"/><gap id="Nasutus"/><gap id="Negotius"/><gap id="Nemesis"/><gap id="Nemesius"/><gap id="Nepos"/><gap id="Neptunus"/><gap id="Nilus"/><gap id="Nonus"/><gap id="Nuntius"/><gap id="Nympha"/><gap id="Nymphae"/><gap id="Ochozias"/><gap id="Octo"/><gap id="Nepotes"/><gap id="Oeconomus"/><gap id="Oeniandus"/><gap id="Omnes"/><gap id="Ophtalmius"/><gap id="Ophtalmus"/><gap id="Oranges"/><gap id="Pales"/><gap id="Pallas"/><gap id="Papinianus_Filius"/><gap id="Papinianus_iunior"/><gap id="Papinianus_Pater"/><gap id="Papinianus_senior"/><gap id="Papinianus"/><gap id="Parcae"/><gap id="Parvuli_omnes"/><gap id="Pastores"/><gap id="Pater"/><gap id="Paulinus"/><gap id="Paulus"/><gap id="Phantasus"/><gap id="Pharisaismus"/><gap id="Phoebus"/><gap id="Pluto"/><gap id="Poeta"/><gap id="Politicus"/><gap id="Pomona"/><gap id="Praecipitantia"/><gap id="Praecones"/><gap id="Procopius"/><gap id="Propheta"/><gap id="Prophetae"/><gap id="Providentia"/><gap id="Prudentius"/><gap id="Pseudo-Polit"/><gap id="Pseudo-Politicismus"/><gap id="Pseudo-Propheta"/><gap id="Pyracmon"/><gap id="Raguel"/><gap id="Ratio_status"/><gap id="Religio"/><gap id="Roma"/><gap id="Rutilius"/><gap id="Sadoch"/><gap id="Salmon"/><gap id="Sara"/><gap id="Saturninus"/><gap id="Saturnus"/><gap id="Sedecias"/><gap id="Senex"/><gap id="Serenus"/><gap id="Servus_Fabii"/><gap id="Servus"/><gap id="Severus"/><gap id="Sol"/><gap id="mendax"/><gap id="Spiritus"/><gap id="Sterops"/><gap id="Stertinius"/><gap id="Suspirius"/><gap id="Syncretismus"/><gap id="Synesius"/><gap id="Tangulus"/><gap id="Terentianus"/><gap id="Terra"/><gap id="Theander"/><gap id="Themis"/><gap id="Titus"/><gap id="Tobias"/><gap id="Tres"/><gap id="tres"/><gap id="Tribunus"/><gap id="Uranius"/><gap id="Uterque"/><gap id="Utraque"/><gap id="Utrique"/><gap id="V"/><gap id="Venatores"/><gap id="Venus"/><gap id="VI"/><gap id="Vicarius"/><gap id="Vigilius"/><gap id="VII"/><gap id="VIII"/><gap id="Virtuosus"/><gap id="Vitalianus"/><gap id="Volusianus"/><gap id="Vulcanus"/><gap id="X"/><gap id="XI"/><gap id="XII"/><gap id="XIII"/><gap id="XIV"/><gap id="XV"/><gap id="XVI"/><gap id="XVII"/><gap id="XVIII"/><gap id="XIX"/><gap id="XX"/><gap id="XXI"/><gap id="XXII"/><gap id="XXIII"/><gap id="XXIV"/><gap id="Zara"/><gap id="GR"/><gap id="GE"/><body><div1 type="book">
+<pb id="s007" n="7" TEIform="pb"/>
+<head>TITUS IMPERATOR AMOR AC DELICIAE GENERIS HUMANI TRAGOEDIA DATA LUDIS AUTUMNALIBUS ANNO MDCCXXXI.</head>
+<pb id="s008" n="8" TEIform="pb"/>
+<argument TEIform="argument">
+<head>ARGUMENTUM.</head>
+<p TEIform="p">TItus Vespasiani filius Princeps vere amabilis fuit, quia omnium amans. Diem perdidisse se credidit, qua nemini benefecisset: nec umquam passus est aliquem a se tristem discedere, solis Quadruplatoribus infensus, et illis, qui per vim, aut fraudes subditos afflixissent. Hos ille saepe flagris publice coedi, aut pro mancipiis venundari jussit. Nunquam tamen clarius Patris affectus eluxit, quam cum malis publicis populi urgerentur. Nihil tum Princeps aerario suo, nihil fisco parcebat: quin ipsa praetoriorum suorum ornamenta aliquando sub hasta vendidit, ut haberet, unde civibus triduano Incendio ad extremam inopiam redactis posset succurrere. Beneficentiae clementiam addidit vere heroicam, et adeo abhorrentem a sanguine, ut hanc unam ob causam Pontifex maximus esse voluerit, ne cogeretur cuiusquam morti subscribere. Insidiis cum a Fratre, et duobus Patritiis peteretur, et detecta fuisset conjuratio: nihil aliud Patritios, quam ut desisterent, monuit, et imperium Fato dari cogitarent: Domitianum vero praeterea collegam Imperii, et heredem dixit, secreto tantum rogatum, ut mutuo erga se animo esse vellet, dignissimus adeo, qui gloriosissimo inter omnes Imperatores elogio posteris innotesceret, et Amor, ac Deliciae Generis humani appellaretur. Suetonius.</p>
+</argument>
+<stage type="mix" TEIform="stage">
+<p TEIform="p">PERSONAE.</p>
+<p TEIform="p">Titus Imperator.</p>
+<p TEIform="p"><name type="person" TEIform="name">Domitianus</name> Frater.</p>
+<p TEIform="p">Fabius Patritii conjurati.</p>
+<p TEIform="p">Aemilius Patritii conjurati.</p>
+<p TEIform="p">Gracchus tribunus- plebis.</p>
+<p TEIform="p">Paulinus Militiae Praefectus.</p>
+<p TEIform="p">Legati Campaniae.</p>
+<p TEIform="p">Servus Fabii.</p>
+<p TEIform="p">Ephebi ex Patritiis recens adsciti.</p>
+</stage>
+<pb id="s009" n="9" TEIform="pb"/>
+<div2 id="NeTA.01.01" n="1" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>PROLOGUS.</head>
+<argument TEIform="argument">
+<head>Honores divinos a Rhodiis obtinet Phoebus per beneficentiam, quos per terrorem potentiae Boreas nullo successu affectat.</head>
+</argument>
+<stage type="mix" TEIform="stage">Personae. Phoebus. Boreas. Nymphae Rhodiae.</stage>
+<stage type="mix" TEIform="stage">* Theatrum exhibet Insulam, circum quam Nymphae navigant laetae. In medio videtur Colossus Rhodius.</stage>
+<sp who="Nympha I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">SOrores lectissimae,</l>
+<l TEIform="l" part="N">Quam bene nobis est undique!</l>
+<l TEIform="l" part="N">Abundant omnia:</l>
+<l TEIform="l" part="N">Vota ipsa caelum superat</l>
+<l TEIform="l" part="N">Profusum in Insulae commoda.</l>
+</lg></sp>
+<sp who="Nympha II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe nihil eorum deest rebus,</l>
+<l TEIform="l" part="N">Quibus Deus est Phoebus,</l>
+<l TEIform="l" part="N">Deus optimus, beneficentissimus:</l>
+</lg></sp>
+<sp who="III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Deus, qui diem perdidisse se crederet,</l>
+<l TEIform="l" part="N">Serena nisi facie rhodum aspiceret.</l>
+</lg></sp>
+<sp who="IV" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Beati non esse non possunt subditi,</l>
+<l TEIform="l" part="N">Si Principem habeant, qui metuit metui,</l>
+<l TEIform="l" part="N">Et unice cupit diligi.</l>
+</lg></sp>
+<sp who="I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Amantem amemus,</l>
+<l TEIform="l" part="N">Et quotidianos favores</l>
+<l TEIform="l" part="N">Quotidianis laudibus celebremus. <stage type="mix" TEIform="stage">**In litus exscendunt.</stage> </l>
+<l TEIform="l" part="N">Votiva Carmina</l>
+<l TEIform="l" part="N">Accipite Montes, et Nemora.</l>
+</lg></sp>
+<pb id="s010" n="10" TEIform="pb"/>
+<sp who="Nympha II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Repetite!</l>
+</lg></sp>
+<sp who="III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Multiplicate!</l>
+</lg></sp>
+<sp who="IV" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Propagate!</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">CHORUS.</stage>
+<sp who="I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ubertas haec agrorum,</l>
+</lg></sp>
+<sp who="II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec gaudia hortorum,</l>
+</lg></sp>
+<sp who="III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hae vineae, haec praedia,</l>
+</lg></sp>
+<sp who="IV" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tranquilla semper maria,</l>
+</lg></sp>
+<sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc robur corporum,</l>
+<l TEIform="l" part="N">Hic vigor mentium</l>
+<l TEIform="l" part="N">Sunt tua, <corr sic="Poebe" resp="transcriber" TEIform="corr">Phoebe</corr>, munera,</l>
+<l TEIform="l" part="N">Sunt tua gratia.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Amamur, et amamus:</l>
+<l TEIform="l" part="N">Amorem consecramus</l>
+<l TEIform="l" part="N">O Phoebe, tuo Numini</l>
+<l TEIform="l" part="N">Tam bono, tam amabili!</l>
+<l TEIform="l" part="N">Tu sacrificium</l>
+<l TEIform="l" part="N">Nostrorum cordium</l>
+<l TEIform="l" part="N">Benigni vultus aureo</l>
+<l TEIform="l" part="N">Dignare radio.</l>
+</lg>
+<sp who="Nympha III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At heu! Sorores! quid video?</l>
+<l TEIform="l" part="N">Quam tetra repente</l>
+<l TEIform="l" part="N">Nostro vertici nubes impendet!</l>
+<l TEIform="l" part="N">Heu quid mutatio tam subita mali portendet?</l>
+</lg></sp>
+<sp who="Nympha II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nil metue: quam agri sitiunt,</l>
+<l TEIform="l" part="N">Quam segetes cupiunt,</l>
+<l TEIform="l" part="N">Effundet haec nubes optabilem pluviam,</l>
+</lg></sp>
+<pb id="s011" n="11" TEIform="pb"/>
+<sp who="Nympha III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Falleris: nam video procellis</l>
+<l TEIform="l" part="N">Et grandine gravidam.</l>
+</lg></sp>
+<sp who="V" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et proh Superi! jam incipit mare tumescere!</l>
+</lg></sp>
+<sp who="VI" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quin et terram sentio (et quid hoc erit?)</l>
+<l TEIform="l" part="N">Sub pedibus tremere.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">* Prodit Boreas cum comitatu.</stage>
+<sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! Boreas! Boreas! fugimus!</l>
+</lg></sp>
+<sp who="I II III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Juvate! mergimur! perivimus!</l>
+</lg></sp>
+<sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Phoebe Deorum optime,</l>
+<l TEIform="l" part="N">Nunc tua dona protege.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">** Fugiunt in naves. Colossus concidit: grando omnia populatur.</stage>
+<sp who="Boreas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">jacet, quem invocas, turba imbellis!</l>
+<l TEIform="l" part="N">Jacet, quem invocas:</l>
+<l TEIform="l" part="N">Potentior est Boreas.</l>
+<l TEIform="l" part="N">Discant mortales hoc Numen vereri,</l>
+<l TEIform="l" part="N">Et sciant me parem cum Phoebo honorem mereri.</l>
+<l TEIform="l" part="N">Fugerunt: satis est: timemur!</l>
+<l TEIform="l" part="N">Et quem metuunt (plaude Borea)</l>
+<l TEIform="l" part="N">Flectent (velint, nolint) flectent illi genua.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Per dona amores venari,</l>
+<l TEIform="l" part="N">Per dona honores mercari,</l>
+<l TEIform="l" part="N">Imbellium</l>
+<l TEIform="l" part="N">Est mentium:</l>
+<l TEIform="l" part="N">Heroes stratorum</l>
+<l TEIform="l" part="N">In strue murorum</l>
+<l TEIform="l" part="N">Ad Sidera efferunt se.</l>
+<l TEIform="l" part="N">Amorem nil juvat mereri:</l>
+<l TEIform="l" part="N">Sed esse, qui possis timeri,</l>
+<l TEIform="l" part="N">Eximia</l>
+<l TEIform="l" part="N">Est gloria,</l>
+<pb id="s012" n="12" TEIform="pb"/>
+<l TEIform="l" part="N">Quae plures Deorum</l>
+<l TEIform="l" part="N">In culmen honorum</l>
+<l TEIform="l" part="N">Evexit, et evehet me.<stage type="mix" TEIform="stage">* Nymphae in navibus redeunt: subducit se Boreas.</stage> </l>
+<l TEIform="l" part="N">Et en! redeunt. An ut aras exstruant?</l>
+<l TEIform="l" part="N">Et victimas offerant?</l>
+</lg>
+<sp who="Nympha I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! rerum facies misera!</l>
+</lg></sp>
+<sp who="II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O maledicte Borea!</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">** Boreas revertitur.</stage>
+<sp who="Boreas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vah! obstinatae! nondum intelligitis fatuae,</l>
+<l TEIform="l" part="N">Quantae sint vires Boreae?</l>
+<l TEIform="l" part="N">Juro, extrema patiemini,</l>
+<l TEIform="l" part="N">Nisi adhuc hodie stet ara meo Numini.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">ARIOSE.</stage>
+<sp who="Boreas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Occidam pecora!</l>
+<l TEIform="l" part="N">Evertam nemora!</l>
+<l TEIform="l" part="N">Submergam totam Insulam!</l>
+</lg></sp>
+<sp who="Nymphae" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">occide pecora!</l>
+<l TEIform="l" part="N">everte nemora!</l>
+<l TEIform="l" part="N">submerge Insulam!</l>
+</lg></sp>
+<sp who="Boreas Nymphae" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non colitis?</l>
+<l TEIform="l" part="N">Non flectitis?</l>
+<l TEIform="l" part="N">Honori meo debitam</l>
+<l TEIform="l" part="N">Non victimam mactatis?</l>
+</lg></sp>
+<sp who="Nymphae" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si rumperis,</l>
+<l TEIform="l" part="N">Nil efficis:</l>
+<l TEIform="l" part="N">Non lubet dare victimam</l>
+<l TEIform="l" part="N">Insanis postulatis.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">ARIA.</stage>
+<sp who="Nympha I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Est vanus,</l>
+<l TEIform="l" part="N">Qui coli se cogit Tyrannus.</l>
+<l TEIform="l" part="N">Rex bonus contemnit honorem,</l>
+<pb id="s013" n="13" TEIform="pb"/>
+<l TEIform="l" part="N">Cui junctum non videt amorem:</l>
+<l TEIform="l" part="N">Quae Corde caret hostia,</l>
+<l TEIform="l" part="N">Non placat Numina.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Latrones,</l>
+<l TEIform="l" part="N">Et Afros colamus Leones,</l>
+<l TEIform="l" part="N">Si aras, et tura meretur,</l>
+<l TEIform="l" part="N">Qui propter furorem timetur:</l>
+<l TEIform="l" part="N">Subesse praestat tigridi,</l>
+<l TEIform="l" part="N">Quam saevo Numini.</l>
+</lg></sp>
+<sp who="Boreas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fatigata est mea patientia.</l>
+<l TEIform="l" part="N">Ergo rursum congregamini nubila!</l>
+<l TEIform="l" part="N">Evertimini maria! <stage type="mix" TEIform="stage">* Recrudescit tempestas.</stage> </l>
+<l TEIform="l" part="N">Periistis,</l>
+<l TEIform="l" part="N">Nisi vobis alius hoc momento est animus.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">Chorus Nympharum.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Phoebum nos colimus!</l>
+<l TEIform="l" part="N">Boream spernimus!</l>
+<l TEIform="l" part="N">Phoebe nos adjuva!</l>
+<l TEIform="l" part="N">Phoebe te vindica!</l>
+</lg>
+<sp who="Phoebus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Adest Phoebus post nubila. <stage type="mix" TEIform="stage">** In curru solari vectus.</stage> </l>
+<l TEIform="l" part="N">Quis hic est furor, Borea?</l>
+<l TEIform="l" part="N">Ut ego! - - - -</l>
+<l TEIform="l" part="N">Sed praestat afflictas solari!</l>
+<l TEIform="l" part="N">tu sine mora Insulam desere:</l>
+<l TEIform="l" part="N">In Scythas, et Sauromatas furorem exsere.</l>
+</lg></sp>
+<sp who="Chorus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Deum miserum!</l>
+</lg></sp>
+<sp who="Nympha I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At ibi saltem habebit honorem altarium?</l>
+</lg></sp>
+<pb id="s014" n="14" TEIform="pb"/>
+<sp who="Phoebus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Habebis, si naturam exuas,</l>
+<l TEIform="l" part="N">Si cesses esse Boreas.</l>
+</lg></sp>
+<sp who="Boreas" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Rumpor!</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">* Furens abit.</stage>
+<sp who="Chorus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Rumpere!</l>
+<l TEIform="l" part="N">Hoc decet fato</l>
+<l TEIform="l" part="N">Furiosum Numen occumbere.</l>
+</lg></sp>
+<sp who="Nympha I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed jam huc, Phoebe, oculos conice!</l>
+<l TEIform="l" part="N">En tua Statua!</l>
+</lg></sp>
+<sp who="II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">En mea Lilia!</l>
+</lg></sp>
+<sp who="I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et segetes! 3tia. Et Vineae!</l>
+</lg></sp>
+<sp who="V" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et Merces, et Divitiae!</l>
+</lg></sp>
+<sp who="VI" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vix enatavimus in nuda tabula.</l>
+</lg></sp>
+<sp who="Phoebus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miseratio mea tangit viscera.</l>
+<l TEIform="l" part="N">Tergite lacrimas: restituam omnia <stage type="mix" TEIform="stage">** Fit pluvia aurea.</stage> </l>
+<l TEIform="l" part="N">En meliores pluviae!</l>
+<l TEIform="l" part="N">Ite! guttas aureas excipite!</l>
+</lg></sp>
+<sp who="Chorus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Numen amabile!</l>
+</lg></sp>
+<sp who="Phoebus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ite! colligite!</l>
+<l TEIform="l" part="N">Haec mea est Politica:</l>
+<l TEIform="l" part="N">Haec una regenti regula:</l>
+<l TEIform="l" part="N">Cura, ut ameris! Et amaberis,</l>
+<l TEIform="l" part="N">Si amaveris.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">REx bonus Regi siderum</l>
+<l TEIform="l" part="N">Sit Phoebo similis:</l>
+<l TEIform="l" part="N">Sit amor, sit delicium</l>
+<l TEIform="l" part="N">Humani generis.</l>
+<pb id="s015" n="15" TEIform="pb"/>
+<l TEIform="l" part="N">Rex potens est, ut possit,</l>
+<l TEIform="l" part="N">Rex bonus sit, ut velit</l>
+<l TEIform="l" part="N">Juvare plurimos:</l>
+<l TEIform="l" part="N">Qui hanc observat Legem,</l>
+<l TEIform="l" part="N">Felicem dico Regem,</l>
+<l TEIform="l" part="N">Felices subditos.</l>
+</lg>
+</div2>
+<div2 id="NeTA.01.02" n="2" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>TITUS IMPERATOR. ACTUS I. </head>
+<div3 id="NeTA.01.02.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA PRIMA.</head>
+<stage type="mix" TEIform="stage">* Bustum urbis adhuc fumantis prospicitur.</stage>
+<p TEIform="p">Personae. Titus. <name type="person" TEIform="name">Domitianus</name>. Gracchus Tribunus-plebis. Brutus, Rutilius, Camillus, Lentulus Filioli Patritiorum. Duo Campaniae Legati. Supplices cives incendio afflicti.</p>
+<sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">MIserere Caesar!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miserere!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tristis aspectus, frater! Proceres! -- horridum spectaculum!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic placuit <name type="religion" TEIform="name">Diis</name> furere. Ferendum.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miserere Caesar!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Misereor, cives mei! oculi vulnerantur, et animus: moventur viscera! Pater sum. Ah! cur Deus non sum, qui juvat verbo!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic est. Caelum, <name type="myth" TEIform="name">Jupiter</name>, Dii fatigandi clamoribus! juvent, qui damnum fecerunt, et levare momento possunt.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Atqui frater, Iovis personam Titus in terris habet. Meum est juvare.</l>
+</lg></sp>
+ <sp who="Civis I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Perii totus, nisi me, Caesar, juvas.</l>
+</lg></sp>
+ <sp who="Civis II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Omnes meae opes in cineres subsiderunt.</l>
+</lg></sp>
+ <sp who="Civis III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vix seminudus evasi furentem flamma.</l>
+</lg></sp>
+ <sp who="Civis IV" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Una me hora ex opulento</l>
+<pb id="s016" n="16" TEIform="pb"/>
+<l TEIform="l" part="N">egenum fecit.</l>
+</lg></sp>
+ <sp who="Civis V" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mihi Calamitas non opes modo, sed etiam carissimum filium abstulit, sub domus ruina sepultum.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miserere Caesar!</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Huc admovete genua.</l>
+</lg></sp>
+ <sp who="Camillus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Porriguntur libelli supplices varii.</stage> Hanc etiam miseram turbam, Auguste, respice.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quam vos miseriam gemitis?</l>
+</lg></sp>
+ <sp who="Rutilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nobilium parentum filii sumus, quos luctus prohibet prodire in publicum.</l>
+</lg></sp>
+ <sp who="Brutus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad incitas per atrox incendium redacti Patres jam non habent, unde nos alant honeste.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miserere Caesar!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Surgite! ego alam. Vultis paternam domum mutare cum aula?</l>
+</lg></sp>
+ <sp who="Lentulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Volo, si velit Parens.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ite, et veniam poscite.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Inutili turba implebis Palatium?</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Frater, quibus ego non indigeo, ipsi indigent me.</l>
+</lg></sp>
+ <sp who="Parvuli_omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vive Auguste! aurea vive saecula!</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Infelices etiam Campanos dignare, Caesar, clemente intuitu!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! scio, amici, scio, furens Vesuvius miseram Campaniam fecit.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic est, Auguste! late agros exussit igneus torrens: squalent vastati agricolarum labores: tota regio sub effusis cineribus maeret.</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Neque solus in nos Vesuvius saeviit. Cum tetra incendia ejectaret mons, simul concussa terrifico tremore tellus, turres, palatia, oppida, civitates prostravit. Jacent sub acervis congestorum lapidum totae familiae cum omnibus fortunis tumulatae. Quamquam, quid multa verba facimus? Auguste! si quae narravimus, usurpares oculis, lacrimas non teneres.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Etiam audita movent. Pater non st, quem nullae afficiunt liberorum aerumnae, nisi quas videt. Solabor, ut possum. Consultandum de modo. Post paulum redite ad me. Vos, cives, hoc scitote: quidquid incendio periit, periit mihi. Faxo, ut sentiam damnum solus.</l>
+</lg></sp>
+ <sp who="Cives" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"> Io! vive Auguste! aurea vive saecula!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Gracche, quid ad afflictorum solacium fieri jusserim, ex Paulino intelliges. Exsequere cito.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad nutum. <stage type="mix" TEIform="stage">** Clauditur prospectus busti.</stage> </l>
+</lg></sp>
+<pb id="s017" n="17" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.02.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SECUNDA In aula. Personae. Titus. <name type="person" TEIform="name">Domitianus</name>.</head>
+<sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TU frater, quibus oculis has miserias vides? quibus auribus querelas audis, et gemitus? nam quid sibi iterum hoc triste silentium velit? rursum te affligit haec cura, quam pro afflictis gero? ecquando mollescet rigidum pectus, et patientibus compati discet? eccur tibi mea beneficentia displicet? Ego, frater, sic existimo, oportere, ut talis sit erga subditos Imperator, qualem optaret esse Imperatorem sibi, si esset subditus.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego tamen modum in largiendo facerem, si essem Titus. Concham me esse crederem, non canalem. Canalis, quam accipit aquam, effundit continuo. Itaque nunquam impletur ipse, saepe siccatur etiam. Concha tenet: nec, nisi quae superfluunt, guttas arentibus herbis tribuit, semper abundans.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Verum, cum herbis non sufficiunt guttae, nonne Conchas totas effundit prudens olitor? Incendium cogita: nulli puteo parcitur. Quidquid uspiam aquarum est, confertur in bonum commune. Huic est natus Princeps, non sibi, indignus suo nomine, si nescit, Regem propter subditos esse, non subditos propter Regem.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bene hoc quidem, si voluntati adsit facultas par. Atqui exhauries aerarium per tantam beneficentiam. Non ita decet. Pecunia belli nervus, pacis nutrix, custos est Majestatis. Contemnunt populi Principem pauperem.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pauper non est, qui divitibus imperat, et amantibus sui. Opes meae tutius depositae sunt in cistis subditorum, quam in aerario, quod raro exhaurit Liberalitas Principum, saepius expilant vitia. Si diligor, non modo bona populi mea sunt, sed etiam sanguis et vita. At nihil me juvat aurea Neronis domus, si exosus sum</l>
+<pb id="s018" n="18" TEIform="pb"/>
+<l TEIform="l" part="N">meis, et veluti pestis, aut bellum inter publica mala numeror. Parcamus, frater, superfluis sumptibus, et pompae inani: ita habebimus, unde semper possimus egenis succurrere. Quid me ostentatio majestatis afficiat? non aedificata amphitheatra, non edita spectacula, non peregrinae belluae emissae in circum posteris commendabunt: Amor populorum, amor me faciet immortalem. Optimus sit, oportet, qui cupit esse maximus.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Enimvero res grandis, amari a vili plebecula! res digna, quam tanto pretio, et regiis thesauris emas! cessa tonare <name type="myth" TEIform="name">Jupiter</name>, sepone fulmina! amore regendi sumus!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic est, Frater, amore nos regit <name type="myth" TEIform="name">Jupiter</name>: neque est timendus, nisi rebellibus. Quamquam et contumacibus quam diu parcit, ut beneficentiae clementiam jungat? Crede mihi, per hanc geminam lavem facimus nos similes <name type="religion" TEIform="name">Diis</name>. Nihil habet Principis fortuna melius, quam ut possit, nihil natura, quam ut velit, benefacere plurimis. Sanguine pascuntur, ac crescunt leones, et ursi. Itaque fugiuntur, et odio sunt. Dignitas regia hoc solum amabile habet, quod possit amabilem facere. Neminem oportet a Principe tristem discedere. Juvandus est, quisquis rogat, ut sentiat, se Patrem rogasse. hanc mentem si aliquando indueres, frater, non adeo tibi ultra Titus videretur indignus Imperio. (Abit.)</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.02.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA TERTIA. Personae. <name type="person" TEIform="name">Domitianus</name>, Fabius unus ex conjuratis.</head>
+<sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">IMpera Frater! ecce! Non adeo tibi ultra Titus videretur indignus Imperio! nempe delatus sum. <stage type="mix" TEIform="stage">* Exit Fabius.</stage> Quid agimus, Fabi? ego mihi fratri e scelere suspectus videor. Notas mali ominis in vultu legi: et vox asperior solito,</l>
+<pb id="s019" n="19" TEIform="pb"/>
+<l TEIform="l" part="N">plus significat, quam verba sonant. Quis prodidit nostra Consilia?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si proditi sumus, Princeps, ignosce, a te ipso sumus. Nam quid dissimulem in tanto periculo? Nimium naturae obsequeris. Ambitio in oculis emicat, furor incendit vultum, ira linguam incitat: quid de proditore interrogas?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe ex assentatoribus me esse cupis?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haud sane! sed si laudare non placet facta fratris, saltem non vituperasses. Dissimulatio ars est aularum inter innocentissimas una.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In ministris toleranda forte, sed non in fratre, qui amat fratrem.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hei! laudate amorem Dii, quo frater fratri imperium invidet.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prope jam paenituit, Fabi; nam inanis, puto, conatus erit. Fac enim, per fratris Cadaver in solium scandam, num Roma patiens feret?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nimirum tu Romam times? quippe qui nescias, multa patere scelera, quorum auctores latent? Sero paenitet, postquam coepisti suspectus esse. Non sistit auriga currum, quem semel in praeceps dedit. Quod agimus, agamus cito! <stage type="mix" TEIform="stage">* In Hispania volebat <name type="person" TEIform="name">Domitianus</name> titum bello persequi.</stage> Quid in Hispania cogitas agere, quod potest agi Romae?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Matura ad facinus consilia habes?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si tu maturum animum. Erigere in magnas spes: hodie peragetur Tragoedia.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quae caedis occasio? quis modus?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tutius haec in cubili doceam.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ingredimur.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prosequar statim, si prius liceat tria verba Aemilio loqui.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid illi tecum?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Explorare juvat, quid hodie, aut ubi acturus sit Augustus.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic age. Ego odi hominem omnium arcanorum fratris prae fratre conscium, quia magis popularem. Huic et pluribus aliis hodie necesse erit mutare vultum, et reverentius inclinare se mihi.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Certe hodie; nam nisi celeriter obstruimus sontem tantae profusionis, haeres eris exhausti Imperii,</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Intellexi. Age gnaviter.</l>
+</lg></sp>
+<pb id="s020" n="20" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.02.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUARTA. Personae. Fabius. Aemilius alter ex conjuratis.</head>
+<sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">AGam in meum commodum, et tuam perniciem. <stage type="mix" TEIform="stage">* Exit Aemilius.</stage> Te volebam Aemili: numquid ab Caesare venis?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ab Caesare.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid acturus est hodie?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Princeps est Fabi, dignus annalibus. Ah! quo rapimur, amice! Vivat per nos, Princeps, quem immortalem optat Roma num imperium.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vah! quae vox me attonat?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quam excutit horror animi stupentis audaciam suam, et propinqui sceleris cruentam faciem.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid loqueris, miser? Repente adeo evanuit splendor Imperii?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Perstringunt oculos radii diadematis: per tela et enses cuilibet rapiam, sed non Tito.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nam quid adeo mentem mutavit?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Titi bonitas: ipse nosti. Sed quanta nunc splendet! Publica mala, quae affligunt provincias, velut propria sentit. Nunc accingit se sacrificio, quod Jovi hodie in Capitolio faciet, ut deprecetur, testatus saepius se quoque victimam esse velle, si ita <name type="religion" TEIform="name">Diis</name> placeret.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Magna anima! sed quos selegit pompae comites? nam solemni utique supplicatione procedet?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Minime. Ludos nunc populo dabit: deinde in forum adducet, ubi ornamenta praetoriorum omnia jubebit sub hasta vendi. Jamque onerantur muli picturis, vasis, tapetibus, et quae sunt alia majestatis parerga.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ecce! huc adigit hominem plebeia ambitio!</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Interim solus ascendet in templum, solos habiturus comites ephebos nunc recens adlectos, quos me jussit accersere, causatus, innocentium calamitate proposita facillime Deos moveri.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prudenter, et ex obligatione Pontificis maximi, cujus munus suscepit. Et nulli erunt Flamines ministri rituum?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Erunt</l>
+<pb id="s021" n="21" TEIform="pb"/>
+<l TEIform="l" part="N">pauci, quos jam jussit moneri.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bene omnia. Jam tu hoc scito: hodie peribit Titus: hoc fixum. Et donec perierit, tu nusquam abibis ab isto latere. Hem! quo est ventum? Paulo ante amicum, jam cogor proditorem timere!</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ridiculum! tune dubitasse me, serio credas? sic Aemilium nosti? errare desine. Te exploravi. Me quod attinet, quid faciam? trepidare Caesar incipit, et suspicari malum. Non latebimus diu. Sic in laqueos pedem indui: nec extricabor, nisi incidam. Haud licet jam ire retro. Quod nuper suasit spes, nunc urget desperatio: perii, nisi pereat Titus. Jacta est alea. Tuus sum.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vive fortis! sic dignus es, cui tandem revelem arcanum, celatum hactenus.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Age!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sub Domitiano latebimus.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Accessit partibus?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Totus.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dudum visus est sitire fraternum sanguinem.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dabo hodie pocillatores.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quo nostro fructu?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">maximo.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nullo. Nam ipse rapiet coronam sibi.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Imo cum fratre cadet.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc opus, hic labor novus.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vix aliquis. nempe Titum amat populus, amat exercitus. Utrique patratam caedem nos nuntiabimus auctores pariter et duces vindictae contra scelestum fratrem. Crede mihi: ruet in arma populus, peribunt sicarii, perimetur <name type="person" TEIform="name">Domitianus</name>, nos patres patriae, nos Caesares, nos Dii erimus.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Eia! elegans nodus fabulae, quem nemo solvat, nisi adductus per machinam Deus. Amo te Fabi! en dextram!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Age personam strenue. Cum catastrophe bene cesserit, clamabimus: plaudite! et duorum capitum impendio omnium capita inclinabimus nobis. Sed Gracchum video.</l>
+</lg></sp>
+<pb id="s022" n="22" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.02.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUINTA. Personae eaedem, et Gracchus cum tubicine.</head>
+<sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">HIc tuba insonet.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe ad ludos convocas populum, Gracche?</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Certe ad ludos, quibus laetiores vix viderit Roma. Tu <stage type="mix" TEIform="stage">* Ad tubicinem.</stage> jam urbem reliquam recrea. Orbilius Causidicus, et Laelius judex agent, flagris caedendi palam, et venum exponendi in medio foro. Qui triginta sestertios dabit, habebit utrumque servum.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">De quo crimine damnantur rei?</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Orbilius viduae pauperis causam malis artibus oppressit. Laelius rustico fecit injuriam: convictus uterque de vi et dolo has poenas dabit, cum plausu populi, qui Augusto justo et pio meritas laudes dicet.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Gravis poena pro culpa levi.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Scilicet se laedi credit Caesar, cum membrum corporis laeditur, cujus ipse est caput. itaque fratrem etiam pro reis precatum accedentem, ne admisit quidem.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Domitiano ais, negavit alloquium?</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aio. Ille furit, et questibus aulam implet.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pro more, et indole.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pro! quam nactus est dissimilem fratri!</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Avertant superi, ut non lugeat id Roma brevi!</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Precamur Caelites, ut vivat, et regnet Titus superstes diu.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Optandum. Sed timeo Domitiani ingenium ferox.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Forte atrociora jam suscepisset pridem consilia, nisi nostram timeret fidem.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic vos Roma amet. Pergite vigilare saluti communis Patris.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil omittemus: et si gravius quid suspicabimur, tuam, Gracche, et populi appellabimus fidem.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Etiamsi petatis sanguinem, fundemus totum.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nunc age ludos tuos.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed Orbilium et Laelium, nolim, ut alteri, quam mihi vendas. Emptos Domitiano donabo, ut</l>
+<pb id="s023" n="23" TEIform="pb"/>
+<l TEIform="l" part="N">sit pacatior. Gratis habeat sibi, quos precibus petiit.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Consilium bonum.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et in praetoriis quid agitur? jam nuda sunt?</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">penitus. Hoc ipsum etiam praeco nuntiat. Mox exponentur pretiosae merces in campo Martio. Beneficium est omnibus futuris saeculis admirandum. Sed eundum.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Perge.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.02.06" n="6" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEXTA. Personae. Aemilius, Fabius conjurati.</head>
+<sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">AD votum omnia. Populus in foro erit, Titus in Capitolio, ille <orig reg="absorptus" TEIform="orig">absorbitus</orig> laetitia, hic intentus religioni, cum paucis, et inermibus, prope solus. Cudamus, dum calet ferrum, et furit <name type="person" TEIform="name">Domitianus</name>. Ego illi Orbilium, et Laelium dabo. Recens dolor, vindictae rabies, spes libertatis in omne facinus viros trahent. Tu, Aemili, cum audita caedes fuerit, procurre ad populum, ego ad milites ibo: in aula <name type="person" TEIform="name">Domitianus</name>, in templo Sicarii cadant. Sic fiet, ut extra periculum, imo et quaestionem simus.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prudenter exacta sunt omnia. Ephebos advoco.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">. Ego, quae sit facies rerum, Domitianum admoneo.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.02.07" n="7" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEPTIMA. Personae eaedem, et servus Fabii.</head>
+<sp who="Servus_Fabii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Exit Servus.</stage> DOmine, missus ex aula famulus ad aedes venit. Vocaris ad Caesarem.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad Caesarem ego? quid est negotii?</l>
+</lg></sp>
+ <sp who="Servus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Incertum.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bene est. Tu vero in forum perge, et eme servos, qui vaenum prostant.</l>
+</lg></sp>
+<pb id="s024" n="24" TEIform="pb"/>
+<sp who="Servus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Domum ducam?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Domum. Aemili, vere hoc dictum est: posuit haec Deus simul, peccatum, et timorem, Tremesco totus.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fingenda securitas vultu, cum pectus palpitat.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic nos periment lenta consilia. Nam cur nunc citor?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Metuo. Sed parendum. Tene constantiam modo, et cave, ne pallor oris, aut linguae tremor conscientiam prodat.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">necessitas hanc legem scribit difficilem recens reo.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Facilem metus faciet maioris mali. Impera tibi.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Conabor. Tu vigila, amice, milii, et tibi, et si quid peius mihi contigisse audieris, destinata cum Domitiano exsequere cito.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cum Domitiano nempe, qui mihi confidit nihil, odit etiam?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Commune periculum amicum faciet. Credet se tibi, si tu te ipsi.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Confundor totus. Perge modo: suggeret consilium tempus. Mihi ante omnia adducendi sunt nobiles pueri.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Inferi! victima vobis Titus cadet, si nunc evado.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">SALTUS.</stage>
+</div3>
+</div2>
+<div2 id="NeTA.01.03" n="3" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head> ACTUS II. </head>
+<div3 id="NeTA.01.03.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA PRIMA.</head>
+<stage type="mix" TEIform="stage">Personae. Paulinus Militiae Praefectus. Gracchus. Cives. <name type="person" TEIform="name">Sicarii</name>. Servus Fabii. Agasones. Legati. Campaniae.
+* Loci mutatio pro novo actu non est nova. Ex aula prospectus est forum, in quod muli aulae ornamenta vendenda deportant.</stage> <sp who="Servus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DEcem, quindecim, viginti viginti quinque, triginta.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tui sunt. Abduce illos. Vos discite per experientiam, quam misericordia digni sint miseri.</l>
+</lg></sp>
+ <sp who="Civis I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nos plaudimus pio, et justo Caesari!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pio ac justo bene sit! vivat! perennet!</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Merito acclamatis.</l>
+<pb id="s025" n="25" TEIform="pb"/>
+<l TEIform="l" part="N">Ingrediuntur etiam onusti jam ornamentis praetoriis muli Caesarei. In campum Martium pergite: ibi fiet venditio. Sic vos amat Caesar.</l>
+</lg></sp>
+ <sp who="Civis II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Amor et delicium nostrum Caesar vivat!</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivat!</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quin ecce adsunt. <stage type="mix" TEIform="stage">* Prodeunt Muli. Abeunt Cives.</stage> </l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Amor et delicium nostrum Caesar vivat!</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quae jubila audio inter tantas calamitates?</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tota calamitas Caesarem premit. En! ipse egere mavult, quam egenis imperare.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Verum Patriae Patrem!</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bonitas excedit modum.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nam quis umquam talia aut legit, aut audivit de Principe?</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Felix posteritas, cui tantum exemplum Reges pariet heroicae caritatis aemulos.</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Estne, amice, inter Deos aliquis Tito par?</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O quanto jucundius splendent sic nuda praetoria, quam nitebant ornata! Sic spoliata palatia, supra omnia mundi miracula clarescent orbi. Sed mihi curandum in foro est.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mihi vero Princeps adeundus, et referendum de venditis reis.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quin tu nostram quoque praesentiam nuntias: nam adesse jussit.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nuntiabo. <stage type="mix" TEIform="stage">** Clauditur.</stage> </l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.03.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SECUNDA. Personae. <name type="person" TEIform="name">Domitianus</name>. Duo Legati Campaniae.</head>
+<sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">QUantum est, amice, caeli beneficium Princeps bonus! Soli optime comparavero, cujus aspectus omnium oculos, et animos recreat, solis bubonibus gravis.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et contra quam crudeliter puniunt regna Dii, cui Regem imponunt malum! Cometa est, cujus vel intuitus terret, horridarum calamitatum praesagus. <stage type="mix" TEIform="stage">*** Exit <name type="person" TEIform="name">Domitianus</name>.</stage> </l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Etiam vos adhuc video hic moras trahere? exactores molesti! Quo usque ferali ululatu fatigabitis Caesarem?</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<pb id="s026" n="26" TEIform="pb"/>
+<l TEIform="l" part="N">Bonitas, Princeps, audaces facit.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quin aperte dicis, impudentes. Omnes aurifodinae vix sufficerent tot mendicabulis. Miror, viros nobiles causae tam plebeiae patronos agere. Sinite conflictari Campanum vulgus cum miseriis suis: non habebimus subditos modestiores, nisi cum miseri sunt.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nimis durum est, Princeps, pati, et habere neminem, qui compati velit. Durus Princeps duros subditos facit, et in omne facinus obstinatos.</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Humanum in homines imperium sit. Belluae fiunt, si sentiunt, se tractari pro belluis.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec scilicet jactatis ad ingenium Titi. Cum imperabit <name type="person" TEIform="name">Domitianus</name>, mutabitis frontem et linguam adulatores Protei.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nos vero optamus, Princeps, ut, cum fratri successeris, putemus non successisse, sed esse.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vota inania! cum imperabo, nihil ero sollicitus, quid vos optetis.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pauci igitur erunt, qui optent, ut imperes.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si timeant, satis est. Sed quid expectatis denique? pauperem se Caesar sua in pauperes beneficentia fecit, et nondum est quies?</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Multa possunt Principes, etiam cum videntur nihil posse. Neque quod datur subditis, perit, sed spargitur in sementem.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Imo saepius luxuriat in herbas noxias. Quid multa, viri! Ego profusam fratris in promiscuum vulgus beneficentiam probare non possum: et erat vestrum, consiliis et opera prodigalitatem inhibere, non incitare. Foveri nobiles, probo. Serviunt splendori aulae, et Caesaris Majestati. At cives et rustici jumenta sunt, quibus praeter paleas, et stabulum, et verbera, debetur nihil.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! Princeps! non ita velles agi tecum, si unus de civibus, aut ruricolis esses.</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Videris sane, nondum expertus esse, quam suave sit amari a subditis, etiam ex plebe. Res dulcissima, esse homini Deum, et omnes in se cordis affectus rapere. Hoc tributum jucundum est, et cogitur per violentiam, quam nemo odit. Vel Dii majus aliud</l>
+<pb id="s027" n="27" TEIform="pb"/>
+<l TEIform="l" part="N">exigere nequeunt, aut optare etiam, quam amorem, tanto beatiores, quanto amantur a pluribus.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ecce, hoc est, quod dixi. Haec sunt vestra axiomata, quibus vos ad ingenium fratris componitis, ut placeatis; sed veniet dies, cum mutabitis mentem.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.03.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA TERTIA. Personae priores, cum Tito, Graccho, ac Fabio.</head>
+<stage type="mix" TEIform="stage">* Prodit Titus.</stage> <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">IN tempore te offers, frater! Memini, te paulo ante deprecatorem pro Laelio et Orbilio accessisse ad me. Non audivi tunc preces. Sensisti acerbe, adverti satis; sed quid agerem? satisfaciendum postulatis justitiae fuit, quam amo pro fratre. Sic me Principem voluerunt Dii, ut benefacerem populis, non ut male. Puniendi erant ergo, qui potestate vicaria abusi sunt ad injuriam miserorum. Nunc, postquam clementiae potest esse locus, vide, quantum fraternis precibus dem, liberos esse volo. Provinciam, quam mavis, nomina, frater, in qua ignoti, et sine infamia idoneo fungantur officio. Pretium Gracchus reddidit; tu homines huc siste, Fabi, ut sciant, cui se debeant. Deinceps te accinge imperato itineri.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Adoro nutum.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic age, ut te populus amet. Placebis augusto, si populo. Quem enim odit populus, ab illo vix credo curari bonum publicum, sed suum, quod mercatorum est, non Principum aulae.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Intelligo.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego tibi gratias debeo, Auguste frater! Fateor, huc me ferebam querendi causa propter negatum alloquium: sed offusam amaritiem abstersit non exspectata humanitas. Accepto donum.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Opto, frater, ut preces similes saepius iteres. Animi sunt miseros miserantis. Vobiscum, amici, cras iter in</l>
+<pb id="s028" n="28" TEIform="pb"/>
+<l TEIform="l" part="N">campaniam suscipiet Fabius, exploraturus, quantam cladem incensus Vesuvius fecerit. Opes eorum. qui sine herede perierunt, non fisco adjudicabitis, sed dividetis inter eos, quos calamitas fecit egentiores. Deinde jussus est, pro aestimatione miseriae oppida, et urbes afflictas ab omni exactione, et tributo liberas pronuntiare. Spero, non nullum solacium ex hac ordinatione afflictis fore.</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Spe omni majus. Beneficium, Caesar, facis, aeternis laudibus dignum.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et quod, si per te licet, ad futura saecula in aere, aut marmore sub tua effigie perennabit.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc nolo, et serio prohibeo. Nam quem tu Titum existimas? Gloriae famulari me putas, an Rei publicae? vivant alii in aere, et faxo: ego cupio in animis vivere. Tanti me ipsum non habeo, ut imaginem mei velim subditorum pecuniis emere.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic omnem grati animi affectum prohibes?</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si beneficiis vos meis gaudere video, gratos agnosco satis.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.03.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUARTA. Personae eaedem, et Aemilius. Camillus.Rutilius. Brutus. Lentulus Ephebi a Tito recens adlecti.</head>
+<stage type="mix" TEIform="stage">* Aemilius prodit cum Ephebis.</stage> <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ADduco, Auguste, quos petebas, pro sacrificio ministros.</l>
+</lg></sp>
+ <sp who="Camillus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prompti, etiam victimae, si jubes, erimus.</l>
+</lg></sp>
+ <sp who="Rutilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pro <name type="religion" TEIform="name">Diis</name> et pro populo gloriosum est mori.</l>
+</lg></sp>
+ <sp who="Brutus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vitam pro bono publico accepimus: pro bono publico oportet reddere.</l>
+</lg></sp>
+ <sp who="Lentulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Oportet: nisi turpiter degeneres a majoribus simus.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Macte animis, generosa pubes! Crescite in magnas spes! Magnanimi sensus, quos hausistis a parentibus, nutrientur in aula mea, si cum hac mutare potestis paternam domum, et patres sinant.</l>
+</lg></sp>
+ <sp who="Camillus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prope</l>
+<pb id="s029" n="29" TEIform="pb"/>
+<l TEIform="l" part="N">omnem calamitatis memoriam abstersit parentibus tantae gratiae nuntium.</l>
+</lg></sp>
+ <sp who="Rutilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid posset optatius nobis contingere, quam si pro Patre liceat vereri Caesarem?</l>
+</lg></sp>
+ <sp who="Brutus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Utinam nos simus filii digni te!</l>
+</lg></sp>
+ <sp who="Lentulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Saltem conabimur, Caesar, ut tui te beneficii nunquam paeniteat.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Placet hic vester animus. Parens ero. Faciamus a <rs type="myth" n="Iuppiter" TEIform="rs">Iove</rs> principium. Nam hoc scitote: prima mihi cura Religio est erga Superos: altera, caritas erga subditos. Exemplum dabo. Capite ab Aemilio sacrificii instrumenta, et vestes.<stage type="mix" TEIform="stage">* Accipiunt thuribulum etc.</stage> Vos<stage type="mix" TEIform="stage">** Ad Legatos Campaniae.</stage> reditum maturate ad vestros, ne diutius absque solacio sint.</l>
+</lg></sp>
+ <sp who="Legatus I II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Feremus amplissimum. Servent te Dii, Caesar, incolumem diu! Titus. Accepto votum, si acceptum est <name type="religion" TEIform="name">Diis</name>, et utile populis: si aliter caelo visum, commendo vos fratri. Valete.<stage type="mix" TEIform="stage">*** Abeunt Legati.</stage> </l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego te frater immortalem opto.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Imo facies, si imiteris.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Implevimus jussa Caesar.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quod igitur felix, faustumque sit. et ad communem carissimi mei populi felicitatem, uti opto, eveniat, Caesarem exuo, Pontificem induo.<stage type="mix" TEIform="stage">**** Paludamentum ponit, et gladium et cidarim, traditque Graccho.</stage> </l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Faxit Caelum, ut haec purpura nunquam ornet humeros minus religiosos.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Admoniti sunt Flamines?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Jam adduxerunt victimam, et lustrationibus vacant.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Licetne comitem ire?</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Frater, scis morem meum. Libentius lito solus. Adeste dilectissimi! vestra innocentia, et devotio plus, confido, quam omnes victimae, placebunt Jovi.</l>
+</lg></sp>
+ <sp who="Camillus Rutilius Brutus Lentulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Optamus, Caesar!<stage type="mix" TEIform="stage">* Abeunt.</stage> </l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vos, cum servos emptos adduxerit Fabius, intrare ad me jubete.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut jubes, Princeps.</l>
+</lg></sp>
+ <stage type="mix" TEIform="stage">Abit <name type="person" TEIform="name">Domitianus</name>.</stage>
+<pb id="s030" n="30" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.03.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUINTA. Personae. Aemilius. Gracchus.</head>
+<sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">QUotidie suavioribus gaudiis exsultat animus Titum cogitans, quotidie se maiorem. Heri audivimus eum, cum sub vesperum recordaretur, se nulli per diem beneficum fuisse, cum nobili gemitu exclamantem: Amici, diem perdidimus! hodie quantis benefactis neglegentiam expiat?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Certe ingentibus.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tantae virtutis amabilitas etiam ipsum Domitianum affecisse videtur: ita placidus adstitit, sine motu, sine rugis, ut prope injuriam fecisse te credam, cum suspectum de ambitu habuisti.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Adhuc habeo. Noli decipi: saepe malacia propinquae tempestatis est nuntia. Crede mihi: <name type="person" TEIform="name">Domitianus</name> non amat Titum, et (utinam fallar) concepit monstrum ambitio, atque jam parturio. Si expectamus partum, vae Romae! vae Imperio!</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Potes, Aemili, concipere tam atrocem metum?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Notum mihi superbum et ferox ingenium. Amavit Titum, dum vixit parens, dum fuere aequales. Maiorem, semper suspexit cum suspirio.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc quidem credo. Sed et id scio, jactasse saepe querulas voces, quibus amorem carpebat, quo subditos amplectitur Titus. Servire illum, dicebat, non imperare. Quamquam vere, quid est imperium, nisi servitus? Neque enim fieri potest, ut bene imperet singulis, qui non servit universis.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ita. Et secus qui fecerit, tyrannus erit, non Dominus.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ceterum praeter innoxios gemitus, et verba pereuntia crudelius aliquid machinari Domitianum, difficulter adducor, ut credam. Frater est.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Frater est! Qui ergo Romulus et Remus, qui novissime Nero et <name type="nation" TEIform="name"><reg orig="Britannicus" TEIform="reg">Brittanicus</reg></name> fuerunt? Libido dominandi quam parum respiciat cognatum sanguinem, omnes historiae, omnes fabulae docent. Hae virum</l>
+<pb id="s031" n="31" TEIform="pb"/>
+<l TEIform="l" part="N">Rei publicae studiosum anxium jubent esse, et vigilem.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Agnosco. Sed quid suades?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mihi etiam Fabii cum Domitiano amicitia timenda videtur. Ingenium est homini similiter ferox, et durum pro plebe: quid si similia consilia forent? Gracchus. Video non esse timores vanos. Amet te caelum, Aemili, qui adeo sollicite pro nostro delicio angeris.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sine, ut hic solitarius exspectem hominem. Explorandus est cum astutia.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Age, quod agis, strenue. Si quid opus erit mea opera, fac, monear in tempore.<stage type="mix" TEIform="stage">* Abit Gracchus.</stage> </l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.03.06" n="6" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEXTA. Personae. Aemilius Fabius.</head>
+<sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ITa faciam. Gaude Aemili, jam via ad solium strata est! ringentibus Aemulis, imperabis. Faventem Gracchum habes, et cum Graccho populum.<stage type="mix" TEIform="stage">** Exit Fabius.</stage> Tandem te video! et ubi Laelius, Orbilius?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe instrui debebant ad destinatum facinus. Opus tempore fuit.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut animati sunt?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quam optime. Pudor et dolor prope in rabiem egit. Securi sumus. Nulla de nobis Tito suspicio est. In Campaniam me ire cum Legatis jussit, ut consoler afflictos. Adeo innocens videor.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ecce! quando ibis?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nunquam, si hodie Titus perit. Praeterea jussit me libertatem nuntiare divenditis: adeo confidit.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et tamen furunt?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Scilicet silui de beneficio: supplicii injuriam exaggeravi. Ruunt in exitium Caesaris.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Etiam in Domitiani et suum. Nam ego interim Gracchi animum suspicionibus implevi atrocibus. Ut primus se fundet de caede rumor, citabit in arma populum.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Belle omnia. Ego nunc Domitiano referam, quid fiat. Deinde ad Paulinum et milites ibo.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego vero in excubiis ero. Plaude anime! coronam teneo.</l>
+</lg></sp>
+<pb id="s032" n="32" TEIform="pb"/>
+<stage type="mix" TEIform="stage">CHORUS I. Apollo propter occisos <name type="myth" TEIform="name">Cyclopes</name> laesi <rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs> se reum videns spontaneo se exilio multat.
+* Theatrum exhibet silvam cum monte Aetna et officina <name type="myth" TEIform="name">Cyclopum</name>.
+Personae. Apollo. Diana. Vulcanus. <name type="myth" TEIform="name">Cyclopes</name>. Fauni. Venatores.</stage>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">ad Apollinem Fratrem</stage> Ecce!</l>
+<l TEIform="l" part="N">Jam fervent studia venatorum tuis honoribus.</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bene est. Haec placet, soror, statio.</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego interiora nemoris mihi eligo.</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Io Poean! Optatae in tela occurrent belluae.</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">ad <name type="myth" TEIform="name">Cyclop</name></stage> Cessate malleis: nam feras avertitis.</l>
+<l TEIform="l" part="N">Auditis cornua?</l>
+<l TEIform="l" part="N">Otiosi potius spectate hilaria Dianae studia.</l>
+</lg></sp>
+<sp who="Brontes_Cyclops" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tuum est imperare, Dea suavissima.</l>
+</lg></sp>
+<sp who="Sterops" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quin et pro malleis, socii! nos quoque sumimus venabula?</l>
+</lg></sp>
+<sp who="Pyracmon" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sumamus! Juvat respirare,</l>
+<l TEIform="l" part="N">Et venantum gaudia post labores gustare.</l>
+</lg></sp>
+<sp who="Brontes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">** Ab Apolline latente sagitta percussus.</stage> Heu socii! interii!</l>
+</lg></sp>
+<sp who="Pyracmon" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pro Superi!</l>
+</lg></sp>
+<sp who="Sterops" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hiat pectus immani vulnere!</l>
+</lg></sp>
+<sp who="Pyracmon" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Morientem vindicate furiae! en iterum!<stage type="mix" TEIform="stage">*** Cominus hasta transfigit eum Apollo.</stage> </l>
+</lg></sp>
+<sp who="Sterops" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu frater! percussus sum! morior!</l>
+</lg></sp>
+<sp who="Pyracmon" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><orig reg="Iuva" TEIform="orig">Juve</orig> <rs type="myth" n="Vulkan" TEIform="rs">Mulciber</rs>! Eia! quisquis es hostis, progredere!</l>
+</lg></sp>
+<pb id="s033" n="33" TEIform="pb"/>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sceleste! Morere<stage type="mix" TEIform="stage">* Abit.</stage> </l>
+</lg></sp>
+<sp who="Pyracmon" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu me Apollo! Apollo!</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Io! felix venati! ... jam sorori me associo.</l>
+</lg></sp>
+<sp who="Pyracmon" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Maledicte Apollo!</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">** Prodit.</stage> Incudes cur silent hodie!</l>
+<l TEIform="l" part="N">Vah! dirum spectaculum!</l>
+<l TEIform="l" part="N">Confixi telis famuli in suo natant sanguine!</l>
+<l TEIform="l" part="N">Quis tantum patravit nefas? edicite</l>
+</lg></sp>
+.
+<sp who="Pyracmon" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! Apollo! Apollo!</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Apollo? Intelligo. Jam tu tranquille morere!</l>
+<l TEIform="l" part="N">Propitium precor Plutonem in orci limine.</l>
+<l TEIform="l" part="N">Ego vero vos, et laesum in vobis <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> vindicabo.</l>
+<l TEIform="l" part="N">Deos omnes in proterviae ultionem armabo.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">NOs <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> amamus:</l>
+<l TEIform="l" part="N">Pro <rs type="myth" n="Iuppiter" TEIform="rs">Iove</rs> pugnamus!</l>
+<l TEIform="l" part="N">Offende <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>: omnia</l>
+<l TEIform="l" part="N">Offendis Numina.</l>
+<l TEIform="l" part="N">Per <rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs> Majestatem</l>
+<l TEIform="l" part="N">Tuemur potestatem:</l>
+<l TEIform="l" part="N">Et quidquid habemus,</l>
+<l TEIform="l" part="N">Tonanti debemus:</l>
+<l TEIform="l" part="N">Si non regnaret <name type="myth" TEIform="name">Jupiter</name>,</l>
+<l TEIform="l" part="N">Quis esset <rs type="myth" n="Vulkan" TEIform="rs">Mulciber</rs>?</l>
+<l TEIform="l" part="N">Eia! Faune! Faune! et quidquid Sylvestrium</l>
+<l TEIform="l" part="N">Hic adest Numinum,</l>
+</lg>
+<stage type="mix" TEIform="stage">***Prodeunt Fauni fustibus armati.</stage> Ad arma! ad arma!
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quis furor incendit Vulcanum?</l>
+<pb id="s034" n="34" TEIform="pb"/>
+<l TEIform="l" part="N">Quis vindicem armavit manum?</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Videtis meorum stragem servorum.</l>
+<l TEIform="l" part="N">Offensus est <name type="myth" TEIform="name">Jupiter</name>, Apollo reus: vindicemus!</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quod justum est, exigis. <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> amamus!</l>
+</lg></sp>
+<sp who="Chorus_Faunorum" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Offensum <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> vindicamus.!</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tu modum edoce.</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Advertite!</l>
+<l TEIform="l" part="N">Nullus dubito, quin adhuc latro vagetur in nemore.</l>
+<l TEIform="l" part="N">Vos ergo haec cadavera tumulate,</l>
+<l TEIform="l" part="N">Et cum lamentabili lesso inferias date.</l>
+<l TEIform="l" part="N">Excitus tumultu Apollo procedet; capite!</l>
+<l TEIform="l" part="N">Tonanti sistite!</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ex tripode.</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego praeeo, et omnem rei seriem <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> edoceo.</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Intelleximus. Ubi autem sepeliemus cadavera?</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Specus, quae fuit vivis officina laborum,</l>
+<l TEIform="l" part="N">Sit sepulchrum defunctorum.<stage type="mix" TEIform="stage">* Abit.</stage> </l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ergo strenue voces et manus jungite.</l>
+<l TEIform="l" part="N">Ego lessum intono.</l>
+</lg></sp>
+<sp who="Chorus_Faunorum" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>LESSUS. 1.</head>
+<l TEIform="l" part="N">Heu! Eheu!</l>
+<l TEIform="l" part="N">Dii Superi! Dii Medii! Dii inferi</l>
+<l TEIform="l" part="N">Lugete!</l>
+<l TEIform="l" part="N">Divinis digni lacrimis</l>
+<l TEIform="l" part="N">Sunt fabri flaminae Vindicis,</l>
+<l TEIform="l" part="N">Qua templa tuemur,</l>
+<l TEIform="l" part="N">Et tura meremur:</l>
+<l TEIform="l" part="N">Lugete!</l>
+</lg></sp>
+<pb id="s035" n="35" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Heu! Eheu!</l>
+<l TEIform="l" part="N">Sic denique, sic Siculae silebitis</l>
+<l TEIform="l" part="N">Incudes?</l>
+<l TEIform="l" part="N">Et tuum, Phoebe, facinus</l>
+<l TEIform="l" part="N">Sit tutum a fulminibus?</l>
+<l TEIform="l" part="N">A poena immune?</l>
+<l TEIform="l" part="N">Sic Jovi impune</l>
+<l TEIform="l" part="N">Illudes?</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>3.</head>
+<l TEIform="l" part="N">Heu! Eheu!</l>
+<l TEIform="l" part="N">Sta, quisquis sis, qui praeteris, sta! mortuis</l>
+<l TEIform="l" part="N">Precare,</l>
+<l TEIform="l" part="N">Ut sint Tonanti stygio</l>
+<l TEIform="l" part="N">Priore ab officio,</l>
+<l TEIform="l" part="N">Et pergant Plutones</l>
+<l TEIform="l" part="N">Adversum latrones</l>
+<l TEIform="l" part="N">Armare.</l>
+</lg>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">ex nemore prodiens cum Diana</stage>
+Heus vos! quid tantis tumultibus Aetnam concutitis?</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Socii! celeriter reum cingite! ad <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> trahite!</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Stupidi! Non nostis Apollinem.</l>
+</lg></sp>
+<sp who="Chorus_Faunorum" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Novimus <name type="myth" TEIform="name">Cyclopum</name> latronem: ad <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>! ad <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>!</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vim patior! Socii, stringite venabula!</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vos tela expedite!</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cessate, aut perite!</l>
+</lg></sp>
+<sp who="Chorus_Faunorum" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> nos amamus:</l>
+<l TEIform="l" part="N"><rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> vindicamus!</l>
+</lg></sp>
+<pb id="s036" n="36" TEIform="pb"/>
+<sp who="Chorus_Venatorum" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cessate! aut peribitis:</l>
+<l TEIform="l" part="N">Nec <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> vindicabitis.</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cedamus! Ipse occisos <name type="myth" TEIform="name">Cyclopes</name> sciet ulcisci</l>
+<l TEIform="l" part="N"><name type="myth" TEIform="name">Jupiter</name>.</l>
+<l TEIform="l" part="N">Jam prodidit te <rs type="myth" n="Vulkan" TEIform="rs">Mulciber</rs>.<stage type="mix" TEIform="stage">* Abeunt Fauni.</stage> </l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu soror! quid audio!</l>
+<l TEIform="l" part="N">Jovi reus sum de latrocinio: quo fugio?</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Siccine? Fratrem latronem habeo Ministrorum Justitiae? ...</l>
+<l TEIform="l" part="N">Ah! Frater! Quae te agitarunt intemperiae?</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Furens dolor de perempto a <rs type="myth" n="Iuppiter" TEIform="rs">Iove</rs> Aesculapio</l>
+<l TEIform="l" part="N">Suasit facinus, quod jam horreo.</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Infelix venatio! sic frater ausit sororem decipere,</l>
+<l TEIform="l" part="N">Et tanti sceleris participem facere?</l>
+<l TEIform="l" part="N">Si temeritas Aesculapii meruit fulminari,</l>
+<l TEIform="l" part="N">Quo supplicio impietas Apollinis debebit mactari?</l>
+<l TEIform="l" part="N">Miser! an poteras ignorare,</l>
+<l TEIform="l" part="N">Quid sit contra <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> ter optimum, ter maximum rebellare?</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Est bellum funestissimum,</l>
+<l TEIform="l" part="N">Infaustum semper proelium,</l>
+<l TEIform="l" part="N">Quod consule furore,</l>
+<l TEIform="l" part="N">Aut scelere suasore</l>
+<l TEIform="l" part="N">Contra Regem</l>
+<l TEIform="l" part="N">Contra sanctam Caeli Legem</l>
+<l TEIform="l" part="N">A subditis habetur.</l>
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Fauni dimittunt Apollinem a venatoribus territi.</stage> </l>
+<pb id="s037" n="37" TEIform="pb"/>
+<l TEIform="l" part="N">Conjura cum gigantibus:</l>
+<l TEIform="l" part="N">Impone montes montibus:</l>
+<l TEIform="l" part="N">Struxisti Mausoleum</l>
+<l TEIform="l" part="N">Pro Irrisore Deum:</l>
+<l TEIform="l" part="N">Quod in Caelum</l>
+<l TEIform="l" part="N">Sceleratum mittes telum,</l>
+<l TEIform="l" part="N">In fulmen convertetur.</l>
+</lg>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ergo, quid suades soror?</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe quid superest, nisi ut Numinis optimi maximi</l>
+<l TEIform="l" part="N">Te tradas arbitrio,</l>
+<l TEIform="l" part="N">Placabitur</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Durus est sermo, quem audio.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">ARIOSE.</stage>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Difficilis est gratia,</l>
+<l TEIform="l" part="N">Quam cogis exorare:</l>
+<l TEIform="l" part="N">Quid? ego supplicare?</l>
+<l TEIform="l" part="N">Apollo sum:</l>
+<l TEIform="l" part="N">Jovi genu flectere,</l>
+<l TEIform="l" part="N">Et: ignosce! dicere</l>
+<l TEIform="l" part="N">Superba est petitio:</l>
+<l TEIform="l" part="N">Intolerabilis:</l>
+<l TEIform="l" part="N">Apollo sum:</l>
+<l TEIform="l" part="N">Ego supplicare?</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed facilis est venia</l>
+<l TEIform="l" part="N">Si potes supplicare.</l>
+<l TEIform="l" part="N">Quid? tu deliberare?</l>
+<l TEIform="l" part="N">Rebellis es!</l>
+<l TEIform="l" part="N">Jovi genu flectere,</l>
+<l TEIform="l" part="N">Et: ignosce! dicere</l>
+<l TEIform="l" part="N">Aequissima conditio:</l>
+<l TEIform="l" part="N">Inevitabilis:</l>
+<l TEIform="l" part="N">Rebellis es.</l>
+<l TEIform="l" part="N">Tu deliberare?</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Malim trisulca a flamma perire:</l>
+<l TEIform="l" part="N">Caelo extorris Plutoni servire:</l>
+<l TEIform="l" part="N">Quam pati, ut Ego</l>
+<l TEIform="l" part="N">Dicar Jovi supplice</l>
+<l TEIform="l" part="N">Accidisse poplite.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Peri insane, si juvat perire:</l>
+<l TEIform="l" part="N">Servi Plutoni, si lubet servire:</l>
+<l TEIform="l" part="N">Et ego te nego</l>
+<l TEIform="l" part="N">Esse fratrem Cynthiae:</l>
+<l TEIform="l" part="N">Sint sorores Furiae.<stage type="mix" TEIform="stage">* Abit.</stage> </l>
+</lg>
+<pb id="s038" n="38" TEIform="pb"/>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Abiit. Quid jam consilii mihimet suggero? ....</l>
+<l TEIform="l" part="N">Quid? si Apollinem alienis vestibus tegerem,</l>
+<l TEIform="l" part="N">Et breve exilium mihimet indicerem? ....</l>
+<l TEIform="l" part="N">Bonum est consilium.</l>
+<l TEIform="l" part="N">Saepe in rebus desperatis tempus tulit auxilium.</l>
+<l TEIform="l" part="N">Mutantur tempora: et tempora mutata</l>
+<l TEIform="l" part="N">Non raro mutant fata.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Cum Caelum nigrescit,</l>
+<l TEIform="l" part="N">Et mare tumescit:</l>
+<l TEIform="l" part="N">prodentis est velle latere,</l>
+<l TEIform="l" part="N">Et navem in portu tenere,</l>
+<l TEIform="l" part="N">Dum caeli mutandi,</l>
+<l TEIform="l" part="N">Et maris pacandi</l>
+<l TEIform="l" part="N">Est melior spes.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Qui patiens morare,</l>
+<l TEIform="l" part="N">Et memor est horae,</l>
+<l TEIform="l" part="N">Qua hiemem ver subsequetur:</l>
+<l TEIform="l" part="N">Is rosas de spinis meretur:</l>
+<l TEIform="l" part="N">Afflictas cunctando</l>
+<l TEIform="l" part="N">Et bene sperando</l>
+<l TEIform="l" part="N">Restituam res.</l>
+</lg>
+<pb id="s039" n="39" TEIform="pb"/>
+</div3>
+</div2>
+<div2 id="NeTA.01.04" n="4" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS III. </head>
+<div3 id="NeTA.01.04.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA PRIMA. 
+<stage type="mix" TEIform="stage">Personae. Aemilius. Gracchus.
+* Aperitur Aula.</stage> </head>
+<sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">SIc, ais, periit amor, et delicium nostrum?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic, aio, nam ita flens, et ejulans Rutilius mihi.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Peremptus nefario scelere Titus jacet?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Acerbus dolor medullas vorat. Jacet!</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ferrum Sicarius adegit in viscera? miseram Romam! et o nimium exosam Superis! nam quantae nos calamitates obruunt simul! Campaniam terrae motus, et ignes ejectans vastavit Vesuvius: Neapolim pestis populatur: Roma adhuc ab incendio fumat, et tot cladibus additur funesta caedes eius, qui solus poterat afflictos solari! Miseram romam! Sed quis Sicarius?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Gracche, haec nunc est quaestio intempestiva. Auctorem caedis facile divinabis: nunc id agendum, ut non sit idem successor, et sceleris praemium coronam ferat.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Lubet votum repetere, quod Roma olim Augusto fecit: utinam Princeps tantus aut nunquam natus, aut nunquam fuisset mortuus!</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et utinam ei succederet saltem, qui imitari vellet. Me quidem, Gracche, ita affecerunt divinae virtutis exempla, ut saepe oraverim eos, ne post Titum, alteri cuidam, quam mihi, paterentur committi imperium. Sed nolim, amice, ut te offendat haec libera Confessio, quam non ambitio, sed amor populorum expressit. Servire cupio, cum ambio regnare.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Gentem Aemiliam novi. Superest laeta tuorum Majorum memoria, eosque gaudemus revixisse in te.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil ego ista decora memoro. Sunt maiora in aliis. Sed quo animo, Gracche, quo animo alii erga</l>
+<pb id="s040" n="40" TEIform="pb"/>
+<l TEIform="l" part="N">Rem publicam, erga populum sint, nescio: optimo esse me, hoc scio.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Neque hoc nescit populus, Aemili. Quin ego nihil dubito, quin plerique te successorem Titi tacitis votis sint optaturi.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fac igitur, ut petant etiam unanimi voce.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe nisi esset <name type="person" TEIform="name">Domitianus</name> timendus. Fraterno jure coronam repiet sibi.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="person" TEIform="name">Domitianus</name>? scilicet Titi frater! latronem voca, et parricidam. Nam dubitas adhuc nempe, ad ipso armatum Sicarium? aut adeone timidi vos, ut scelus adoretis pro Caesare?</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si reus est <name type="person" TEIform="name">Domitianus</name>, nihil ambige, periit. Tu Caesar eris.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non ambio, si melior occurrat modus, quo consulas bono publico. Tribunus plebis es: scis, quid jubeat officii ratio.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fideliter exsequar. Ad Paulinum abeo, ut tene at intentos milites in omnem casum, ne quid turbetur in hoc tumultu, aut ne improvide Domitiano se adjungat exercitus. <stage type="mix" TEIform="stage">* Abit Gracchus.</stage> </l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sapienter. Faxo, ut brevi patescat veritas.<stage type="mix" TEIform="stage">** Prodit <name type="person" TEIform="name">Domitianus</name>.</stage> </l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.04.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SECUNDA. Personae. <name type="person" TEIform="name">Domitianus</name>. Aemilius.</head>
+<sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">NUnc tandem, Aemili, antiqua cessabunt odia veneraberis Domitianum, amicus eris. Cecidit infelix frater: sic visum Superis, corona debetur fratri. Servum te appellare possem, amicum malo. Age, primo obsequio merere animum novi Caesaris: huc militem voca, qui mea mandata audiat.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Princeps, servus esse non possum, cum nullus est Dominus. Festina lente. Cum delatum ad te imperium fuerit, proni adorabimus nutum. Nunc liberi sumus: eligemus dominum, qui placuerit.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Inferi! de eligendo Caesare agetur, cum demortui vivit frater?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<pb id="s041" n="41" TEIform="pb"/>
+<l TEIform="l" part="N">Agetur, cum frater displicet.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vah! quis ego sum? quid ergo displicet?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Princeps, diu jam Roma sub pessimis Imperatoribus gemuit: nunc vix respirare sub Tito coepit. Afflixit nos primum post Augustum Tiberii scelerata astutia, deinde stultitia Caligulae, et ignavia Claudii everterunt Majestatem Romanam: mox Neronis crudelitas inundavit: deinceps Galba, Otto, Vitellius infamarunt augustam dignitatem: postremo Vespasiani patris tui avaritia exhausit provincias. Haec tot mala dispersa in aliis, timemus a te omnia. Frons, oculi, vultus, mores tui has minas faciunt: hoc displicet. Deinde illud maxime omnium, quod Titus, qui placuit omnibus, soli fratri displicuerit.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Audax! impudens! haec in faciem mihi?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut sentias nempe, te non timeri, et nunc quidem de corona desperes, donec minus superbus, magis comis, et haud paulo clementior factus, placere incipias. Eo usque, frustra aut a Senatu, aut a populo, aut ab exercitu suffragium speras.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec audio patiens?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quin et plura, opinor ex Fabio audies.<stage type="mix" TEIform="stage">* Prodit Fabius.</stage> </l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.04.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA TERTIA. Personae priores, et Fabius. Succedit Paulinus.</head>
+<sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">PArum abest, Fabi, quin hunc maledicum canem inferias fratri mittam.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Omitte iras, Princeps, quidquid sis passus. Amicum potius consilium audies, si sapis. Fugam suadeo, et tutas latebras.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid? fugam? perfide!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nisi ultima pati velis. Populus Titi caede efferus tumultuari incipit: te credit auctorem: miscetur forum: proscinditur probris Domitiani nomen: cruenta fiunt consilia: in mora periculum.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quis hunc furorem</l>
+<pb id="s042" n="42" TEIform="pb"/>
+<l TEIform="l" part="N">incendit?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non est nunc tempus judicii, sed fugae, Princeps. Si evaseris triste malum, vide, cui te ipsum debeas. Consulo saluti tuae.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Male consulitur saluti paricidae. Hora favet, amice!<stage type="mix" TEIform="stage">* Gladios intentant.</stage> pereat latro!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pereat!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vah! ego petor? proditores! rebelles!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Occide! macta! perde!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Succurre miles! famuli!</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad <name type="myth" TEIform="name">stygem</name> monstrum! peri.<stage type="mix" TEIform="stage">** Paulinus exit.</stage> Paulinus. Quis tumultus?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vindictam Titus exigit.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et meretur.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Juvate!</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sistite! insontem premitis. Titus vivit!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivit?</l>
+</lg></sp>
+ <sp who="Aemilius Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Titus?</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivit, inquam.</l>
+</lg></sp>
+ <sp who="Aemilius Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">*** Seorsim. Deinde abeunt.</stage> O nova importuna!</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.04.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUARTA. Personae. <name type="person" TEIform="name">Domitianus</name>. Paulinus.</head>
+<sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">NAm cur fugitis modo?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sine. Hem! sic prodor! tetrum facinus impingunt mihi, ut tegant se. Sentio: affectant imperium. Reos de vi et ambitu agam. Sed ain' vere, vivit frater?</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivit Princeps, jamque propinquat aulae a sacris redux. Populus a Fabio paulo ante concitatus, maerore, et ira furens in te surgebat: nunc laetitia repente obruti, duce Graccho, obviam se effuderunt redivivo. Fletus in plausum, ira in gratulationes est versa.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fabius concitavit?</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Te nempe dicebat auctorem Caedis.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vah! perduelles! est, quod dixi. Pauline, tibi vitam debeo, fac, ut etiam famam debeam. Perge, et populum, quid videris, doce.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Confide Princeps! vindicem innocentiae habebis fratrem, qui et famae jacturam maiori gloria compensabit.<stage type="mix" TEIform="stage">**** Abit.</stage> </l>
+</lg></sp>
+<pb id="s043" n="43" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.04.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUINTA. Personae. <name type="person" TEIform="name">Domitianus</name> Solus.</head>
+<p TEIform="p">TItus vivit? o nuntium funestum mihi! Infelix ambitio, quo me adigis? quo vultu aspiciam fratrem, tanti sceleris reus? Utinam quae Orestem agitarunt furiae, me quoque raperent extra hanc solis lucem a fratris aspectu procul! et quis excussit sicariis feralem sicam? Vecordes semiviri! sic popae et pueri terruerunt? Quamquam quid incuso homines? scilicet <name type="religion" TEIform="name">Diis</name> invisi sumus. Vos prehensam manibus coronam rapitis infensa Numina! et quid cessatis? fulmen mittite, quod vitam etiam, et animam rapiat. Nam in quae ludibria servor? scilicet aut supplicantis habitu maestus, gemens, et indecoris perfusus lacrimis, veniam criminis orabo Titum: aut manu lictoris caesus, populive saevientis manibus discerptus, poenas crudeles dabo: aut misera fuga subductus neci, extorris, inops, ignotus barbaras plagas incolam. Quid eligis anime? .. Atrox arbitrium! .. Verum cur me ipsum damno quem nondum fata damnarunt? imo absolvere Paulinus mei periculi testis potest. Ut fugerem, Fabius voluit: nempe ut fuga convinceret reum. Redeat in auctores malum: fugerunt: convicti sunt satis. Evado.</p>
+</div3>
+<div3 id="NeTA.01.04.06" n="6" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEXTA. Personae. <name type="person" TEIform="name">Domitianus</name>. Rutilius. Brutus. <stage type="mix" TEIform="stage">* Titus exit.</stage> Camillus.Lentulus.</head>
+<sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TAlis occurris, frater! Heu! quantillum abfuit, ut apud inferos coenaremus uterque hodie!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Laudes <name type="religion" TEIform="name">Diis</name>, qui me servarunt! Ipsos testes habeo: non memini, commisisse me umquam facinus paenitendum! et tamen</l>
+<pb id="s044" n="44" TEIform="pb"/>
+<l TEIform="l" part="N">insidias patior! in qua barbarie vivo?</l>
+</lg></sp>
+ <sp who="Rutilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ulciscere, Caesar, crimen nefandum!</l>
+</lg></sp>
+ <sp who="Brutus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pereant, qui perire te cupiunt!</l>
+</lg></sp>
+ <sp who="Camillus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Horresco adhuc os illud efferi hominis, qui ausus est in te irruere!</l>
+</lg></sp>
+ <sp who="Lentulus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Detestor sicam, quam in te strinxit!</l> </lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quiescite! Orbilius quidem, frater, fuga elapsus, se mihi eripuit: Laelius vero a sacrorum Ministris occupatus, et sacro cultro confossus meritas poenas dedit.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vah! quid audio? quos tu mihi donasti, Orbilius et Laelius in te ruerunt? Conveniunt omnia, Auguste frater! Fabius immisit, Aemilio conscio, vel auctore.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Euge! quos nominas viros?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quibus pejores nullum saeculum tulit. Vix rumor de tua caede invaluit, cum ambo strictis gladiis impetum in me fecerunt. Perieram, nisi pugnantibus intervenisset Paulinus, et tuae vitae non exspectato nuntio perterritos latrones egisset in fugam.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic viperas in sinu alui!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nondum narravi omnia. Per horum scurrarum flagitium nullo jam loco consistere tutus possum. In me calumniis concitata Roma surrexit, parricida audio, et ad necem deposcor. Deos vindices, te judicem volo, Tite! si quis est tibi fraterni sanguinis et nominis cultus, si quis amor justitiae, si qua cura tranquillitatis, collige iras frater, et omnem, quae cogitari possunt, poenarum procellam in fugitivos effunde. Nihil jam clementiae, nihil misericordiae concedendum: justitia imperet.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Audio, frater! et quoniam ipse laesum te quereris, age, retrahi ex fuga reos cura: trahantur in quaestionem: satisfiat justitiae.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.04.07" n="7" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEPTIMA. Personae eaedem cum Paulino et Graccho.<stage type="mix" TEIform="stage">* Exit Paulinus et Gracchus.</stage> </head>
+<sp who="Paulinus Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O vive Caesar! quem salvum maerentibus Dii reddunt!</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Expectat impatiens</l>
+<pb id="s045" n="45" TEIform="pb"/>
+<l TEIform="l" part="N">populus, avidus redivivum videre. Distributus in ordines suos, excipiet te inter laetas acclamationes, et tripudia. Recrea tuos celeriter beato aspectu.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Miles interea utriusque parricidae domum obsedit, et portas urbis custodit vigil, ne elabantur.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Utinam elabantur! Non sitio humanum sanguinem. Quia tamen non me tantum, sed etiam te laeserunt, frater, haberi judicium volo. Rem, Pauline, cum fratre perage. Ego carissimum mihi populum salutatum eo.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Utinam elabantur! audisti, Pauline, vocem absonam? et quid dubito? si vivi sistuntur Tito, elabentur utique. Tribus lacrimis scelestorum emollitus frater, veniam, vitam, libertatem, omnia restituet. Inultus ero.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non id populus, Princeps, non miles feret. Nolens volens cogetur Caesar damnare reos.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non sum securus. Tu, si qua tibi Domitiani veneratio est, ubicumque deprehenderis, macta, et per mille vulnera expelle animas tanti convictas sacrilegii.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mandatum sanctum est. Sed facinus Caesari qui excusabo?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Excusabit, qui jussit. Caesaris frater sum. Sed quid jam populus de me?</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Excussi suspicionem conceptam temere, et veros proditores nominavi palam. Innocens es. Solus Aemilius et Fabius petuntur ad rogum.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Adeo me tibi totum debeo. Adjice duplici beneficio tertium, et ut celeriter ac certo impii intereant, perfice: omne punctum tulisti. Vindictae rabies justissima pectus exedit. Morior, si reis parcitur.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Oboedio, Princeps. In eodem peribunt angulo, in quo latent.<stage type="mix" TEIform="stage">* Abit.</stage> </l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic age, et ego mihi consulo. Purgavi me, si tantum egero, ut loqui nemo possit, qui posset accusare.</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">SALTUS.</stage>
+<pb id="s046" n="46" TEIform="pb"/>
+</div3>
+</div2>
+<div2 id="NeTA.01.05" n="5" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS IV.</head>
+<div3 id="NeTA.01.05.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA PRIMA.</head>
+<stage type="mix" TEIform="stage">Personae. Fabius. Servus Fabii.
+* Prodit Fabius in vestitu Hispano, cum servo, et sub crepusculum, dubia luce.</stage>
+<sp who="Servus_Fabii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CErte vix per medios milites elapsus, facultatem nactus sum te perquirendi, quod jusserat hera, ut monerem, quo cautius tibi consuleres. Diripitur domus, plorat Familia, desperat Domina: multum erit, nisi etiam filium in mancipatum abripiant. Tu, nisi qua effugias indagantium furorem, actum est. Nam ne captivus quidem duceris ad Caesarem: in ipso loco, ubi deprehensus fueris, moriendum erit. Sic audivi Paulinum praecipientem militibus. Iisdem periculis involutum Aemilium audio.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nunc te probas fidelem servum. Sed num videor tibi sub isto habitu latere satis?</l>
+</lg></sp>
+ <sp who="Servus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Satis. Nisi me compellasses praetereuntem, etiam hos oculos fefellisses.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Recte. Perge jam domum, et te similibus indue. Homines curiosos facile decipies officioso mendacio: dic, ex Hispania te venisse cum hero tuo negotii <reg orig="quispiam" TEIform="reg">quidpiam</reg> acturo cum Caesare. Fraudem religioso silentio preme omnibus, praeterquam uxori. Deinde diligenter explora per circulos, quid agatur de me, et fac, ut me lateat nihil. Cetera ego curabo. Nunc ad Caesarem eo. Confide, tempestas transibit cito, et feres dignum operae pretium.</l>
+</lg></sp>
+ <sp who="Servus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Intellexi. Dii faveant nostris consiliis.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Audacem fortuna juvat! at en!</l>
+</lg></sp>
+<pb id="s047" n="47" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.05.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SECUNDA. Personae. Fabius. Aemilius. Legati Campaniae.</head>
+<sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Ad Aemilium supplicem.</stage> Irritas preces facis. Amamus Caesarem, et timemus. Fabius. Nisi fallor, ex aulae Ministris estis, Domini! Quis mihi facultatem faciat alloquendi Caesarem? ex Hispania rem grandem fero, quam interest Principis scire quantocius.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Age, quo in pretio apud Hispanos est Caesar?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In amoribus summis. Prope Titum Augusto praeferimus. Non ita, ut video, a Romanis amatur. Sunt inter vos, qui per literas ad defectionem sollicitarunt exercitum, quos ego accusatum sum missus. Teneo interceptas literas. Tres subscripserunt, ex quibus duo, Fabius et Aemilius, homines patritii generis jam notae malitiae sunt, utpote quos vix urbem ingressus video ubique ad necem inquiri. Tertium nemini nisi Caesari nominabo.</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid palles Aemili. Legatus 2.dus Ergo in Hispaniam usque porrigitis odia tam amabilis Principis?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hic Aemilius? et non rapitis hominem ad tribunal?</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ipsi peregrini sumus.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ausus est scelestus rogare etiam, ut in nostra familia latentem nobiscum duceremus in Campaniam, ut commerita supplicia posset evadere.</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid stupes miser?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mutum horror novi sceleris fecit.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vel ringente Roma evadam supplicium, quod merui. Bonum habemus Caesarem!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quo ruit furiosus?</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mentiar, nisi ipse se Principi sistat. Tanta est confidentia.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Age! aulam ingredimur. Ecce Caesar prodit.</l>
+</lg></sp>
+<pb id="s048" n="48" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.05.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA TERTIA. <stage type="mix" TEIform="stage">* Aperitur aula. Prodit hinc Titus, inde Aemilius.</stage> Personae eaedem, et Titus.</head>
+<sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CAesar! habes fatentem reum. Plura dolor, et pudor vetant.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aemili, qua fiducia te sistis mihi!</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Asylum quaero. Et quod inveniam tutius, quam Caesaris tam boni Regiam, ac sinum paternum. Si bene te novi, Auguste, non sum deceptus: dabis veniam Aemilio, quamquam mille mortes promerito. Ita tua magnanimitas jubet.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si bonus, si Pater sum, cur me odisti?</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Abfuit hoc semper, Caesar, ut te oderim: nam quis posset? Splendor coronae excaecavit infelicem, ut praeceps in scelus ruerem.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O te inanem! tantine sit Imperatorem esse, ut etiam per scelus appetendum, videri queat? Coronae fato dantur: felix est, qui sua sorte contentus vivit. Comoediae vitam nostram comparavit Augustus: agat personam quisque, quam imposuit Choragus Deus. Quid me hic splendor, haec pompa juvat? cum obducto sipario finietur comoedia, et vita simul, non illum laudabunt Dii, qui principem personam egit, sed qui principalius suam. Itaque saepe rusticus placebit prae Rege. Haec tu nunc saltem reputa tecum. Me miseret tuae caecitatis. Dum delibero, quid sit agendum, latere potes: asylum habes.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec deliberatio conclusio est. Salvus sum! Auguste vive!</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O mitem Dominum! at forsan Caesar, si hunc audieris, non ultra deliberabis, quid agas.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nondum enim novisti omnia.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vive Caesar! Facinus detego exsecrandum, si loqui sine arbitris licet.</l>
+</lg></sp>
+<pb id="s049" n="49" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.05.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUARTA. Personae eaedem, cum Domitiano, Paulino, et Graccho.</head>
+<stage type="mix" TEIform="stage">* Exit <name type="person" TEIform="name">Domitianus</name>.</stage> <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">AUguste frater! Aemilius in Regiam fugisse est visus: permitte, ut extrahatur ad caedem.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Frater, asylum dedi.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Superi! asylum! nam quo usque te bonitas aget? Sed frustra es. Miles et civis cinxit Palatium, et cum tumultu reum exposcit ad poenam. Nisi concedas sponte, vi rapietur.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vim Imperatori subditi facient?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cogit amor.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil moderate agit vulgus, Auguste, sive cum odit, sive cum amat: ignosce.</l>
+</lg></sp>
+ <sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid, quod Fabius etiam dicatur in palatio latere. Nam quo alias effugisset?</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Modestum amorem volo. Si amant, oboediant. Pauline, Gracche, vestrum est continere insanos impetus. Ite.<stage type="mix" TEIform="stage">** Abeunt Paulinus, et Gracchus.</stage> </l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si tuam non vindicas injuriam, saltem fratrem ulciscere. Et ego offensus sum: justitiam expeto.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Reum permittere furori plebis, hic non est juris ordo. Ite. Vobis, amici, quoniam alienavit se Fabius, de altero providebo, qui comitetur in Patriam.</l>
+</lg></sp>
+ <sp who="Legatus I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Utinam Princeps, satis provisum sit tibi.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Diis</name> curae sum: nihil timete.</l>
+</lg></sp>
+ <sp who="Legatus II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ita optamus. titus. Jam tu loquere.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sine arbitrio liceat!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Loquere, nam et hic Titus est.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quoniam jubes.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.05.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUINTA. Personae. Titus. <name type="person" TEIform="name">Domitianus</name>. Fabius. Paulinus.</head>
+<sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LEgere has litteras lubeat.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad Crassum Hispani exercitus ducem sunt datae. Frater, video tuam</l>
+<pb id="s050" n="50" TEIform="pb"/>
+<l TEIform="l" part="N">manum</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Unde hae tibi?</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid lego? Frater me fugere cogitat?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc de me?</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sollicitare exercitum ad defectionem?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vah! titus. Affectare imperium? sic diligor!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Rumpor! sine frater, ut hunc tabellarium una cum infami epistolio discerpam.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Siste impetum. Non sic defenditur innocentia.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego te. Princeps, non accuso: litteras vides: has exhibere, fidelis subditi fuit. Tuum est, probare falsas.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec credis de fratre frater?</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Certe non sunt aliena ab indole. ah! utinam, quo ego in te, eodem erga me animo esses!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Plura dico. cum sensit exercitum corrumpi non posse tuus hic frater, Auguste, conduxit sicarios, a quibus paulo ante prope peremptus fueras. Haec causa est, quod Fabium et Aemilium sceleris conscios et complices tam avide persequatur, et cupiat non auditos damnari. Adducantur homines, dispeream, nisi convincam.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! quo me abscondam?</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Auguste, retractus ex fuga Orbilius huc rapitur.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Novus testis! Caesar! audiatur.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">* Subducit se.</stage> Perii!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">In custodiam detur. Et quiescit populus? Paulinus. Confusa fiunt murmura. Expectat a te atrocem in reos sententiam.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cum causam cognovero penitus, prodibo in Concionem.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.05.06" n="6" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEXTA. Personae. Fabius. Titus.</head>
+<sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ECce subduxit se frater? Auguste. Reum fatetur.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dudum suspectus fuit. Sed quam tibi gratiam debeo, amice, pro hac fide?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nullam, Caesar. Si quid tamen meruisse videor, unum te supplex oro.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ora.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Qui cum Domitiano conjuravit, amicus est meus, quem</l>
+<pb id="s051" n="51" TEIform="pb"/>
+<l TEIform="l" part="N">amo tenerrime. Ille latet timore supplicii, quod se meritum agnoscit, exanimis. Me coegit accedere, et omnem facinoris seriem narrare tibi, spe fretus, fore, ut hac libera confessione placatus flectaris ad veniam. Ignosce Caesar, et indulge Clementiam homini in saecula praedicandam.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivat in tuam gratiam. Ignosco: adduce ad me.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mactas me gaudio. En adest ipse. Quamquam o pudor!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid me suspensum tenes?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego, ego sum Fabius: pro me rogavi.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Illudor!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Da veniam, Auguste! dira necessitas hanc fraudem excusat satis.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid igitur de Hispania garrivisti? quid hae litterae volunt?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil mentitus sum. Domitiani haec epistola est, quam hodie primum exaravit ad Crassum: diem inspice. Volebat me cras proficisci in Hispaniam, et impium negotium agere. Condixi infelix. Sed tu, cum jussisses me cras in Campaniam ire, dissipatum consilium erat, et timor, ne forte proderemur, coegit maturare conceptum facinus. Orbilius, et Laelius visi sunt idonei, et tuam religionem, Caesar (vah! impietatem!) opportunam sceleri occasionem putavimus.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid igitur Aemilius fecit?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe ut caedis invidiam in Domitianum amolirer, hominem tacite in partes traxi, allectum imperii inter nos dividundi spe. Itaque nuntio tuae caedis allato, ambo invasimus fratrem, rati, haud aliter facilius mereri nos posse suffragia populi, quam per celerem tuae injuriae ultionem. En crimen! en causa! Cognito scelere scilicet coactus sum a populi furiis me hoc thorace defendere, et confugere ad te. In potestate sum.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Grande crimen. Sed fidem dedi: salvus es. Unum doce: plebs creditne fratrem vestri criminis esse participem?</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non puto: scilicet cum videt illum tanto ardore nos persequi, et urgere supplicium, alienissimum a nobis credit, et acclamat tanti criminis vindici.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Bene habet. Tu igitur silentium tene.</l>
+<pb id="s052" n="52" TEIform="pb"/>
+<l TEIform="l" part="N">Hac lege veniam dono, ut caveas sedulo, ne quidquam de fratris crimine emanet in vulgus. Periisti, si secus fiat. Idem Aemilium, et Orbilium mone.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Muti erimus. O Principem dignum saeculis!</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.05.07" n="7" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEPTIMA. Personae. Fabius. Servus Fabii.</head>
+<stage type="mix" TEIform="stage">* Abit Titus. Clauditur. Servus prodit.</stage> <sp who="Servus_Fabii" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">FElix sum, quod te inveniam, Here. Hanc vestem abice, nisi perire velis. Nunc primum progressus ad populum <name type="person" TEIform="name">Domitianus</name> ferociter contra Hispanum hominem declamavit: amicum esse latronum, et dignum mille necibus. Furunt cives: si oculo te viderint, actum est.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non videbunt. His ego vestibus salutem debui hactenus: nunc cum nocere incipiunt, abiciantur. Tu alias affer.</l>
+</lg></sp>
+ <sp who="Servus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego priusquam indui, damnavi.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Domi quid agitur?</l>
+</lg></sp>
+ <sp who="Servus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ingens trepidatio est.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Solare. Ad concionem prodibit Caesar, et placabit populum. Salvi sumus. Perge celeriter. Ego ad Aemilium eo.</l>
+</lg></sp>
+<pb id="s053" n="53" TEIform="pb"/>
+<stage type="mix" TEIform="stage">CHORUS II.
+Apollo inter Pastores Regis Admeti exsul, et miser repente inter Deos iterum recipitur una cum filio Aesculapio.
+* Theatrum exhibet pascua Admeti.
+Personae. Diana. Apollo. Vulcanus. Aesculapius. Admetus. Musae. Fauni. Pastores. Venatores.</stage>
+<sp who="Admetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">PAstores agite! struenda sunt altaria,</l>
+<l TEIform="l" part="N">Paranda sacrificia.</l>
+<l TEIform="l" part="N">Novus fines Deus ingreditur.</l>
+<l TEIform="l" part="N">Tota obviam Thessalia effunditur.</l>
+<l TEIform="l" part="N">Exsultant Pindi culmina</l>
+<l TEIform="l" part="N">Amissum Musae cessant flere Apollinem,</l>
+<l TEIform="l" part="N">Et laeta parant carmina.</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">sub veste pastoris latens</stage> Quis novus Deus, Domine?</l>
+</lg></sp>
+<sp who="Admetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Incertum. FEstinate, et quod jussi, facite<stage type="mix" TEIform="stage">** Abit.</stage> </l>
+</lg></sp>
+<sp who="Pastores" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Festinamus, immolamus pecora pinguissima.<stage type="mix" TEIform="stage">*** Abeunt.</stage> </l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ite! sequar postea.</l>
+<l TEIform="l" part="N">Nempe hoc adhuc deerat meae miseriae,</l>
+<l TEIform="l" part="N">Ut <name type="myth" TEIform="name">Jupiter</name> divinos honores auferret Apollini,</l>
+<l TEIform="l" part="N">Et assereret novo Numini.</l>
+<l TEIform="l" part="N">Sed patere, Apollo, patere:</l>
+<l TEIform="l" part="N">Omnia meruit furor impius, furor sacrilegus.</l>
+</lg></sp>
+<pb id="s054" n="54" TEIform="pb"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Parcendum est suspiriis,</l>
+<l TEIform="l" part="N">Indignae sunt querelae:</l>
+<l TEIform="l" part="N">Si quod mereris, pateris,</l>
+<l TEIform="l" part="N">Oportet pati velle.</l>
+<l TEIform="l" part="N">Poena perpetrati</l>
+<l TEIform="l" part="N">Fructus est peccati:</l>
+<l TEIform="l" part="N">Si fructus fugitur,</l>
+<l TEIform="l" part="N">Cur arbor seritur?</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Si antequam peccaveras,</l>
+<l TEIform="l" part="N">Futura perpendisses:</l>
+<l TEIform="l" part="N">Has nunquam in miserias</l>
+<l TEIform="l" part="N">Infelix incidisses.</l>
+<l TEIform="l" part="N">Quae facta sunt, optare,</l>
+<l TEIform="l" part="N">Ut non sint, est cantare</l>
+<l TEIform="l" part="N">Inanem naeniam,</l>
+<l TEIform="l" part="N">Et triste utinam?</l>
+</lg>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed hem! Quem video?<stage type="mix" TEIform="stage">* Occulte auscultat.</stage> </l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic est, Faune, ut assero.</l>
+<l TEIform="l" part="N">Optimum <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> miseruit Apollinis. Jam anno integro de Caelo exsulis.</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et dat veniam criminis?</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dat insuper gratiam pristinae dignitatis ac muneris.</l>
+<l TEIform="l" part="N">Praeterea occisum filium ad vitam revocavit.</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aesculapium?</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Eumque, ne iterum mori posset, divinitate donavit.</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O vere Deus optimus!</l>
+<pb id="s055" n="55" TEIform="pb"/>
+<l TEIform="l" part="N">Sed nos quo vultu Apollo respiciet facinoris Proditores,</l>
+<l TEIform="l" part="N">Miseriarum, quas tulit, auctores?</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Merito stetimus contra Apollinem.</l>
+<l TEIform="l" part="N">Si sapit, imitabitur <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs>,</l>
+<l TEIform="l" part="N">Et ad veniam exhibebit se facilem:</l>
+<l TEIform="l" part="N">Imo pro summo Numine</l>
+<l TEIform="l" part="N">Pugnantium strenue</l>
+<l TEIform="l" part="N">Virtutem probabit,</l>
+<l TEIform="l" part="N">Laudabit.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>ARIA.</head>
+<l TEIform="l" part="N">Sylvestres tantum belluae</l>
+<l TEIform="l" part="N">Ignarae sunt discernere,</l>
+<l TEIform="l" part="N">Quid sit justitia?</l>
+<l TEIform="l" part="N">Quid sit injuria?</l>
+<l TEIform="l" part="N">Hinc, quisquis laedit, irruunt.</l>
+<l TEIform="l" part="N">Invadunt, sternunt, proterunt.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Sed in Herois anima</l>
+<l TEIform="l" part="N">Virtutis vis est alia:</l>
+<l TEIform="l" part="N">Et vel in hostibus</l>
+<l TEIform="l" part="N">Non caret laudibus.</l>
+<l TEIform="l" part="N">Non damnat justa praelia,</l>
+<l TEIform="l" part="N">Mens bono sensu praedita.</l>
+</lg>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Securi igitur procedimus obviam,</l>
+<l TEIform="l" part="N">Et pompam ornamus.<stage type="mix" TEIform="stage">* Abit.</stage> </l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">I prae! ego socios convoco,</l>
+<l TEIform="l" part="N">Et sequor illico.<stage type="mix" TEIform="stage">** Abit.</stage> </l>
+</lg></sp>
+<pb id="s056" n="56" TEIform="pb"/>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage">ex latebris prodiens</stage> Velut de gravi somno evigilo.</l>
+<l TEIform="l" part="N">Mihi et filio paratur triumphus?</l>
+<l TEIform="l" part="N">Mihi plaudit Thessalia, et Musae parant carmina?</l>
+<l TEIform="l" part="N">Ignoranti latenti? Nam quis me potuit prodere?</l>
+<l TEIform="l" part="N">Optare libet: non licet credere.<stage type="mix" TEIform="stage">* Exhibetur Parnassus magnifice ornatus.</stage> </l>
+<l TEIform="l" part="N">Hem! pompa magnifica.</l>
+</lg></sp>
+<sp who="Musa I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nempe, mi pastorcule, sacra magno Numini, nostro Apollini.</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Exsuli?</l>
+</lg></sp>
+<sp who="Musa II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Reduci.</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fallimini. His auribus paulo ante audivi lamenta miseri.</l>
+</lg></sp>
+<sp who="Musa III" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ergo, sorores, decepit nos mendax Mercurius?</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Siccine Mercurius hoc tulit nuntium?</l>
+<l TEIform="l" part="N">Et creditis? sic nostis Cyllenium?</l>
+<l TEIform="l" part="N">Nempe nullas umquam fabulas Musis vendidit?</l>
+</lg></sp>
+<stage type="mix" TEIform="stage">ARIA.</stage>
+<sp who="Musa I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">VAh! cui licet credere,</l>
+<l TEIform="l" part="N">Si Dii mentiuntur?</l>
+<l TEIform="l" part="N">Qui me non vult juvare,</l>
+<l TEIform="l" part="N">Is parcat insultare,</l>
+<l TEIform="l" part="N">Et ludere me!</l>
+<l TEIform="l" part="N">Per falsa cur miseriae</l>
+<l TEIform="l" part="N">Promissa nutriuntur?</l>
+<l TEIform="l" part="N">Sic Tantalus vexatur</l>
+<l TEIform="l" part="N">A pomis, quin alatur:</l>
+<l TEIform="l" part="N">Mactatur a spe.</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><stage type="mix" TEIform="stage"> cum sociis. ** Prodit.</stage> Ecce! quam bello fratrem Musae recreabitis spectaculo!</l>
+</lg></sp>
+<pb id="s057" n="57" TEIform="pb"/>
+<sp who="Musa I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Siccine? Dianam etiam turpi Mercurius decepit mendacio?</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Revocatum Apollinem dixit ab exilio:</l>
+<l TEIform="l" part="N">An non est ita?</l>
+</lg></sp>
+<sp who="Musa II" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aliud hic nobis narravit Opilio.</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quem ego te video? aut frater es,</l>
+<l TEIform="l" part="N">Aut de fratre, ubi lateat, rescies.</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Soror es.</l>
+</lg></sp>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid audio? talem te video?</l>
+</lg></sp>
+<sp who="Venatores" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hic Apollo est?</l>
+</lg></sp>
+<sp who="Musae" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hic Deus Musarum?</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O casum dignum torrente lacrimarum!</l>
+</lg></sp>
+<sp who="Admetus" TEIform="sp">
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">Cum suis pastoribus.</note> <stage type="mix" TEIform="stage">* Prodit, et supplicat.</stage> Confidite!</l>
+<l TEIform="l" part="N">Peccantibus per errorem est facilis spes veniae.</l>
+<l TEIform="l" part="N">Hic est Apollo: procidite! immolate!</l>
+</lg></sp>
+<sp who="Chorus_Pastorum" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dive! facilis Pastores</l>
+<l TEIform="l" part="N">Deprecantes respice.</l>
+</lg></sp>
+<sp who="Admetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nostros sine ut errores</l>
+<l TEIform="l" part="N">Deleant hae victimae.</l>
+<l TEIform="l" part="N">Per has peto, per has oro,</l>
+<l TEIform="l" part="N">Dive, dona veniam.</l>
+</lg></sp>
+<sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Supplicanti parce choro,</l>
+<l TEIform="l" part="N">Dive, dona veniam.</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Admete! quo ageris Numine?</l>
+</lg></sp>
+<sp who="Admetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Simulare desine. Tuus te mihi prodidit filius,</l>
+<l TEIform="l" part="N">Quem in triumpho adducet Vulcanus</l>
+<pb id="s058" n="58" TEIform="pb"/>
+<l TEIform="l" part="N">Recens inter Deos assumptum, et exsultantem.</l>
+<l TEIform="l" part="N">Audis pompam appropinquantem?<stage type="mix" TEIform="stage">* Pompa Aesculapii in dracone sedentis.</stage> </l>
+</lg></sp>
+ <sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vive Frater! vivat Aesculapius!</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivat <name type="myth" TEIform="name">Jupiter</name> Deus Optimus, Maximus!</l>
+</lg></sp>
+<sp who="Musa I" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Eia non est mentitus Mercurius: plaudimus.</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>CHORUS.</head>
+<l TEIform="l" part="N">Mutata est scena:</l>
+<l TEIform="l" part="N">Sors ridet amoena:</l>
+<l TEIform="l" part="N">Amat nos <name type="myth" TEIform="name">Jupiter</name>:</l>
+<l TEIform="l" part="N">Phoebus dupliciter</l>
+<l TEIform="l" part="N">Hodie ortus videtur: </l>
+<l TEIform="l" part="N">Felix calamitas, </l>
+<l TEIform="l" part="N">Summa quam faustitas</l>
+<l TEIform="l" part="N">Nube depulsa sequetur.</l>
+</lg>
+<sp who="Admetus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Jam sine, Numen maximum,</l>
+<l TEIform="l" part="N">Ut fiat sacrificium.</l>
+<l TEIform="l" part="N">Mactate pecora!</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cessate! innocens non placet victima.</l>
+<l TEIform="l" part="N">Ex Deo factus sum Pastor:</l>
+<l TEIform="l" part="N">Ex Pastore fio Deus Pastorum,</l>
+<l TEIform="l" part="N">Quem vos placabitis non caede agnorum</l>
+<l TEIform="l" part="N">Sed luporum.</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Apollo salve, et in pristinam</l>
+<l TEIform="l" part="N">Vulcanum cum Fauno recipe amicitiam.</l>
+</lg></sp>
+<sp who="Faunus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Uti pro <rs type="myth" n="Iuppiter" TEIform="rs">Iove</rs> contra te stetimus,</l>
+<l TEIform="l" part="N">Ita <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> rursus tibi amicum gaudemus.</l>
+</lg></sp>
+<pb id="s059" n="59" TEIform="pb"/>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Praeterita meminisse desinite:</l>
+<l TEIform="l" part="N">Et facinus patratum dolori, non furori tribuite.</l>
+<l TEIform="l" part="N">Sed intrat Filius! Apollini</l>
+</lg></sp>
+Plaudite Superi!
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et Aesculapio gratulamini!</l>
+</lg></sp>
+<sp who="Aesculapius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Salve Pater! salve Amita! Admittite manus oscula!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>CHORUS.</head>
+<l TEIform="l" part="N">VIvite deliciae</l>
+<l TEIform="l" part="N">Humani generis!</l>
+<l TEIform="l" part="N">Vivite amabilis</l>
+<l TEIform="l" part="N">Numina ut Nominis!</l>
+<l TEIform="l" part="N">Sic suavis indolis.</l>
+<l TEIform="l" part="N">Per vos nos juvat <name type="myth" TEIform="name">Jupiter</name>:</l>
+<l TEIform="l" part="N">Per vos est <name type="myth" TEIform="name">Jupiter</name>.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>2.</head>
+<l TEIform="l" part="N">Juvans Pater appelletur,</l>
+<l TEIform="l" part="N">Nam meretur:</l>
+<l TEIform="l" part="N">Morbi carnis ut curentur,</l>
+<l TEIform="l" part="N">Reddit Aesculapium:</l>
+<l TEIform="l" part="N">Morbi mentis ut fugentur,</l>
+<l TEIform="l" part="N">Revocavit Cynthium.</l>
+</lg>
+<sp who="Diana" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Justa sunt jubila.</l>
+<l TEIform="l" part="N">O Nepos! quam dulcis mihi est tua,</l>
+<l TEIform="l" part="N">Et talis praesentia!</l>
+</lg></sp>
+<sp who="Aesculapius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quidquid sum, fulmini debeo.</l>
+<l TEIform="l" part="N">Nisi sic occidissem,</l>
+<l TEIform="l" part="N">Nunquam sic revixissem.</l>
+</lg></sp>
+<pb id="s060" n="60" TEIform="pb"/>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ergo qui fulmen tam optabile cuderunt,</l>
+<l TEIform="l" part="N">Occidi <name type="myth" TEIform="name">Cyclopes</name> non meruerunt.</l>
+<l TEIform="l" part="N">Age fili, et laetitiam cumula:</l>
+<l TEIform="l" part="N">Mortuos excita,</l>
+<l TEIform="l" part="N">Quod jam licet sine invidia.</l>
+</lg></sp>
+<sp who="Vulcanus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non id probaret <name type="myth" TEIform="name">Jupiter</name>,</l>
+<l TEIform="l" part="N">Quem hoc ipsum rogavi.</l>
+<l TEIform="l" part="N">Renuit: et posthac se famulos subditis invises</l>
+<l TEIform="l" part="N">Retenturum negavit, ut nemo habeat,</l>
+<l TEIform="l" part="N">Unde <rs type="myth" n="Iuppiter" TEIform="rs">Iovem</rs> saevitiae arguat.</l>
+<l TEIform="l" part="N">Deinceps erit quilibet suae sibi fortunae faber.</l>
+<l TEIform="l" part="N">Si cudit fulmina, in suum caput cudit.</l>
+<l TEIform="l" part="N">Ipse sibi, non Jovi imputet, si decidunt,</l>
+<l TEIform="l" part="N">Et fabrum perimunt.</l>
+</lg></sp>
+<sp who="Apollo" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">O Deum amantem! o amabilem! Amemus!</l>
+<l TEIform="l" part="N">Laudemus!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>CHORUS. I.</head>
+<l TEIform="l" part="N">Magni dulcissimam</l>
+<l TEIform="l" part="N"><rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs> clementiam</l>
+<l TEIform="l" part="N">Musae cantate!</l>
+<l TEIform="l" part="N">Silvae laudate!</l>
+<l TEIform="l" part="N">Per invios calles</l>
+<l TEIform="l" part="N">Per montes, per valles</l>
+<l TEIform="l" part="N">Ubique audiantur,</l>
+<l TEIform="l" part="N">Ubique repetantur</l>
+<l TEIform="l" part="N">Tonantis decora!</l>
+</lg>
+<pb id="s061" n="61" TEIform="pb"/>
+<stage type="mix" TEIform="stage">2.</stage>
+<sp who="Musae" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut Phoebus inter sidera,</l>
+<l TEIform="l" part="N">Sic inter <rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs> decora</l>
+<l TEIform="l" part="N">Eminet Clementia.</l>
+</lg></sp>
+<sp who="Venatores" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut cedrus inter Nemora</l>
+<l TEIform="l" part="N">Sic <rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs> inter decora</l>
+<l TEIform="l" part="N">Eminet Clementia.</l>
+</lg></sp>
+<sp who="Pastores" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quod dulcis lactis copia,</l>
+<l TEIform="l" part="N">Quod ovibus sunt pascua:</l>
+</lg></sp>
+<sp who="Fauni" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quod gratae umbrae montium,</l>
+<l TEIform="l" part="N">Quod suave murmur fontium:</l>
+</lg></sp>
+<sp who="Utrique" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hoc <rs type="myth" n="Iuppiter" TEIform="rs">Iovis</rs> est Clementia!</l>
+</lg></sp>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<head>Omnes.</head>
+<l TEIform="l" part="N">Ubique audiantur,</l>
+<l TEIform="l" part="N">Ubique repetantur</l>
+<l TEIform="l" part="N">Tonantis decora.</l>
+<l TEIform="l" part="N">In Optimo et Maximo</l>
+<l TEIform="l" part="N">Laus optima, laus maxima</l>
+<l TEIform="l" part="N">Est de Clementia.</l>
+</lg>
+<pb id="s062" n="62" TEIform="pb"/>
+</div3>
+</div2>
+<div2 id="NeTA.01.06" n="6" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS V. </head>
+<div3 id="NeTA.01.06.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA PRIMA. Personae. <name type="person" TEIform="name">Domitianus</name>. Paulinus.</head>
+<sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">ILlum Hispanum, ais, fuisse Fabium?</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">fuit. Jamque donatus venia rursus Romanum induit, et liber vagatur in Regia. Quid si veterem calumniam in te regessisset, et suis mendaciis uti prius populo, ita nunc fratri fecisset invisum: et hanc proditionis mercedem recepisset a credulo Caesare?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! quid dubitare me jubes? palam est. Praesenti, audienti, non timuit contumeliam facere. Neque licuit respondere. Quamquam nec potuissem etiam, cum stupefaceret linguam metus, ne forte irato excideret verbum, quo reverentiam laederem, quam debeo fratri. Discessi silens commorsis labiis.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Male tibi, Princeps, consuluisti tam reverente silentio. Forte pro confessione habetur. De defensione, et vindicta nunc cogita: pereant hostes tui et Caesaris. Populum faventem habes, conciliatum ardore animi, quo urges proditorum supplicium. Ne cessa. Si tu tibi consistis, non cedet populus: coget Titum severum esse.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Perge, et currentibus calcar adde. Sed</l>
+</lg></sp>
+<pb id="s063" n="63" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.06.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SECUNDA.<stage type="mix" TEIform="stage">* Aperitur aula.</stage> Personae. <name type="person" TEIform="name">Domitianus</name> solus.</head>
+<p TEIform="p">UTinam, O Pauline, fecisset calumniam Fabius! nihil trepidaret innocens animus. At nunc, cum verum dixit, qua evado? Crudelis Fabi, in quas me angustias conjecisti! Pereat hora, qua tibi colloqui coepi! Sed quid irascor aliis? Ego sum reus. Ego stulto deceptus ambitu appetivi ruinam. Ego autem? tu rea es Roma: tua me species rapuit! Vos Dii rei, qui adeo extulistis Imperii Romani Majestatem, ut si umquam, certe pro hac vindicanda, violari posse justitia videatur. O deplorandam sortem mortalium, toties improvide agentium paenitenda! Quodsi prudentis est, nunquam agere, cujus paenitere te possit, Superi! quam paucos prudentes numerat orbis terrarum! Certe in horum numero nullus est ambitiosus: nunquam enim ambitio est sine paenitentia. Quamquam quid philosophari nunc prodest? serum est ista cogitare. Aut exspecto scilicet, donec publico condemnatus judicio execrabilis Romae fiam? formidabilis malo. Fiat, quod cecinit bubo; ibo in Hispaniam, et revertar cum exercitu. Vale Roma!</p>
+</div3>
+<div3 id="NeTA.01.06.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA TERTIA. Personae. Paulinus. <name type="person" TEIform="name">Domitianus</name>.</head>
+<sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">PRinceps! vocaris ad Caesarem. Strenue causam perage: Populus omnis suppetias feret.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non ibo. Pauline vale.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et quid haec forma loquendi velit?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hunc solem, hanc diem odi aeternae meae infamiae testem. Parricida dicar, demonstrer digito:</l>
+<pb id="s064" n="64" TEIform="pb"/>
+<l TEIform="l" part="N">hoc ferre possim? subduco me dedecori.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fugienti dedecus haerebit majus. Quem armat sceleris ignara mens, omnem invidiam, omnes calumnias vincit.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nisi obruatur. Relinquo ingratum fratrem inter proceres proditores. Sentiat, quid sit alienis dare fidem, negare fratri.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fugienti insistet frater. Non evades.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Via est certa, qua evadam. Haec sica faciet. I, hoc nuntia Tito vivum saltem si fratrem velit, omittat persequi fugientem.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Prô atrox consilium, Accede fratrem, qui te vocat, per omnes te Divos obsecro!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quibus invisus sum!</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per amorem fratris!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Qui me odit!</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per odium, quo tuos, et Titi, et Romae inimicos persequeris!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quorum scelera non licet ulcisci!</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Per vota totius Rei publicae!</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cui <name type="person" TEIform="name">Domitianus</name> infame nomen est! Ah! quam vellem, Pauline, ut patiens consilii frater severitate temperaret clementiam, ne Majestas contemneretur impune. Non audit. Abeo, ne cogar spectator esse funestae, quam isti dabunt, tragoediae, aut etiam pars. Aut putas, me non advertere, quid agatur? Vita petitur Domitiani, ut me necato, nudus prostet impiorum gladiis Titus. Fugio. Pereat frater sine me, quia cupit me secum perire. Vah!</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.06.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUARTA. Personae eaedem, et Titus.</head>
+<sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">PAuline, tu mihi huc Aemilium et Fabium advoca.</l>
+</lg></sp>
+ <sp who="Paulinus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ut jubes, Auguste.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Frater! vocatus etiam renuis ad fratrem ingredi: quid moliris?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Pudor me vetat, frater, et criminis conscientia tuum conspectum ferre. Fugam moliebar. Gratiae loco concede exilium,</l>
+<pb id="s065" n="65" TEIform="pb"/>
+<l TEIform="l" part="N">pessima merito.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nihil haec memineris: fratres sumus. Unum te posco, ut Fabio et Aemilio vivere per te liceat. Rei sunt: neque mihi tantum, sed etiam tibi ultimas poenas debent: scio. Tamen, quid facere te deceat, considera: Exemplum dedi.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Heu! quo me adigis frater? si non alia conditione mereor veniam, occide me! levius feram. Viscera torquentur rabie: morior, nisi effundam. Quid? ut per fraudem inducar ad scelus, ut strictis ensibus impetar, ut accuser malevole, inultus hoc feram?</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid? ut frater affectet imperium, ut immittat sicarios, ut sollicitet milites, inultus hoc feram?</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Si remittis, facis gratiam, frater: si punis, non facis injuriam. Nihil contra jus, nihil contra leges expeto, si vindictam expeto.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vindicta privatorum solacium est: Principis fortuna maior, maior animus. Ego perire malo, quam perdere, nisi forte perire quempiam totius Rei publicae referat. Sed ecce adsunt. Domitiane, ut ponas odia, et placidus vivas: aequitas postulat, rogat frater, Caesar imperat. Vos agite, quod decet.</l>
+</lg></sp>
+</div3>
+<div3 id="NeTA.01.06.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA QUINTA. Personae. <name type="person" TEIform="name">Domitianus</name>. Aemilius. Fabius.</head>
+<sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">JActor miser! perfidi!</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid affligis te, Princeps! reos habes, et fatentes, et in tua potestate.</l>
+<l TEIform="l" part="N">Vindictam, an veniam velis, tua est electio.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nos unum rogamus, ut eligas, quod rebus tuis utilius, et tuo nomini gloriosius est. Nihil de nobis solliciti, tibi, cupimus, ut velis consulere.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid effusus te cruor juvet? Nempe voluptas est, exanimem inimicum videre? est aliqua: sed animalis, brevis, acerba. Tigridum haec ferocia est, ut</l>
+<pb id="s066" n="66" TEIform="pb"/>
+<l TEIform="l" part="N">in sanguine helluentur: generosi Leones prostratum et supplicem sine noxa praetereunt. Mox ut <orig reg="deferbuit" TEIform="orig">defervuit</orig> aestus iracundiae, quae brevis quaedam insania est, evanescit voluptas, et velut leve somnium in auras abit. Neque raro succedit tristis, et sera paenitudo. Ira iram parit, et ex uno necato dracone saepe seges inimicorum succrescit. Pacem, amicos, fratrem habes, si veniam dederis.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et cum pace, cum amicis, cum fratre gloriam habes immortalem. Grandem animam nactus es, Domitiane, et natam ad summa. Servire furori non decet. Imbelles animae, et quibus informe judicium est, facile irascuntur: quae causa est, quod celerrima sit ira infantium, pertinacissima feminarum. Vir sapiens et generosus nec subito commovetur, nec diu. Etiam cum justa est irae causa, modum tenet.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quamquam vertamus stylum. Age, irascere, Princeps, irascere, sed tibi primum, deinde nobis. Tres rei sumus, at tu maxime: de te incipe ultionem. Haec ira utilis, haec gloriosa est, haec magnanima. Superi! quod facinus aggressi sumus barbarum, immane, atrox! Stupet, Aemili, attonita mens ad exsecrandam audaciam.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quamquam nos Dominum tantum invasimus, tu fratrem insuper.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ire lubet, Aemili, et obicere nos furenti populo, ut meritas poenas demus.</l>
+</lg></sp>
+ <sp who="Aemilius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ire lubet: sed pares nobiscum poenas, Princeps, dabis. Veni fortis! plectatur commune scelus, mortem ultro provocemus ad ultionem: haec ira decet.</l>
+</lg></sp>
+ <sp who="Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec ira decet! Ira nobilis, ira heroica, irasci sibi.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivite, amici! nihil mori juvat: Tito vivamus simul. Haec vita decet. Vita nobilis, vita gloriosa, illi vivere, quem per ultimam impietatem cupivimus mori. Amici estis.</l>
+</lg></sp>
+<pb id="s067" n="67" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.06.06" n="6" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA SEXTA. Personae eaedem, et Titus.</head>
+<sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">TAndem audivi optatam vocem. Moneatur Gracchus, ut populum introducat. Dignus es, frater, imperio, postquam didicisti imperare tibi. Vive! impera! jam nunc te Collegam et heredem nomino.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Age, quid loqueris, Caesar! Dignum solio dices, qui et vita, et hac luce indignus est? Cessa torquere miserum tam acerba objurgatione impiae ambitionis. Satis dolor, Amici, et pudor torquent.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cesset dolor, et pudor cesset. Injuriam remisi: famae consului: nihil de tuo crimine populus, nihil milites, nihil Senatus rescient. Religiosum silentium imposui consciis, et hac sola conditione vitae gratiam obligavi. Hoc superest unum, ut posthac, frater, eodem erga me animo esse velis, quo fui, et ero erga te, id est, fraterno.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ah! frater!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Desine querelarum. Caesar eris. Atque ut digna hoc fastigio gloria principium Majestatis consecres, et agnoscant subditi, quid de te sibi sperandum sit: quem contra reos concitasti, populum compone, frater, et ut meam clementiam laetis acclamationibus firmet, effice. Nulla est corona nobilior, quam de cive servato: hac te orna, priusquam tibi imponam Caesaream.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dii! quem fratrem offendi, et quem Dominum! Servire impera, non imperare!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Imperabis: sed tuo ex sensu disce, quam dulce sit imperare clementer.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sentio. Dent Superi, ut hic mihi sensus perpetuus sit!</l>
+</lg></sp>
+<pb id="s068" n="68" TEIform="pb"/>
+</div3>
+<div3 id="NeTA.01.06.07" n="7" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head><stage type="mix" TEIform="stage">* Aperitur aula interior.</stage> SCENA ULTIMA. Personae omnes.</head>
+<sp who="Gracchus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">AUguste, adest populus ad tua pronus imperia.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vivite Caesares! felices, victores, Patres vivite!</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Placent vota, Quirites, si tamen sinitis clementes vivere.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tumultuatum est satis. Reis parcere Titus cupit: assentiri nos decet. Parcatur.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Parcatur. Liberi sunto.</l>
+</lg></sp>
+ <sp who="Aemilius Fabius" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et nos Caesarum servi erimus fideles posthac, et pii semper.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ego vero, Cives, primum vobis gratias ago, quod tanta consensione, tanto animorum ardore, et anxiis curis salutis meae habueritis studium. Optandum hoc mihi periculum fuit, ut experirer, quantis vobis in amoribus sim. Deinde quoniam non sine mentis laetitia video, pari vos dilectione fratrem amplecti, qui se hodie vestri amoris ducem praebuit, et hortatorem: <corr sic="Dominianum" resp="transcriber" TEIform="corr">Domitianum</corr> Collegam Imperii, et heredem pronuntio.</l>
+</lg></sp>
+ <sp who="Omnes" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Io! vivat Titus, vivat <name type="person" TEIform="name">Domitianus</name>! faveant Dii fraterno imperio.</l>
+</lg></sp>
+ <sp who="Domitianus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ad vestrum commodum impendar totus: fratris exemplum sequar.</l>
+</lg></sp>
+ <sp who="Titus" TEIform="sp"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vobis vivimus, vobis regnamus. Procede frater! vos in plausus ite.<stage type="mix" TEIform="stage">** Solium conscendunt, dum clauditur.</stage> </l>
+</lg></sp>
+</div3>
+</div2>
+</div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

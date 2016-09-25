@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Dramata sacra: comoediae atque tragoediae aliquot e Veteri Testamento desumptae. Tomus 1.</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Ziegler" TEIform="author">Ziegler, Hieronymus et alii.</author>
+<editor TEIform="editor" role="editor">Oporinus, Johannes</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, April 2004</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">Knebusch</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/drama" type="href" id="drama" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">drama</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">oporinusdramata1.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s0001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">oporinusdramata1.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">drama/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Basel: Johannes Oporinus, 1547.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">17 August 2005</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Katharina Meiszus (corrections), Ruediger Niehl (tagging)</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">typed text - structural tagging complete - no semantic tagging - Morpheus spell check</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+
+
+
+
+
+
+<text><gap id="GR"/><gap id="sampling"/><body><div1 type="book"><pb id="s0017" n=""/>
+<head>PROTOPLASTUS. DRAMA COMICOTRAGIcum, Hieronymo Zieglero auctore.</head>
+<div2 id="OpDB.01.01" n="1" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>PERSONAE DRAMATIS.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Deus, Adam, Eua,</l>
+<l TEIform="l" part="N">Raphael, Gabriel, Michael, angeli.</l>
+<l TEIform="l" part="N">Lucifer, Satan, Belial, daemones.</l>
+<l TEIform="l" part="N">Serpens, Cherub custos paradysi.</l>
+</lg>
+</div2>
+<div2 id="OpDB.01.02" n="2" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>PROLOGUS.</head>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">SI quid vetustati sacrae debebitis</l>
+<l TEIform="l" part="N">Unquam, viri spectatores, decernite</l>
+<l TEIform="l" part="N">Ludo novo, cui Protoplasto nomen est:</l>
+<l TEIform="l" part="N">Quod hic priores actionis continet</l>
+<l TEIform="l" part="N">Partes Adam, unicus parens nostrum omnium.</l>
+<l TEIform="l" part="N">Veterem, atque rem antiquam, novam ad vos profero. </l>
+<l TEIform="l" part="N">Animum ad id huc quod ego loquor convertite.</l>
+<l TEIform="l" part="N">Res digna visu maxime, quamquam antea</l>
+<l TEIform="l" part="N">Periculo proprio fuit notissima.</l>
+<l TEIform="l" part="N">In hoc sumus cuncti quidem proscenio,</l>
+<l TEIform="l" part="N">Et ludimus hodie, atque longo tempore</l>
+<l TEIform="l" part="N">Tractavimus, fere illius satias tenet:</l>
+<l TEIform="l" part="N">Nec huic quis insit finis novimus.</l>
+<l TEIform="l" part="N">Quanto magis praesenti luditur statu,</l>
+<l TEIform="l" part="N">Tanto minus molestiae dissolvitur.</l>
+<l TEIform="l" part="N">Augescit indies Adami crimine,</l>
+<pb id="s0018" n="2" TEIform="pb"/>
+<l TEIform="l" part="N">Qui nos suo lapsu gravis fecit reos</l>
+<l TEIform="l" part="N">Noxae, dolis Serpentis atque daemonis</l>
+<l TEIform="l" part="N">Seductus, horti possessor tam splendidi.</l>
+<l TEIform="l" part="N">Qui posteros secum trahens misere adfligit.</l>
+<l TEIform="l" part="N">Nec spes fuit, nisi Dei per filium</l>
+<l TEIform="l" part="N">Venisset in mundum salus. qui conterens</l>
+<l TEIform="l" part="N">Mali caput Serpentis, almo sanguine</l>
+<l TEIform="l" part="N">Lavit, tulitque originis peccamina:</l>
+<l TEIform="l" part="N">Salutis auctor omnium fidelium.</l>
+<l TEIform="l" part="N">Sicut prophetarum ore dictum est antea,</l>
+<l TEIform="l" part="N">Quam ventre nasci dignaretur Virginis:</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">Gen. 49.</note> Non auferetur sceptrum de Iuda tribu,</l>
+<l TEIform="l" part="N">Donec veniat huc, qui suis mittendus est,</l>
+<l TEIform="l" part="N">Et ipse gentium exspectatio fuerit.</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">Gen. 28.</note> Post haec sub illo benedicentur semine,</l>
+<l TEIform="l" part="N">Omnes tribus terrae sacrato numine.</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">Agg. 2.</note> En commovebo caelum, ac terram, et omnia,</l>
+<l TEIform="l" part="N">Desideratus veniet unus gentibus.</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">Mich. 1.</note> Exibit e sancto loco Dominus suo,</l>
+<l TEIform="l" part="N">Descendet, et calcabit terram gressibus.</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">Esa. 35.</note> Deus veniet, et salvabit nos protinus.</l>
+<l TEIform="l" part="N">Propter Sion tacebo nullo tempore,</l>
+<l TEIform="l" part="N">Quieveroque numquam donec omnium</l>
+<l TEIform="l" part="N">Salvator, ut splendor veniat eius mihi:</l>
+<l TEIform="l" part="N">Iustum videbunt, gentesque inclitum tuum.</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">Psal. 131.</note> Iuravit ipse verum, et non </l>
+<l TEIform="l" part="N">frustrabitur:</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">Psal. 88.</note> Eiusque semen permanet per saecula.</l>
+<l TEIform="l" part="N">Hic ille qui Serpentis contudit caput,</l>
+<pb id="s0019" n="3" TEIform="pb"/>
+<l TEIform="l" part="N">Adamque restituit suis splendoribus,</l>
+<l TEIform="l" part="N">Et nos sequentes posteros salvos facit.</l>
+<l TEIform="l" part="N">Non fabulam damus, rem aeque cognoscite.</l>
+<l TEIform="l" part="N">Arbitrium vestrum, vestraque existimatio</l>
+<l TEIform="l" part="N">Valebit, an sit digna res tractarier.</l>
+<l TEIform="l" part="N">Quod argumentum spectat, est sane breve,</l>
+<l TEIform="l" part="N">Et omnibus vobis diu notum satis.</l>
+<l TEIform="l" part="N">Quare pii sitis futuri iudices,</l>
+<l TEIform="l" part="N">In re bona, ac probabili, dubio sine.</l>
+<l TEIform="l" part="N">Quae res mihi atque vobis vertat optime.</l>
+</lg>
+<div3 id="OpDB.01.02.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>PERIOCHA.</head>
+<stage type="mix" TEIform="stage"/>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Postquam creatus est homo primus, Dei</l>
+<l TEIform="l" part="N">Manu, sacri pomarii custodiae</l>
+<l TEIform="l" part="N">Praeponitur, quem summa rerum erat penes.</l>
+<l TEIform="l" part="N">Dominatur omnibus super viventibus</l>
+<l TEIform="l" part="N">Terram. beata iungitur coniunx Eua.</l>
+<l TEIform="l" part="N">Et unica sub lege viverent, Deus</l>
+<l TEIform="l" part="N">Sancivit arboris ne fructus caperent</l>
+<l TEIform="l" part="N">Scientiae. Sed legis obliti statim,</l>
+<l TEIform="l" part="N">Mulier ex astu Daemonis subducitur:</l>
+<l TEIform="l" part="N">Malum rapit, gustavit, et porgit viro.</l>
+<l TEIform="l" part="N">Hinc lapsus est Adam, suo periculo:</l>
+<l TEIform="l" part="N">Secumque damnavit sequentes posteros.</l>
+<l TEIform="l" part="N">Quare miserrimi sub orbe vivimus.</l>
+<pb id="s0020" n="4" TEIform="pb"/>
+</lg>
+</div3>
+<div3 id="OpDB.01.02.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA PRIMA.</head>
+<stage type="mix" TEIform="stage">Deus.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><reg orig="COELI" TEIform="reg">CAELI</reg> plagas postquam vagi creaveram,</l>
+<l TEIform="l" part="N">Terram rudem mox fluminis cavi sinu   </l>
+<l TEIform="l" part="N">Circumdedi, et lucem produxi protinus,</l>
+<l TEIform="l" part="N">Quae coepit e caelo statim lucescere,</l>
+<l TEIform="l" part="N">Et terra claro cernitur sub lumine.</l>
+<l TEIform="l" part="N">Quod cum bonum vidisse laetabar, diem</l>
+<l TEIform="l" part="N">A nocte certo dividens discrimine,</l>
+<l TEIform="l" part="N">Caeloque terras, et solo undas abscidi,</l>
+<l TEIform="l" part="N">Vernare coepit odore, et in medio nemus</l>
+<l TEIform="l" part="N">Herbas virentes prata per concrescier,</l>
+<l TEIform="l" part="N">Fructusque terra fertili de germine,</l>
+<l TEIform="l" part="N">Et arbores iussi darent fructum suum.</l>
+<l TEIform="l" part="N">Post haec olympo clara fixi lumina</l>
+<l TEIform="l" part="N">Quae lucidam cunctis hanc mundi machinam</l>
+<l TEIform="l" part="N">Facerent: diei Sol, et Luna noctibus</l>
+<l TEIform="l" part="N">Praeesset. statim fit unico verbo sacro,</l>
+<l TEIform="l" part="N">Quod iusseram brevi momento temporis.</l>
+<l TEIform="l" part="N">Cunctis aquis tum piscium dedi genus,</l>
+<l TEIform="l" part="N">Et bestias terrae, simul cum reptili,</l>
+<l TEIform="l" part="N">Surgunt volatilia levi sub aethere.</l>
+<l TEIform="l" part="N">Atque universa quae forent viventia</l>
+<l TEIform="l" part="N">Moventur: astrorum diem cursus facit.</l>
+<l TEIform="l" part="N">Mirantur Angeli caelorum spiritus,</l>
+<pb id="s0021" n="5" TEIform="pb"/>
+<l TEIform="l" part="N">Et me creatorem unicum esse praedicant.</l>
+<l TEIform="l" part="N">Nec ulla stat regio suis animalibus</l>
+<l TEIform="l" part="N">Orbata. spiritus tenent caeli gradus,</l>
+<l TEIform="l" part="N">Et unda piscibus suo cedit loco,</l>
+<l TEIform="l" part="N">Solum feras capit, uloucrium aer capax</l>
+<l TEIform="l" part="N">Est factus, et sacro reguntur numine</l>
+<l TEIform="l" part="N">Elementa quatuor suo sub ordine.</l>
+<l TEIform="l" part="N">His expeditis, singulis animantibus:</l>
+<l TEIform="l" part="N">Replete terram plurimo cum foenore,</l>
+<l TEIform="l" part="N">Dixique, Crescite, multiplicamini super</l>
+<l TEIform="l" part="N">Eam, creator omnium vestrum sum ego.</l>
+<l TEIform="l" part="N">Et factum ita est, suaque natura duce.</l>
+<l TEIform="l" part="N">Hinc tu suturus quisquis es, cognoscere</l>
+<l TEIform="l" part="N">Facile potes factum manu Dei mea,</l>
+<l TEIform="l" part="N">Et qua regantur firmiter per saecula</l>
+<l TEIform="l" part="N">Potentia divina, et sacro numine,</l>
+<l TEIform="l" part="N">Quaecumque caelum, pontus, terra sustinent:</l>
+<l TEIform="l" part="N">Nec fit sub orbe quippiam temere cavo.</l>
+<l TEIform="l" part="N">Ego fide tangam quaevis viventia</l>
+<l TEIform="l" part="N">Tanta, ut per unum me, ex me, a me, in meque omnia</l>
+<l TEIform="l" part="N">Fieri, creari, permanere, et insuper</l>
+<l TEIform="l" part="N">Mori, interire, in nihilumque redigi probe</l>
+<l TEIform="l" part="N">Intelligant: soli mihi vivant volo.</l>
+<l TEIform="l" part="N">Veruntamen nec mundus per sapientiam</l>
+<l TEIform="l" part="N">Suam, Deum cognoscet autocratora.</l>
+<l TEIform="l" part="N">Quare necessum est, sola intelligant fide,</l>
+<l TEIform="l" part="N">Quae facta sunt opere Dei mirabili,</l>
+<l TEIform="l" part="N">In quo potens divinitas cognoscitur,</l>
+<pb id="s0022" n="6" TEIform="pb"/>
+<l TEIform="l" part="N">Quod ex nihilo sint universa condita.</l>
+<l TEIform="l" part="N">Quod non erat, feci aliquid esset protinus.</l>
+<l TEIform="l" part="N">Nec usus ullo sum instrumento, nec manu,</l>
+<l TEIform="l" part="N">Sed unico verbo, quod ore protuli,</l>
+<l TEIform="l" part="N">Quod ante principium fuit, nec praeterit,</l>
+<l TEIform="l" part="N">Et tam potens verbum, quod ex nihilo creet.</l>
+<l TEIform="l" part="N">Dixisse nanque, fit simul facere, meum.</l>
+<l TEIform="l" part="N">Igitur manu forti regam, custodiam,</l>
+<l TEIform="l" part="N">Et cuncta conservabo sacro spiritu.</l>
+<l TEIform="l" part="N">Sed quis rudes plantabit hos nobis agros?</l>
+<l TEIform="l" part="N">Hic sanctius deest animal, et capacius</l>
+<l TEIform="l" part="N">Mentis, quod et dominari posset ceteris,</l>
+<l TEIform="l" part="N">Scilicet homo, simile cui nil factum antea.</l>
+<l TEIform="l" part="N">Faciamus ergo hominem ad nostram hanc imaginem.</l>
+<l TEIform="l" part="N">De terra eum sumemus, et formabimus,</l>
+<l TEIform="l" part="N">Ut discat unde ceperit vitae suae</l>
+<l TEIform="l" part="N">Status, quid esset antea, et quid postea</l>
+<l TEIform="l" part="N">Futurus, ex quo vel sit factus primitus:</l>
+<l TEIform="l" part="N">Et quam nihil sit sine divino spiritu.</l>
+<l TEIform="l" part="N">Nam quid superbiat pulvis, lutum et cinis?</l>
+<l TEIform="l" part="N">Nunc Deus facta ex luto figura hominis parva,</l>
+<l TEIform="l" part="N">proiectaque ea, ex fovea praeparata educit</l>
+<l TEIform="l" part="N">hominem, et in faciem eius inspirans,</l>
+<l TEIform="l" part="N">dicit:</l>
+<l TEIform="l" part="N">En spiritum tuum vitalem percipe,</l>
+<l TEIform="l" part="N">Ex quo sacrae rationis fias particeps.</l>
+<l TEIform="l" part="N">Te fecimus puro quidem sumpto luto,</l>
+<l TEIform="l" part="N">Ex pulveris globo. nunc vivere incipe,</l>
+<l TEIform="l" part="N">Prodi, pedes figas tuos, rectusque sta.</l>
+<pb id="s0023" n="7" TEIform="pb"/>
+<l TEIform="l" part="N">Cunctis creaturis praeficiam te novis:</l>
+<l TEIform="l" part="N">His ipse solus omnibus dominaberis,</l>
+<l TEIform="l" part="N">Oboedientque tibi, cum propter te modo</l>
+<l TEIform="l" part="N">Creata sint, hic quae sub sole vixerint.</l>
+<l TEIform="l" part="N">Cetera creavi sine te, et ante te quoque,</l>
+<l TEIform="l" part="N">Ad gloriam maiorem nominis tui.</l>
+<l TEIform="l" part="N">In belluis vestigium mei datur,</l>
+<l TEIform="l" part="N">Sed in te imago vere noscitur Dei.</l>
+<l TEIform="l" part="N">In hoc triumphabo opere, et gaudeo nimis:</l>
+<l TEIform="l" part="N">Igitur <gap desc="greek text" TEIform="gap"/> post diceris mihi.</l>
+<l TEIform="l" part="N">Sed interim terrae memento te levem</l>
+<l TEIform="l" part="N">Fuisse massam spiritu tractabilem,</l>
+<l TEIform="l" part="N">Quem de ore sufflavi modo in vultus tuos:</l>
+<l TEIform="l" part="N">Vitam innocentem, puram ab omni macula</l>
+<l TEIform="l" part="N">Post vive felix, summa cum sapientia,</l>
+<l TEIform="l" part="N">Cumque reverentia cognitionis Dei.</l>
+<l TEIform="l" part="N">Non vestibus, vel ornatu alio quopiam</l>
+<l TEIform="l" part="N">Opus tibi est, cui cuncta serviunt quidem.</l>
+<l TEIform="l" part="N">Angelicus et beatorum grex inclitus</l>
+<l TEIform="l" part="N">Obambulabit una tecum sedulo,</l>
+<l TEIform="l" part="N">Et collocutor ego tuus semper Deus.</l>
+<l TEIform="l" part="N">Nihil tamen superbias in hoc velim,</l>
+<l TEIform="l" part="N">Quia te ex levi terra membris coniunxerim.</l>
+<l TEIform="l" part="N">Ego artifex, mundique rerum originis</l>
+<l TEIform="l" part="N">Opifex: vide, cum terram spectent cetera</l>
+<l TEIform="l" part="N">Animantia, os tibi dedi sublimius,</l>
+<l TEIform="l" part="N">Caelumque cernere, erectos usque ad sidera</l>
+<l TEIform="l" part="N">Iussi, timore nullo, vultus tollere.</l>
+<pb id="s0024" n="8" TEIform="pb"/>
+<l TEIform="l" part="N">Haec si probe consideras, tuum statum</l>
+<l TEIform="l" part="N">Ter nobilem prae bestiis, at interim</l>
+<l TEIform="l" part="N">Fragilem esse multum, protinus cognoveris.</l>
+<l TEIform="l" part="N">Sequere: quid amplius velim, dicam tibi.</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.02.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA II.</head>
+<stage type="mix" TEIform="stage">Raphael, Michael, Gabriel, angeli tres.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">RA. Mirabilia sunt quae facit Dominus Deus:</l>
+<l TEIform="l" part="N">Quod cogitavit, hoc simul fecit sine</l>
+<l TEIform="l" part="N">Mora, diebus sex, quies cui parva fit.</l>
+<l TEIform="l" part="N">Caelum paravit ceu tectum cultissimum,</l>
+<l TEIform="l" part="N">Et pavimentum terra facta splendidum,</l>
+<l TEIform="l" part="N">Possessio et opes eius sunt animalia,</l>
+<l TEIform="l" part="N">Cum omni apparatu nobili terrae et maris.</l>
+<l TEIform="l" part="N">Quorum omnium unus est homo dominus, Deo</l>
+<l TEIform="l" part="N">Cretus, per eius unius potentiam,</l>
+<l TEIform="l" part="N">Cui deest nihil, creata abundantissime</l>
+<l TEIform="l" part="N">Omnia: diem dixit Sabbatum septimum,</l>
+<l TEIform="l" part="N">Ex quo laborum finis, et quies data est</l>
+<l TEIform="l" part="N">Homini, creatur aeter nobilissimae.</l>
+<l TEIform="l" part="N">MI. O qui dedisti fructum terrae, et imbrium</l>
+<l TEIform="l" part="N">Creator omnem copiam, et posthac dabis,</l>
+<l TEIform="l" part="N">Ex unico fecisti verbo exurgere</l>
+<l TEIform="l" part="N">Herbas, et arborum fructus suavissimos,</l>
+<l TEIform="l" part="N">Vitae necessaria, quibusque homo indiget</l>
+<l TEIform="l" part="N">Nunc plurimum. Quis enarrabit omnia?</l>
+<l TEIform="l" part="N">Quis facta comprendet Deus per singula?</l>
+<pb id="s0025" n="9" TEIform="pb"/>
+<l TEIform="l" part="N">Bonus es, bonum facis, nihil quicquam mali</l>
+<l TEIform="l" part="N">Operaris, ab quid amplius dicam tibi?</l>
+<l TEIform="l" part="N">Auctor bonorum, non malorum, maximus.</l>
+<l TEIform="l" part="N">Quaeso quis illum corriget? cui displicet</l>
+<l TEIform="l" part="N">Quod fecit? aut quis porro prave conditae</l>
+<l TEIform="l" part="N">Dicturus est, haec qui videbit proxime?</l>
+<l TEIform="l" part="N">GA. Nemo omnium viventium, quotquot erunt.</l>
+<l TEIform="l" part="N">His insuper pius creaturis Deus</l>
+<l TEIform="l" part="N">(Ne forte dicerent caremus principe)</l>
+<l TEIform="l" part="N">Hominem dedit, ad imaginem creatum suam,</l>
+<l TEIform="l" part="N">Multo creatur arum nobilissimam.</l>
+<l TEIform="l" part="N">Namque haec imago quid aliud? quam lumine</l>
+<l TEIform="l" part="N">Sacro Dei perfusa sapientia, boni</l>
+<l TEIform="l" part="N">Iustitia, gloria exornata maximi.</l>
+<l TEIform="l" part="N">Cui lepra peccati nullatenus fuit</l>
+<l TEIform="l" part="N">Innata, nec rationis sensus pravior,</l>
+<l TEIform="l" part="N">Purissimus rerum intellectus, optima</l>
+<l TEIform="l" part="N">Memoria, voluntas omnium sincerior,</l>
+<l TEIform="l" part="N">Mortis metus nullus, morumque puritas.</l>
+<l TEIform="l" part="N">Sublimitatem spectemus sancti Dei</l>
+<l TEIform="l" part="N">Auctoris, et quo pacto talem fecerit.</l>
+<l TEIform="l" part="N">Nam non potest leve esse, quod Dei manus</l>
+<l TEIform="l" part="N">Confinxerit, flatusque caelestis regit,</l>
+<l TEIform="l" part="N">Animavit in substantiamque mobilem.</l>
+<l TEIform="l" part="N">Quem cum faceret imaginis similem suae,</l>
+<l TEIform="l" part="N">Plenum atque perfectum absque fecit crimine,</l>
+<l TEIform="l" part="N">Et dignitatem valde habentem in se sacram:</l>
+<l TEIform="l" part="N">Qua ceteris praestans regit animalia.</l>
+<pb id="s0026" n="10" TEIform="pb"/>
+<l TEIform="l" part="N">Cui serviunt quaecumque sub terra vigent:</l>
+<l TEIform="l" part="N">At ipse solus nulli, praeterquam Deo,</l>
+<l TEIform="l" part="N">A quo esse coepit, aeternaliter manens.</l>
+<l TEIform="l" part="N">Ut imperaret mundo, et seruiret suo</l>
+<l TEIform="l" part="N">Solum creatori, hunc tantum sincere amet,</l>
+<l TEIform="l" part="N">Et ceteras creaturas compelleret</l>
+<l TEIform="l" part="N">Parere soli sibi, nec non intelligat</l>
+<l TEIform="l" part="N">Oboedientiae tantum debere se</l>
+<l TEIform="l" part="N">Deo, ipse quantum a ceteris exposceret.</l>
+<l TEIform="l" part="N">RA. Tanto est homo prae cunctis quoque praestantior,</l>
+<l TEIform="l" part="N">Quanto magis consilio usus Deus novo.</l>
+<l TEIform="l" part="N">Nam qui hactenus de singulis paucissimis</l>
+<l TEIform="l" part="N">Pronuntiasset Fiat, et factum est statim:</l>
+<l TEIform="l" part="N">Fructumque terra proferat, mox protulit:</l>
+<l TEIform="l" part="N">Nunc voce mutata, sedens lassus quasi,</l>
+<l TEIform="l" part="N">Faciamus, inquit, hominem ad nostram imaginem,</l>
+<l TEIform="l" part="N">Et ecce factus est homo beatior.</l>
+<l TEIform="l" part="N">Repleatur ergo os nostrum laude perpetim.</l>
+<l TEIform="l" part="N">Et magnitudinem illius tota die</l>
+<l TEIform="l" part="N">Cantemus una gloriose sedulo.</l>
+<l TEIform="l" part="N">MI. Et hac necesse erat creatura quidem,</l>
+<l TEIform="l" part="N">Cum nemo qui terram fecundaret fuit,</l>
+<l TEIform="l" part="N">Nisi vapor rigavit illam funditus,</l>
+<l TEIform="l" part="N">Ceu ros super campos sparsus latissimos</l>
+<l TEIform="l" part="N">Felicius florem producit graminis.</l>
+<l TEIform="l" part="N">Quare creavit hunc Deus quasi omnium</l>
+<l TEIform="l" part="N">Rerum magistrum, principiemque fructuum,</l>
+<l TEIform="l" part="N">Terram super, qui seminaret semina,</l>
+<pb id="s0027" n="11" TEIform="pb"/>
+<l TEIform="l" part="N">Coleret agros, et imperaret omnibus</l>
+<l TEIform="l" part="N">Animantibus, siquidem non rationalibus.</l>
+<l TEIform="l" part="N">Nec hunc creavit frustra, sive simplici</l>
+<l TEIform="l" part="N">Modo, nec ex quovis limo terrae nigro,</l>
+<l TEIform="l" part="N">Sed candido, molli, levique pulvere</l>
+<l TEIform="l" part="N">Formavit, et digitis manus sacris suae,</l>
+<l TEIform="l" part="N">Fecitque natura fragilem cum corpore,</l>
+<l TEIform="l" part="N">Possit superbiae fastusque frangere</l>
+<l TEIform="l" part="N">Stimulos, feroces discat animos ponere.</l>
+<l TEIform="l" part="N">Modestiamque quaerat, postquam cogitat</l>
+<l TEIform="l" part="N">Qualis, quis, et quantus primo, unde sumpserit</l>
+<l TEIform="l" part="N">Initium sibi: plasmatorem Deum</l>
+<l TEIform="l" part="N">Agnoscat intime, nec se persistere</l>
+<l TEIform="l" part="N">Credat sua virtute posse, corporis</l>
+<l TEIform="l" part="N">Pulcherrimis bonis, vel ullis artibus.</l>
+<l TEIform="l" part="N">RA. Quid vero opus magni Dei beneficia</l>
+<l TEIform="l" part="N">Referre longius? cum nil fecit male.</l>
+<l TEIform="l" part="N">Nec nunc tamen quiescit otiosior,</l>
+<l TEIform="l" part="N">Operatur omni temporis sui gradu.</l>
+<l TEIform="l" part="N">Nec factus est ab aeterno mundi globus,</l>
+<l TEIform="l" part="N">Sed cepit esse nutu maximi Dei.</l>
+<l TEIform="l" part="N">Et ante quid nam fecerit, non nos decet</l>
+<l TEIform="l" part="N">Scrutarier, nec est necesse scire nos.</l>
+<l TEIform="l" part="N">Hoc sit satis, quod omnia bene facta sunt,</l>
+<l TEIform="l" part="N">Et nil melius esset per orbem conditum.</l>
+<l TEIform="l" part="N">Fungamur officio nostro, nobis dato:</l>
+<l TEIform="l" part="N">Nec quae supra sunt, anxii scrutabimur.</l>
+<l TEIform="l" part="N">GA. Bene admones frater quidem, quare ibimus.</l>
+<pb id="s0028" n="12" TEIform="pb"/>
+</lg>
+</div3>
+<div3 id="OpDB.01.02.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA III.</head>
+<stage type="mix" TEIform="stage">Deus. Adam.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DE. Ecquid placet mundi tibi ornatus novi,</l>
+<l TEIform="l" part="N">Adam? quid ipse miraris molis gravem</l>
+<l TEIform="l" part="N">Tantae, altitudinemque caeli sidera?</l>
+<l TEIform="l" part="N">Numquid vides quod nolis, aut quod <reg orig="tempseris" TEIform="reg">temnseris</reg>?</l>
+<l TEIform="l" part="N">AD. Domine, nihil non optimum quod feceris.</l>
+<l TEIform="l" part="N">Et ecce me, quem condidisti proxime,</l>
+<l TEIform="l" part="N">Praeter meum consilium et praescientiam,</l>
+<l TEIform="l" part="N">Qui certus huius vitae aeternalis siem</l>
+<l TEIform="l" part="N">Hinc melior est eo status praesens meus,</l>
+<l TEIform="l" part="N">Quod audiam, sciamque te verum Deum:</l>
+<l TEIform="l" part="N">Et ita vocatus, et creatus in bonum</l>
+<l TEIform="l" part="N">Finem, voluntatis nutu vivam tuae,</l>
+<l TEIform="l" part="N">Hominem quia ex terra creasti me Deus.</l>
+<l TEIform="l" part="N">DE. Nunc universa subdo denuo tuae</l>
+<l TEIform="l" part="N">Animalia potestati, et ipsa servient</l>
+<l TEIform="l" part="N">Soli tibi, nec alteri: dominaberis</l>
+<l TEIform="l" part="N">Tam piscibus, quam belluis, et reptili,</l>
+<l TEIform="l" part="N">Caeli volatilibus, idque omni tempore.</l>
+<l TEIform="l" part="N">Et quia tu Adam quicquam nihil <reg orig="sollicitus" TEIform="reg">sollicitus</reg> es,</l>
+<l TEIform="l" part="N">Ego rogatus numquam prospexi tibi</l>
+<l TEIform="l" part="N">In omnibus, quae vita humana postulat,</l>
+<l TEIform="l" part="N">Feci, dedique in promptu essent nulla mora.</l>
+<l TEIform="l" part="N">otia rogas, pacem cupis, solus feres.</l>
+<l TEIform="l" part="N">Quos comedas habes cibos, quid vel bibas.</l>
+<l TEIform="l" part="N">Igitur mihi quantae sies curae, vide.</l>
+<pb id="s0029" n="13" TEIform="pb"/>
+<l TEIform="l" part="N">Quid porro opus mihi his, tuo quae nomini</l>
+<l TEIform="l" part="N">Subiecerim? vel quid vita indigeo tua?</l>
+<l TEIform="l" part="N">Quam tibi dedi, quamque aufero quando lubet.</l>
+<l TEIform="l" part="N">Nam gratia uteris mea gratis data.</l>
+<l TEIform="l" part="N">Nec posse te quicquam tuis ex viribus</l>
+<l TEIform="l" part="N">Confide, si me amas, manus opus es meae,</l>
+<l TEIform="l" part="N">Plasma es meum, Deus creator ego tuus.</l>
+<l TEIform="l" part="N">Tibi meam rem publicam communico.</l>
+<l TEIform="l" part="N">Sub te domum hanc novam volo disponere.</l>
+<l TEIform="l" part="N">Habitaculum quoque ordinavi commodum</l>
+<l TEIform="l" part="N">Ut esset in mundo, vicem geres meam.</l>
+<l TEIform="l" part="N">Subiecta sunt tibi, quae vivunt, omnia.</l>
+<l TEIform="l" part="N">AD. Soli tibi subserviam Domino meo,</l>
+<l TEIform="l" part="N">Quoniam per unum te salus omnis venit.</l>
+<l TEIform="l" part="N">Meque omnium rerum locasti principem,</l>
+<l TEIform="l" part="N">Et imperare me viventibus</l>
+<l TEIform="l" part="N">Animalibus, terramque omniparentem super.</l>
+<l TEIform="l" part="N">Nunc cuncta serviunt mihi quo quo die:</l>
+<l TEIform="l" part="N">Solus ego nemini subiectus vixero,</l>
+<l TEIform="l" part="N">Nisi tibi meo Deo autocratori.</l>
+<l TEIform="l" part="N">Bis igitur, et crimen duplex incurrerem,</l>
+<l TEIform="l" part="N">Ubi minus pro dignitate debita</l>
+<l TEIform="l" part="N">Deo meo seruirem, poena dignior.</l>
+<l TEIform="l" part="N">Caelum tibi vestitur, et fulgoribus</l>
+<l TEIform="l" part="N">Solis, dies sua vicissitudine</l>
+<l TEIform="l" part="N">A noctibus cernuntur, aptis terminis.</l>
+<l TEIform="l" part="N">Ornantur arbores sub <corr sic="frondium" resp="transcriber" TEIform="corr">frondeum</corr> comis,</l>
+<l TEIform="l" part="N">Et silvae frondescunt omnes, floribus</l>
+<pb id="s0030" n="14" TEIform="pb"/>
+<l TEIform="l" part="N">Amoenus est campus, virescunt prataque,</l>
+<l TEIform="l" part="N">Edunt suos nunc iam fetus animantia,</l>
+<l TEIform="l" part="N">Parent tuo imperio, obsequia praestant sua.</l>
+<l TEIform="l" part="N">Amnes fluunt, fontes suis scatent locis,</l>
+<l TEIform="l" part="N">Maria coercenturque, augentur ordine:</l>
+<l TEIform="l" part="N">Nec fit sub orbe frustra quicquam concavo.</l>
+<l TEIform="l" part="N">DE. Vide quid amplius boni paraverim.</l>
+<l TEIform="l" part="N">Hortum elegantem fructuum prae copia,</l>
+<l TEIform="l" part="N">Locum voluptatis dulcis cultissimum,</l>
+<l TEIform="l" part="N">Et omnis ignarum tristis molestiae.</l>
+<l TEIform="l" part="N">Hunc destinavi tibi sedem vitae tuae,</l>
+<l TEIform="l" part="N">In hoc quasi custos relictus sedulo</l>
+<l TEIform="l" part="N">Operaberis, quamvis labor nullus tibi</l>
+<l TEIform="l" part="N">Erit gravis, solatio futurus est.</l>
+<l TEIform="l" part="N">Et interim fideli ibi custodia</l>
+<l TEIform="l" part="N">Tueberis, quae culta diligentius</l>
+<l TEIform="l" part="N">Sunt, his geres curam, coles hortum frequens.</l>
+<l TEIform="l" part="N">Huc colloco te tamquam in arcem regiam,</l>
+<l TEIform="l" part="N">Provinciam hanc tibi administrandam dedi:</l>
+<l TEIform="l" part="N">Vasallus es mihi, dominus feudi sum ego.</l>
+<l TEIform="l" part="N">Et liberum est hinc egredi quando voles:</l>
+<l TEIform="l" part="N">Perambulare, ceteras terras licet,</l>
+<l TEIform="l" part="N">Spatiari in illa, cumque brutis laudere</l>
+<l TEIform="l" part="N">Tua voluntate, et nihil deerit tibi.</l>
+<l TEIform="l" part="N">Haec in salutem praeparavimus tuam:</l>
+<l TEIform="l" part="N">Cuius voluptate frui te concessimus.</l>
+<l TEIform="l" part="N">Terrenus est quidem locus, sicut vides:</l>
+<l TEIform="l" part="N">Nec conditus mundi extra terminos procul.</l>
+<pb id="s0031" n="15" TEIform="pb"/>
+<l TEIform="l" part="N">In quo genus ligni produxi multiplex,</l>
+<l TEIform="l" part="N">Pulcherrimum, visuque delectabile,</l>
+<l TEIform="l" part="N">Et insuper vesci multo suavissimum.</l>
+<l TEIform="l" part="N">Hinc noveris plantantis diligentiam:</l>
+<l TEIform="l" part="N">Cum deficit nihil, suoque foenore</l>
+<l TEIform="l" part="N">Passim arbores fructus abunde proferant.</l>
+<l TEIform="l" part="N">Et hoc tui solius factum est gratia,</l>
+<l TEIform="l" part="N">Namque angelis caelum, sed paradysum tibi</l>
+<l TEIform="l" part="N">Debebitur. Nunc unam oboedientiae</l>
+<l TEIform="l" part="N">Collo tuo legem imponam, quo te mei</l>
+<l TEIform="l" part="N">Cunctis diebus esse memorem intelligam.</l>
+<l TEIform="l" part="N">De omni quidem ligno paradisi comedes,</l>
+<l TEIform="l" part="N">Praeter scientiae lignum, boni et mali:</l>
+<l TEIform="l" part="N">Quod hic in horti medio collocabitur,</l>
+<l TEIform="l" part="N">Crescitque suavi semper cum fragrantia</l>
+<l TEIform="l" part="N">Quocumque enim die de illo gustaveris,</l>
+<l TEIform="l" part="N">Morte effera morieris aeternaliter</l>
+<l TEIform="l" part="N">Subito, dolebis inque conspectu meo.</l>
+<l TEIform="l" part="N">Et hoc tibi signum est, te habere me Deum,</l>
+<l TEIform="l" part="N">Qui possiem mandare, legem imponere,</l>
+<l TEIform="l" part="N">Frenare cunctos mentis affectus tuae,</l>
+<l TEIform="l" part="N">Damnare, conservare, aut prorsus tollere,</l>
+<l TEIform="l" part="N">Hinc facile nosces, humanae quid possient</l>
+<l TEIform="l" part="N">Vires, tuum vel unde sumas vivere:</l>
+<l TEIform="l" part="N">An ex te ego, vel tu de me dependeas.</l>
+<l TEIform="l" part="N">Nihil boni omnino tuis in viribus</l>
+<l TEIform="l" part="N">Fateberis fuisse, vel posthac fore.</l>
+<l TEIform="l" part="N">Nisi quod a me habebis, et gratis datum,</l>
+<pb id="s0032" n="16" TEIform="pb"/>
+<l TEIform="l" part="N">Praeter tuum meritum: bonitatem conspice</l>
+<l TEIform="l" part="N">Meam, Deique divitias considera,</l>
+<l TEIform="l" part="N">Quarum usus est tibi datus <corr sic="legittime" resp="transcriber" TEIform="corr">legitime</corr>.</l>
+<l TEIform="l" part="N">Ego te in secreta consili misi mei,</l>
+<l TEIform="l" part="N">Una omnium mecum futurus particeps.</l>
+<l TEIform="l" part="N">Fons largus ortus est tibi salienti aqua,</l>
+<l TEIform="l" part="N">Ex quo suum ortum lata ducunt flumina</l>
+<l TEIform="l" part="N">Quatuor, ad irrigandum mundi terminos</l>
+<l TEIform="l" part="N">Omnes, nec unquam desinunt prolabier.</l>
+<l TEIform="l" part="N">His ipse fine sine frueris splendide,</l>
+<l TEIform="l" part="N">Multa voluptate irremissibiliter.</l>
+<l TEIform="l" part="N">Restabit, ut cunctis animalibus sua</l>
+<l TEIform="l" part="N">Des nomina: et quo vis vocabis nomine,</l>
+<l TEIform="l" part="N">Vocentur usque in saeculorum saecula.</l>
+<l TEIform="l" part="N">Et ecce coram te ambulant pecorum greges.</l>
+<l TEIform="l" part="N">Abi cito: quod iussi, fiat ordine.</l>
+<l TEIform="l" part="N">AD. Domine, vide paratum me votis tuis:</l>
+<l TEIform="l" part="N">Tuus quidem, tuoque vivo munere.</l>
+<l TEIform="l" part="N">DE. Bene facis, ubi cognoveris qualis sies,</l>
+<l TEIform="l" part="N">Aut unde vitam sumpseris primus tuam.</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.02.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA IIII.</head>
+<stage type="mix" TEIform="stage">Adam.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">AD. Ecquis meae finis voluptatis potest</l>
+<l TEIform="l" part="N">Nunc esse, sub medio deliciarum? vide,</l>
+<l TEIform="l" part="N">Nihil tibi defit, solus quem diligat</l>
+<l TEIform="l" part="N">Deus, manuque cuius sic compactus es</l>
+<l TEIform="l" part="N">Homo, tuis meritis nullis. ex gratia</l>
+<pb id="s0033" n="17" TEIform="pb"/>
+<l TEIform="l" part="N">Mera, nec hoc contentus, insuper mihi</l>
+<l TEIform="l" part="N">Hortum paravit elegantem maxime,</l>
+<l TEIform="l" part="N">Frugumque copia praedivitem nimis.</l>
+<l TEIform="l" part="N">Custodiamque commisit soli mihi</l>
+<l TEIform="l" part="N">Huius, quid amplius? dedit legem unicam,</l>
+<l TEIform="l" part="N">Ne <corr sic="commedam" resp="transcriber" TEIform="corr">comedam</corr> de vitae ligni fructibus.</l>
+<l TEIform="l" part="N">Servabo diligenter, nec necessitas</l>
+<l TEIform="l" part="N">Urget, sub illa rerum opulentia omnium,</l>
+<l TEIform="l" part="N">Transgressor ullius mandati sim Dei.</l>
+<l TEIform="l" part="N">Quid debeam porro patri, et Deo meo,</l>
+<l TEIform="l" part="N">Agnosco, seruitutis omnis debita:</l>
+<l TEIform="l" part="N">Denique meam vitam, qua nil est dulcius.</l>
+<l TEIform="l" part="N">Nec hoc satis futurum pro tantis suis</l>
+<l TEIform="l" part="N">Beneficiis, quin gratulationibus,</l>
+<l TEIform="l" part="N">Et laudibus cantabo magnificentiam</l>
+<l TEIform="l" part="N">Eius, nec unquam desinam, dum vixero.</l>
+<l TEIform="l" part="N">At tanta beneficiorum multitudo me</l>
+<l TEIform="l" part="N">Vincit, meosque sensus auferet scio,</l>
+<l TEIform="l" part="N">Et cogitationes rumpit funditus.</l>
+<l TEIform="l" part="N">Et si oris obsequia totum tempus tenent,</l>
+<l TEIform="l" part="N">Praeterque laudes concinent aliud nihil,</l>
+<l TEIform="l" part="N">Et gratiarum insistat sedula actio,</l>
+<l TEIform="l" part="N">Numquam recompensabo minimum quod foret.</l>
+<l TEIform="l" part="N">At hoc agam, quicquid mihi mea fragilitas</l>
+<l TEIform="l" part="N">Aufert, pia id devotio cum foenore</l>
+<l TEIform="l" part="N">Reddat, sua mera coniuncta gratia,</l>
+<l TEIform="l" part="N">Eius Dei in quam, qui dedit mihi vivere.</l>
+<l TEIform="l" part="N">En solis aestus me premit, lassum facit,</l>
+<pb id="s0034" n="18" TEIform="pb"/>
+<l TEIform="l" part="N">Hinc iam parum natura <corr sic="dormiturio" resp="transcriber" TEIform="corr">dormitorio</corr>.</l>
+<l TEIform="l" part="N">Igitur lubet viridi paulisper gramine</l>
+<l TEIform="l" part="N">Dormire, stratis hac sub umbra corporis</l>
+<l TEIform="l" part="N">Membris, aqua currente dulci proxime</l>
+<l TEIform="l" part="N">Sono, levem somnum susurrus incutit.</l>
+</lg>
+</div3>
+</div2>
+<div2 id="OpDB.01.03" n="3" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS SECUNDI,</head>
+<div3 id="OpDB.01.03.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA PRIMA.</head>
+<stage type="mix" TEIform="stage">Deus. Adam.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DE. Nihil, quod orbi desit, esse cernimus,</l>
+<l TEIform="l" part="N">Protoque plasto cuncta rite serviunt,</l>
+<l TEIform="l" part="N">Posthac nec illi quicquam defore arbitror.</l>
+<l TEIform="l" part="N">Ornatus omnis mundi perfectissimus</l>
+<l TEIform="l" part="N">Constabit, et virtute sacra firmior</l>
+<l TEIform="l" part="N">Semper movebitur suis in terminis,</l>
+<l TEIform="l" part="N">In commodum viventium perenniter:</l>
+<l TEIform="l" part="N">Cunctis homo dominabitur, tamquam suis</l>
+<l TEIform="l" part="N">Et subditis, et <corr sic="servitoribus" resp="transcriber" TEIform="corr">servitutibus</corr> quidem.</l>
+<l TEIform="l" part="N">At esse solum hominem in terra non convenit.</l>
+<l TEIform="l" part="N">Nec est bonum: quid ille nam solus facit?</l>
+<l TEIform="l" part="N">Iungamus ergo illi suum adiutorium,</l>
+<l TEIform="l" part="N">Simile sui, rationis atque particeps,</l>
+<l TEIform="l" part="N">Tamquam vir est, nisi quod inter se siet</l>
+<l TEIform="l" part="N">Utriusque sexus quaedam differentia.</l>
+<l TEIform="l" part="N">Hic vir manet, sed illa mulier sit, decus</l>
+<l TEIform="l" part="N">Viri, suppellexque omnium purissima.</l>
+<l TEIform="l" part="N">Ex his mihi duobus humanum genus</l>
+<pb id="s0035" n="19" TEIform="pb"/>
+<l TEIform="l" part="N">Sancta propagetur sobole terram super.</l>
+<l TEIform="l" part="N">Namque ex viro maritum solitario</l>
+<l TEIform="l" part="N">Faciam, daboque coniugem <corr sic="legittimam" resp="transcriber" TEIform="corr">legitimam</corr>,</l>
+<l TEIform="l" part="N">Ut de suo producant prolem semine.</l>
+<l TEIform="l" part="N">Est etenim homo praestantior substantia,</l>
+<l TEIform="l" part="N">Quam terra, caelum, vel sub illis quicquid est:</l>
+<l TEIform="l" part="N">Beatitudinis futurae gloriae,</l>
+<l TEIform="l" part="N">Et insuper divinitatis particeps.</l>
+<l TEIform="l" part="N">Quid? belluis perliberaliter data est</l>
+<l TEIform="l" part="N">Generationis causa, iuncta societas:</l>
+<l TEIform="l" part="N">Et hac homo carebit solus omnium?</l>
+<l TEIform="l" part="N">Nihil minus. Quamvis Adam quae sunt opus</l>
+<l TEIform="l" part="N">Habet, tamen quod optimum est, hunc deficit:</l>
+<l TEIform="l" part="N">Donum, puta, sibi gignendi liberos,</l>
+<l TEIform="l" part="N">Amoris et successionis pignora,</l>
+<l TEIform="l" part="N"><reg orig="Connubiique" TEIform="reg">Conubiique</reg> dulce vinculum sacri.</l>
+<l TEIform="l" part="N">Nec hoc habebit unquam, si solus manet</l>
+<l TEIform="l" part="N">Sine socia vitae, quae sola femina est.</l>
+<l TEIform="l" part="N">Nec illa sit tantum viri adiutorium,</l>
+<l TEIform="l" part="N">Sed instrumentum, quo vir utitur, sacrum,</l>
+<l TEIform="l" part="N">Terrae plagas complendi prole gratia,</l>
+<l TEIform="l" part="N">Turbamque sanctorum repletam reddere.</l>
+<l TEIform="l" part="N">Quare gravem somnum dedi, quo longius</l>
+<l TEIform="l" part="N">Dormiret ingratis Adam, nec surgeret.</l>
+<l TEIform="l" part="N">Quoniam meorum operum, necesse non erit,</l>
+<l TEIform="l" part="N">Exactam homo rationem intelligat statim:</l>
+<l TEIform="l" part="N">Quantum ipse vel vigilet, quantumvis expetat.</l>
+<l TEIform="l" part="N">Haec scire non oportet illum sensibus,</l>
+<pb id="s0036" n="20" TEIform="pb"/>
+<l TEIform="l" part="N">Qui sunt foris: hinc illos somno clausimus.</l>
+<l TEIform="l" part="N">Sub mente vigilans noscat ea, sibi est satis:</l>
+<l TEIform="l" part="N">Posthac id etiam quod nescit, resciverit.</l>
+<l TEIform="l" part="N">Deus eripit Adamo costam ex</l>
+<l TEIform="l" part="N">latere, dicens:</l>
+<l TEIform="l" part="N">Ex osse duro protinus fiat caro,</l>
+<l TEIform="l" part="N">Et una discernatur in carnem duplam,</l>
+<l TEIform="l" part="N">Sic, ut tamen duo sub uno mentium</l>
+<l TEIform="l" part="N">Versentur usque affectu indissolubili</l>
+<l TEIform="l" part="N"><reg orig="Connubii" TEIform="reg">Conubii</reg> postquam leges iniverint.</l>
+<l TEIform="l" part="N">Heus surge, surge tandem, Adam expergiscere:</l>
+<l TEIform="l" part="N">En hic tui simile, nisi quod femina est.</l>
+<l TEIform="l" part="N">Haec sit soror, consors perennis gratiae.</l>
+<l TEIform="l" part="N">Hanc do tibi, <corr sic="propiamque" resp="transcriber" TEIform="corr">propriamque</corr> coniugem dico,</l>
+<l TEIform="l" part="N">Maritus illi sis fide constantior:</l>
+<l TEIform="l" part="N">Quam procreandi liberos causa dedi.</l>
+<l TEIform="l" part="N">Sumptam e latere tuo, tuisque ex ossibus,</l>
+<l TEIform="l" part="N"><corr sic="Frimum" resp="transcriber" TEIform="corr">Firmum</corr> tibi adiutorium, solatium</l>
+<l TEIform="l" part="N">Certissimum feci, ut foret semper tibi.</l>
+<l TEIform="l" part="N">Quid porro opus costa fuit ad hanc rem mihi,</l>
+<l TEIform="l" part="N">Quando licebat hanc simili tecum modo</l>
+<l TEIform="l" part="N">Sub temporis creare nulla instantia?</l>
+<l TEIform="l" part="N">Verum caro de carne nata gratior</l>
+<l TEIform="l" part="N">Venit, paritque semper insolubile</l>
+<l TEIform="l" part="N">Amoris et amicitiae sacrae vinculum.</l>
+<l TEIform="l" part="N">Denique quid ipse coniugi debes vide.</l>
+<l TEIform="l" part="N">Et quos ego iunxi, nec quisquam separet.</l>
+<l TEIform="l" part="N">Benedictio mea provehat connubium</l>
+<pb id="s0037" n="21" TEIform="pb"/>
+<l TEIform="l" part="N">Vestrum, simulque castior Genius torum</l>
+<l TEIform="l" part="N">Defendat: insuper multumque crescite,</l>
+<l TEIform="l" part="N">Replete terram, multiplicamini nimis.</l>
+<l TEIform="l" part="N">Nec in labore sociam habebis, nil opus</l>
+<l TEIform="l" part="N">Sudore vestrarum manuum: quin liberis</l>
+<l TEIform="l" part="N">Operam propagandis dabitis, et mutuo</l>
+<l TEIform="l" part="N">Amabitis, solum his voluntas mea posita.</l>
+<l TEIform="l" part="N"><corr sic="Adicientur" resp="transcriber" TEIform="corr">Adicientur</corr> affatim quibus opus est.</l>
+<l TEIform="l" part="N">Ego videbo (nam curare frustra erit</l>
+<l TEIform="l" part="N">Vos) si datam legem meam servabitis.</l>
+<l TEIform="l" part="N">AD. Ex ossibus meis hoc es, et mea caro est.</l>
+<l TEIform="l" part="N">Quare vocabitur virago nomine,</l>
+<l TEIform="l" part="N">Quod ex viro desumpta, pars virilis est</l>
+<l TEIform="l" part="N">Carnis mulier, at imperfecta dicitur</l>
+<l TEIform="l" part="N">Caro viri, quae per sacrum connubium</l>
+<l TEIform="l" part="N">Perfecta redditur, suoque cum viro</l>
+<l TEIform="l" part="N">Fit una, quae divisa partibus fuit.</l>
+<l TEIform="l" part="N">Nam propter hanc relinquit homo matrem et patrem,</l>
+<l TEIform="l" part="N">Et huic adhaerebit soli carissimae:</l>
+<l TEIform="l" part="N">Quod sint duo facti sub uno corpore.</l>
+<l TEIform="l" part="N">Ita nunc fit inter nos inseparabilis</l>
+<l TEIform="l" part="N">Amoris, atque affectuum coniunctio.</l>
+<l TEIform="l" part="N">Et bestiis Domine dedisti feminas,</l>
+<l TEIform="l" part="N">Suum genus quo conservarent longius.</l>
+<l TEIform="l" part="N">Nunc bene facis, qui nos simul respexeris,</l>
+<l TEIform="l" part="N">Ut posteros tibi relinquamus Deo,</l>
+<l TEIform="l" part="N">In testimonium profundae gratiae</l>
+<l TEIform="l" part="N">Tuae. Mea haec est uxor, et mea permanet.</l>
+<pb id="s0038" n="22" TEIform="pb"/>
+</lg>
+</div3>
+<div3 id="OpDB.01.03.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA II.</head>
+<stage type="mix" TEIform="stage">Adam. Eua.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">AD. Dilecta coniunx, consolatio mea,</l>
+<l TEIform="l" part="N">Veni, mihi adiutorium a Deo datum.</l>
+<l TEIform="l" part="N">Ecce hic voluptuosus est nostrae locus</l>
+<l TEIform="l" part="N">Habitationis, plena vita gaudii</l>
+<l TEIform="l" part="N">Futura nobis, quae nec unquam deficit,</l>
+<l TEIform="l" part="N">Augescit imo (fine nullo) plurimum.</l>
+<l TEIform="l" part="N">Quid dulcius fructu? quid est pomario</l>
+<l TEIform="l" part="N">Vel pulchrius, magisve delectabile?</l>
+<l TEIform="l" part="N">Haec cuncta sunt potestati nostrae data.</l>
+<l TEIform="l" part="N">Quid nam rogo pote esse gloriosius</l>
+<l TEIform="l" part="N">Hac sorte nostra? qua beavit nos Deus.</l>
+<l TEIform="l" part="N">En bestiae terrae, et volucres blandulae</l>
+<l TEIform="l" part="N">Deserviunt nobis, doctae acquiescere</l>
+<l TEIform="l" part="N">Tam iussibus nostris, quam nutui Dei.</l>
+<l TEIform="l" part="N">Quod maximum porro est, tuos hic liberos</l>
+<l TEIform="l" part="N">Dolore nullo enixa sufferes diu.</l>
+<l TEIform="l" part="N">Partus levis futurus, educatio</l>
+<l TEIform="l" part="N">Facilis, et ingens liberorum copia</l>
+<l TEIform="l" part="N">Nascetur ex te matre fecundissima,</l>
+<l TEIform="l" part="N">Benedictione maximi sacra Dei.</l>
+<l TEIform="l" part="N">Tu mihi domus, refugium, mansio mea.</l>
+<l TEIform="l" part="N">Merumque gaudium, quo saepe conferam</l>
+<l TEIform="l" part="N">Me, quando natura utriusque postulat.</l>
+<l TEIform="l" part="N">Parere soli uni Dei legi decet,</l>
+<l TEIform="l" part="N">Ne nos voluntatis suae promptissimae</l>
+<l TEIform="l" part="N">Oblitos esse sentiens, ac puniat.</l>
+<pb id="s0039" n="23" TEIform="pb"/>
+<l TEIform="l" part="N">Hoc cogita, mulierem honestam nunc sui</l>
+<l TEIform="l" part="N">Fulgere gloria mariti splendide.</l>
+<l TEIform="l" part="N">At quid mihi est, quod non idem tibi siet?</l>
+<l TEIform="l" part="N">Quid possides, quod non pariter fiat meum?</l>
+<l TEIform="l" part="N">Adeo nihil non inter nos commune erit.</l>
+<l TEIform="l" part="N">Labore nullo eges, cum crescant omnia</l>
+<l TEIform="l" part="N">Sua quidem sponte, et semper perenniter.</l>
+<l TEIform="l" part="N">EVA. Hem mi vir, edoce Deus quid iusserit.</l>
+<l TEIform="l" part="N">Talem me habebis, qualem optas permaxime.</l>
+<l TEIform="l" part="N">AD. Ergo vide. Ex omni ligno licet edere,</l>
+<l TEIform="l" part="N">Excepto eo quod in medio pomarii</l>
+<l TEIform="l" part="N">Crescit, scientiae boni et mali ferens</l>
+<l TEIform="l" part="N">Pomum, suaque ceteris dulcedine</l>
+<l TEIform="l" part="N">Suavius, sicut videtur proxime</l>
+<l TEIform="l" part="N">Spectantibus: plenum tamen periculi.</l>
+<l TEIform="l" part="N">Hoc est Dei mandatum, serium nimis:</l>
+<l TEIform="l" part="N">Quod integrum servari a nobis postulat.</l>
+<l TEIform="l" part="N">Quare mea uxor, sis memor dicti mei.</l>
+<l TEIform="l" part="N">Nam quo die quicquam ex eo gustaveris,</l>
+<l TEIform="l" part="N">Morieris atro genere mortis funditus.</l>
+<l TEIform="l" part="N">Habes amoenas arbores, et fructuum</l>
+<l TEIform="l" part="N">Plenas, graves, curvasque dulci pondere.</l>
+<l TEIform="l" part="N">Sume hoc, placebit: gusta, delectabile</l>
+<l TEIform="l" part="N">Malum est. EVA. Nec ullum credo dulcius fore.</l>
+<l TEIform="l" part="N">AD. Deambulabimus per horti terminos</l>
+<l TEIform="l" part="N">Paulisper hic, quas delicias habet vides.</l>
+<l TEIform="l" part="N">Variis en ornatum solum coloribus</l>
+<l TEIform="l" part="N">Florum, quid esse amoenius quaeso potest?</l>
+<pb id="s0040" n="24" TEIform="pb"/>
+<l TEIform="l" part="N">Viride sub ipso pratum ridet gramine,</l>
+<l TEIform="l" part="N">Multae feraces arbores cum frondibus</l>
+<l TEIform="l" part="N">Stant, eriguntur altius, pendentibus</l>
+<l TEIform="l" part="N">Foliisque placidas umbras e purissimo</l>
+<l TEIform="l" part="N">Aere ministrant suavius recubantibus.</l>
+<l TEIform="l" part="N">Ex fonte liquido proruunt dulces aquae,</l>
+<l TEIform="l" part="N">Argenteis vadis, et alveo cavo,</l>
+<l TEIform="l" part="N">Scaturiginis mirae, tinnitu quopiam,</l>
+<l TEIform="l" part="N">Facilique flexu prata rigant omnia</l>
+<l TEIform="l" part="N">Campos inundant rivulis plenissimis:</l>
+<l TEIform="l" part="N">Nec siccitatem sentiunt, nec in super</l>
+<l TEIform="l" part="N">Fluidus liquor campis nocet viridantibus.</l>
+<l TEIform="l" part="N">Audi nemus volucrium canentium</l>
+<l TEIform="l" part="N">Sonare dulcius melos, altissimo</l>
+<l TEIform="l" part="N">Gutture, dies noctesque resonant arbores.</l>
+<l TEIform="l" part="N">Quid est opus multis? habemus sidera</l>
+<l TEIform="l" part="N">Propinqua nobis semper, et Solem aureum</l>
+<l TEIform="l" part="N">Sub circulo maiorem visu splendido,</l>
+<l TEIform="l" part="N">Lunam magisque candidam, numquam vagam.</l>
+<l TEIform="l" part="N">Splen dentibus puris radiis lucescere</l>
+<l TEIform="l" part="N">Caelo videmus clara noctis lumina.</l>
+<l TEIform="l" part="N">Hic est serenitas, ab omni turbine</l>
+<l TEIform="l" part="N">Quieta, tempestatibus, numquam madens</l>
+<l TEIform="l" part="N">Aer, gravisque nulla surgit aethere</l>
+<l TEIform="l" part="N">Pluvia, vel in alto caeli <corr sic="corruscatio" resp="transcriber" TEIform="corr">coruscatio</corr>.</l>
+<l TEIform="l" part="N">Hic nulla regnat cura multum noxia,</l>
+<l TEIform="l" part="N">Securitas, et otium, tranquillitas</l>
+<l TEIform="l" part="N">Integra manet, pax sempiterna caelitus</l>
+<pb id="s0041" n="25" TEIform="pb"/>
+<l TEIform="l" part="N">Demissa vires usque corporis fovet.</l>
+<l TEIform="l" part="N">Tum collocutor unus est nobis Deus:</l>
+<l TEIform="l" part="N">Praesentia cuius laetantur omnia.</l>
+<l TEIform="l" part="N">Nostri ministri spiritus caeli, cohors</l>
+<l TEIform="l" part="N">Angelica seruit diligentia sua.</l>
+<l TEIform="l" part="N">Et ne vager per infinita longius,</l>
+<l TEIform="l" part="N">In comparabilis data est felicitas</l>
+<l TEIform="l" part="N">Nobis. Quid amplius potest facere Deus?</l>
+<l TEIform="l" part="N">Quid non dedit duplici suis cum foenore?</l>
+<l TEIform="l" part="N">EV. Hem mira, mi vir, cernimus nutu Dei.</l>
+<l TEIform="l" part="N">Hic summa virtus, petitur hac caelum via.</l>
+<l TEIform="l" part="N">Tanto voluptatis thesauro nos frui?</l>
+<l TEIform="l" part="N">Studio Dei, summaque diligentia.</l>
+<l TEIform="l" part="N">O quanta erit beatitudo posteris</l>
+<l TEIform="l" part="N">Nostris futura, quanta tum possessio</l>
+<l TEIform="l" part="N">Datur bonorum, quis potest finis precor</l>
+<l TEIform="l" part="N">Fieri sub his opibus? huc qui deduxeris</l>
+<l TEIform="l" part="N">Nos gloriae plenos, tibi sit gratia.</l>
+<l TEIform="l" part="N">Qui nos tuos elegeris, nihilo creans,</l>
+<l TEIform="l" part="N">Vitamque iocundissimam largitus es.</l>
+<l TEIform="l" part="N">Quid non tibi debemus omnium patri?</l>
+<l TEIform="l" part="N">AD. Quid? quo loco morentur vidisti greges</l>
+<l TEIform="l" part="N">Animalium, vel quo modo per pascua</l>
+<l TEIform="l" part="N">Errent ferae? sequitur ubi usque masculam</l>
+<l TEIform="l" part="N">Mas, lege natur ali, amor docet viam.</l>
+<l TEIform="l" part="N">Hic crescit utriusque proles plurima</l>
+<l TEIform="l" part="N">Sexus, cavus repletur orbis terminus</l>
+<l TEIform="l" part="N">Viventibus animalibus varii ordinis.</l>
+<pb id="s0042" n="26" TEIform="pb"/>
+<l TEIform="l" part="N">Ubi sunt? videre gestio. duc protinus</l>
+<l TEIform="l" part="N">Me: nulla satias pectoris tenet intima,</l>
+<l TEIform="l" part="N">Cor mihi salit prae gaudio, quando licet</l>
+<l TEIform="l" part="N">Videre, tu tamen decus domus tuae,</l>
+<l TEIform="l" part="N">Et coniugis sacrum columen omni loco.</l>
+<l TEIform="l" part="N">AD. Veni, videbimus, licet quod postulas</l>
+<l TEIform="l" part="N">Praestare primum, non erit votis opus.</l>
+<l TEIform="l" part="N">Aderit creator, qui pedes nostros regat.</l>
+<l TEIform="l" part="N">Nec fera nocebit ulla, quamvis pessima:</l>
+<l TEIform="l" part="N">Quibus imperare nostrum erit. EV. Abi prae, sequar.</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.03.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA III.</head>
+<stage type="mix" TEIform="stage">Lucifer. Belial. Sathan.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LV. Livoris atri rumpor impetu miser,</l>
+<l TEIform="l" part="N">Nec quo diutius modo invidiam pati</l>
+<l TEIform="l" part="N">Possim invenio, conditionis nostrae memor.</l>
+<l TEIform="l" part="N">Deperditi, caeloque pulsi funditus,</l>
+<l TEIform="l" part="N">Nec quo gradu ascensus daretur scibimus.</l>
+<l TEIform="l" part="N">Quis nam iste, nostri generis exitium, ac lues!</l>
+<l TEIform="l" part="N">Quis tam potens sua manu casum parat?</l>
+<l TEIform="l" part="N">Unus creator, generis humani sator,</l>
+<l TEIform="l" part="N">Et conditor mundi, arbiter mali et boni.</l>
+<l TEIform="l" part="N">Pudet profecto ob noxiam tam parvulam</l>
+<l TEIform="l" part="N">Nos ire deiectos, dolor me maximus</l>
+<l TEIform="l" part="N">Tenet: recordor quando nostrae pristinae,</l>
+<l TEIform="l" part="N">Et obsoletae gloriae fit mentio,</l>
+<l TEIform="l" part="N">Nec <corr sic="ceptus" resp="transcriber" TEIform="corr">coeptus</corr> unquam cedet ex animis furor.</l>
+<l TEIform="l" part="N">Ulciscar hanc iniuriam novo dolo.</l>
+<pb id="s0043" n="27" TEIform="pb"/>
+<l TEIform="l" part="N">Possessor horti regnet? hunc tantae domus</l>
+<l TEIform="l" part="N">Fortuna sequitur clara, spretis omnibus</l>
+<l TEIform="l" part="N">Nobis, Homo pulvis, cinis levissimus?</l>
+<l TEIform="l" part="N">BEL. Nec nos iuvat praeterita verbis plurimis</l>
+<l TEIform="l" part="N">Memorarier. sententia lata semel,</l>
+<l TEIform="l" part="N">Superbiae dedimus graves poenas: satis</l>
+<l TEIform="l" part="N">Contemptui cunctis sumus viventibus.</l>
+<l TEIform="l" part="N">SAT. Quid tam moleste tulerit, omnes novimus.</l>
+<l TEIform="l" part="N">Cum dicerem, Ascendam in locum caeli sacrum,</l>
+<l TEIform="l" part="N">Meumque ponam solium, sede qua lubet,</l>
+<l TEIform="l" part="N">Super astra maximi, superque nubium</l>
+<l TEIform="l" part="N">Longe altitudinem, similis altissimo</l>
+<l TEIform="l" part="N">Ero: sed ipse fregit omnem mentium</l>
+<l TEIform="l" part="N">Spem, cuncta nutu qui regit suo omnia,</l>
+<l TEIform="l" part="N">Deiecit usque in Tartarum, tenebras graves,</l>
+<l TEIform="l" part="N">Et segregavit nos ab angelis suis:</l>
+<l TEIform="l" part="N">Hominem creaturam novam sibi eligens,</l>
+<l TEIform="l" part="N">Exaltat illum super omnes choros sacros.</l>
+<l TEIform="l" part="N">LV. In quem quid ego possim, videbo protinus.</l>
+<l TEIform="l" part="N">Inveniam, ubi referam parem illi gratiam.</l>
+<l TEIform="l" part="N">Captare praedam posse me spero quidem,</l>
+<l TEIform="l" part="N">Industriae vires dolus dabit malus,</l>
+<l TEIform="l" part="N">Struere docebitque homini iam fallacias.</l>
+<l TEIform="l" part="N">BEL. Quid ergo faciendum putatis optimi</l>
+<l TEIform="l" part="N">Socii, quod homo molestius posthac ferat,</l>
+<l TEIform="l" part="N">Quando videbit ire se deperditum,</l>
+<l TEIform="l" part="N">Humana gens, intercidatque funditus?</l>
+<l TEIform="l" part="N">SAT. En quae voluptatis genera homo possidet,</l>
+<pb id="s0044" n="28" TEIform="pb"/>
+<l TEIform="l" part="N">Animal luto facili creatum primitus,</l>
+<l TEIform="l" part="N">Et tanta possidere dignum gaudia?</l>
+<l TEIform="l" part="N">Tot et frui deliciis sine cura decet?</l>
+<l TEIform="l" part="N">BEL. Haec res, ubi nervos tuos extendere</l>
+<l TEIform="l" part="N">Possis, data est, excogitataque: accingere.</l>
+<l TEIform="l" part="N">SAT. O Lucifer, summa ad te solum nunc redit.</l>
+<l TEIform="l" part="N">Feremus hunc diutius versarier</l>
+<l TEIform="l" part="N">Inter sacros horti fructus, magno malo</l>
+<l TEIform="l" part="N">Nostro? nihil minus. vide quid debeas,</l>
+<l TEIform="l" part="N">In hoc saluti publicae, solus potes</l>
+<l TEIform="l" part="N">Ulcisci, et illi auferre tantum gloriae.</l>
+<l TEIform="l" part="N">BEL. Qui si statu praesenti salvus permanet,</l>
+<l TEIform="l" part="N">Quis omnium nostrum similis illis foret?</l>
+<l TEIform="l" part="N">LV. Iam cogito. Hem falli quibus habeo potest:</l>
+<l TEIform="l" part="N">Sola superbia, et maioris gloriae</l>
+<l TEIform="l" part="N">Spe, si Deum sese futurum crederet.</l>
+<l TEIform="l" part="N">SA. Heus, non virum tentabimus, mulier erit</l>
+<l TEIform="l" part="N">His rebus aptior. viri ingenium, scio,</l>
+<l TEIform="l" part="N">Flecti nequit, frangi potest muliere duce.</l>
+<l TEIform="l" part="N">Proinde antequam de firmet, aut vires paret,</l>
+<l TEIform="l" part="N">Mulier petatur plurimis et sedulo</l>
+<l TEIform="l" part="N">Tentationibus, parta est victoria,</l>
+<l TEIform="l" part="N">Si quid modo suadebimus tamquam bonum:</l>
+<l TEIform="l" part="N">Peribit ipsa prorsus, et perdet virum.</l>
+<l TEIform="l" part="N">BEL. Constantior multo vir est, quam femina,</l>
+<l TEIform="l" part="N">Quem si nihil movet, tamen mulier movet</l>
+<l TEIform="l" part="N"><reg orig="Blanditiis" TEIform="reg">Blandidiis</reg>, solum hoc quibus capitur genus.</l>
+<l TEIform="l" part="N">Quid si prior suadebis ipsi feminae,</l>
+<pb id="s0045" n="29" TEIform="pb"/>
+<l TEIform="l" part="N">Fructum a Deo vetitum, saporis optimi,</l>
+<l TEIform="l" part="N">Et esui esse ceteris vel dulcius?</l>
+<l TEIform="l" part="N">Qua lege transgressa Dei, poenas luent</l>
+<l TEIform="l" part="N">Inobedientiae suae nimium graves:</l>
+<l TEIform="l" part="N">Deus scio quod nil inultum sufferat.</l>
+<l TEIform="l" part="N">LV. Recte mones. Et qua via primum aggredi</l>
+<l TEIform="l" part="N">Hanc debeam, novi. comes Serpens erit:</l>
+<l TEIform="l" part="N">Qui callidus magis quidem quam cetera</l>
+<l TEIform="l" part="N">Animalia, quibus solus homo mandare habet.</l>
+<l TEIform="l" part="N">Eo utar instrumento ad hanc rem quam paro.</l>
+<l TEIform="l" part="N">Hunc ego subornabo. nam tentandum est nefas</l>
+<l TEIform="l" part="N">Atrox, nec unquam scelera ulciscimur, nisi</l>
+<l TEIform="l" part="N">Vincamus. et quid esse tam bonum potest,</l>
+<l TEIform="l" part="N">Quam si mulieri suadet, utque <corr sic="commedat" resp="transcriber" TEIform="corr">comedat</corr></l>
+<l TEIform="l" part="N">Ex arbore illa quam Deus fecit sacram,</l>
+<l TEIform="l" part="N">Et praebeat pomum viro, communicans</l>
+<l TEIform="l" part="N">Tantum boni, fiatque poenae particeps.</l>
+<l TEIform="l" part="N">Et quid loquatur edocebo callide,</l>
+<l TEIform="l" part="N"><reg orig="Subiciens" TEIform="reg">Subiciens</reg> verbumque verbo proxime.</l>
+<l TEIform="l" part="N">Serpens ad hanc rem maxime fit commodus,</l>
+<l TEIform="l" part="N">Pulcher, bonus, benedictus est, amabilis</l>
+<l TEIform="l" part="N">Prae bestiis cunctis super viventibus</l>
+<l TEIform="l" part="N">Terram, insuper quo cum libenter victitat</l>
+<l TEIform="l" part="N">Homo. nec est dubium, facit me compotem</l>
+<l TEIform="l" part="N">Voti. videbitis statim quid possiem</l>
+<l TEIform="l" part="N">Facere, quod ex usu futurum est omnibus.</l>
+<l TEIform="l" part="N">Quod si fit, ipse res meas probissime</l>
+<l TEIform="l" part="N">Constabilisse puto, nec aliquid conquerar.</l>
+<pb id="s0046" n="30" TEIform="pb"/>
+<l TEIform="l" part="N">At singulari industria est opus tibi.</l>
+<l TEIform="l" part="N">LV. Quin novimus, mandata quae Deus dedit.</l>
+<l TEIform="l" part="N">Audivi enim auribus meis cum diceret,</l>
+<l TEIform="l" part="N">Ex fructibus pomarii cunctis licet</l>
+<l TEIform="l" part="N">Edere tibi, praeter quod est sub hortuli</l>
+<l TEIform="l" part="N">Medio: sacrum quoniam mihi lignum illud est,</l>
+<l TEIform="l" part="N">Et integrum manebit omni tempore.</l>
+<l TEIform="l" part="N">Sed si tibi legem datam neglexeris,</l>
+<l TEIform="l" part="N">Morieris, et mors poena sceleris est tui.</l>
+<l TEIform="l" part="N">Hinc lege fracta, extemplo in exitium ruunt,</l>
+<l TEIform="l" part="N">Et gloriae summo gradu mox excidunt.</l>
+<l TEIform="l" part="N">BEL. Ita est: age omnes <corr sic="advoca" resp="transcriber" TEIform="corr">advocat</corr>, si deficis.</l>
+<l TEIform="l" part="N">Nullum scelus putabis, aut fraudis locum:</l>
+<l TEIform="l" part="N">Nil non licebit tibi, licet ulciscier.</l>
+<l TEIform="l" part="N">Quicquid potes, nunc perge, nunc aude, incipe:</l>
+<l TEIform="l" part="N">Et quod minus potes, cito nos <corr sic="invoca" resp="transcriber" TEIform="corr">invocamus</corr>.</l>
+<l TEIform="l" part="N">Struantur omnis generis impii doli.</l>
+<l TEIform="l" part="N">Fortuna causam, qua volet, nostram premat.</l>
+<l TEIform="l" part="N">Tibi id negotii datur, praesta virum.</l>
+<l TEIform="l" part="N">Quod si redieris victor nobis, ecce tum</l>
+<l TEIform="l" part="N">Laeti triumphabimus, et ingens gratia</l>
+<l TEIform="l" part="N">Debebitur soli tibi, praeque omnibus.</l>
+<l TEIform="l" part="N">Abi, futuri seduli tecum sumus</l>
+<l TEIform="l" part="N">Consilio, et ipsa re, quando usus postulat.</l>
+<l TEIform="l" part="N">LV. Eo timere non opus vobis erit,</l>
+<l TEIform="l" part="N">Invidia mihi laetam dabit victoriam.</l>
+<l TEIform="l" part="N">Forti manu <corr sic="deiciendi" resp="transcriber" TEIform="corr">deiciendi</corr> sunt mihi,</l>
+<l TEIform="l" part="N">Qui gloriosi partibus mundi imperant.</l>
+<pb id="s0047" n="31" TEIform="pb"/>
+<l TEIform="l" part="N">Id vero est quod mihi puto palmarium,</l>
+<l TEIform="l" part="N">Numen meum iam fiet implacabile,</l>
+<l TEIform="l" part="N">Sursum deorsum cupio cuncta subruant,</l>
+<l TEIform="l" part="N">Modo pares damnatione effecero</l>
+<l TEIform="l" part="N">Mihi, penes quos summa regnorum est satis.</l>
+<l TEIform="l" part="N">Et ecce sola nunc venit deambulans:</l>
+<l TEIform="l" part="N">Hanc alloquatur ipse Serpens protinus.</l>
+<l TEIform="l" part="N">Vah, quam sibi pulchre placet, mala bestia.</l>
+<l TEIform="l" part="N">I, quid moraris tardius? Serpens, face</l>
+<l TEIform="l" part="N">Tuum modo officium, beneque cedet tibi.</l>
+<l TEIform="l" part="N">Huic obviam procede, quid velim tenes.</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.03.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA IIII.</head>
+<stage type="mix" TEIform="stage">Serpens. Eua. Lucifer.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">SER. Cur te, mulier, hic conspicio solam, obviam</l>
+<l TEIform="l" part="N">Fieri mihi? maritus ubi cessat tuus?</l>
+<l TEIform="l" part="N">Quo te pedes? vel quid dubia circumspicis?</l>
+<l TEIform="l" part="N">EV. Ego ambulandi gratia foras eo,</l>
+<l TEIform="l" part="N">Ut qualis esset hic status cognoscerem</l>
+<l TEIform="l" part="N">Rerum: viri progressus sum venia mei,</l>
+<l TEIform="l" part="N">Iussitque, mox redeam domum: nocet mora.</l>
+<l TEIform="l" part="N">SER. Dic quaeso, quid valetis in pomario</l>
+<l TEIform="l" part="N">Voluptuoso, fructuumque copia</l>
+<l TEIform="l" part="N">Tanta? placet ne cultor horti tam boni?</l>
+<l TEIform="l" part="N">EV. Quid ni? per illum enim patet caeli via.</l>
+<l TEIform="l" part="N">Deest nihil nobis, parata cuncta sunt,</l>
+<l TEIform="l" part="N">Quibus necesse vita nostra habet: cibi,</l>
+<l TEIform="l" part="N">Potusque copia est abundantissima.</l>
+<l TEIform="l" part="N">Cur igitur hic male viveremus cogita.</l>
+<pb id="s0048" n="32" TEIform="pb"/>
+<l TEIform="l" part="N">Ex arborum fecunditate colligo</l>
+<l TEIform="l" part="N">Quoscumque fructus optimos: una tamen</l>
+<l TEIform="l" part="N">Quae stat sub horti medio, interdixit Deus,</l>
+<l TEIform="l" part="N">Ne vesceremur ex ea, nisi cito</l>
+<l TEIform="l" part="N">Vellemus omnium mori miserrimi.</l>
+<l TEIform="l" part="N">SER. Quare Deus priuavit huius arboris</l>
+<l TEIform="l" part="N">Fructu, creaturam tam nobilem?</l>
+<l TEIform="l" part="N">Cur non facit participes omnium magis,</l>
+<l TEIform="l" part="N">Quae sunt in hoc loco (nefas) crescentium?</l>
+<l TEIform="l" part="N">Spectare concessit, frui vetuit quidem.</l>
+<l TEIform="l" part="N">Quae porro vobis utilitas, versarier</l>
+<l TEIform="l" part="N">In copia tanta, nec hac frui dari?</l>
+<l TEIform="l" part="N">Igitur dolor tum nascitur maior, quia</l>
+<l TEIform="l" part="N">Oculis videbitis quidem, sed tangere</l>
+<l TEIform="l" part="N">Nulli licebit omnium viventium.</l>
+<l TEIform="l" part="N">Putas ne posse perpeti diutius</l>
+<l TEIform="l" part="N">Vos? credite mihi, ipsum Deum nil serio,</l>
+<l TEIform="l" part="N">Praesertim in hac re prohibuisse, quod ipse non</l>
+<l TEIform="l" part="N">Posuerit ad iudicium, in arbitrium quoque</l>
+<l TEIform="l" part="N">Vestrum. quid ipse curat haec? vel <corr sic="commedas" resp="transcriber" TEIform="corr">comedas</corr>.</l>
+<l TEIform="l" part="N">Vel non? Sed hic uni timet scientiae</l>
+<l TEIform="l" part="N">Boni malique, si ex eo gustaverit</l>
+<l TEIform="l" part="N">Ligno vir, aut tute, futuri maximi</l>
+<l TEIform="l" part="N">Dii, qualis ipsus est, scientes omnia.</l>
+<l TEIform="l" part="N">EV. Nec nos decet similes Deo esse, fragiles</l>
+<l TEIform="l" part="N">Cum simus homines, et creatio illius.</l>
+<l TEIform="l" part="N">SER. Qui posset in Deum cadere tantum mali</l>
+<l TEIform="l" part="N">Livoris, ut privaret vos sapientiae</l>
+<pb id="s0049" n="33" TEIform="pb"/>
+<l TEIform="l" part="N">Tanto bono? EV. Nulla in Deum potest, scio,</l>
+<l TEIform="l" part="N">Invidia cadere tanta: sed quicquid facit,</l>
+<l TEIform="l" part="N">Id nostri amoris fit causa, ne nos fera</l>
+<l TEIform="l" part="N">Mors opprimat, vitamque nostram perditam</l>
+<l TEIform="l" part="N">Reddat. SER. Nequaquam fiet hoc, moriemini</l>
+<l TEIform="l" part="N">Numquam, sed incipietis multo sanctius</l>
+<l TEIform="l" part="N">Vivere. quia Deus novit oculos omnium</l>
+<l TEIform="l" part="N">Protinus apertum iri: quare eius arboris</l>
+<l TEIform="l" part="N">Fructu quidem interdixit, ore callidus.</l>
+<l TEIform="l" part="N">Dii iudicabitis bonum, et denique malum</l>
+<l TEIform="l" part="N">Quid sit, vel unde possit illud nascier.</l>
+<l TEIform="l" part="N">Confide, gusta, crede mihi, non paenitet</l>
+<l TEIform="l" part="N">Me tibi dedisse hoc consili, nec te piget</l>
+<l TEIform="l" part="N">Obtemperasse consultori commodo.</l>
+<l TEIform="l" part="N">Nec in virum peccabis ipsa plurimum.</l>
+<l TEIform="l" part="N">Si quando participem boni tanti facis.</l>
+<l TEIform="l" part="N">EV. Nunc si aquievero, statim legis Dei</l>
+<l TEIform="l" part="N">Oblita, fecero viro quod displicet.</l>
+<l TEIform="l" part="N">Nam solus est qui me voluntatis suae</l>
+<l TEIform="l" part="N">Obtemperantem fecit, atque obnoxiam</l>
+<l TEIform="l" part="N">Legi sacrae, quam docuit ipsus integre.</l>
+<l TEIform="l" part="N">SER. Ah stulta, quid legem times, quae nil nocet.</l>
+<l TEIform="l" part="N">Nescis quod omnes arbores plantaverit</l>
+<l TEIform="l" part="N">Vestra quidem causa, nec alterius, quia</l>
+<l TEIform="l" part="N">Nemo est adeo similis Deo. et quo nam modo,</l>
+<l TEIform="l" part="N">Tam dulcis arboris fructus (quibus nihil</l>
+<l TEIform="l" part="N">Vel crescit unquam suavius, magisve nil</l>
+<l TEIform="l" part="N">Salubrius) prohiberet invidus nimis?</l>
+<pb id="s0050" n="34" TEIform="pb"/>
+<l TEIform="l" part="N">In bestias terrae potestas integra</l>
+<l TEIform="l" part="N">Vobis data est, et interim ne fructibus</l>
+<l TEIform="l" part="N">Vesci liceret singulis? quod creditu</l>
+<l TEIform="l" part="N">Difficile, quin potius apud te cogita,</l>
+<l TEIform="l" part="N">Quando omnium rerum Deus concesserit</l>
+<l TEIform="l" part="N">Vobis potestatem, quid nam secluderet</l>
+<l TEIform="l" part="N">Unius arboris fructus dulcissimos?</l>
+<l TEIform="l" part="N">Is si dedit pecori, late dominarier,</l>
+<l TEIform="l" part="N">Et omnium crescentium ius strictius,</l>
+<l TEIform="l" part="N">Sine dubio usum quoque dedit vobis bonum.</l>
+<l TEIform="l" part="N">Nec ipse frustra quid, scio, creaverit,</l>
+<l TEIform="l" part="N">Quin commodo vitae futurae cresceret:</l>
+<l TEIform="l" part="N">Ita neque pomo vesci delectabili</l>
+<l TEIform="l" part="N">Prohibuit. igitur hoc a Deo factum nihil</l>
+<l TEIform="l" part="N">Puta. Quod hic crescit, hominis proprium fuit</l>
+<l TEIform="l" part="N">Semper, nec eius iuris esse desinet.</l>
+<l TEIform="l" part="N">Ah stulta, nimis ignara consili Dei</l>
+<l TEIform="l" part="N">Es. sequere me, Genius tuus bonus sum ego.</l>
+<l TEIform="l" part="N">Tuae salutis gratia venio, tibi</l>
+<l TEIform="l" part="N">Utile dabo consilium, nil <reg orig="causa" TEIform="reg">causa</reg> mea:</l>
+<l TEIform="l" part="N">Verum misertus sum tui, te libero</l>
+<l TEIform="l" part="N">Omni metu, vera sollicitudine tua.</l>
+<l TEIform="l" part="N">Quare tibi consilium quod verum dedi,</l>
+<l TEIform="l" part="N">Animo bono, fortique nunc amplectitor.</l>
+<l TEIform="l" part="N">Lex illa quam tulit Deus, non hoc modo</l>
+<l TEIform="l" part="N">Intelligi debet, quasi strictissimam</l>
+<l TEIform="l" part="N">Voluerit illam servari, nihil minus.</l>
+<l TEIform="l" part="N">Edite: quid haec arbor nocere querit?</l>
+<pb id="s0051" n="35" TEIform="pb"/>
+<l TEIform="l" part="N">EV. Haec lex oboedientiae signum datur.</l>
+<l TEIform="l" part="N">Nec pomo opus adeo est, nam crescunt plurimae.</l>
+<l TEIform="l" part="N">Hic arbores, vescique commodissimae.</l>
+<l TEIform="l" part="N">SER. Bene est, sed interim sub horti terminis</l>
+<l TEIform="l" part="N">Huic similis arbor nulla crescit omnium:</l>
+<l TEIform="l" part="N">Nec ulla tantum gratiae sub fructibus</l>
+<l TEIform="l" part="N">Habet, nec est aliud genus vel suavius</l>
+<l TEIform="l" part="N">Ligni. Taceo, quis huic color sit exterus.</l>
+<l TEIform="l" part="N">Intus viget virtutibus, mirabile</l>
+<l TEIform="l" part="N">Dictu, futuri Dii quam primum paululum</l>
+<l TEIform="l" part="N">Gustabitis, nec ulla te satias capit</l>
+<l TEIform="l" part="N">Eius scio. Quid stulta cessas? accipe,</l>
+<l TEIform="l" part="N">Quod maxime cupis. salva es, si modo voles.</l>
+<l TEIform="l" part="N">EV. Si <reg orig="commedo" TEIform="reg">comedo</reg>, morior cito, certo scio.</l>
+<l TEIform="l" part="N">Hinc quod cavere possum, stultum admittere est.</l>
+<l TEIform="l" part="N">SER. Adeo tyrannum esse. atque crudelem Deum</l>
+<l TEIform="l" part="N">Putas? ut ob pomum gustatum te occidat?</l>
+<l TEIform="l" part="N">Vah stulta mulier, cur creasset vos, rogo,</l>
+<l TEIform="l" part="N">Si vellet occidere momento proximo,</l>
+<l TEIform="l" part="N">Ob noxiamque parvulam? Quin age rape.</l>
+<l TEIform="l" part="N">Quid ante rem subsidis? audendum est, age,</l>
+<l TEIform="l" part="N">Gusta, moneo quod optimum vobis erit.</l>
+<l TEIform="l" part="N">Quid nunc moraris stulta? quid dubitas diu?</l>
+<l TEIform="l" part="N">Quod est in ipso scelere praecipuum nefas,</l>
+<l TEIform="l" part="N">Hoc ipse sexus excusat: mulier facit.</l>
+<l TEIform="l" part="N">EV. Et si licet, quid sentiam, mihi dicere,</l>
+<l TEIform="l" part="N">Est elegans pomum, atque delectabile</l>
+<l TEIform="l" part="N">Visu nimis, dulcissimum gustu arbitror.</l>
+<pb id="s0052" n="36" TEIform="pb"/>
+<l TEIform="l" part="N">SER. Ita est, vide, verum tibi praedicier</l>
+<l TEIform="l" part="N">Intelliges. EV. credo, et scio: quare statim</l>
+<l TEIform="l" part="N">Experiar, ubi primum introgressa videro.</l>
+<l TEIform="l" part="N">SER. Hoc fac, et inde cum viro suavius</l>
+<l TEIform="l" part="N">Vives, mihique gratias magnas ages.</l>
+<l TEIform="l" part="N">At quo citius, hoc fiet ipso gratius.</l>
+<l TEIform="l" part="N">EV. Iam nunc eo, degustatura paululum,</l>
+<l TEIform="l" part="N">Quis insit huic pomo sapor, properandum erit.</l>
+<l TEIform="l" part="N">SER. I sane: ego te, ut digna sis, tractavero.</l>
+<l TEIform="l" part="N">Malis nocebo, quibus opem quaeris tibi,</l>
+<l TEIform="l" part="N">Tu ne fruaris ibi voluptate optima?</l>
+<l TEIform="l" part="N">Dum nos profundae claustra laxamus Stygis,</l>
+<l TEIform="l" part="N">Nunc vos, penes quos summa regnorum est, atras</l>
+<l TEIform="l" part="N">Invisere decet umbras, implacabile</l>
+<l TEIform="l" part="N">Ditisque numen deprecari perditos.</l>
+<l TEIform="l" part="N">LV. Exspecto quo pacto meae processerint</l>
+<l TEIform="l" part="N">Technae: studeo perdere virum, cum muliere.</l>
+<l TEIform="l" part="N">At at, vide, quis est? bene est. Adam venit.</l>
+<l TEIform="l" part="N">Habeat quid haec sermonis, auscultavero.</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.03.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA V:</head>
+<stage type="mix" TEIform="stage">Eua. Adam.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">EV. Vix posse me exspectare, donec venero</l>
+<l TEIform="l" part="N">Ad arborem scientiae boni et mali,</l>
+<l TEIform="l" part="N">Credo, quod adeo illexit Serpens hic meam</l>
+<l TEIform="l" part="N">Mentem mihi, fructus cupio: gustavero,</l>
+<l TEIform="l" part="N">Et deferam viro. Vah quis nam affectus abstulit</l>
+<l TEIform="l" part="N">Mihi me? nec ille viribus potest premi.</l>
+<l TEIform="l" part="N">Ita meus animus tabescit mirabili</l>
+<pb id="s0053" n="37" TEIform="pb"/>
+<l TEIform="l" part="N">Magis atque mage desiderio gravi. vide</l>
+<l TEIform="l" part="N">Haec arbor est dulcissimi fructus bona.</l>
+<l TEIform="l" part="N">Decerpere hoc malum placet, quando licet.</l>
+<l TEIform="l" part="N">Nescio quid animus sperat, et solito amplius,</l>
+<l TEIform="l" part="N">Supraque fines cogitatus nunc tumet.</l>
+<l TEIform="l" part="N">Sed grande quiddam est, ita sic hoc anime incipe.</l>
+<l TEIform="l" part="N">Heu quam suavis est fructus? quid dulcius</l>
+<l TEIform="l" part="N">Quam haec poma mitia, et saporis optimi.</l>
+<l TEIform="l" part="N">Uno hoc iuvabit vescier, nec ceteris</l>
+<l TEIform="l" part="N">Totius horti fructibus: hanc eligo</l>
+<l TEIform="l" part="N">Mihi arborem, reliquas facio prorsus nihil.</l>
+<l TEIform="l" part="N">Quod si antea id scissem, tantam dulcedinene</l>
+<l TEIform="l" part="N">Inesse malis hic, edissem protinus,</l>
+<l TEIform="l" part="N">Nec ipse Serpens falsa dixit, ecce me,</l>
+<l TEIform="l" part="N">Non morior, ergo mox marito impartiam.</l>
+<l TEIform="l" part="N">AD. Quid agis mulier? heus quam diu cessas mea</l>
+<l TEIform="l" part="N">Tu? EV. Mi vir, ego tua sum, redeo quod iusseras.</l>
+<l TEIform="l" part="N">Deambulare vix satis mihi datur.</l>
+<l TEIform="l" part="N">En arbor illa dulciora ceteris</l>
+<l TEIform="l" part="N">Fert poma, si scires. Quid amplius tibi</l>
+<l TEIform="l" part="N">Dicam? boni malique simul una haec habet</l>
+<l TEIform="l" part="N">Scientiam, reconditam sub fructibus</l>
+<l TEIform="l" part="N">Suis. Vide quam sit coloris splendidi.</l>
+<l TEIform="l" part="N">Gusta, rogo, mi vir, nec ipse dulcius</l>
+<l TEIform="l" part="N">Quid <corr sic="commedes" resp="transcriber" TEIform="corr">comedes</corr>. si modo me amas, quin accipis?</l>
+<l TEIform="l" part="N">AD. Hem quid iubes? insanis: aut nescis Deum</l>
+<l TEIform="l" part="N">Hac arbore inter dixisse, et gravissime</l>
+<l TEIform="l" part="N">Ne vesceremur prohibuisse plurimis</l>
+<pb id="s0054" n="38" TEIform="pb"/>
+<l TEIform="l" part="N">Verbis? et ipsa nunc contra faciam iubes?</l>
+<l TEIform="l" part="N">Vide quid hic agas, quid fiat denique</l>
+<l TEIform="l" part="N">EV. Nihil quidem, nec serio prohibet Deus.</l>
+<l TEIform="l" part="N">Futurus es tamquam Deus, sciens bonum et</l>
+<l TEIform="l" part="N">Malum, nec ipse plus timebis postea</l>
+<l TEIform="l" part="N">Ne mors inopinatum supprimat. viden</l>
+<l TEIform="l" part="N">Me liberam periculis mortis ferae?</l>
+<l TEIform="l" part="N">Ede, mi vir, haud me paenitet tanti cibi.</l>
+<l TEIform="l" part="N">AD. Quis haec tibi monstravit, aut dixit prius?</l>
+<l TEIform="l" part="N">EV. Serpens amabilis, Serpens subblandulus.</l>
+<l TEIform="l" part="N">AD. Et quando vis faciam, tuique gratia</l>
+<l TEIform="l" part="N">Gustabo: nam delector illo plurimum.</l>
+<l TEIform="l" part="N">Dulcissimus, nimisque delectabilis</l>
+<l TEIform="l" part="N">Est fructus hic. Hem qualis est mutatio</l>
+<l TEIform="l" part="N">Haec sensuum meorum? externorum quidem,</l>
+<l TEIform="l" part="N">Oculi reclusi penitus sunt. Vah quid facis</l>
+<l TEIform="l" part="N">Mulier? quid ascultaverim? o quam dolet,</l>
+<l TEIform="l" part="N">En perdidisti utrumque nostrum funditus.</l>
+<l TEIform="l" part="N">Nisi melius aliud Deus dispiciat, ah</l>
+<l TEIform="l" part="N">Perimus ipsi. nuda cernis corpora?</l>
+<l TEIform="l" part="N">Ubique pudet nudos (malum) hic incedere.</l>
+<l TEIform="l" part="N">EV. Quid? AD. Non vides nuda esse nostra corpora?</l>
+<l TEIform="l" part="N">EV. Video: pudet, quod antea nil advertimus.</l>
+<l TEIform="l" part="N">AD. Imago mortis errat ob oculos meos,</l>
+<l TEIform="l" part="N">Et membra pallidus timor mea occupat,</l>
+<l TEIform="l" part="N">Quod est in isto scelere praecipuum nefas,</l>
+<l TEIform="l" part="N">Hoc ipsa fecisti: dolo capta es malo.</l>
+<l TEIform="l" part="N">Diabolus ubi blanditur, captatum venit.</l>
+<pb id="s0055" n="39" TEIform="pb"/>
+<l TEIform="l" part="N">Nostros dabis perductos in laqueum pedes.</l>
+<l TEIform="l" part="N">Cui tanta credes? Quis fidem pacis dabit?</l>
+<l TEIform="l" part="N">Mandata negligis Dei, spe pessima,</l>
+<l TEIform="l" part="N">Hoc facinus ingens ausa, nunc rapta in scelus:</l>
+<l TEIform="l" part="N">Hinc omne cladis mutuae fluxit malum.</l>
+<l TEIform="l" part="N">Per regna maestus exul errabo vagi</l>
+<l TEIform="l" part="N">Orbis, nec est quo me licet defendere.</l>
+<l TEIform="l" part="N">Pars nulla nostri tuta ab insidiis vacat.</l>
+<l TEIform="l" part="N">Vae mihi, Deum timeo nimis quem offenderim.</l>
+<l TEIform="l" part="N">Decepta coniunx, imperii quassa est fides.</l>
+<l TEIform="l" part="N">Custodiam amisi hortuli suavissimam,</l>
+<l TEIform="l" part="N">Ob parvulas voluptates, muliere duce.</l>
+<l TEIform="l" part="N">Membra aegra, dubius sanguis est, certi nihil:</l>
+<l TEIform="l" part="N">Nil, quod doloris capiat accepti modum.</l>
+<l TEIform="l" part="N">Nulla est relicta spes, nec ulla venit salus</l>
+<l TEIform="l" part="N">Regno meo, pro vita nunc mors imperat.</l>
+<l TEIform="l" part="N">Hem, qua siem fretus, quae me conieceris</l>
+<l TEIform="l" part="N">In hunc statum ex re tranquillissima malum.</l>
+<l TEIform="l" part="N">An non futurum hoc esse praedixi tibi?</l>
+<l TEIform="l" part="N">Quid merita? sed tempus cavere mihi modo,</l>
+<l TEIform="l" part="N">Haud te, mulier, ulciscier procax sinit.</l>
+<l TEIform="l" part="N">En quo redactus sum? tantis nunc excido</l>
+<l TEIform="l" part="N">Bonis, Deique legis <corr sic="trangressor" resp="transcriber" TEIform="corr">transgressor</corr> vocor:</l>
+<l TEIform="l" part="N">Qui liberaliter fovit me sedulo.</l>
+<l TEIform="l" part="N">Doloris et laboris expertem dedit</l>
+<l TEIform="l" part="N">Vitamque longaevam, perenniter bonam:</l>
+<l TEIform="l" part="N">Pro qua relictus flebilis gemitus mihi.</l>
+<l TEIform="l" part="N">Quam facile possem, si haec quiesset, vivere.</l>
+<pb id="s0056" n="40" TEIform="pb"/>
+<l TEIform="l" part="N">Quae iam parata est, scelere linquetur domus.</l>
+<l TEIform="l" part="N">Tremenda caelo pariter ac terris mala</l>
+<l TEIform="l" part="N">Conspicio miser, ah gravior <corr sic="exurgit" resp="transcriber" TEIform="corr">exurget</corr> dolor.</l>
+<l TEIform="l" part="N">Eversa spes est funditus, regna occidunt</l>
+<l TEIform="l" part="N">Haec nostra, nobis nulla restabit fides.</l>
+<l TEIform="l" part="N">Ah quod nefandas hauseris statim dapes.</l>
+<l TEIform="l" part="N">Nec hoc satis, quid? fuerat hic animus tibi</l>
+<l TEIform="l" part="N">Instruere similes inscio viro cibos,</l>
+<l TEIform="l" part="N"><corr sic="Similque" resp="transcriber" TEIform="corr">Simileque</corr> leto sternere. hoc unum potest</l>
+<l TEIform="l" part="N">Sciri, dedisti mortis hanc causam meae.</l>
+<l TEIform="l" part="N">Nec effugis tamen, prior tanti mali</l>
+<l TEIform="l" part="N">Auctor misera. nunc luce non grata fruor,</l>
+<l TEIform="l" part="N">Trepidante semper corde, non mortis metu,</l>
+<l TEIform="l" part="N">Sed sceleris. o bone Deus, haec quae fata sunt?</l>
+<l TEIform="l" part="N">Mori iuvabit, poena nam gravior nece est.</l>
+<l TEIform="l" part="N">Extrudimur, mentemque deserit quies.</l>
+<l TEIform="l" part="N">En fraude capta, me capere non desinis.</l>
+<l TEIform="l" part="N">Nunc huius horti quis per annorum vices,</l>
+<l TEIform="l" part="N">Totoque in aevo poterit delicias senex</l>
+<l TEIform="l" part="N">Referre tot, quas unus eripuit dies!</l>
+<l TEIform="l" part="N">Poenas luemus pro tantis meritis, scio.</l>
+<l TEIform="l" part="N">Quid ipsa faciendum putas? dic libere.</l>
+<l TEIform="l" part="N">EV. Hem mi vir, nos pudenda nostra frondibus</l>
+<l TEIform="l" part="N">Tegamus. AD. Adsunt, faciam subligacula,</l>
+<l TEIform="l" part="N">Ne nos Deus nudos videat incedere.</l>
+<l TEIform="l" part="N">EV. Recte mones. et hic ficus folia tibi</l>
+<l TEIform="l" part="N">Sumas, mihi parabo rite singula.</l>
+<l TEIform="l" part="N">AD. Ah suasor ille pessimus Serpens tuus</l>
+<pb id="s0057" n="41" TEIform="pb"/>
+<l TEIform="l" part="N">Consilia suggessit: quid illi obtemperans</l>
+<l TEIform="l" part="N">Demum malo accepto sapere stulta incipis?</l>
+<l TEIform="l" part="N">Audire visus sum Dei vocem sacram.</l>
+<l TEIform="l" part="N">Fugiamus hinc, abscondentes sub vepribus</l>
+<l TEIform="l" part="N">His paululum, videat ne nudos esse nos.</l>
+<l TEIform="l" part="N">Nec confitebor, dum latere quero.</l>
+<l TEIform="l" part="N">Facti pudet quidem: nec id reddi potest,</l>
+<l TEIform="l" part="N">Factum quod est semel. Sequere tu uxor mea:</l>
+<l TEIform="l" part="N">Sub haec folia repere libet, quod optimum est:</l>
+<l TEIform="l" part="N">Si forte quaeret hic, ne inveniat ipse nos.</l>
+</lg>
+</div3>
+</div2>
+<div2 id="OpDB.01.04" n="4" type="act" org="uniform" sample="complete" TEIform="div2" part="N">
+<head>ACTUS TERTII,</head>
+<div3 id="OpDB.01.04.01" n="1" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA PRIMA.</head>
+<stage type="mix" TEIform="stage">Lucifer. Belial. Sathan.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">LV. Euge bone, rem numquid bene expedivimus</l>
+<l TEIform="l" part="N">Ex instituto animi, nostra sententia?</l>
+<l TEIform="l" part="N">BE. O optime, nec pote quidem melius fore.</l>
+<l TEIform="l" part="N">SA. Abi, virum te iudico, functus tuo</l>
+<l TEIform="l" part="N">(Uti decet fortes) officio sedulo.</l>
+<l TEIform="l" part="N">LV. Hac unica causa debetur gratia</l>
+<l TEIform="l" part="N">Soli mihi a vobis, quod impetraverim</l>
+<l TEIform="l" part="N">Quae nullus ausus aggredi, vel peragere.</l>
+<l TEIform="l" part="N">Quod angeli, Deusque maxime dolent,</l>
+<l TEIform="l" part="N">Sibi molestum quoque futurum perpetim.</l>
+<l TEIform="l" part="N">En habet Adam: quid gloriabitur sua</l>
+<l TEIform="l" part="N">Felicitate, prae nostro infortunio?</l>
+<l TEIform="l" part="N">Cecidit, uterque morte damnati iacent.</l>
+<l TEIform="l" part="N">Inobedientes sunt Deo facti, rei</l>
+<pb id="s0058" n="42" TEIform="pb"/>
+<l TEIform="l" part="N">Praevaricationis. Et satis quidem</l>
+<l TEIform="l" part="N">Videbitis poenae sequi, nulla mora.</l>
+<l TEIform="l" part="N">SA. Heus tu fatere quo modo seduxeris,</l>
+<l TEIform="l" part="N">Dic inquio: mirum nisi per callido</l>
+<l TEIform="l" part="N">Consilio opus erat. Quid? solus congressus es?</l>
+<l TEIform="l" part="N">Vel lubrici serpentis usus es opera?</l>
+<l TEIform="l" part="N">Rem ipsam dolo nobis nullo effare ordine.</l>
+<l TEIform="l" part="N">LV. Illuc reverti certum, et conata eloquar.</l>
+<l TEIform="l" part="N">Rerum malarum facilis est persuasio.</l>
+<l TEIform="l" part="N">Principio ut ipsam egressam conspicio foras</l>
+<l TEIform="l" part="N">Solam mulierem, absente longius viro,</l>
+<l TEIform="l" part="N">Suborno Serpentem: statim sequitur meum</l>
+<l TEIform="l" part="N">Consilium. abit, doctus fuit quid diceret.</l>
+<l TEIform="l" part="N"><corr sic="Caepit" resp="transcriber" TEIform="corr">Coepit</corr> mulieri illud voluptatis genus</l>
+<l TEIform="l" part="N">Laudare, quod placebat unum maxime:</l>
+<l TEIform="l" part="N">Et increpat utriusque somnolentiam,</l>
+<l TEIform="l" part="N">Cur non suis rebus prospicere consulant:</l>
+<l TEIform="l" part="N">Cum dis facile fieri possent, si modo velint.</l>
+<l TEIform="l" part="N">Monet arboris vetitae vim tantam fructibus</l>
+<l TEIform="l" part="N">Inesse, quo ligno nil unquam suavius,</l>
+<l TEIform="l" part="N">Aut dulcius, per omnes horti terminos</l>
+<l TEIform="l" part="N">Crescat. iubet malum gustare, et carpere,</l>
+<l TEIform="l" part="N">Monente me, qui cuncta praesens subdidi.</l>
+<l TEIform="l" part="N">Et hac superbia persuasa, protinus</l>
+<l TEIform="l" part="N">Gustavit e ligno sacro, vetito sibi:</l>
+<l TEIform="l" part="N">Et obtulit malum viro, qui <corr sic="commedit" resp="transcriber" TEIform="corr">comedit</corr>.</l>
+<l TEIform="l" part="N">Deus volebat esse vir cum femina,</l>
+<l TEIform="l" part="N">Bonum et malum scientes praeter ceteros.</l>
+<pb id="s0059" n="43" TEIform="pb"/>
+<l TEIform="l" part="N">Successit ille mihi dolus feliciter,</l>
+<l TEIform="l" part="N">Obnoxius maritus est cum coniuge</l>
+<l TEIform="l" part="N">Factus sua, poenaeque subiacent gravi.</l>
+<l TEIform="l" part="N">Ipsus miser nunc deflet tristes exitus</l>
+<l TEIform="l" part="N">Frustra, nec unquam deprecarier licet</l>
+<l TEIform="l" part="N">Culpam, stat animi rata Dei sententia,</l>
+<l TEIform="l" part="N">Poenas luent temerariae superbiae.</l>
+<l TEIform="l" part="N">Illis tremunt ira Dei praecordia,</l>
+<l TEIform="l" part="N">Instat metus, tristisque membra dolor ferit.</l>
+<l TEIform="l" part="N">SA. Et ecce dii sunt facti Adam, atque uxor sua,</l>
+<l TEIform="l" part="N">Norunt bonum malumque probe cernere.</l>
+<l TEIform="l" part="N">Ubi morantur nunc, dei clarissimi?</l>
+<l TEIform="l" part="N">LV. Nudi iacent absconditi sub vepribus,</l>
+<l TEIform="l" part="N">Foliisque contecti arborum, Deum timent.</l>
+<l TEIform="l" part="N">Fugiunt, sui pudetque facti turpiter.</l>
+<l TEIform="l" part="N">BE. O bene quidem factum, beasti me tuo</l>
+<l TEIform="l" part="N">Tam nuntio laeto. mihi melius erit</l>
+<l TEIform="l" part="N">Nunc, quod habeam socios gravis poenae meae,</l>
+<l TEIform="l" part="N">Et posterorum maximum numerum, nec hoc</l>
+<l TEIform="l" part="N">Facile abolebitur, triumpho splendide.</l>
+<l TEIform="l" part="N">Scio, dolebit hunc genus hominum diu</l>
+<l TEIform="l" part="N">Casum. sed actum aget: quisquis causam dedit,</l>
+<l TEIform="l" part="N">Hic ora frenis domita substrictis ligat:</l>
+<l TEIform="l" part="N">Stimulus gravis peccati, nescit quiescere.</l>
+<l TEIform="l" part="N">BE. Ilicet, Adamque gloriare si lubet,</l>
+<l TEIform="l" part="N">Quae sint tuae voluptatis genera refer,</l>
+<l TEIform="l" part="N">Quibus nec integro die datum est frui.</l>
+<l TEIform="l" part="N">Ingressus es vix, egredi nunc incipis.</l>
+<pb id="s0060" n="44" TEIform="pb"/>
+<l TEIform="l" part="N">Me me puderet parvulae tam gloriae,</l>
+<l TEIform="l" part="N">Si non frui daretur amplius mihi.</l>
+<l TEIform="l" part="N">LV. Ridebimus, parta est nobis victoria:</l>
+<l TEIform="l" part="N">Triumphus insuper ducendus agmine</l>
+<l TEIform="l" part="N">Armis decorato, quod vicimus genus</l>
+<l TEIform="l" part="N">Hominum. quid est, solidum si non hoc gaudium est?</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.04.02" n="2" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA II.</head>
+<stage type="mix" TEIform="stage">Raphael. Michael. Gabriel.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">RA. Ah quid querar? scelere doleo fratre novo.</l>
+<l TEIform="l" part="N">Tam <corr sic="negligenter" resp="transcriber" TEIform="corr">neglegenter</corr> agere, tantam ne decet</l>
+<l TEIform="l" part="N">Rem? Vah pudet me criminis, Adami loco:</l>
+<l TEIform="l" part="N">Ipsum virum auscultasse stultae mulieri.</l>
+<l TEIform="l" part="N">Quem sibi Deus similem primo creaverat.</l>
+<l TEIform="l" part="N">Fastigio cecidisse tanto gloriae.</l>
+<l TEIform="l" part="N">Qui fuerat immortalis homo perenniter</l>
+<l TEIform="l" part="N">Formatus ex sola divina gratia.</l>
+<l TEIform="l" part="N">MICH. Miris, vide, diabolus hunc circumdedit</l>
+<l TEIform="l" part="N">Suis dolis: fallaciis imponere</l>
+<l TEIform="l" part="N">Non destitit, postquam semel id inceperit,</l>
+<l TEIform="l" part="N">Donec sub illa spe maioris praemii</l>
+<l TEIform="l" part="N">Abduxerit captivam. allexit subdole,</l>
+<l TEIform="l" part="N">Suggessit ut mulier sapere deposceret,</l>
+<l TEIform="l" part="N">Quae dignitatem vincerent longe suam.</l>
+<l TEIform="l" part="N">Inflata tandem spe fallacii perdidit,</l>
+<l TEIform="l" part="N">Quod erat potestatis suae. Namque antea</l>
+<l TEIform="l" part="N">Aeternam habebat vitam, illa nunc excidit,</l>
+<l TEIform="l" part="N">Pomum boni malique postquam <corr sic="commedit" resp="transcriber" TEIform="corr">comedit</corr>:</l>
+<l TEIform="l" part="N">Unde oculi aperti sunt, quibus praesentia</l>
+<pb id="s0061" n="45" TEIform="pb"/>
+<l TEIform="l" part="N">Cernunt, vagantur: et cum se nudos vident,</l>
+<l TEIform="l" part="N">Fugiunt, quasi quicquam latere possiet</l>
+<l TEIform="l" part="N">Deum, qui habet iustum oculum cuncta cernere</l>
+<l TEIform="l" part="N">Absconditum cui nihil fit orbis circulo.</l>
+<l TEIform="l" part="N">GAB. Nec ipsa contenta fuit, et viro dedit</l>
+<l TEIform="l" part="N">Malum: quid o mulier fecisti pessima?</l>
+<l TEIform="l" part="N">Quare doloso accepto consilio, sacram</l>
+<l TEIform="l" part="N">Legem Dei pedibus conculcasti tuis?</l>
+<l TEIform="l" part="N">Unde tibi tanta intemperantia venit?</l>
+<l TEIform="l" part="N">Quo luxus insuper tuos sensus tulit?</l>
+<l TEIform="l" part="N">Nonne satis hac fruitione splendida</l>
+<l TEIform="l" part="N">Frui, bonorumque omnium pomarii</l>
+<l TEIform="l" part="N">Dominam esse te? quid amplius? nil defuit</l>
+<l TEIform="l" part="N">Ad commo dum vitae tuae, temeraria</l>
+<l TEIform="l" part="N">Etiam ausa contrectare interdictos cibos?</l>
+<l TEIform="l" part="N">Quanto satius erat fame tabescere,</l>
+<l TEIform="l" part="N">Quam noxiam hanc admittere imprudentia?</l>
+<l TEIform="l" part="N">Habita fide verbis, tibi quae dicta sunt</l>
+<l TEIform="l" part="N">A callido serpente suasu daemonis,</l>
+<l TEIform="l" part="N">Decepta permanes, serpens immunis est.</l>
+<l TEIform="l" part="N">Cuius fideliora consilia putas,</l>
+<l TEIform="l" part="N">Quam sint Dei mandata, commodo tuo</l>
+<l TEIform="l" part="N">Sancita. Nunc decepta cum sies sciens,</l>
+<l TEIform="l" part="N">Nulla quidem venia digna es. Quid cogitas?</l>
+<l TEIform="l" part="N">Qui consuluit haec Serpens, tibi subditus</l>
+<l TEIform="l" part="N">Erat, neque eiusdem naturae ut credere</l>
+<l TEIform="l" part="N">Oportuisset illi tanta: denique</l>
+<l TEIform="l" part="N">Suberat potestati tuae, tuum fuit</l>
+<pb id="s0062" n="46" TEIform="pb"/>
+<l TEIform="l" part="N">Mandare Serpenti, iugumque imponere:</l>
+<l TEIform="l" part="N">A' quo tibi iam tanta constructa est lues:</l>
+<l TEIform="l" part="N">Quare perire maluisti funditus,</l>
+<l TEIform="l" part="N">Te ipsamque penitus o misera confundere.</l>
+<l TEIform="l" part="N">Quare relicto illo cuius facta uxor es,</l>
+<l TEIform="l" part="N">Ad cuius auxilium producta primitus,</l>
+<l TEIform="l" part="N">Cuiusque dignitatum semper particeps</l>
+<l TEIform="l" part="N">Fores, et eiusdem cum quo es substantiae:</l>
+<l TEIform="l" part="N">His singulis spretis, societatem eligis</l>
+<l TEIform="l" part="N">Serpentis, hostis nescii miserescere:</l>
+<l TEIform="l" part="N">Ut a Diabolo per illam bestiam</l>
+<l TEIform="l" part="N">Persuasa, sequeris Deo contraria.</l>
+<l TEIform="l" part="N">Nec si es aversata consilium illius,</l>
+<l TEIform="l" part="N">Ut de cibo vetito ausa sies edere, mali</l>
+<l TEIform="l" part="N">Causam dedisti, ducta spe vanissima.</l>
+<l TEIform="l" part="N">RA. Si se modo solam duxisset perditam,</l>
+<l TEIform="l" part="N">Honore maximoque privasset suo,</l>
+<l TEIform="l" part="N">Parum esset. at quod perdidit secum virum,</l>
+<l TEIform="l" part="N">Tantae ruinaeque socium fecit sibi,</l>
+<l TEIform="l" part="N">Miserandum erit, semperque abominabile:</l>
+<l TEIform="l" part="N">Cuius saluti adiutrix esse debuit,</l>
+<l TEIform="l" part="N">Eius fit inimicissima omnium quidem,</l>
+<l TEIform="l" part="N">Et reddit infensum divinae gratiae.</l>
+<l TEIform="l" part="N">Quae insania hanc induxit, ut tantum ausa erat</l>
+<l TEIform="l" part="N">Facinus facere? quamvis vicem doleo viri</l>
+<l TEIform="l" part="N">Tantum: ipsa namque pretium ob stultitiam serat.</l>
+<l TEIform="l" part="N">MICH. Non sat fuit forsan, beatam degere</l>
+<l TEIform="l" part="N">Vitam, omnibusque in paradiso crescentibus</l>
+<pb id="s0063" n="47" TEIform="pb"/>
+<l TEIform="l" part="N">Frui, nisi maioris etiam gloriae</l>
+<l TEIform="l" part="N">Fastigium pertingeret, mulier nequam.</l>
+<l TEIform="l" part="N">Sed hoc scelus poena gravi novit Deus</l>
+<l TEIform="l" part="N">Ulciscier, virum ne impune luserit.</l>
+<l TEIform="l" part="N">GA. Quare suam vitam vocant in exitus</l>
+<l TEIform="l" part="N">Dubios, vir et mulier, nimis quorum dolor</l>
+<l TEIform="l" part="N">Serus futurus est, et paenitentia</l>
+<l TEIform="l" part="N">Nulla iuvat. malus quin hostis interim</l>
+<l TEIform="l" part="N">Ridebit affatim, quando illos prospicit</l>
+<l TEIform="l" part="N">Lapsos. nefanda fraude turpiter sua.</l>
+<l TEIform="l" part="N">MICH. Ergo vide a quanta deiecti gloria,</l>
+<l TEIform="l" part="N">Ad vilitatem miseri sint turpissimam,</l>
+<l TEIform="l" part="N">Antea qui erant vita terrestres angeli:</l>
+<l TEIform="l" part="N">Quorum potestati fuerunt omnia</l>
+<l TEIform="l" part="N">Subiecta, quorum imperii fines clauserat</l>
+<l TEIform="l" part="N">Orbis cavus late reges per omnium</l>
+<l TEIform="l" part="N">Circumferentias, quas mundus continet.</l>
+<l TEIform="l" part="N">Quid? imperabant ceteris qui bestiis,</l>
+<l TEIform="l" part="N">Uni creatori suo et Deo negant</l>
+<l TEIform="l" part="N">Seruire. dominatum exercebant inferum,</l>
+<l TEIform="l" part="N">Tamen recusant Dominum rerum agnoscere,</l>
+<l TEIform="l" part="N">Cuius manu facti fuerunt, negligunt</l>
+<l TEIform="l" part="N">Eius subesse mandatis, vel vivere</l>
+<l TEIform="l" part="N">Iuxta voluntatem Dei ter maximi.</l>
+<l TEIform="l" part="N">Dominum time, patientem, quamdiu datur,</l>
+<l TEIform="l" part="N">Ne sentias severum posthac iudicem.</l>
+<l TEIform="l" part="N">At quem iuvat peccare turpiter semel,</l>
+<l TEIform="l" part="N">Hunc propia <corr sic="segnicies" resp="transcriber" TEIform="corr">segnities</corr> subagitat mentis, aut</l>
+<pb id="s0064" n="48" TEIform="pb"/>
+<l TEIform="l" part="N">Temerarii actus, aut vitaeque vanitas</l>
+<l TEIform="l" part="N">Sic mancipat viciis, ut iam sit omnium</l>
+<l TEIform="l" part="N">Materia peccatorum, et servus impudens</l>
+<l TEIform="l" part="N">Iniquitatum, falsorumque criminum</l>
+<l TEIform="l" part="N">Minister, omnis culpae seminarium.</l>
+<l TEIform="l" part="N">Quare suo pro merito exspectet praemium:</l>
+<l TEIform="l" part="N">RA. Et ecce progreditur Deus, quid nescio</l>
+<l TEIform="l" part="N">Circumspiciat, exspectandum hic est paululum.</l>
+<l TEIform="l" part="N">Quid fit videbimus: peccato irascitur.</l>
+<l TEIform="l" part="N">O homo, quid ipse fecisti? iudex tuus</l>
+<l TEIform="l" part="N">Venit, tibi magnum daturus est malum.</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.04.03" n="3" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA III.</head>
+<stage type="mix" TEIform="stage">Deus. Adam Eua.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">DE. Heus heus Adame, ubi es? quid agis? ubi es? veni.</l>
+<l TEIform="l" part="N">Tacent, et ora pallor albus inficit,</l>
+<l TEIform="l" part="N">Mentesque perculsae stupent, arguit timor.</l>
+<l TEIform="l" part="N">Putasne quod latitantem te non viderim?</l>
+<l TEIform="l" part="N">Prodi. AD. Domine, post quam tuam vocem audio,</l>
+<l TEIform="l" part="N">Exterritus, me abscondi sub pomarii</l>
+<l TEIform="l" part="N">His frondibus, quia nudus incedo miser.</l>
+<l TEIform="l" part="N">DE. At nuditas tua haec creaturae est mea,</l>
+<l TEIform="l" part="N">Numquid tu eam ut rem turpem damnare ausus es?</l>
+<l TEIform="l" part="N">AD. Non. DE. At scio quod nuditas confuderit</l>
+<l TEIform="l" part="N">Te, non mea haec vox terruit. Quid denegas?</l>
+<l TEIform="l" part="N">Et conscientiae stimulus hoc arguit.</l>
+<l TEIform="l" part="N">Quid te ipse lacerans tam meum aspectum fugis?</l>
+<l TEIform="l" part="N">Mens tua scelestum facere, non casus solet.</l>
+<l TEIform="l" part="N">Haec est fuga tua, hinc lacrimae illae fluunt tibi,</l>
+<pb id="s0065" n="49" TEIform="pb"/>
+<l TEIform="l" part="N">Ille est pudor tuus, geris quem pectore.</l>
+<l TEIform="l" part="N">Dic unde didicisti, esse nudum? Quid hoc?</l>
+<l TEIform="l" part="N">Nescio quid est, tibi times, membraque tremunt.</l>
+<l TEIform="l" part="N">Nihil gravius est, crede conscientia</l>
+<l TEIform="l" part="N">Ex lege territa Dei, male conscia</l>
+<l TEIform="l" part="N">Sibi. Quid? arborisne fructus <corr sic="commedis" resp="transcriber" TEIform="corr">comedis</corr></l>
+<l TEIform="l" part="N">Vetitae? ego qua interdixi sola serio</l>
+<l TEIform="l" part="N">Ne sumeres tibi? numquid haec lex est mea,</l>
+<l TEIform="l" part="N">Quam tu procax transgressus es? quoniam pavor</l>
+<l TEIform="l" part="N">Ille tuus ostendit, reumque te iudicat.</l>
+<l TEIform="l" part="N">AD. Domine, fateor, edi fructus ex arbore</l>
+<l TEIform="l" part="N">Vetita. DE. Scio legis inobediens meae</l>
+<l TEIform="l" part="N">Transgessor es. Num effugere manus putas</l>
+<l TEIform="l" part="N">Meas? fugit semper perversus impius</l>
+<l TEIform="l" part="N">Culpa sua, atque persequente nemine:</l>
+<l TEIform="l" part="N">Et pessimus fervet sicut tumidum mare.</l>
+<l TEIform="l" part="N">Nec est amica pax, nec est tranquillitas</l>
+<l TEIform="l" part="N">Commoda. Malum qui fecerit, lucem statim</l>
+<l TEIform="l" part="N">Odit, nec audet progredi, se surripit.</l>
+<l TEIform="l" part="N">Ita tu fugis oculos meos, tenebras amas,</l>
+<l TEIform="l" part="N">Et irrepis sub umbras frondium nigras.</l>
+<l TEIform="l" part="N">Haec est enim peccati natura, ut statim</l>
+<l TEIform="l" part="N">Cupiat in <corr sic="oculto" resp="transcriber" TEIform="corr">occulto</corr> manere proxime,</l>
+<l TEIform="l" part="N">Nec innitentem lucem quoque ferrier.</l>
+<l TEIform="l" part="N">Cur hinc fugis duris contectus inguina</l>
+<l TEIform="l" part="N">Perizomatis? Quare fugam, dic mihi, paras?</l>
+<l TEIform="l" part="N">An te putas tutum sub frondibus fore?</l>
+<l TEIform="l" part="N">Quem ferrei montes, nec ulla ianua</l>
+<pb id="s0066" n="50" TEIform="pb"/>
+<l TEIform="l" part="N">Servare possent immunem: quid cogitas?</l>
+<l TEIform="l" part="N">AD. Angustior mundus erit, quam ut tutus siem.</l>
+<l TEIform="l" part="N">DE. Crede mihi, qui timet, non pude fieri potest:</l>
+<l TEIform="l" part="N">Iustusque quasi leo fit ipse confidens:</l>
+<l TEIform="l" part="N">Rectaque conscientia vivit pius.</l>
+<l TEIform="l" part="N">Non effugit Deum, diu qui latuerit:</l>
+<l TEIform="l" part="N">Absconditus nec est Deo, qui effugerit.</l>
+<l TEIform="l" part="N">Cur tam bonus videbaris, quando tibi</l>
+<l TEIform="l" part="N">Praeceperam, ne fructus eius arboris</l>
+<l TEIform="l" part="N">Ederes? quis haec putasset omnium? nihil</l>
+<l TEIform="l" part="N">Veritus meam vocem, ut dicis: quumque antea</l>
+<l TEIform="l" part="N">Audire me dignatus es cum gaudio,</l>
+<l TEIform="l" part="N">Quis iussit ut pomum tibi decerperes?</l>
+<l TEIform="l" part="N">AD. Haec ea mihi quam iunxisti, pomum dedit,</l>
+<l TEIform="l" part="N">Et prima come dere iubet dulcissimum</l>
+<l TEIform="l" part="N">Malum quidem. Nec ego, sed ipsa corruit</l>
+<l TEIform="l" part="N">Prius: sequutus mitior carissimam</l>
+<l TEIform="l" part="N">Sum coniugem: et nisi dedisses, non erat</l>
+<l TEIform="l" part="N">Factum: tum amorem coniugalem praetuli.</l>
+<l TEIform="l" part="N">Edi, quid videbam nocere illi nihil,</l>
+<l TEIform="l" part="N">Nec esse mortiferum putavi maxime,</l>
+<l TEIform="l" part="N">Nullamque culpam subsequi, certus fui.</l>
+<l TEIform="l" part="N">Ergo quod hic peccatum est, imprudentia</l>
+<l TEIform="l" part="N">Peccatum erat mea: mulier causam dedit.</l>
+<l TEIform="l" part="N">Hoc est penes te: si placet, damna ream.</l>
+<l TEIform="l" part="N">DE. Ubi est ea? AD. Ecce Domine ibi est. DE. Ehem bona,</l>
+<l TEIform="l" part="N">Quare mulier hoc fecisti? quid'nam taces?</l>
+<l TEIform="l" part="N">EV. Decepta sum a Serpente, <corr sic="commedi" resp="transcriber" TEIform="corr">comedi</corr>, impio,</l>
+<pb id="s0067" n="51" TEIform="pb"/>
+<l TEIform="l" part="N">DE. Quoniam istuc ipse Serpens feceris, modo</l>
+<l TEIform="l" part="N">Maledictus eris inter animantia omnia,</l>
+<l TEIform="l" part="N">Terraeque bestias, super pectus tuum</l>
+<l TEIform="l" part="N">Vitae diebus omnibus gradieris, et</l>
+<l TEIform="l" part="N">Cibus tuus pulvis futurus turpis est.</l>
+<l TEIform="l" part="N">Et insuper tantas inimicitias tibi</l>
+<l TEIform="l" part="N">Cum muliere excitabo perpetuum graves,</l>
+<l TEIform="l" part="N">Interque semen eius et semen tuum:</l>
+<l TEIform="l" part="N">Id conteret tibi caput, tuque atteres</l>
+<l TEIform="l" part="N">Calcaneum illius, gravi odio simul.</l>
+<l TEIform="l" part="N">Quaecumque tibi fuere communia prius</l>
+<l TEIform="l" part="N">Cum homine, statim nunc eiectus consortio</l>
+<l TEIform="l" part="N">Eius, quasi ex mensa, propter crimen tuum:</l>
+<l TEIform="l" part="N">Adeo ut ne pomo, vel dulci pyro tibi</l>
+<l TEIform="l" part="N">Vesci liceat, immo rudem terram cibum</l>
+<l TEIform="l" part="N">Habebis. In te tua multum mutabitur</l>
+<l TEIform="l" part="N">Natura, nec retinebit illam pristinam</l>
+<l TEIform="l" part="N">Vim, qua creatus eras statu sub altero.</l>
+<l TEIform="l" part="N">Audi mulier, et quid posthac faciam tibi.</l>
+<l TEIform="l" part="N">Tuum dolorem multiplicabo plurimum,</l>
+<l TEIform="l" part="N">Si quando gravida eris, feresque liberos,</l>
+<l TEIform="l" part="N">Paries eos omnes dolore maximo:</l>
+<l TEIform="l" part="N">Et sub viri potestate es posita tui,</l>
+<l TEIform="l" part="N">Ipse dominabitur tibi omni tempore.</l>
+<l TEIform="l" part="N">Dominus tuus erit, tu illi contra subdita</l>
+<l TEIform="l" part="N">Vives: viri iugum feres, nil mussitans.</l>
+<l TEIform="l" part="N">Ast liberos illi dabis carissima,</l>
+<l TEIform="l" part="N">Benedictione divina facies patrem.</l>
+<pb id="s0068" n="52" TEIform="pb"/>
+<l TEIform="l" part="N">Sed interim partus gravis, periculo</l>
+<l TEIform="l" part="N">Plenus suturus omnis est, culpa tua</l>
+<l TEIform="l" part="N">Retinebis attamen viri sexum tui.</l>
+<l TEIform="l" part="N">Hoc te quidem dum vives consolabit,</l>
+<l TEIform="l" part="N">Quia ex tuo nascetur olim semine</l>
+<l TEIform="l" part="N">Semen, quod huic Serpenti conterat caput,</l>
+<l TEIform="l" part="N">Qui tibi dedit causam infortunii illius.</l>
+<l TEIform="l" part="N">Tibi porro Adam, quid ego velim, paucissimis</l>
+<l TEIform="l" part="N">Dicam. Quia tuae uxoris audisti lubens</l>
+<l TEIform="l" part="N">Vocem, <corr sic="obsequvius" resp="transcriber" TEIform="corr">obsecutus</corr> insuperque es iussibus</l>
+<l TEIform="l" part="N">Eius, licet <corr sic="praeceperam" resp="transcriber" TEIform="corr">praeciperam</corr> tibi antea,</l>
+<l TEIform="l" part="N">Non commedes (dicens) fructus scientiae,</l>
+<l TEIform="l" part="N">Qui sunt sub ipsius medio pomarii:</l>
+<l TEIform="l" part="N">Hoc negligens sumpsisti, quod placuit tibi</l>
+<l TEIform="l" part="N">Edisti, et in nihilum putas haec me loqui:</l>
+<l TEIform="l" part="N">Maledicta terra propter hoc facinus tuum.</l>
+<l TEIform="l" part="N">Nam proferet spinas, dabitque tribulos,</l>
+<l TEIform="l" part="N">Et germinabit zizania cunctis locis,</l>
+<l TEIform="l" part="N">Dolore commedes diebus omnibus</l>
+<l TEIform="l" part="N">Cibos tuos, herbasque campi devorans,</l>
+<l TEIform="l" part="N">Errabis incertis locorum sedibus,</l>
+<l TEIform="l" part="N">Sudore vultus pane vesceris tui:</l>
+<l TEIform="l" part="N">Donec sub illam, de qua primo sumptus es,</l>
+<l TEIform="l" part="N">Terram revertaris. quia levis pulvis es,</l>
+<l TEIform="l" part="N">In quem reverteris vicissim postea.</l>
+<l TEIform="l" part="N">Terra ex sui natura fecundissima</l>
+<l TEIform="l" part="N">Est, innocensque ferret omni copia</l>
+<l TEIform="l" part="N">Quod optimum foret: sed impeditur hac</l>
+<pb id="s0069" n="53" TEIform="pb"/>
+<l TEIform="l" part="N">Maledictione, quae scelera propter tua</l>
+<l TEIform="l" part="N">Mala est, agri incipient statim sterilescere,</l>
+<l TEIform="l" part="N">Tuique criminis campi poenas luent.</l>
+<l TEIform="l" part="N">Cum nulla pars terrae sterilis antea fuit,</l>
+<l TEIform="l" part="N">Fecunda quin, et fertilia passim omnia:</l>
+<l TEIform="l" part="N">Nunc nil minus, meatuum clausa est via.</l>
+<l TEIform="l" part="N">Panem tibi lassa tua quaeres manu:</l>
+<l TEIform="l" part="N">Sudoribus cibos parabis corporis:</l>
+<l TEIform="l" part="N">Labore vitam transiges gravissimo.</l>
+<l TEIform="l" part="N">Nullus calamitatum finis tibi datur,</l>
+<l TEIform="l" part="N">Praeter ferocis terminos mortis tuae.</l>
+<l TEIform="l" part="N">Namque est futurum, utque resolvaris denuo in</l>
+<l TEIform="l" part="N">Glebam, tuisque meritis sumas praemium.</l>
+<l TEIform="l" part="N">Sic est tuus lapsus de vita in pallidae</l>
+<l TEIform="l" part="N">Mortis graves poenas, in morbos plurimos</l>
+<l TEIform="l" part="N">A'sanitate, soliusque iniuria</l>
+<l TEIform="l" part="N">Tua: feras, culpare quod numquam potes.</l>
+<l TEIform="l" part="N">Fit vita nulli mancipi, sed omnibus</l>
+<l TEIform="l" part="N">Nunc usui conceditur, nec amplius.</l>
+<l TEIform="l" part="N">Haec vestimenta pellicea feci nova,</l>
+<l TEIform="l" part="N">Induite vos, ornati pulchra chlamyde.</l>
+<l TEIform="l" part="N">Ecce unus ex nobis Adam ille factus est,</l>
+<l TEIform="l" part="N">Sciens bonum et malum. Elegantes dii: vide.</l>
+<l TEIform="l" part="N">Nunc ergo, post hac forte ne suam manum</l>
+<l TEIform="l" part="N">Mittat, sibique sumat ex illa arbore</l>
+<l TEIform="l" part="N">Vitae, ac edatque vivat aeternaliter,</l>
+<l TEIform="l" part="N">Abi Raphael, et quod volo fieri face.</l>
+<l TEIform="l" part="N">Expelle protinus virum cum femina</l>
+<pb id="s0070" n="54" TEIform="pb"/>
+<l TEIform="l" part="N">Ex hoc voluptatis loco, iube exeant</l>
+<l TEIform="l" part="N">Nulla mora paradisi sacros terminos.</l>
+<l TEIform="l" part="N">Abite, terram colite, de qua estis prius</l>
+<l TEIform="l" part="N">Sumpti, periculis subiecti plurimis</l>
+<l TEIform="l" part="N">Eritis, ego videbitis quid possiem.</l>
+<l TEIform="l" part="N">Quid feceritis, ibi docebimini probe.</l>
+<l TEIform="l" part="N">Illis prohibui ne fructus attingerent</l>
+<l TEIform="l" part="N">Mortis: sed haec frustra sunt dicta singula,</l>
+<l TEIform="l" part="N">Nec abstinebant a proprio suo malo.</l>
+<l TEIform="l" part="N">Quare profecto curandum est, ne postea</l>
+<l TEIform="l" part="N">Etiam arborem vitae tentent consumere,</l>
+<l TEIform="l" part="N">Ut fata praeter viverent longissime.</l>
+<l TEIform="l" part="N">Abite, dixi satis, haud ulli in posterum</l>
+<l TEIform="l" part="N">Licebit hos paradisi fructus tangere.</l>
+<l TEIform="l" part="N">Multo minus gustare: stat sententia.</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.04.04" n="4" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA IIII.</head>
+<stage type="mix" TEIform="stage">Raphael Eua. Adam.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">RA. Exi hinc Adam, quae sit Dei sententia</l>
+<l TEIform="l" part="N">Intelligis: quin coniugem una ducito</l>
+<l TEIform="l" part="N">Tecum. Mora nocet, exite hinc: nullus locus</l>
+<l TEIform="l" part="N">Hic diutius vobis manendi linquitur.</l>
+<l TEIform="l" part="N">Quo vos pedes ferant, vide sub tempore.</l>
+<l TEIform="l" part="N">Nobis nihil curae amplius, quo commode</l>
+<l TEIform="l" part="N">Vivere tibi detur loco: merito tuo</l>
+<l TEIform="l" part="N">Tam splendidae ius sedis amisti sacrum.</l>
+<l TEIform="l" part="N">AD. Hem, mihi quis est finis miseriae? perditi</l>
+<l TEIform="l" part="N">Quid fecimus? vel quo ibimus? nullus mihi est</l>
+<l TEIform="l" part="N">Notus locus totius orbis, insuper</l>
+<pb id="s0071" n="55" TEIform="pb"/>
+<l TEIform="l" part="N">Nec quid sub illo scimus fiat tramite.</l>
+<l TEIform="l" part="N">RA. Heus nihil agis, cunctationem quid petis?</l>
+<l TEIform="l" part="N">Frustra est, eas, advesperascit proxime.</l>
+<l TEIform="l" part="N">Tempusque postulat, claudendus hortus est,</l>
+<l TEIform="l" part="N">Post cautius, sultis, mercari discite.</l>
+<l TEIform="l" part="N">Verum memoriam praeteritorum amittere</l>
+<l TEIform="l" part="N">Cave, ne quod de gratia Dei datur,</l>
+<l TEIform="l" part="N">Temere aliquando amittas, curandum tibi.</l>
+<l TEIform="l" part="N">AD. At quo ibimus? duc nos parumper, optime.</l>
+<l TEIform="l" part="N">Vel redde comitem. fugere cur solos iubes?</l>
+<l TEIform="l" part="N">RA. Quasi locus desit sub orbe maximo.</l>
+<l TEIform="l" part="N">Abi. Veni Cherub tuo cum flammeo</l>
+<l TEIform="l" part="N">Gladio, viam ligni vitae custodias.</l>
+<l TEIform="l" part="N">Ne quis subintret, diligenter videris,</l>
+<l TEIform="l" part="N">Remove procul quisquis propius accesserit.</l>
+<l TEIform="l" part="N">Ne quando Adami quaesituri patriam</l>
+<l TEIform="l" part="N">Posteri, sequantur huc vetera vestigia.</l>
+<l TEIform="l" part="N">Haec est Dei voluntas nostri sanctior.</l>
+<l TEIform="l" part="N">AD. Quando redibimus, reduc quaeso cito.</l>
+<l TEIform="l" part="N">RA. Tace modo tu. de istoc cum usus venerit</l>
+<l TEIform="l" part="N">Videbimus quid opus sit: nunc istuc age.</l>
+<l TEIform="l" part="N">AD. Peccata coniugis num ego dissolvam?</l>
+<l TEIform="l" part="N">RA. Doceat maritus coniugem, non est meum.</l>
+<l TEIform="l" part="N">Iam exisse decuit, quid seris fando moras?</l>
+<l TEIform="l" part="N">AD. Supplex recedens illud extremum precor,</l>
+<l TEIform="l" part="N">Ne culpa natos matris insontes trahat.</l>
+<l TEIform="l" part="N">RA. Originis peccata sufferent tui</l>
+<l TEIform="l" part="N">Tam liberi, quam <corr sic="sucessores" resp="transcriber" TEIform="corr">successores</corr> omnium.</l>
+<pb id="s0072" n="56" TEIform="pb"/>
+<l TEIform="l" part="N">Quandoquidem ambo exibitis pomario.a</l>
+<l TEIform="l" part="N">Posthac cavete plurimum, vigilabitis</l>
+<l TEIform="l" part="N">Multum, qui horam qua venturus est Deus</l>
+<l TEIform="l" part="N">Nescibitis: praedictum sit vobis volo.</l>
+<l TEIform="l" part="N">AD. Abeamus ergo, quando visum ita est Deo</l>
+<l TEIform="l" part="N">Nostro, quis illi unquam resistet omnium?</l>
+<l TEIform="l" part="N">EV. Hem mi vir, haec quae vita nostra dic mihi</l>
+<l TEIform="l" part="N">Futura sub rerum tanta ignorantia?</l>
+<l TEIform="l" part="N">Periculosa quidem videtur maxime.</l>
+<l TEIform="l" part="N">AD.Exul fugio, me quippe iam poenae expetunt.</l>
+<l TEIform="l" part="N">Quis iste, celerem concitus fugam facit</l>
+<l TEIform="l" part="N">Sathan doli magister, et vanissimus.</l>
+<l TEIform="l" part="N">Stat ecce Titan dubius emerito die,</l>
+<l TEIform="l" part="N">Miratur hanc fugam: nec ulla pax dari</l>
+<l TEIform="l" part="N">Potest, aegestas turpis est, magnum scelus</l>
+<l TEIform="l" part="N">Commisimus nostra perversa audacia.</l>
+<l TEIform="l" part="N">EV. Unum est tamen quod consoletur exulem</l>
+<l TEIform="l" part="N">Me, scilicet successio per posteros,</l>
+<l TEIform="l" part="N">Quorum data est utrique nostrum firma spes.</l>
+<l TEIform="l" part="N">Quid tibi timendum est? pone iam trepidos metus.</l>
+<l TEIform="l" part="N">AD. Ponam. Sed haec vita interim plenissima</l>
+<l TEIform="l" part="N">Curarum erit, laboribus circumdata.</l>
+<l TEIform="l" part="N">Terram colemus fructuum causa rudem,</l>
+<l TEIform="l" part="N">Sterilemque factam ob nostra solum crimina.</l>
+<l TEIform="l" part="N">Porro mihi deinceps uxor unica</l>
+<l TEIform="l" part="N">Futura, quare sacro semper nomine</l>
+<l TEIform="l" part="N">Euaque vocaberis, ceu mater omnium</l>
+<l TEIform="l" part="N">Viventium. Serus quid hesperus ferat,</l>
+<pb id="s0073" n="57" TEIform="pb"/>
+<l TEIform="l" part="N">Nescimus. Omnis terra forti patria est.</l>
+<l TEIform="l" part="N">Vale, locorum Paradise amoenissime.</l>
+<l TEIform="l" part="N">EV. Ego necis, vitaeque consors ero tibi:</l>
+<l TEIform="l" part="N">Quocumque abibis, te sequar comes unica.</l>
+<l TEIform="l" part="N">AD. Sequere. Facis quod te decet, coniunx mea.</l>
+</lg>
+</div3>
+<div3 id="OpDB.01.04.05" n="5" type="scene" org="uniform" sample="complete" TEIform="div3" part="N">
+<head>SCENA V.</head>
+<stage type="mix" TEIform="stage">Cherub.</stage>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">CHER. O quanta calamitas sequitur Adam scelus</l>
+<l TEIform="l" part="N">Inobedientiae, miser andum saeculum</l>
+<l TEIform="l" part="N">Eius, quis enarrabit hunc lapsum gravem?</l>
+<l TEIform="l" part="N">Quantum periculi miser sibi colligit,</l>
+<l TEIform="l" part="N">Deprensa culpa eius? Quis omnium potest</l>
+<l TEIform="l" part="N">Tantum expiare sceleris? o silvae, o ferae,</l>
+<l TEIform="l" part="N">O caelum, et o mare, et quicquid'nam illic erit</l>
+<l TEIform="l" part="N">Vivum, dolete fatum hoc omni tempore.</l>
+<l TEIform="l" part="N">Quanto fuisset satius, hoc operam dare</l>
+<l TEIform="l" part="N">Ut viveres Deo, quam intemperantiae</l>
+<l TEIform="l" part="N">Tete dares? Proh dolor, Adam manu sacra</l>
+<l TEIform="l" part="N">Compositus, et rerum dominus unus quidem,</l>
+<l TEIform="l" part="N">Praeterea homo immortalis ab ipso Deo</l>
+<l TEIform="l" part="N">Cretus, Deoque familiaris, incola</l>
+<l TEIform="l" part="N">Sanctissimus paradisi, cultor omnium</l>
+<l TEIform="l" part="N">Crescentium, soli datus custodiae</l>
+<l TEIform="l" part="N">Horti sacri, tam graviter poenas incidit?</l>
+<l TEIform="l" part="N">Ob noxiam, ut videtur forsan, parvulam:</l>
+<l TEIform="l" part="N">Crimen inobedientiae peius dolet</l>
+<l TEIform="l" part="N">Ipsi Deo, quam quod erit unquam maximum.</l>
+<l TEIform="l" part="N">Verum nec is solus qui peccavit, luit</l>
+<pb id="s0074" n="58" TEIform="pb"/>
+<l TEIform="l" part="N">Poenas: sed etiam terra quae nihil nocens</l>
+<l TEIform="l" part="N">Fecit, gravi maledictioni subiacet.</l>
+<l TEIform="l" part="N">Domine Deus, quam admirabile nomen tuum est</l>
+<l TEIform="l" part="N">In universa terra, et in caelo supra.</l>
+<l TEIform="l" part="N">Qui cuncta regis, solus tenes, dominaris et</l>
+<l TEIform="l" part="N">Orbi, et quod ipsa terra sub se continet.</l>
+<l TEIform="l" part="N">Hostem tuum verbo necas, et conteris</l>
+<l TEIform="l" part="N">Dolos, ut hostibus tuis virtus tua</l>
+<l TEIform="l" part="N">Sit nota. dextrae omnipotentis vires tuae</l>
+<l TEIform="l" part="N">Cognovimus, mundi spatiosa ubi volumina,</l>
+<l TEIform="l" part="N">Aut vidimus rutili caeli flammantia</l>
+<l TEIform="l" part="N">Sidera, tuis manibus sub orbe condita:</l>
+<l TEIform="l" part="N">Sensus subit nostros statim admiratio,</l>
+<l TEIform="l" part="N">Quae'nam manus faciat haec? ergo talia</l>
+<l TEIform="l" part="N">Cum facias, homo quid inanis est curae tibi?</l>
+<l TEIform="l" part="N">Quem dotibus dignum putasti talibus?</l>
+<l TEIform="l" part="N">Locasti Adam dilectas interres tibi.</l>
+<l TEIform="l" part="N">Nec id satis fuit, corona ornasti eum,</l>
+<l TEIform="l" part="N">Dominumque super opera instituis hunc omnia</l>
+<l TEIform="l" part="N">Manus tuae, qui cuncta possedit simul.</l>
+<l TEIform="l" part="N">Paulo minus minuisti eumque ab angelis,</l>
+<l TEIform="l" part="N">Imo tui similem, post te quoque feceris</l>
+<l TEIform="l" part="N">Ipsum secundum, quod nec nobis contigit.</l>
+<l TEIform="l" part="N">Armenta, pisces, volucres, bestiae, ferae,</l>
+<l TEIform="l" part="N">Omnia pedibus eius fuere subdita.</l>
+<l TEIform="l" part="N">Quam gratus ille possessor fuit, vide.</l>
+<l TEIform="l" part="N">Legem recusans unicam, posuit iugum.</l>
+<l TEIform="l" part="N">Quantum boni tulisset homo, sinon Adam</l>
+<pb id="s0075" n="59" TEIform="pb"/>
+<l TEIform="l" part="N">Lapsus fuisset Protoplastus perdite?</l>
+<l TEIform="l" part="N">Infausta certe nimium erit, lacrimabilis</l>
+<l TEIform="l" part="N">Mortaliumque conditio. Quae filiis</l>
+<l TEIform="l" part="N">Adam quies futura? quae est securitas?</l>
+<l TEIform="l" part="N">Maerore, luctu, gemitu, voceque lugubri</l>
+<l TEIform="l" part="N">Peragent dies suos, veteris umbram vident</l>
+<l TEIform="l" part="N">Vitae: nec hoc integrum illis conceditur,</l>
+<l TEIform="l" part="N">Hostis generis humani numquam desinet</l>
+<l TEIform="l" part="N">Circumvenire posteros per callide</l>
+<l TEIform="l" part="N">Astu, dolisque fraude novit optime,</l>
+<l TEIform="l" part="N">Nunc a sinistris, nunc adest a dexteris.</l>
+<l TEIform="l" part="N">Donec capiat, oppugnet, prosternat suis</l>
+<l TEIform="l" part="N">Fallaciis quam plurimos Quis illius</l>
+<l TEIform="l" part="N">Dolos, furorem, machinas, artes novas</l>
+<l TEIform="l" part="N">Depinxerit? mille artifex, omnia probat.</l>
+<l TEIform="l" part="N">Quis se putabit a tot, atque incursibus</l>
+<l TEIform="l" part="N">Tantis, fore omni tutum puncto temporis?</l>
+<l TEIform="l" part="N">Nemo est. Adamum suasu mendacissimo</l>
+<l TEIform="l" part="N">Mortalium primum expulit tanto loco.</l>
+<l TEIform="l" part="N">Cui vita nondum criminis fuit rea.</l>
+<l TEIform="l" part="N">Quid de suis fore successoribus putas?</l>
+<l TEIform="l" part="N">Quorum caro infecta est Adami crimine.</l>
+<l TEIform="l" part="N">Propter quod omnis terra noxium feret</l>
+<l TEIform="l" part="N">Loliumque avenas steriles, urticas rudes.</l>
+<l TEIform="l" part="N">Etiam venena, noxiasque bestias,</l>
+<l TEIform="l" part="N">Quae propter illius peccata invecta sunt</l>
+<l TEIform="l" part="N">In universos mundi late terminos.</l>
+<l TEIform="l" part="N">O quam fuisset vita felix, antea</l>
+<pb id="s0076" n="60" TEIform="pb"/>
+<l TEIform="l" part="N">Quam lapsus erat Adamus, omnium malo.</l>
+<l TEIform="l" part="N">Possessor horti splendidi, solus fuit.</l>
+<l TEIform="l" part="N">Ubi aura spirans salubrior, mali insciens</l>
+<l TEIform="l" part="N">Odoris, aqua fecundior, fructiferaque</l>
+<l TEIform="l" part="N">Mage terra, neminique noxiae ferae</l>
+<l TEIform="l" part="N">Vivunt bonorum commodo, robore vigent.</l>
+<l TEIform="l" part="N">Nunc saevus Auster cuncta disturbat freta,</l>
+<l TEIform="l" part="N">Placidumque pelagus tumida tempestas agit,</l>
+<l TEIform="l" part="N">Tremuere terrae, fugit attonitum pecus</l>
+<l TEIform="l" part="N">Passim per agros, domini Adam non amplius</l>
+<l TEIform="l" part="N">Memor, latet nunc omnis in saltu fera.</l>
+<l TEIform="l" part="N">Imperia solvit, seque luctatur iugo</l>
+<l TEIform="l" part="N">Eripere: cecidit quoniam Adam, praesentiunt.</l>
+<l TEIform="l" part="N">Sensere facinus hoc caelum, et magnum mare:</l>
+<l TEIform="l" part="N">Equidem malorum maximum hunc cumulum reor,</l>
+<l TEIform="l" part="N">Si abominanda casus optata efficit.</l>
+<l TEIform="l" part="N">En improbo labore terra arabitur,</l>
+<l TEIform="l" part="N">Et vix sudore maximo fructus dabit,</l>
+<l TEIform="l" part="N">Si modo boni quid proferat homini usui.</l>
+<l TEIform="l" part="N">Omnia Dei ira deformata sunt nimis.</l>
+<l TEIform="l" part="N">Ubi prius recubabat, et amoenissimas</l>
+<l TEIform="l" part="N">Adam inter arbores, pratorum gramine,</l>
+<l TEIform="l" part="N">Campique floribus, fragrantibus rosis,</l>
+<l TEIform="l" part="N">Herbisque passim dulcibus perambulans:</l>
+<l TEIform="l" part="N">Illic rudes herbae, sentesque pullulant</l>
+<l TEIform="l" part="N">Hodie, molestum crescit urticae genus</l>
+<l TEIform="l" part="N">In copia tanta, ut si quid boni venit,</l>
+<l TEIform="l" part="N">Fere obruatur hominis cum dispendio.</l>
+<pb id="s0077" n="61" TEIform="pb"/>
+<l TEIform="l" part="N">Hoc tu malorum machinatrix facinorum</l>
+<l TEIform="l" part="N">Eua efficis, donec virum seduxeris.</l>
+<l TEIform="l" part="N">Cui feminea nequitia ad audendum omnia</l>
+<l TEIform="l" part="N">Innata, nulla famae memoria est bonae.</l>
+<l TEIform="l" part="N">Hoc dedecus numquam, vel vix absterseris,</l>
+<l TEIform="l" part="N">Nec ipsa perpetuo impunita iam manes,</l>
+<l TEIform="l" part="N">Poenam feres tuo peccati in corpore.</l>
+<l TEIform="l" part="N">Labore magno cum viro panem tuum</l>
+<l TEIform="l" part="N">Quaeres, eoque vesceris sudoribus.</l>
+<l TEIform="l" part="N">Quae causa tanti criminis vos implicat?</l>
+<l TEIform="l" part="N">Ambo novi tam mundo, quam loco hospites,</l>
+<l TEIform="l" part="N">Et incolae cura soluti obambulant,</l>
+<l TEIform="l" part="N">Gaudent, nihil malique suspicarier</l>
+<l TEIform="l" part="N">Visi, fruuntur fructibus cum gaudio:</l>
+<l TEIform="l" part="N">Amoenitate tanta vir cum feminae</l>
+<l TEIform="l" part="N">Sperant in aeternum frui, mox concidunt.</l>
+<l TEIform="l" part="N">Namque adfuit commotus invidia malus</l>
+<l TEIform="l" part="N">Hostis, status hominum tam felicissimi,</l>
+<l TEIform="l" part="N">Suggestione falsa primo mulieris</l>
+<l TEIform="l" part="N">Illexit animum in ardorem legis Dei</l>
+<l TEIform="l" part="N">Superandae, at illa suasit haec eadem viro:</l>
+<l TEIform="l" part="N">Sic fit, quod ambo vetitos fructus ederint.</l>
+<l TEIform="l" part="N">Ut omnibus caecus vitiis inest amor:</l>
+<l TEIform="l" part="N">Ita quoque futurum despicitur omni modo,</l>
+<l TEIform="l" part="N">Et in brevem suadent fructum praesentia.</l>
+<l TEIform="l" part="N">Damni libido semper in vetitum ruit,</l>
+<l TEIform="l" part="N">Secura poenae, dum mora est lucro, utile</l>
+<l TEIform="l" part="N">Putatur instans, serum creditur malum:</l>
+<pb id="s0078" n="62" TEIform="pb"/>
+<l TEIform="l" part="N">Donec futurum damno praesens obruat.</l>
+<l TEIform="l" part="N">Sic Eua boni praesentis ex dulcedine,</l>
+<l TEIform="l" part="N">Nihil videt quid sit venturum proxime,</l>
+<l TEIform="l" part="N">Rapit, viro porgit malum, qui <corr sic="commedit" resp="transcriber" TEIform="corr">comedit</corr>.</l>
+<l TEIform="l" part="N">O caeca rerum, stulta quoque cupiditas.</l>
+<l TEIform="l" part="N">Hi sunt, quibus Deo volente dominium</l>
+<l TEIform="l" part="N">Mundi fuit datum, regnique aeternitas.</l>
+<l TEIform="l" part="N">Et dum putant se per inobedientiam</l>
+<l TEIform="l" part="N">Unam, Deo similes (volent modo) effici</l>
+<l TEIform="l" part="N">Miseri esse sic cepere mortales statim:</l>
+<l TEIform="l" part="N">Qui mortis imperium timebant antea</l>
+<l TEIform="l" part="N">Nihil, metu nullo victuri perpetim.</l>
+<l TEIform="l" part="N">His esus unus detestabilis, mali</l>
+<l TEIform="l" part="N">Radix, et humani generis exitium erat.</l>
+<l TEIform="l" part="N">Per hunc, quasi reseratis terrae postibus,</l>
+<l TEIform="l" part="N">Vitia subintrant victricia mundum simul:</l>
+<l TEIform="l" part="N">In posteros ruent Adami, quos cito</l>
+<l TEIform="l" part="N">Sternent, agent, vertentque, mox <corr sic="pessundabunt" resp="transcriber" TEIform="corr">pessum dabunt</corr>.</l>
+<l TEIform="l" part="N">Quorum malorum nunc est copia undique.</l>
+<l TEIform="l" part="N">Hinc nuda paupertas venit, morbi genus</l>
+<l TEIform="l" part="N">Varium, febris, cephalea, pestilentia,</l>
+<l TEIform="l" part="N">Et lepra, lethargus, dirusque hydrops,</l>
+<l TEIform="l" part="N">Eiusmodique multa alia. Gravissima</l>
+<l TEIform="l" part="N">Peccata surgent indies mundo novo,</l>
+<l TEIform="l" part="N">Caedes, adulterium, furtum, rapina, fraus,</l>
+<l TEIform="l" part="N">Et pauperum despectio, cupiditas</l>
+<l TEIform="l" part="N">Regni, libido turpis, et luxus cibi,</l>
+<l TEIform="l" part="N">Potusque, bellum, pax rursus, doli mali.</l>
+<pb id="s0079" n="63" TEIform="pb"/>
+<l TEIform="l" part="N">Ludus frequens, ebrietas res turpissima,</l>
+<l TEIform="l" part="N">Usura proximi, superbiae gradus,</l>
+<l TEIform="l" part="N">Alterius insuper rerum invidia tetra.</l>
+<l TEIform="l" part="N">Ingens pecuniae sitis, avaraque</l>
+<l TEIform="l" part="N">Manus, calumniae studium, amor impii</l>
+<l TEIform="l" part="N">Cultus, deorum relligio vanissima.</l>
+<l TEIform="l" part="N">Praeterea et anxiae curae, tum seruitus,</l>
+<l TEIform="l" part="N">Nec non suo gravis senectus pondere,</l>
+<l TEIform="l" part="N">Manuum labor non deficiens, fastidium</l>
+<l TEIform="l" part="N">Vitae. Sed ut multa in fasces recolligam,</l>
+<l TEIform="l" part="N">Ludibrium fortunae, quae mundum regit,</l>
+<l TEIform="l" part="N">Et occupabit iura per fas et nefas.</l>
+<l TEIform="l" part="N">Haec sunt nihil, nisi sequeretur maximum,</l>
+<l TEIform="l" part="N">Heu mors ferox, parcens omnino nemini:</l>
+<l TEIform="l" part="N">Quae qua veniat hora, nescitur ab omnibus.</l>
+<l TEIform="l" part="N">Incauta prorumpit multo ante tempora,</l>
+<l TEIform="l" part="N">Hominem opprimens, inque nihilum cuncta redigens.</l>
+<l TEIform="l" part="N">Quid haec tamen numerarier necesse erat?</l>
+<l TEIform="l" part="N">Tremo, horreoque, post quam tanta dixerim.</l>
+<l TEIform="l" part="N">Usus docebit, rerumque experientia.</l>
+<l TEIform="l" part="N">Atqui his Adam si solus subiectus foret</l>
+<l TEIform="l" part="N">Cum femina, parum esset hoc: sed noxiam</l>
+<l TEIform="l" part="N">Fecit suo posteritatem omnem crimine.</l>
+<l TEIform="l" part="N">Qui perpetrato peccato, atque lumine</l>
+<l TEIform="l" part="N">Abeunte, quo fuere tum circumdati,</l>
+<l TEIform="l" part="N">Intelligentes propriam ignominiam suam,</l>
+<l TEIform="l" part="N">Quaerunt sibi latebras quo se contruderent,</l>
+<l TEIform="l" part="N">Fugerentque praesentem Dei iracundiam,</l>
+<pb id="s0080" n="64" TEIform="pb"/>
+<l TEIform="l" part="N">Verum nihil iuvabat illos cognitos</l>
+<l TEIform="l" part="N">Latuisse, iam Deus vocatos corrigit,</l>
+<l TEIform="l" part="N">Et splendida patria expulit miserrimos,</l>
+<l TEIform="l" part="N">Primos parentes omnium mortalium,</l>
+<l TEIform="l" part="N">Qui nascituri sunt olim per ordinem.</l>
+<l TEIform="l" part="N">Hi virgines paradisum egressi, liberos</l>
+<l TEIform="l" part="N">Sub lege parient sacrati <reg orig="connubii" TEIform="reg">conubii</reg>.</l>
+<l TEIform="l" part="N">Nec hoc quiete, sine fiet molestia:</l>
+<l TEIform="l" part="N">Nam saepe sentient famem laboribus</l>
+<l TEIform="l" part="N">Iunctam suis. Immite caelum algoribus,</l>
+<l TEIform="l" part="N">Nunc frigore, aut aridum aestu intolerabili</l>
+<l TEIform="l" part="N">Solum, videbunt nunc pruinas aethere,</l>
+<l TEIform="l" part="N">Nives cadent, glacie constabunt flumina,</l>
+<l TEIform="l" part="N">Crebrasque <corr sic="corruscationes" resp="transcriber" TEIform="corr">coruscationes</corr> perferent,</l>
+<l TEIform="l" part="N">Et impetus ventorum, saepe fulmina</l>
+<l TEIform="l" part="N">Ignita cernent, audientque tonitrua.</l>
+<l TEIform="l" part="N">Serpentium morsus, ferarum incommoda,</l>
+<l TEIform="l" part="N">Fugientque, liberos ab his custodient.</l>
+<l TEIform="l" part="N">Quid porro opus multis? rerum pericula</l>
+<l TEIform="l" part="N">Mille, sibique ultro quaesitam expavescere</l>
+<l TEIform="l" part="N">Mortem incipere satagent: tamen frustra omnia</l>
+<l TEIform="l" part="N">Fient. nihil lacrimae prosunt, queruli dies,</l>
+<l TEIform="l" part="N">Noctesque nil iuvant:'est paenitentia</l>
+<l TEIform="l" part="N">Sera, omnis et frustra lacrima cadet oculis.</l>
+<l TEIform="l" part="N">Cupido denique pacis inanis, quies</l>
+<l TEIform="l" part="N">Nulla est, loco laetitiae primas continent</l>
+<l TEIform="l" part="N">Curae anxiae: tum miseriae eorum regunt</l>
+<l TEIform="l" part="N">Mentes. Quibus potuissent omnibus quidem</l>
+<pb id="s0081" n="65" TEIform="pb"/>
+<l TEIform="l" part="N">Facile carere, si quiesset haec modo.</l>
+<l TEIform="l" part="N">Quos' nam dolores ante, quas lacrimas sibi</l>
+<l TEIform="l" part="N">Incognitas usque huc, timere intelligent?</l>
+<l TEIform="l" part="N">Quanto igitur est res nova magis, tanto etiam erit</l>
+<l TEIform="l" part="N">Amarior, illisque semper durior</l>
+<l TEIform="l" part="N">Post toleratu. Urgent gravius incognita.</l>
+<l TEIform="l" part="N">Vide, boni quantum Deus Adamo facit:</l>
+<l TEIform="l" part="N">Ne solus esset, sociam iunxit coniugem,</l>
+<l TEIform="l" part="N">Et virginem de carne transsumptam sua:</l>
+<l TEIform="l" part="N">Ex qua sibi sobolem quaesisset plurimam,</l>
+<l TEIform="l" part="N">Nihilo minus sub paradisi ipsis terminis.</l>
+<l TEIform="l" part="N">Denique sibi crescebant sponte singuli</l>
+<l TEIform="l" part="N">Fructus, laborare nihil opus illis fuit.</l>
+<l TEIform="l" part="N">Verum volebant aliud esse sanctius,</l>
+<l TEIform="l" part="N">Similes Deo fieri. quod ille intelligens,</l>
+<l TEIform="l" part="N">Divinitatem morte punit acriter.</l>
+<l TEIform="l" part="N">Adeo nihil relinquit et inultum Deus,</l>
+<l TEIform="l" part="N">Ut nec suis etiam parcat carissimis.</l>
+<l TEIform="l" part="N">Miror quid hic praesens illorum vita sit</l>
+<l TEIform="l" part="N">Aliud, respectu praeteritae, quam mors ferox,</l>
+<l TEIform="l" part="N">Cui subiacent, incipiuntque omni hora mori.</l>
+<l TEIform="l" part="N">Nec ulla spes salutis his relinquitur,</l>
+<l TEIform="l" part="N">Nisi sua agnoscant utrique crimina.</l>
+<l TEIform="l" part="N">Ac paenitentia gravi pectus premant,</l>
+<l TEIform="l" part="N">Donec misericors Deus illos respexit,</l>
+<l TEIform="l" part="N">Et hoc quod ex illis futurum semen est</l>
+<l TEIform="l" part="N">Serpentis illius caput fallax terat,</l>
+<l TEIform="l" part="N">His qui dedit causam malis. Hac spe viget</l>
+<pb id="s0082" n="66" TEIform="pb"/>
+<l TEIform="l" part="N">Animus eorum, membra languent sedulo.</l>
+<l TEIform="l" part="N">Conclusus hortus est, pedes nemo huc suos</l>
+<l TEIform="l" part="N">Feret. Beatis hic locus fit angelis:</l>
+<l TEIform="l" part="N">Excluso homine primo, propria culpa sua.</l>
+<l TEIform="l" part="N">Felix ubi, ni peccasset, quiesceret,</l>
+<l TEIform="l" part="N">Quam gloriam lapsus malus sibi abstulit.</l>
+<l TEIform="l" part="N">Estote mihi caelum, arbores, montes, mare,</l>
+<l TEIform="l" part="N">Flumina, ferae, testes rei certissimi,</l>
+<l TEIform="l" part="N">Quam male Deo creatus homo Adam fecerit,</l>
+<l TEIform="l" part="N">Intemperantia sua cum perderet,</l>
+<l TEIform="l" part="N">Quod vix in aeternum requiritur bene,</l>
+<l TEIform="l" part="N">Quamvis nihil nobis curae, illi luditur.</l>
+<l TEIform="l" part="N">Quem penitebit serius facti tamen:</l>
+<l TEIform="l" part="N">Et posterorum vox damnabit publica.</l>
+<l TEIform="l" part="N">Haec est dies signandus atro calculo,</l>
+<l TEIform="l" part="N">Quo generis humani periit misere salus.</l>
+</lg>
+</div3>
+</div2>
+<closer TEIform="closer">FINIS.</closer>
+<pb id="s0083" n="67" TEIform="pb"/>
+</div1></body></text>
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

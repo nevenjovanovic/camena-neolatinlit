@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+ <teiHeader type="text">
+    <fileDesc TEIform="fileDesc">
+      <titleStmt TEIform="titleStmt">
+        <title TEIform="title">Epigrammatum Liber Unus.</title>
+        <title type="sub" TEIform="title">Machine-readable text</title>
+        <author n="Opitz" TEIform="author">Opitz, Martin</author>
+        <editor TEIform="editor" role="editor">Opitz, Martin</editor>
+      </titleStmt>
+      <editionStmt TEIform="editionStmt">
+        <edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+        <respStmt TEIform="respStmt"><name TEIform="name">Rüdiger Niehl</name><resp TEIform="resp">markup</resp></respStmt>
+      </editionStmt>
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/opitz1" type="href" id="opitz1" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note>
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">opitz1</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">Opitius.html</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">opitz001.jpg</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">Opitius.xml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">opitz1/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+      <sourceDesc default="NO" TEIform="sourceDesc">
+        <bibl default="NO" TEIform="bibl">Frankfurt: David Müller, 1631.</bibl>
+      </sourceDesc>
+    </fileDesc>
+   <encodingDesc TEIform="encodingDesc">
+      <editorialDecl default="NO" TEIform="editorialDecl">
+          <p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+        </editorialDecl>
+      <refsDecl TEIform="refsDecl" doctype="TEI.2">
+          <p TEIform="p">not necessary</p>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc TEIform="revisionDesc">
+        <change TEIform="change">
+          <date TEIform="date">Juni 2002</date>
+          <respStmt TEIform="respStmt">
+            <name TEIform="name">Rüdiger Niehl</name>
+            <resp TEIform="resp">markup</resp>
+          </respStmt>
+          <item TEIform="item">TEI header added, structural corrections, lines, searchlinks
+		  Editorial description: typed text - structural tagging complete - semantic tagging complete - manual spell-check</item>
+        </change>
+    </revisionDesc>
+ </teiHeader>
+
+ 
+ 
+<text><gap id="GR"/><gap id="IT"/><front>
+<pb id="s001" n="1" TEIform="pb"/>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">
+MART. OPITII SILVARUM LIBRI III. EPIGRAMMATUM LIBER UNUS. E Museio Bernhardi Guilielmi Nüssleri. FRANCOFURTI, Impensis Davidis Mülleri, Anno MDCXXXI.
+</titlePart></titlePage>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s003" n="3" TEIform="pb"/>
+<head>
+Clarissimis Viris <name type="person" TEIform="name">MATTHIAE BERNEGGERO</name> et <name type="person" TEIform="name">AUGUSTO BUCHNERO</name>, Illi in <rs type="org" n="Strasbourg University" TEIform="rs">Argentoratensi</rs>, huic in <rs type="org" n="Wittenberg University" TEIform="rs">Witebergensi Academia</rs> Humanitatis Professoribus, <name type="person" TEIform="name">Bernhardus Guilielmus Nusslerus</name>. <abbr expan="Salutem Dicit" TEIform="abbr">S.D.</abbr>
+</head>
+<p TEIform="p">
+Nihil tam arduum esse ac difficile, quo non magnitudine animi et pertinaci industria eniti liceat, neque Vos ignoratis, Viri Clarissimi, et quaevis id ipsum aetas luculentis sane exemplis ostendit. Ut alia fere infinita taceam; quae, cum nulla ratione fieri posse crederentur, Patrum et nostra aetate feliciter processisse videmus: quis umquam sperare ausus fuisset, linguae nostrae vernaculae tantum posse luminis inferri, ut in parem exoticis cultum et splendorem assurgeret? Exortus tamen est propitio quodam <name type="nation" TEIform="name">Germaniae</name> fato <name type="person" TEIform="name">Martinus ille Opitius</name>,
+
+<pb id="s004" n="4" TEIform="pb"/>
+
+civis meus et frater sodalis; qui cum ad excitatum ingenium et generosos impetus, quibus naturae ipsius habitu prope divino valebat, acre iudicium et eruditionem robustam attulisset; magno animo ad vindicandam linguae nostrae gloriam se accinxit; opusque ipsum aggressus, et
+<cit TEIform="cit">
+<bibl default="NO" TEIform="bibl">Verg. Georg. 2,175</bibl><q TEIform="q" direct="unspecified"><l TEIform="l" part="N">sanctos ausus recludere fontes</l></q>
+</cit>, 
+non modo ab illuvie, et sordibus exoticis, quibus male feriati homines et peregrinatiunculis sibi suis placentes illam infecerant, perpurgavit; sed etiam, quae barbara antehac, horrida, et quasi intractabilis habebatur, eam sub leges revocatam, astrictamque numeris, pari elegantia, pari successu ita <reg orig="expoliit" TEIform="reg">expolivit</reg>; ut non modo <name type="nation" TEIform="name">Italis</name>, <name type="nation" TEIform="name">Gallis</name> aliisque <name type="person" TEIform="name">Pontanos</name> suos, <name type="person" TEIform="name">Petrarchas</name>, <name type="person" TEIform="name">Sannazarios</name>, <name type="person" TEIform="name">Ronsardos</name>, <name type="person" n="DuBartas, Guillaume de Salluste" TEIform="name">Sallustios</name> amplius non invidere, sed vero etiam in certamen cum illis venire possimus. Ne de <name type="nation" TEIform="name">Latinis</name> quid dicam aut <name type="nation" TEIform="name">Graecis</name>; quos ut parcius deinceps suspiciamus, idem ille <name type="person" TEIform="name">Opitius</name> praestitit; e cuius Poematis, cuivis, qui vel mediocriter de his rebus iudicare potest, perspicuum fit<corr sic=";" resp="transcriber" TEIform="corr">,</corr> in <name type="nation" TEIform="name">Germanica</name> lingua, aeque illam opulentiam ac <foreign lang="GR" TEIform="foreign"><term TEIform="term">Emphasin</term></foreign>, quam in <name type="nation" TEIform="name">Graecis</name> potissimum laudamus, eminere, 
+
+<pb id="s005" n="5" TEIform="pb"/>
+
+tum etiam venustam illam ornamentorum et luminum rationem, et quicquid praeterea poetici est artificii, non infelicius, ac quamvis linguarum aliam admittere. Ceterum hactenus ex Amicorum litteris et relatu aliorum saepius cognovi, et vosmet ipsos, Viri Eruditissimi et alios, quibus <name type="person" TEIform="name">Opitii</name> carmina in deliciis sunt, <name type="nation" TEIform="name">Latina</name> quoque ipsius non parum desiderare; ita nimirum censentes, qui in impolita hactenus, et salebrosa, ut visum fuit lingua, tantum laudis sibi collegerit; eum non minus egregium fore et placiturum in lingua tot annorum serie exculta. Non itaque destiti hominem saepius hortari, urgere, impellere, ut horum quoque eruditis faceret copiam: sed proficere nihil potui apud obstinatum, et hoc imprimis schemate utentem, sibi non solum aut iuveni admodum pleraque, aut obiter et ex tempore, uti fieri consuevit, nata esse; sed exstare etiam tam egregios, qua prisci qua recentioris saeculi Poetas, ut suis quidem versibus haec aetas aequo carere animo possit. Ego vero innocentis fetus, quem tam inclemens Pater tollere non dignabatur, misertus, ipsemet suscepi, dispersa varie membra collegi, et in hanc formam,
+
+<pb id="s006" n="6" TEIform="pb"/>
+
+quoddam quasi corpus, redegi. Quod, quo minus mihi apud ipsum fraudi fore metuam, facit incomparabilis illa amicitia, quae a teneris, studiorum praecipue morumque similitudine, inter nos conciliata cum aetate crevit, et tam firmas utrimque radices egit, ut nihil non iuris in ipsius res mihi permittere praesumam. Si quid tamen offensae, quod minime omnium spero, inde contraxerit, id profecto totum, Viri praestantissimi, vel ad nominum vestrorum conspectum sine cicatrice ex animo delebit. Nam hoc quidem polliceri ausim, Autorem ipsum, si haec edidisset, ad alium praeter Vos iturum fuisse neminem. Etenim et ob egregiam vestram doctrinam, quam victuris ad aeternitatem monumentis satis iam <reg orig="comprobastis" TEIform="reg">comprobavistis</reg>, et iudicii in hac quoque parte subacti bonitatem, maximi semper Vos fecit: et eo vicissim affectu ipsum prosecuti estis, ut etiam publice testandum duxeritis, quanti a Vobis praeclarae ipsius dotes aestimarentur. Has vero causas, cum ego communes cum illo habeam, et non minus virtutem ac eruditionem vestram suspiciam, quam de benevolentia et amore, quo me complectimini, 
+
+<pb id="s007" n="7" TEIform="pb"/>
+
+mihi gaudeam; lubens meritoque hunc libellum vobis inscripsi, certo confisus, gratum hoc et acceptum munus fore, quo <name type="person" TEIform="name">Opitii</name> vobis refricare memoriam, et meae iuxta erga Vos observantiae et affectus quasi monumentum quoddam statuere volui.
+</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Urania Victrix</title> 
+<title type="sub" TEIform="title">Machine-readable text</title> 
+<author n="Balde" TEIform="author">Balde, Iacob</author> 
+<editor role="editor" TEIform="editor">Balde, Iacob</editor> 
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, Dec. 1999</edition> 
+<respStmt TEIform="respStmt">
+<name TEIform="name">???</name> 
+<resp TEIform="resp">markup</resp> 
+</respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher> 
+<address TEIform="address">
+<addrLine TEIform="addrLine">
+<anchor n="http://www.uni-mannheim.de/mateo/camena/bald6" type="href" id="bald1" TEIform="anchor"/> 
+</addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" place="unspecified" anchored="yes" TEIform="note">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" place="unspecified" anchored="yes" TEIform="note">bald6</note> 
+<note type="filename" place="unspecified" anchored="yes" TEIform="note">baldeurania.html</note> 
+<note type="titleimage" place="unspecified" anchored="yes" TEIform="note">bald001.jpg</note> 
+<note type="srcfile" place="unspecified" anchored="yes" TEIform="note">baldeurania.xml</note> 
+<note type="imgpath" place="unspecified" anchored="yes" TEIform="note">bald6/jpg</note> 
+<note type="imgtype" place="unspecified" anchored="yes" TEIform="note">html</note> 
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">München: Wagner, 1663</bibl> 
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln f_ Texterfassung 04'/2000</p> 
+</editorialDecl>
+<refsDecl doctype="TEI.2" TEIform="refsDecl">
+<p TEIform="p">not necessary</p> 
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">10/2002</date> 
+<respStmt TEIform="respStmt">
+<name TEIform="name">Rüdiger Niehl</name> 
+<resp TEIform="resp">markup</resp> 
+</respStmt>
+<item TEIform="item">typed text - structural tagging complete - semantic tagging incomplete - spelling varies greatly; this text is composed from various sources and edited very unevenly; spell check and complete semantic tagging are to follow shortly.</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">03/2004</date> 
+<respStmt TEIform="respStmt">
+<name TEIform="name">Kim Barkowski</name> 
+<resp TEIform="resp">markup</resp> 
+</respStmt>
+<item TEIform="item">semantic tagging completed, Morpheus spell check performed</item> 
+</change>
+</revisionDesc>
+</teiHeader>   
+
+ 
+ 
+ 
+ 
+<text><gap id="GE"/><gap id="SP"/><front>
+<pb id="s001" n=")(1a" TEIform="pb"/> 
+<titlePage TEIform="titlePage">
+<titlePart type="main" TEIform="titlePart">
+<figure TEIform="figure">
+<head>
+<name type="myth" TEIform="name">URANIA</name> 
+VICTRIX. Animae <name type="religion" TEIform="name">Christianae</name> CERTAMINA. 
+</head>
+<figDesc TEIform="figDesc">???</figDesc> 
+</figure>
+<pb id="s002" n=")(2a" TEIform="pb"/> 
+<name type="person" TEIform="name">IACOBI BALDE</name> 
+e 
+<name type="myth" TEIform="name">SOCIETATE IESU</name> 
+<name type="myth" TEIform="name">URANIA</name> 
+VICTRIX. Cum facultate Superiorum. 
+<name type="place" TEIform="name">MONACHII</name> 
+, Typis 
+<name type="person" TEIform="name">IOANNIS WILHELMI SCHELL</name> 
+, Sumptibus 
+<name type="person" TEIform="name">IOANNIS WAGNERI</name> 
+, Civis ac Bibliopolae 
+<name type="place" TEIform="name">Monacensis</name> 
+. ANNO M.DC.LXIII. 
+</titlePart>
+</titlePage>
+<div id="BaUM01" type="dedication" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s003" n=")(3a" TEIform="pb"/> 
+<head>
+SANCTISSIMO D. N. 
+<name type="person" TEIform="name">ALEXANDRO VII. Pontifici Maximo</name> 
+. 
+</head>
+<p TEIform="p">
+AD pedes tuos, BEATISSIME PATER, cum Auctore suo, supplex se nostra prosternit 
+<name type="myth" TEIform="name">Urania</name> 
+. Quo nomine, 
+<pb id="s004" n=")(3b" TEIform="pb"/> 
+quamcumque 
+<name type="religion" TEIform="name">Christiani</name> 
+Hominis Animam, adversus illecebras Quinque Sensuum Corporis sui, viriliter decertantem, appellare placuit: Victricis quoque titulum merituram, quoties tumultuantes, sibi, et honestae servitutis legibus, vigilans Gubernatrix subiecerit. Antiquum et vetus classicum est: Tentatio, vita hominis super terram. Enimvero ingens bellum, insitivum et occultis fraudibus clandestinum. Quia inimici animae domestici eius: attributi quidem exulanti, a supremo Conditore, in fidele ministerium et solacium. Ideo et illos in corpore magnifico, et metrice composito, unice dilectos circumfert, alit, ostentat. At enim hos suos tales iuratos ad obsequia Dominae famulos, saepe saepius experitur nocentes: quales 
+<name type="person" n="Plautus" TEIform="name">Plautinae</name> 
+Comoediae exhibent; genio, moribus et 
+<reg orig="astutiâ" TEIform="reg">astutia</reg> 
+versatiles. Quippe subdoli, curiosi, adulatores, ut ne dicam lenones; noverunt cupiditatibus suis subservire: dumque strophas texunt, palpum obtrudunt; 
+<pb id="s005" n=")(4a" TEIform="pb"/> 
+Heram circumveniendo decipiunt: ex 
+<reg orig="formulâ" TEIform="reg">formula</reg> 
+Parasitorum consueta. Scilicet bruti sensus, nisi assiduo rationis freno coerceantur, velut cetera bruta, quo naturalis impetus fert, exorbitant: adeo nonnumquam periculose, ut nescias, prosit, an obsit magis hic famulatus, elephantorum more: qui in bellum adhibiti, primo aspectu, 
+<reg orig="confusâ" TEIform="reg">confusa</reg> 
+membrorum mole, crudo insuper barritu et odore ferino, ex adverso stantibus magnum pavorem iniciunt: et non raro conceptam Ducis spem, praesertim viso sanguine, pugnacissime explent: falcibus ad rotas, seu temonem quadrigarum; vel rhomphaeis ad proboscidem aptatis, hosti quantumvis acri formidabiles. praecipuum non semel ad victoriam adiumentum. Si tamen eaedem belluae, vel clamore militum, vel dolore vulnerum, in rabiem agantur; retro versae, 
+<orig reg="furibunda" TEIform="orig">furibundâ</orig> 
+caecitate suosmet incursant, civilique strage totam aciem foedant. ita pariter Quinque Sensus, Animae contra Mundum, Carnem 
+<pb id="s006" n=")(4b" TEIform="pb"/> 
+ac Daemonem pugnanti, utilissima subinde adminicula praestant: oculis, auribus, et sagaci naso indicantes hostilium insidiarum discrimina. Stant pro muro in facie defensores. Verum, ut paene nihil diuturnum in rebus humanis est, ambiguae fidei famuli, quorum fidebatur obsequiis, inconstantes ac leves, subito nonnumquam mutantur: et, seu 
+<reg orig="pravâ" TEIform="reg">prava</reg> 
+inclinatione, seu vehementi cupiditate efferati, ad deteriora provehuntur: retroque acti belluino impetu, ipsam Moderatricem suam iugo excutiunt, obteruntque. Quid? quod aliquando audeant palam desciscere, et arma minari: quodque peius est, nil ferri aut terroris habentia. blanditiis, lenociniis, pigmentis res tota peragitur. Visus vano fulgore perstringit: Auditus inani sono deludit: Odoratus 
+<orig reg="fragrantia" TEIform="orig">fragrantiâ</orig> 
+florum demulcet: Gustus vario sapore corrumpit: Tactus 
+<orig reg="pestifera" TEIform="orig">pestiferâ</orig> 
+voluptate emollit. Quo in conflictu recte quidam exclamavit: crebra pugna, rara Victoria. Ut adeo mirum 
+<pb id="s007" n=")(5a" TEIform="pb"/> 
+non sit, quamquam dolendum; Animam 
+<name type="religion" TEIform="name">Christianam</name> 
+, nisi in dominatu firma persistat, egregiis virtutibus fulta; posito diademate et gubernaculo, saepe servis succumbere. Sed nos Victricem 
+<name type="myth" TEIform="name">Uraniam</name> 
+, hac 
+<reg orig="primâ" TEIform="reg">prima</reg> 
+parte, cantamus, saltem non probrose victam. Hoc Argumentum totius Scriptionis est, numeris imparibus illigatum; sed non omnibus absolutum. Quod, quia tamen praeliare, ad universi Generis humani bonum, dignamque scitu doctrinam spectans; Certamen, inquam istud Animae 
+<name type="religion" TEIform="name">Christianae</name> 
+cum Sensibus suis, in arena festivi Poematis, multam partem, allegorice descriptum, supremo in Terris Agonothetae, 
+<rs type="religion" n="Pope" TEIform="rs">VICARIO 
+<name type="person" TEIform="name">CHRISTI</name> 
+</rs>
+demississime offero. Scimus, neminem coronari, nisi qui legitime certaverit. Atqui omnium certamina ad illius curam pertinent, cui omnes commissi sunt. Si qui eximii in hac 
+<reg orig="luctâ" TEIform="reg">lucta</reg> 
+Athletae antecelluerunt ceteros; tuae potestatis est, declarare. Certavit 
+<name type="person" TEIform="name">THOMAS DE VILLA NOVA</name> 
+: certavit 
+<name type="religion" TEIform="name">FRANCISCUS <pb id="s008" n=")(5b" TEIform="pb"/> 
+SALESIUS</name>
+: vicisse, in caelo coronatos fuisse, ex tuo Oraculo cognovimus. Hunc SANCTORUM numero, Istum BEATORUM Coetui, sollemni ritu adscripsisti. Gloriosos profecto Praesules. quorum alter, semper excubans, 
+<reg orig="tantâ" TEIform="reg">tanta</reg> 
+severitate Sensus suos perdomuisse traditur; ut manifestius sanctam tyrannidem, velut in vera mancipia, quam herile imperium exercere videretur. Alterum accepimus tam sollerti 
+<reg orig="industriâ" TEIform="reg">industria</reg> 
+, obsequia illorum, ad incrementum Divinae Gloriae 
+<reg orig="dispensâsse" TEIform="reg">dispensasse</reg> 
+: ut omnium usus et sanctissimae Pietati submitteretur; et 
+<name type="religion" TEIform="name">Christianae</name> 
+Caritati felicissime militaret. Haec extra controversiam. Sed qua 
+<reg orig="fiduciâ" TEIform="reg">fiducia</reg> 
+, in Sacratissimam 
+<name type="place" TEIform="name">Vaticani</name> 
+tui Sedem irrumpat rustica mea 
+<name type="myth" TEIform="name">Musa</name> 
+, altior quaestio est. respondebo, irrupisse 
+<reg orig="eâ fiduciâ" TEIform="reg">ea fiducia</reg> 
+, qua Poetae solent, Domino illius loci non omnino incogniti. 
+<reg orig="fiduciâ" TEIform="reg">fiducia</reg> 
+, dico: quam amor bonarum litterarum pollicetur: quam praeveniens favor conciliat; et 
+<name type="nation" TEIform="name">Germanicarum</name> 
+rerum notitia exauget: qua 
+<pb id="s009" n=")(6a" TEIform="pb"/> 
+intra 
+<name type="place" n="Rome" TEIform="name">septem Montes</name> 
+, supra sex alios, stella coruscans invitat. qua erudita Philomusi amoenitas allexit: qua Aemulorum vestigia ad Doctissimi 
+<name type="religion" TEIform="name">Pontificis</name> 
+Sacrarium praecesserunt. Denique, 
+<reg orig="quâ" TEIform="reg">qua</reg> 
+facilis Maiestas olim admisit. Cum adhuc Officio Nuntii Apostolici fungereris, transiresque 
+<name type="place" TEIform="name">Monachium</name> 
+, in 
+<name type="place" TEIform="name">Westphaliam</name> 
+festinans: dignatum in Templo nostro facere, nomine Collegii, salutare iussus eram. primo congressu, suspexi 
+<name type="person" n="Fabio Chigi" TEIform="name">Fabium</name> 
+Reverendissimum; vidi 
+<name type="person" n="Fabio Chigi" TEIform="name">Chisium</name> 
+Illustrissimum; sensi utrumque in uno humanissimum. 
+<name type="place" TEIform="name">Monasterii</name> 
+deinde ad negotia Publicae Pacis componenda incumbenti, cum Lyram resumere monerer, ut aliquam 
+<term type="literary" TEIform="term">Oden</term> 
+dedicarem, hortabantur amici. expedivi unam: cui diserte respondere sustinuisti. 
+<term type="literary" TEIform="term">Oden</term> 
+, Anulum 
+<name type="myth" TEIform="name">Gygis</name> 
+inscripseram; nescio, quo fato, vel augurio afflatae mentis. Qualiscumque iam Vates habear: Certe praesagum omen non multo post impletum fuit. Nam in 
+<name type="place" TEIform="name">Italiam</name> 
+redux, in 
+<rs type="person" n="Cardinals" TEIform="rs">Purpuratorum Patrum</rs> 
+Senatum, 
+<pb id="s010" n=")(6b" TEIform="pb"/> 
+ab 
+<name type="person" TEIform="name">Innocentio X.</name> 
+vix adlectus eras: et mox eidem suffectus es. Vidit 
+<name type="place" TEIform="name">Roma</name> 
+, vidit Orbis exsultans, Anulo 
+<name type="myth" TEIform="name">Gygis</name> 
+Pastoris successisse ANULUM 
+<name type="religion" TEIform="name">PETRI PISCATORIS</name> 
+. Utriusque munere in unum coeunte, et iam 
+<name type="religion" TEIform="name">CHRISTI</name> 
+pascis oves; et caeli claves habes. Ut ad 
+<rs type="religion" n="Petrus" TEIform="rs">Piscatoris</rs> 
+Anulum tandem et Tertius Beatae Aeternitatis accedat; 
+<name type="religion" TEIform="name">Deum</name> 
+largientem Vitam et Victorias rite precabimur. Hoc summum ultimumque desiderium esto, ad pedum tuorum oscula iterum suppliciter se provoluentis. Ita vovet Sanctitatis Tuae Servus Humillimus 
+<name type="person" TEIform="name">IACOBUS BALDE</name> 
+<name type="org" TEIform="name">Societ. IESU.</name> 
+</p>
+</div>
+<div id="BaUM02" type="imprimatur" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s011" n=")(7a" TEIform="pb"/> 
+<head>
+FACULTAS R. P. Visitatoris et Vice-Provincialis 
+<name type="org" TEIform="name">Societatis Iesu</name> 
+per Superiorem 
+<name type="nation" TEIform="name">Germaniam</name> 
+. 
+</head>
+<p TEIform="p">
+CUm Primam Partem Poematis de 
+<name type="myth" TEIform="name">Urania</name> 
+Victrice, sive Animae <name type="religion" TEIform="name">Christianae</name> certamine adversus illecebras et insultus Quinque Sensuum, ministrorum corporis sui, 
+<term type="literary" TEIform="term">Elegiaco</term> 
+carmine descriptam a 
+<name type="person" TEIform="name">Iacobo Balde</name> 
+<rs type="org" n="Societas Iesu" TEIform="rs">Societatis nostrae</rs> 
+Sacerdote, aliquot eiusdem Societates Patres legerint, censuerintque publica luce dignam: ego 
+<name type="person" TEIform="name">Christophorus Schorrer</name> 
+<name type="org" TEIform="name">Societatis Iesu</name> 
+per Superiorem 
+<name type="nation" TEIform="name">Germaniam</name> 
+<pb id="s012" n=")(7b" TEIform="pb"/> 
+Visitator, et Vice-Provincialis, potestate ab admodum Reverendo Patre 
+<name type="person" TEIform="name">Ioanne Paulo Oliva</name> 
+Vicario Generali ad id mihi concessa typis excudi permitto. In quorum fidem hoc Auctori Chirographum consueto Officii mei Sigillo munitum dedi. 
+</p>
+<closer TEIform="closer">
+<dateline TEIform="dateline">Monachii. 16. Ianuarii 1663.</dateline> 
+<name type="person" TEIform="name">Christophorus Schorrer</name> 
+. 
+</closer>
+</div>
+<pb id="s013" n="A1a" TEIform="pb"/> 
+<div id="BaUM03" type="partTitle" org="uniform" sample="complete" part="N" TEIform="div">
+<head>
+<name type="myth" TEIform="name">URANIA</name> 
+VICTRIX SIVE ANIMAE 
+<name type="religion" TEIform="name">CHRISTIANAE</name> 
+CERTAMINA ADVERSUS ILLECEBRAS ET INSULTUS QUINQUE SENSUUM, MINISTRORUM CORPORIS SUI ELEGIACO CARMINE DESCRIPTA a 
+<name type="person" TEIform="name">IACOBO BALDE</name> 
+e 
+<name type="org" TEIform="name">Societate Iesu</name> 
+. PARS I. 
+<pb id="s014" n="A1b" TEIform="pb"/> 
+OPUS TRIPARTITUM. 
+</head>
+<p TEIform="p">Pars I. Quae hic exhibetur, continet Epistolas triginta.</p> 
+<p TEIform="p">
+Pars II. Complectitur 
+<term type="literary" TEIform="term">Elegias</term> 
+, in quibus animae 
+<name type="religion" TEIform="name">Christianae</name> 
+adhuc ergastulo corporis inclusae alternantes motus, vicissitudines, laeta ac tristia; vitae item religiosae praecepta traduntur. Denique 
+<name type="myth" TEIform="name">Uraniae</name> 
+iam utcumque a rebellione sensuum liberae referuntur amores, gemitus et suspiria ad 
+<rs type="religion" n="Jesus" TEIform="rs">caelestem Sponsum</rs> 
+. 
+</p>
+<p TEIform="p">
+Pars III. Exhibet 
+<name type="myth" TEIform="name">Uraniae</name> 
+sacra spectacula. 
+</p>
+</div>
+<div id="BaUM04" type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s015" n="1" TEIform="pb"/> 
+<head>Candido Lectori. AD MELIOREM NOtitiam huius Scripti ISAGOGE.</head> 
+<p TEIform="p">
+UT aliquid mollioribus metris illigarem; invitatus, dicam, an irritatus, assensi tandem; sive facundis afflatibus faventium motus; sive insidiantium dubiis querimoniis incitatus: quibus nescias, incendere me probandum voluerint, an exagitare contumacem. Mussabat nimirum aliquis: omnino debes adhuc gratiam istam mansuetioribus 
+<name type="myth" TEIform="name">Musis</name> 
+, ut tenerum vel masculum quodcumque commentum, cum lauro meriturus et myrtum, numeris imparibus canas. imparibus inquam: quoniam 
+<q direct="unspecified" TEIform="q">
+<l part="N" TEIform="l">numero Deus impare gaudet</l> 
+</q>
+. Sat esse datum 
+<name type="place" TEIform="name">Venusinis</name> 
+fidibus: sat 
+<name type="person" TEIform="name">Iuvenalis</name> 
+et 
+<name type="person" TEIform="name">Horatii</name> 
+ancipiti rhomphaeae. Sat denique enthusiasmis, et exoticorum 
+<pb id="s016" n="2" TEIform="pb"/> 
+conceptuum aestuosis torrentibus. moderandum nunc esse ingenium, excutiendos vel refrenandos furores. Iactabant alii callidius: facile esse nonnullis, dum fervet sanguis, in diversa et quodammodo ab humanis usibus abstracta Themata, quasi lymphatos rapi. illum Poetam magni nominis censendum, qui in certo pulchroque sed leniori argumento, stabilem pedem haud inglorius fixisset. 
+<term type="literary" TEIform="term">Elegiaco</term> 
+stylo aliquid scribere, molli atque 
+<name type="place" TEIform="name">Ionico</name> 
+: hoc esse quod pervadat animos, et famam consummet. atque hoc iactantius improperabant. credo, ut periclitarentur, an ex 
+<term type="literary" TEIform="term">Satyrico</term> 
+<term type="literary" TEIform="term">Lyrico</term> 
+que Poeta, 
+<term type="literary" TEIform="term">elegiacus</term> 
+fieri possem: hoc est, ex feroci vena, mitiorem limpidumque humorem 
+<name type="place" TEIform="name">Castalium</name> 
+, absque spuma fundere. Quacumque mente vel amphibologia me aggressi sint amici; parum refert. in illorum demum sententiam concessum est. 
+</p>
+<p TEIform="p">
+Circumspicientem deinde materiae delectum, variae cogitationes distrinxere. Quid enim flebilibus modis non deploratum, aut eroticis non decantatum est? Thalami, horti, nemora, montes, flumina, cellae, triclinia, templa, sepulchra; sed ante omnia Domus 
+<name type="myth" TEIform="name">Veneris</name> 
+, 
+<name type="place" TEIform="name">Paphus</name> 
+, 
+<name type="place" TEIform="name">Cythera</name> 
+, 
+<name type="place" TEIform="name">Gnidus</name> 
+, 
+<name type="place" TEIform="name">Amathus</name> 
+, 
+<name type="place" TEIform="name">Cyprus</name> 
+, patentibus foliis disertissime celebrata sunt. Quidquid urit, ardet, friget, gemit, ridet, salit, vernat, viret; iam olim ad claudicantem Deam delatu 
+<pb id="s017" n="3" TEIform="pb"/> 
+fuit, per undenos pedes emodulandum. Ut 
+<name type="nation" TEIform="name">Batavorum</name> 
+<name type="nation" TEIform="name">Anglorum</name> 
+que amores taceam elegis vulgatos; in quibus enarrandis, omnis paene <name type="religion" TEIform="name">Heterodoxorum</name> studiosa lascivia desudat: quis non putet sacri profanique Amoris pharetram exhaustam esse? 
+<name type="person" TEIform="name">Magdalenae</name> 
+lacrimae 
+<name type="place" TEIform="name">Scaldim</name> 
+, 
+<name type="place" TEIform="name">Antuerpiam</name> 
+, totumque 
+<name type="place" TEIform="name">Belgium</name> 
+<reg orig="irrigârunt" TEIform="reg">irrigarunt</reg> 
+. 
+<name type="nation" TEIform="name">Romanae</name> 
+Sponsae fletibus, post 
+<name type="person" TEIform="name">Alexii</name> 
+fugam 
+<name type="place" TEIform="name"><reg orig="Tybris" TEIform="reg">Thybris</reg></name>
+crevit. Passim volitant 
+<term type="literary" TEIform="term">Heroum Heroidumque Epistolae</term> 
+. 
+<name type="person" TEIform="name">Theophilus</name> 
+salutat suam 
+<name type="person" TEIform="name">Dorotheam</name> 
+: 
+<name type="person" TEIform="name">Valerianus</name> 
+Sponsus 
+<name type="person" TEIform="name">Tiburtium</name> 
+fratrem. 
+<name type="person" TEIform="name">Gilimer Rex</name> 
+gemit, 
+<name type="person" TEIform="name">Emmanuel Sosa</name> 
+naufragus tremit. 
+<name type="person" TEIform="name">Polydora</name> 
+scribit 
+<name type="person" TEIform="name">Alexio</name> 
+: 
+<name type="person" TEIform="name">Theodora</name> 
+<name type="person" TEIform="name">Didymo</name> 
+, 
+<name type="person" TEIform="name">Alenia</name> 
+<name type="person" TEIform="name">Phosphoriano</name> 
+, 
+<name type="person" TEIform="name">Barbara</name> 
+<name type="person" TEIform="name">Dioscoro</name> 
+, 
+<name type="person" TEIform="name">Theopista</name> 
+<name type="person" TEIform="name">Eustachio</name> 
+; scilicet altera 
+<name type="myth" TEIform="name">Penelope</name> 
+suo 
+<name type="myth" TEIform="name">Ulyssi</name> 
+. Quin et 
+<name type="religion" TEIform="name">Evam</name> 
+habemus <rs type="religion" n="Eva" TEIform="rs">protoplastam matrem</rs>, aviam nostram; tam cultum, quam dispendia terrestris Paradisi nobis luctuose ingerentem: 
+<name type="person" TEIform="name">Tiraea</name> 
+scribit de mundi naufragio: 
+<name type="person" TEIform="name">Sibylla</name> 
+de 
+<name type="religion" TEIform="name">Babyloniae Turris</name> 
+insana substructione: 
+<name type="person" TEIform="name">Maria</name> 
+de Pharaone submerso: 
+<name type="religion" TEIform="name">Iuditha</name> 
+de 
+<name type="religion" TEIform="name">Holoferne</name> 
+occiso. Iam vero Pia desideria quis non desiderat? teneri amores etiam in tenerrimis legentium amoribus resultant et liquescunt. Quid igitur adderemus ad ista? quandoquidem decoctus assis exhaustae 
+<term type="literary" TEIform="term">Elegiae</term> 
+videatur. amandi quidem lugendique materia semper suppetit: at iidem affectus, eodem rore manantes, plerumque 
+<pb id="s018" n="4" TEIform="pb"/> 
+redeunt. Ortum autem solis et occasum quis non descripsit? Ver et Aestas defluxere, ut tempora solent. Quin anni Quattuor Tempora, nonnemo floridis compedibus impedivit, succincte et eleganter. scires nihil superesse nisi vetera. 
+</p>
+<p TEIform="p">
+Haec aliaque expendenti, redit in memoriam B[eati] 
+<name type="person" TEIform="name">Iacoponi</name> 
+, ex D[ivi] 
+<name type="religion" TEIform="name">Francisci</name> 
+Familia Viri clarissimi, sancteque iucundi Apologus 
+<note place="unspecified" anchored="yes" TEIform="note">Vid. lib.7. Silvarum Lyr. Oden 2 A</note> 
+, de Quinque Sensibus humani corporis, imperio Animae relictis: traxique in Argumentum propositi mei. Dixeram, quod quaedam apud 
+<cit TEIform="cit">
+<bibl default="NO" TEIform="bibl">
+<name type="person" TEIform="name">Ovidium</name> 
+<abbr expan="libri 4. Metamorphoseon Fabula" TEIform="abbr">l. 4. Metamorphos. Fab.</abbr> 
+3. 
+</bibl>
+<q direct="unspecified" TEIform="q">
+<l part="N" TEIform="l">Haec placet, haec: quoniam vulgaris fabula non est.</l> 
+</q>
+</cit>
+Fabula! immo historia Tragice verissima. Quinque Sensus hominibus saepe omnem sensum eripiunt, et omnia Theatra funeribus implent. Famosus iste Apologus refertur a R[everendo] P[atre] 
+<bibl default="NO" TEIform="bibl">
+<name type="person" TEIform="name">Matthaeo Radero</name> 
+nostro in Viridariis 
+</bibl>
+. et 
+<bibl default="NO" TEIform="bibl">
+R[everendo] P[atre] 
+<name type="person" TEIform="name">Ieremia Drexelio</name> 
+, in suo <name type="place" TEIform="name">Niceta</name>. Lib[ri] 2. c[apitis] 9. §.5. 
+</bibl>
+ex posteriore ipsa verba annumero. 
+<cit TEIform="cit">
+<q direct="unspecified" TEIform="q">
+<p TEIform="p">
+Virgo erat: et huic quinque Fratres. Primus, Pictor: alter, Musicus: tertius, Pharmacopola: quartus, Cocus: ultimus, Caupo; homines exigui 
+<reg orig="censûs" TEIform="reg">census</reg> 
+. Horum sororem fecit opulentam nobilissimus unio. Hunc pauperculi fratres precibus extorquere certatim institerunt. Musicus: <orig reg="novisti" TEIform="orig">nosti</orig>, ait, rem esse tenuem; da gemmam tuam, et 
+<pb id="s019" n="5" TEIform="pb"/> 
+<reg orig="servâsti" TEIform="reg">servasti</reg> 
+vitam meam. pro ea ego modos musicos faciam, quos laudes. Tu vero abi, mi frater, inquit Virgo, tantillo pretio gemma mihi mea venalis non est. Pictor ut gemmam impetraret, picturam promisit, quam haberet elegantissimam. sed repulsam tulit. Idem 
+<reg orig="tentavit" TEIform="reg">temptavit</reg> 
+et pharmacopola, nescio quid novae fragrantiae pollicitus: sed 
+<reg orig="eâdem repulsâ" TEIform="reg">eadem repulsa</reg> 
+dimissus est. Nec aliud tulit responsum coquus; etsi 
+<name type="myth" TEIform="name">Iovis</name> 
+cerebrum et delicias exquisitissimas sponderet. Caupo homo impudens, scire se aiebat lectissimos Iuvenes, qui omnes eius esse cuperent mariti: hac in re sollertem se fore actorem recepit. Minime placuit, qui maximam sperabat gratiam, extemplo reiectus. 
+</p>
+<p TEIform="p">Hanc demum gemmam Optimas obtinuit, in cuius una thalamum denupsit Virgo.</p> 
+<p TEIform="p">
+Hoc ita 
+<name type="person" TEIform="name">Iacoponus</name> 
+explicabat: Anima, Virgo est: Voluntas gemma. Virginis fratres sensus exteriores: Visus, Pictor: Auditus, Musicus: Odoratus, Pharmacopola: Gustus, coquus: Tactus, Caupo. sed an non insigniter 
+<reg orig="delirâsset" TEIform="reg">delirasset</reg> 
+Virgo; si pro reculis vilissimis sua se gemma 
+<reg orig="privâsset" TEIform="reg">privasset</reg> 
+? OPTIMATI 
+<name type="religion" TEIform="name">CHRISTO DOMINO</name> 
+erat servanda. atqui nos longe stultiores sumus, et vero nomine insani: qui arbitrii nostri, seu 
+<corr sic="nostra" resp="printer" TEIform="corr">nostrae</corr> 
+voluntatis pretiosissimum unionem, pro deliciis escariis, pro 
+<reg orig="obscenis" TEIform="reg">obscoenis</reg> 
+narratiunculis, pro <rs type="myth" n="Venus" TEIform="rs">Venereis</rs> delectatiunculis, pro vitreis fragmentis et pupis; vere pro Scarabaei umbra, non vendimus, sed turpissime abicimus. 
+</p>
+</q>
+</cit>
+<pb id="s020" n="6" TEIform="pb"/> 
+</p>
+<p TEIform="p">
+Itaque hunc Apologum latius pertractandum arripui: quod viderem in molliores numeros satis apte conici posse; si aliquem tractabilis ingenii Poetam nancisceretur. Quid igitur? ego nempe ille! hactenus 
+<q direct="unspecified" TEIform="q">
+<l part="N" TEIform="l">
+<name type="nation" TEIform="name">Romanae</name> 
+Fidicen Lyrae 
+</l>
+</q>
+habitus, dubius Macrorum Pinguiumque <reg orig="caussidicus" TEIform="reg">causidicus</reg>, post vanitatem explosam, etiam Tabacophilorum 
+<term type="literary" TEIform="term">Satyricus</term> 
+irrisor: atque ut cetera taceam, non sine horrore <name type="nation" TEIform="name">Oscus</name> et Cascus: immo vultuosam torvitatem rigido <name type="org" TEIform="name">Stoicoque</name> carmine professus. unde merito possit temeritas videri audentis tenerae 
+<term type="literary" TEIform="term">Elegiae</term> 
+<name type="myth" TEIform="name">Nymphaeum</name> ingredi; et delicatas aures inconditis stridoribus pulsare. Haec quidem iustos metus inicere poterant. sed enim, nisi fallor, animum 
+<name type="myth" TEIform="name">Musae</name> 
+, non faciem occupant. saltem tentandum est, antequam desperandum. multorum gloria in obscuro latet, quia ignavi prodire timuerunt. Memini cum adhuc iuvenis, stylos Vet[erum] Poetarum exhiberem; omnium exspectatione 
+<reg orig="delusâ" TEIform="reg">delusa</reg> 
+, 
+<name type="person" TEIform="name">Ovidianam</name> 
+Epistolam primas tulisse. ergo timore vacillaturi 
+<reg orig="successûs" TEIform="reg">successus</reg> 
+seposito; unaque furentibus 
+<name type="person" TEIform="name">Archilochi</name> 
+<term type="literary" TEIform="term">iambis</term> 
+atque ferociae stimulis sive excussis, sive suspensis; mitiore serto cinctus, in placidum hominem redire sustinui. Sic autem redii: quomodo tempestatibus exasperatum mare, non subito; sed 
+<reg orig="ludibundâ morâ" TEIform="reg">ludibunda mora</reg> 
+sensim recomponitur. aliquamdiu fluitantis venti vestigia notantur errare in 
+<pb id="s021" n="7" TEIform="pb"/> 
+aquis, quas fluctus crispant. tandem omne sternitur, quod turbatum erat: et ad amoenae quietis imaginem renidet. Haec origo et Argumentum scriptionis. quam in tres partes tribuimus. Pars I. continet triginta epistolas praesentes: in quibus Anima cum sensibus suis, tamquam cum ambiguae fidei ministris, subdolis amatoribus et procis certare cogitur. Caro concupiscit adversus spiritum, et spiritus adversus carnem. haec enim duo sibi invicem adversantur. Pars II. 
+<name type="myth" TEIform="name">Uraniae</name> 
+Victricis saltem a sensuum periculoso iugo iam utcumque liberae, sacros amores refert: pios item gemitus et suspiria ad caelestem Sponsum, per elegias deducta. Pars III. in 
+<name type="myth" TEIform="name">Uraniae</name> 
+<name type="religion" TEIform="name">Deo</name> 
+consecratae divinis spectaculis consumitur. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<head>
+De Nomine 
+<name type="myth" TEIform="name">URANIAE</name> 
+. 
+</head>
+<p TEIform="p">
+QUi Quinque sensus puellari specie exhibent, ut passim Pictores: Animum, velut Dominum illorum constituunt: ut revera esse debet; nisi paullatim propudiose subigi, prosternique ac perire velit, ad siliquas et famem damnandus. Qui vero eosdem schemate virili iuveniliter formosos repraesentant; ut aliqua sit diversitas 
+<reg orig="sexûs" TEIform="reg">sexus</reg> 
+; Animam, tamquam mulierem fortem, et de ultimis finibus pretiosam; Dominamque suarum rerum venerantur ac salutant: utpote quam Ministri sensus omnes corporei, iusto 
+<pb id="s022" n="8" TEIform="pb"/> 
+gratoque obsequio semper, satellitum more, stipent; tutentur ac iuvent. Nos, neglecta Lege Salica, cum B[eato] 
+<name type="person" TEIform="name">Iacopono</name> 
+ultimum schema eligentes, Animam producimus Reginam sui, et, si velit, totius Mundi: dotibus a 
+<name type="religion" TEIform="name">Deo</name> 
+concessis, et in primis Libero Arbitrio, nobilem; membrisque insuper ad omnem usum habilibus cinctam. Hanc ergo 
+<name type="myth" TEIform="name">Uraniam</name> 
+dicimus. Hoc nomine insignire Animam placuit. non, quomodo <name type="person" TEIform="name">Platonici</name> delirantes philosophati sunt; vel 
+<name type="religion" TEIform="name">Origenes</name> 
+existimavit: quasi ex caelesti materia decisam; et iam ante corporis fabricam inter sidera vagam; mox in corporis ergastulum, propter delicta retrusam: sed ut est, Spiraculum vitae, a 
+<name type="religion" TEIform="name">Deo</name> 
+ex nihilo creatum, infusumque; caelo debitum, caelo inserendum, ad contemplationem rerum caelestium conditum. Quo nomine et 
+<name type="myth" TEIform="name">Musa</name> 
+quaedam, inter Novem, cursibus astrorum intenta nuncupatur 
+<name type="myth" TEIform="name">Uranie</name> 
+. 
+</p>
+<p TEIform="p">
+Accipe 
+<name type="religion" TEIform="name">Origenis</name> 
+errorem ex 
+<bibl default="NO" TEIform="bibl">
+S[ancto] 
+<name type="religion" TEIform="name">August[ino]</name> 
+<note place="unspecified" anchored="yes" TEIform="note">De ecclesiast Dogm. c. 14.</note> 
+</bibl>
+<cit TEIform="cit">
+<q direct="unspecified" TEIform="q">
+Animas hominum non esse ab initio inter ceteras intellectuales naturas, nec simul creatas, sicut 
+<name type="religion" TEIform="name">Origenes</name> 
+fingit: sed dicimus creationem Animae, solum creatorem nosse. 
+</q>
+</cit>
+Item: 
+<note place="unspecified" anchored="yes" TEIform="note">
+<bibl default="NO" TEIform="bibl">De Verbis Apostoli. Serm. 7</bibl> 
+</note>
+<q direct="unspecified" TEIform="q">
+Aliqui dixerunt, quia Animae sursum in coelo peccant; et secundum sua peccata ad corpora rursus diriguntur, et dignis sibi quasi carceribus includuntur. Hoc autem propter 
+<rs type="religion" n="Paulus" TEIform="rs">Apostoli</rs> 
+evidentem sententiam respuit 
+<name type="religion" TEIform="name">Catholica</name> 
+<pb id="s023" n="9" TEIform="pb"/> 
+Fides: Quod Animae in caelis prius vivant, et conversentur: et illic recipiendorum corporum merita assumant. 
+</q>
+<q direct="unspecified" TEIform="q">
+Quemadmodum ergo Caro non redit ad homines, ex quibus creata est; sed ad terram, unde homini primo formata est: ita et spiritus non redit ad homines; a quibus transfusus est; sed ad 
+<name type="religion" TEIform="name">Deum</name> 
+, a quo illi Carni datus est. 
+</q>
+<note place="unspecified" anchored="yes" TEIform="note">
+<bibl default="NO" TEIform="bibl">Lib.10, de Genesi ad lit. c. 9.</bibl> 
+</note>
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<head>De Dignitate Animae Humanae.</head> 
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Augustino</name> 
+. 
+</byline>
+<p TEIform="p">
+<cit TEIform="cit">
+<q direct="unspecified" TEIform="q">NAtura Animae praestantior est, quam natura Corporis.</q> 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">In Ps. 145</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">
+nam sicut 
+<name type="religion" TEIform="name">Deus</name> 
+omnem creaturam, sic Anima omnem corpoream creaturam, naturae dignitate praecellit. 
+</q>
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. 7 de Gen. ad lit. c. 19</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">
+excellit multum. res spiritualis est. res incorporea est: vicina substantiae 
+<name type="religion" TEIform="name">Dei</name> 
+. invisibile quiddam est. regit corpus, movet membra, dirigit sensus, praeparat cogitationes, erigit actiones: capit rerum infinitarum imagines. 
+</q>
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">In Ps. 145</note> 
+</bibl>
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. de immortalitat. Animae. c. 1.</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">Omne quod scit Animus, in sese habet: nec ullam rem scientia complectitur, nisi quae ad aliquam pertineat disciplinam. est enim quarumcumque rerum scientia. semper igitur Animus humanus vivit.</q> 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De Animae Quantitate c. 1.</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">
+Propriam quandam habitationem eius ac Patriam, 
+<name type="religion" TEIform="name">Deum</name> 
+ipsum credo esse, a quo creata est. substantiam vero eius nominare non possum. non enim eam puto 
+<pb id="s024" n="10" TEIform="pb"/> 
+esse ex his usitatis notisque naturis, quas istis sensibus corporis tangimus. nam neque ex terra, neque ex aqua, neque ex aere, neque ex igni, neque ex his omnibus, neque ex aliquibus horum coniunctis constare Animum puto. Simplex animae natura dici potest; quia ex aliis naturis non est. 
+</q>
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. soliloq. Animae ad Deum c. 30.</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">
+Anima, quam 
+<reg orig="creâsti" TEIform="reg">creasti</reg> 
+Domine, non de te, sed per Verbum tuum, non ex qualibet elementorum materia, sed ex nihilo. quae quidem rationalis, intellectualis, spiritualis, semper vivens, semper in motu: quam 
+<reg orig="signâsti" TEIform="reg">signasti</reg> 
+lumine 
+<reg orig="vultûs" TEIform="reg">vultus</reg> 
+tui; et 
+<reg orig="consecrâsti" TEIform="reg">consecrasti</reg> 
+virtute lavacri tui. ita facta est capax maiestatis tuae: quod a te solo, et a nullo alio possit impleri. quando autem te habet, plenum est desiderium eius: et iam nihil aliud, quod desideretur, exterius restat. dum autem aliquid exterius desiderat; manifestum est, quod te non habet interius. quo habito, nihil est, quod ultra desideret. 
+</q>
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De cognitione verae vitae. c.5.</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">
+Ab 
+<corr sic="hac" resp="printer" TEIform="corr">hanc</corr> 
+quantitas excluditur, dum nec altitudine, aut latitudine, aut longitudine metitur. Qualitas etiam formae vel coloris ab hac secernitur: dum nulla forma, vel humani corporis, vel ullius coloratae rei adscribitur. haec est memorialis, quia praeterita recolit: est etiam rationalis, quia praesentia discernit: est intellectualis; quia futura intelligit. Hanc esse immortalem, hinc quoque constat, quod memoriam sui apud posteros perenniter durare laboret. 
+</q>
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De Ecclesiast. Dogmat. c. 16.</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">
+Solum 
+<pb id="s025" n="11" TEIform="pb"/> 
+hominem credimus habere Animam substantivam: quae exuta corpore vivit; et sensus suos atque ingenia vivaciter tenet. 
+</q>
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Liber de Spiritu et Anima c.6.</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">Ad similitudinem totius sapientiae facta, rerum omnium in se gerit similitudinem. unde a Philosopho definita est omnium rerum similitudo. habet siquidem in se vires, quibus omnia apprehendit, sive investigat: et omnibus similis exsistit, cum sit una.</q> 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib de Spiritu et Anima c. 34</note> 
+</bibl>
+<q direct="unspecified" TEIform="q">Dum vivificat corpus, Anima est: dum vult, Animus: dum scit, Mens est: dum recolit, Memoria est: dum iudicat, Ratio est: dum spirat vel contemplatur, Spiritus est: dum sentit, Sensus est.</q> 
+</cit>
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<head>
+De Dignitate Animae Humanae ut 
+<name type="religion" TEIform="name">Christiana</name> 
+est. 
+</head>
+<byline TEIform="byline">
+Ex  
+<name type="religion" TEIform="name">S[ancto] Bernardo</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De Interiore Domo. cap. 69.</note> 
+</bibl>
+QUanta est nobilitas Animae, 
+<name type="religion" TEIform="name">Christum Iesum</name> 
+habere Sponsum! Intellige dignitatem tuam, 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">cap. 68</note> 
+</bibl>
+nobilis creatura: quoniam non solum insignita es Dei imagine, verum etiam decorata similitudine. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">cap.68</note> 
+</bibl>
+considera ergo nobilitatem tuam: quoniam sicut 
+<name type="religion" TEIform="name">Deus</name> 
+est ubique totus, omnia vivificans, omnia movens et gubernans. Et sicut Deus est, vivit et sapit: ita tu secundum modum tuum es, vivis et sapis. Et sicut in Deo tres sunt personae, 
+<rs type="religion" n="Trinity" TEIform="rs">Pater, Filius, 
+<pb id="s026" n="12" TEIform="pb"/> 
+et Spiritus Sanctus: 
+</rs>
+sic et tu habes tres vires scilicet Intellectum, Memoriam, et Voluntatem. Et sicut ex Patre generatur Filius, et ex utroque procedit 
+<name type="religion" TEIform="name">Spiritus S[anctus]</name> 
+ita ex intellectu generatur Voluntas, et ex utroque procedit Memoria. Et sicut Deus est Pater, Deus est Filius, Deus est Spiritus S[anctus] non tamen tres Dii, sed unus Deus, et tres Personae: ita Anima est Intellectus, Anima Voluntas, Anima Memoria: non tamen tres Animae, sed una anima, et tres vires. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De triplici Adventu, et Carnis resurrectione. Serm. 6.</note> 
+</bibl>
+Nobilem Hospitem habes, o Caro, nobilem valde. tota salus tua pendet de eius salute. Da honorem hospiti tanto. Tu quidem habitas in regione tua: Anima vero peregrina et exul apud te est hospitata. ac ne forte despicias aut parvi pendas hospitem tuum pro eo, quod peregrinus tibi videtur et advena: diligenter attende, quid hospitis huius tibi praesentia largiatur. Ipse enim est, qui tribuit Oculis visum: Auribus auditum praestat: ipse est, qui Linguae vocem, Palato gustum, motum membris omnibus subministrat. Siquid vitae, siquid sensus, siquid in te decoris est, huius hospitis beneficium recognosce. Denique discessus eius probat, quid praesentia conferebat. protinus enim 
+<reg orig="Animâ" TEIform="reg">Anima</reg> 
+discedente, lingua silebit: oculi nihil videbunt: obsurdescent aures, corpus omne rigebit, facies expallescet etc. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s027" n="13" TEIform="pb"/> 
+<head>
+De Dignitate Animae Humanae ut Sponsa 
+<name type="religion" TEIform="name">Christi</name> 
+est. 
+</head>
+<byline TEIform="byline">
+Ex eodem S[ancto] 
+<name type="religion" TEIform="name">Bernardo</name> 
+. 
+</byline>
+<p TEIform="p">
+ET sponsabo te mihi in sempiternum: et Sponsabo te mihi in iustitia, et iudicio, et in misericordia et miserationibus. Et Sponsabo te mihi in fide. Osee c[aput] 2. v[ersus] 19. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Serm. 7. in Cantica</note> 
+</bibl>
+Anima, quae diligit Deum, Sponsa vocatur. haec enim duo nomina, Sponsa et Sponsus, maxime indicant internos affectus. his enim omnia communia sunt; una hereditas, una domus, una mensa, unus lectus. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Serm[o] 2. Dom. 1. post Epiphan.</note> 
+</bibl>
+Unde tibi o humana Anima, unde tibi hoc? unde tam inaestimabilis gloria, ut eius sponsa merearis esse, in quem desiderant 
+<name type="religion" TEIform="name">Angeli</name> 
+prospicere. Unde tibi hoc, ut ipse sit Sponsus tuus, cuius pulchritudinem Sol et Luna mirantur: ad cuius nutum universa mutantur? Quid retribues Domino pro omnibus, quae retribuit tibi: ut sis socia mensae, socia regni, et socia thalami; ut introducat te rex in cubiculum suum? vide, quibus brachiis vicariae caritatis redamandus et amplectendus sit. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De interiori Domo c. 69.</note> 
+</bibl>
+Sancta ergo Anima, et veri Sponsi Amica, ad Dilecti sui adventum summo cum desiderio semper debet inhiare. ibi ad se ipsam revertitur: et cum Dilecto suo usque ad intima cordis 
+<pb id="s028" n="14" TEIform="pb"/> 
+sui penetralia ingreditur. Quid namque est eius introire, nisi se totam in semet ipsam colligere? quid vero est eius exire, nisi se ipsam, extra semet ipsam, totam effundere? 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Scala claustralis. §.7.</note> 
+</bibl>
+Deus solus vult amari, et coli. Zelotypus est Sponsus iste, si forte alium amatorem receperis. si aliis magis placere studueris; statim discedet a te, et adhaerebit aliis adulescentulis. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<head>
+DE QUINQUE SENSIBUS CORPORIS HUMANI MINISTRIS 
+<name type="myth" TEIform="name">URANIAE</name> 
+Sive Animae 
+<name type="religion" TEIform="name">Christianae</name> 
+. 
+</head>
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Augustino</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. 7. de Genesi ad Literam. c. 13.</note> 
+</bibl>
+IGnis non solum fervidam habet qualitatem, cuius sedes in iecore est et cerebro, verum etiam luculentam, quam velut eliquari ac subvolare ostendunt in excelsum cerebri locum, tamquam in coelum corporis nostri: unde et radii emicant oculorum: et de cuius medio, velut centro quodam, non solum ad oculos, sed etiam ad sensus ceteros, tenues fistulae deducuntur: ad aures scilicet, ad nares, ad palatum: propter audiendum, olfaciendum atque gustandum, ipsumque tangendi sensum; qui per totum corpus est. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">In Evangel. Ioannis Trac. 23.</note> 
+</bibl>
+Dominus 
+<name type="religion" TEIform="name">Iesus</name> 
+insinuavit nobis, Animam humanam, 
+<pb id="s029" n="15" TEIform="pb"/> 
+per corporalia mulceri posse sensus corporis, vel offendi: et propter hoc, id est, propter consortium quoddam naturae et corporis in hac vita, atque complexum, delectari Animam lenitis, contristari offensis corporis sensibus. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Serm. de Temperant. 186.</note> 
+</bibl>
+Videtis, quid Anima faciat in corpore. omnia membra vegetat. per Oculos videt, per Aures audit, per Nares olfacit, per Linguam loquitur, per Manus operatur, per Pedes ambulat: omnibus simul adest membris, ut vivant. vitam dat omnibus, officium singulis. Non audit oculus, non videt auris, non videt lingua: nec loquitur auris et oculus; sed tamen vivit. vivit auris, vivit lingua. officia diversa sunt, vita communis. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De cognitione verae vitae. c. 5.</note> 
+</bibl>
+Animam sensibilem esse constat, dum oculis colores, auribus sonores, naribus odores, manibus aspera vel lenia sentire praestat. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De Eccles. Dogmat[e] c. 19.</note> 
+</bibl>
+Sensus absque animae societate non movet corpus: anima vero et sine corpore rationale suum tenet. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Bernardo</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De natura et dignit. amoris divini. c. 6.</note> 
+</bibl>
+SIcut corpus habet suos Quinque sensus, quibus animae coniungitur, vita mediante: sic et Anima suos Quinque sensus habet, quibus 
+<name type="religion" TEIform="name">DEO</name> 
+coniungitur, mediante caritate. per sensus corporis veterascimus, et huic saeculo conformamur. per 
+<pb id="s030" n="16" TEIform="pb"/> 
+sensum vero mentis renovamur in agnitionem 
+<name type="religion" TEIform="name">Dei</name> 
+. Quinque enim sunt Sensus animales, vel corporales, quibus anima corpus suum vivificat. ut ab inferiori incipiam; Tactus, Gustus, Odoratus, Auditus, Visus. Similiter sunt Quinque Sensus spirituales; quibus Caritas vivificat Animam: id est, Amor carnalis Parentum, Amor socialis, Amor naturalis, Amor spiritualis; Amor DEI. per Quinque Sensus corporis, mediante vita, corpus animae coniungitur: per Quinque Sensus pastorales, mediante caritate, anima DEO consociatur. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<head>De Dominatu Animae in suos Quinque Sensus.</head> 
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Augustino</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">
+Lib. 2. contra 
+<name type="person" TEIform="name">Iulianum</name> 
+. 
+</note>
+</bibl>
+PRinceps et Domina carnis, naturaliter Anima est: quae domare carnem debet ac regere. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. 7. de Genesi ad literam. cap. 14.</note> 
+</bibl>
+Cum vult intelligere divina, vel 
+<name type="religion" TEIform="name">Deum</name> 
+, vel omnino etiam se ipsam; suasque considerare virtutes, ut aliquid veri certique comprehendat; ab hac ipsorum quoque oculorum luce se avertit: eamque, ad hoc negotium non tantum nullo adiumento, verum etiam nonnullo impedimento esse sentiens, se in obtutum mentis attollit. Quomodo ergo ex eo genere aliquid est? cum eiusdem 
+<pb id="s031" n="17" TEIform="pb"/> 
+generis summum, non sit nisi lumen, quod ex oculis emicat: quo illa non adiuvatur, nisi ad corporeas formas coloresque sentiendos: habetque ipsa innumerabilia, longe dissimilia cuncto generi corporum; quae non nisi intellectu atque ratione conspiciat: quo nullius carnis sensus aspirat. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Bernardo</name> 
+. 
+</byline>
+<p TEIform="p">
+NEc sane dixerim, ut vel ipsam odio habeas carnem tuam. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Serm. 11. in Ps[almum] qui habitat.</note> 
+</bibl>
+Dilige eam, tamquam tibi in adiutorium, et ad aeternae beatitudinis consortium praeparatam. Ceterum sic amet Anima carnem, ut non ipsa in carnem transisse putetur; dicaturque ei a Domino. non permanebit Spiritus meus in homine, quoniam caro est. Gen[esis]. 6. Claude Anima fenestras morti: obsera aditus: foramina obstrue diligenter. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De conversione ad clericos c.7.</note> 
+</bibl>
+Quis enim prohibeat, quo minus imperem membris meis? indicit igitur Anima gulae ieiunia, crapulam interdicit. Obturari praecipit aures, ne audiant sanguinem: avertit oculos, ne videant Vanitatem. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<head>De pugna Animae rixantis cum Sensibus suis.</head> 
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Augustino</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">In Psalmos 40.</note> 
+</bibl>
+NOn potest coronari, nisi vicerit; nec potest vincere, nisi certaverit: nec potest certare, 
+<pb id="s032" n="18" TEIform="pb"/> 
+nisi inimicum et tentationes habuerit. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. de continentia.</note> 
+</bibl>
+Quamdiu concupiscit caro adversus spiritum, et spiritus adversus carnem, sat est nobis, non consentire malis, quae sentimus in nobis. nam ipsa continentia, cum frenat cohibetque libidines, simul et appetit bonum, ad cuius immortalitatem tendimus, et respuit malum, cum quo in hac mortalitate contendimus. Hanc pugnam non experiuntur in semet ipsis nisi bellatores virtutum, debellatoresque vitiorum. non expugnat concupiscentiae malum, nisi continentiae bonum. Non regnet peccatum in vestro mortali corpore, ad oboediendum desideriis eius. Milites 
+<name type="religion" TEIform="name">Christianos</name> 
+, Apostolica Tuba isto sonitu accendit ad praelium. Non regnet peccatum, etc. Tunc autem regnare ostenditur, si desideriis eius obeditur; quibus non est oboediendum. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. 50 Hom. Hom.</note> 
+</bibl>
+Quantum potes, observa blandimenta draconis; ne forte, si incautus fueris, Quinque sensus, qui in te sunt, quasi Quinque Virgines permittas a serpente corrumpi. Quidquid enim pulchrescit Visu, quidquid delectat gustu, quidquid blanditur auditu, quidquid lenocinatur odoratu, quidquid mollescit attactu; in his omnibus concupiscentiis malis, Animae Virginitatem corrumpi permittimus. Et impletur illud, quod per Prophetam dictum est: intravit mors per fenestras vestras. Hier[emias] 9. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">
+Lib. contr. 
+<name type="person" TEIform="name">Iulianum</name> 
+. c. 5. 
+</note>
+</bibl>
+Concupiscentiam quis ambigat posse minui, 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De Verb. Apost. Serm. 6.</note> 
+</bibl>
+non posse 
+<pb id="s033" n="19" TEIform="pb"/> 
+consumi? Plus habet virium Mens ad tenenda membra carnis, ne dentur in arma iniquitatis; quam ipsa concupiscentia ad movenda membra carnis: si tamen Dei 
+<reg orig="gratiâ" TEIform="reg">gratia</reg> 
+adiuvetur. ob id scriptum est: subtus te erit appetitus tuus; et tu dominaberis illius. Gen[esis] 4. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Bernardo</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Serm. 81. super Cant.</note> 
+</bibl>
+UBi non est libertas, nec meritum. propterea quae sunt carentia ratione animalia, nihil merentur. Quia sicut deliberatione, ita et libertate carent. Sensu aguntur, feruntur impetu, rapiuntur appetitu. solus homo inter animalia liber. Et tamen interveniente peccato, patitur quandam vim et ipse, sed a voluntate, non natura; ut ne sic quidem ingenita libertate privetur. Quod enim voluntarium; et liberum est. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Meditationum c. 3.</note> 
+</bibl>
+Quare Animam tuam vilipendis et ei carnem praeponis? Dominam ancillari, et ancillam dominari, magna abusio est. non pro toto Mundo 
+<name type="religion" TEIform="name">Deus</name> 
+Animam suam dare voluit, quae non nisi sanguine 
+<name type="religion" TEIform="name">Christi</name> 
+redimi potuit. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De modo bene vivendi. Serm. 26</note> 
+</bibl>
+Non des Animam tuam in potestatem carnis: non consentias carnali delectationi. non potest corpus corrumpi, nisi prius fuerit corruptus animus. si anima labitur, statim corpus ad peccandum paratus est. Anima praecedit carnem. in crimine Anima prima vadit ad peccandum. nil potest corpus facere, nisi quod voluerit animus. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s034" n="20" TEIform="pb"/> 
+<head>
+De gloria Animae Victricis sub nomine 
+<name type="myth" TEIform="name">Uraniae</name> 
+domantis Quinque Sensus suos. 
+</head>
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Augustino</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">
+De agone 
+<name type="religion" TEIform="name">Christiano</name> 
+c. 12. 
+</note>
+</bibl>
+SUbiciamus Animam 
+<name type="religion" TEIform="name">Deo</name> 
+, si volumus servituti subicere corpus nostrum. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">In Evang. 10. Tract. 19.</note> 
+</bibl>
+Quum Anima erigit se ad aliquid, quod ipsa non est, et quod supra ipsam est, et a quo ipsa est; percipit sapientiam, iustitiam, pietatem: sine quibus cum esset, mortua erat, nec vitam habebat, qua ipsa viveret, sed qua corpus vivificaret. aliud est enim in Anima, unde corpus vivificatur; aliud, unde ipsa vivificatur. melius est quippe, quam corpus: sed melius quam ipsa, est Deus. est ergo ipsa, etiamsi sit insipiens, iniusta et impia, vita corporis. Quia vero vita eius, est Deus: quomodo, cum ipsa est in corpore, praestat illi vigorem, decorem, mobilitatem, officia membrorum: sic, cum Deus in ipsa est; praestat illi sapientiam, pietatem, iustitiam, caritatem. aliud est ergo, quod praestatur corpori, de anima: aliud quod praestatur animae, de Deo. vivificat et vivificatur. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Tract. 23.</note> 
+</bibl>
+Unde beatitudo, qua fit beata ipsa Anima? non fit, nisi participatione illius vitae semper vivae, incommutabilis, aeternaeque substantiae: quae Deus est: ut, quomodo Anima, quae 
+<pb id="s035" n="21" TEIform="pb"/> 
+inferior Deo est, id, quod ipsa inferius est, hoc est, corpus facit vivere: sic eandem Animam non facit beate vivere, nisi quod 
+<reg orig="ipsâ Animâ" TEIform="reg">ipsa Anima</reg> 
+est superius. superior anima, quam corpus; et superior 
+<reg orig="animâ" TEIform="reg">anima</reg> 
+Deus. anima ut praestat aliquid inferiori; sic praestatur illi a superiore. serviat Domino suo, ne conculcetur a servo suo. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. 3. de Lib. arbitrio c. 21.</note> 
+</bibl>
+Non enim ad creaturam iubemur tendere, ut efficiamur beati, sed ad ipsum Creatorem. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Bernardo</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De natura et dignitate amoris. c. 8.</note> 
+</bibl>
+EX hoc iam Animam, suavitate hactenus et deliciis amoris tenere enutritam; sed et paternae pietatis disciplinis attritam: ex hoc iam, inquam, fortis ut mors dilectio, pervadit amoris gaudio, ab amore et affectu saeculi sic occidens eam funditus, et interimens, sicut mors interimit corpus, in tantum, ut dici de ea possit, quod de 
+<name type="religion" TEIform="name">Enoch</name> 
+: scilicet, quod non invenitur in saeculi actibus, quia transtulit illum Deus. sed corporeus morte sua mortificatur ab omnibus sensibus suis. anima autem morte sua proficit magis, et vivificatur, et roboratur in suis, fortiter et constanter. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De interiori Domo. c. 19.</note> 
+</bibl>
+Locum superiorem semper Ratio obtineat, nullusque motus adversus eam sit rebellis; sed omnia ei obtemperent, sicut et ipsa obtemperat 
+<name type="religion" TEIform="name">Deo</name> 
+. Si vero aliquem motum, ad id, quod non debet, vel quomodo non debet, moveri senserit; non consentiat, sed illico resistat. 
+<pb id="s036" n="22" TEIform="pb"/> 
+nam solus consensus reos nos facit. tunc enim Anima mori, sicut scriptum est, dicitur; cum ipsa ratio ad peccatum per consensum curuatur. Anima enim, quae peccaverit, ipsa morietur. resistat ergo, ne moriatur. pugnet, ut coronetur. Molesta est lucta, sed fructuosa: quia si habet poenam, habebit et coronam. non nocet sensus, ubi non est consensus. immo quod resistentem fatigat, vincentem coronat. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<head>
+De 
+<reg orig="Miseriâ" TEIform="reg">Miseria</reg> 
+Animae Humanae a Quinque Sensibus suis victae et sub iugum missae. 
+</head>
+<byline TEIform="byline">
+Ex S[ancto] 
+<name type="religion" TEIform="name">Bernardo</name> 
+. 
+</byline>
+<p TEIform="p">
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">De Conversione ad clericos. c. 13.</note> 
+</bibl>
+UNde tanta pusillanimitas, et abiectio tam miserabilis? ut egregia creatura, capax aeternae beatitudinis, et gloriae magni 
+<name type="religion" TEIform="name">Dei</name> 
+: utpote cuius inspiratione condita, similitudine insignita, cruore redempta, fide dotata, spiritu adoptata miseram non erubescat sub putredine hac corporeorum sensuum gerere servitutem. merito plane ne eos quidem apprehendere potest; quae talem deserens sponsum, tales sequitur amatores. sensus a corpore cito recedit; Animam sua mors comitatur euntem. Nec parum Animae, ex hac consideratione doloris accedit: cum per fenestras proprias mors 
+<pb id="s037" n="23" TEIform="pb"/> 
+ista deprehenditur introisse. Multa siquidem admisisse videtur petulantia oculorum; multa pruritus aurium: multa quoque olfaciendi, gustandi, tangendique voluptas. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Ser.21. super Cantica.</note> 
+</bibl>
+Quamquam et quaevis perfectionis Anima, quamdiu quidem gemit sub corpore mortis huius, et huius saeculi nequam retinetur inclusa carcere, vincta necessitatibus, lentius segniusque assurgat, necesse est ad contemplanda sublimia: nec omnino liberum habet, sequi Sponsum, quocumque ierit. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. de Conscientia. c. 4.</note> 
+</bibl>
+Proinde clamat: non est in potestate cor meum, et cogitationes meae, quae improviso effusae mentem meam animumque confundunt, atque alio trahunt, quam ego proposueram. ad secularia revocant, mundana inferunt, voluptates ingerunt, illecebrosa contexunt. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Cap. 5.</note> 
+</bibl>
+Oculi iniquo intuitu me perverterunt, omnemque motum mei corporis ad innumera desideria traxerunt. aures citius aperui verbis otiosis et vanis, quam sanctis. Delectatus est Odoratus variis odoribus, Gustus diversarum rerum diversis saporibus etc. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Serm. 81. super Cantica.</note> 
+</bibl>
+Qui facit peccatum, servus est peccati. <name type="religion" TEIform="name">Ioann[es]</name> 8. propterea cum peccavit anima, servam se fecit. miro quodam et malo modo, sub hac voluntaria quadam ac libera necessitate, et ancilla tenetur et libera. ancilla propter necessitatem, libera propter voluntatem. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Eccli. 13 Serm. 82.</note> 
+</bibl>
+Anima quae peccaverit, ipsa morietur. <name type="religion" TEIform="name">Ezech[iel]</name>18. Nonne ista morte duplici incursante, 
+<pb id="s038" n="24" TEIform="pb"/> 
+illa qualiscumque immortalitas, quam retentat, tenebrosa satis redditur et misella? adde, quod appetentia terrenorum (quae quidem omnia ad interitum sunt) densat tenebras; ita, ut in anima sic vivente, nil a parte aliqua; nisi pallida facies, et imago quaedam mortis apparere cernatur. cur non enim quae immortalis est, similia sibi, immortalia appetit et aeterna; ut, quod est, appareat; et quod facta est, vivat? Ceterum contraria sapit et quaerit, et mortalibus sese degeneri conversatione conformans, immortalitatis candorem, quodam mortiferae consuetudinis piceo colore denigrat. Qui tangit picem, inquinabitur ab ea. Eccl[es]i[asticus] 13. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Ibid.</note> 
+</bibl>
+Sed et voluntaria illa necessitas, et contraria Lex inflicta in membris eidem incubat libertati: et liberam 
+<reg orig="naturâ" TEIform="reg">natura</reg> 
+creaturam, per propriam ipsius voluntatem, dum allicit, subicit servituti, implens faciem eius 
+<reg orig="ignominiâ" TEIform="reg">ignominia</reg> 
+. Quid tu Animae tuae aliam formam, immo deformitatem imprimis alienam? Quomodo obscuratum est aurum, mutatus est color optimus? Thren[i] 4. Homo, cum in honore esset, non intellexit, comparatus est iumentis insipientibus. Psal[mus] 48. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">In Dedicatione Ecclesiae. Serm. 6.</note> 
+</bibl>
+sed quid modo necesse est, singulas Animae miserias numerare? quam sit onerata peccatis, obfusa tenebris, irretita illecebris, pruriens concupiscentiis, obnoxia passionibus, impleta illusionibus. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Liber de Conscientia. c. 5.</note> 
+</bibl>
+Omnia mea membra volunt, coniuratione 
+<pb id="s039" n="25" TEIform="pb"/> 
+facta cum inimico meo, de me Dominium ei tradere: cum morte foedus inire; pacisci cum inferno. Haec ex S[ancto] 
+<name type="religion" TEIform="name">Bernardo</name> 
+. Porro et alii P[atres] quorum testimonia citare supersedemus, miserabilem hunc statum Animae succumbentis sensuum suorum mortiferis illecebris, non minus lamentabiliter exaggerant. S[anctus] 
+<name type="religion" TEIform="name">Chrysost[omus]</name> 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Hom. 9. in 2. ad Cor.</note> 
+</bibl>
+barbarum vocat peccatum, et tyrannidem exercens in Animam semel captam. S[anctus] 
+<name type="religion" TEIform="name">August[inus]</name> 
+ut qui maxime hanc servitutem olim passus, pluribus locis in Libris Confess[ionum] suarum hoc argumentum per facundos gemitus et atroces querelas deduxit. alicubi clamat: 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">lib. 8. Conf. c. 5. et 10.</note> 
+</bibl>
+Suspirabam ligatus non ferro alieno, sed mea ferrea voluntate. velle meum tenebat inimicus: et inde mihi catenam fecerat, et constrinxerat me. Duae voluntates meae: una vetus, alia nova; illa carnalis, illa spiritualis, confligebant inter se, atque discordando dissipabant animam meam, etc. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s040" n="26" TEIform="pb"/> 
+<head>
+Cur ad Apologum B[eati] 
+<name type="person" TEIform="name">Iacoponi</name> 
+exprimendum Epistolae assumptae. Item: De Stylo epistolari Quinque Sensuum Animam ad proclivia sollicitantium. 
+</head>
+<p TEIform="p">
+SEnsibus tamquam nuntiis uti, per quos accipiat, quidquid rerum corporalium non latet: testatur S[anctus] 
+<name type="religion" TEIform="name">August[inus]</name> 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. 7. de Genesi ad liter. c. 14. Lib. 10. Confess. c. 40.</note> 
+</bibl>
+Lustravi, inquit, mundum foris, sensu quo potui; et attendi vitam corporis mei, de me, sensusque ipsos meos. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. 10. Conf. c. 10.</note> 
+</bibl>
+Percurro ianuas omnes carnis meae. Oculi dicunt: si coloratae sunt (imagines transmissae, et in sensu memoriae reconditae) nos eas nuntiavimus. Aures dicunt: si sonuerunt; a nobis indicatae sunt. Nares dicunt: si oluerunt; per nos transierunt. Dicit etiam sensus Gustandi: si sapor non est, nihil me interroges. Tactus dicit: si corpulentum non est, non contrectavi. si non contrectavi, non indicavi. Vides, ecce, nuntios, qui literas ferant ad Animam, tamquam Dominam suam. Domus Animae, est similis Palatio Famae. de quo 
+<cit TEIform="cit">
+<bibl default="NO" TEIform="bibl"><name type="person" TEIform="name">Ovid[ius]</name> l[ibro] 12. met[amorphoseon].</bibl> 
+<pb id="s041" n="27" TEIform="pb"/> 
+<q direct="unspecified" TEIform="q">
+<lg met="hexa" org="uniform" sample="complete" part="N" TEIform="lg">
+<l part="N" TEIform="l">Innumeros aditus ac mille foramina tectis</l> 
+<l part="N" TEIform="l">Addidit; et nullis inclusit limina portis.</l> 
+<l part="N" TEIform="l">Nocte dieque patet: tota est ex aere sonanti.</l> 
+<l part="N" TEIform="l">Tota fremit: vocesque refert: iteratque, quod audit.</l> 
+<l part="N" TEIform="l">Nulla quies intus, nullaque silentia parte.</l> 
+<l part="N" TEIform="l">Nec tamen est clamor: sed parvae murmura vocis:</l> 
+<l part="N" TEIform="l">Qualia de Pelagi (si quis procul audiat) undis</l> 
+<l part="N" TEIform="l">
+Esse solent: qualemue sonum, cum 
+<name type="myth" TEIform="name">Iuppiter</name> 
+atras 
+</l>
+<l part="N" TEIform="l">Increpuit nubes, extrema tonitrua reddunt.</l> 
+<l part="N" TEIform="l">Illic credulitas, illic temerarius error;</l> 
+<l part="N" TEIform="l">Vanaque Laetitia est, consternatique Timores:</l> 
+<l part="N" TEIform="l">Seditioque recens, dubioque auctore susurri.</l> 
+<l part="N" TEIform="l">Ipsa, quid in caelo rerum, pelagoque geratur</l> 
+<l part="N" TEIform="l">Et tellure, videt, totumque inquirit in orbem.</l> 
+</lg>
+</q>
+</cit>
+</p>
+<p TEIform="p">
+Haud secus Anima per sensus suos totum quodammodo Mundum peragrat: omnia lustrat beneficio Ministrorum, quamvis non raro infidelium: et vaga curiositate se pascit, saepius 
+<reg orig="noxiâ" TEIform="reg">noxia</reg> 
+. quae audisti in aula Famae, a variis et infidis rumoribus spargi semina credulitatis, errorum, vanae laetitiae, timoris, seditionum: eadem in cubili Animae serunt ac referunt adulatores sensus. Tabellarios cogita. tabellas ferunt, qua vera, qua falsa narrantes. impleturque illud, quod sapiens praedixit. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Sap. 14. v. 11</note> 
+</bibl>
+Quoniam creaturae Dei, in odium factae sunt; et in tentationem <orig reg="animis" TEIform="orig">animabus</orig> hominum, et in muscipulam pedibus insipientium. 
+<pb id="s042" n="28" TEIform="pb"/> 
+Characteres epistolarum, quas officiosi sensus Dominae suae ingerunt, a Philosophis species dicuntur: Latiniores simulacra rerum et volaticas imagines vocant. ex istarum intuitu haustuve insinuantur Animae omnis generis lenocinia, quibus decepta, a coelesti sponso suo saepe saepius avertitur, et procum quemcumque sensum amat, Hera famulum, Regina mancipium, fornicata a Domino. Qua phrasi Sacra pagina 
+<name type="religion" TEIform="name">Ieremiae</name> 
+et 
+<name type="religion" TEIform="name">Ezechielis</name> 
+latissime impleta personat. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">
+S. 
+<name type="religion" n="Augustinus" TEIform="name">Aug.</name> 
+l. 1. Confess. c. 1. 
+</note>
+</bibl>
+Fecisti nos Domine ad te: et inquietum est cor nostrum, donec requiescat in te. Hoc pactum nuntii sensus non semel nequissime intervertunt: et, dum fallaciter blandiuntur, a primo Amore Increato, sed omnium recte amantium ultimo fine, hoc est, legitimo sponsi sui thalamo per summum nefas distrahunt. Respice saeculi nostri connubia. Quo tempore 
+<name type="myth" TEIform="name">Mars</name> 
+populator opum, vastavit agros; iusque omne et nobilitas in armis erat, vidimus non paucas summa claritudine generis florentes Dominas; sed belli iniuriis attritas, praedonum vitio egenas, armatis precibus <reg orig="delinitas" TEIform="reg">delenitas</reg>, caloni aut servo suo nupsisse. An non et 
+<orig reg="hic" TEIform="orig">
+<orig reg="hic" TEIform="orig">hîc</orig> 
+</orig>
+verum est: nimia familiaritas contemptum parit? Qua ratione et Anima, Mens in regali solio collocata, paulo minorata ab 
+<name type="religion" TEIform="name">Angelis</name> 
+, in Conditoris sui probrum, seducta violat fidem, et famulo adultera succumbit. illecebrae autem, a D[ivo] 
+<name type="religion" TEIform="name">Aug[ustino]</name> 
+<pb id="s043" n="29" TEIform="pb"/> 
+machinae suggestionum vocatae, quibus irretitur Anima, ut rupti foederis 
+<reg orig="infamiâ" TEIform="reg">infamia</reg> 
+se taminet, melius atque honestius explicari non poterant, quam simplici epistolari stylo, quo lenones utuntur, amatorie ambitiosi. nam insinuare se norunt miris modis. dum virginibus suas spes ac vota, suos denique amores suppliciter commendant. interdum etiam suas vires ac facta pace belloque insignia: denique potentiam, decora, divitiasque magnifice iactant; ut a principio lenes, sic in fine efficacibus verborum, atque caerimoniarum philtris, speratum consensum extorquere industrii. Perfidi sensus pariter Animam herilem illaqueare ac subigere student, obsequio, blanditiis, curioso variarum rerum ambitu, in oculos et aures, in nares et gulam ingesto. Totum fallendi artificium peritus magister 
+<name type="person" TEIform="name">Thomas Kempensis</name> 
+optime declaravit his verbis: 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">
+Lib. 1. de imit. 
+<name type="religion" TEIform="name">Christi</name> 
+. c. 13. 
+</note>
+</bibl>
+nam primo occurrit menti simplex cogitatio: deinde fortis imaginatio: postea delectatio, et motus pravus et assensio. Examina primum chirographum Decreti contrarium nobis, quod 
+<name type="religion" TEIform="name">Christus</name> 
+delevit, affigens illud cruci. Quis mortuales hasce literas exaravit? quis erotica tam funesta scripsit? sensus corporis: Visus, Tactus, Gustus, <name type="religion" TEIform="name">Evam</name> Dominam decepere. Vidit igitur mulier, quod bonum esset lignum ad vescendum, et pulchrum oculis, aspectuque delectabile: tulitque de fructu, et 
+<pb id="s044" n="30" TEIform="pb"/> 
+comedit: deditque viro, et comedit. feralis pomi succo characteres mortis in Libro Conscientiae scripti duraverunt, durantque ad omnem Posteritatem. 
+</p>
+</div>
+<div type="table of contents" org="uniform" sample="complete" part="N" TEIform="div">
+<head>Elenchus Epistolarum in Quinque Libris.</head> 
+<p TEIform="p">
+LIBER I. De primo sensu 
+<reg orig="Visûs" TEIform="reg">Visus</reg> 
+: Continet scriptas ad 
+<name type="myth" TEIform="name">URANIAM</name> 
+Epistolas tres: 
+<reg orig="Visûs" TEIform="reg">Visus</reg> 
+: Pictoris: Mathematici. totidemque 
+<name type="person" TEIform="name">Uraniae</name> 
+: quibus respondet. 
+</p>
+<p TEIform="p">
+LIBER II. De sensu 
+<reg orig="Auditûs" TEIform="reg">Auditus</reg> 
+. Continet Epistolas tres: 
+<reg orig="Auditûs" TEIform="reg">Auditus</reg> 
+: Musici: Poetae. totidemque 
+<name type="myth" TEIform="name">Uraniae</name> 
+respondentis. 
+</p>
+<p TEIform="p">
+LIBER III. De tertio sensu 
+<reg orig="Odoratûs" TEIform="reg">Odoratus</reg> 
+. Continet Epistolas tres: 
+<pb id="s045" n="31" TEIform="pb"/> 
+<reg orig="Odoratûs" TEIform="reg">Odoratus</reg> 
+: Pharmacopolae: Unguentarii. totidemque 
+<name type="myth" TEIform="name">Uraniae</name> 
+respondentis. 
+</p>
+<p TEIform="p">
+LIBER IV. De quarto sensu 
+<reg orig="Gustûs" TEIform="reg">Gustus</reg> 
+. Continet Epistolas tres: Venatoris: Coci: Architriclini. totidemque 
+<name type="myth" TEIform="name">Uraniae</name> 
+respondentis. 
+</p>
+<p TEIform="p">
+LIBER V. De quinto sensu 
+<reg orig="Tactûs" TEIform="reg">Tactus</reg> 
+. Continet Epistolas tres: Cauponis: Mundi. Aulici: Carnis. Militis gloriosi: Daemonis. totidemque 
+<name type="myth" TEIform="name">Uraniae</name> 
+respondentis. 
+</p>
+<p TEIform="p">
+Hoc numero Epistolae sensuum lenocinantes traduntur in manus 
+<name type="myth" TEIform="name">Uraniae</name> 
+, Animae Humanae locum atque imperium obtinentis. Ceterum in ipsis sensibus procis, ordine dignitatis servato, tribus tantummodo scribendi licentiam dare placuit. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Iudicum 9.</note> 
+</bibl>
+Si 
+<name type="person" TEIform="name">Ioathamo</name> 
+per apologum, 
+<pb id="s046" n="32" TEIform="pb"/> 
+ligna, olivam, ficum, vitem in silvestribus comitiis, licuit alloquentia se introducere: quanto magis sensus, nobiliore anima, quam vegetante praeditos. Quod tamen, ut dictum est, tribus dumtaxat primis, quippe a materia altius elevatis, hoc est, Visui, Auditui, Odoratui tribuimus. Gustus et Tactus, ad pastum et ventrem proiecti, velut muta et bruta pecora silere iubentur. Vicarii substituti causam illorum agunt, et supplent. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<head>
+Quomodo 
+<name type="myth" TEIform="name">Urania</name> 
+sive Anima 
+<name type="religion" TEIform="name">Christiana</name> 
+Sensibus consensum eblandiri cupientibus respondeat. 
+</head>
+<p TEIform="p">
+PUellarum nobilium exemplo: quae nubiles, primo quidem ab honestis amoribus non videntur abhorrere. Simulant enim molles aditus, etsi intus rigidae: foris utcumque blandiuntur, auscultant. Porro, cum desideria procorum accenderunt, exspectationem optatae admissionis destituunt. argumenta, preces, vota argute eventilant. Quid? demum invisos petitores manifestius deludunt, rident: sed et de fenestra exprobrant; verbo: repudiant. quod in 
+<name type="place" TEIform="name">Germania</name> 
+vocant corbem dare. Ipsissima imago pugnantis Animae, sive potius pugnare incipientis 
+<pb id="s047" n="33" TEIform="pb"/> 
+cum illecebris sensuum. rudis adhuc; sed neque consentiens, nec omnino abhorrens, conivet interdum, et nonnumquam subrepticiis imaginibus intendit aciem, ut capi posse videatur, spemque praestet potiundae; licet immobilis stet. quem luctandi modum graphice describit S[anctus] 
+<name type="religion" TEIform="name">August[inus]</name> 
+utpote expertus. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. 8. Confess. c. 11.</note> 
+</bibl>
+Retinebant me nugae nugarum, et vanitas vanitatum, antiquae amicae meae, succutientes vestem meam carneam, et submurmurabant: Dimittisne nos? etc. Et quae alia Eroticae literae per sensus Menti tentatae ingerunt. itaque subinde miratur, colludit, stupet: ac nisi divinae Gratiae filum sequatur, in labyrinthum incidit. 
+<name type="myth" TEIform="name">Uraniam</name> 
+nostram, 
+<reg orig="mediâ viâ" TEIform="reg">media via</reg> 
+incedentem exhibemus: Victricem quidem, et castam: sed non statim sanctissimam, nec omnis periculi expertem. In secunda Parte, a Sensuum tumultu utcumque libera, illustrior proponetur. paullatim proficimus. nunc Anima Humana, humano modo, cum sensibus suis, ministris necessariis agit. Itaque datas Literas, quamvis illecebrosas, et quae narrant delectationes, sed non sicut Lex Domini; legit, examinat, respondet: memor, quod et ipsa Epistola sit, epistolam sollicitantibus reponit: ne rustica habeatur. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">2. Cor. 3.</note> 
+</bibl>
+Epistola nostra vos estis, scribit ad 
+<name type="nation" TEIform="name">Corinthios</name> 
+<rs type="religion" n="Paulus" TEIform="rs">Apostolus</rs> 
+. epistola scripta non atramento, non in tabulis lapideis 
+<pb id="s048" n="34" TEIform="pb"/> 
+sed in tabulis cordis carnalibus. Annotavit quoque 
+<name type="religion" TEIform="name">Origenes</name> 
+: 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Hom. 13. in Genesin.</note> 
+</bibl>
+Animam peccatricem, peccati sui quodammodo literas scribere. quippini ergo et victricem Deoque fidam, deceat contrarias scribere: peccare se nolle. Hoc proposito firmata, nonnumquam Sensuum suorum votis faventem se ostendit; castigat tamen. laudat ministerium, sed matrimonium aspernatur: et masculinum animum femineo pectori inserens, quasi 
+<name type="religion" TEIform="name">Machabaea</name> 
+aliqua, neque blanditiis, neque terrore commovetur: monens unumquemque, ut officium faciat suum; hoc est, serviat, dominari nolit. Quin etiam divina ope adiuta, pervicacius insultantibus frena, cruciatus, vigilias, flagella minatur, et infert. Queri interim, obsecrare, indignari, deridere, gemere, irasci, explodere, similesque affectus ciere, tam a sexu muliebri alienum non est, ut quodammodo proprium esse videatur: praesertim in discrimine castitatis, et tuendi honoris gloria. quod enim crescit ad pugnam, virescit in palmam. Feminae autem et 
+<term type="literary" TEIform="term">Elegiae</term> 
+idem plerumque genius est. non semper ploret, ingemiscat, dissimulet: sed animosius quandoque insurgens, 
+<name type="myth" TEIform="name">Amazonem</name> 
+se praestet; et pharetrata, missilibus procul agat. 
+</p>
+</div>
+<div type="preface" org="uniform" sample="complete" part="N" TEIform="div">
+<pb id="s049" n="35" TEIform="pb"/> 
+<head>
+Cur Victrix 
+<name type="myth" TEIform="name">Urania</name> 
+producitur; Sensuum tamen suorum precibus ac desideriis intenta, subdubitans, paene obnoxia; adeoque propior potius Victae, quam Victrici. 
+</head>
+<p TEIform="p">
+QUi sine peccato est (numquam indulgens aliquid sensibus, aut conivens) primus in illam lapidem mittat; etiam 
+<name type="myth" TEIform="name">Sisyphium</name> 
+. Certe a iactu D[ivi] 
+<name type="religion" TEIform="name">Augustini</name> 
+, quantumvis acerrimi ac religiosissimi Praesulis, secura erit. Non loquimur autem de innocentibus columbulis, animulis inquam: quas praeveniens Gratia 
+<name type="religion" TEIform="name">Dei</name> 
+, extra ordinem, singulari 
+<reg orig="praerogativâ" TEIform="reg">praerogativa</reg> 
+, tantum non omnino exemit a corruptae massae contagio. Ad humani generis infecti statum, ut communiter nunc se habet; ad quotidianas miserias, et maxime ad illud, In multis offendimus omnes, provocamus. rara avis ad retia, et viscum sensuum aucupum, non aliquot pennas relinquens. Quem enim non aliquando oculus vel auris decipit? Quis non lapsus est 
+<reg orig="linguâ suâ" TEIform="reg">lingua sua</reg> 
+? 
+<rs type="religion" n="Augustinus" TEIform="rs">Praedictus Antistes</rs> 
+, iam conversus, iam ablutus, immo iam Sanctus deplorat insidias illices sensuum; quibus implicitus aliquoties haeserit. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Lib. Conf. 10. cap. 28.</note> 
+</bibl>
+Contendunt laetitiae meae, cum laetandis maeroribus (ecce pugnantem) et ex qua parte stet victoria, nescio (ecce dubitantem). 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Cap. 33.</note> 
+</bibl>
+Delectatio carnis meae, cui Mentem 
+<pb id="s050" n="36" TEIform="pb"/> 
+enervandam non oportet dari; saepe me fallit. dum rationem sensus non ita comitatur, ut patienter sit posterior: sed tantum quia propter illam meruit admitti, etiam praecurrere ac ducere conatur. ita in his pecco non sentiens, sed postea sentio. (habes unum extremum vitandum.) aliquando autem hanc ipsam fallaciam immoderantius cavens, erro nimia severitate. (en alterum extremum.) Iam quotusquisque medium semper tangit, in quo tamen sita Virtus est. propterea exclamat idem Doctor, quoties sensuum ministerio uti cogitur: Fluctuo inter periculum voluptatis et experimentum salutis. Quod ut clarius appareat, in usu (qui utique non tollendus est propter abusum) 
+<reg orig="duûm" TEIform="reg">duum</reg> 
+honestissimorum sensuum, 
+<reg orig="Visûs" TEIform="reg">Visus</reg> 
+et 
+<reg orig="Auditûs" TEIform="reg">Auditus</reg> 
+declarat. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Eod. lib. cap. 34.</note> 
+</bibl>
+De visu quidem. Ipsa, inquit, colorum regina lux ista, perfundens cuncta, quae cernimus; ubi per diem fuero, multimodo allapsu blanditur mihi aliud agenti, et eam non advertenti. insinuat autem se ita vehementer; ut, si repente subtrahatur, cum desiderio requiratur: et si diu absit, contristet animum. Verumtamen in quam multis minutissimis et contemptibilibus rebus, curiositas nostra cotidie tentatur. Et quam saepe labamur, quis enumeret? Canem currentem post leporem iam non specto, cum in circo fit: at vero in agro si transeam; avertit me fortassis ab aliqua 
+<pb id="s051" n="37" TEIform="pb"/> 
+magna cogitatione, atque ad se convertit illa venatio: non deviare cogens corpore iumenti, sed cordis inclinatione. Et nisi iam mihi demonstrata infirmitate mea, cito admoneas (Deus) aut ex ipsa visione per aliquam considerationem in te assurgere; aut totum contemnere, atque transire; vanus hebesco. Quid, cum me domi sedentem stellio muscas captans, vel aranea retibus suis implicans saepe intentum facit? huiusmodi rerum conceptaculum fit cor nostrum, et portat copiosae vanitatis catervas. hinc et orationes nostrae saepe interrumpuntur. Haec ex 
+<rs type="religion" n="Augustinus" TEIform="rs"><name type="place" TEIform="name">Hipponensi</name> 
+oraculo 
+</rs>
+, denuntiante pericula 
+<reg orig="Visûs" TEIform="reg">Visus</reg> 
+. adiunxit tamen et modum evitandi, iismet in summam utilitatem conversis. Talia videns inquit, Pergo inde ad laudandum te Creatorem mirificum, atque ordinatorem rerum omnium. Ergo idem sensus et nocere, et prodesse potest. non igitur semper inclementer habendus, sed caute custodiendus. Audiamus eundem de Auditu. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Cap. eodem.</note> 
+</bibl>
+Quoties narrantes inania, primo quasi toleramus, ne offendamus infirmos. deinde paullatim libenter advertimus. Quid igitur? optanda surditas? minime vero. pateant aures ad honestos sermones, ad Hymnos sacros. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Cap. 33.</note> 
+</bibl>
+Cum reminiscor lacrimas meas, ait, quas fudi ad cantus 
+<name type="org" TEIform="name">Ecclesiae</name> 
+tuae, in primordiis recuperatae fidei meae, instituti huius utilitatem agnosco: ut per oblectamenta 
+<pb id="s052" n="38" TEIform="pb"/> 
+aurium, infirmior animus in affectum pietatis assurgat. Nota, Lector, utilitatem nobilissimi 
+<reg orig="sensûs" TEIform="reg">sensus</reg> 
+, vix oculo cessuri. at eundem officere posse, testatur idem malo suo edoctus. Tamen cum mihi accidit, ut me amplius cantus, quam res, quae canitur, moveat; poenaliter me peccare profiteor: et tunc mallem non audire cantantem. Hactenus ille. Quae ex 
+<rs type="religion" n="Augustinus" TEIform="rs">sanctissimo Patre</rs> 
+descripsi, sine stupida scrupulositate accipienda sunt: (quamquam periculum nullum imminere videtur) ne timiditas ipsam usurpationem sensuum imminuat, aciemque penitus hebetet et obtundat. Si Quinque Sensuum spectemus usum, Naturae munus; quamvis Animae ministri sint: non tamen in illos serviliter agendum est semper: quippe in cognatos, a supremo Numine attributos; ut eorum beneficio atque auxilio, opera Dei discamus, prodigi in nos amorem hauriamus, miremur Conditoris gloriam, nostram felicitatem in aeterna vita sitam consequamur. Audi D[ivum] 
+<name type="religion" TEIform="name">Bernardum</name> 
+. Quibusdam affectibus, et quadam amicitia, Anima corpori coniungitur: secundum quam amicitiam nemo carnem suam odio habet. sociata namque illi, licet eius societate praegravetur, ineffabili tamen conditione diligit illud. amat carcerem suum, et ideo libera esse non potest. formidat interitum, quae mori non potest. Timet 
+<pb id="s053" n="39" TEIform="pb"/> 
+defectum, quae per naturam non potest deficere. Oculorum pascitur speculatione: sonorum delectatur dulcoribus: larga epulatione reficitur, et licet his rebus nullatenus ipsa utatur: gravi tamen maerore affligitur, si subtrahantur. Ecce amicum consortium Animae cum sensibus suis. equidem agnoscit famulos: sed tenero amore complectitur; scilicet ut suos, ut quodammodo consanguineos, ut aeternum secum mansuros, quocumque statu. barbaricum ius et imperium in amicos, tamquam mancipia 
+<name type="nation" TEIform="name">Turcica</name> 
+, exercere non sustinet. nescias, sui, an sensuum 
+<reg orig="gratiâ" TEIform="reg">gratia</reg> 
+. Ut ne mireris, si 
+<name type="myth" TEIform="name">Urania</name> 
+, etiam victrix, aliquando ministris suis fidelibus (esto, nonnumquam perfidis) aliquid indulgeat, connivens alludat; dumne coronam capitis sui arbitrio dominantium substernat. Hactenus clemens erit. Quod si petulanter recalcitrent; (nam equorum et sensuum refrenandorum regendorumque eandem esse normam ac curam dixeris:) despotice agendum est. poppysma sic mulceat equum, ut se tamen noscat extra metum calcarium non esse. Inveni unum, qui moribundus, sensibus suis gratias referret amplissimas, propter fidelem operam, tot annis praestitam. 
+<bibl default="NO" TEIform="bibl">
+<note place="unspecified" anchored="yes" TEIform="note">Nicet . lib. 2. cap. 9. §.5.</note> 
+</bibl>
+Rem narrat R[everendus] P[ater] 
+<name type="person" TEIform="name">Drexelius</name> 
+noster, his verbis: Memini me legere de homine 
+<pb id="s054" n="40" TEIform="pb"/> 
+aegro, sed rectissime sibi conscio: qui in mortis vicinia, velut orator ad se ipsum, omnibus corporis sensibus meritam gratiam retulit, in hunc modum. O mei oculi, amo vos de hac re, quod passi estis noctem vobis et caecitatem persuaderi, quotiescumque vanitatis aut lasciviae aspiciendae fuit periculum. haec mihi nox, haec caecitas, saepe fuit saluberrima. O meae aures, gratias vobis habeo; quod artificio extemporali obsurduistis, ad omnem inhonestum, obtrectatorium, noxium sermonem. haec mihi surditas saepissime fuit saluti. O Manus meae, vobis memori mente adscribo, quod delicias et Tactu iucunda potuerim aspernari: vestra mihi ad hoc profuit continentia. O mi olfactus: et tuis beneficiis respondeo. tuae fuit virtutis et odores gratos spernere, et ingratos perferre, Dei 
+<reg orig="caussâ" TEIform="reg">caussa</reg> 
+. multum me iuvit tua patiens industria. Et o mi Gustus, tibi quoque me gratum praebeo: tibi acceptas refero victorias plurimas. pars salutis meae maxima in te stetit. potuisti et dapibus carere, et inter dapes esurire. abstinendo et sustinendo promovimus. Igitur o meum corpus, sine me brevi temporis spatio a te abesse. iungemur iterum, et una fruemur praemio inexplicabili: felicitate non finienda; 
+<name type="myth" TEIform="name">Uraniae</name> 
+Victrici debita. 
+<note resp="modern editors" place="unspecified" anchored="yes" TEIform="note">
+Apparatus criticus: [(2b)] IACOBI BALDE ... URANIA VICTRIX] A; URANIA VICTRIX,/ SIVE/ ANIMAE <name type="religion" TEIform="name">CHRISTIANAE</name>/ CERTAMINA/ ADVERSUS/ ILLECEBRAS ET INSULTUS QUIN-/ QUE SENSUUM MINI-/ STRORUM/ CORPORIS SUI ELEGAICO (sic!)/CARMINE DESCRIPTA. B Pontifici Maximo] A; DEDICATIO. ... Pontifici nostro. B [(3b)] 1 suo,] A; suo B [(4a)] 11 lenones;] A; lenones. B [(4b)] 15 famulatus], A; famulatus. B 16 confusâ] A; confusa B 18 quadrigarum;] A; quadrigarum, B 19 formidabiles.] A; formidabiles: B 20 agantur;] A; agantur? B 21 incursant,] A; incursant. B pariter] A; pariter. B 22 Sensus,] A; Sensus B [(5a)] 32 Victoria] A; victoria B [(5b)] 33 persistat,] A; persistat; B 35 Uraniam, hac primâ parte,] A; Uraniam hisce Elegis B 38 suis,] A; suis. B 39 Terris] A; terris B [(6a)] 43 vicisse,] A; vicisse; B 44 solenni] A; solenni. B adscripsisti. ] B; adscripsist? A 45 Praesules.] A; Praesules, B 48 Pietati] A; pietati B 49 Charitati] A; charitati B 52 conciliat;] A; conciliat, B [(6b)] 58 sensi ... humanissimum] nur in A 62 habear: Certe] A; habear; certe B [(6b)] 64 successisse] A; successisse: B 72 Societat.] A; Soc. B [1] NO-/ticiam huius Scripti] A; NOTITIAM. DE CAUSA, MATERIA, ET MO-/DO SCRIBENDI. B 6 Venusinis] A; venusinis B [2] 19 sepulcra] B; Sepulcra A [4] 38 superesse] A; superesse, B 44 Fab[ula] 3] A; Fab[ula] 7 B 48 Primus,] A; Primus B alter,] B alter A tertius,] A; tertius B 49 ultimus,] A ultimus B 50 unio.] unio A,B [5] 55 eâdem] B; eadem A 56 Iovis B] Iovis A 57 Iuvenes] B; Iuvenes A 60 Iacoponus] B; Iacoponus A Voluntas] A; voluntas B 61 Auditus,] B; Auditus A Gustus] B; Gustatus, A 64 nostri,] A; nostri. B 66 fragmentis] B; fractis A pupis] A; puppis B [6] 72 professus.] A; professus? B [7] 82 Argumentum scriptionis.] A; argumentum scriptionis, B 83 quam ... Pars I] A; quae B epistolas praesentes] A; Epistolas B 85 spiritus] B; Spiritus A haec] A; Haec B 86 Pars II ... 96 consumitur] nur in A [7] Titel: Nomine] B; nomine A 1 Pictores:] A; Pictores, B [8] 7 Nos,] A; Nos B 8 Animam] A; animam B 10 Animam] A; Animum B 11 coelesti] A; caelesti B 13 Spiraculum] A; spiraculum B 15 Ende des Abschnitts 'De nomine Uraniae' in B Die Abschnitte [9-17]De Dignitate Animae Humanae, De Dignitate Animae Humanae ut <name type="religion" TEIform="name">Christiana</name> est, De Dignitate Animae Humanae ut Sponsa <name type="religion" TEIform="name">Christi</name> est, DE QUINQUE SENSIBUS CORPORIS HUMANI MINISTRIS <name type="myth" TEIform="name">URANIAE</name> Sive Animae <name type="religion" TEIform="name">Christianae</name>, De Dominatu Animae in suos Quinque Sensus nur in A. [15] 7 sensus] sensu A [18] 7 Non] A; non B 10 b Quantum, 16 c Concupiscentiam, d non] In B Buchstabenverweise im Text, aber die Anmerkungen fehlen. Die Abschnitte [19-25] Ex S. Bernardo, De gloria Animae Victricis sub nomine Uraniae domantis Quinque Sensus suos, De Miseriâ Animae humanae a Quinque Sensibus suis victae et sub iugum missae nur in A; ein Teil von [26-30] Cur ad Apologum B[eati] 
+<name type="person" TEIform="name">Iacoponi</name> 
+exprimendum Epistolae assumptae ist unter dem Titel De stylo Epistolari in B übernommen. [24] 34 ignominiâ.] ignominiâ, A [27] 24 Anima] Hier setzt der Text von B unter der Überschrift 'De stylo Epistolari/Quinque Sensuum Animam ad procli-/via solicitantium.' wieder ein. 26 quae audîsti ... [28] 37 intervertunt] Nur in A 43 Anima, Mens] A Anima mens B 45 illecebrae] A; Illecebrae B [29] 52 student,] A; student. B 56 chirographum] A Chirographum B 58 decepere] A decipere B quod] B; quod A [30] 60 Conscientiae] A; conscientiae B Die Abschnitte Elenchus Epistolarum, Quomodo Urania sive Anima <name type="religion" TEIform="name">Christiana</name> Sensibus consensum eblandiri cupientibus respondeat, Cur Victrix Urania producitur [30-40] der Isagoge sind in B gestrichen; dort schließt an den Abschnitt De Stylo Epistolari nmittelbar die Einführung in den Liber primus an. [36] 18 Quod] Quod A 
+</note>
+</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+ 
+
+
+ 
+
+
+
+</TEI.2>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+<teiHeader type="text">
+<fileDesc TEIform="fileDesc">
+<titleStmt TEIform="titleStmt">
+<title TEIform="title">Meletematum piorum libri 8. Paraeneticorum 2. Parodiarum 2. Psalmi aliquot</title>
+<title type="sub" TEIform="title">Machine-readable text</title>
+<author n="Schede" TEIform="author">Schede, Paulus Melissus</author>
+<editor TEIform="editor" role="editor">Schede, Paulus Melissus</editor>
+</titleStmt>
+<editionStmt TEIform="editionStmt">
+<edition TEIform="edition">XML version, markup prototype, April 2003</edition>
+<respStmt TEIform="respStmt"><name TEIform="name">?</name><resp TEIform="resp">markup</resp></respStmt>
+</editionStmt>
+<publicationStmt TEIform="publicationStmt">
+<publisher TEIform="publisher">Camena</publisher>
+<address TEIform="address">
+<addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/melis2" type="href" id="s2" TEIform="anchor"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt TEIform="notesStmt">
+<note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+<note type="pathname" anchored="yes" TEIform="note" place="unspecified">melis2</note>
+<note type="filename" anchored="yes" TEIform="note" place="unspecified">schedemeletemata.html</note>
+<note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+<note type="srcfile" anchored="yes" TEIform="note" place="unspecified">schedemeletemata.xml</note>
+<note type="imgpath" anchored="yes" TEIform="note" place="unspecified">melis2/jpg</note>
+<note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+</notesStmt>
+<sourceDesc default="NO" TEIform="sourceDesc">
+<bibl default="NO" TEIform="bibl">Frankfurt/M.: Commelin, 1595.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc TEIform="encodingDesc">
+<editorialDecl default="NO" TEIform="editorialDecl">
+<p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl TEIform="refsDecl" doctype="TEI.2">
+<p TEIform="p">not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc TEIform="revisionDesc">
+<change TEIform="change">
+<date TEIform="date">12 September 2003</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ruediger Niehl</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">Fragments joined;  TEI header and structural markup added; Page 001-085 intensively tagged, 086-end only structural tagging. typed text - structural tagging complete, partial semantic tagging - no spell check</item>
+</change>
+<change TEIform="change">
+<date TEIform="date">July 2004</date>
+<respStmt TEIform="respStmt">
+<name TEIform="name">Ho Wai-Ming</name>
+<resp TEIform="resp">markup</resp>
+</respStmt>
+<item TEIform="item">Morpheus spell check performed</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text><front>
+<pb id="meli001" n="*A1a" TEIform="pb"/>
+<titlePage TEIform="titlePage">
+<titlePart type="main" TEIform="titlePart"><name type="person" TEIform="name">MELISSI</name> MELETEMATUM PIORUM LIBRI VIII. PARAENETICORUM II. PARODIARUM II. PSALMI ALIQUOT. ANNO <name type="religion" TEIform="name">CHRISTI</name> M D UC. RECENS EDITI. PRIVILEGIIS <name type="nation" TEIform="name">ROMANI</name> CAESARIS AD VII. ET <name type="nation" TEIform="name">FRANCOR.</name> REGIS AD IX. ANNOS. VENEUNT <name type="place" TEIform="name">FRANCOFORTI AD MAENUM</name>, IN <name type="person" TEIform="name">HIERONYMI COMMELINI</name> BIBLIOPOLIO.</titlePart></titlePage>
+<pb id="meli002" n="*A1b" TEIform="pb"/>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<head>SERENISSIMO ET FLORENTISSIMO PRINCIPI 
+<name type="person" TEIform="name">FRIDERICO IV.</name> COMITI PALATINO ad <name type="place" TEIform="name">RHENUM</name>, DUCI 
+<name type="nation" TEIform="name">BOIORUM</name>; <abbr expan="Sancti" TEIform="abbr">S.</abbr> 
+<name type="nation" TEIform="name">ROMANI</name> IMPERII 
+ARCHIDAPIFERO ET ELECTORI, DOMINO 
+<abbr expan="Suo" TEIform="abbr">S. CLEMENTISS.</abbr>
+<name type="person" TEIform="name">MELISSUS</name> <abbr expan="salutem plurimam dicit" TEIform="abbr">S.P.D.</abbr>
+</head>
+<p TEIform="p">
+ETSI, <name type="person" TEIform="name">FRIDERICE</name><name type="place" TEIform="name">Palatine</name>, PRINCEPS serenissime, tam familiares mei
+atque amici intimi, quam ceteri tum
+per <name type="place" TEIform="name">Germaniam</name> passim, tum per exteras nationes viri eruditi atque docti, partim mihi noti, partim incogniti, SCHEDIASMATA
+mea Poetica, <name type="place" TEIform="name">Lutetiae</name><name type="nation" TEIform="name">Parisiorum</name> superioribus
+annis secundo excusa, vel illas saltem Partes residuas, quarum initio operis illius mentio facta,
+fore nimirum, ut propediem et ipsae ederentur
+in <name type="place" TEIform="name">Gallia</name> hactenus maximopere a me tum litteris tum internuntiis flagitaverunt dicam an postulaverunt? tamen, quoniam ea hucusque fuerunt (ut nemini non cognitissimum est) et tempora et bella, eaeque rerum vicissitudines atque
+<pb id="meli003" n="*A2a" TEIform="pb"/> 
+perturbationes; ut mihi <orig reg="quotidianis" TEIform="orig">cottidianis</orig> alioquin
+adsiduisque functiunculae meae occupationibus
+impedito, non admodum magnae aut curae aut
+sollicitudini fuerit de recente Poematum omissorum editione vel cogitare impensius, vel laborare vehementius; res in huncusque annum,
+qui mihi climactericus, dilata fuit: tametsi
+<name type="person" TEIform="name">HIERONYMUS COMMELINUS</name>, vir ornatissimus, iampridem hac ipsa in re operam mihi
+suam (quod sane beneficii haud vulgaris loco
+ducam oportet) sponte obtulerit. donec tandem aetate iam mea ad senium vergente, et in
+dies magis ac magis debilitatem virium sentiente, conditionis ego humanae, quam ea lubrica
+sit fragilisque, si <orig reg="umquam" TEIform="orig">unquam</orig> alias, certe hac ipsa
+quidem potissimum tempestate, quae me tam
+diu ob valetudinem adversam lecto penitus adfixum tenuit, multo creberrime recordatus; initiumque demum operis aliquando <orig reg="faciendum" TEIform="orig">faciundum</orig>
+esse ab amicis et admonitus et persuasus; atque
+adeo ipse quoque ita consultum omnino fore
+ratus: a MELETEMATIS PIIS potius, (ea
+CARMINA SACRA in recensione <name type="place" TEIform="name"> Parisiensi</name> nominata sunt) quam ab aliis quibuscumque, quorum medius fidius haud mediocrem sane apud
+me copiam esse reliquam profiteor, exordiri
+malui; tum quod materia utique ipsa morbi
+diuturnitati haud <orig reg="paullo" TEIform="orig">paulo</orig> convenientior videbatur, tum quia piis hominum bonorum mentibus, tibique praecipue, ut <rs type="person" n="Friedrich IV." TEIform="rs">Principi</rs> eximia pietate, virtute, fide praestantissimo, rem me non
+ingratam facturum existimabam: siquidem
+<pb id="meli004" n="*A2b" TEIform="pb"/>
+MEDITATIUNCULAS hasce, quibus in fine
+PSALMI aliquot annexi sunt, iam antea collectas recensitasque in libellos ira distribueram,
+ut ipsi nihil amplius fere, nisi ultimam tantummodo manum, prelumque typographicum, desiderare viderentur.
+  PARAENETICA, quorum gustum aliquem, 
+<rs type="person" n="Friedrich IV." TEIform="rs">PRINCEPS</rs> illustrissime, et antehac tibi impuberi, cum adhuc sub tutela esses, dedi; et postea
+nova subinde accessione adauxi, quod Meletematis adiuncta vides: eo factum est, ut, praeterquam quod (iudicio quidem meo) nulla alia cum
+materia nec aptius nec concinnius cohaerere
+aut posse aut debere viderentur; etiam tutemet
+non modo ea ipsa tibi, quantum per negotia innumerabilia conceditur, rursus in memoriam
+revocares; verum etiam alios, qui frugi sint, eorum lectione et fructu inde percipiendo, commodum uti sineres.
+  PARODIARUM libellos, quamquam argumento ipso prioribus et plane dissimiles, et exercitia tantum ingenii stilique <name type="nation" TEIform="name">Latini</name> esse videntur; tamen, quia SACRA sive PIA nonnulla
+in se (sparsim licet) continent, haud difficulter
+sum passus ad calcem subiungi; hac nihilominus
+fini et conditione, ne auctori sint fraudi. Potuissent sane quidem illa SACRA exempta inter
+Meletemata referri: verum id a me ipso impetrare haudquaquam potui, ne non Parodiarum
+libellis eam facerem iniuriam, quae aut illos
+Gemmulis suis (ira enim eas mihi <orig reg="indigetare" TEIform="orig">indigitare</orig> liceat) defraudaret, aut ipsorum ordinem distur-
+<pb id="meli005" n="*B1a" TEIform="pb"/>
+baret, vel numerum seriemve mutilaret.
+  Ad reliqua mea quod attinet OPUSCULA,
+quibus tua ipsius domusque <name type="place" TEIform="name">PALATINAE</name>, ut
+antiquissimae ita laudatissimae, continentur praeconia; ea ipsa quoque posthac, si mihi vita valetudoque suppetit, suo quaeque tempore in lucem prodibunt.
+  Ceterum quod ad harum dedicationem lucubrationum attinet, in mentem mihi venit de
+quopiam maxime insigni et celebri, pio et benefico, adeoque adfabili, et optime de bonis
+litteris disciplinisque merito, cogitare Heroe;
+qui non solum earum non fastidiret, sed amore
+studioque ita teneretur, ut et patrocinio et fide
+sua concomitatas liberrime in publicum exire
+tum annueret tum iuberet. Heroa illum et Patronum exoptatissimum si me iam invenisse
+credis, DOMINE clementissime; haud temere
+certe credis.
+  AVUM is habuit clarissimum animosissimumque <name type="nation" TEIform="name">Germaniae</name> <rs type="person" n="Friedrich IV." TEIform="rs">Principem</rs>, imperiique septem virum, senem maxime venerandum; cui
+PII cognomentum historiae iampridem merito tribuere. Ut taceam innumera illius ornamenta, ac laudes virtutesque tanto vertice dignissimas; scias velim hunc eundem illum fuisse, qui mihi ex <name type="place" TEIform="name">Gallia</name> primum in <name type="nation" TEIform="name">Germaniam</name> ad
+comitia <name type="place" TEIform="name">Spirensia</name> reverso (erat id anno <name type="religion" TEIform="name">CHRISTI</name>
+M D LXX) et auctor et suasor exstitit PSALMORUM libros non solum in <name type="nation" TEIform="name">Teutonicos</name> versus
+traducendi, et ad melodiam <name type="nation" TEIform="name">Gallicam</name> accommodandi; sed vero et commatum et incisorum,
+<pb id="meli006" n="B1b" TEIform="pb"/>
+quae vocant, certam necessariamque rationem,
+quam ut plerique omnes fere ex nostratibus ignorare videntur, ita quidam, quod eam, perinde ut
+pedum dimensionem, non satis bene intellegerent, omnino neglexerunt, stricte observandi.
+Quibus equidem Psalmis, avo tuo vivente, et
+te primum nascente, finem DEI <abbr expan="?" TEIform="abbr">opt. max.</abbr> beneficio feliciter imposui.
+  Deinde Patronus, quem elegi, habuit PATRUUM, fortissimum constantissimumque <rs type="person" n="Friedrich IV." TEIform="rs">Principem</rs>,
+ac quidem maximi celeberrimique per totam <name type="nation" TEIform="name">Europam</name>, ob res tam pace quam bello praeclarissime gestas, et nominis et praeconii: qui me
+postremo, <orig reg="cum" TEIform="orig">quum</orig> secunda, immo vero tertia vice, postquam ex <name type="nation" TEIform="name">Anglia</name> in <name type="nation" TEIform="name">Celtas</name> renavigatum
+esset, in tumultus <name type="nation" TEIform="name">Gallicos</name>, a nefaria illa factiosorum hominum conspiratione excitatos, incidissem; mediis ex aestibus ereptum in <name type="nation" TEIform="name">Germaniam</name>
+litteris suis evocavit. Audin', <rs type="person" n="?" TEIform="rs">ELECTOR</rs> serenissime, quos innuam? Viden', quemnam oculis
+designem? Te, te nimirum. Confidentiae meae
+ignoscas oro, qui tantum mihi sumpserim; maioremque in modum rogo, <rs type="person" n="Friedrich IV." TEIform="rs">PRINCEPS</rs> humanissime,
+uti hasce PRIMITIAS meas, in quibus et tui et tuorum crebra fit mentio, eaque per honorifica; fronte
+(quod dicitur) serena, hilarique vultu accipias,
+singulare in me cum avi tum patrui tui gratiam
+benevolentiamque sponte tua continuaturus.
+Bene vale, <rs type="person" n="Friedrich IV." TEIform="rs">PRINCEPS</rs> optime, et Melissum
+<reg orig="paullatim" TEIform="reg">paulatim</reg> revalescentem, ut antehac consuevisti, benigniter fove.
+  <abbr expan="?" TEIform="abbr">Dat.</abbr> <name type="place" TEIform="name">Myrtilleti</name> in suburbanis, mense Augusto, anno <name type="religion" TEIform="name">CHRISTI</name> M D UC.
+</p>
+</div>
+<pb id="meli007" n="*B2a" TEIform="pb"/>
+<div type="letter" org="uniform" sample="complete" TEIform="div" part="N">
+<head><abbr expan="PAULUS" TEIform="abbr">P.</abbr> MELISSUS <abbr expan="?" TEIform="abbr">FR.</abbr> LECTORI CANDIDO.</head>
+<p TEIform="p">
+Enimvero, Lector benevole, quisquis es, indigena sive
+externe, ita mihi <orig reg="faciendum" TEIform="orig">faciundum</orig> esse video, uti partim favo
+rem tuum in censendo promerear, partim gratiam tuam in
+iudicando praeaucuper. Sane prensatio istac neutris, ut confido, nec ullum damnum inferet, nec fraudis vel hilum suspectos
+reddet. Aperte ago et libere. <orig reg="Quum" TEIform="orig">Cum</orig> enim non ignorem, POEMATIA hac nostra cum in oculos complurium incursura,
+tum ad manus criticorum non paucas vel equis celeribus perventura; adeoque eorum, qui nimium quantum in rebus
+alienis curiosi, non VERITATI modo, sed etiam LIBERTATI Poetarum repagula obdere sinistre moliuntur: visum
+est mihi te admonere amice, ut vicissim et me tu quoque amice
+admoneas; si quid forte in his aut menda, aut vitii, aut erroris, qua corrigenda sint, inesse vel animadvertes, vel saltem
+suspicaberis. Per mihi sane gratum feceris, si censura iudicioque tuo non fueris me dedignatus, ita enim lima, dum vivo,
+accuratius isti mederi malo potuerit. Haud profecto omnia
+videmus omnes praesertim agri. Irrepit nonnumquam in libellos, nobis omnino insciis, macula quapiam, seu labecula, qua
+versum nonnihil contaminare solet. Etiam amanuenses interdum et typotheta, similitudine quapiam decepti, temere
+dictionum alias aliis permutare consueverunt. Ceterum in
+labore corrigendi ordinario et <name type="person" TEIform="name"><abbr expan="FRIDERICUS" TEIform="abbr">FRID.</abbr> SYLBURGIUS</name>,
+vir ut assiduus ita perspicax, et egomet ipse, eam diligentiam,
+ne quid tale fortasse nobis accideret, adhibuimus; de qua neminem omnino, uti arbitror, <orig reg="umquam" TEIform="orig">unquam</orig> conquesturum speramus. Quod si porro <name type="person" TEIform="name"><abbr expan="HIERONYMI" TEIform="abbr">HIERON.</abbr> COMMELINI</name>, hominis
+doctissimi, prela non erant <name type="nation" TEIform="name">Graecis</name> excudendis plus nimio (ut
+adsolet) occupata; quotannis mehercule tibi quidpiam meorum, qua residua sunt plurima, suppeditare poterunt. Id ut
+maturius fiat; eum ipsum tu, si nobis faves, amice Lector, una mecum sollicitando etiam atque etiam rogabis. Vale.
+</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI.2>

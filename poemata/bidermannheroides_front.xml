@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+ <teiHeader type="text">
+    <fileDesc TEIform="fileDesc">
+      <titleStmt TEIform="titleStmt">
+        <title TEIform="title">Heroidum epistolae</title>
+        <title type="sub" TEIform="title">Machine-readable text</title>
+        <author n="Bidermann" TEIform="author">Bidermann, Jacob SJ</author>
+        <editor TEIform="editor" role="editor">Bidermann, Jacob SJ</editor>
+      </titleStmt>
+      <editionStmt TEIform="editionStmt">
+        <edition TEIform="edition">XML version, markup prototype, March 2004</edition>
+        <respStmt TEIform="respStmt"><name TEIform="name">Martin Tavakolian</name><resp TEIform="resp">markup</resp></respStmt>
+      </editionStmt>
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/bider5" type="href" id="bider5" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note>
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">bider5</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">bidermannheroides.html</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">s001.html</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">bidermannheroides.xml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">bider5/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+      <sourceDesc default="NO" TEIform="sourceDesc">
+        <bibl default="NO" TEIform="bibl">Dillingen 1642.</bibl>
+      </sourceDesc>
+    </fileDesc>
+   <encodingDesc TEIform="encodingDesc">
+      <editorialDecl default="NO" TEIform="editorialDecl">
+          <p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+        </editorialDecl>
+      <refsDecl TEIform="refsDecl" doctype="TEI.2">
+          <p TEIform="p">not necessary</p>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc TEIform="revisionDesc">
+        <change TEIform="change">
+          <date TEIform="date">2 March 2004</date>
+          <respStmt TEIform="respStmt">
+            <name TEIform="name">Martin Tavakolian</name>
+            <resp TEIform="resp">markup</resp>
+          </respStmt>
+          <item TEIform="item">TEI header added; typed text - structural taggin complete - no semantic tagging - Morpheus spell-check complete</item>
+        </change>
+    </revisionDesc>
+ </teiHeader>
+ 
+<text><front>
+<titlePage TEIform="titlePage"><titlePart type="main" TEIform="titlePart">
+IACOBI
+BIDERMANI
+e Societate IESU
+HEROIDUM
+EPISTOLAE.
+Ill.
+DILINGAE,
+Formis Academicis.
+CIC. ICC. XXXXII.
+Superiorum Permissu.
+</titlePart></titlePage>
+<div type="privilege" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s002" n="002" TEIform="pb"/>
+<head>MUTIUS VITELLESCUS Societatis Iesu Praepositus veneralis.</head>
+<p TEIform="p">CUM Heroidum epistolarum libros tres, Iacobi Bidermani, Societatis nostra, tres eiusdem Societatis
+Theologi, quibus id commissum fuit, recognoverint; ac in lucem edi posse probaverint: facultatem
+concedimus, ut typis man. dentur, si ita illustriss. et Reverendiss. D. Vicesgerenti, et Reverendiss. P.
+Magistro Sacri Palatii videbitur. Romae 10. Iulii 1638.</p>
+<p TEIform="p">Mutius Vitellescus.</p>
+</div>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<p TEIform="p">Imprimatur, Si videbitur Revevendiss. P. Mag. Sacri Palatii Apostolici.</p>
+<p TEIform="p">Io. Bapt. Episc. Cam. Vicesg.</p>
+<p TEIform="p">IVssu, et auctoritate Reverendiss. Patris, Sacri Palatii, Apostolici Magistre, recognovi has Heroidum
+epistolas, a Iacoba Bidermano Societatis Iesu, compositas: nihilque, quod aut fidei, aut bonis moribus
+repugnaret, in iis deprehendi. E Colleg. Rom. Societatis Iesu 12. Iulii 1638.</p>
+<p TEIform="p">Io. Bapt. Rossi Soc. Iesu.</p>
+<p TEIform="p">Imprimatur. Fr. Nicolaus Riccardisse
+Sac. Pal. Apost. Mag. Ord. Praed.</p>
+</div>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s003" n="003" TEIform="pb"/>
+<p TEIform="p">Adm. Rev. Patri MUTIO VITELLESCO SOCIETATIS IESU Praeposito Generali, Iacobus Bidermanus.</p>
+<p TEIform="p">VERERI iam dudum coeperam, Adm. Reu. Pater, ne abuti me otio tuo diceres; cui rudi hac, peneque;
+rudente Musa, obstrepere toties auderem. Etenim meas et SILVULAS nuper, imperite sublucatas; et
+HEROUM epistolas, calamo, styloque tenui perscriptas, importunus obtruseram; quibus ego vel ferream
+legentis patientiam fatigarem. Nunc ubi HEROIDES has ostendere sumpsero, quanto importunior potero
+videri; cum et has videam, a tituli sui gloria discordare? Haec me talia cogitantem, etsi multa ne pergerem,
+<pb id="s004" n="4" TEIform="pb"/>
+absterruere; erexit tamen Tua, qua semper admiratus, veneratusque sum, Humanitas, ut et hoc mihi
+crederem licere. Nam anni complures sunt, cum ductu, auspicioque Tuo stipendia religiosa facientem,
+benignissime fovisti; et e vermania Romam evocatum, eo semper in loco (quamquam immerentem)
+habuisti, quo filios habere suavissimi parentes consuevere. Quibus ego tot meritis Tuis, quantum debeam,
+debereque me sentiam; iubebo omnes, quo ad vixero, et ingenii mei vires, et animi contentiones, in chartam
+erumpere, liberumque in hanc rem testimonium; apud ignotos aeque, notosque, dicere. Quo in studio, si
+oculos, auresue Tuas offendo, debes Tuis erga me meritis, quibus ad haec audenda stimulasti, succensere.
+DEUS Paternitatem Tuam (quod saepe iam vovi, saepe vovebo) Societati nostrae saluam, sospitemque
+diutissime praestet.</p> 
+<p TEIform="p">E Collegio Romano, Kal. Sept. M. DC. XXXVIII.</p>
+</div>
+<div type="preface" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s005" n="5" TEIform="pb"/>
+<head>AMICE LECTOR.</head>
+<p TEIform="p">Aliquot ab hinc annis, cum HEROUM epistolas publicarem, cupiebant amici, ut cas HEROIDUM
+epistolae comitarentur. Mihi contra, consultius visum, si aliquo post interuallo sequerentur; nec illae istarum
+mole (quam fastidimus) premerentur. In utrisque seorsim edendis, quid cavere studuerim, paucis
+monebo.</p>
+<p TEIform="p">Principio nolui materiem mihi sumere, iam alias alibi vulgatam: ac proinde Virginum nostrarum copias,
+etsi suppetebant, tamen quod in Epigrammatis tam ante plerasque attigeram, reducendas hic non
+existimavi. Tum deinde Magdalenae lacrimis, et Sponsae Romanae querelis, et hoc genus aliis
+argumentis, per mille poetas, millies decantatis, quid novinos adderemus.</p>
+<p TEIform="p">Ad haec, affectibus, (quos appellant) parcius, ac nonnulli volebant, indulsi; iis fere contentus, quos
+ipsa mihi historia narratio suggerebat. Sponsorum colloquia, aut Coniugum desideria. quamvis honesta,
+nihil ad instituti mei seriem faciebant. Seria malui, et lectori meo profutura.</p>
+<p TEIform="p">Postremo, ne in fabulis profanis epistola plue nimio lascivirent, argumentum et decorum prohibuere. Quis
+enim ferret, si Evam de Phaethonte, loquentem, audiret? Maluit epistola, hoc carere suco, ne iudicio
+videretur caruisse. Vale.</p>
+</div>
+<div type="dedication" org="uniform" sample="complete" TEIform="div" part="N">
+<pb id="s006" n="6" TEIform="pb"/>
+<p TEIform="p">B. PAULO IAPONIO
+SOCIETATIS IESU
+RELIGIOSO,
+QUONDAM MILITI
+MOX APOSTOLICO
+PRAECONI,
+POST FORTISSIMO
+MARTYRI,
+ET PRIMO SOCIORUM
+DE IAPONIA
+TRIUMPHANTI,
+NUNC
+INTER CAELITES RECEPTO
+IMMORTALI MORTALIUM
+PATRONO
+HOC PRIMUM HERODIUM
+VOLUMEN
+SEQ. IPSUM
+VOLUMINIS AUCTOR.</p>
+</div>
+</front><body><div1><p/></div1></body></text>
+
+
+
+
+
+
+</TEI.2>

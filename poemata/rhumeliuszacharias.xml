@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd">
+<TEI.2>
+<teiHeader type='text'>
+<fileDesc>
+<titleStmt>
+<title>DODECADIS FATIDICAE ... ENDECAS EPICA. ZACHARIAS</title>
+<title type='sub'>Machine-readable text</title>
+<author n='Rhumelius'>Rhumelius, Johann Konrad</author>
+<editor>Rhumelius, Johann Konrad</editor>
+</titleStmt>
+<editionStmt>
+<edition>XML version, markup prototype, December 1999</edition>
+<respStmt><name>Ruediger Niehl</name><resp>markup</resp></respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Camena</publisher>
+<address>
+<addrLine><anchor n="http://www.uni-mannheim.de/mateo/camena/rhumel2" type="href" id="rhumel2"/></addrLine>
+</address>
+</publicationStmt>
+<notesStmt>
+<note type="href">http://www.uni-mannheim.de/mateo/camena/</note>
+<note type="pathname">rhumel2</note>
+<note type="filename">rhumeliuszacharias.html</note>
+<note type="titleimage">s001.html</note>
+<note type="srcfile">rhumeliuszacharias.xml</note>
+<note type="imgpath">rhumel2/jpg</note>
+<note type="imgtype">html</note>
+</notesStmt>
+<sourceDesc>
+<bibl>Nuernberg: Abraham Wagenmann, 1618</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Regeln fuer die Texterfassung 03/2001</p>
+</editorialDecl>
+<refsDecl>
+<p>not necessary</p>
+</refsDecl>
+</encodingDesc>
+<revisionDesc>
+<change>
+<date>March 2004</date>
+<respStmt>
+<name>Ruediger Niehl</name>
+<resp>markup</resp>
+</respStmt>
+<item>
+new TEI header; typed text - structural tagging complete - no semantic tagging - no spell check; Note: Special spelling Iisrael has been regularized throughout, but the change has been indicated only where the metre is affected; special spellings frundis and timpora for frondis and tempora are preserved (distinctive, and not likely to be objects of searches...); where a long Latin o is rendered with a Greek omega, a Latin o has been substituted</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<pb id='s001'/>
+<titlePage><titlePart>
+DODECADIS
+FATIDICAE
+IANI CHUNRADI RHUMELI
+PHILOSOPHI MEDICI
+ENDECAS EPICA.
+ZACHARIAS
+<gap desc='illustration'/>
+NORIMBERGAE,
+Typis ABRAHAMI WAGENMANNI.
+MDCXVIII.
+</titlePart></titlePage>
+<pb id='s002'/>
+<div type='dedication'>
+<head>AMPLISSIMO CONSULTISSIMO
+PRUDENTISSIMOQUE VIRO AC DN.
+CHRISTOPHORO GIRSNERO REIPUBLICAE
+IN FRANCIA ORIENTALI PRINCIPIS
+PRIMICERIO LAUDATISSIMO
+AMICO SUAVISSIMO
+BENIVOLENTI FAVENTISSIMO
+PRO STRENA SIBI MISSA
+HANC ZACHARIAE PROPHETAE
+PARAPHRASIN
+Ex amore More Concepto
+ANNI
+a
+CONDITO MUNDO 5588.
+NATO ANTHROPOTHEO 1618.</head>
+<p>Cum voto sollemni
+PIETATIS FLORENTIS Contra Haereses
+IUSTITIAE VIGENTIS Contra Tyrannidem
+PACIS VIRENTIS Contra Securitatem
+in statu
+HIERATICO
+POLITICO
+OECONOMICO.
+D. D. D. D.
+Ianus Chunradus Rhumelius
+Phil: et Med. U. Q.</p>
+</div>
+<div type='preface'>
+<pb id='s003'/>
+<head><reg orig='PRAESCRIBTIO'>PRAESCRIPTIO</reg>.</head>
+<p>GIRSNERE AMPLISSIME CONSULTISSIME PRUDENTISSIME BENIVOLE FA VENTISSIME Inter Visiones Caelestes Prophetae ZACHARIAE qui Anno Mundi 3452. ante Natum CHRISTUM 519. vixit, non videtur Illa negligenda quae IESUM nobis Prophetam, Sacerdotem et Regem futurum luculenter ostendit. Recte enim de eius officio nos instruit, quo ignorantiae velo tecto, PERSONA eius male agnosci potest. Illa est, quae DEUS, ut esset Patri Caelesti accepta, quae Homo ut nobis compati, DEUS et Homo <reg orig='unîtim'>unitim</reg>, ut mori, ut mortem superare, diabolum prosternere, Infernum destruere, Maledictionis mare absorbere et Felicitatis aeternae viridarium Generi Humano restituere posset. Uncta autem est in PROPHETAM et doctorem ut illi uni adhaereamus, SOLI credamus et obtemperemus, qui Fidem suae doctrinae fecit stupendis miraculis, qualia et quot nunquam antea ullo aevo ab ullo Homine sunt edita. Uncta etiam in SACERDOTEM et summum Pontificem, ut peccata totius Generis Humani expiaret Sacrificio perfectissimo pretiosi sanguinis in ara crucis oblato, <reg orig='obedientiâ'>obedientia</reg>
+<pb id='s004'/>
+<reg orig='constantissimâ'>constantissima</reg> Legi immotae iustitiae <reg orig='praestitâ'>praestita</reg> nos a maledictione liberaret, coram DEo iustos et sanctos statueret, et ad DEXTRAM DEI positus pro nobis usque ad finem Mundi intercederet. Uncta denique in REGEM qui in Ecclesiae <reg orig='Regiâ'>Regia</reg>, Verbi sceptro et Spiritus Maiestate mentes dirigit, Hostes suos severitatis fraeno coercet, Bona Spiritualia Liberalitatis <reg orig='dextrâ'>dextra</reg> <reg orig='inexhaustâ'>inexhausta</reg> distribuit, Pacem Publicam, tranquillitatem Conscientiae, Scientiae Constantiam largitur: adversus Furores qua Sathanae, qua Mundi, sibi ascriptos subditos defendit, et tandem in eam Gloriam, quantam nec oculus vidit nec auris audivit, nec in Cor Hominis descendit, vocationis suae curriculo absoluto introducit. Hinc facile apparet quae nostri Partes officii esse debeant, nimirum ut Fidem Huic PRAECEPTORI NOSTRO nullam, et quidem in minimo etiam Verbulo derogemus, ne Hominem, sed DEUM ipsum, Unigenitum et aeternum DEI VERI Filium contemnere (scelere <reg orig='aeternâ'>aeterna</reg> morte digno) videamur: ut MERITUM summi Huius PONTIFICIS nobis Fide stabili applicemus, Gratitudinem nostram Pietate <reg orig='purâ'>pura</reg> et <reg orig='innocentiâ'>innocentia</reg> vitae ipsi probemus, et <reg orig='magnâ'>magna</reg> cum <reg orig='Fiduciâ'>Fiducia</reg>, quo misericordiam infinitam consequamur, ad Thronum Gratiae accedamus: ut REGI HUIC nostro, summam Reverentiam, et quidem divinos Honores quia DEUS et HOMO EST IN UNA PERSONA atque DOMINUS COELI et TERRAE, REX REGUM et DOMINUS DOMINANTIUM, adorando exhibeamus, obedientiam promptissimam omnibus diebus Vitae nostrae praestemus, devotissimis precibus invocemus,
+<pb id='s005'/>
+et Laudibus nunquam intermorituris celebremus, donec cum Gloria in effabili et Maiestate insuperabili Iudex vivorum et Mortuorum in <reg orig='extremâ'>extrema</reg> dierum apparuerit. Etsi vero ad Populum Israeliticum reliquae visiones proprie pertinere videantur, ut eo alacriores in absolvendo quod coeperant Templo redderentur: Inventi tamen sunt, qui ad nostra usque in quibus nos vivimus, Tempora easdem derivarent: dum illis Equi Ruffi Susim Amuzim vel Adunim CATHOLICI ROMANI in mari mediterraneo: Equi maculosi Susim Serukim vel Berudim Christiani sub Ioanne BELUL vel ENCOE id est, alto vel pretioso in <reg orig='Africâ'>Africa</reg> Meridionali Aethiopum Imperatore: Equi Nivei Susim Lefanim Reformati PROTESTANTES in <reg orig='Europâ'>Europa</reg> versus septentrionem <reg orig='fuêre'>fuere</reg> habiti. Cornua autem quatuor; Primum Haereticis, Mahumeticolis in <reg orig='Asiâ'>Asia</reg> <reg orig='Africâ'>Africa</reg> alterum: Tertium in <reg orig='Americâ'>America</reg> occidentali Gentilibus, ut quartum iisdem in India orientali <reg orig='assignârunt'>assignarunt</reg>. Nec videtur a vero illorum Sententia omnino aberrare, cum ex Visionibus quinti Capitis, Perturbationes ex <reg orig='falsâ'>falsa</reg> et <reg orig='corruptâ'>corrupta</reg> <reg orig='doctrinâ'>doctrina</reg> ECCLESIAM post Ascensum CHRISTI super omnes Caelos, afflicturae manifeste appareant. <reg orig='Quidnî'>Quidni</reg> vero Promissiones Capitis octavi, quibus Dominus pollicetur se effecturum, ut Cultus DEI purus Hierosolymis in Templo vigeat, et Respublica in Pace et Tranquillitate <reg orig='magnâ'>magna</reg> incrementa sumat, ad nostra etiam spectent Tempora? Habemus CONFESSIONIS AUGUSTANAE Anno Mundi 5500. a Nato Salvatore 1530. Iubilaeo Mundi Centesimo, Mosis
+<pb id='s006'/>
+sexagesimo, Praedicationis CHRISTI tricesimo editae, Coram Magno Imperatore CAROLO QUINTO XXV. die Iun I in Palatio augusto publice praelectae: atque a D. Christiano Beyero articulate distincte et clare, ut ab omnibus exaudiretur, recitatae (Luthero in Pathmo degente) in <reg orig='maximâ'>maxima</reg> Germaniae parte EXERCITIUM adhuc salvum illibatum et incolume, quo Cultum VERO DEO ISRAELIS debitum legitime exsolvimus. Obtinemus DEI IMMORTALIS Beneficio PACEM universalem hoc nostro etiam aevo RELIGIONIS Anno 1555. XXVo Septembris a Laudatissimo Romanorum Rege FERDINANDO iuramento sollemni in Conventu Augustano aeterne sancitam: XXVo MaI 1557. in Comitiis Ratisbonae XXXo eiusdem Mensis 1566. Augustae Vindelicorum a MAXIMILIANO II. probatam et approbatam, atque Tranquillitatem Publicam. Celebravimus Ludos Saeculares hoc anno LUCIS MODIO SUBLATO OMNIBUS IN APERTO LUCENTIS, quos Nemo nostrum vidit antea nec post visurus est! Restare Conspicor IGNEM qui per Varias Tribulationes Constantiam tam nostram quam Posterorum exploraturus est: Quem POENAE PERSECUTORUM ET Generalis omnium RERUM Conversio pone subsequentur! DEUS Bonitate immensa optimus Maiestate <reg orig='infinitâ'>infinita</reg> Maximus TE diu florentem Salvum Incolumem cum Tuis omnibus feliciter conservet! Linguarum et Artium Cognitionem ad Christianae Ditionis Pomeria tam propugnanda quam stabilienda in scholis qua privatis qua publicis constanter
+<pb id='s007'/>
+promoveat: Magnatum et Principum animos discordia procul <reg orig='profligatâ'>profligata</reg> Vinculo sincerae Amicitiae in Pacis Publicae magmentum uniat! In <reg orig='sacrâ'>sacra</reg> <reg orig='Palaestrâ'>Palaestra</reg>, amara odia, virulentas linguas, cruentas Conflictationes averruncet! Et cum OMNIBUS NON LIBEAT QUORUMLIBET ARBITRIO CHRISTIANOS ESSE: Rationem Concordiae ita dirigat, ut suam QUISQUE professionem citra Contumeliam alienae ornet et offerat: Utrinque Linguae et Calami rabies coerceatur, atque MODERATIO quae ab omni absit <reg orig='virulentiâ'>virulentia</reg> adhibeatur! OMNIS THEOLOGORUM CONTENTIO intra civilem conflictum consistat, ne in rabiem efferatam et furorem incurabilem exeat! Synodi agantur per Viros, qui vere Verae Fidei Mysteria norunt: nec illos qui sub Praetextu Fidei suum agunt negotium, et FIDEM VERAM expugnant: Tota denique RELIGIONIS RES moderatis iudiciis non Seditiosis clamoribus agatur.</p>
+<p>ITA FIAT! ut maneat UnI Deo GLorIa et LaVs aeternVM. Scr: in Museio meo in NOVO-FORO XI KAL: IANUARI Anno TerMInVs OrbIs aDest, ChrIste VenI Ipse PIIs.</p>
+<p>T. A.</p>
+<p>O. F. S. O.</p>
+<p>dd:</p>
+<p>I C R.</p>
+</div>
+</front>
+<body>
+<div1 id='RhZN.01' n='1' type='book'>
+<pb id='s008'/>
+<head>PROPHETIA ZACHARIAE.</head>
+<div2 id='RhZN.01.01' n='1' type='chapter'>
+<argument><head>Argumentum </head>
+<lg met='dist'>
+<l>Poena Patrum reddat Natorum saecula cauta: </l>
+<l rend='indent'>Nam si Culpa cadit; tunc quoque Poena cadit.</l>
+</lg>
+</argument>
+<head>CAPUT PRIMUM.</head>
+<lg met='hexa'>
+<l>v. I. TEMPORE quo Imperium Hystaspes DARIUS habebat</l>
+<l>Magnae ASIAE, et Felix Regnorum insignia in orbis</l>
+<l>Totius partes Bello et victricibus armis</l>
+<l>Protenta augebat, placidis atque otia tectis</l>
+<l>Assyrii et Medi, ac Hyrcano in littore Gentes</l>
+<l>Bactrorum et populi, Sacae Parthique fugaces</l>
+<l>Cum Persis, Syris indis Asiaeque minoris</l>
+<l>Urbibus innumeris, Scythiae vastaeque Colonis</l>
+<l>Insuper et magnae quas radunt flumina Terrae</l>
+<l>Tigris et Euphrates, qui per Babylonica lapsi</l>
+<l>Moenia, volvuntur ventosum in Persidis aequor</l>
+<l>Per binas laete geminabant aurea messes,</l>
+<l>Et Phoebus rutilos signorum Principis ignes</l>
+<pb id='s009'/>
+<l>Flammivomis permensus Equis iam Veris honores</l>
+<l>Spondebat largos Hiemis post Frigora aquosae:</l>
+<l>Hiddonis ipse Nepos, Bereciae Filius atque</l>
+<l>Zacharias vates afflatus Numine Iovae</l>
+<l>Praescia Fatorum haec excussit pectore verba.</l>
+<l>v. 2. Ira Accensa DEI est, magnis operata rapinis</l>
+<l>Flamma micat, cuius quoque dudum incendia vestros</l>
+<l>Irritata gravi scelerum heu Examine Patres</l>
+<l>v. 3. Absumspere. <gap desc='crux'/> istis edices Nomine nostro</l>
+<l>Bellipotens ait: ad me me convertite mentem.</l>
+<l>Atque oculos vestros! summi dictum ore IEHOVAE,</l>
+<l>Et quoque me facilis vestra ad vota omnia vertam!</l>
+<l>Armipotens infit Caeli, et vasti Arbiter orbis.</l>
+<l>v. 4. Non imitatores habeant vos facta Parentum</l>
+<l>Vestrorum, a priscis moniti qui saepe Prophetis</l>
+<l>Praecipiente DEO, ut divortia iniqua viarum</l>
+<l>Ceu scopulos vitent, scelerum et contagia tollant,</l>
+<l>Iverunt contra monitis audentius, omnia</l>
+<l>Patrantes scelera, ac nostrum Venerabile Numen</l>
+<l>Laedentes cultu in sano et petulantibus ausis.</l>
+<l>v. 5. Nunc ubi Maiores sint vestri, edicite! dicit</l>
+<l>Ipse Exercituum DOMINUS, Sanctique Prophetae?</l>
+<l>Num superant, et vescuntur vitalibus auris?</l>
+<l>v. 6. Non puto <gap desc='crux'/> per vates quae dixi oracula, certo</l>
+<l>Omnia <reg orig='inundârunt'>inundarunt</reg> effectu saecula Avorum</l>
+<l>Vestrorum, ut tam dem proprio convicta reatu</l>
+<l>Sponte <reg orig='suâ'>sua</reg> inciperent pleno ore et corde fateri</l>
+<l>Quae voluit, Dixit; Quae Dixit, Fecit Iova!</l>
+<l>Ad culpam appendens parta aequus pondera poenae.</l>
+<l>v. 7. Ecce ubi Sol Cancri senis quater ipse diebus</l>
+<pb id='s010'/>
+<l>Signa pererrasset, Dario tecta Colente</l>
+<l>Regia Susarum geminos feliciter annos,</l>
+<l>Zacharias quem Berecias, has Lucis in auras</l>
+<l>Protulit Hiddonides plenus IOVAE, ore profatur</l>
+<l>v. 8. Talia sacrato: <gap desc='crux'/> Caelos Nox atra tegebat.</l>
+<l>Occiduo, tingente suos, sole aequore currus:</l>
+<l>En agitator Equi rosei, sub tegmine Myrti</l>
+<l>Umbrifero viridis, quem tota armenta secutae</l>
+<l>Quadrupedum, rubei, Balii Niveique Coloris</l>
+<l>v. 9. Immotus stabat: <gap desc='crux'/> meque inquirente quis esset?</l>
+<l>Quidve sibi vellet? responsa dat Angelus ille</l>
+<l>Qui mecum commutarat tot Verba loquendo,</l>
+<l>Atque ait, ostendam Tibi, quae sint agmina talia:</l>
+<l>v. 10. Et respondit Eques stabilis qui frunde <reg orig='quiêrat'>quierat</reg></l>
+<l>Baciferae Myrti, cernis quae Examina Equorum</l>
+<l>A Domino sunt missa DEO, totam undique <corr sic='Terrum' resp='transcriber'>Terram</corr>
+</l>
+<l>v. 11. Percurrant: <gap desc='crux'/> mox sublato hinnitu agmina Equorum</l>
+<l>Dicebant, cunctas cursu peragravimus oras,</l>
+<l>Atque omnes <reg orig='laetâ'>laeta</reg> Regiones pace fruuntur.</l>
+<l>v. 12. haec ubi dicta dabant, Domini Angelus ora resolvens,</l>
+<l>Dicebat: Deus ô fortis cui mille ministrant</l>
+<l>Aligeri, qui Verbo uno Regalia caeli</l>
+<l>Ex nihilo Tecta et terras, ac aequoris undas</l>
+<l>Horrisoni, et volucrum species, variasque natantum</l>
+<l>Formas, atque Hominem ac animantia bruta creasti!</l>
+<l>Quando Modum pones irae, et misereberis ultro</l>
+<l>Sanctae urbis cum <reg orig='Iudaeâ'>Iudaea</reg>? indignatio quam per</l>
+<l>Septenos decies Tua nunc exercuit annos?</l>
+<l>v. 13. Sed contra DEUS excelsus Bona Verba locutus</l>
+<l>Angelico comiti, et solacI plena Beati;</l>
+<pb id='s011'/>
+<l>v. 14. Quorum participem faciens me, dixit: ad astra</l>
+<l>Clamorem immensum tolle, et dic protinus! oris</l>
+<l>Verba IEHOVAE sunt. Solymorum ego prosequor urbem</l>
+<l>Zelo, atque ingenti regalis Tecta Sionis</l>
+<l>v. 15. Zelo prosequor: <gap desc='crux'/> in Gentes incendia volvens</l>
+<l>Maxima tranquillas, quae me fervore parumper</l>
+<l>Ignescente levi, metam <reg orig='excessêre'>excessere</reg> severis</l>
+<l>Suppliciis nimis immites et tristibus ausis.</l>
+<l>v. 16. Sic ait iccirco Dominus, Miseratio rursus</l>
+<l>Pertinget Solymas mea, et aedificabitur illis</l>
+<l>Aedes Votiva, ut dictabit Regula scripta.</l>
+<l>v. 17. Amplius edicit Dominus DEUS, eia sonabis</l>
+<l><reg orig='Sublatâ'>Sublata</reg> voce, Angustis non finibus urbis</l>
+<l>Huius committam cives desidere sanctos,</l>
+<l>Sed variis donis ornatos undique in orbis</l>
+<l>Totius partes diffundam, ut ubique legatur</l>
+<l>Consilium IOVAE, quo omni selegit ab aevo</l>
+<l>Tziionis populum, ex multis, Solymasque potentes.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.02' n='2' type='chapter'>
+<argument><head>Argumentum </head>
+<lg met='dist'>
+<l>IPSE DEUS Solymae muros circumdabit igne: </l>
+<l rend='indent'>Ipsa ruet Babylon, Gentium eritque salus.</l>
+</lg>
+</argument>
+<head>CAPUT SECUNDUM.</head>
+<lg met='hexa'>
+<l>v. 1. ATtollens oculos, conspexi cornua quattuor:</l>
+<l>v. 2. De his mihi quaerenti quaenam sint? Angelus astans</l>
+<l>Respondit: Sunt haec quae Cernis cornua eorum</l>
+<pb id='s012'/>
+<l>Ariete qui crebro obverterunt moenia IUDAE</l>
+<l>Et <reg orig='Iisraelis'>Israelis</reg>, Solymam et <reg orig='fregêre'>fregere</reg> superbam.</l>
+<l>Qua SOL parrhasiam sinuosis flexibus Arcton</l>
+<l>Respicit, Assyrii, et Syria, et Babylonica Turba:</l>
+<l>Sed qua caeruleis Pelagi se librat ab undis</l>
+<l>Hammonis populi Moabitaeque profani:</l>
+<l>Atque ubi succendit medium aestum infestus Idumes</l>
+<l>Incola, cum Phariis Nilumque bibentibus armis,</l>
+<l>Et qua pallentes abscondit in aequore flammas</l>
+<l>Ordo gigantaeus Genus acre a robore Belli</l>
+<l>Inde Pelischthaei, quos tot de gente triumphi</l>
+<l><reg orig='Hebraeâ'>Hebraea</reg> extollunt, Arca et Sacra rapta celebrat.</l>
+<l>v. 3. Vidi etiam Fabros quatuor, Vulcania habentes</l>
+<l>Arma, inter se vi tollentes Brachia <reg orig='magnâ'>magna</reg></l>
+<l>In Numerum, impositis quasi nunc incudibus ictus</l>
+<l>v. 4. Terrificos inferre Velint: <gap desc='crux'/> cumque inde rogarem</l>
+<l>Quid sibi Fabriles operae, quid forma virorum</l>
+<l>Ista velit? sic respondit blando Angelus ore:</l>
+<l>Cornua deiectum Hi iussu <reg orig='venêre'>venere</reg> IEHOVAE</l>
+<l>Quae toties Iudam <reg orig='divexavêre'>divexavere</reg> cruentis</l>
+<l>Suppliciis, Templi et structuram Orientis et urbis</l>
+<l>Progressum, factis saepe <reg orig='impediêre'>impediere</reg> dolosis.</l>
+<l>v. 5. Atque iterum aspiciens Hominem vidi ipse tenentem</l>
+<l>v. 6. Funiculum ambabus manibus mensorium <gap desc='crux'/> et ipsum</l>
+<l>Alloquor, Heus quo vis? quo tendis? talibus ille</l>
+<l>Quaerenti dixit: nunc circumscribere mens est</l>
+<l>Surgentem Solymam, ut possit dignoscere quivis</l>
+<l>Quanta velin latum vel longum excurrere debeat.</l>
+<l>v. 7. Ecce ubi processit, qui mecum Verba locutus</l>
+<l>Angelus, <reg orig='huîc'>huic</reg> venit contrarius, Angelus alter</l>
+<pb id='s013'/>
+<l>v. 8. Ocius edicens propero Te corripe gressu,</l>
+<l>Et loquere <reg orig='huîc'>huic</reg> puero: tanto efflorescet Honore</l>
+<l>Urbs sacra quae coepit facie modo surgere <reg orig='parvâ'>parva</reg></l>
+<l>Ut tot contineat cives, quot moenia nunquam</l>
+<l>Concludent, sed per pagos haec Copia plures</l>
+<l>Late effundetur, quam tota armenta sequentur</l>
+<l>Foeturae apta bonae, et fortes ad aratra iuvenci</l>
+<l><reg orig='Lanigerûmque'>Lanigerumque</reg> Greges et Equorum, hirtaeque Capellae.</l>
+<l>v. 9. Ipseque tum urbi florentia moenia ponam</l>
+<l>Ignibus aethereis, dissaepiet undique cives</l>
+<l>Flamma tenax muri et validi muniminis instar</l>
+<l>In medioque eius Noster dominabitur Ardor,</l>
+<l>Gloriaque effulgens caelestibus incita factis.</l>
+<l>v. 10. Heus cito Hyperboreis fugite heus Aquilonis ab oris</l>
+<l>Edicit Dominus caeli Terraeque Creator:</l>
+<l>Reddita Libertas iam vobis vestra, in apertum</l>
+<l>Aethera nunc ruite, ac effuso Carcere duri</l>
+<l>Servitii, in speciem volucrum volitate per auras</l>
+<l>Inclusas caveis, longus quas Aucupis ardor</l>
+<l>Ferratis tenuit si laxo forte meatu</l>
+<l><reg orig='Erupêre'>Erupere</reg> leves, ac findunt aethera pennis</l>
+<l>Sublimem expansis, quam late examina verrunt</l>
+<l>Ventorum, Boreae atque Euri, Zephyrique Notique</l>
+<l>v. 11. Heus Tziion disrumpe moras, assuetaque tectis</l>
+<l>Chaldaeis revoca Natorum saecula, et urbe</l>
+<l><reg orig='Cuî'>Cui</reg> dedit aeternum Labii confusio Nomen.</l>
+<l>v. 12. Sic etenim Armipotens infit: me misit ab ipsa</l>
+<l><reg orig='Indictâ'>Indicta</reg> insigni splendoris imagine vestri,</l>
+<l>Ut Vestros Hostes aeternis ignibus uram</l>
+<l>Divini Arbitrii, qui in vos persaepe rapinis</l>
+<pb id='s014'/>
+<l>Grassati iniustis, diroque Tyrannidis ense:</l>
+<l>Et qui vel minimo digito vos tangere posthac</l>
+<l>Praesumet, proprii sibi perdet luminis usum</l>
+<l>Parte oculi <reg orig='mediâ'>media</reg> laesa, cui pupula Nomen</l>
+<l><reg orig='Quâ'>Qua</reg> <reg orig='solâ'>sola</reg> incolumi, cernendi est recta potestas:</l>
+<l>v. 13. Namque ego Fatorum iam converso ordine servos</l>
+<l>Efficiam Dominos, Dominos famulisque relinquam</l>
+<l>In praedam, quorum tortis <reg orig='secuêre'>secuere</reg> flagellis</l>
+<l>Terga cruenta prius, quo sic agnosse queatis</l>
+<l>Cunctitui me mandato missum esse IEHOVAE.</l>
+<l>v. 14. Eia age et exsulta, testareque gaudia cantu</l>
+<l>Filia Tziionis! Veniam ac tentoria figam</l>
+<l>In centro ipse Tui, Dominus sancto ore profatur.</l>
+<l>v. 15. Et tunc adiungent illo se tempore Gentes</l>
+<l>Innumerae Domino, et sanctum de Nomine Nomen</l>
+<l>Illius accipient populusque ore audiet uno</l>
+<l>Undique divinus: medioque Tui ampla colentem</l>
+<l>Atque Augusta Palatia, disces denique Solo</l>
+<l>Ad Te Legatum me munere iisse IEHOVAE!</l>
+<l>v. 16. Tum DEUS in <reg orig='terrâ'>terra</reg> scribet <reg orig='Sanctâ'>Sancta</reg> ipse IEHUDAM</l>
+<l>Heredem aeterni Regni, Solymamque peculI</l>
+<l>Nomine selectam proprii invictae asseret ausu</l>
+<l>v. 17. Cunctipotente manus. <gap desc='crux'/> submittant colla superbi</l>
+<l>Ac fasces Domino totus modo deferat orbis</l>
+<l>Victori Summo, et vestito nube sacratae</l>
+<l>Iustitiae, <reg orig='apperta'>aperta</reg> et solii nunc luce fruenti.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.03' n='3' type='chapter'>
+<argument><head>Argumentum </head>
+<lg met='dist'>
+<l>Visio de <reg orig='Iosuâ'>Iosua</reg> quae facta est flamine, CHRISTUM </l>
+<l rend='indent'>Ipsa, Sacerdotum primigenum esse notat.</l>
+</lg>
+</argument>
+<pb id='s015'/>
+<head>CAPUT TERTIUM.</head>
+<lg met='hexa'>
+<l>v. 1. POst haec pontificis fungentem munere summi</l>
+<l>Ostendit Iosuam stantem Coram Angelo Iovae</l>
+<l>Ad dextramque eius Sathanam qui obsisteret ipsi</l>
+<l>Aut <reg orig='perterricrepâ'>perterricrepa</reg> vi, caeca aut arte, dolis aut</l>
+<l>v. 2. Letiferis: <gap desc='crux'/> Sathanae vero, dicebat IOVA</l>
+<l>TE DEUS increpet ô Sathana! Sathana increpet inquam</l>
+<l>TE DEUS omnipotens, Solymam qui elegit amore</l>
+<l>Prorsus inaudito: nonne hic semiustus ab igne</l>
+<l>v. 3. Ereptus Torris? <gap desc='crux'/> Iosua autem indutus amictu</l>
+<l>Sordidiore quidem, coram facie Angeli agebat,</l>
+<l>v. 4. Hinc commotus erat quem dicebam Angelus, atque</l>
+<l>Confestim edixit coram se astantibus: eia</l>
+<l>Has removete procul Vestes quas sordium inundant</l>
+<l>Confluges, et dixit ei: En sublata Tua omnis</l>
+<l>v. 5. Culpa prior, vestis nova rursus TE induet: <gap desc='crux'/> isti</l>
+<l>Praecipio Capiti, sacrae ornamenta Tiarae</l>
+<l>Ocius astantes imponite! et <reg orig='imposuêrunt'>imposuerunt</reg></l>
+<l>Protinus <reg orig='illîus'>illius</reg> Capiti mitram, atque <reg orig='decôra'>decora</reg></l>
+<l><reg orig='Velârunt'>Velarunt</reg> illum veste, astante Angelo IOVAE</l>
+<l>v. 6. Tum contestatus pleno Angelus ore IEHOVAE</l>
+<l>v. 7. Ad IOSUAM dixit, <gap desc='crux'/> Caeli sic Arbiter inquit</l>
+<l>Omnipotens: Si Tu vestigia recta viarum</l>
+<l>Quas ego signavi, gressu calcaveris aequo:</l>
+<l>Si quoque quas scripsi Leges servaveris: ecce</l>
+<l>Ius Domui dices nostrae, et sancta atria tuta</l>
+<l>Tuta inquam mihi praestabis, quin Nomina semper</l>
+<l>TE gregis Angelici ex nutu nostro ipsa sequentur.</l>
+<l>v. 8. Arrige nunc aures Iosua, aures arrige, et Audi</l>
+<pb id='s016'/>
+<l>Magne Sacerdotum, Tu namque ac ordo, perennis</l>
+<l>Nexus Amicitiae Tibi quos coniunxit eorum</l>
+<l>Ostento si estis: sed stat sententia mentis</l>
+<l><reg orig='Quâ'>Qua</reg> servum adducam peperit cui Nomina Germen.</l>
+<l>v. 9. Ille etenim Lapis est solus, quem pono tuendum</l>
+<l>Coram oculis Iosuae <reg orig='huîc'>huic</reg> insculpens lumina septem</l>
+<l>Exciso, Armipotens infit: non amplius <reg orig='unâ'>una</reg> et</l>
+<l>Luce di??? istius delebo Crimina Terrae.</l>
+<l>v. 10. Tempore quo (Angelicae dicit pater ipse catervae)</l>
+<l>Quisque suos laetus pacato turbine belli</l>
+<l>Ad sua Convivas poscet sollemnia Amicos</l>
+<l>Festa, sub uviferae vitis viridantibus umbris</l>
+<l>Et sub fructiferae umbroso quoque robore Fici.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.04' n='4' type='chapter'>
+<argument><head>Argumentum </head>
+<lg met='dist'>
+<l>Aedem Zorobabel nullo impediente sacratam </l>
+<l rend='indent'>Perficiet, quamvis Turba profana neget.</l>
+</lg>
+</argument>
+<head>CAPUT QUARTUM.</head>
+<lg met='hexa'>
+<l>v. 1 REttulit ut gressus qui Compellavit amico</l>
+<l>Me toties, Iosua deserto, ante Angelus ore</l>
+<l>Languentem quasi me somno, voce excitat <reg orig='latâ'>lata</reg></l>
+<l>v. 2. Atque ait, ede Tuos oculos quae incurrat imago</l>
+<l><reg orig='Cuî'>Cui</reg> dixi, puro Lychnuchum conspicor auro</l>
+<l>Fulgentem, excedit cuius fastigia summa</l>
+<l>Lecythus, hac septem nebulosae rore Lucernae</l>
+<l>Subpingui exsurgunt, Infundibula atque Lucernis</l>
+<pb id='s017'/>
+<l>v. 3. Septeno certant numero, <gap desc='crux'/> ac duplici ordine <reg orig='olîva'>oliva</reg></l>
+<l>Assita Lychnucho, partes secreta bimembres</l>
+<l>Lecythi habet dextram parte <reg orig='unâ'>una</reg>, <reg orig='aliâque'>aliaque</reg> sinistram.</l>
+<l>v. 4. Hos postquam absolvi sermones, ora resolvens</l>
+<l>Amplius, alloquio toties me convenientem</l>
+<l>Angelicum iuvenem Verbis compello benignis:</l>
+<l>Eia age ne capiat quaeso TE Nausea nostri</l>
+<l>Effati, Domine, haec et quid sibi Visio poscat</l>
+<l>v. 5. Dissere quaerenti! <gap desc='crux'/> respondens Angelus autens</l>
+<l>Dixerat, Ecquid ais? tibine heu prudentia defit</l>
+<l>Istius effectum qua non pertingere Visi</l>
+<l>Sponte <reg orig='tuâ'>tua</reg> possis? Etiam Domine: ipse ferebam</l>
+<l>v. 6. Hinc iterum nostras istis sermonibus aures</l>
+<l>Implebat, dicens: Haec summi Verba IEHOVAE</l>
+<l>Quae nunc Zorobabeli aptat: non Conscia Virtus</l>
+<l>Nec vis expediet sed nostri Spiritus oris,</l>
+<l>v. 7. Intonat Armipotens <gap desc='crux'/> Ecquid Mons ardue in auras</l>
+<l>Cornua sustollis, summoque Cacumine Nubes</l>
+<l>Findere conaris? Valles residebis in imas</l>
+<l>Planitie aequalis mox, Zorobabelis ob artes:</l>
+<l>Nam Lapidem summum, quam primum proferet, omnes</l>
+<l>Gratia Gratia ei laeto clamore sonabunt.</l>
+<l>v. 8. Ecce autem audieram dicentis ab ore IEHOVAE</l>
+<l>v. 9. Verba recenseo quae modo, <gap desc='crux'/> Zorobabelis eam aedem</l>
+<l><reg orig='Extruxêre'>Exstruxere</reg> manus, per eas perfectio coepto</l>
+<l>Ultima succedetque operi, ut cognosse queatis</l>
+<l>Ad vos Bellipotentem me misisse IEHOVAM</l>
+<l>v. 10. Ecquis enim has operas ausit proscribere viles</l>
+<l>Spernere vel verbo irrisor? Laeti ecce videbunt</l>
+<l>In manibus perpendiculum isti Zorobabelis</l>
+<pb id='s018'/>
+<l>Septem oculi Domini Terrae qui vasta Triformis</l>
+<l>v. 11. Sunt spatia emensi: <gap desc='crux'/> et respondens amplius illi</l>
+<l>Dixi, Ecquid geminae signant oleae, altera quarum</l>
+<l>Lychnuchi ad Dextram vergit, premit altera laevam?</l>
+<l>v. 12. Immo etiam refer, Ecquid Bacca oleagina poscat</l>
+<l>Ordine quae duplici est inter spatia ipsa Tuborum</l>
+<l>Binorum, a quibus assimilis liquor effluit auro.</l>
+<l>v. 13. Contra Ille excepit, quae TE Ignorantia vexat</l>
+<l>Continua? an nescis praesentia visa docere</l>
+<l>Eventu certo, vel divinare futura?</l>
+<l>Ecquid ego possim nullo praeeunte? ferebam.</l>
+<l>v. 14. Unde refert oleae sunt hae quas possidet orbis</l>
+<l>Totius Dominus stabiles, moderator et Aethrae.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.05' n='5' type='chapter'>
+<argument><head>Argumentum </head>
+<lg met='dist'>
+<l>Vates cernit Epham, Plumbum, chartamque volantem </l>
+<l rend='indent'>Dogmata, quae fingit Vana superstitio.</l>
+</lg>
+</argument>
+<head>CAPUT QUINTUM.</head>
+<lg met='hexa'>
+<l>v. 1. ATtollens oculos rursus vidi ecce volumen</l>
+<l>Radere iter liquidum, ferrique per aethera pennis</l>
+<l>v. 2. Cumque a me peteret quidnam incurrisset ocellos</l>
+<l>Effari ipse velim, dixi: vidi ingredi apertum</l>
+<l>Aera Remigio alarum, et se credere caelo</l>
+<l>Bis denos longum cubitos, latumque Volumen</l>
+<l>v. 5. Bis quinos: <gap desc='crux'/> nostras tunc sic effatus ad aures:</l>
+<l>Ista superficiem latam exsecratio tanget</l>
+<l><reg orig='Totîus'>Totius</reg> Terrae: qui plurima furta patravit</l>
+<pb id='s019'/>
+<l>Noctis ope obscurae, reputatur Criminis expers,</l>
+<l>Et qui Perfidiae plenus, saepe ore fefellit</l>
+<l>Periuro superos hominesque absolvitur insons</l>
+<l>v. 4. Integer et Vitae penitus censetur: <gap desc='crux'/> at ecce</l>
+<l>Perbrevi erit Tempus, sacro Deus intonat ore</l>
+<l>Caelipotens: quo vulgabo haec malefacta, nec ipsam</l>
+<l>Effugient poenam, sed se penetrabit in aedes</l>
+<l>Furtificorum Hominum, et periuria falsa colentum</l>
+<l>Atque moram faciet tantisper, stirpitus illas</l>
+<l>Cum strue lignorum et lapidum consumpserit IGNIS.</l>
+<l>v. 5. Postmodo progressus, qui tot mecum ante peregit</l>
+<l>Verba, iterum tales effundit pectore voces:</l>
+<l>Nunc oculos attolle Tuos, circumspice quid sit</l>
+<l>v. 6. Hoc quod procedit: <gap desc='crux'/> meque anquirente quid esset?</l>
+<l>Est EPHA quae profert gressus, respondit: et isti</l>
+<l>Haec Facies sola est, qua Terra haec explicat alas.</l>
+<l>v. 7. Ecce autem Massam <reg orig='enatâ'>enata</reg> plumbagine <reg orig='plenâ'>plena</reg></l>
+<l>Femineam et speciem, cavitas quam iusta prioris</l>
+<l>v. 8. Excipiebat Ephae, <gap desc='crux'/> et dixit Comes Angelus, ipsa</l>
+<l>Haec est improbitas: in EPHAE gremiumque <reg orig='ruinâ'>ruina</reg></l>
+<l><reg orig='Altâ'>Alta</reg> demersit superaddens pondera plumbi</l>
+<l>v. 9. Liventis: <gap desc='crux'/> tunc attollens mea lumina vidi</l>
+<l>Corpora feminei sexus exire <reg orig='duoistâ'>duo ista</reg></l>
+<l>Alis aerios nexis portantia Ventos.</l>
+<l>(Garrula fert quales crepitante Ciconia rostro)</l>
+<l>Atque hae librabant inter Confinia Terrae</l>
+<l>v. 10. Mutuo EPHAM et Caeli: <gap desc='crux'/> me Compellante meumque</l>
+<l>Angelicum Comitem quorsum nam Epha visa feratur?</l>
+<l>v. 11. Accepi in Terram Sinaar, <reg orig='quâ'>qua</reg> Construat aedes</l>
+<l><reg orig='Ouîs'>Ouis</reg> habitet stabiles, quas tutaque destina firmet.</l>
+</lg>
+<pb id='s020'/>
+</div2>
+<div2 id='RhZN.01.06' n='6' type='chapter'>
+<argument><head>Argumentum </head>
+<lg met='dist'>
+<l>Pro nutu Gentes divina Potentia versat, </l>
+<l rend='indent'>Estque Sacerdos REX Filius ipse DEI.</l>
+</lg>
+</argument>
+<head>CAPUT SEXTUM</head>
+<lg met='hexa'>
+<l>v. 1. ARectos tollens oculos ad inania caeli</l>
+<l>Templa, ego conspexi currus prodire quaternos</l>
+<l>Inter convalles umbrosas frundibus aera</l>
+<l>Quas Montis gemini claudebant ardua utrinque.</l>
+<l>v. 2. Primus habebat equos rufos, nigrosque secundus</l>
+<l>v. 3. Tertium at albentes niveo Candore vehebant</l>
+<l>At quartum <reg orig='crebrâ'>crebra</reg> guttati grandine currum</l>
+<l>v. 4. Haec sibi quid vellent, a me Angelus ipse rogatus</l>
+<l>Alloquio qui me toties vero ante levasset.</l>
+<l>v. 5. Respondens iterum fidam sic fatur ad aurem:</l>
+<l>Hi quatuor, liquidas qui verrunt aeris auras</l>
+<l>Impete pollentes miro venti, inde ruentes</l>
+<l>Constiterant ubi apud Caeli Terraeque Tyrannum.</l>
+<l>v. 6. Nigris vectus Equis glacialem tendit ad Arctum</l>
+<l>Atque plagas Aquilonares quem pone sequetur</l>
+<l>Tractus Equis niveis: sed versicoloribus Austrum</l>
+<l>Insignes maculis gradiuntur, et oriona</l>
+<l>v. 7. Confirmati igitur volucri contendere cursu</l>
+<l><reg orig='Coepêre'>Coepere</reg>, et vastae spatiosa volumina Terrae</l>
+<l>Metiri, iccirco aeripedes excurrite in Orbem</l>
+<l>Dixit diffusum subito illi cursibus amplis</l>
+<l><reg orig='Incubuêre'>Incubuere</reg> solo, Terrai Terga prementes.</l>
+<pb id='s021'/>
+<l>v. 8. Meque vocans dixit, vultus huc dirige, et illos</l>
+<l>Aspice, quos cursus Borealem detulit axem</l>
+<l>Semper inocciduamque Arcton septemque Triones,</l>
+<l>Hi <reg orig='tranquillârunt'>tranquillarunt</reg> in toto Aquilone Tumultum</l>
+<l>v. 9. Nostrae animae: <gap desc='crux'/> et rursus mihi demandavit IOVA</l>
+<l>v. 10. Eia age et a deportatis nunc accipe, quales</l>
+<l>Nomino Cheldaium Iedahiam ipsumque Tobiam</l>
+<l>Quam primum et referens gressus, pete Tecta Iosiae</l>
+<l>Nati Tzephaniae, qui sunt Babylone reducti.</l>
+<l>V. 11. Insuper argenti atque Auri cape pondera puri</l>
+<l>Et nitidum Diadema para, hoc et Timpora vesti</l>
+<l>Iehotzadaki Iosuae de semine nati</l>
+<l>Qui Flamen nostras incendit maximus aras.</l>
+<l>Atque focos pingui cumulat libamine sacros.</l>
+<l>v. 12. Atque edic illi, sunt haec effata IEHOVAE:</l>
+<l>Ecce vir est Nomen sortitus Germinis, huius</l>
+<l>Sub pedibus crescet Tempus genitabile Templi</l>
+<l>v. 13. Primigenum: Hic solus faciet sacrae ecce coortum</l>
+<l>Aedis, regalique ornatu insignis habenas</l>
+<l>Accipiet, solio residens REX atque Sacerdos</l>
+<l>Vittis et <reg orig='sacrâ'>sacra</reg> redimitus Timpora Lauru,</l>
+<l>Inter utrumque simul Pacis nectetur oliva</l>
+<l>v. 14. Augustae <gap desc='crux'/> de illis igitur sit quaeque Coronis</l>
+<l>Pro Chelemo pro Iedahia pro ipsoque Tobiia</l>
+<l>Pro Chene Tzephaniae nato, in <reg orig='sacrâ'>sacra</reg> aede IEHOVAE</l>
+<l>Pignoris et monumenti instar suspensa perennis.</l>
+<l>v. 15. Atque ex longinquis venient regionibus orbis</l>
+<l>Quorum operis longe surget divinior aedis</l>
+<l>Forma sacrae, solido constans de marmore, et altis</l>
+<l>In gremio illustri centum suffulta Columnis:</l>
+<pb id='s022'/>
+<l>Atque ita discetis, me, ad vos misisse IEHOVAM</l>
+<l>Armigerum Evenient vere haec certissima quando</l>
+<l>Vos <reg orig='curâ'>cura</reg> Domini peragetis iussa fideli.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.07' n='7' type='chapter'>
+<argument><head>Argumentum </head>
+<lg met='dist'>
+<l>Ficta vetat graviter vates ieiunia: vera haec </l>
+<l rend='indent'>Dicere iusta foro, munificum esse foco.</l>
+</lg>
+</argument>
+<head>CAPUT SEPTIMUM.</head>
+<lg met='hexa'>
+<l>v. 1. ANnus agebatur quartus, quo sceptra tenebat</l>
+<l>Innumeris gravidus regnis Darius, et arcum</l>
+<l>A capite inciperet curvare sagittifer, <reg orig='unâ'>una</reg></l>
+<l>Parte Homo, parte <reg orig='aliâ'>alia</reg> formae coniunctus Equinae.</l>
+<l>Nono mense die quarto tunc verba IEHOVAE</l>
+<l>v. 2. Zachariae data erant populus cum miserat omnis</l>
+<l>Regem Melecum Scharetzerumque precatum</l>
+<l>Delectos oratores ad Sancta IEHOVAE</l>
+<l>Aedibus in sacris tum pulvinaria, vati</l>
+<l>v. 3. Atque sacerdotes quaesitum, anteora IEHOVAE</l>
+<l>Quis opus est cunctis operari sacra Diebus,</l>
+<l>Et qui Fatidici <reg orig='Divûm'>Divum</reg> Mysteria pandunt.</l>
+<l>An Quintili etiam proiectus corpore, Terrae</l>
+<l>Deficiam ingenti luctu, atque ululatibus auras</l>
+<l>Concutiam querulis lacrimarum et gurgite inundem</l>
+<l>Pectora, ceu plures flevi annorum ante per orbes?</l>
+<l>v. 4. Ergo Exercituum Domini ad me Verba IEHOVAE</l>
+<l>v. 5. Facta hunc in sensum <gap desc='crux'/> populum Totius adito</l>
+<pb id='s023'/>
+<l>Terrae Iudaeae his verbis, et relligionum</l>
+<l>Qui possunt arctis animos exsolvere nodis:</l>
+<l>Pallida cum vacuo colitis ieiunia ventre</l>
+<l>Et vestros lacrimis oculos roratis obortis</l>
+<l>Pectora tundentes pugnis et dilacerantes</l>
+<l>Ungue genas curvo gemini per tempora a mensis</l>
+<l>Quinti et septeni, veluti quoque fletibus annos</l>
+<l>Exactos decies septem abstersistis amaris,</l>
+<l>v. 6. An ieiunatis mihi? <gap desc='crux'/> vel cum absumitis ore</l>
+<l>Mensas, et vicin vires revocatis inanes,</l>
+<l>Sive sitim abluitis, nonne in vos iste redundat</l>
+<l>v. 7. Vos inquam solos usus? <gap desc='crux'/> an nonne fuistis</l>
+<l>Facturi iuxta <reg orig='summî'>summi</reg> verba illa IEHOVAE</l>
+<l>Quae proclamavit per priscos ore Prophetas</l>
+<l>Sacrato, Solymam cum pax erat alta per urbem</l>
+<l>Et colerent vicinae etiam grata otia Gentes</l>
+<l>Seposito Belli studio, et plebs multa habitaret</l>
+<l>Australem versus tractum devexaque Terrae.</l>
+<l>v. 8. Zacharias <reg orig='sacrâ'>sacra</reg> afflatus sed Flaminis <reg orig='aurâ'>aura</reg></l>
+<l>v. 9. Ora resolvebat, dicens: <gap desc='crux'/> Haec iussa IEHOVAE</l>
+<l>Istud et arbitrium est Huius, qui moenia Caeli</l>
+<l>Omnipotente regit nutu, et vastae atria Terrae!</l>
+<l>Discite Iustitiam moniti non temnere verum,</l>
+<l>Alter in alterius conspiret commoda voto</l>
+<l>Unanimi, et Fratri Dives succurrat egenti</l>
+<l>v. 10. Ne vidua a vobis, vel pupillaribus annis</l>
+<l>Infans, vel civis Pauper, vel sedibus Hospes</l>
+<l>Succedens vestris, vel vobiscum Advena gaudens</l>
+<l>Communi mensa et Tecto offendatur: et alter</l>
+<l>Alterius semper mitis vice Nomen Honoris</l>
+<pb id='s024'/>
+<l>Nominet: et linguae mentis respondeat ardor.</l>
+<l>v. 11. Sed nostris nunquam <reg orig='voluêre'>voluere</reg> attendere dictis</l>
+<l>Cervicosi, Humerum mihi refractarium ubique</l>
+<l>Praebentes, summo et studio <reg orig='obstruxêre'>obstruxere</reg> patentes</l>
+<l><reg orig='Cerâ'>Cera</reg> aures, ne percipiant verba ulla loquentis,</l>
+<l>v. 12. Ex Adamante suum et cor inexpugnabile duro</l>
+<l><reg orig='Constituêre'>Constituere</reg>, animis ne forte infigere possint</l>
+<l>Caelifluam Legem, et magni Mandata Tonantis</l>
+<l>Illis quae dederat per vatum oracla priorum</l>
+<l>Assignanda DEUS: quare se armavit in iras</l>
+<l>Prorsus terribiles, tumidus fervore perenni.</l>
+<l>v. 13. Sicut enim ME non illi <reg orig='audivêre'>audivere</reg> Tonantem</l>
+<l>Clamore immenso: facili non audivi illos</l>
+<l>Aure, ait Armitenens, et inexorabilis illis</l>
+<l>v. 14. Ipse Fui, <gap desc='crux'/> et magno disieci turbine eosdem</l>
+<l>In varias gentes, quas haut <reg orig='novêre'>novere</reg>, vel harum</l>
+<l>Non intellectam <reg orig='potuêrunt'>potuerunt</reg> voce loquelam</l>
+<l>Usurpare <reg orig='suâ'>sua</reg>, et desertae exaruit omnis</l>
+<l>Flos Terrae, ut nullis sit plus habitabilis oris</l>
+<l>Aut habilis culturae hominum, pecorique creando,</l>
+<l>Nobilis et Regio facta est ignobilis illis.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.08' n='8' type='chapter'>
+<argument><head>Argumentum </head>
+<lg met='dist'>
+<l>Eriget IPSE DEUS Solymam, Templique Coortu </l>
+<l rend='indent'>Pax erit, et Gentes IOVAM in honore ferent.</l>
+</lg>
+</argument>
+<head>CAPUT OCTAVUM.</head>
+<lg met='hexa'>
+<l>v. 1. POsthaec armisoni vox excidit ore IEhovae!</l>
+<pb id='s025'/>
+<l>v. 2. Sic exercituum DEUS infit: mente Sionem</l>
+<l><reg orig='Zelotypâ'>Zelotypa</reg> multos agitavi olim ipse per annos:</l>
+<l>Et Zelo ardescens magno, infandoque furore</l>
+<l>Concessi in vastas ignito pectore flammas,</l>
+<l>v. 3. Sic Exercituum DEUS infit: quando resedit</l>
+<l>Ira vetus, redii rursum ad pallatia mitis</l>
+<l>Tziionis, gremio et Solymorum dego quietus:</l>
+<l>Et posthac Solyma urbs fraudum omni ambage remota</l>
+<l>Dicetur verax urbs: et Mons ipse IEhovae</l>
+<l>Bellipotentis erit sine crimine, et intemeratae</l>
+<l>Dicetur Fidei: collisque vocabitur almus.</l>
+<l>v. 4. Sic Exercituum DEUS infit: ubique plateas</l>
+<l>Complebunt tremulique senes vetulaeque loquaces,</l>
+<l>Et quos inniti Baculis annosa senectus</l>
+<l>Exsangues coget firmare gradusque labantes.</l>
+<l>v. 5. Et denso cuneo Puerorum Examina vicos</l>
+<l>Atque puellarum mixtim clamore sonoros</l>
+<l>Laetitiae pleno efficient, variasque ciebunt</l>
+<l>Ludorum formas, levium et spectacula rerum.</l>
+<l>v. 6. Sic Exercituum DEUS infit: num quia mirum est</l>
+<l>Relliquiis populi, captum et superare videtur</l>
+<l>Horum hoc tempore, sic etiam mirabile nostros</l>
+<l>Ante oculos esset? placido DEUS addidit ore.</l>
+<l>v. 7. Sic Exercituum DEUS infit: robore dextrae</l>
+<l>Invicto redimam populum, proprium atque tuebor</l>
+<l>Collectum e <reg orig='Terrâ'>Terra</reg>, assiduos cui Lucifer ignes</l>
+<l>Ostentat, flammis et SOL opera omnia lustrat,</l>
+<l>Et qua iam fessus liquidas se condit in undas</l>
+<l>Oceani, seras ac invehit Hesperus umbras.</l>
+<l>v. 8. Atque novis Solymam veterem ditabo colonis,</l>
+<pb id='s026'/>
+<l>Et populus mihi erunt de cunctis gentibus orbis</l>
+<l>Selectus <reg orig='Curâ'>Cura</reg> <reg orig='magnâ'>magna</reg>, unicus et DEUS unus</l>
+<l>Illis rursus ero, cuius vestigia adorent.</l>
+<l>Proni veridicis verbis animoque tenaci</l>
+<l>Iustitiae sanctae, rectumque fatentibus ausis.</l>
+<l>v. 9. Sic Exercituum DEUS infit: Bracchia vestra</l>
+<l>Firmantor, vestraeque manus, qui his ista diebus</l>
+<l>Verba audivistis divino ex ore virorum</l>
+<l>Qui nostro correpti oracula Numine fundunt.</l>
+<l>Ex quo visa fuit Templi Genitalis origo,</l>
+<l>Esse Domum Domino aedificandi Tempus adactum</l>
+<l>v. 10. Ante dies etenim hos, Hominum fuit omnis inanis</l>
+<l>Cura, omnisque Labor fuit irritus, atque opera omnis</l>
+<l>Ludificata Boum, et frustra fuit usus Equorum:</l>
+<l>Non quisquam tuto poterat se efferre patentem</l>
+<l>Extra urbem nec quis clausam securus adire,</l>
+<l>Hoste omnes aditus vigili cingente <reg orig='coronâ'>corona</reg></l>
+<l>Imo alterne Homines armavi in praelia cunctos</l>
+<l>v. 11. Non ita, quod si olim male, nunc erit: ecce fovebo</l>
+<l>Huius relliquias populi, inquit Conditor orbis</l>
+<l>v. 12. Ipse seram pinguem proventu divite pacem,</l>
+<l>Spumabit plenis felix vin demia labris</l>
+<l>Et varios fetus submittet vivida Tellus</l>
+<l>Squamigerum genus et volucres, armenta, ferasque</l>
+<l>Fructusque arboreos, flores, frumentaque larga,</l>
+<l>Fructificae et caeli dimittent semina Aquai,</l>
+<l>Efficiam Populus quo his gaudeat ipse superstes.</l>
+<l>v. 13. Omnibus eveniet fatorum et cardine verso</l>
+<l>Ut ceu faex Hominum Domus est reputata Iehudae</l>
+<l>Et <reg orig='Iisraelis'>Israelis</reg>, reliquis a Gentibus orbis:</l>
+<pb id='s027'/>
+<l>Sic nunc Fax Hominum populo reputetur ab omni</l>
+<l><reg orig='Omnigenûm'>Omnigenum</reg> splendens <reg orig='divinâ'>divina</reg> luce Bonorum.</l>
+<l>Exulet a vobis metus omnis, robore vestrae</l>
+<l>Augescantque manus: <gap desc='crux'/> nam sic rerum Arbiter inquit,</l>
+<l>Nostra ut certa stetit, vosmet, sententia menti</l>
+<l>Vexare innumeris poenis, ubi Nomina Avorum</l>
+<l>Vestrorum flammae <reg orig='auxêrunt'>auxerunt</reg> incendia nostrae</l>
+<l>Sulpureo scelerum nisu neque paenituit me,</l>
+<l>Aethereae summus dicit Moderator Habenae</l>
+<l>v. 15. Sic conversa manet nunc: atque onerare Bonorum</l>
+<l><reg orig='Immensâ'>Immensa</reg>, propero Solymas Iudamque <reg orig='saburrâ'>saburra</reg>.</l>
+<l>Exsulet a vobis igitur pavor, et metus omnis!</l>
+<l>v. 16. Has statuo vobis Leges solummodo sacras</l>
+<l>Ad quas Fas vestram Linguam et componere mores.</l>
+<l>Excutite ex animis quaevis Mendacia vestris</l>
+<l>Veriloqui semper, nec cerea fingite iura</l>
+<l>Constantes legum stabilem servate vigorem</l>
+<l>Asserite et Pacem per portas undique vestras</l>
+<l>v. 17. Nec mala quis secum meditetur noxia versus</l>
+<l>Vicinum, incaute laqueos vel nectat eunti</l>
+<l>Oris falsiloqui, ne unquam periuria ametis</l>
+<l>Haec invisae mihi vitia omnia dicit IÔVA</l>
+<l>v. 18. Sic ait Omnipotens Hominum <reg orig='Divûmque'>Divumque</reg> Creator</l>
+<l>v. 19. Quae celebraverunt quarto ieiunia mense et</l>
+<l>Quinto, et septeno, et decimo, sine honore ciborum</l>
+<l>Pallentes faciem, et conspersi pulvere canos</l>
+<l>Migrabunt hilares festa in sollemnia laeti</l>
+<l>Quae celebraturi sunt saeclorum ordine longo,</l>
+<l>Vos modo vim veri et pacis ne spernite leges.</l>
+<l>v. 20. Sic Hominum summus loquitur Pater atque Deorum:</l>
+<pb id='s028'/>
+<l>Mox erit, ut veniant Populi, civesque colentes</l>
+<l>21. Magnificas urbes <gap desc='crux'/> vicatim et quisque suo ore</l>
+<l>Invitet sibi vicinos, et dicat eamus</l>
+<l>Ocius, ante oculos fundentes vota IEhovae</l>
+<l>Atque preces castas sanctis mactabimus aris,</l>
+<l>Ipse ibo vobis Comes, et Dux ipse viai.</l>
+<l>v. 22. Sic populi venient multi, Gentesque profanae</l>
+<l>Innumero numero quaesitum vulta IEhovae</l>
+<l>Armisoni Solymis, Pacem aeternamque rogatum.</l>
+<l>v. 23. Sic Exercituum DEUS infit, Tempore in illo</l>
+<l>Deni Homines manibus quavis de gente prehendent</l>
+<l>Divisi variis linguarum lexibus, alam</l>
+<l>Israeligenae, manibus (dico ipse!) prehendent</l>
+<l>Dicentes: nostrum est vobiscum degere vitam</l>
+<l>Unanimi cultu, quia vobiscum esse fatendum</l>
+<l>Qui rerum solus Naturam voce gubernat.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.09' n='9' type='chapter'>
+<argument><head>Argumentum.</head>
+<lg met='dist'>
+<l>Poena premet Syriam, Tyrios, Sidona superbam, </l>
+<l rend='indent'>Atque Philistaeos: CHRISTUM et Asellus habet.</l>
+</lg>
+</argument>
+<head>CAPUT NONUM.</head>
+<lg met='hexa'>
+<l>v. 1. ECce DEUS gravia his poenarum pondera Terris</l>
+<l>Quae TE circumstant Iudaea, decemque Toparchias,</l>
+<l>Exitium et cunctis uno denuntiat ore</l>
+<l>Prima Tibi capiti Syriae ô formosa Damascus</l>
+<l>Chrysoroas pulchro quam praeterlabitur amne,</l>
+<pb id='s029'/>
+<l>Omnituo lustrat Dominus nam lumine cuncta</l>
+<l>Saecla Hominum, atque tribus ab <reg orig='Iisraele'>Israele</reg> profectas.</l>
+<l>v. 2. Altera sed Regno Chamathae, Tyriisque Colonis</l>
+<l>Quos statuit <reg orig='Terrâ'>Terra</reg> Phoenicum primus Agenor.</l>
+<l>Tertia TzidonI, sed quarta pericla vetustae</l>
+<l>Perpetua Excelsae Turres quam Lege coronant,</l>
+<l>Quae lapidum refugos valeant elidere iactus</l>
+<l>v. 3. Et quam vis variae excellat sapientiae honore</l>
+<l>Nobilis illa Tyrus, tum propugnacula muris</l>
+<l>Edita disponat <reg orig='fossâ'>fossa</reg> valloque potente</l>
+<l>Muniat in numerum, totoque argenti aeris acervos</l>
+<l>Possideat Libycas quae possint vincere arenas,</l>
+<l>Et tot contineat facti auri pondera densa</l>
+<l>Infectique simul, quot habent lutea oppida sordes:</l>
+<l>v. 4. Hanc tamen exscindet Dominus, Turresque revulsas</l>
+<l>In mare praecipites glaucum demerget ab alto</l>
+<l>Vertice, ceu validus <reg orig='flammâ'>flamma</reg> has absum serit ignis</l>
+<l><reg orig='Invictâ'>Invicta</reg>, neque Navalis mage Gloria eorum</l>
+<l><reg orig='Quâ'>Qua</reg> innumerabilibus <reg orig='stravêrunt'>straverunt</reg> classibus aequor</l>
+<l>Fluctivomum, vastae Soli Commercia Terrae</l>
+<l>Miscentes, in quo est, perstabit vivida flore.</l>
+<l>v. 5. Ascalo ubi haec cernet, magno timefacta pavore</l>
+<l>Intremet, et simul his exterrita Gaza dolebit:</l>
+<l>Accaro et accedet faciem confusa pudendam,</l>
+<l>Concidet exanimis Gazae Rex ipse potentis.</l>
+<l>Diruta desertis vestigia quaeret in agris</l>
+<l>v. 6. Ascalo: <gap desc='crux'/> et externis Azotia rura patebunt:</l>
+<l>Annitarque Philistaeorum exscindere fastum</l>
+<l>v. 7. Stirpitus: utque ori illorum subtraxero caedes</l>
+<l>Sanguineas, et verba exsecratissima eorum</l>
+<pb id='s030'/>
+<l>Dentibus: efficiam hos, nostro superare IEhovae</l>
+<l>Ut sint assimiles Iudae Ductoribus: Hekron</l>
+<l>v. 8. Atque Iebusaeum referat: <gap desc='crux'/> tunc ipse locabo</l>
+<l>Castra meae Domui, vigilum omnis in urbe corona</l>
+<l>Desinet armatos posthac circumdare muros</l>
+<l>Pro omnibus unus ero! meque obsistente resistet</l>
+<l>Nequicquam Exactor, quia nostra immota voluntas</l>
+<l>Atque oculis placuit <reg orig='formâ'>forma</reg> hac disponere nostris.</l>
+<l>v. 9. Filia Tziionis iam exultabunda profundi</l>
+<l>Pectoris in gremium demerge haec gaudia blandum!</l>
+<l>Urbis Tuque sacrae Solymorum Filia clange</l>
+<l>Vultu hilari! quia Rex Tuus ad Tua maenia viset</l>
+<l>Iustitiae plenus sanctae, divesque salutis</l>
+<l>Aethereae, pauper pictai vestis et auri</l>
+<l>Auriti invectus pecoris tergo, atque Asinae ipso</l>
+<l>v. 10. Subiugis ingressus pullo foetu: <gap desc='crux'/> ecce ruam omnes</l>
+<l>Ex Ephraiimo currus veterinaque saecla</l>
+<l>Exscindam Solymis: gravidas levibusque sagittis</l>
+<l>Effringam Pharetras, arcus bellique sonantes:</l>
+<l>Iste etenim latas gentes pace imbuet <reg orig='altâ'>alta</reg></l>
+<l>Et maria et Terras omni ditione tenebit</l>
+<l>Unius oceani a Tergo, ad Terga usque furentis</l>
+<l>Fluctibus alterius saevis, et Fluminum ab ortu</l>
+<l>Extremos versus fines atque ultima Terrae.</l>
+<l>v. 11. Tu quoque purpurei per Foedera sanguinis alma</l>
+<l>Effundis vinctos <reg orig='magnâ'>magna</reg> <reg orig='vastâque'>vastaque</reg> <reg orig='lacunâ'>lacuna</reg></l>
+<l>In <reg orig='quâ'>qua</reg> Nemo sitim abstersit <reg orig='velguttulâ'>vel guttula</reg> Aquai.</l>
+<l>v. 12. Eia agite, ad firmum Hoc vestras spes vertite Asylum</l>
+<l>Servili quos vincla iugo, et circumdata collis</l>
+<l>Ferra premunt: illa nam luce, quod indico, duplum</l>
+<pb id='s031'/>
+<l>v. 15. Restituam Tibi <gap desc='crux'/> namque arcum lentabo Iehudae</l>
+<l>Atque Ephraimi iaculis implebo pharetram</l>
+<l>Fatiferis, Natosque Tuos in Bella ciebo</l>
+<l>O Tziion contra populos Asiae, atque potentes</l>
+<l>Syrorum Reges, saevos Danaumque Tyrannos,</l>
+<l>Vulnificum TE disponam Bellator et ensem</l>
+<l>Quem valide strictum sequitur seges ampla virorum</l>
+<l>Proicientum animas vitam calidamque vomentum.</l>
+<l>v. 14. Et Dominus contra hos sese ostentabit in armis</l>
+<l>Conspicuum; illius magno impete Tela volabunt,</l>
+<l>Ceu perterricrepo sonitu dant missa fragorem</l>
+<l>Fulmina, et ignea discurrunt per septa domorum.</l>
+<l>Horribili Ipse <reg orig='Tubâque'>Tubaque</reg> inflabit classica, vectus</l>
+<l>Fulminibus <reg orig='gravidâ'>gravida</reg> Tempestate, atque procellis</l>
+<l>v. 15. Austrinis <gap desc='crux'/> illos plene servabit IOVA</l>
+<l>Armiger incolumes ut possint ore fruisci</l>
+<l>Tranquillo vescis dapibus, vinique liquore</l>
+<l>Laetifico, et spoliis devicto ex Hoste receptis</l>
+<l>Post fundae prorsus Balearis verbera abactae:</l>
+<l>Et statuant magnos Crateras pinguis olivi</l>
+<l>Atque sacras teneant pateras altaria et ipsa</l>
+<l>Undique Laudisoni mactato sanguine spargant.</l>
+<l>v. 16. Et DEUS ipsorum fortis Custodiet illos</l>
+<l>Ceu Pastor sollers per pascua pinguia ducit</l>
+<l>Lanigeras pecudes, atque has a fauce luporum</l>
+<l>Immunes rabida ipsis insidiisque ferarum</l>
+<l>Asserit incolumes saevo offensuque Leonum.</l>
+<l>Tum cum praedicti volvetur Temporis ordo</l>
+<l>Parietibus sacris cito lemniscata Tropaea</l>
+<l>Affigent animi grati monumenta perennia.</l>
+<pb id='s032'/>
+<l>v. 17. Abripior! proh quanta Boni farrago futura est,</l>
+<l>Fulgida quam species! (Dictu immemorabile utrumque)</l>
+<l>Omnium abundabit proventu divite rerum:</l>
+<l>Et iuvenes ingens frumenti copia pascet</l>
+<l>Atque latex Musti dulcis fecundus hiulcae</l>
+<l>Tollet egestatem linguae, luxuque sepulto</l>
+<l>Virginea ora, Dei Facta Admiranda sonabunt.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.10' n='10' type='chapter'>
+<argument><head>Argumentum</head>
+<lg met='dist'>
+<l>Ex populis CHRISTUS sibi seliget ipse ministros: </l>
+<l rend='indent'>Doctores falsos Fata sinistra manent.</l>
+</lg>
+</argument>
+<head>CAPUT DECIMUM.</head>
+<lg met='hexa'>
+<l>v. 1. A Summo seram pluviam exorate <reg orig='Iehovâ'>Iehova</reg></l>
+<l>Et coget Nubes per caulas aetheris omnes</l>
+<l>In quibus exsurgent collectae semina aquai</l>
+<l>Sublato in superas ex omnibus amnibus auras</l>
+<l>Humore, imo etiam de salso momine ponti:</l>
+<l>Haeque ubi rarescent vi venti, sive Calore</l>
+<l>Solventur Solis, pluvium demittet aperto</l>
+<l>Humorem caelo, et sitientes abluet Herbas.</l>
+<l>v. 2. Vana Deastrorum nam formamenta loquuntur,</l>
+<l>Vaticinatores <reg orig='delirâmente'>deliramente</reg> tuentur</l>
+<l>Fraudes, ventosi et temeraria somnia fingunt,</l>
+<l>Ventura auguriis nec possunt pellere fata.</l>
+<l>Iccirco errantes loca per deserta vagantur</l>
+<l>(More gregis quem deseruit vigilantiae Fidi</l>
+<pb id='s033'/>
+<l>Pastoris) tabe heu nimborum animamque exhalant.</l>
+<l>v. 3. Contra Pastores istos accensa furoris</l>
+<l>Flamma mei, atque istos male multabo graveolentes</l>
+<l>Immundosque Hirces: etenim qui Caerula caeli</l>
+<l>Imperio premit aeterno DEUS, ipse reviset</l>
+<l>Ad proprium ecce gregem, saeclum genitale Iehudae</l>
+<l>Bellatoris Equi phaleratisque imbuet armis</l>
+<l>v. 4. Angulus Exactor clavus tum bellicus arcus</l>
+<l>v. 5. Aversa omnia erunt: <gap desc='crux'/> priscos atque arte Gigantes</l>
+<l>Vincent bellipotente, manu in victaque sequentur</l>
+<l>Qui olim <reg orig='calcârunt'>calcarunt</reg> lutulentas calce plateas</l>
+<l><reg orig='Ferratâ'>Ferrata</reg> accincti pugnis: namque ipse Iehova</l>
+<l>His erit auxilio, numerosae Equitumque phalanges</l>
+<l>Mox retrocedent fugitivae praepete cursu.</l>
+<l>v. 6. Integrabo domum Iudae rursum, Ipse novando</l>
+<l>Atque Iacobigenae servabo tribum Iosephi,</l>
+<l>In tutoque illos sistam, et miserebor eorum</l>
+<l>Ut tales iterum sint, quales ante <reg orig='fuêrunt'>fuerunt</reg></l>
+<l>Quam illos abieci, gentes et dididi in omnes</l>
+<l>Nam DEUS illorum facili accipiam aure precatus:</l>
+<l>v. 7. Ephraiimitae pulsabunt vertice olympum</l>
+<l>Sublimi: illorum pectus madidumque natabit</l>
+<l>Laetitia veluti veteris vini imbre vaporans;</l>
+<l>Illorum et Nati gaudebunt ista videntes,</l>
+<l>Atque animi illorum exsultabunt laude Iehovae.</l>
+<l>v. 8. Sibilo eos allectabo, cogamque redemptos,</l>
+<l>Rursus et augescent, <reg orig='anteactâ'>anteacta</reg> aetate <reg orig='fuêre'>fuere</reg></l>
+<l>v. 9. Ut prius exaucti <gap desc='crux'/> Gentes et conseram in omnes</l>
+<l>Ut nostri memores psalmos laeto ore profundant</l>
+<l>Extremis positi Terrae regionibus: atque</l>
+<pb id='s034'/>
+<l>Longa viae spatia emensi vestigia quaerant</l>
+<l>Cum Natis, Patriae dulcis, Genitalia et arva.</l>
+<l>v. 10. Inde Tuis illos Campis Aegypte reducam</l>
+<l>Assyrioque Solo rursum revocabo, Colonos</l>
+<l>Gilliadis Terrae efficiens Libanique virentis</l>
+<l>Perpetuis Cedris indeciduaque Cupressu.</l>
+<l>v. 11. Quapropter tumidi calcans immania maestus</l>
+<l>Dorsa maris, fluctus feriet vasto aequore salsos,</l>
+<l>Tabificis Phoebi radiis consumpta profunda</l>
+<l>Arescentque, amnis vivi laticesque peribunt</l>
+<l>Assyriae Fastus tum deicietur iniquus,</l>
+<l>Sceptrumque Aegypti tunc imminuetur opimum.</l>
+<l>v. 12. Confirmabo illos vero in virtute Iehovae</l>
+<l>Illius ut figant Caelesti in Nomine gressus</l>
+<l>Continuos, dicit qui sidera Numine torquet.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.11' n='11' type='chapter'>
+<argument><head>Argumentum</head>
+<lg met='dist'>
+<l>Iudaeos reprobos, Templi ipsa ruina sequetur: </l>
+<l rend='indent'>Terdeno CHRISTUS venditur asse DEUS.</l>
+</lg>
+</argument>
+<head>CAPUT UNDECIMUM.</head>
+<lg met='hexa'>
+<l>v. 1. O LIBANE a TE pandatur Tua Ianua, ut Ignis</l>
+<l>Incidat, atque Tuas cedros absumat edaci</l>
+<l><reg orig='Flammâ'>Flamma</reg>, per ramos perque alta cacumina victor</l>
+<l>v. 2. Plange Abies, Cedrus quia corruit icta <reg orig='rapinâ'>rapina</reg></l>
+<l>Sylvifragi venti: et quia disturbata domorum</l>
+<l>Splendida Tecta: et vos ululate in vertice summo</l>
+<pb id='s035'/>
+<l>Robora Baschanis, quia facta est caedua silva.</l>
+<l>13. Luctisonae voces Pastorum hinc inde boatu</l>
+<l>Immenso auditae: siquidem magalia eorum</l>
+<l>Devastata iacent, visi scymnique Leonum</l>
+<l>Horrendum irrugire, ubi fracta superbis sacri</l>
+<l>v. 4. Iardenis <gap desc='crux'/> sic Iova Deus meus inquit, in agris</l>
+<l>v. 5. Sacrificas defendite oves viridantibus! <gap desc='crux'/> illas</l>
+<l>Nam mactant Possessores sine criminis ullo</l>
+<l>Praetextu sceleris securi omnisque reatus</l>
+<l>Et qui venumdant Balantes, voce loquuntur</l>
+<l>Communi, sit Laus aeterno aeterna IEHOVAE</l>
+<l>Cuius ope ingentem grata numeramus opum vim:</l>
+<l>Et qui debebant illas per pascua rura</l>
+<l>Ducere, crudeles illis non parcere <reg orig='nôrunt'>norunt</reg></l>
+<l>v. 6. Iccirco posthac non huius civibus agri</l>
+<l>Iratus parcam, grandi intonat ore IEHOVA:</l>
+<l>Armabo unanimes in praelia mutua fratres,</l>
+<l>Exacuam adversus Regem, populum Ipse furentem,</l>
+<l>Et populo rursus Regem reddam Ipse Tyrannum:</l>
+<l>Sic erit ut propriis attrita haec viribus ora</l>
+<l>Langueat, et penitus (nullo eripiente) ruinis</l>
+<l>Succussam indigenis <reg orig='altâ'>alta</reg> vi subruat aetas.</l>
+<l>v. 7. Iccirco pavi mactandas morte bidentes</l>
+<l>Crudeli, ô Grex Lanaris Baculumque biformem</l>
+<l>Accipiens quem parte <reg orig='unâ'>una</reg> Placidum Ipse vocavi,</l>
+<l>Turbidum at ex <reg orig='aliâ'>alia</reg>: custos sum factus ego harum</l>
+<l>v. 8. Nunc ovium <gap desc='crux'/> atque uno pecoris tres mense Magistros</l>
+<l><reg orig='Excîdi'>Excidi</reg> penitus corde indignante, furentes</l>
+<l>Horum aestus animi <reg orig='quîs'>quis</reg> <reg orig='tectâ'>tecta</reg> pectoris <reg orig='ollâ'>olla</reg></l>
+<l>Consilia adversum me coxere impia falsi.</l>
+<pb id='s036'/>
+<l>v. 9. Et dixi: Posthac viridi non gramine pascam</l>
+<l>Atque salutiferis vos herbis; quae interitura est</l>
+<l>Intereat; quae semianimo sed corpore languet,</l>
+<l>Langueat: et vitam ponat per strata viarum, et</l>
+<l>Altera in Alterius grassetur viscera morsu</l>
+<l>v. 10. Vivida Carnivoro: <gap desc='crux'/> arripiens Baculumque salutis</l>
+<l>Quem dixi Placidum, Fregi, et fracto irrita dixi</l>
+<l>Sint quae cum populis pepigi istis foedera rursus:</l>
+<l>v. 11. Cumque abrupta essent recte Grex ille misellus</l>
+<l>Qui me observabat didicit Verba esse Iehovae.</l>
+<l>v. 12. Illis dixeram enim, si vobis forte videtur,</l>
+<l>Atque oculis placitum vestris numerate mihi ipsi</l>
+<l>Quam magno constem! si non; desistite! et illi</l>
+<l><reg orig='Appendêre'>Appendere</reg> meum pretium ultro ex aere notato</l>
+<l>v. 13. Triginta <reg orig='numûm'>numum</reg> <gap desc='crux'/> sed mi praecepit IOVA</l>
+<l>Proice eos, atque in Figulum converte lutosum.</l>
+<l>Magnificum en pretium, cuius regionibus istis</l>
+<l>Me dignum hi reputant, et <reg orig='Numûm'>Numum</reg> argentea cusa</l>
+<l>Triginta accipiens, proieci in sacra Iehovae</l>
+<l>Atria, versanti post distribuenda tenaces</l>
+<l>Argillas currente <reg orig='rotâ'>rota</reg>, et figularibus ausis.</l>
+<l>v. 14. Hinc ego <reg orig='succîdi'>succidi</reg> Baculum alterum, eumque doloris</l>
+<l>Turbidum, ut excisam fraterni copula Nodi</l>
+<l>Israeligenas inter, genus atque Iehudae</l>
+<l>v. 15. Diffluat. <gap desc='crux'/> Edixit tandem mihi Iova, Magistri</l>
+<l>Indue Cor stulti, tum pastoralia quaere</l>
+<l>v. 16. Instrumenta! <gap desc='crux'/> istis etenim regionibus ecce</l>
+<l>Ponam pastores, qui non in devia saltus</l>
+<l>Abreptas pecudes gressu properante reducent.</l>
+<l>Nec teneros ovium ad fetus agnosque revisent</l>
+<pb id='s037'/>
+<l>Nec quoque semianimes <reg orig='Ieiunâ'>Ieiuna</reg> ex fauce luporum</l>
+<l>Eripient: medicante manu laesasve levabunt</l>
+<l>Sive salutiferis per prata virentia succis</l>
+<l>Deducent tutas, <reg orig='densâ'>densa</reg> at pinguedine carnes</l>
+<l>Distentas harum comedent, ventrique voraci</l>
+<l>Donabunt, solido rumpeturque ungula cornu.</l>
+<l>v. 17. Vae Vae Pastori sua qui fugiente recessu</l>
+<l>Deserit armenta! illius libratus in auras</l>
+<l>Bracchia iam incidet Gladius, tum desuper eius</l>
+<l>Dextro oculo infliget vulnus: Sic Brachia prorsus</l>
+<l>Arescent, et dextrum oculum caligo perennis</l>
+<l>Incurret, caecis et protinus imbuet umbris.</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.12' n='12' type='chapter'>
+<argument><head>Argumentum</head>
+<lg met='dist'>
+<l><reg orig='Christicolûm'>Christicolum</reg> variis qui affligunt agmina poenis </l>
+<l rend='indent'>Puniet ipse DEUS, vincet et ipse pius.</l>
+</lg>
+</argument>
+<head>CAPUT DUODECIMUM.</head>
+<lg met='hexa'>
+<l>v. 1. IMpetus hic verbi pro Israele, Iehovae</l>
+<l>Atque oneris series, sacro ore Iehova profatur</l>
+<l>Astriferi late qui caeli expandit amictum,</l>
+<l>Atque incorruptae fundavit moenia Terrae</l>
+<l>Inque Homine effinxit divinae particulam aurae.</l>
+<l>v. 2. Ecce soporiferum populis Solymam omnibus urbem</l>
+<l>Impingam Calicem, et quando circumdabit Hostis</l>
+<l>Denso illam vallo, et numeroso milite cinget,</l>
+<l>Tunc vicinae etiam vastabitur ora Iehudae</l>
+<pb id='s038'/>
+<l>v. 3. Eveniet certoque <reg orig='illîus'>illius</reg> tempore lucis</l>
+<l>Disponam ut Solymam, ingenti insuperabile mole</l>
+<l>Pondere et immani saxum, quod tollere si quis</l>
+<l>Audeat <reg orig='insanâ'>insana</reg> vi, frustra tollere tentet</l>
+<l>Contusis laesus digitis manibusque cruentis:</l>
+<l>Hoc licet attentent communi foedere Gentes</l>
+<l><reg orig='Totîus'>Totius</reg> Mundi qua Terra habitabilis exstat.</l>
+<l>v. 4. Aetheris Igniferi Moderator, luce, ait <reg orig='illâ'>illa</reg></l>
+<l>Attonitos ego Equos reddam, atque <reg orig='amentiâ'>amentia</reg> eorum</l>
+<l>Insessores confundam, et super ipsa Iehudae</l>
+<l>Saecla oculos tendens vigiles, orisque fenestras</l>
+<l>Quadrupedes populorum orbabo luminis usu</l>
+<l>Omnes, nec cernent mage lucida Tela diei.</l>
+<l>v. 5. Atque Duces laeto mussabunt corde Iehudae:</l>
+<l>Robur et Auxilium nobis, Solymaeque Colonis</l>
+<l>In Domino Astriferi Caeli et Terrae omniparentis</l>
+<l>v. 6. Ecce Duces illo disponam tempore Iudae</l>
+<l>Igne focum urentem loca lignorum, atque furentem</l>
+<l>Taedam per densos stipulae crepitantis acervos</l>
+<l>Qui a <reg orig='dextrâ'>dextra</reg> populos absument aque <reg orig='sinistrâ'>sinistra</reg></l>
+<l>Parte agri cunctos: Solymae Loca Sola manebunt</l>
+<l>Integra et <reg orig='antiquâ'>antiqua</reg> sedes regione tenebunt.</l>
+<l>v. 7. Altitonans quoque servabit tentoria Iudae</l>
+<l>Ne Iessaea Domus, Solymorum urbs atque superba</l>
+<l>Magnifico factu se supra extollat Iudam.</l>
+<l>v. 8. Temporis illius puncto Solymis habitantes</l>
+<l>Proteget Ipse Deus cives, atque Infimus horum</l>
+<l>Davidem aequiparabit, in illo tempore Regem</l>
+<l>Ipsa domus <reg orig='Davîdis'>Davidis</reg> erit similisque IEHOVAE</l>
+<l>Aedi, et coram illis superae velut Angelus orae.</l>
+<pb id='s039'/>
+<l>v. 9. Tum quaeram prorsus cunctas exscindere Gentes</l>
+<l>Quae contra Solymam signa <reg orig='explicuêre'>explicuere</reg> cruenta</l>
+<l>v. 10. Sed supra Cives Solymae, supraque penates</l>
+<l>Iessaeos ubertim effundam Flaminis auram</l>
+<l>Aetherei prece distentam, pretioque Salutis:</l>
+<l>Respicientque ad me quem <reg orig='transfixêre'>transfixere</reg> maligni</l>
+<l>Et super hoc miseras lugubri voce querelas</l>
+<l>Edent, unigenam ceu deflet Femina Natum</l>
+<l>Qui morbo absumptus vitai claustra reliquit,</l>
+<l>Atque sinum implebunt lacrimarum flumine vivo</l>
+<l>Primipara ut plangit, lacrimarum gurgite amaro</l>
+<l>Quam peperit prolem duro nisu ipsa recenter</l>
+<l>Si videat subito Herculei diro impete Morbi</l>
+<l>Multimodis concussam, animam exhalare tenellam.</l>
+<l>v. 11. Exorietur eo crudelis Tempore planctus</l>
+<l>Qualis Hadadrimmone olim <reg orig='positâ'>posita</reg> exstitit ingens</l>
+<l>Valle Megidduntis, <reg orig='Phariâ'>Pharia</reg> cum forte <reg orig='sagittâ'>sagitta</reg></l>
+<l>Ioschiias vulnus letale acceperat ictus.</l>
+<l>v. 12. Mota gravi luctu Tellus immugiet omnis,</l>
+<l>Quaeque Tribus tristes effundet ab ore querelas;</l>
+<l>Ipsa Domus planget <reg orig='Davîdis'>Davidis</reg> voce seorsim</l>
+<l><reg orig='Horrificâ'>Horrifica</reg> et privos muliebria saecula questus</l>
+<l>Illius instituent: queribunda domusque seorsim</l>
+<l>Nathanis planget, Grex Femineusque ululabit.</l>
+<l>v. 13. Lugebitque Domus Levi seiuncta sonoris</l>
+<l>Fletibus uxorum: stirps Schimhitica ipsa dolebit</l>
+<l>Maesta, nec admittet missos ex pectore fletus</l>
+<l>v. 14. Femineo: reliquaeque Tribus querulo ore viritim</l>
+<l>Planctum edent, sexu abiunctim lamenta trahente.</l>
+</lg>
+<pb id='s040'/>
+</div2>
+<div2 id='RhZN.01.13' n='13' type='chapter'>
+<argument><head>Argumentum</head>
+<lg met='dist'>
+<l>Culpa remittetur, Cultus Vanique peribunt; </l>
+<l rend='indent'>Passio, Divisus, Crux probat ipsa pios.</l>
+</lg>
+</argument>
+<head>CAPUT XIII.</head>
+<lg met='hexa'>
+<l>v. 1. ILlo Tempore Fons erumpet dulcis Aquae, qui</l>
+<l>Davidis Tribui, Solymorum et civibus undas</l>
+<l>Opportunas praebebit discrimina contra</l>
+<l>Omnigenae culpae, scelerumque immunda patrata.</l>
+<l>v. 2. Ipso hoc continget quoque tempore dicit IOVA</l>
+<l>Ut quos vana Manus Plastae ex solido aere Deastros</l>
+<l>Sculpserat, exscindam, ne Homini vel Imago supersit</l>
+<l>Nominis ulli horum, quin a Regione movebo</l>
+<l>Larvatos vates Tenebrosae et Noctis Erinyes</l>
+<l>v. 3. Atque erit ut si quis conetur pandere posthac</l>
+<l>Praescius eventus Venturos fataque Caeli,</l>
+<l><reg orig='Huîc'>Huic</reg> dicant Pater et sua Mater cuius in alvo</l>
+<l>Delituit decimum in mensem, quam Templa tueri</l>
+<l>Igniferi potuit Caeli, Tu morte <reg orig='propinquâ'>propinqua</reg></l>
+<l>Proicies animam, quia falsiloquo ore Iehovae</l>
+<l>Usurpas Nomen, nostri traiectus et Ensis</l>
+<l>Cuspide procumbes, si post meditaberis ore</l>
+<l>Vaticino rerum casus praeferre futuros.</l>
+<l>v. 4. Atque erit ut Vates ipsi sua visa perosi</l>
+<l>Abstineant verbis praesagis: nec mage quaerant</l>
+<l>Villosae arte Togae mendacia spargere in aures</l>
+<l>v. 5. Insipidi vulge, <gap desc='crux'/> sed quisque fatebitur ultro</l>
+<pb id='s041'/>
+<l>Non ego sum Vates sed agri Rurisque colonus</l>
+<l>Mancipio Alterius teneris assuetus ab annis.</l>
+<l>v. 6. Quod si quis quam illi tum dixerit eia age Plagae</l>
+<l>Hae Manuum quid designant quas cerno tuarum?</l>
+<l>Continuo dicet: sunt praemia certa Laboris</l>
+<l>Hae Plagae nostri, <reg orig='quîs'>quis</reg> sum percussus in aede</l>
+<l>Illorum qui me sociali pectore <reg orig='amârunt'>amarunt</reg>.</l>
+<l>v. 7. Egredere ô Ensis <reg orig='vaginâ'>vagina</reg> Liber, in ipsum</l>
+<l>Pastorem insurge, atque virum mihi proximum, IOVA</l>
+<l>Praecipit Armipotens: Pastorem percute! et omnis</l>
+<l>Grex ovium dispergetur: minimasque reducam</l>
+<l>v. 8. Cunctipotente manu: <gap desc='crux'/> Totoque erit orbe (Iehova</l>
+<l>Spondet!) ut excisis Terrarum partibus, atque</l>
+<l>Confectis geminis, superet pars Tertia tantum:</l>
+<l>v. 9. Atque per ardentes ibit Pars Tertia flammis</l>
+<l>Fornaces rapidis. Duce me, et mundabitur instar</l>
+<l>Argenti nitidi, et <reg orig='formâ'>forma</reg> purgabitur auri</l>
+<l>Fulgentis: Nomenque meum prece poscet <reg orig='honorâ'>honora</reg></l>
+<l>Atque ego percipiam facili aure et Nominitabo</l>
+<l>Mancipium Populi, ME rursus et ille vocabit</l>
+<l>Imperio Dominum stabili Auctoremque Iehovam!</l>
+</lg>
+</div2>
+<div2 id='RhZN.01.14' n='14' type='chapter'>
+<argument><head>Argumentum.</head>
+<lg met='dist'>
+<l>Magna Dies domini, CHRISTI regnumque patescet </l>
+<l rend='indent'>Gentibus, et LEGIS Foedera prima ruent.</l>
+</lg>
+</argument>
+<head>CAPUT XIV.</head>
+<lg met='hexa'>
+<l>v. 1. ECce aderit Tempus, sic Fata rotante Iehova,</l>
+<l>Ipsa Tui in gremio, quo tristi parta <reg orig='rapinâ'>rapina</reg></l>
+<pb id='s042'/>
+<l>v. 2. Dividat Hostis atrox: <gap desc='crux'/> omnes in praelia Gentes</l>
+<l>Namque ciebo, atque ad Solymorum moenia ducam,</l>
+<l>Ariete quassatus ferrato murus hiatum</l>
+<l>Ingentem accipiet, sese penetrabit in urbem</l>
+<l>Captam invicta Phalanx, plangent victique penates:</l>
+<l>Diripientur opes, crebrescet flebile murmur,</l>
+<l><reg orig='Mixtâ'>Mixta</reg> plebe Patres morientur, et ipsa replebit</l>
+<l>Corporibus Mors Exanimis Delubra Iehovae.</l>
+<l>Undique quin posses <reg orig='caesâ'>caesa</reg> Cervice <reg orig='vidêre'>videre</reg></l>
+<l>Matribus et Patribus Natos super edere vitam</l>
+<l>Castris vallato et Naturae tollere vitam</l>
+<l>Infanti, <reg orig='terebratâ'>terebrata</reg> alvo praegnantis ab Hoste:</l>
+<l>Virginitas turpes patietur Militis ausus</l>
+<l>Impuri, Stuprumque ferent Pueri atque Puellae</l>
+<l>Assiduusque Torum castum incestabit Adulter.</l>
+<l>Pars urbis media intectis per colla catenis</l>
+<l>Tracta alias procul hinc proh deportabitur oras,</l>
+<l>Relliquiae at Populi non exscindentur in urbe.</l>
+<l>v. 3. Expediet DEUS arma sua, et contra impiger illas</l>
+<l>Pugnabit Gentes Bellator Martis et Artis</l>
+<l>Robore munitus quo deleat agmina tanta</l>
+<l>v. 4. Atque ubi tuta pedum figet vestigia monte</l>
+<l>Stans in Olivifero, qua Soli respicit ortum</l>
+<l>A Solymis: en mons late disserpet olivae</l>
+<l>Solis ab Exortu, versus Confinia Solis</l>
+<l>Occidui, in gremio ruptus vastasque lacunas</l>
+<l>Provolvet Terrae pandens loca subcava <reg orig='hiatû'>hiatu</reg>,</l>
+<l>Et Pars ad Boream incumbet, pars Montis ad Austrum</l>
+<l>Inclinata ibit, quo venti prona premet vis.</l>
+<l>v. 5. Dividui et Montis valles fugietis apertas</l>
+<pb id='s043'/>
+<l>Quae pene Azalam pertingunt, edita Montis</l>
+<l>Quaerentes quem selegit, pedibusque salutem</l>
+<l>Alatis vestram ponetis agente pavor:</l>
+<l>Ne velut Uzziae tenuit cum sceptra Iehudae</l>
+<l>Regia, Temporibus magno concussa tumultu</l>
+<l>Terra tremat, pedibus raptim et subtracta feratur</l>
+<l>In Barathrum, rerumque sequatur prodita summa</l>
+<l>Funditus, et fiat Mundi confusa ruina.</l>
+<l>Ipse Iehova DEUS meus, illo tempore tandem</l>
+<l>Progredietur, Sanctorum stipante <reg orig='catervâ'>caterva</reg></l>
+<l>v. 6. Non apparebit densae illo tempore Lucis</l>
+<l>Splendida Maiestas fumabit frigore Tellus</l>
+<l>v. 7. Atque erit orta Dies quem solus novit IOVA</l>
+<l>Non luce et tenebris distinctus vesperis <reg orig='Horâ'>Hora</reg></l>
+<l>v. 8. Lux erit alta, <gap desc='crux'/> fluent atque illo Tempore Aquarum</l>
+<l>Vivarum Rivi ex Solymis, qui flumine partim</l>
+<l>In mare labentur, cuius se e gurgite tollit</l>
+<l>Sol oriens, partim versus maris extima dorsa</l>
+<l>Decurrent, quantisper Hiems Aestasque vigebunt.</l>
+<l>v. 9. Atque IEHOVA reget flammantia moenia Mundi</l>
+<l>Totius: unus erit DEUS, unum Nomen et eius.</l>
+<l>v. 10. Et Tellus omnis calcabitur undique gressu</l>
+<l>Aequali a Gebaho, veluti Campestria versus</l>
+<l>Rimmonem, Solymae qua Nubibus ingruit Auster</l>
+<l>Exaltata suis nam sedibus illa manebit</l>
+<l>A <reg orig='portâ'>porta</reg> Biniaminis ut septem alta triones</l>
+<l>Respicit ad portam primam quae lumina Solis</l>
+<l>Occidi sentit: quin usque ad limina Portae</l>
+<l>Solis ad exortum positae (dedit Angulus illi</l>
+<l>Nomen) et a celso vexatae culmine Turris</l>
+<pb id='s044'/>
+<l>Flatibus Austrinis <reg orig='Chananêelis'>Chananeelis</reg> Nomine dictae</l>
+<l>Regis adusque lacus quos musto Torcula adimplent.</l>
+<l>v. 11. Atque colent illam, nec plus anathema feretur:</l>
+<l>Securi peragent Solymae namque otia Cives.</l>
+<l>v. 12. Plaga erit Haec vero, gentes <reg orig='quâ'>qua</reg> iratus IOVA</l>
+<l>Afficiet quae turmatim in certamina diri</l>
+<l>Adversus Solymam <reg orig='descendêre'>descendere</reg> aspera Belli:</l>
+<l>More liquescet Aquae cuiusvis Tabida facta</l>
+<l>De Nive manantis Caro: quam vis munere standi</l>
+<l>Fungatur geminus bene pes, nec crura vacillent:</l>
+<l>Atque viis oculi propriis humore natabunt.</l>
+<l>Putidulo. et Linguae vis putri desinet ore.</l>
+<l>v. 13. Ipse Iehova illos anget Vexamine magno,</l>
+<l>Alter et Alterius prensabit Brachia dextris</l>
+<l>v. 14. Atque manum vincet manus: <gap desc='crux'/> immo armata Iehuda</l>
+<l>Pugnabit contra Solymam, ut cogatur opum vis</l>
+<l>Quam possederunt Gentes quas Terminus agri</l>
+<l>Vicini lambit, rudis auri pondera magna</l>
+<l>Argentique gravis moles, et vestium Amictus</l>
+<l>v. 15. Innumerabilium <gap desc='crux'/> quin Plagae semina vergent</l>
+<l>Letiferae per Equos Mulos Asinosque Camelosque</l>
+<l>Et varia species Animantum quae ipsa pererrant</l>
+<l>Castra, paris casu deponent Corpora mortis</l>
+<l>v. 16. Exanimata: <gap desc='crux'/> petent Solymae et Sacra Templa quotannis</l>
+<l>Relliquiae ex populis cunctis, quorum arma furoris</l>
+<l>Experta est Solyma, ut cultu Venerentur IOVAM</l>
+<l>Supplice qui Caeli Terraeque est <reg orig='Induperator'>Endoperator</reg>,</l>
+<l>Atque Tabernacli celebrent sollemnia Festa</l>
+<l>v. 17. Atque erit ex tribubus si forte ascendere nolint</l>
+<l>Terrarum, Solymas aliqui, ad solvenda Iehovae</l>
+<pb id='s045'/>
+<l><reg orig='Induperatori'>Endoperatori</reg>, Laudum praeconia, summo:</l>
+<l>Ut super hos Caeli pluvius non decidat Humor.</l>
+<l>v. 18. Quod si Habitatores Terrae Aegypti ire recusent,</l>
+<l>Frugiferum super hos Dominus nec depluet imbrem:</l>
+<l>Hic poenae modus est, quo omnes Prudentia Iovae</l>
+<l>Afficiet Gentes quae pigrantur celebrare</l>
+<l>Festa Tabernacli sollemnia: et unica culpae haec</l>
+<l>Poena erit Aegypti et populorum, incuria cessat</l>
+<l>Quorum Festa Tabernacli exercere virentis.</l>
+<l>v. 19. <reg orig='Illâ'>Illa</reg> luce ferent voque Tintinnabula Equorum</l>
+<l>Inscriptum Iovae Nomen, Sanctumque <reg orig='decôrem'>decorem</reg></l>
+<l>Atque ollae <reg orig='sacrô'>sacro</reg> aede DEI Crateras honoros</l>
+<l>v. 20. Turicremi altaris referent: <gap desc='crux'/> Erit omnis enim olla</l>
+<l>Et Solymae et Iudae posthac Sacrosancta Iehovae</l>
+<l>Belligero: ut cuncti qui sacrificare <orig reg='petessunt'>petissunt</orig></l>
+<l>Illas usurpent, cocturae habilesque reponant:</l>
+<l>Nec Cenahanaeus visetur in aede Iehovae</l>
+<l>Amplius Armisoni post punctum Temporis illud.</l>
+</lg>
+</div2>
+<closer>
+<reg orig='Scientiâ'>Scientia</reg> et <reg orig='Conscientiâ'>Conscientia</reg>
+Naturae DEO
+Laborando Orando.</closer>
+<closer>FINIS.</closer>
+</div1>
+</body>
+<back>
+<pb id='s046'/>
+<div type='poem'>
+<head>AUSON. EPH:</head>
+<lg met='hexa'>
+<l>---- Haec semita Caeli est,</l>
+<l><reg orig='Quâ'>Qua</reg> Proceres <reg orig='abiêre'>abiere</reg> pii: <reg orig='quâque'>quaque</reg> integer olim</l>
+<l>Raptus quadriiugo penetrat super aethera curru</l>
+<l>HELIAS, et solido cum corpore praevius HENOCH.</l>
+</lg>
+</div>
+<gap desc='illustration'/>
+<div type='imprint'>
+<p>NORIBERGAE, Typis Abrahami Wagenmanni.</p>
+</div>
+</back>
+</text>
+</TEI.2>

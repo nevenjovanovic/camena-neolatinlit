@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.uni-mannheim.de/mateo/camenatools/DTD/teixlite.dtd"><TEI.2>
+ <teiHeader type="text">
+    <fileDesc TEIform="fileDesc">
+      <titleStmt TEIform="titleStmt">
+        <title TEIform="title">Hebraeis</title>
+        <title type="sub" TEIform="title">Machine-readable text</title>
+        <author n="Frischlin" TEIform="author">Frischlin, Nikodemus</author>
+        <editor TEIform="editor" role="editor">Frischlin, Nikodemus</editor>
+      </titleStmt>
+      <editionStmt TEIform="editionStmt">
+        <edition TEIform="edition">XML version, markup prototype, December 1999</edition>
+        <respStmt TEIform="respStmt"><name TEIform="name">Borkenhagen</name><resp TEIform="resp">markup</resp></respStmt>
+      </editionStmt>
+
+			<publicationStmt TEIform="publicationStmt">
+				<publisher TEIform="publisher">Camena</publisher>
+				<address TEIform="address">
+				  <addrLine TEIform="addrLine"><anchor n="http://www.uni-mannheim.de/mateo/camena/frisc2" type="href" id="frisc2" TEIform="anchor"/></addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt TEIform="notesStmt">
+ 			 <note type="href" anchored="yes" TEIform="note" place="unspecified">http://www.uni-mannheim.de/mateo/camena/</note> 
+			 <note type="pathname" anchored="yes" TEIform="note" place="unspecified">frisc2</note>
+ 			 <note type="filename" anchored="yes" TEIform="note" place="unspecified">frischlinhebraeis.html</note>
+ 			 <note type="titleimage" anchored="yes" TEIform="note" place="unspecified">frisc001.jpg</note>
+		 	 <note type="srcfile" anchored="yes" TEIform="note" place="unspecified">frischlinhebraeis.xml</note>
+  			 <note type="imgpath" anchored="yes" TEIform="note" place="unspecified">frisc2/jpg</note>
+			 <note type="imgtype" anchored="yes" TEIform="note" place="unspecified">html</note>
+			</notesStmt>
+
+      <sourceDesc default="NO" TEIform="sourceDesc">
+        <bibl default="NO" TEIform="bibl">Straßburg: Jobin, 1599.</bibl>
+      </sourceDesc>
+    </fileDesc>
+   <encodingDesc TEIform="encodingDesc">
+      <editorialDecl default="NO" TEIform="editorialDecl">
+          <p TEIform="p">Regeln fuer die Texterfassung 03/2001</p>
+        </editorialDecl>
+      <refsDecl TEIform="refsDecl" doctype="TEI.2">
+          <p TEIform="p">not necessary</p>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc TEIform="revisionDesc">
+        <change TEIform="change">
+          <date TEIform="date">30 November 2001</date>
+          <respStmt TEIform="respStmt">
+            <name TEIform="name">Susanne Mussmann</name>
+            <resp TEIform="resp">markup</resp>
+          </respStmt>
+          <item TEIform="item">TEI header added</item>
+        </change>
+        <change TEIform="change">
+	          <date TEIform="date">14 June 2002</date>
+	          <respStmt TEIform="respStmt">
+	            <name TEIform="name">Susanne Mussmann</name>
+	            <resp TEIform="resp">markup</resp>
+	          </respStmt>
+	          <item TEIform="item">correcting structural tagging, suggestions: include speaker names (only partly included so far)</item>
+        </change>
+    </revisionDesc>
+ </teiHeader>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<text><gap id="GR"/><gap id="reader"/><body><div1 type="book">
+
+<pb id="s373" n="325" TEIform="pb"/>
+
+<head>
+HEBRAEIDOS LIBER VNDECIMVS. <name type="person" TEIform="name">VLRICI BOLLINGERI</name>, <abbr expan="?" TEIform="abbr">P.L.</abbr> Monostichon. In <abbr expan="librum" TEIform="abbr">Lib.</abbr> eundem. Vndecimo <name type="religion" TEIform="name">Samaraea</name> cadit, <name type="religion" TEIform="name">Solymaea</name> resurgit.
+</head>
+<note anchored="yes" TEIform="note" place="unspecified">2 <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 15. <abbr expan="versus" TEIform="abbr">vers.</abbr> 21. 2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 26. <abbr expan="versus" TEIform="abbr">vers.</abbr> 1. <name type="religion" TEIform="name">Asariae</name> Regis <name type="religion" TEIform="name">Hierosolymae</name>. munitiones.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="religion" TEIform="name">ASarias</name> vero postquam suscepit aviti</l>
+<l TEIform="l" part="N">Freni throni, populo Rex omni lectus <name type="religion" TEIform="name">Iudae</name>:</l>
+<l TEIform="l" part="N">Protinus <name type="religion" TEIform="name">Elothiam</name> priscis dicionibus urbem</l>
+<l TEIform="l" part="N">Restituit caro genitori nuper ademptam.</l>
+<l TEIform="l" part="N">Inde <name type="religion" TEIform="name">Palaestinis</name> ultricia finibus arma</l>
+<l TEIform="l" part="N">Intulit, et validae destruxit moenia <name type="religion" TEIform="name">Gathae</name>,</l>
+<l TEIform="l" part="N">Et murum <name type="religion" TEIform="name">Asoti</name>, portasque evertit <name type="religion" TEIform="name">Iabnae</name>.</l>
+<l TEIform="l" part="N">His ubi post firmas exstruxit in urbibus arces,</l>
+<l TEIform="l" part="N">Praesidiisque hostem contra munivit atrocem.</l>
+<l TEIform="l" part="N">Quin <name type="religion" TEIform="name">Arabes</name> etiam, populumque <name type="religion" TEIform="name">Ammone</name> creatum</l>
+<l TEIform="l" part="N">Contudit, et victas stipendia pendere gentes,</l>
+<l TEIform="l" part="N">Et subiecta sibi demittere cola coegit.</l>
+<l TEIform="l" part="N">Illius hinc lata dicione potentia crevit,</l>
+<l TEIform="l" part="N">Famaque terrarum toto percrebuit orbe.</l>
+<l TEIform="l" part="N">Nam pietatis erat sincerae cultor, et aequi</l>
+<l TEIform="l" part="N">Iustitiaeque tenax, rigidi et servator honesti.</l>
+<l TEIform="l" part="N">Illi <name type="religion" TEIform="name">Sacharias</name> vates, quo consule qiucquid</l>
+<l TEIform="l" part="N">Eregat eventus habuit, Iove dante, secundos.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Turribus hinc <name type="religion" TEIform="name">Solymam</name> tranquillo tempore pacis</l>
+<l TEIform="l" part="N">Muniit, et muros ex omni parte refecit,</l>
+<l TEIform="l" part="N">Textilibus circum pinnis, atque aggere tutos,</l>
+<l TEIform="l" part="N">Essent ut <name type="religion" TEIform="name">Solymae</name> sua propugnacula sedi.</l>
+
+<pb id="s374" n="326" TEIform="pb"/>
+
+<l TEIform="l" part="N">Cisternas itidem effodit tellure sub alta,</l>
+<l TEIform="l" part="N">Ne qua suum undarum premeret penuria civem.</l>
+<l TEIform="l" part="N">Praeterea avorum et ruris studiosus amator,</l>
+<l TEIform="l" part="N">Et pecudum dives iuramentorumque beata</l>
+<l TEIform="l" part="N">Fetura, in campis armenta et vallibus imis</l>
+<l TEIform="l" part="N">Plurima pascebat, tum multus collibus altis</l>
+<l TEIform="l" part="N">Vinitor, et terrae <name type="religion" TEIform="name">Carmeli</name> in rure colonus.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At bellatorum Regi huic exercitus ingens:</l>
+<l TEIform="l" part="N">Qui Scribae, <name type="religion" TEIform="name">Hananiae</name> Duci, turmaeque Magistro</l>
+<l TEIform="l" part="N">Nomina <name type="religion" TEIform="name">Maseiae</name> solito de more professi.</l>
+<l TEIform="l" part="N">Sescenta, et capitum duo millia, vivida bello</l>
+<l TEIform="l" part="N">Pectora: <reg orig="queîs" TEIform="reg">quibus</reg> suberant equitum peditumque catervae,</l>
+<l TEIform="l" part="N">Ter centum lecti septenaque millia coetus,</l>
+<l TEIform="l" part="N">Quingentique viri vibrandis ensibus apti.</l>
+<l TEIform="l" part="N">Omnes magnanimi, et fortes praestantibus ausis:</l>
+<l TEIform="l" part="N">Seu pro Rege suo pugnandum, et finibus orae,</l>
+<l TEIform="l" part="N">Sive armis inferre aliquam vim posceret usus</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cives quin etiam clipeis instruxit et hastis,</l>
+<l TEIform="l" part="N">Loricasque dedit, galeasque, arcusque recurvos,</l>
+<l TEIform="l" part="N">Et teretes fundas mittendis glandibus aptas.</l>
+<l TEIform="l" part="N">Denique ballistas tulit, ingeniosus ut auctor,</l>
+<l TEIform="l" part="N">Et catapultarum tormenta in turribus altis</l>
+<l TEIform="l" part="N">Disposuit, nervo quae concita saxa rotarent.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mens tamen <name type="religion" TEIform="name">Asariae</name> rebus sublata secundis,</l>
+<l TEIform="l" part="N">Dum nescit servare modum, quodam impete caeco</l>
+<l TEIform="l" part="N">Corruit in vetitum, Caelique exasperat iram:</l>
+<l TEIform="l" part="N">Nam <name type="religion" TEIform="name">Salomonaei</name> ingressus sacraria templi,</l>
+<l TEIform="l" part="N">Turicremam sese confert furiosus ad aram,</l>
+<l TEIform="l" part="N">Quodque Sacerdotum est votiva adolebat acerra.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hic vero <name type="religion" TEIform="name">Asarias</name> cognominis, ora Sacerdos</l>
+<l TEIform="l" part="N">Ecerit in Regem, simul octoginta ministri</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Levigenae</name>, doctique viri, Legumque periti:</l>
+</lg>
+<q who="vates" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Non est, <name type="religion" TEIform="name">Asaria</name> comissum Regibus istud</l>
+<l TEIform="l" part="N">Munus (ait praesul) solis <name type="religion" TEIform="name">Arone</name> creatis</l>
+
+<pb id="s375" n="327" TEIform="pb"/>
+
+<l TEIform="l" part="N">Convenit, incenso suffire altaria ture:</l>
+<l TEIform="l" part="N">Illos quippe DEVS solos huic destinat usu,</l>
+<l TEIform="l" part="N">Et sibi sacratos pingui perfudit olivo.</l>
+<l TEIform="l" part="N">Egredere hoc templo, ne quid temerarius error</l>
+<l TEIform="l" part="N">Committat, cuius possit piguisse furentem,</l>
+<l TEIform="l" part="N">Nam nullum hac referes fugienda nomen ab ara,</l>
+<l TEIform="l" part="N">Nec magno haec rabies umquam tibi cedet honori.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dixit: at <name type="religion" TEIform="name">Asarias</name> manibus dum gestat acerram</l>
+<l TEIform="l" part="N">Indigne hos monitus tulit, iratusque benigno</l>
+<l TEIform="l" part="N">Pontifici, coepto demens, persistis eodem.</l>
+<l TEIform="l" part="N">Cum DEVS exardens dirae contagia leprae</l>
+<l TEIform="l" part="N">Immittit Regi, et niveo notat ora colore.</l>
+<l TEIform="l" part="N">Expellit subito conspecta fronte Sacerdos</l>
+<l TEIform="l" part="N">Aedibus <name type="religion" TEIform="name">Asariam</name>, ne quam contagio labem</l>
+<l TEIform="l" part="N">Aurato aspergat, leproso a Rege, sacello.</l>
+<l TEIform="l" part="N">Territus ipse etiam tam foedi semine morbi</l>
+<l TEIform="l" part="N">Dum metuit gravior ne saeviat ira Tonantis,</l>
+<l TEIform="l" part="N">Accelerat gressum, seque illa proripit aede.</l>
+<l TEIform="l" part="N">Post etiam coluit secreti limina tecti,</l>
+<l TEIform="l" part="N">Commendans regni nato moderamen <name type="religion" TEIform="name">Iothae</name>.</l>
+<l TEIform="l" part="N">Isque vices miseri patris tantisper obivit,</l>
+<l TEIform="l" part="N">Donec eum expleto leprosae tempore vitae</l>
+<l TEIform="l" part="N">Eriperet terris optadae sors sua mortis:</l>
+<l TEIform="l" part="N">Non tamen augusto Regum tumulata sepulcro</l>
+<l TEIform="l" part="N">Membra viri, dio sed tecta sub aetheris axe.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 15. <abbr expan="versus" TEIform="abbr">vers.</abbr> 8. <name type="religion" TEIform="name">Sacharias</name> Rex <name type="religion" TEIform="name">Samariae</name>.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Illo Rege tamen vivo, atque superstite terris,</l>
+<l TEIform="l" part="N">Tristia <name type="religion" TEIform="name">Ierobeae</name> magni post funera Regis,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samariam</name> Domini rexerunt quattuor oram.</l>
+<l TEIform="l" part="N">Vltima nam soboles sceptro restabat <name type="religion" TEIform="name">Iaehu</name></l>
+<l TEIform="l" part="N">Promisso, cultus demens imitator aviti</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Sacharias</name>, illum populo spectante trucidat</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified"><abbr expan="ibidem" TEIform="abbr">Ibid.</abbr> <abbr expan="versus" TEIform="abbr">vers.</abbr> 13. <name type="religion" TEIform="name">Sallumus</name> Rex <name type="religion" TEIform="name">Samariae</name>.</note></l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Sallumus</name>, sexto regnantem mense, nec ultra</l>
+<l TEIform="l" part="N">Sed tamen iste etiam poenas parricida citatas</l>
+<l TEIform="l" part="N">Persolvit, nec enim mensem ultra praefuit unum</l>
+
+<pb id="s376" n="328" TEIform="pb"/>
+
+<l TEIform="l" part="N">Imperio, regnumque amisit sanguine, partum</l>
+<l TEIform="l" part="N">Sanguine, crudeli sublatus caede <name type="religion" TEIform="name">Menaemi</name>.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified"><abbr expan="ibidem" TEIform="abbr">Ibid.</abbr> <abbr expan="versus" TEIform="abbr">vers.</abbr> 15. <name type="religion" TEIform="name">Menaemus</name> Rex <name type="religion" TEIform="name">Samariae</name>.</note> 
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Namque hic <name type="religion" TEIform="name">Thirsaea</name> Regum de sede profectus</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samariam</name> venit, <name type="religion" TEIform="name">Sallumum</name>que obruit armis,</l>
+<l TEIform="l" part="N">Demisitque Orco non sicca morte tyrannum.</l>
+<l TEIform="l" part="N">Nec mora, vicinos adiit cum milite pagos,</l>
+<l TEIform="l" part="N">Caedibus et flammis grassatus in obvia <name type="religion" TEIform="name">Thapsae</name>.</l>
+<l TEIform="l" part="N">Moenia, nam cives venienti occludere portas</l>
+<l TEIform="l" part="N">Ausi, crudelis <reg orig="violârant" TEIform="reg">violaverant</reg> iussa tyranni.</l>
+<l TEIform="l" part="N">His expugnatis omnes occidit in urbe</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Tapsaea</name>, nullique seni puerove pepercit:</l>
+<l TEIform="l" part="N">Praegnantes etiam secuit, fetusque peremit,</l>
+<l TEIform="l" part="N">Vt prius occiderit, quam posset nascier infans.</l>
+<l TEIform="l" part="N">Heu, quo non adigit furvi mortalia Ditis</l>
+<l TEIform="l" part="N">Corda furor, quoties humanis sensibus orba?</l>
+<l TEIform="l" part="N">Impius hic etiam  <name type="religion" TEIform="name">Mosis</name> contemptor, et arcae:</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Nebathidae</name> vitulos, et dirum altare colebat.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tum Rex <name type="religion" TEIform="name">Assyrius</name> duxit magna agmina <name type="religion" TEIform="name">Phulus</name>,</l>
+<l TEIform="l" part="N">Vrbibus e patriis notam <name type="religion" TEIform="name">Isaelis</name> in oram:</l>
+<l TEIform="l" part="N">Sed non opposuit <name type="religion" TEIform="name">Phulo</name> sua castra <name type="religion" TEIform="name">Menaemus</name>,</l>
+<l TEIform="l" part="N">Insuper auxilium crudeli a Rege poposcit,</l>
+<l TEIform="l" part="N">Vt cives posset sibi debellare rebelles.</l>
+<l TEIform="l" part="N">Imperat ergo suis argenti mille talenta</l>
+<l TEIform="l" part="N">Vrbibus oppressis, et quinquaginta viritm</l>
+<l TEIform="l" part="N">Imponit siclos, munus regale tyranno</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrio</name>, et pretium pro sceptro Regis emendo.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 15. <abbr expan="versus" TEIform="abbr">vers.</abbr> 23. <name type="religion" TEIform="name">Pecaias 1.</name> Rex <name type="religion" TEIform="name">Samariae</name>.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Filius huic heres successit in urbe <name type="religion" TEIform="name">Pecaias</name></l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samaria</name>, binos patriae Rex forte per annos:</l>
+<l TEIform="l" part="N">Omnia maiorum similis, pietate fidoque</l>
+<l TEIform="l" part="N">Et nemorum cultu: tantum contagio morbi</l>
+<l TEIform="l" part="N">Dira potest, serpique diu: ceu quando per agros</l>
+<l TEIform="l" part="N">Grex cadit unius <corr resp="transcriber" TEIform="corr">taetra</corr> porrigine porci.</l>
+<l TEIform="l" part="N">Hunc vero contra coniuravere <name type="religion" TEIform="name">Pecaias</name></l>
+
+<pb id="s377" n="329" TEIform="pb"/>
+
+<l TEIform="l" part="N">Dux belli, <name type="religion" TEIform="name">Argobus</name>que audax, et durus <name type="religion" TEIform="name">Arias</name>,</l>
+<l TEIform="l" part="N">Et quinquaginta geniti de stirpe <name type="religion" TEIform="name">Manassis</name>:</l>
+<l TEIform="l" part="N"><note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 15. <abbr expan="versus" TEIform="abbr">vers.</abbr>25. <name type="religion" TEIform="name">Pecaias 2.</name> Rex <name type="religion" TEIform="name">Samariae</name>.</note></l>
+<l TEIform="l" part="N">Ingressique boni secura palatia Regis</l>
+<l TEIform="l" part="N">Clam ferro incautum superant, diadema <name type="religion" TEIform="name">Pecaias</name></l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Remuleo</name> natus rapit, in solioque resedit.</l>
+<l TEIform="l" part="N">Aulae rara fides, quisquis sapit arbiter aulae</l>
+<l TEIform="l" part="N">Suspectos habeat, quos aspicit aula ministros.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nec tamen hic melior fuit ulli aetate priorum</l>
+<l TEIform="l" part="N">Sive fidem spectes, seu Religionis honorem:</l>
+<l TEIform="l" part="N">Rege sed hoc iustam <name type="religion" TEIform="name">Iehovas</name> exercuit iram,</l>
+<l TEIform="l" part="N">Ob spretas pietatis opes, <name type="religion" TEIform="name">Mosaea</name>que sacra.</l>
+<l TEIform="l" part="N">Nam Rex <name type="religion" TEIform="name">Assyrius</name> terras ingressus apertas</l>
+<l TEIform="l" part="N">Et vacuas armis, et defensoribus, urbes</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name"><reg orig="Nephtalidûm" TEIform="reg">Nephtalidum</reg></name> cepit, civesque adduxit in oras</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrias</name> secum, vinctis post terga lacertis</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 15. <abbr expan="versus" TEIform="abbr">vers.</abbr> 30. <name type="religion" TEIform="name">Hosaeas</name> Rex <name type="religion" TEIform="name"><abbr expan="Samariae" TEIform="abbr">Samar.</abbr></name>.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At Regem ignavum clam ferro sustulit <name type="religion" TEIform="name">Elae</name></l>
+<l TEIform="l" part="N">Filius <name type="religion" TEIform="name">Hosaeas</name>, regnique invasit habenas.</l>
+<l TEIform="l" part="N">Vsque adeo pauci sine caede et sanguine Reges</l>
+<l TEIform="l" part="N">Occumbunt fatis, et sicca morte tyranni.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 27. <name type="religion" TEIform="name">Iothas</name> Rex <name type="religion" TEIform="name">Iudae</name> prospera fortuna utitur.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Flexerat interea regni moderamen <name type="religion" TEIform="name">Iothas</name></l>
+<l TEIform="l" part="N">Arce <name type="religion" TEIform="name">Sionaea</name>, patriae virtutis, avique</l>
+<l TEIform="l" part="N">Aemulus, et priscae pietatis idoneus auctor.</l>
+<l TEIform="l" part="N">Atque hic pace fruens, delubri in limite portam</l>
+<l TEIform="l" part="N">Magnificam exstruxit, largo et praedivite sumptu.</l>
+<l TEIform="l" part="N">Inde instauravit positas in montibus urbes,</l>
+<l TEIform="l" part="N">Aeriasque arces tutae munimina terrae</l>
+<l TEIform="l" part="N">Extulit et turres, et amoenis saltibus aulas,</l>
+<l TEIform="l" part="N">Et quae secessum exhibeant praetoria Regi.</l>
+<l TEIform="l" part="N">Bella quoque <name type="religion" TEIform="name">Ammonem</name> contra felicia gessit,</l>
+<l TEIform="l" part="N">Et genti imposuit stipendia maxima victae,</l>
+<l TEIform="l" part="N">Argenti centum numeranda talenta quotannis:</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Triticeaeque decem cororum millia messis,</l>
+<l TEIform="l" part="N">Ac totidem coros hordei: nam iussa secutus</l>
+<l TEIform="l" part="N">Caelica, successus habuit sine labe secundos.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 28. 2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 16. Regis <name type="religion" TEIform="name">Achae</name> impietas.</note>
+
+<pb id="s378" n="330" TEIform="pb"/>
+
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Post illum regni sceprtum capit impius <name type="religion" TEIform="name">Achas</name>,</l>
+<l TEIform="l" part="N">Heu, quam dissimilis patrum, quam degener heres?</l>
+<l TEIform="l" part="N">Non ille umbrosa sub qualibet arbore tantum</l>
+<l TEIform="l" part="N">Numen adoravit fictum, non collibus altis</l>
+<l TEIform="l" part="N">Tura cremare modo est ausus, non quicquid ubique</l>
+<l TEIform="l" part="N"><reg orig="Peccârunt" TEIform="reg">Peccaverunt</reg> alii, solum peccavit et ipse:</l>
+<l TEIform="l" part="N">Quin etiam, proh triste nefas, sua cara <name type="religion" TEIform="name">Molocho</name></l>
+<l TEIform="l" part="N">Pignora combussit flammis, animaque litavit</l>
+<l TEIform="l" part="N">Humana dirae devota in valle <name type="religion" TEIform="name">Gehennae</name>.</l>
+<l TEIform="l" part="N">Insuper et statuas erexit, et aurea <name type="religion" TEIform="name">Beli</name></l>
+<l TEIform="l" part="N">Signa, suas illi sacravit ritibus aras,</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At non hanc rabiem sivit DEVS aequus inultam,</l>
+<l TEIform="l" part="N">Retibuitque viro sua praemia danda profano:</l>
+<l TEIform="l" part="N">Nam <name type="religion" TEIform="name">Syriae</name> Regem patriis attraxit ab oris.</l>
+<l TEIform="l" part="N">Qui victos acie cives delevit <name type="religion" TEIform="name">Iudae</name>,</l>
+<l TEIform="l" part="N">Abduxitque viros cum praeda ingente <name type="religion" TEIform="name">Damascum</name>.</l>
+<l TEIform="l" part="N">Nec minus ex alia contrivit parte <name type="religion" TEIform="name">Peiacas</name></l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samariae</name> Dominus, viginti millia centum,</l>
+<l TEIform="l" part="N">Vna quos pugna et miseranda strage cecidit.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Sichrius</name> <reg orig="hîc" TEIform="reg">hic</reg> etiam <name type="religion" TEIform="name">Ephraeo</name> de sanguine quidam</l>
+<l TEIform="l" part="N">Heros eximius, conflictu stravit eodem</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Maeseiam</name> Regis natum, <name type="religion" TEIform="name">Africam</name>que, Ducemque</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Elcanam</name> <name type="religion" TEIform="name">Solymae</name> furioso a Rege secundum:</l>
+<l TEIform="l" part="N">Millia bis centum imbellis tum capta catervae,</l>
+<l TEIform="l" part="N">Matres atque senes, pueri, innuptaeque puellae.</l>
+</lg>
+<q who="Deus" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">I nunc et patrios revereri disce penates,</l>
+<l TEIform="l" part="N">Et cole quos <name type="religion" TEIform="name">Mosis</name> praescripsit pagina ritus.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Post etiam<name type="religion" TEIform="name">Solymam</name> coniunctis viribus urbem</l>
+<l TEIform="l" part="N">Obsedere duo Reges: <name type="religion" TEIform="name">Rasis</name>que <name type="religion" TEIform="name">Syrorum</name>,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samarius</name>que <name type="religion" TEIform="name">Pecas</name>, sed non valuere potiri</l>
+<l TEIform="l" part="N">Obsessa, et patriae sua limina quisque petivit.</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Aelthiam</name> tamen <name type="religion" TEIform="name">Hebraea</name> de gente recepit</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Rasis</name>, et huc <name type="religion" TEIform="name">Syrios</name> eiecto cive colonos</l>
+<l TEIform="l" part="N">Indigena induxit, spoliis ditatus opimis.</l>
+</lg>
+
+<pb id="s379" n="331" TEIform="pb"/>
+
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Praeco fuit quidam, quem numen agebat, <name type="religion" TEIform="name">Obedus</name>,</l>
+<l TEIform="l" part="N">Praescius arcani vates, casusque futuri.</l>
+<l TEIform="l" part="N">Ille <name type="religion" TEIform="name">Israelaeis</name> legionibus obvius ibat,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samariam</name> captae raptantibus ora caterva:</l>
+</lg>
+<q who="Obedus" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Atque ait: Ecce DEVS vestrorum magnus avorum,</l>
+<l TEIform="l" part="N">Succenset tribui scelere irritatus <name type="religion" TEIform="name">Iudae</name>,</l>
+<l TEIform="l" part="N">Inque potestatem dedit haec imbellia vestram</l>
+<l TEIform="l" part="N">Pectora: cur tandem praeceps victoria iustum</l>
+<l TEIform="l" part="N">Nescit habere modum? quot corpora caesa virorum?</l>
+<l TEIform="l" part="N">Qui cruor effusus? penetrat furor aethera vester.</l>
+<l TEIform="l" part="N">Nunc etiam matres viduas, orbosque parentes,</l>
+<l TEIform="l" part="N">Pupillosque inopes, <name type="religion" TEIform="name">Solyma</name> raptantis ab urbe,</l>
+<l TEIform="l" part="N">Vt servi vestro dein, ancillaeque capistro</l>
+<l TEIform="l" part="N">Subiecti, reliquos miseri famulentur in annos.</l>
+<l TEIform="l" part="N">An non peccatum satis est? an crimine nullo</l>
+<l TEIform="l" part="N">Foeda manus vestra est? an ab omni labe remota?</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Audite haec igitur, nec temnite verba prophetae,</l>
+<l TEIform="l" part="N">Reddite captivos, patriaeque reducite ad urbes:</l>
+<l TEIform="l" part="N">Ne consanguineo natos e semine fratres,</l>
+<l TEIform="l" part="N">Durius aggressi, <name type="religion" TEIform="name">Iehovam</name> stimuletis ad iras,</l>
+<l TEIform="l" part="N">Nam furor a Domino vobis furor imminet ingens.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dixerat: <name type="religion" TEIform="name">Ephraea</name> cum quidam stirpe creati</l>
+<l TEIform="l" part="N">Repressere gradum, <name type="religion" TEIform="name">Asarias</name>, atque <name type="religion" TEIform="name">Amasa</name> princeps,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Barachias</name> atque <name type="religion" TEIform="name">Ezechias</name>, sic farier orsi:</l></lg>
+<q who="creati stirpis Ephraeae" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ne socii, ne captivos ducamus in urbem,</l>
+<l TEIform="l" part="N">Ne Dominus iustam vindex exasperet iram,</l>
+<l TEIform="l" part="N">Nosque gravi multet facto ob crudelia damno.</l>
+<l TEIform="l" part="N">Nam cur peccato peccatum, crimine crimen</l>
+<l TEIform="l" part="N">Et scelere augendum scelus? hac satis ante malorum est</l>
+<l TEIform="l" part="N">In vita, Domini quibus irritavimus iram.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Haec illi: at subito morem gessere catervae</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samariae</name>, et manibus dempserunt vincula captis.</l>
+<l TEIform="l" part="N">Insuper et nudos texerunt vestibus artus,</l>
+<l TEIform="l" part="N">Languentesque refecerunt potuque ciboque</l>
+
+<pb id="s380" n="332" TEIform="pb"/>
+
+<l TEIform="l" part="N">Et laesos unxere homines, fessosque labore</l>
+<l TEIform="l" part="N">Corporeque infirmos, cura imposuere sequaci</l>
+<l TEIform="l" part="N">Iumentis fratrumque manu duxere benigna,</l>
+<l TEIform="l" part="N">Vber qua <name type="religion" TEIform="name">Hierichus</name> palmetum moenia cingit</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tempore tunc illo, <name type="religion" TEIform="name">Assyriam</name> transmisit in aulam</l>
+<l TEIform="l" part="N">Regni oratores <name type="religion" TEIform="name">Achas</name>, qui nuntia Regi</l>
+<l TEIform="l" part="N">Ferrent <name type="religion" TEIform="name">Tiglatho</name>:</l></lg> <q who="Achas" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Servus tuus, alme Monarcha,</l>
+<l TEIform="l" part="N">Aut potius natus, tua nos ad limina mittit</l>
+<l TEIform="l" part="N">Auxilia oratum, succurre potentibus armis,</l>
+<l TEIform="l" part="N">Et fer opem <name type="religion" TEIform="name">Syrium</name> contra, contra <name type="religion" TEIform="name">Pecaiam</name>:</l>
+<l TEIform="l" part="N">Qui mihi vim faciunt, et duro Marte resistunt.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Addidit his verbis donaria cernuus <name type="religion" TEIform="name">Achas</name>,</l>
+<l TEIform="l" part="N">Argenti atque auri, quicquid penetralia templi,</l>
+<l TEIform="l" part="N">Quicquid <reg orig="servârant" TEIform="reg">servaverant</reg> laqueata palatia Regis.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Paruit his votis <name type="religion" TEIform="name">Tiglathus</name>, et alta <name type="religion" TEIform="name">Damasci</name></l>
+<l TEIform="l" part="N">Obsidione premit tecta, expugnatque capitque</l>
+<l TEIform="l" part="N">Et Regem occidit <name type="religion" TEIform="name">Rasin</name>, civesque subactos</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Cyrenen</name> ducit patria tellure remotam.</l>
+<l TEIform="l" part="N">Tum vero hoc <name type="religion" TEIform="name">Achas</name> <name type="religion" TEIform="name">Tiglathi</name> ingente triumpho</l>
+<l TEIform="l" part="N">Excitus in <name type="religion" TEIform="name">Syriam</name> cum magno occurrit ovatu.</l>
+<l TEIform="l" part="N">Grataturque viro palmam, templumque frequentat,</l>
+<l TEIform="l" part="N">Et sacra <name type="religion" TEIform="name">Assyriis</name> offert sua munera Divis,</l>
+<l TEIform="l" part="N">Auspicibus tantorum operum, captaeque <name type="religion" TEIform="name">Damasci</name>.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Viderat hic <name type="religion" TEIform="name">Achas</name>, dum singula perspicit, aram</l>
+<l TEIform="l" part="N">Ingentem, augustam, Maiestatisque refertam,</l>
+<l TEIform="l" part="N">Exemplumque capit stimulante libidine caeca,</l>
+<l TEIform="l" part="N">Omnem depingens arae speciemque situmque:</l>
+<l TEIform="l" part="N">Mox et Pontifici transmittit ab arte figuram</l>
+<l TEIform="l" part="N">Et iubet hui similem <name type="religion" TEIform="name">Solymaea</name> per atria templi</l>
+<l TEIform="l" part="N">Extruat, haud ullis parcendo sumptibus aram.</l>
+<l TEIform="l" part="N">Non renuit summus mandata facessere praesul,</l>
+<l TEIform="l" part="N">Oblitus simul ipse sui, magnoque paratu</l>
+<l TEIform="l" part="N">Aedificat temploque novam locat impius aram.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vtque <name type="religion" TEIform="name">Damascena</name> Rex urbe revertitur <name type="religion" TEIform="name">Achas</name></l>
+
+<pb id="s381" n="333" TEIform="pb"/>
+
+<l TEIform="l" part="N">Approbat obsequium <name type="religion" TEIform="name">Vriae</name>, Divisque <name type="religion" TEIform="name">Syrorum</name></l>
+<l TEIform="l" part="N">Hoc super altari, sua sacra cibaria demens</l>
+<l TEIform="l" part="N">Atque holocausta offert, spargitque cruoribus aram</l>
+<l TEIform="l" part="N">Sacrificam, et fuso libat libamina vino.</l>
+<l TEIform="l" part="N">Tum <name type="religion" TEIform="name">Salomoniacum</name> de sede altare removit,</l>
+<l TEIform="l" part="N">Et Boream versus delubri in pariete ponit,</l>
+<l TEIform="l" part="N">Substituitque loco quam praesul fecerat aram.</l>
+<l TEIform="l" part="N">Grandior haec illa multoque augustior esse</l>
+<l TEIform="l" part="N">Visa bono Regi, quam summus in aede Sacerdos</l>
+<l TEIform="l" part="N">Praecipue coloret divosque adoleret honores:</l>
+<l TEIform="l" part="N">Hac super et quicquid praescribit pagina <name type="religion" TEIform="name">Mosis</name></l>
+<l TEIform="l" part="N">Vero offerre DEO: seu Sole cadente sub umbras,</l>
+<l TEIform="l" part="N">Seu matutinos tollente e noctibus ortus.</l>
+<l TEIform="l" part="N">Nec Regi obsequium renuit tam turpe Sacerdos</l>
+<l TEIform="l" part="N">Impius <name type="religion" TEIform="name">Vrias</name>, adeo regnabat ubique</l>
+<l TEIform="l" part="N">Foeda superstitio: veterumque oblita parentum,</l>
+<l TEIform="l" part="N">Regis ad exemplum se subdita turba gerebat.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Fusile quin etiam labrum detraxit ab aeneis</l>
+<l TEIform="l" part="N">Bobus, et imposuit saxisque soloque pavito.</l>
+<l TEIform="l" part="N">Nec non et basium clausuras, impete caeco</l>
+<l TEIform="l" part="N">Abscidit, eque ipsis mallubria sancta removit.</l>
+<l TEIform="l" part="N">Quid furis ab demens Divam <name type="religion" TEIform="name">Salomonis</name> in aedem?</l>
+</lg>
+<q who="auctor?" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Desine, nam venite lustris labentibus aetas</l>
+<l TEIform="l" part="N">Cum Rex <name type="religion" TEIform="name">Assyriae</name> flammis haec omnia vertet</l>
+<l TEIform="l" part="N">Limina, teque ista grassandi mole levabit.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sed postrema tamen fuit haec quoque cura tyranno</l>
+<l TEIform="l" part="N">Esset ab insidiis ipsa ut sat tutus in aede,</l>
+<l TEIform="l" part="N">Securoque novos spectaret lumine cultus.</l>
+<l TEIform="l" part="N">Nam quo stare loco per sabbatha festa solebat</l>
+<l TEIform="l" part="N">Rex tabulis saepto, quoque ipsi ad grande sacellum</l>
+<l TEIform="l" part="N">Pulicus ingressus regali e sede patebat:</l>
+<l TEIform="l" part="N">Hunc ita convertit intra penetralia templi,</l>
+<l TEIform="l" part="N">Cernere nequis cum posset, seu sacra petentem</l>
+<l TEIform="l" part="N">Atria, seu noti redeuntem ad limina tecti.</l>
+</lg>
+
+<pb id="s382" n="334" TEIform="pb"/>
+
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Aspicit haec oculis dudum DEVS aethere iustis</l>
+<l TEIform="l" part="N">Iratusque novos Regi passim excitat hostes.</l>
+<l TEIform="l" part="N">Tunc et <name type="religion" TEIform="name">Idumaeae</name> praedas egere cohortes.</l>
+<l TEIform="l" part="N">Illius e terris, nec non et multa sub Austro</l>
+<l TEIform="l" part="N">Firma Palaestinae coeperunt moenia dextrae,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Aialon</name>, et <name type="religion" TEIform="name">Socho</name>, <name type="religion" TEIform="name">Gadarothum</name> <name type="religion" TEIform="name">Bethsameen</name>que</l>
+<l TEIform="l" part="N">Et <name type="religion" TEIform="name">Gimso</name>, et <name type="religion" TEIform="name">Thimnam</name>, cum vicis undique captis,</l>
+<l TEIform="l" part="N">Ereptas <name type="religion" TEIform="name">Achae</name> furiatis viribus urbes.</l>
+<l TEIform="l" part="N">Nam DEVS auxilio populum nudaverat omni</l>
+<l TEIform="l" part="N">Ob scelus, et spretos verae pietatis honores.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haud minus <name type="religion" TEIform="name">Assyriis</name> actus <name type="religion" TEIform="name">Pilnesser</name> ab oris</l>
+<l TEIform="l" part="N">Intulit arma viro, e veteri novus hostis amico,</l>
+<l TEIform="l" part="N">Et <name type="religion" TEIform="name">Solymam</name> obsedit, sed non tamen eruit urbem.</l>
+<l TEIform="l" part="N">Illum muneribus sacro de limine raptis,</l>
+<l TEIform="l" part="N">Priscorumque opibus Regum, procerumque crumenis</l>
+<l TEIform="l" part="N">Exhaustis cepit, turbata ut cederet urbe.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 28. <abbr expan="versus" TEIform="abbr">vers.</abbr> 16. <name type="religion" TEIform="name">Achae</name> pertinacia et induratio in impietate.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ante tamen <name type="religion" TEIform="name">Syrios</name> stauit pacare penates</l>
+<l TEIform="l" part="N">Impius, et divis sua sacra offerre <name type="religion" TEIform="name">Damasci</name></l>
+<l TEIform="l" part="N">Haec secum tacito demens sub corde volutans:</l>
+</lg>
+<q who="Achas" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dii <name type="religion" TEIform="name">Syriae</name> Regum praesto cultoribus assunt,</l>
+<l TEIform="l" part="N">Auxiliumque ferunt, sua numina rite vocanti:</l>
+<l TEIform="l" part="N">Hos ego nunc etiam caesis placabo iuvencis</l>
+<l TEIform="l" part="N">Vt mihi clementes assint faveantque precanti.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dixit: et <name type="religion" TEIform="name">Assyrio</name> pacata in regna reverso,</l>
+<l TEIform="l" part="N">Omnia diripuit <name type="religion" TEIform="name">Salomonia</name> vasa sacrorum,</l>
+<l TEIform="l" part="N">Occlusitque fores templi, <name type="religion" TEIform="name">Solymam</name>que replevit</l>
+<l TEIform="l" part="N">Et reliquas omnes diris altaribus urbes,</l>
+<l TEIform="l" part="N">Tus ubi votiva mystes adoleret acerra</l>
+<l TEIform="l" part="N">O stolidas hominum mentes, o pectora caeca</l>
+<l TEIform="l" part="N">Quae semel impietas a sancti tramite veri</l>
+<l TEIform="l" part="N">Flexit ad errores, et vanis imbuit aris.</l>
+<l TEIform="l" part="N">Iamque ubi vicenos regnasset perfidus annos</l>
+<l TEIform="l" part="N">Sublatus fatis feralibus occubat <name type="religion" TEIform="name">Achas</name>.</l>
+<l TEIform="l" part="N">Non illum celso domus est dignata sepulcro</l>
+
+<pb id="s383" n="335" TEIform="pb"/>
+
+<l TEIform="l" part="N">Patria, nec cineres inter tumulavit avitos,</l>
+<l TEIform="l" part="N">Sed vili posuit contectum rupe cadaver.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 17. Regni <name type="religion" TEIform="name">Samaritani</name> interitus sub Rege <name type="religion" TEIform="name">Hosaea</name>.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Rexerat interea, post caesum, <name type="religion" TEIform="name">Hosaea</name>, <name type="religion" TEIform="name">Pecaiam</name></l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samarias</name> urbes nonum infeliciter annum:</l>
+<l TEIform="l" part="N">Haud ullo melior Regum pietate priorum,</l>
+<l TEIform="l" part="N">Omnia <name type="religion" TEIform="name">Nebathidae</name> similis cultusque fidemque</l>
+<l TEIform="l" part="N">Hunc contra <name type="religion" TEIform="name">Assyria</name> Rex <name type="religion" TEIform="name">Salmanasser</name> ab ora</l>
+<l TEIform="l" part="N">Ingentes equitum duxit, peditumque catervas,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samariam</name>que omnem cinxit legionibus urbem.</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Hosaeas</name> impar cum sese opponeret hosti,</l>
+<l TEIform="l" part="N">Crudeli victus pugna, seseque suosque</l>
+<l TEIform="l" part="N">Dedidit, et frenos serviles ore momordit,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrio</name> mittens sua iussa tributa quotannis.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mox tamen occulto feriit nova foedera pacto,</l>
+<l TEIform="l" part="N">Impius <name type="religion" TEIform="name">Aegypti</name> cum ege fidemque fefellit</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrio</name>, frustra tum reclamante propheta.</l>
+<l TEIform="l" part="N">Iamque recusabat stipendia solvere Regi</l>
+<l TEIform="l" part="N">Debita, et excussum pellebat ab ore capistrum:</l>
+<l TEIform="l" part="N">Tunc iterum saevas affraxit in arva cohortes</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samaria</name> <name type="religion" TEIform="name">Assyrius</name>, terram populatus et urbes,</l>
+<l TEIform="l" part="N">Cunctaque permiscens flammis ac caede cruenta.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Inde triennali Rex obsidione premebat</l>
+<l TEIform="l" part="N">Moenia <name type="religion" TEIform="name">Samariae</name>, debellataque potitus,</l>
+<l TEIform="l" part="N">Omnes abduxit patrio de limite cives,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrias</name>que gregem captum dispersit in urbes,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Halam</name> translatos, <name type="religion" TEIform="name">Heboram</name>que, et in extima <name type="religion" TEIform="name">Medi</name></l>
+<l TEIform="l" part="N">Oppida, servitio addictos, frenooque perenni.</l>
+<l TEIform="l" part="N">Capta sed <name type="religion" TEIform="name">Assyrios</name> traduxit in arva colonos,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Ammathiae</name> cives, <name type="religion" TEIform="name">Cuthae</name>que et divitis <name type="religion" TEIform="name">Avae</name>,</l>
+<l TEIform="l" part="N">Eque <name type="religion" TEIform="name">Sepharvaea</name>, et magna <name type="religion" TEIform="name">Babylone</name> vocatos,</l>
+<l TEIform="l" part="N">Moenia possessum qui bello capta venirent:</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samariae</name> vero Dominum (mirabile dictu)</l>
+<l TEIform="l" part="N">Abripuit vinctum, et tenebroso carcere clausit,</l>
+<l TEIform="l" part="N">Hic finis regni <name type="religion" TEIform="name"><corr resp="transcriber" TEIform="corr">Samariae</corr></name>, hic exitus ingens</l>
+
+<pb id="s384" n="336" TEIform="pb"/>
+
+<l TEIform="l" part="N">Tercentum totos quod iam duraverat annos,</l>
+<l TEIform="l" part="N">Impia <name type="religion" TEIform="name">Nebathidae</name> primordia fine probante.</l>
+<l TEIform="l" part="N">Nam patrios postquam ritus, legesque sacrorum</l>
+<l TEIform="l" part="N">Neglexere, Deosque sibi finxere profanos,</l>
+<l TEIform="l" part="N">Numine deserto, quod rubra per aequora longis</l>
+<l TEIform="l" part="N">Tractibus <name type="religion" TEIform="name">Hebraeos</name> in terram duxerat istam:</l>
+<l TEIform="l" part="N">Has sibi pro diro pepererunt crimine poenas.</l>
+<l TEIform="l" part="N">Nullum etenim scelus est, aeterna dignius ira</l>
+<l TEIform="l" part="N">Quam verum non nosse DEVM, vel temnere notum.</l>
+<l TEIform="l" part="N">Hanc adeo ob causam <name type="religion" TEIform="name">Chanaae</name> da semine natam</l>
+<l TEIform="l" part="N">Progeniem, patriis DEVS ille eiecerat arvis:</l>
+<l TEIform="l" part="N">Impia quod colerent vetitorum numina <reg orig="Divûm" TEIform="reg">Divorum</reg>.</l>
+<l TEIform="l" part="N">Non tamen exemplo <name type="religion" TEIform="name">Isacidae</name> sapuere reiectae</l>
+<l TEIform="l" part="N">Gentis, et huic ipsi scopulo impegere cavendo.</l>
+<l TEIform="l" part="N">Omnia nam statuas posuere per oppida lati</l>
+<l TEIform="l" part="N">Limitis, et celsi quovis in vetice collis.</l>
+<l TEIform="l" part="N">Aras quin etiam patula statuere sub omni</l>
+<l TEIform="l" part="N">Arbore, et vetito coluerunt numina ritu.</l>
+<l TEIform="l" part="N">Nec satis hoc illis auro conflasse iuvencos,</l>
+<l TEIform="l" part="N">Qualem <name type="religion" TEIform="name">Niliacus</name> veneratur liniger <name type="religion" TEIform="name">Apim</name>:</l>
+<l TEIform="l" part="N">Lunam etiam Solemque viri, stellasque micantes</l>
+<l TEIform="l" part="N">Supplice <reg orig="adorârunt" TEIform="reg">adoraverunt</reg> cultu: votisque <reg orig="vocârunt" TEIform="reg">vocaverunt</reg>.</l>
+<l TEIform="l" part="N">Hinc etiam casus divinavere futuros</l>
+<l TEIform="l" part="N">Astrologi, rabidus quae verteret oppida <name type="myth" TEIform="name">Mavors</name>,</l>
+<l TEIform="l" part="N">Quos <name type="myth" TEIform="name">Venus</name> utiliter positos attemperet ignes,</l>
+<l TEIform="l" part="N">Figida <name type="myth" TEIform="name">Saturni</name> quos orbos stella crearet.</l>
+<l TEIform="l" part="N">Insuper et volucrum linguas, aviumque volatus</l>
+<l TEIform="l" part="N">Stulti observabant: imprimis impia <name type="religion" TEIform="name">Beli</name></l>
+<l TEIform="l" part="N">Heu, toties vetito venerati numina cultu,</l>
+<l TEIform="l" part="N">Cuncta profanabant terrae loca: tum sua flammis</l>
+<l TEIform="l" part="N">(Horresco referens) natorum care suorum</l>
+<l TEIform="l" part="N">Pectora sunt ausi sine mente cremare <name type="religion" TEIform="name">Molocho</name>.</l>
+<l TEIform="l" part="N">Qua scelerum <name type="religion" TEIform="name">Lerna</name>, quo diri crimine cultus</l>
+<l TEIform="l" part="N">In se <reg orig="irritârunt" TEIform="reg">irritaverunt</reg> commoti caelitis iram.</l>
+</lg>
+
+<pb id="s385" n="337" TEIform="pb"/>
+
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Plurima tum sacri cecinere oracula vates</l>
+<l TEIform="l" part="N">Et regni casus praesagivere futuros:</l>
+<l TEIform="l" part="N">Sed nihil <name type="religion" TEIform="name">Esaias</name> potuit, nihil inclytus <name type="religion" TEIform="name">Amos</name>,</l>
+<l TEIform="l" part="N">Efficere aut zelo <name type="religion" TEIform="name">Ieremias</name> excitus alto.</l>
+<l TEIform="l" part="N">Omnia nam rapidis dederant hortamina ventis,</l>
+<l TEIform="l" part="N">Et stolidi Reges, et peior Rege Sacerdos,</l>
+<l TEIform="l" part="N">Atque intra templum populus peccabat, et extra.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dum tandem iusta Dominus succensuit ira</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrio</name>que dedit populum frenare tyranno</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Isacium</name>, et patrias victori tradidit urbes.</l>
+<l TEIform="l" part="N">Discite mortales verbum caeleste salutis</l>
+<l TEIform="l" part="N">Quaerere, iustitiamque sequi, nec temnere divum.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ecce autem, antiquis iam possessoribus actis</l>
+<l TEIform="l" part="N">Flebile in exilium, peregrinus ut arva colonus</l>
+<l TEIform="l" part="N">Obtinuit, saevi passim irrupere leones:</l>
+<l TEIform="l" part="N">Et iugulant homines, atque obvia quaeque trucidant.</l>
+<l TEIform="l" part="N">Quae res <name type="religion" TEIform="name">Assyrii</name> postquam devenit ad aures,</l>
+<l TEIform="l" part="N">Et quod causa mali tanti, ignorantia <reg orig="Divûm" TEIform="reg">Divorum</reg></l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Samariae</name>: propere captis ex omnibus unum</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Levigenam</name> mittit, doceat qui sacra colonos</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrios</name>, patriosque DEVM pro more vereri.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Cumque Sacerdotum rediisset ab urbibus unus</l>
+<l TEIform="l" part="N">Exul, in <name type="religion" TEIform="name">Hebraeas</name> <name type="religion" TEIform="name">Euphratae</name> a flumine terras,</l>
+<l TEIform="l" part="N">Edocuit ritus gentem, quos tradidit olim</l>
+<l TEIform="l" part="N">Corniger <name type="religion" TEIform="name">Amramides</name> populo: sed sacra profanis</l>
+<l TEIform="l" part="N">Dum permiscerent irato caelite gentes</l>
+<l TEIform="l" part="N">Effecere chaos sibi religionis avitae.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nam positis passim super alta cacumina fanis</l>
+<l TEIform="l" part="N">Quique suo coluere Ioves, ex lege sacrorum</l>
+<l TEIform="l" part="N">Quae sibi fatidico <name type="religion" TEIform="name">Moses</name> praescriberet ore.</l>
+<l TEIform="l" part="N">At non hic placuit confuso foedere cultus</l>
+<l TEIform="l" part="N">Caelicolae Domino, socium qui nescit honoris.</l>
+<l TEIform="l" part="N">Ferre sui, et solus vult casta menta vocari,</l>
+<l TEIform="l" part="N">Solus adorari, solus sine fine timeri.</l>
+
+<pb id="s386" n="338" TEIform="pb"/>
+
+<l TEIform="l" part="N">Aurea fatidici ceu mandat pagina <name type="religion" TEIform="name">Mosis</name>.</l>
+<l TEIform="l" part="N">Tempore post longo terris duravit in istis</l>
+<l TEIform="l" part="N">Mista superstitio, quae partim numen amabat</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Hebraeum</name>, partim statuis sua sacra ferebat.</l></lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 18. 2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 29. Regis <name type="religion" TEIform="name"><abbr expan="Hierosolymae" TEIform="abbr">Hierosolym.</abbr></name> <name type="religion" TEIform="name">Ezechiae</name> pietas.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At vero melior regni sors stabat <name type="religion" TEIform="name">Iudae</name>,</l>
+<l TEIform="l" part="N">Et <name type="religion" TEIform="name"><corr resp="transcriber" TEIform="corr">Salomoniacam</corr></name> sua prisca redibat in aedem</l>
+<l TEIform="l" part="N">Religio, <name type="religion" TEIform="name">Ezechia</name> rerum sceptrique potito.</l>
+<l TEIform="l" part="N">Namque hic <name type="religion" TEIform="name">Davidae</name> sapiens imitator, avitum</l>
+<l TEIform="l" part="N">Restituit cultum, et verae pietatis honorem.</l>
+<l TEIform="l" part="N">Ac primum clausi reseravit limina templi,</l>
+<l TEIform="l" part="N">Et parietinas valvae instauravit et aedis,</l>
+<l TEIform="l" part="N">Quicquid et insani violavit dextera patris,</l>
+<l TEIform="l" part="N">Inde Sacerdotes <name type="religion" TEIform="name">Solymaea</name> ad templa reduxit</l>
+<l TEIform="l" part="N">Dilapsos tristi exilio, latumque vocatos</l>
+<l TEIform="l" part="N">In vicum, laetos sic est affarier orsus:</l>
+</lg>
+<q who="Ezechia" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Principio ritu vos-met felice piate,</l>
+<l TEIform="l" part="N">Vt mundi intretis veneranda sacraria fani,</l>
+<l TEIform="l" part="N">Tum sordes auferte domo: quibus ante paternae</l>
+<l TEIform="l" part="N">Foedavere manus tam sanctae altaria sedis.</l>
+<l TEIform="l" part="N">Imprimis <name type="religion" TEIform="name">Syriam</name> lacerate bipennibus aram:</l>
+<l TEIform="l" part="N">Nam nostri Dominum male deseruere parentes,</l>
+<l TEIform="l" part="N">Tergaque legitimo vertere fugacia cultu.</l>
+<l TEIform="l" part="N">Non ipsi templum ingressi, non denique passi</l>
+<l TEIform="l" part="N">Huc intrare alios: sed praeclusere furentes</l>
+<l TEIform="l" part="N">Ostia, et accensas misere exstinxere lucernas,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Mose</name>que neglecto nec ture, aut farre <reg orig="litârunt" TEIform="reg">litaverunt</reg>.</l>
+<l TEIform="l" part="N">Hinc furor ille DEI exasit, <name type="religion" TEIform="name">Solymaea</name>que duris</l>
+<l TEIform="l" part="N">Diripienda <name type="religion" TEIform="name">Syris</name> dedit arva, focosque sacratos.</l>
+<l TEIform="l" part="N">Vt nos abiectos (oculis quod cernitis ipsi)</l>
+<l TEIform="l" part="N">Barbarus, heu, sannis exsibilet hostis acerbis.</l>
+<l TEIform="l" part="N">Hoc illud scelus est, contempto numine DIVI</l>
+<l TEIform="l" part="N">Ense quod hostili nostri cecidere parentes,</l>
+<l TEIform="l" part="N">Et nati, et matres simul, innuptaeque puellae.</l>
+<l TEIform="l" part="N">Et nostrae exilio sevitum abiere maritae.</l>
+
+<pb id="s387" n="339" TEIform="pb"/>
+
+<l TEIform="l" part="N">Nunc placet ergo mihi foedus renovare, quod olim</l>
+<l TEIform="l" part="N">Cum nostris pepigit patribus DEVS, et prece casta</l>
+<l TEIform="l" part="N">Quas meruere patres, et nos, avertere poenas.</l>
+<l TEIform="l" part="N">At vos filioli, quos gignit amabilis aura</l>
+<l TEIform="l" part="N">Flaminis aetherii mihi: vos, quibus ista potestas</l>
+<l TEIform="l" part="N">A summo commissa DEO, pia tura cremare,</l>
+<l TEIform="l" part="N">Et caesis iram Domini placare iuvencis:</l>
+<l TEIform="l" part="N">Eia agite, officii curam tractate fidelem,</l>
+<l TEIform="l" part="N">Sublataque mora, mundate sacraria templi.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dixerat: illi omnes Regis mandata capessunt,</l>
+<l TEIform="l" part="N">Seque octo mandant solita de lege diebus,</l>
+<l TEIform="l" part="N">Et thalamum in vetitis numerant, cunctique laboris</l>
+<l TEIform="l" part="N">Immunes, modico celebrant ieiunia victu.</l>
+<l TEIform="l" part="N">Post templum ingressi, statuas aramque Damasci</l>
+<l TEIform="l" part="N">Et quicquid foedi inventum, rapiuntque trahuntque</l>
+<l TEIform="l" part="N">Et liquidi abiciunt vastas Cedronis in undas,</l>
+<l TEIform="l" part="N">Restituuntque loco divinum altare priori,</l>
+<l TEIform="l" part="N">Et mensas renovant, pollutaque vasa sacrorum.</l>
+<l TEIform="l" part="N">Totos octo dies reparandae a sordibus aedi</l>
+<l TEIform="l" part="N">Consumpsere viri, tantum prior obfuit aetas.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Demum confectis praescripto ex ordine rebus,</l>
+<l TEIform="l" part="N">Regi haec significant: procerum qui ingente caterva</l>
+<l TEIform="l" part="N">Saeptus, adit sanct purgata sacraria tecti:</l>
+<l TEIform="l" part="N">Hic septem tauros, totidem cum patribus agnos,</l>
+<l TEIform="l" part="N">Atque hircos septem, reglia munera, mactant</l>
+<l TEIform="l" part="N">Linigeri, toti sua sacra piamina regno.</l>
+<l TEIform="l" part="N">Quicquid enim populus, quicquid cum Rege Sacerdos</l>
+<l TEIform="l" part="N">Peccarat, sacris sparsoque cruore litatum,</l>
+<l TEIform="l" part="N">Et quod tingebat votiva altaria, tabo.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Mox etiam cytharas, et nabla sonora, tubasque</l>
+<l TEIform="l" part="N">Cymbalaque inferri Rex iussit, et organa vocum,</l>
+<l TEIform="l" part="N">Et laudare DEVM cantu, et clangore tubarum,</l>
+<l TEIform="l" part="N">Donec magna sacros consumeret ara iuvencos.</l>
+<l TEIform="l" part="N">Inde solo incumbunt et Rex proceresque virique</l>
+
+<pb id="s388" n="340" TEIform="pb"/>
+
+<l TEIform="l" part="N">Et veniam exposcunt scelerum, et prece numen adorant,</l>
+<l TEIform="l" part="N">Cantoresque iterum suavi modulamine cantant,</l>
+<l TEIform="l" part="N">Quae quondam <name type="religion" TEIform="name">Isaides</name> docuit, quae magnus <name type="religion" TEIform="name">Asaphus</name>.</l>
+<l TEIform="l" part="N">Rursus ibi <name type="religion" TEIform="name">Ezechias</name> curvato poplite supplex</l>
+<l TEIform="l" part="N">Accinit, et laetas hilari dat gutture voces.</l>
+<l TEIform="l" part="N">Postremo et grates hominum testantia mentes</l>
+<l TEIform="l" part="N">Sacra iubet fieri, pro religione reducta,</l>
+<l TEIform="l" part="N">Proque pio er merso densa caligine ritu.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hic animis cives prompti, atque volentibus ultro</l>
+<l TEIform="l" part="N">Ingentem <corr resp="transcriber" TEIform="corr">expediunt numerum</corr> pecudumque boumque:</l>
+<l TEIform="l" part="N">Agnos bis centum, centumque holocausta bidentes,</l>
+<l TEIform="l" part="N">Sescentosque boves, er septuaginta iuvencos,</l>
+<l TEIform="l" part="N">Atque ovium rursus tria millia, munera grati</l>
+<l TEIform="l" part="N">Pectoris, et plausum sibi, laetitiamque diei.</l>
+<l TEIform="l" part="N">Nec iam mactandis tot sufficiebat ad aram</l>
+<l TEIform="l" part="N">Turba Sacerdotum tauris, lectique caterva</l>
+<l TEIform="l" part="N">Levitae e media, qui munus onusque ferebant.</l>
+<l TEIform="l" part="N">Tandem festivi completa luce diei,</l>
+<l TEIform="l" part="N">Omnibus in laetae profusis gaudia mentis.</l>
+<l TEIform="l" part="N">Et Rex er populus templum sollemne reliquunt.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 30. <abbr expan="Rex" TEIform="abbr">R.</abbr> <name type="religion" TEIform="name">Ezechias</name> indicit festum <unclear reason="not deciphered" TEIform="unclear">Paschatii</unclear>.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ipse sed <name type="religion" TEIform="name">Ezechias</name> divina percitus aura</l>
+<l TEIform="l" part="N">Reliquias parvae vocat ad sua sacra Manassis,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Ephrigenas</name>que viros, scriptis de more tabellis:</l>
+<l TEIform="l" part="N">Paschatos ut secum celebrent sollemnia fest,</l>
+<l TEIform="l" part="N">Quae iam nunc proceres <name type="religion" TEIform="name">Solymaeo</name> proxima templo</l>
+<l TEIform="l" part="N"><reg orig="Decrêrant" TEIform="reg">Decreverant</reg> veteris sacrare ex ordine ritus.</l>
+<l TEIform="l" part="N">Sed rident illi missas a Rege tabellas</l>
+<l TEIform="l" part="N">Exiguos numero <corr resp="transcriber" TEIform="corr">praeter</corr>, quos inclyts <name type="religion" TEIform="name">Asser</name></l>
+<l TEIform="l" part="N">Et <name type="religion" TEIform="name">Sabulo</name>, et nondum captivus ab urbe <name type="religion" TEIform="name">Manasses</name>,</l>
+<l TEIform="l" part="N">Propulerat festum <name type="religion" TEIform="name">Solymaei</name> invisere templi,</l>
+<l TEIform="l" part="N">Magnaque confluxit pascha ad sollemne caeterva.</l>
+<l TEIform="l" part="N">At quando huc multi non mundo corpore cives</l>
+<l TEIform="l" part="N">Passim <reg orig="adventârant" TEIform="reg">adventaverant</reg>, primus labor aede sacrata</l>
+<l TEIform="l" part="N">Expurgare nefas taurorum caede, virosque</l>
+
+<pb id="s389" n="341" TEIform="pb"/>
+
+<l TEIform="l" part="N">Sanguine conspersos purgare, ut paschatis agnum</l>
+<l TEIform="l" part="N">Puris tractarent manibus, puro ore cibandum.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ipse quoque <name type="religion" TEIform="name">Ezechias</name> duplices ad sidera palmas</l>
+<l TEIform="l" part="N">Extende:</l></lg> <q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Esto mitis DEVS, esto benignus,</l>
+<l TEIform="l" part="N">Inquit, et hospitibus recto te corde professis</l>
+<l TEIform="l" part="N">Ne vitio vertas, quod non sat corpore mundi,</l>
+<l TEIform="l" part="N">Istius visunt sanctissima festa diei.</l></lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Audiit hanc vocem DEVS, indulsitque popello.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Insonuere tubae, cantusque dedere <name type="religion" TEIform="name">Levitae</name></l>
+<l TEIform="l" part="N">Officio functi septemque epulata diebus</l>
+<l TEIform="l" part="N">Turba Sacerdotum, divini paschatos agnum,</l>
+<l TEIform="l" part="N">Et sine fermento panem comedebat edendum.</l>
+<l TEIform="l" part="N">Et quia tot numquam celebratum pasche per annos,</l>
+<l TEIform="l" part="N">Septenis festum sibi produxere diebus.</l>
+<l TEIform="l" part="N">Rex vero reliquae lauta ad convivia plebis</l>
+<l TEIform="l" part="N">Mille dabat tauros, oviumque huc millia septem.</l>
+<l TEIform="l" part="N">Millia dein ovium proceres, et mille iuvencos</l>
+<l TEIform="l" part="N">Fratribus addiderant peregrino a limite gressis.</l>
+<l TEIform="l" part="N">Omnis laetitia tunc urbs, plausuque virorum</l>
+<l TEIform="l" part="N">Perfusa, atque hilares hilari cum Rege catervae,</l>
+<l TEIform="l" part="N">Grandia sollemnis celebrarunt festa diei,</l>
+<l TEIform="l" part="N">Et laetum Paeana viri matresque canendo</l>
+<l TEIform="l" part="N">Iubilaeo celsum complerunt aethera plaus.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tunc etiam <name type="religion" TEIform="name">Solymae</name> latis altaria vicis</l>
+<l TEIform="l" part="N">Diruta, et undisonus proiecta Cedronis in amnem,</l>
+<l TEIform="l" part="N">Egressique sacris festivae e moenibus urbis</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Iudigenae</name>, lucos exstirpavere profanos,</l>
+<l TEIform="l" part="N">Et nemorum statuas et testas frontibus aras,</l>
+<l TEIform="l" part="N">Hoc imitatus idem fregit sua signa <name type="religion" TEIform="name">Manasses</name>,</l>
+<l TEIform="l" part="N">Fregit et <name type="religion" TEIform="name">Ephraeus</name> statuas in montibus altis,</l>
+<l TEIform="l" part="N">Vivus enim mentes acuebat, et arduus ardor.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 18. <abbr expan="versus" TEIform="abbr">vers.</abbr> 4. 2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 31.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Et in secessu nemorum locus, aereus in quo</l>
+<l TEIform="l" part="N">Stabat adhuc serpens, quem <name type="religion" TEIform="name">Moses</name> fecerat olim</l>
+<l TEIform="l" part="N">Suspensum e ligno, morsae solatia turbae:</l>
+
+<pb id="s390" n="342" TEIform="pb"/>
+
+<l TEIform="l" part="N">Hunc precibus cultum populi dixere <name type="religion" TEIform="name">Nehustam</name>,</l>
+<l TEIform="l" part="N">Tureque honorabat ceu Divi numinis <corr resp="transcriber" TEIform="corr">aram</corr>.</l>
+<l TEIform="l" part="N">At vero <name type="religion" TEIform="name">Ezechias</name> durum exsecratus honorem,</l>
+<l TEIform="l" part="N">Aenea comminuit veteris simulacra colubri.</l>
+<l TEIform="l" part="N">Vera fides quos non stimulos in pectore vertis?</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nemo huic <name type="religion" TEIform="name">Ezechiae</name> par ulla aetate priorum,</l>
+<l TEIform="l" part="N">Nemo illi maior vera pietate nepotum.</l>
+<l TEIform="l" part="N">Ille etiam pulcro componens ordine turmas,</l>
+<l TEIform="l" part="N">Certa Sacerdotum tribuebat munia coetu:</l>
+<l TEIform="l" part="N">Rite ministrarunt ut festis sacra diebus,</l>
+<l TEIform="l" part="N">Laudarentque DEVM suavi modulamine vocum.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Insuper et proprio fundabat praemia censu,</l>
+<l TEIform="l" part="N">Materiamque sacris quavis bis luce ferendis,</l>
+<l TEIform="l" part="N">Sabbatha quos sumptus poscebant, quosque Calendae.</l>
+<l TEIform="l" part="N">Tum populis etiam praecepit ut alma ministris</l>
+<l TEIform="l" part="N">Munera sacrificis, largo cum fenore ferrent:</l>
+<l TEIform="l" part="N">Vnde suis ille studiis operisque vacare</l>
+<l TEIform="l" part="N">Possent, nec tempus quaerendo insumere victu.</l>
+<l TEIform="l" part="N">Ocius imperio parent, et praemia ruris</l>
+<l TEIform="l" part="N">Primitias decimasque ferunt, de divite cultu:</l>
+<l TEIform="l" part="N">De vino, atque oleo, de melle, et quicquid ubique</l>
+<l TEIform="l" part="N">Producit tellus hominum largissima nutrix.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quin et <name type="religion" TEIform="name">Samarii</name> si qui de limite regni</l>
+<l TEIform="l" part="N">Exosi crudele nefas, ritusque pofanos,</l>
+<l TEIform="l" part="N"><reg orig="Migrârant" TEIform="reg">Migraverant</reg> aliquas <name type="religion" TEIform="name">Iudae</name> dicionis in urbes,</l>
+<l TEIform="l" part="N">Rite dabant decimasque boum, niveaeque bidentis.</l>
+<l TEIform="l" part="N">Et quae suscepto praestanda piamina voto.</l>
+<l TEIform="l" part="N">Hinc frugum cumulus pecudumque excrevit acervus,</l>
+<l TEIform="l" part="N">Vt saturi haud possent tantum consumere victum</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Levigenae</name> et semper remanerent plura <sic corr="sense" TEIform="sic">comestis</sic>.</l>
+<l TEIform="l" part="N">Horrea tum primum Rex et granaria fecit</l>
+<l TEIform="l" part="N">Delubrum circa, laudato civis amore</l>
+<l TEIform="l" part="N">Largifluaque manu, qui tanto fenore curam</l>
+<l TEIform="l" part="N">Susciperet, sanctique gregis, rerumque piarum.</l></lg>
+
+<pb id="s391" n="343" TEIform="pb"/>
+
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Denique et <name type="religion" TEIform="name">Ezechias</name>, simul <name type="religion" TEIform="name">Asarias</name>que Sacerdos</l>
+<l TEIform="l" part="N">Praefecere viros servandis frugibus aptos</l>
+<l TEIform="l" part="N">Ceu condos promosque suos, qui tempore iusto</l>
+<l TEIform="l" part="N">Horrea concludant, et egeno clausa relaxent.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ianitor hic etiam templo delectus <name type="religion" TEIform="name">Iemna</name></l>
+<l TEIform="l" part="N">Patre satus <name type="religion" TEIform="name">Coreus</name>, reliquis praeesset ut unus.</l>
+<l TEIform="l" part="N">Cura illi, quae quisque daret votiva sacello</l>
+<l TEIform="l" part="N">Sponte sua dona e manibus sibi sumere vulgi,</l>
+<l TEIform="l" part="N">Inque Sacerdotum puras transmittere palmas,</l>
+<l TEIform="l" part="N">Ante levanda DEO, quam Caelica flamma cremaret.</l>
+<l TEIform="l" part="N">Inde aliis etiam pagos et moenia circum</l>
+<l TEIform="l" part="N">Qui colerent, templi merces sua missa ministris:</l>
+<l TEIform="l" part="N">Dante suum <name type="religion" TEIform="name">Coreo</name> tum cuique ex ordine munus,</l>
+<l TEIform="l" part="N">Quisquis enim altari servit foveatur eodem.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Praeterea et manibus sua dona triennibus apta,</l>
+<l TEIform="l" part="N">Et qui maiores natu <name type="religion" TEIform="name">Salomonis</name> adibant</l>
+<l TEIform="l" part="N">Limina <name type="religion" TEIform="name">Levigenae</name>, facturi ex ordine sacra,</l>
+<l TEIform="l" part="N">Quique Sacerdotum venerando sanguine creti,</l>
+<l TEIform="l" part="N">Bis denos pluresque aevi feliciter annos</l>
+<l TEIform="l" part="N">Linigeri attingerant, nec non infantibus horum,</l>
+<l TEIform="l" part="N">Et pueris, matrumque choro, innuptisque puellis,</l>
+<l TEIform="l" part="N">Totius e magno sacratoque agmine coetus</l>
+<l TEIform="l" part="N">Publica de reditu templorum alimenta dabantur.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Postremo his etiam qui multa suburbia terrae</l>
+<l TEIform="l" part="N">Vrbem extra <name type="religion" TEIform="name">Solymam</name> tota dicione colebant,</l>
+<l TEIform="l" part="N">Certa ministrabat maribus stipendia quaestor,</l>
+<l TEIform="l" part="N">Subsidioque gregem felice levabat egenum.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec tunc <name type="religion" TEIform="name">Ezechiae</name> cunctas sua cura per urbes,</l>
+<l TEIform="l" part="N">Hoc Regi studium delubri alimenta ministris</l>
+<l TEIform="l" part="N">Largiri, et dignum Levitis addere victum.</l>
+<l TEIform="l" part="N">Quicquid enim curae sacris operaeque locabat</l>
+<l TEIform="l" part="N">Ritibus augendis, et civibus aequa ferendo</l>
+<l TEIform="l" part="N">Iura suis, legesque fori, patriamque tuendo:</l>
+<l TEIform="l" part="N">Omne id sincero praestabat amore supremi</l>
+
+<pb id="s392" n="344" TEIform="pb"/>
+
+<l TEIform="l" part="N">Numinis, et vera motus pietate sacrorum.</l>
+<l TEIform="l" part="N">Hinc fortunatis illi successibus, orsa</l>
+<l TEIform="l" part="N">Omnia, nec coepto bonus exitus abfuit ulli.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified">2. <abbr expan="Regum" TEIform="abbr">Reg.</abbr> 18. <corr resp="transcriber" TEIform="corr">versus</corr> 13. 2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 32.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ecce autem <name type="religion" TEIform="name">Assyrio</name> <name type="religion" TEIform="name">Babylonius</name> orbe tyrannus</l>
+<l TEIform="l" part="N">Improvisus adest, terramque ingressus <name type="religion" TEIform="name">Iudae</name></l>
+<l TEIform="l" part="N">Et ferro et flammis, et caedibus omnia miscet</l>
+<l TEIform="l" part="N">Obsessasque capit totis in finibus urbes.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Rex <name type="religion" TEIform="name">Solymae</name> metuens fontes occultat aquarum</l>
+<l TEIform="l" part="N">Vrbem extra, procerum sic exhortante corona:</l>
+<l TEIform="l" part="N">Scilicet ut <corr resp="transcriber" TEIform="corr">limis</corr> cassum salientibus hostem</l>
+<l TEIform="l" part="N">Excludat capmis et ab obsidione repellat.</l>
+<l TEIform="l" part="N">Insuper et muros collapsaque tecta refecit,</l>
+<l TEIform="l" part="N">Exstruxitque altas turres, unde eminus hostem</l>
+<l TEIform="l" part="N">Armati telis possent detrudere cives.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tunc etiam <name type="religion" TEIform="name">Millo</name>, quae pars coniuncta <name type="religion" TEIform="name">Sioni</name></l>
+<l TEIform="l" part="N">Tunc erat, effecit valido munimine firmum,</l>
+<l TEIform="l" part="N">Constituitque suis nova propugnacula muris</l>
+<l TEIform="l" part="N">Et catapultarum iaculorumque addidit arma:</l>
+<l TEIform="l" part="N">Ipsos sed clipeis cives instruxit, ut omnem</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyriae</name> valeant vim <sic corr="sense" TEIform="sic">populsare</sic> catiae.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Denique concilio lata regione viarum</l>
+<l TEIform="l" part="N">Collecto, ad portam proceres affatur amicos:</l>
+</lg>
+<q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Este viri fortes, maestumque e corde timorem</l>
+<l TEIform="l" part="N">Pellite: pro nobis plures huc tempore pugnant,</l>
+<l TEIform="l" part="N">Quam pro tot <name type="religion" TEIform="name">Medis</name>: illos fiducia regni</l>
+<l TEIform="l" part="N">Armataeque manus, et equestria robora firmant.</l>
+<l TEIform="l" part="N">Nobis auxilio DEVS est, qui protegit alis</l>
+<l TEIform="l" part="N">Nos et nostra suis: hoc urbs erit auspice tuta.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haud minus interea captis <name type="religion" TEIform="name">Sanheribus</name> in agris</l>
+<l TEIform="l" part="N">Grassatur late, et propius castra admovet urbi,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Lachide</name> iam domita debellataque potitus.</l>
+</lg>
+<note anchored="yes" TEIform="note" place="unspecified"> 2. <abbr expan="Regum" TEIform="abbr"><corr resp="transcriber" TEIform="corr">Reg.</corr></abbr> 18. <abbr expan="versus" TEIform="abbr">versu.</abbr> 14. <name type="religion" TEIform="name">Ezechias</name> <corr resp="transcriber" TEIform="corr">muneribus</corr> placat hostem.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ipse sed <name type="religion" TEIform="name">Ezechias</name> hoc casu territus urbis</l>
+<l TEIform="l" part="N">Mittit legatos pacem a <name type="religion" TEIform="name">Babylone</name> redemptum,</l>
+<l TEIform="l" part="N">Haec Regi <name type="religion" TEIform="name">Assyrio</name> caduciferi ore locutus:</l>
+</lg>
+
+<pb id="s393" n="345" TEIform="pb"/>
+
+<q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Peccavi fateor, quod caeca mente rebello,</l>
+<l TEIform="l" part="N">Impostumque patri natus non pendo tributum,</l>
+<l TEIform="l" part="N">Da veniam fasso, nostroque ex orbe recede,</l>
+<l TEIform="l" part="N">Iusseris hinc quicquid dabitur tibi deinde petenti.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec trepidus pater <name type="religion" TEIform="name">Ezechias</name>: petit ille trecenta</l>
+<l TEIform="l" part="N">Argenti demens triginta aurique talenta.</l>
+<l TEIform="l" part="N">Cum Rex <name type="religion" TEIform="name">Iudaeus</name> fano sacro omne repostum</l>
+<l TEIform="l" part="N">Abstulit argentum, et tectis regalibus ipsis</l>
+<l TEIform="l" part="N">Thesauros veteres pro pace exprompsit emenda,</l>
+<l TEIform="l" part="N">Aurea quin etiam quae fixerat antea valvis,</l>
+<l TEIform="l" part="N">Delubri, nudis detracta est bractea valvis,</l>
+<l TEIform="l" part="N">Et pro serata <name type="religion" TEIform="name">Assyrio</name> transmissa salute.</l>
+<l TEIform="l" part="N">Nulla fides pietasque viris, qui castra sequuntur:</l>
+<l TEIform="l" part="N">Namque ubi tam dives retulisset ab hostibus  <corr resp="transcriber" TEIform="corr">auram</corr></l>
+<l TEIform="l" part="N">Cyclops <name type="religion" TEIform="name">Assyrius</name>, legatos mittit ad urbem:</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Thartanem</name>, magnaeque magistrum <name type="religion" TEIform="name">Rabsacin</name> oris.</l>
+<l TEIform="l" part="N">Qui valida comitante manu venere sub urbis</l>
+<l TEIform="l" part="N">Moenia, lustrantes aditum, dicta salute,</l>
+<l TEIform="l" part="N">Regem ad colloquium magno clamore vocabant.</l>
+<l TEIform="l" part="N">Illos auditum fidos ex urbe ministros</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Ezechias</name> mittit, <name type="religion" TEIform="name">Ioam</name> Scribamque <name type="religion" TEIform="name">Sebenam</name>,</l>
+<l TEIform="l" part="N">Atque <name type="religion" TEIform="name">Eliachimum</name>, dicenda tacendaque doctum.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Hos tum <name type="religion" TEIform="name">Rabsacides</name> verbo est affatus acerbo:</l>
+</lg>
+<q who="Rabsacides" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dicite <name type="religion" TEIform="name">Iudaeo</name> <name type="religion" TEIform="name">Sanheribi</name> nomine, Regi,</l>
+<l TEIform="l" part="N">Quid struis? aut qua spe magnam <name type="religion" TEIform="name">Babylona</name> lacessis?</l>
+<l TEIform="l" part="N">Consiliumve tibi et vires superesse potentes</l>
+<l TEIform="l" part="N">Confidis, tanto ut possis opsistere bello?</l>
+<l TEIform="l" part="N">An te <name type="religion" TEIform="name">Aegyptiaci</name> tumidum vanissima reddunt</l>
+<l TEIform="l" part="N">Promissa, et vana spe perfida pectora lactant?</l>
+<l TEIform="l" part="N">At quid <name type="religion" TEIform="name">Niliacus</name> Pharao, nisi tristis harundo,</l>
+<l TEIform="l" part="N">Fractaque, cui tuto non quisquam inititur aeger?</l>
+<l TEIform="l" part="N">Nam neque sustentat, nitentemque insuper ictu</l>
+<l TEIform="l" part="N">Sauciat, ac saevo pertransit vulnere palmam:</l>
+
+<pb id="s394" n="346" TEIform="pb"/>
+
+<l TEIform="l" part="N">Desine tam miseri, telis, confidere Regis.</l>
+<l TEIform="l" part="N">Quod si dicatis Caeli vos numine fretos</l>
+<l TEIform="l" part="N">Bella parare hosti, quaenam fiducia quaeso</l>
+<l TEIform="l" part="N">Occaecat mentes, qui Divos creditis aequos</l>
+<l TEIform="l" part="N">Et lenes vobis, quorum delubra, nemusque</l>
+<l TEIform="l" part="N">Atque aras, rabido fregistis ubique tumultu?</l>
+<l TEIform="l" part="N">An soli <name type="religion" TEIform="name">Solymae</name> atque ui confiditis arae?</l>
+<l TEIform="l" part="N">Quin imo? si forte placet, stipuletur <name type="religion" TEIform="name">Iuda</name>,</l>
+<l TEIform="l" part="N">Cum Rege <name type="religion" TEIform="name">Assyrio</name>: duo millia noster equorum</l>
+<l TEIform="l" part="N">Huc <name type="religion" TEIform="name">Saneribus</name> aget, num sint ex agmine vestro</l>
+<l TEIform="l" part="N">Tot vobis equites, qui frenent ora lupatis</l>
+<l TEIform="l" part="N">Tergaque conscendat sellata, equitare huc satrapa plures</l>
+<l TEIform="l" part="N">Educet castris, quam vos ex omnibus oris.</l>
+<l TEIform="l" part="N">At neque <name type="religion" TEIform="name">Niliacos</name> si detur flectere currus,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Niliaci</name> poterunt iam vos defendere currus.</l>
+<l TEIform="l" part="N">Quid? quod sunt etiam nobis oracula vatum,</l>
+<l TEIform="l" part="N">Quae vestros iussere armis populare penates,</l>
+<l TEIform="l" part="N">Polliciti eventus felici Marte secundos.</l>
+<l TEIform="l" part="N">Nec DEVS hoc prohibet vester (si quis modo vester</l>
+<l TEIform="l" part="N">Est DEVS aut aliquod numen respectat <name type="religion" TEIform="name">Iudam</name>).</l>
+<l TEIform="l" part="N">Sed vestros vastare sinit, vestri immemor, agros.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dixerat: <name type="religion" TEIform="name">Hebraei</name> demissis vocibus orant,</l>
+<l TEIform="l" part="N">Vt <name type="religion" TEIform="name">Syrio</name> deinceps illis sermone loquatur,</l>
+<l TEIform="l" part="N">Ne populo norit, qui stabat moenibus altis,</l>
+<l TEIform="l" part="N">Quaenam inter sese comissa negotia tractent.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Altiua at vocem <name type="religion" TEIform="name">Assyrius</name> cum murmure tollit:</l>
+</lg>
+<q who="Rabsacides" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Audite <name type="religion" TEIform="name">Hebraei</name> magni dictata Monarchae,</l>
+<l TEIform="l" part="N">Ne vos <name type="religion" TEIform="name">Ezechias</name>, ne spe deludat inani.</l>
+<l TEIform="l" part="N">Nam numquam <name type="religion" TEIform="name">Assyrio</name> vos eximet ille capistro,</l>
+<l TEIform="l" part="N">Nec vos auxilium deinceps sperabitis ullum</l>
+<l TEIform="l" part="N">Caelitus, <name type="religion" TEIform="name">Ezechias</name> Divos sperante benignos.</l>
+<l TEIform="l" part="N">Sed si quid vobis restat iam pectoris aequi</l>
+<l TEIform="l" part="N">Neglecto <name type="religion" TEIform="name">Ezechia</name>, nostro parete Monarchae, </l>
+
+<pb id="s395" n="347" TEIform="pb"/>
+
+<l TEIform="l" part="N">Et vos praescriptas sub pacis mittite leges.</l>
+<l TEIform="l" part="N">Dedite vos vestrosque lares, aperite reclusas</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrio</name> portas: hinc sedes fata quietas</l>
+<l TEIform="l" part="N">Attribuent vobis, tranquillaeque otia vitae:</l>
+<l TEIform="l" part="N">Quisque frui ut possit patrii proventibus agri,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrias</name> donec laeti migretis in oras,</l>
+<l TEIform="l" part="N">Est ubi pingue solum, quod lacte et melle redundat,</l>
+<l TEIform="l" part="N">Terra ferax Cereris, Bachique et pinguis olivi,</l>
+<l TEIform="l" part="N">Sic mihi vivetis nullo discrimine pressi.</l>
+<l TEIform="l" part="N">Quid iuvat <name type="religion" TEIform="name">Ezechiae</name> monitus audire furentis?</l>
+<l TEIform="l" part="N">Quid spes fallaces animo captatis inani?</l>
+<l TEIform="l" part="N">Ceu vos ex alto DEVS adiuturus Olympo</l>
+<l TEIform="l" part="N">Afforet, rebus et cupiat  succerrere lapsis?</l>
+<l TEIform="l" part="N">Num vero <name type="religion" TEIform="name">Assyriis</name> potuere resistere telis</l>
+<l TEIform="l" part="N">Di, quibus ereptas bello superavimus urbes?</l>
+<l TEIform="l" part="N">Vah, DEVS <name type="religion" TEIform="name">Emathiae</name>, DEVS <name type="religion" TEIform="name">Arphados</name> urbis, et <name type="religion" TEIform="name">Avae</name>,</l>
+<l TEIform="l" part="N">Atque <name type="religion" TEIform="name">Sepharvaeae</name>, quibus in regionibus errant?</l>
+<l TEIform="l" part="N">At quo proripiunt? quibus occultantur in antris?</l>
+<l TEIform="l" part="N">Quid? num <name type="religion" TEIform="name">Samarium</name> nuper sua numina Regem</l>
+<l TEIform="l" part="N">Eripuere manu <name type="religion" TEIform="name">Assyrii</name> vinclisque Monarchae?</l>
+<l TEIform="l" part="N">Scilicet huic <name type="religion" TEIform="name">Solymae</name> DEVS insuperabilis urbi</l>
+<l TEIform="l" part="N">Restat, et his possit nostris obsistere telis.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dixerat, et populi demens responsa moratur.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At nihil hi contra, sic Rege vetante, superbis</l>
+<l TEIform="l" part="N">Respondent dictis, donec de rure reversi</l>
+<l TEIform="l" part="N">Legati, <name type="religion" TEIform="name">Assyrii</name> referunt dictata tyranni.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">His Rex auditis, trabeae dirumpit amictum</l>
+<l TEIform="l" part="N">Induiturque artus sagulo, templumque frequentat,</l>
+<l TEIform="l" part="N">Et precibus multis numen coeleste fatigat.</l>
+<l TEIform="l" part="N">Tandem etiam <name type="religion" TEIform="name">Isaiae</name> scitatum oracula vatis</l>
+<l TEIform="l" part="N">Mittit legatos, qui coram haec maesta locuti:</l>
+</lg>
+<q who="legati Ezechiae" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec est illa dies, luctus et plena doloris,</l>
+<l TEIform="l" part="N">Casibus insultat qua nostri impius ore</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrius</name>, summoque DEO convicia dicit,</l>
+
+<pb id="s396" n="348" TEIform="pb"/>
+
+<l TEIform="l" part="N">Nosque ipsi in diro versamur turbine mortis.</l>
+<l TEIform="l" part="N">Vt mulier quondam quae partus aegra dolore</l>
+<l TEIform="l" part="N">Concidit, et toto amisit de corpore vires.</l>
+<l TEIform="l" part="N">Audiit ipse DEVS quae opprobria dixerit amens</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Rabsacides</name>, quo vivum proscindat <name type="religion" TEIform="name">Iudae</name></l>
+<l TEIform="l" part="N">Numen, et <name type="religion" TEIform="name">Hebreais</name> quam dira pericla  minetur.</l>
+<l TEIform="l" part="N">Tu precibus pater alme tuis, ad sidera fusis,</l>
+<l TEIform="l" part="N">Reliquias serva crudelis ad ense tyranni</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec tum legati, vates quibus ista vicissim</l>
+</lg>
+<q who="vates" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Dicite pacifico Regi, ne mente pavorem</l>
+<l TEIform="l" part="N">Concipiat trepidum, quando istae-c crimina gentis</l>
+<l TEIform="l" part="N">Audiat <name type="religion" TEIform="name">Assyriae</name>: non haec impune tyrannus</l>
+<l TEIform="l" part="N">Probra DEO dixit, iam nunc formidine mentem</l>
+<l TEIform="l" part="N">Illius opplebit non grato nuntius ore,</l>
+<l TEIform="l" part="N">Regressusque domum patria occidetur in urbe.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Interea <name type="religion" TEIform="name">Aethiopum</name> <name type="religion" TEIform="name">Assyrias</name> exercitus oras</l>
+<l TEIform="l" part="N">Rege actus <name type="religion" TEIform="name">Taracha</name> validis invaserat armis,</l>
+<l TEIform="l" part="N">Rura <name type="religion" TEIform="name">Nini</name> vastans: quod postquam resciit audax</l>
+<l TEIform="l" part="N">Contemptor <reg orig="Divûm" TEIform="reg">Divorum</reg>, et iusti <name type="religion" TEIform="name">Sanheribus</name> et aequi:</l>
+<l TEIform="l" part="N">Ocius accelerat patrios defendere fines,</l>
+<l TEIform="l" part="N">Sed <name type="religion" TEIform="name">Solymae</name> tamen ante cupit sibi moenia dedi,</l>
+<l TEIform="l" part="N">Missis <name type="religion" TEIform="name">Ezechiae</name> quas scripserat ipse tabellis,</l>
+<l TEIform="l" part="N">Plenis opprobrii atrocis, plenique minarum.</l>
+</lg>
+<q who="Sanheribus" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ne te seducat vani fiducia Divi</l>
+<l TEIform="l" part="N">Quem colis, et sacris nimium venerare profanis,</l>
+<l TEIform="l" part="N">Ceu belli vitar vices, <name type="religion" TEIform="name">Solymam</name>que tueri</l>
+<l TEIform="l" part="N">Auspice tam certo possis: quod numen in orbe</l>
+<l TEIform="l" part="N">His quaeso potuit sine clade resistere telis?</l>
+<l TEIform="l" part="N">Aut quosnam populos Dii servavere priores</l>
+<l TEIform="l" part="N">Ne caderent manibus <name type="religion" TEIform="name">Sanheribi</name>, armisque parentum?</l>
+<l TEIform="l" part="N">Nonne patres nostri regionem <name type="religion" TEIform="name">Gosan</name> et <name type="religion" TEIform="name">Haram</name></l>
+<l TEIform="l" part="N">Et <name type="religion" TEIform="name">Respham</name>, civesque <name type="religion" TEIform="name">Edenae</name>, et <name type="religion" TEIform="name">Telassaris</name> oram</l>
+<l TEIform="l" part="N">Ceperunt, nullo <reg orig="divûm" TEIform="reg">divorum</reg> loca numine tuta?</l>
+<l TEIform="l" part="N">Rex ubinam <name type="religion" TEIform="name">Aemathiae</name> latet? aut Rex ille <name type="religion" TEIform="name">Seraphus</name>?</l>
+
+<pb id="s397" n="349" TEIform="pb"/>
+
+<l TEIform="l" part="N">Aut Rex <name type="religion" TEIform="name">Arphadiae</name>? quos nostris ante lacertis</l>
+<l TEIform="l" part="N">Vicimus et divum frenavimus ora lupatis?</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Has ubi crudeles <name type="religion" TEIform="name">Sanhibero</name> a principe chartas</l>
+<l TEIform="l" part="N">Rex accepisset, delubri adit atria sancti,</l>
+<l TEIform="l" part="N">Expassisque orat numen caeleste lacertis:</l>
+</lg>
+<q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Isacidum</name> custos DEVS, o pia cura tuorum,</l>
+<l TEIform="l" part="N">Qui fano hoc habitas ad sacram foederis arcam.</l>
+<l TEIform="l" part="N">Tu solus DEVS es, tu solus numine Caelum</l>
+<l TEIform="l" part="N">Et terram torques, quae tu pater alme creasti,</l>
+<l TEIform="l" part="N">Solius imperioque tuo terrestrio parent</l>
+<l TEIform="l" part="N">Regna: tuas nostris resera clamoribus aures,</l>
+<l TEIform="l" part="N">Exaudique preces, et res pius aspice nostras.</l>
+<l TEIform="l" part="N">Probra tibi dicit <name type="religion" TEIform="name">Sanheribus</name>, et ingerit ore</l>
+<l TEIform="l" part="N">Et chartis maledicta suis, te laedere vivum</l>
+<l TEIform="l" part="N">Nil veritus Caeli Dominum, et proscindere dictis.</l>
+<l TEIform="l" part="N">Vera quidem memorat, quod cetera numina terrae</l>
+<l TEIform="l" part="N">Fictitiique Ioves, nec se defendere contra</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyrium</name> possent, nec caeco pectore fretos.</l>
+<l TEIform="l" part="N">Nam quid ligna queant? quid saxea signa? quid istae</l>
+<l TEIform="l" part="N">Effigies hominum manibus ferroque politae?</l>
+<l TEIform="l" part="N">Tu vero DEVS es nulla formabilis arte,</l>
+<l TEIform="l" part="N">Qui terras omnes, qui sidera celsa gubernas,</l>
+<l TEIform="l" part="N">Eripe nos miseros hostilibus eripe telis.</l>
+<l TEIform="l" part="N">Vt discant gentes Dominum te nosse potentem</l>
+<l TEIform="l" part="N">Regnorum, et solum Regem te dicere Regum.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vix dum desierat Rex inclytus ista precari,</l>
+<l TEIform="l" part="N">Cum DEVS hac illi <name type="religion" TEIform="name">Isaiae</name> de pectore voces</l>
+<l TEIform="l" part="N">Reddit, et egregio praebet solamina Regi.</l>
+</lg>
+<q who="Deus" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quae tu me <name type="religion" TEIform="name">Assyrium</name> contra divine rogasti</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Ezechia</name>, haec alto percepi Dius Olympo,</l>
+<l TEIform="l" part="N">Statque haec adversus <name type="religion" TEIform="name">Sanheribum</name> certa voluntas.</l>
+<l TEIform="l" part="N">Filia dilectae spernit te virgo <name type="religion" TEIform="name">Sionis</name>,</l>
+<l TEIform="l" part="N">Subsannatque minas, <name type="religion" TEIform="name">Solymae</name> te filia ridet,</l>
+<l TEIform="l" part="N">Commotatque caput, manuumque Ciconia pinsit.</l>
+
+<pb id="s398" n="350" TEIform="pb"/>
+
+<l TEIform="l" part="N">Nam quem sprevisti? cui tot convicia dixti?</l>
+<l TEIform="l" part="N">Quem contra voces iactasti nuper inanes?</l>
+<l TEIform="l" part="N">Alta supercilii quem contra nubila tollis?</l>
+<l TEIform="l" part="N">Nonne DEVM irritas? nonne <name type="religion" TEIform="name">Israelica</name> temnis</l>
+<l TEIform="l" part="N">Numina? nam quorsum vocum tua lingua superbas</l>
+<l TEIform="l" part="N">Proicit ampullas et sesquipedalia verba?</l>
+<l TEIform="l" part="N">Conscendi haec, inquis, sinuosa cacumina montis</l>
+<l TEIform="l" part="N">Curribus innumeris, Libanique in vertice Cedros</l>
+<l TEIform="l" part="N">Succidi, et venies ad diversoria silvae</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Carmeli</name>, extremum lustravi indagine saltum.</l>
+<l TEIform="l" part="N">Tum puteos fodi, et labris arentibus hausi,</l>
+<l TEIform="l" part="N">Nostrorumque pedum <reg orig="siccârunt" TEIform="reg">siccaverunt</reg> flumina plantae.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At non tu audisti, qui mos meus esse soleret</l>
+<l TEIform="l" part="N">Tempore iam longo nam quod periere profanae</l>
+<l TEIform="l" part="N">Edomitae per te manibus victricibus urbes</l>
+<l TEIform="l" part="N">Hoc nostrae virtutis opus, tu virga furoris</l>
+<l TEIform="l" part="N">Vna mei rapidum quae proicieris in ignem.</l>
+<l TEIform="l" part="N">Ergo quod eversae gentes, quod diruta bello</l>
+<l TEIform="l" part="N">Oppida, quod nullae possunt obsistere vires,</l>
+<l TEIform="l" part="N">Quod trepidi turpem sibi contraxere pudorem</l>
+<l TEIform="l" part="N">Numinis est nostri, non vestrae a robore dextrae.</l>
+<l TEIform="l" part="N">Ac velut herba virens, curva quae falce resecta</l>
+<l TEIform="l" part="N">Arescit subito, aut tecti quod culmine gramen</l>
+<l TEIform="l" part="N">Nascitur, ante perit quam maturescat apricum:</l>
+<l TEIform="l" part="N">Sic et regnorum Maiestas concidit omnis,</l>
+<l TEIform="l" part="N">Tu quae evertisti, vires me dant secundas.</l>
+<l TEIform="l" part="N">Novi ego, novi omnes egressus, saeva Monarcha.</l>
+<l TEIform="l" part="N">Ingressusque tuos, sessusque, et cuncta viarum</l>
+<l TEIform="l" part="N">Quae tu me contra passim vestigia figis.</l>
+<l TEIform="l" part="N">Tu furis in me unum, tuus has temerarius aures</l>
+<l TEIform="l" part="N">Impellit fervor, caecaeque superbia mentis.</l>
+<l TEIform="l" part="N">Iam nunc ergo tuis ferri orbem naribus indam,</l>
+<l TEIform="l" part="N">Et labia immisso posthac frenabo capistro,</l>
+<l TEIform="l" part="N">Teque via per quam venisti ad saepta reducam.</l>
+</lg>
+
+<pb id="s399" n="351" TEIform="pb"/>
+
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Haec vero <name type="religion" TEIform="name">Ezechia</name> tibi signa illustria dicam,</l>
+<l TEIform="l" part="N">Vnde meae videas in te pietatis amorem:</l>
+<l TEIform="l" part="N">Quicquid sponte sua tellus hoc protulit anno,</l>
+<l TEIform="l" part="N">Quicquid et hinc eadem feret anno deinde sequenti,</l>
+<l TEIform="l" part="N">Hoc fruere, et reliquae proventu vescere messis.</l>
+<l TEIform="l" part="N">Tertia cum demum <reg orig="properârint" TEIform="reg">propeaverint</reg> tempora veris</l>
+<l TEIform="l" part="N">Arva sere, et segentem fecundae collige messis,</l>
+<l TEIform="l" part="N">Pampineasque altis passim cole montibus uvas,</l>
+<l TEIform="l" part="N">Vnde tibi plenis spumet vindemia labris.</l>
+<l TEIform="l" part="N">Tum demum regni vires acquiret <name type="religion" TEIform="name">Iuda</name></l>
+<l TEIform="l" part="N">Radicesque domus <name type="religion" TEIform="name"><corr resp="transcriber" TEIform="corr">Solymaeo</corr></name> aget orbe deorsum,</l>
+<l TEIform="l" part="N">Et fructum pariet fecundo tempore sursum.</l>
+<l TEIform="l" part="N">Scilicet hac <name type="religion" TEIform="name">Solyma</name> prodibunt urbe furentis</l>
+<l TEIform="l" part="N">Reliquiae belli, incolumesque e monte <name type="religion" TEIform="name">Sionis</name>,</l>
+<l TEIform="l" part="N">Haec mens iusta DEI praestabit, et aemula virtus.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At Rex <name type="religion" TEIform="name">Assyrius</name> non hanc accedet ad urbem,</l>
+<l TEIform="l" part="N">Nec iaculum immittit tectis, pennisve sagittam,</l>
+<l TEIform="l" part="N">Nec scutum huc ibit, nec muros aggere cinget:</l>
+<l TEIform="l" part="N">Sed pede quo venit, pede convertetur eodem,</l>
+<l TEIform="l" part="N">Non intraturus cui vim parat impius urbem:</l>
+<l TEIform="l" part="N">Nam sic sermo DEI est, sic caelitus alma voluntas.</l>
+<l TEIform="l" part="N">Hanc urbem ut servem me gloria numinis urget,</l>
+<l TEIform="l" part="N">Vrget et <name type="religion" TEIform="name">Isaidae</name> promissum in saecula regnum.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic ait, et vatis quae nox praedicta secuta est,</l>
+<l TEIform="l" part="N">Angelus hac subito Caelo demissus ab alto</l>
+<l TEIform="l" part="N">Obruit <name type="religion" TEIform="name">Assyrii</name> letali castra tyranni:</l>
+<l TEIform="l" part="N">Centum octoginta caesis et quinque virorum</l>
+<l TEIform="l" part="N">Millibus, atque una missis ad tartara nocte.</l>
+<l TEIform="l" part="N">Iamque ubi prima novos aurora reduxerat ortus</l>
+<l TEIform="l" part="N">Aspicit <name type="religion" TEIform="name">Assyrius</name> stragem, castrisque cruentis,</l>
+<l TEIform="l" part="N">Omnia plena necis foedoque cadavere plena.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Nec mora, cum subito turbatus pectora casu,</l>
+<l TEIform="l" part="N">Arripuitque fugam patriasque recessit in oras:</l>
+<l TEIform="l" part="N">Regia qua stat clara <name type="religion" TEIform="name">Nini</name>, quam condidit olim</l>
+
+<pb id="s400" n="352" TEIform="pb"/>
+
+<l TEIform="l" part="N">Coctilibus saxis animosa <name type="religion" TEIform="name">Semiramis</name> urbem.</l>
+<l TEIform="l" part="N">Hic dum forte suos delubrum ingressus amoenum</l>
+<l TEIform="l" part="N">Poscit opem Divos, sacram <name type="religion" TEIform="name">Sanheribus</name> ad aram</l>
+<l TEIform="l" part="N">Occumbit telo natorum occisus atroci,</l>
+<l TEIform="l" part="N">Qui diras patrio <reg orig="maculârunt" TEIform="reg">maculaverunt</reg> sanguine dextras,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assarhaddo</name> tamen regni successit habenis.</l>
+</lg>
+<q who="auctor?" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">I nunc, <name type="religion" TEIform="name">Hebraeum</name> numen Rex saeve lacesse,</l>
+<l TEIform="l" part="N">Irritaque tibi divinam caelitis iram.</l>
+</lg></q>
+<note anchored="yes" TEIform="note" place="unspecified">2 <abbr expan="Regum" TEIform="abbr">reg.</abbr> 20. 2. <abbr expan="Paralipomenon" TEIform="abbr">Paral.</abbr> 32. <abbr expan="versus" TEIform="abbr">versu.</abbr> 32. <name type="religion" TEIform="name">Ezechias</name> <abbr expan="Rex" TEIform="abbr">R.</abbr> letali morbo correptus precos fundit.</note>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At pater <name type="religion" TEIform="name">Ezechias</name> morbo correptus acuto</l>
+<l TEIform="l" part="N">Languida dum ponit moribundus corpora lecto,</l>
+<l TEIform="l" part="N">Ecce, huic <name type="religion" TEIform="name">Isaias</name> astat, tentatque iacentem:</l>
+</lg>
+<q who="Isaias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Res, inquit, dispone tuas, legataque conde,</l>
+<l TEIform="l" part="N">Nam te mors isto rapiet certissima morbo.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Rex hic turbatus vultumque avertit, et orat</l>
+<l TEIform="l" part="N">Caelicolam Dominum, sic tristi mente precatus:</l>
+</lg>
+<q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Omnipotens genitor, precibus qui flectere iustis</l>
+<l TEIform="l" part="N">Si te sincero colui pietatis amore,</l>
+<l TEIform="l" part="N">Si feci quae grata tibi, si grata locutus</l>
+<l TEIform="l" part="N">Sum tibi, si veteres auxi cum fenore cultus:</l>
+<l TEIform="l" part="N">Respice me miserum praesentique eripe morbo.</l>
+<l TEIform="l" part="N">Nam tu pollicitus longaevae tempora vitae</l>
+<l TEIform="l" part="N">Omnibus, haud ficto qui te amplectuntur honore.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Sic ait illacrimans, et flentibus irrigat ora.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Ante tamen vates quam progrederetur ab arce</l>
+<l TEIform="l" part="N">Longius, aetherio venit vox rursus Olympo.</l>
+</lg>
+<q who="Deus" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Vade, refer gressum, Regique haec nuntia porta:</l>
+<l TEIform="l" part="N">Audivi gemitusque tuos, et verba precantis,</l>
+<l TEIform="l" part="N">Et vidi lacrimas: ubi tertia surget Olympo</l>
+<l TEIform="l" part="N">Orta dies pulso tam dirae semine pestis,</l>
+<l TEIform="l" part="N">Invises iterum, quae exoptas, atria fani.</l>
+<l TEIform="l" part="N">Namque tuae denos et quinque adiecimus annos</l>
+<l TEIform="l" part="N">Aetati: et stabilem venturo tempore pacem,</l>
+<l TEIform="l" part="N">Ista nec <name type="religion" TEIform="name">Assyrius</name> pulsabit tecta tyrannus,</l>
+<l TEIform="l" part="N">Quae memor <name type="religion" TEIform="name">Isaidae</name>, memor et, quae gloria nostra,</l>
+
+<pb id="s401" n="353" TEIform="pb"/>
+
+<l TEIform="l" part="N">Hostiles contra defendam hac arce catervas.</l></lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Dixerat <name type="religion" TEIform="name"><sic corr="sense" TEIform="sic">Isaias</sic></name>, et facto emplasmate ficus</l>
+<l TEIform="l" part="N">Imponit pesti, dirum maturet ut ulcus.</l>
+</lg>
+<q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">At pater <name type="religion" TEIform="name">Ezechias</name>, quo signo certior, inquit,</l>
+<l TEIform="l" part="N">Confirmabo fidem, quod sint ventura deinceps</l>
+<l TEIform="l" part="N">Quae tu tam largo promittis ab aehtere vates?</l></lg></q>
+<q who="Isaias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Huic praeco <name type="religion" TEIform="name">Isaias</name>: Cernis solaria patris?</l>
+<l TEIform="l" part="N"><reg orig="Vin" TEIform="reg">Vine</reg> tu autem, gnomon de se quam proicit umbra</l>
+<l TEIform="l" part="N">Ante decem gradibus iam progrediatur, eundo</l>
+<l TEIform="l" part="N">Ocius assueto, an (quod erat mirabile visu)</l>
+<l TEIform="l" part="N">Retrogrado decima haec tangatur linea motu.</l></lg></q>
+<q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Huic iterum <name type="religion" TEIform="name">Ezechias</name>, faciles progressus eunti,</l>
+<l TEIform="l" part="N">Vt denis crescat gradibus proclivior umbra.</l>
+<l TEIform="l" part="N">Malim ego retrogrado Solem decedere passu,</l>
+<l TEIform="l" part="N">Namque hoc maius erit maiori pondere signum.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Protinus hic Dominum sancto invocat ore propheta,</l>
+<l TEIform="l" part="N">Quuodque petit supplex hoc obtinet, aetheraque omnem</l>
+<l TEIform="l" part="N">Voce sua sacer unus homo Solemque reducit.</l>
+<l TEIform="l" part="N">Vt quando currum prudens auriga volantem</l>
+<l TEIform="l" part="N">Reprimit, et retro properantes flectit habenas,</l>
+<l TEIform="l" part="N">Tantum hominis possunt Caelo impetrare vocatus.</l>
+</lg>
+<lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Rex <name type="religion" TEIform="name">Babylonis</name> erat <name type="religion" TEIform="name">Berodachus</name>, semine <name type="religion" TEIform="name">Beli</name></l>
+<l TEIform="l" part="N">Editus, <name type="religion" TEIform="name">Ezechiae</name> qui gratabatur amicis</l>
+<l TEIform="l" part="N">Litterulis, dira erepto de peste, datisque</l>
+<l TEIform="l" part="N">Muneribus tanti captabat Regis amorem.</l>
+<l TEIform="l" part="N">Ille sed <name type="religion" TEIform="name">Assyrii</name> legatos ore benigno</l>
+<l TEIform="l" part="N">Accipit, et magnis dignatur honoribus hospes.</l>
+</lg>
+<q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Quid non ambitio, quid non designat honoris</l>
+<l TEIform="l" part="N">Importuna sitis? Thesauros protinus omnes</l>
+<l TEIform="l" part="N">Argentumque viris, aurumque, et aromata terrae</l>
+<l TEIform="l" part="N">Ostendit, victusque boni nutrimen olivum,</l>
+<l TEIform="l" part="N">Et firmae imprimis armamentaria sedis.</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Nam nihil in totis fuerat penetralibus aedis</l>
+<l TEIform="l" part="N">Quod non monstrasset peregrinis indice dextra.</l>
+
+<pb id="s402" n="354" TEIform="pb"/>
+
+<l TEIform="l" part="N">At non <name type="religion" TEIform="name">Isaias</name> tulit aequa mente Propheta,</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Ezechiam</name>que inopinus adit, tacitusque profatur:</l>
+</lg>
+<q who="Isaias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Omnia dissimulans: Quidnam voluere petentes</l>
+<l TEIform="l" part="N">Hi peregrini homines: quibus <reg orig="hîc" TEIform="reg">hic</reg> e finibus assunt?</l>
+</lg></q>
+<lg org="uniform" sample="complete" TEIform="lg" part="N"><l TEIform="l" part="N">Tum Rex <name type="religion" TEIform="name">Ezechias</name> narrat <name type="religion" TEIform="name">Babylone</name> profectos</l>
+<l TEIform="l" part="N">Legatos Regis: quibus omnia vasa palati</l>
+<l TEIform="l" part="N">Omnes thesauros gratus monstraverit hospes.</l>
+</lg>
+<q who="Isaias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Huic praeco <name type="religion" TEIform="name">Isaias</name>: Audi mea verba vicissim</l>
+<l TEIform="l" part="N">Aut potius tibi verba DEVS quae caelitus effert:</l>
+<l TEIform="l" part="N">Adveniet tempus, cum Rex <name type="religion" TEIform="name">Babylonius</name> urbem</l>
+<l TEIform="l" part="N">Hanc capiet, gazasque domus, atque omnia secum</l>
+<l TEIform="l" part="N">Auferet haec prisci quae composuere parentes,</l>
+<l TEIform="l" part="N">Nec quicquam ex opibus tantis restabit egeno.</l>
+<l TEIform="l" part="N">Prolem quin etiam quam tu pater ipse creasti,</l>
+<l TEIform="l" part="N">Captivam abducet, servique palatia Regum</l>
+<l TEIform="l" part="N"><name type="religion" TEIform="name">Assyriae</name> vigiles nati in statione tenebunt.</l>
+</lg></q>
+<q who="Ezechias" TEIform="q" direct="unspecified"><lg org="uniform" sample="complete" TEIform="lg" part="N">
+<l TEIform="l" part="N">Tum pater <name type="religion" TEIform="name">Ezechias</name>: Iustus DEVS, inquit,ubique est,</l>
+<l TEIform="l" part="N">Illius arbitrio staboque cadamque: sed unum </l>
+<l TEIform="l" part="N">Hoc peto, me vivo regni tranquilla sit aetas</l>
+<l TEIform="l" part="N">Pacatosque mei reliquos ut demorer annos.</l>
+</lg></q>
+<trailer TEIform="trailer">
+FINIS LIBRI Vndecimi.
+</trailer>
+</div1></body></text>
+
+
+
+
+
+</TEI.2>
